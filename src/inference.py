@@ -9,7 +9,7 @@ _model = None
 def _load_model():
     global _model
     if _model is None:
-        _model = joblib.load("data/model.joblib")
+        _model = joblib.load("model/model.joblib")
     return _model
 
 
