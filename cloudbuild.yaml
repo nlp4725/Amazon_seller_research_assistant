@@ -1,0 +1,42 @@
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+substitutions:
+  _REGION: us-central1
+  _REPO: seller-assistant
+  _SERVICE: seller-assistant
+  _IMAGE: ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/app
+
+steps:
+  # Build the Streamlit image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - '${_IMAGE}:$SHORT_SHA'
+      - '-t'
+      - '${_IMAGE}:latest'
+      - '.'
+
+  # Push both tags to Artifact Registry
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '--all-tags', '${_IMAGE}']
+
+  # Deploy to Cloud Run
+  # ANTHROPIC_API_KEY must be stored in Secret Manager as 'anthropic-api-key'
+  # Run once to create it: gcloud secrets create anthropic-api-key --data-file=- <<< "$ANTHROPIC_API_KEY"
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    args:
+      - 'gcloud'
+      - 'run'
+      - 'deploy'
+      - '${_SERVICE}'
+      - '--image=${_IMAGE}:$SHORT_SHA'
+      - '--region=${_REGION}'
+      - '--platform=managed'
+      - '--port=8501'
+      - '--memory=2Gi'
+      - '--cpu=2'
+      - '--timeout=300'
+      - '--allow-unauthenticated'
+      - '--set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest'

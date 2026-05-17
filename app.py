@@ -7,8 +7,8 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from PIL import Image, ImageDraw
-from src.chat_engine import run_chat
-from src.inference import predict
+from src.agent_pipeline.chat_engine import run_chat
+from src.inference_pipeline.inference import predict
 
 st.set_page_config(page_title="Seller Assistant", layout="wide", initial_sidebar_state="collapsed")
 
@@ -151,7 +151,7 @@ st.markdown("""
 # ── Data ──────────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    df = pd.read_parquet("data/keyword_stats_cleaned.parquet")
+    df = pd.read_parquet("data/processed/keyword_stats_cleaned.parquet")
     df["month"] = pd.to_datetime(df["month"])
     return df
 

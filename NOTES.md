@@ -177,7 +177,24 @@ Either one alone         →  Claude either guesses wrong or formats badly
 
 ---
 
-## 4. Miscellaneous Notes
+## 4. Why TF-IDF for Prediction and Embeddings for Niche Research
+
+Two different techniques, two different jobs:
+
+**TF-IDF for the launch predictor model**
+- Fast at inference: TF-IDF transform on a batch of titles is microseconds vs seconds for SentenceTransformer
+- Stable vocabulary: Home & Kitchen keywords (non-stick, silicone, BPA-free) don't change rapidly — new keywords are handled by periodic retraining
+- Combination of keywords is the signal: TF-IDF with bigrams captures "non-stick + silicone" vs "non-stick" alone — exactly what predicts review velocity
+- Interpretable: feature importances show exactly which keywords drive the prediction score
+
+**Sentence embeddings for niche research (ChromaDB)**
+- Sellers describe products in plain language, not keyword-optimized text: "small bowl for kids" should find similar products even without exact word matches
+- Semantic match over lexical match: "pet fur remover" and "dog hair detangler" have zero TF-IDF overlap but near-identical embeddings
+- ChromaDB returns products by meaning — that's what makes the chat agent useful for market research
+
+---
+
+## 5. Miscellaneous Notes
 
 - `_load()`, `_load_model()`, `_load_chroma()` all use a global variable guard (`if X is None`) so the large files are only loaded once per session, not on every message
 - ChromaDB does not support `$gte`/`$lt` on string fields — year filtering is done in Python after fetching from ChromaDB

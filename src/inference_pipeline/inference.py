@@ -1,20 +1,37 @@
+"""
+Inference: predict launch success for a list of product titles.
+
+- predict(): takes a list of titles, returns predicted probability and label for each
+- Loads model.joblib from models/ — a fitted Pipeline (TF-IDF + XGBClassifier)
+- titles_from_csv(): helper to extract titles from a CSV file
+"""
+
 import sys
+from pathlib import Path
+
 import joblib
 import pandas as pd
-from src.feature_engineering import build_features
+
+MODELS_DIR = Path("models")
+THRESHOLD = 0.4
 
 _model = None
 
 
-def _load_model():
+def _load_model(models_dir: Path | str = MODELS_DIR):
     global _model
     if _model is None:
-        _model = joblib.load("model/model.joblib")
+        _model = joblib.load(Path(models_dir) / "model.joblib")
     return _model
 
 
 def titles_from_csv(path: str, title_col: str | None = None) -> list[str]:
-    """Extract titles from a CSV file. Auto-detects the title column if not specified."""
+    """
+    Extract titles from a CSV file. Auto-detects the title column if not specified.
+
+    In: path to CSV, optional column name
+    Out: list of title strings
+    """
     df = pd.read_csv(path)
     if title_col:
         col = title_col
@@ -23,15 +40,17 @@ def titles_from_csv(path: str, title_col: str | None = None) -> list[str]:
     return df[col].dropna().astype(str).tolist()
 
 
-def predict(titles: list[str]) -> pd.DataFrame:
+def predict(titles: list[str], models_dir: Path | str = MODELS_DIR) -> pd.DataFrame:
     """
-    Run inference on a list of product titles.
-    Returns DataFrame with: title, y_pred_prob, predicted_label.
+    Predict launch success for a list of product titles.
+
+    In: list of title strings
+    Out: DataFrame with title, y_pred_prob, predicted_label columns
     """
-    model = _load_model()
-    X = build_features(titles)
+    model = _load_model(models_dir)
+    X = pd.DataFrame({"title": titles})
     y_pred_prob = model.predict_proba(X)[:, 1]
-    y_pred_label = (y_pred_prob >= 0.5).astype(int)
+    y_pred_label = (y_pred_prob >= THRESHOLD).astype(int)
 
     return pd.DataFrame({
         "title": titles,
