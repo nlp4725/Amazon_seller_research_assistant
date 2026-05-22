@@ -1,42 +1,70 @@
 options:
   logging: CLOUD_LOGGING_ONLY
 
-substitutions:
-  _REGION: us-central1
-  _REPO: seller-assistant
-  _SERVICE: seller-assistant
-  _IMAGE: ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPO}/app
-
 steps:
-  # Build the Streamlit image
+  # Build Streamlit image
   - name: 'gcr.io/cloud-builders/docker'
     args:
       - 'build'
       - '-t'
-      - '${_IMAGE}:$SHORT_SHA'
+      - 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app:$BUILD_ID'
       - '-t'
-      - '${_IMAGE}:latest'
+      - 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app:latest'
+      - '-f'
+      - 'Dockerfile_frontend'
       - '.'
 
-  # Push both tags to Artifact Registry
+  # Build Flask API image
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', '--all-tags', '${_IMAGE}']
-
-  # Deploy to Cloud Run
-  # ANTHROPIC_API_KEY must be stored in Secret Manager as 'anthropic-api-key'
-  # Run once to create it: gcloud secrets create anthropic-api-key --data-file=- <<< "$ANTHROPIC_API_KEY"
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     args:
-      - 'gcloud'
-      - 'run'
-      - 'deploy'
-      - '${_SERVICE}'
-      - '--image=${_IMAGE}:$SHORT_SHA'
-      - '--region=${_REGION}'
-      - '--platform=managed'
-      - '--port=8501'
-      - '--memory=2Gi'
-      - '--cpu=2'
-      - '--timeout=300'
-      - '--allow-unauthenticated'
-      - '--set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest'
+      - 'build'
+      - '-t'
+      - 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/api:$BUILD_ID'
+      - '-t'
+      - 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/api:latest'
+      - '-f'
+      - 'Dockerfile_backend'
+      - '.'
+
+  # Push Streamlit image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '--all-tags', 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app']
+
+  # Push Flask API image
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '--all-tags', 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/api']
+
+  # Deploy API first (Streamlit needs its URL), then capture URL and deploy Streamlit
+  # ANTHROPIC_API_KEY must be stored in Secret Manager as 'anthropic-api-key'
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: bash
+    args:
+      - '-c'
+      - |
+        set -e
+
+        gcloud run deploy seller-assistant-api \
+          --image=us-central1-docker.pkg.dev/amazon-launch/seller-assistant/api:$BUILD_ID \
+          --region=us-central1 \
+          --platform=managed \
+          --port=8080 \
+          --memory=2Gi \
+          --cpu=2 \
+          --timeout=300 \
+          --allow-unauthenticated \
+          --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest
+
+        API_URL=$$(gcloud run services describe seller-assistant-api \
+          --region=us-central1 \
+          --format='value(status.url)')
+
+        gcloud run deploy seller-assistant \
+          --image=us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app:$BUILD_ID \
+          --region=us-central1 \
+          --platform=managed \
+          --port=8501 \
+          --memory=1Gi \
+          --cpu=1 \
+          --timeout=300 \
+          --allow-unauthenticated \
+          --set-env-vars=API_URL=$$API_URL

@@ -20,10 +20,6 @@ variable "region" {
   default = "us-central1"
 }
 
-variable "image" {
-  default = "us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app:latest"
-}
-
 # Look up project number dynamically — avoids hardcoding it
 data "google_project" "project" {}
 
@@ -143,47 +139,6 @@ resource "google_secret_manager_secret_iam_member" "cloudbuild_secret_access" {
   member    = "serviceAccount:${data.google_project.project.number}@cloudbuild.gserviceaccount.com"
 }
 
-# ── Cloud Run service ─────────────────────────────────────────────────────────
-
-resource "google_cloud_run_v2_service" "seller_assistant" {
-  name     = "seller-assistant"
-  location = var.region
-
-  template {
-    containers {
-      image = var.image
-      ports {
-        container_port = 8501
-      }
-      resources {
-        limits = {
-          memory = "2Gi"
-          cpu    = "2"
-        }
-      }
-      env {
-        name = "ANTHROPIC_API_KEY"
-        value_source {
-          secret_key_ref {
-            secret  = google_secret_manager_secret.anthropic_api_key.secret_id
-            version = "latest"
-          }
-        }
-      }
-    }
-  }
-
-  depends_on = [google_project_service.run]
-}
-
-# Allow public access
-resource "google_cloud_run_v2_service_iam_member" "public" {
-  name     = google_cloud_run_v2_service.seller_assistant.name
-  location = var.region
-  role     = "roles/run.invoker"
-  member   = "allUsers"
-}
-
-output "url" {
-  value = google_cloud_run_v2_service.seller_assistant.uri
-}
+# Cloud Run services are created and updated by cloudbuild.yaml — not managed here.
+# Terraform can't create them before images exist; Cloud Build deploys both services
+# as part of every build: seller-assistant (frontend) and seller-assistant-api (backend).

@@ -1,14 +1,12 @@
 import os
-os.environ["OMP_NUM_THREADS"] = "1"
-os.environ["OPENBLAS_NUM_THREADS"] = "1"
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
+import requests
 
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 from PIL import Image, ImageDraw
-from src.agent_pipeline.chat_engine import run_chat
-from src.inference_pipeline.inference import predict
+
+API_URL = os.environ.get("API_URL", "http://localhost:8080")
 
 st.set_page_config(page_title="Seller Assistant", layout="wide", initial_sidebar_state="collapsed")
 
@@ -148,14 +146,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# ── Data ──────────────────────────────────────────────────────────────────────
-@st.cache_data
-def load_data():
-    df = pd.read_parquet("data/processed/keyword_stats_cleaned.parquet")
-    df["month"] = pd.to_datetime(df["month"])
-    return df
-
-df = load_data()
 avatar = _assistant_avatar()
 
 st.markdown(
@@ -173,7 +163,11 @@ def _run_prediction(titles_raw: str) -> tuple[str, pd.DataFrame | None]:
     titles = [t.strip() for t in titles_raw.replace("\n", ",").split(",") if t.strip()]
     if not titles:
         return "I couldn't find any titles to score. Please paste them comma-separated or one per line.", None
-    results = predict(titles).sort_values("y_pred_prob", ascending=False)
+    resp = requests.post(f"{API_URL}/api/predict", json={"titles": titles}, timeout=60)
+    if resp.status_code == 429:
+        return "You've sent too many requests. Please wait a moment before trying again.", None
+    resp.raise_for_status()
+    results = pd.DataFrame(resp.json()["results"]).sort_values("y_pred_prob", ascending=False)
     promising = results[results["predicted_label"] == 1]
     n_total = len(titles)
     n_promising = len(promising)
@@ -220,7 +214,18 @@ with tab_chat:
             if st.session_state.chat_mode == "niche_loading":
                 with st.chat_message("assistant", avatar=avatar):
                     with st.spinner("Analyzing…"):
-                        reply = run_chat(st.session_state.messages)
+                        resp = requests.post(
+                            f"{API_URL}/api/chat",
+                            json={"messages": st.session_state.messages},
+                            timeout=300,
+                        )
+                        if resp.status_code == 429:
+                            reply = "You've sent too many requests. Please wait a moment before trying again."
+                        elif resp.status_code == 400:
+                            reply = resp.json().get("error", "Invalid request.")
+                        else:
+                            resp.raise_for_status()
+                            reply = resp.json()["reply"]
                 st.session_state.messages.append({"role": "assistant", "content": reply})
                 st.session_state.right_panel = {
                     "type": "report",
@@ -370,35 +375,20 @@ with tab_predict:
         st.markdown("**🚀 Predict launch opportunity**")
         st.markdown(
             "<p style='color:#888;font-size:13px;margin-top:-6px;margin-bottom:16px'>"
-            "Enter product titles manually or upload a CSV. We'll score each title's "
-            "launch potential based on real Home &amp; Kitchen market data.</p>",
+            "Enter product titles to score their launch potential based on real Home &amp; Kitchen market data.</p>",
             unsafe_allow_html=True,
-        )
-
-        input_mode = st.radio(
-            "Input method", ["Type titles", "Upload CSV"],
-            horizontal=True, label_visibility="collapsed"
         )
 
         titles_input = []
 
-        if input_mode == "Type titles":
-            raw = st.text_area(
-                "Product titles (comma-separated)",
-                placeholder="e.g. Stainless Steel Air Fryer 5.8QT, Non-Stick Frying Pan Set, ...",
-                height=120,
-                label_visibility="collapsed",
-            )
-            if raw:
-                titles_input = [t.strip() for t in raw.split(",") if t.strip()]
-        else:
-            uploaded = st.file_uploader("Upload CSV", type=["csv"], label_visibility="collapsed", key="csv_upload_predict")
-            if uploaded:
-                import io
-                udf = pd.read_csv(io.BytesIO(uploaded.read()))
-                title_col = next((c for c in udf.columns if "title" in c.lower()), udf.columns[0])
-                titles_input = udf[title_col].dropna().astype(str).tolist()
-                st.caption(f"{len(titles_input)} titles loaded from column **{title_col}**")
+        raw = st.text_area(
+            "Product titles (comma-separated)",
+            placeholder="e.g. Stainless Steel Air Fryer 5.8QT, Non-Stick Frying Pan Set, ...",
+            height=120,
+            label_visibility="collapsed",
+        )
+        if raw:
+            titles_input = [t.strip() for t in raw.split(",") if t.strip()]
 
         if titles_input:
             st.markdown(
@@ -418,7 +408,16 @@ with tab_predict:
                 st.warning("Please enter at least one product title.")
             else:
                 with st.spinner("Running model…"):
-                    results = predict(titles_input)
+                    resp = requests.post(
+                        f"{API_URL}/api/predict",
+                        json={"titles": titles_input},
+                        timeout=60,
+                    )
+                    if resp.status_code == 429:
+                        st.warning("Too many requests. Please wait a moment before trying again.")
+                        st.stop()
+                    resp.raise_for_status()
+                    results = pd.DataFrame(resp.json()["results"])
 
                 st.markdown("<br>", unsafe_allow_html=True)
                 st.markdown(

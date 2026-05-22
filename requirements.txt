@@ -1,3 +1,6 @@
+flask>=3.0.0
+gunicorn>=21.0.0
+flask-limiter>=3.5.0
 anthropic>=0.40.0
 streamlit>=1.30.0
 sentence-transformers>=2.7.0
@@ -10,3 +13,5 @@ scikit-learn
 pillow
 chromadb
 xgboost
+joblib
+requests
