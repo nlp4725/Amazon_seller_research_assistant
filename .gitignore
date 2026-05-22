@@ -28,6 +28,10 @@ notebooks/.ipynb_checkpoints/
 .vscode/
 .idea/
 
+# Internal docs
+NOTES.md
+PRODUCT.md
+
 # Terraform
 terraform/.terraform/
 terraform/terraform.tfstate
