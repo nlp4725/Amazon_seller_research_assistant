@@ -54,8 +54,8 @@ The codebase is organized into distinct pipelines following the flow:
 - **Terraform**: All infrastructure defined as code in `terraform/main.tf`
 
 #### Cloud Run Services
-- **seller-assistant-api**: Flask backend — `https://seller-assistant-api-o3kqyzyx6q-uc.a.run.app`
-- **seller-assistant**: Streamlit frontend — `https://seller-assistant-o3kqyzyx6q-uc.a.run.app`
+- **seller-assistant-api**: Flask backend — (URL available on request)
+- **seller-assistant**: Streamlit frontend — (URL available on request)
 
 ## Common Commands
 
