@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Amazon Seller Research Assistant is an end-to-end AI-powered tool that helps third-party Amazon sellers research niches and evaluate product launch potential. It combines an **agentic RAG** system — a Claude-powered market research agent that retrieves semantically relevant products from ChromaDB and synthesizes them into a structured report — with an XGBoost classifier that scores product titles by predicted launch success. The dataset covers 61,635 product launches from 2024–2026. The project follows ML engineering best practices with modular pipelines, containerization, Google Cloud deployment, and a two-service architecture separating the Flask API from the Streamlit dashboard.
+Amazon Seller Research Assistant is an end-to-end AI-powered tool that helps third-party Amazon sellers research niches and evaluate product launch potential. It combines an **agentic RAG** system — a Claude-powered market research agent that retrieves semantically relevant products from ChromaDB and synthesizes them into a structured report — with an XGBoost classifier that scores product titles by predicted launch success. The dataset covers 61,635 product launches from 2024–2026. The project follows ML engineering best practices with modular pipelines, containerization, Google Cloud deployment, and a two-service architecture separating the Flask API from the React frontend.
 
 ## Architecture
 
@@ -41,21 +41,21 @@ The codebase is organized into distinct pipelines following the flow:
   - `POST /api/chat` — accepts `{"messages": [...]}`, runs the Claude niche research agent, returns `{"reply": "..."}`
   - `POST /api/predict` — accepts `{"titles": [...]}`, runs XGBoost inference, returns `{"results": [...]}`
 
-- **`app.py`**: Streamlit frontend
-  - **Chat tab**: conversational niche research — ask about any Amazon category or subcategory; results displayed in a side panel with download and email options
-  - **Predict launch tab**: paste product titles to get a Promising / Not flagged verdict with launch probability scores
-  - Reads `API_URL` from environment (defaults to `http://localhost:8080` for local dev)
+- **`frontend/`**: React (Vite) frontend
+  - Conversational niche research — ask about any Amazon category or subcategory; results displayed in a side panel with download and email options
+  - Empty-state layout centers the greeting + input in the viewport; once a conversation starts it switches to a top-anchored scrolling message list with the input pinned to the bottom (ChatGPT-style)
+  - Calls the backend via relative `/api/...` paths only — never a hardcoded URL. In dev, Vite's dev-server proxy forwards `/api` to `http://localhost:8080`; in prod, nginx (baked into the container) proxies `/api` to the backend Cloud Run service. This means **no CORS configuration exists anywhere** — the browser only ever talks to one origin.
 
 ### Cloud Infrastructure & Deployment
 
-- **Google Cloud Run**: Two separate services — Flask backend (port 8080) and Streamlit frontend (port 8501)
+- **Google Cloud Run**: Two separate services — Flask backend (port 8080) and the React frontend, served by nginx (port 8080)
 - **Google Secret Manager**: Stores `ANTHROPIC_API_KEY`; injected into the backend Cloud Run service at deploy time
-- **Cloud Build**: CI/CD trigger on push to `main` — builds both Docker images, pushes to Artifact Registry, deploys API first, captures its URL, deploys frontend with `API_URL` wired automatically
+- **Cloud Build**: CI/CD trigger on push to `main` — builds both Docker images, pushes to Artifact Registry, deploys API first, captures its URL, deploys frontend with `API_URL` wired automatically (nginx substitutes it into its reverse-proxy config at container startup via `envsubst`)
 - **Terraform**: All infrastructure defined as code in `terraform/main.tf`
 
 #### Cloud Run Services
 - **seller-assistant-api**: Flask backend — (URL available on request)
-- **seller-assistant**: Streamlit frontend — (URL available on request)
+- **seller-assistant**: React frontend (nginx) — (URL available on request)
 
 ## Common Commands
 
@@ -72,8 +72,10 @@ cp .env.example .env
 # Terminal 1 — Flask backend
 python main.py
 
-# Terminal 2 — Streamlit frontend (API_URL defaults to localhost:8080)
-streamlit run app.py
+# Terminal 2 — React frontend (proxies /api to localhost:8080 automatically)
+cd frontend
+npm install
+npm run dev
 ```
 
 ### Full ML Pipeline (retrain from scratch)
@@ -137,8 +139,8 @@ docker build -f Dockerfile_frontend -t seller-assistant-app .
 # Run backend
 docker run -p 8080:8080 --env-file .env seller-assistant-api
 
-# Run frontend
-docker run -p 8501:8501 -e API_URL=http://localhost:8080 seller-assistant-app
+# Run frontend (API_URL is the backend's URL; nginx proxies /api to it)
+docker run -p 8081:8080 -e API_URL=http://host.docker.internal:8080 seller-assistant-app
 ```
 
 ### Infrastructure
@@ -180,7 +182,7 @@ ChromaDB data and `model.joblib` are baked into the backend Docker image at buil
 Key production dependencies (see `requirements.txt`):
 - **AI/ML**: `anthropic>=0.40.0`, `sentence-transformers>=2.7.0`, `scikit-learn`, `xgboost`, `chromadb`
 - **Backend**: `flask>=3.0.0`, `gunicorn>=21.0.0`
-- **Frontend**: `streamlit>=1.30.0`, `plotly`, `pillow`
+- **Frontend** (see `frontend/package.json`): `react`, `react-dom`, `react-markdown`, `remark-gfm`, `vite`
 - **Data**: `pandas`, `numpy`, `joblib`
 - **Config**: `python-dotenv`, `requests`
 
@@ -193,4 +195,5 @@ Key production dependencies (see `requirements.txt`):
 - **`tests/`**: Unit and integration tests for each pipeline component
 - **`terraform/main.tf`**: All Google Cloud infrastructure as code
 - **`cloudbuild.yaml`**: CI/CD pipeline — builds both images, deploys both services
-- **`Dockerfile_backend`** / **`Dockerfile_frontend`**: Separate containers per service
+- **`Dockerfile_backend`**: Flask + gunicorn container
+- **`Dockerfile_frontend`**: Multi-stage build — `node` builds the static Vite bundle, then `nginx:alpine` serves it and reverse-proxies `/api/*` to the backend (config templated from `frontend/nginx/default.conf.template` via `envsubst` at container startup, reading the `API_URL` env var)

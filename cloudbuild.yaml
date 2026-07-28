@@ -62,7 +62,7 @@ steps:
           --image=us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app:$BUILD_ID \
           --region=us-central1 \
           --platform=managed \
-          --port=8501 \
+          --port=8080 \
           --memory=1Gi \
           --cpu=1 \
           --timeout=300 \

@@ -1,12 +1,18 @@
-FROM python:3.11-slim
+# ---- stage 1: build the static React bundle ----
+FROM node:20-slim AS build
 
 WORKDIR /app
 
-COPY requirements_frontend.txt .
-RUN pip install --no-cache-dir -r requirements_frontend.txt
+COPY frontend/package.json frontend/package-lock.json* ./
+RUN npm install
 
-COPY . .
+COPY frontend/ ./
+RUN npm run build
 
-EXPOSE 8501
+# ---- stage 2: serve via nginx, proxying /api/* to the backend ----
+FROM nginx:alpine
 
-CMD ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+COPY --from=build /app/dist /usr/share/nginx/html
+COPY frontend/nginx/default.conf.template /etc/nginx/templates/default.conf.template
+
+EXPOSE 8080
