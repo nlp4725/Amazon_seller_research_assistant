@@ -21,12 +21,17 @@ data/*
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
 
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
 # macOS
 .DS_Store
 
 # IDE
 .vscode/
 .idea/
+.claude/
 
 # Internal docs
 NOTES.md
