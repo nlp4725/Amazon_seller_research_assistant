@@ -3,6 +3,8 @@ Preprocess raw product data into a clean, analysis-ready DataFrame.
 
 - Extracts flat columns (price, seller, title) from raw_data and buybox JSON fields
 - Extracts time-series signals (review history, review counts) from raw_data
+- Extracts Amazon's real category_path from the raw_data categoryTree (for structured
+  query-time filtering — see add_category_tree)
 - Filters to products priced $15–$100
 - Drops rows with null titles
 - Computes review velocity (reviews/day) for products with >= 90 days of review data
@@ -147,6 +149,28 @@ def add_price_seller_title(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def add_category_tree(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Extract Amazon's real category tree from the raw_data JSON field.
+
+    Keepa's categoryTree is Amazon's own assigned browse-node path for the product
+    (e.g. "Pet Supplies > Dogs > Feeding & Watering Supplies > Fountains") — authoritative,
+    not derived — so this replaces ad hoc hand-tagged taxonomies for query-time structured
+    filtering: an LLM decomposing a query should score against the real distinct paths
+    that exist in the data, not an invented category schema.
+
+    In: df with raw_data (JSON str) column
+    Out: df with new columns — category_path (str, "A > B > C"), category_levels (list[str] or None)
+    """
+    def _extract_tree(raw_json):
+        tree = json.loads(raw_json).get('categoryTree')
+        return [n['name'] for n in tree] if tree else None
+
+    df['category_levels'] = df['raw_data'].map(_extract_tree)
+    df['category_path'] = df['category_levels'].map(lambda levels: ' > '.join(levels) if levels else None)
+    return df
+
+
 def add_review_n_monthly_sold(df: pd.DataFrame) -> pd.DataFrame:
     """
     Extract review history, monthly sold, and sales rank signals from raw_data JSON.
@@ -181,6 +205,7 @@ def run_preprocess(df: pd.DataFrame, output_dir: Path | str = PROCESSED_DIR) -> 
     """
     df = add_price_seller_title(df)
     df = add_review_n_monthly_sold(df)
+    df = add_category_tree(df)
     df = filter_price(df)
     df = df.dropna(subset=['title']).copy()
     df = add_review_velocity(df)
@@ -190,7 +215,7 @@ def run_preprocess(df: pd.DataFrame, output_dir: Path | str = PROCESSED_DIR) -> 
     outdir = Path(output_dir)
     outdir.mkdir(parents=True, exist_ok=True)
     df.to_parquet(outdir / "preprocessed.parquet", index=False)
-    df[['asin','seller','cat','launch_year_month','launch_year','launch_month','price','title','most_recent_review','most_recent_review_time']].to_parquet(outdir / "preprocessed_reduced.parquet", index=False)
+    df[['asin','seller','cat','launch_year_month','launch_year','launch_month','price','title','most_recent_review','most_recent_review_time','category_path']].to_parquet(outdir / "preprocessed_reduced.parquet", index=False)
 
     print(f"Preprocessed {df.shape[0]} rows, {df.shape[1]} columns")
     return df

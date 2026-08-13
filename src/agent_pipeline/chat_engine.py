@@ -20,13 +20,17 @@ import os
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
-from src.shared.model_loader import get_embedder
 import chromadb
 import anthropic
 from dotenv import load_dotenv
+from langsmith import traceable
+from langsmith.wrappers import wrap_anthropic
+
+from src.retrieval_pipeline import main_1, main_2
+from src.retrieval_pipeline.candidates import hydrate_items
 
 load_dotenv()
-client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])  # single client reused across all requests
+client = wrap_anthropic(anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"]))  # single client reused across all requests — wrapped so every messages.create() call is traced to LangSmith
 
 CATEGORIES = [  # valid category names in the dataset — Claude must pick exactly one
     "Appliances", "Arts, Crafts & Sewing", "Automotive", "Baby Products",
@@ -41,10 +45,6 @@ CATEGORIES = [  # valid category names in the dataset — Claude must pick exact
 _chroma_col = None  # cached ChromaDB collection — loaded once per session
 
 
-def _load_model():
-    return get_embedder()  # returns cached SentenceTransformer — see shared/model_loader.py
-
-
 def _load_chroma():
     global _chroma_col
     if _chroma_col is None:  # open connection only once — PersistentClient reads from disk
@@ -56,40 +56,38 @@ def _load_chroma():
 def _get_product_subset(
     category: str,
     concept: str | None,
-) -> tuple[pd.DataFrame, np.ndarray, np.ndarray | None]:
-    """Return (sub_df, sub_emb, distances) for the category, optionally narrowed by concept similarity.
-    distances is None when no concept given (all category products are relevant).
+    mode: str = "simple",
+) -> tuple[pd.DataFrame, np.ndarray, dict | None]:
+    """Return (sub_df, sub_emb, pipeline_meta) for the category, optionally narrowed by
+    concept via the retrieval pipeline (main_1 "simple" or main_2 "structured" — see
+    retrieval_pipeline.md). pipeline_meta is None when no concept given (broad-category
+    browsing bypasses the pipeline entirely — all category products are relevant, no
+    query to rank/classify against); otherwise {mode, match_count, titles_found_count}.
     Both metadata and embeddings come from ChromaDB — no parquet or .npy needed."""
     col = _load_chroma()
 
     if concept:
-        n_cat = col.count()                              # total products in ChromaDB
-        model = _load_model()                            # SentenceTransformer singleton
-        top_n = min(200, max(50, n_cat // 4))           # return at most 200, at least 50 — the floor of 50 means
-                                                         # results may include loosely related products when the
-                                                         # concept is very niche or rare in the dataset
-        q_emb = model.encode([concept]).tolist()         # embed the concept query (e.g. "dog grooming")
-        results = col.query(
-            query_embeddings=q_emb,                      # search by cosine similarity to concept
-            n_results=top_n,
-            where={"cat": {"$eq": category}},            # filter to the right category first
-            include=["metadatas", "embeddings", "distances"],  # get titles/prices/sellers + vectors + distances
-        )
-        metadatas = results["metadatas"][0]              # list of metadata dicts for top_n results
-        emb_array = np.array(results["embeddings"][0])  # (top_n, 384) embedding matrix
-        distances = np.array(results["distances"][0])   # cosine distance per result (0=identical, 1=opposite)
+        pipeline = main_1 if mode == "simple" else main_2
+        result = pipeline.run(concept, category=category)
+        matched_asins = [t["asin"] for t in result["titles_found"] if t["is_match"]]
+        sub_df, emb_array = hydrate_items(matched_asins)
+        pipeline_meta = {
+            "mode": mode,
+            "match_count": result["match_count"],
+            "titles_found_count": result["titles_found_count"],
+        }
     else:
         results = col.get(
             where={"cat": {"$eq": category}},            # fetch all products in this category
             include=["metadatas", "embeddings"],
         )
-        metadatas = results["metadatas"]
+        sub_df = pd.DataFrame(results["metadatas"])       # build DataFrame from ChromaDB metadata
         emb_array = np.array(results["embeddings"])
-        distances = None                                 # no concept → no distance to measure
+        if len(sub_df):
+            sub_df["launch_year_month"] = pd.to_datetime(sub_df["launch_year_month"])
+        pipeline_meta = None                               # no concept → no retrieval pipeline run
 
-    sub_df = pd.DataFrame(metadatas)                     # build DataFrame from ChromaDB metadata
-    sub_df["launch_year_month"] = pd.to_datetime(sub_df["launch_year_month"])
-    return sub_df, emb_array, distances
+    return sub_df, emb_array, pipeline_meta
 
 
 def _get_recent_launches(sub_df: pd.DataFrame, cutoff: str = "2025-05-01", n: int = 10) -> list[dict]:
@@ -108,8 +106,14 @@ def _get_recent_launches(sub_df: pd.DataFrame, cutoff: str = "2025-05-01", n: in
 
 
 def _get_theme_trend(sub_df: pd.DataFrame, sub_emb: np.ndarray, n_clusters: int) -> list[dict]:
-    """Cluster products across all years and return per-cluster year-over-year counts."""
-    k = min(n_clusters, max(2, len(sub_df) // 15))  # cap clusters so each has at least ~15 products
+    """Cluster products across all years and return per-cluster year-over-year counts.
+    With the retrieval pipeline's honest match counts (no longer floored at 50), the
+    matched set can be smaller than n_clusters or even smaller than 2 -- KMeans requires
+    n_samples >= n_clusters, so both are guarded here instead of assumed."""
+    if len(sub_df) < 2:  # can't form more than one cluster -- nothing meaningful to show
+        return []
+
+    k = min(n_clusters, max(2, len(sub_df) // 15), len(sub_df))  # cap clusters so each has at least ~15 products, never more than there are products
     km = KMeans(n_clusters=k, random_state=42, n_init=10)
     labels = km.fit_predict(sub_emb)  # assign each product to a cluster based on title embedding
 
@@ -178,32 +182,36 @@ def _get_velocity_summary(sub_df: pd.DataFrame, category: str) -> dict:
     }
 
 
-def niche_report(category: str, concept: str | None = None, n_clusters: int = 6) -> dict:
+@traceable(name="niche_report")
+def niche_report(category: str, concept: str | None = None, n_clusters: int = 6, mode: str = "simple") -> dict:
     col = _load_chroma()
     if col.count() == 0:
         return {"error": "ChromaDB is empty."}
 
-    sub_df, sub_emb, distances = _get_product_subset(category, concept)  # 3-tuple
+    sub_df, sub_emb, pipeline_meta = _get_product_subset(category, concept, mode)
 
     if len(sub_df) == 0:
         return {"error": "No matching products found."}
 
-    # count products closely related to the concept (cosine distance < 0.5)
-    if distances is not None:
-        closely_related_count = int((distances < 0.5).sum())
+    if pipeline_meta is not None:
+        match_count = pipeline_meta["match_count"]            # exact count (structured filter + rerank), not a retrieval-size cap
+        titles_found_count = pipeline_meta["titles_found_count"]  # candidates the pipeline considered before matching
         cat_results = col.get(where={"cat": {"$eq": category}}, include=[])  # category total for %
         cat_total = len(cat_results["ids"])
-        pct_of_category = round(closely_related_count / cat_total * 100, 1) if cat_total else None
+        pct_of_category = round(match_count / cat_total * 100, 1) if cat_total else None
     else:
-        closely_related_count = None
+        match_count = None
+        titles_found_count = None
         cat_total = len(sub_df)
         pct_of_category = None
 
     return {
         "concept": concept,
         "category": category,
+        "mode": pipeline_meta["mode"] if pipeline_meta else None,  # "simple" (fast scan) or "structured" (thorough scan)
         "total_products_analyzed": int(len(sub_df)),
-        "closely_related_count": closely_related_count,  # products with cosine distance < 0.5 to concept
+        "match_count": match_count,                # exact count, replaces the old cosine-distance-threshold heuristic
+        "titles_found_count": titles_found_count,  # candidates considered before matching
         "category_total": cat_total,
         "pct_of_category_launches": pct_of_category,
         "note": "2026 data is partial (through May only) — counts will be lower",
@@ -232,13 +240,20 @@ TOOLS = [
             "properties": {
                 "category": {
                     "type": "string",
-                    "description": f"Amazon product category. Must be one of: {CATEGORIES}",
+                    "enum": CATEGORIES,
+                    "description": "Amazon product category.",
                 },
                 "concept": {
                     "type": "string",
                     "description": (
                         "Optional. A specific niche or subcategory to focus on, e.g. "
-                        "'dog grooming', 'air fryer', 'yoga mat'. Omit for broad category analysis."
+                        "'dog grooming', 'air fryer', 'yoga mat'. Omit for broad category analysis. "
+                        "This string is embedded and matched directly against real Amazon product "
+                        "titles, so phrase it the way sellers actually word titles for this kind of "
+                        "product — not the user's exact wording. E.g. if the user asks about 'pet "
+                        "drinking wear', pass 'pet water bowl' or 'pet water fountain', not 'drinking "
+                        "wear' verbatim. Translate casual or unusual phrasing into standard product "
+                        "terminology before passing it here."
                     ),
                 },
                 "n_clusters": {
@@ -280,17 +295,36 @@ CATEGORY RULES (strictly follow these before calling the tool):
    ask the user to specify which category they mean before calling the tool. \
    Show them the list so they can pick.
 
+CONCEPT RULES (strictly follow these before calling the tool):
+1. If the user's phrasing clearly maps to one specific, standard product type, \
+   translate it into the vocabulary real Amazon product titles use (see the concept \
+   parameter description) and call the tool directly — do not ask for clarification \
+   on clear requests.
+2. If the user's phrasing is ambiguous and could plausibly map to more than one \
+   distinct product type — e.g. it could refer to two or more different kinds of \
+   products, or a word in it has multiple unrelated meanings — do NOT guess. Ask the \
+   user which they mean, briefly listing the likely interpretations, before calling \
+   the tool. Example: if asked about "pet drinking wear," ask whether they mean pet \
+   water bowls, water dispensers/fountains, or both, rather than picking one silently.
+
 Structure your response exactly as follows:
 
 SEARCHED: state the category and concept you used.
 
-LAUNCH VOLUME (from closely_related_count, category_total, pct_of_category_launches):
-- Lead with: "X closely related products (cosine distance < 0.5) in [concept] / [category] \
-  launched over the past two years — X% of all [category] launches."
-- If closely_related_count is None (broad category query, no concept), skip this line.
-- If total_products_analyzed is close to 50 and closely_related_count is much lower, \
-  note that the concept is very niche and results may include loosely related products.
-  
+LAUNCH VOLUME (from match_count, titles_found_count, category_total, pct_of_category_launches, mode):
+- Lead with: "X products in [concept] / [category] launched over the past two years — \
+  X% of all [category] launches." Use match_count for X — it is an exact count \
+  (structured category-path filtering plus cross-encoder reranking), not a retrieval-size \
+  estimate, so state it plainly without hedging language like "approximately."
+- If match_count is None (broad category query, no concept), skip this line.
+- If match_count is 0, say so plainly — a true zero is a legitimate result, not an error \
+  or a sign anything went wrong.
+- State which scan mode produced this count: mode == "simple" → call it a "Fast scan" \
+  (ranked and reranked every candidate in the category); mode == "structured" → call it \
+  a "Thorough scan" (classified every real category path, reranked only the ambiguous \
+  ones). Reference titles_found_count as how many candidates that scan considered, e.g. \
+  "Thorough scan narrowed 5,354 candidates down to an exact 62 matches."
+
 THEME TRENDS (from trend_by_theme):
 - Give each cluster a specific label — e.g. "Electric/Automated Tools", not just "Tools".
 - Calculate % growth from 2024 → 2025 (the two complete years). Show the numbers.
@@ -326,16 +360,24 @@ BOTTOM LINE:
 Today's date is 2026-05-13. "Last year" = 2025, "this year" = 2026.
 Predefined categories: {", ".join(CATEGORIES)}"""
 
+# cache_control marks the end of a cacheable prefix (tools + system, since they precede
+# messages in the request) — this block is identical on every call and every user, so
+# caching it avoids re-billing the same ~1.5k tokens on the 2nd call of every turn
+SYSTEM_BLOCKS = [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}]
 
-def run_chat(messages: list[dict]) -> str:
+
+@traceable(name="run_chat", run_type="chain")
+def run_chat(messages: list[dict], mode: str = "simple") -> str:
     # STEP 1 (app.py): st.chat_input() captures user message
     # STEP 2 (app.py): append to session_state.messages, call run_chat(messages)
+    # mode is a user-facing UI choice (fast/"simple" vs thorough/"structured"), not
+    # something Claude decides — it never appears in TOOLS or the tool call args.
 
     # STEP 3: first Anthropic API call — send system prompt + tool schema + conversation history
     response = client.messages.create(
         model="claude-sonnet-4-6",
         max_tokens=4096,
-        system=SYSTEM,   # role + category rules + output format instructions
+        system=SYSTEM_BLOCKS,  # role + category rules + output format instructions — cached
         tools=TOOLS,     # tells Claude niche_report exists and when to call it
         messages=messages,
     )
@@ -351,6 +393,7 @@ def run_chat(messages: list[dict]) -> str:
                     category=inp["category"],
                     concept=inp.get("concept"),
                     n_clusters=inp.get("n_clusters", 6),
+                    mode=mode,
                 )
                 tool_results.append({
                     "type": "tool_result",
@@ -367,7 +410,7 @@ def run_chat(messages: list[dict]) -> str:
         response = client.messages.create(
             model="claude-sonnet-4-6",
             max_tokens=4096,
-            system=SYSTEM,
+            system=SYSTEM_BLOCKS,
             tools=TOOLS,
             messages=messages,
         )

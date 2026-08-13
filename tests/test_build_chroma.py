@@ -1,6 +1,6 @@
 import pandas as pd
 import chromadb
-from src.agent_pipeline.build_chroma import PARQUET_PATH, CHROMA_PATH, COLLECTION_NAME
+from src.retrieval_pipeline.build_chroma import PARQUET_PATH, CHROMA_PATH, COLLECTION_NAME
 
 
 def test_chroma_length_matches_df():

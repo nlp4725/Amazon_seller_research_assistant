@@ -61,6 +61,7 @@ def build_chroma(
     df = pd.read_parquet(parquet_path)
     df = _add_review_velocity(df, losers_path)
     df["launch_year_month"] = df["launch_year_month"].astype(str)
+    df["category_path"] = df["category_path"].fillna("")  # ChromaDB metadata rejects None/NaN
 
     client = chromadb.PersistentClient(path=str(chroma_path))
     collection = client.get_or_create_collection(
@@ -84,7 +85,7 @@ def build_chroma(
         collection.upsert(
             ids=batch["asin"].tolist(),
             embeddings=embeddings.tolist(),
-            metadatas=batch[["asin", "seller", "cat", "launch_year_month", "launch_year", "price", "title", "review_velocity"]].to_dict("records"),
+            metadatas=batch[["asin", "seller", "cat", "launch_year_month", "launch_year", "price", "title", "review_velocity", "category_path"]].to_dict("records"),
         )
         print(f"  {already_done + i + len(batch)}/{len(df)}")
 
