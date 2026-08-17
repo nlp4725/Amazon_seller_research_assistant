@@ -7,9 +7,12 @@ retrieval-size artifact capped at some arbitrary top_n. Both live in
 `evaluator/comparison.py` runs them both against the same queries to measure which one
 actually wins on precision/recall/f1/latency/cost.
 
-`src/agent_pipeline/chat_engine.py` (the live chat product) is separate from this
-folder — it still has its own capped `_get_product_subset()`. This pipeline is the
-replacement candidate, not yet wired into `chat_engine.py`.
+`src/agent_pipeline/chat_engine.py` (the live chat product) is wired into this pipeline:
+a concept-narrowed query is routed through `main_1` ("simple") or `main_2` ("structured")
+based on a `mode` the user picks in the UI, never Claude — see the README's "Retrieval
+Mode Selection" section for the full wiring. Broad category browsing (no concept) still
+bypasses this pipeline entirely with a direct ChromaDB fetch, since there's no query to
+rank or classify against.
 
 ## Approach 1 — `main_1.py`, "simple" (rank + rerank)
 
@@ -110,7 +113,7 @@ directly by comparing `is_match=true` ASIN sets.
 
 | File | Role |
 |---|---|
-| `evaluator/golden_dataset.json` | Hand-verified ground truth for 5 queries (`status: verified`/`verified_partial`) + 15 pending placeholders |
+| `evaluator/golden_dataset.json` | Hand-verified ground truth for 20 queries (13 `verified`, 6 `reconciled`, 1 `verified_partial`) |
 | `evaluator/metrics.py` | `score_pipeline_run(output)` — precision/recall/f1 by ASIN set overlap against the matching golden_dataset.json entry |
 | `evaluator/comparison.py` | Runs both mains over every verified query, scores each with `metrics.py`, aggregates, saves JSON + markdown report to `evaluator/results/` |
 

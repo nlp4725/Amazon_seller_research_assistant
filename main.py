@@ -44,8 +44,9 @@ def chat():
             return jsonify({"error": "Message too long. Please keep your query under 1000 characters."}), 400
 
     messages = messages[-MAX_HISTORY:]
+    mode = data.get("mode", "simple")  # "simple" (fast) or "structured" (thorough) -- user-chosen in the UI
 
-    reply = run_chat(messages)
+    reply = run_chat(messages, mode=mode)
     return jsonify({"reply": reply})
 
 

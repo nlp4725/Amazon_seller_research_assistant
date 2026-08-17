@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-from src.training_pipeline.train import build_pipeline, train
+from src.offline.training_pipeline.train import build_pipeline, train
 
 
 @pytest.fixture

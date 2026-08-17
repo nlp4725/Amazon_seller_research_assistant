@@ -1,8 +1,8 @@
 import pandas as pd
 import pytest
 
-from src.training_pipeline.train import train
-from src.training_pipeline.evaluate import evaluate
+from src.offline.training_pipeline.train import train
+from src.offline.training_pipeline.evaluate import evaluate
 
 EXPECTED_KEYS = {"roc_auc", "pr_auc", "precision", "recall", "f1"}
 

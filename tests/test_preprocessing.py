@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 import pytest
-from src.feature_pipeline.preprocessing import (
+from src.offline.feature_pipeline.preprocessing import (
     convert_history_to_dict,
     filter_price,
     add_review_velocity,

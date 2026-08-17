@@ -37,6 +37,9 @@ frontend/dist/
 NOTES.md
 PRODUCT.md
 
+# Regenerable benchmark output (python -m evaluator.comparison)
+evaluator/results/
+
 # Terraform
 terraform/.terraform/
 terraform/terraform.tfstate

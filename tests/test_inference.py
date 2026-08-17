@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-from src.training_pipeline.train import train
+from src.offline.training_pipeline.train import train
 from src.inference_pipeline.inference import predict, titles_from_csv
 
 

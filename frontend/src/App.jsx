@@ -11,6 +11,7 @@ export default function App() { // root component for the whole app
   const [messages, setMessages] = useState([{ role: 'assistant', content: GREETING }]) // full chat history, seeded with the greeting
   const [isLoading, setIsLoading] = useState(false) // true while waiting on the backend reply
   const [reportPanel, setReportPanel] = useState(null) // currently displayed report, or null if none
+  const [mode, setMode] = useState('simple') // retrieval mode: 'simple' (fast) or 'structured' (thorough) -- user's choice
 
   const hasStarted = messages.some((m) => m.role === 'user') // true once the user has sent at least one message
   const hasPanel = reportPanel !== null // true when a report is available to show
@@ -20,7 +21,7 @@ export default function App() { // root component for the whole app
     setMessages(updated) // update state so the UI shows the user's message immediately
     setIsLoading(true) // show loading indicator while waiting for the API
 
-    const { reply, ok } = await sendChatMessage(updated) // send full history to the backend and await the reply
+    const { reply, ok } = await sendChatMessage(updated, mode) // send full history + chosen retrieval mode to the backend and await the reply
 
     setMessages((m) => [...m, { role: 'assistant', content: reply }]) // append the assistant's reply to history
     if (ok) { // only populate the report panel on a successful response
@@ -35,7 +36,7 @@ export default function App() { // root component for the whole app
       <div className="main"> {/* main content area holding chat and report panel */}
         <div className="chat-column"> {/* left column: chat messages and input */}
           <MessageList messages={messages} isLoading={isLoading} /> {/* render message history and loading state */}
-          <ChatInput onSend={handleSend} disabled={isLoading} /> {/* input box, disabled while loading */}
+          <ChatInput onSend={handleSend} disabled={isLoading} mode={mode} onModeChange={setMode} /> {/* input box, disabled while loading */}
         </div>
         {hasPanel && ( // only render the report panel if a report exists
           <ReportPanel panel={reportPanel} onClear={() => setReportPanel(null)} /> // show report, allow clearing it

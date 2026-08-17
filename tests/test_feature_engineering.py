@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import pytest
 
-from src.feature_pipeline.feature_engineering import (
+from src.offline.feature_pipeline.feature_engineering import (
     merge_scraper_data,
     filter_and_label,
     split,

@@ -9,11 +9,11 @@ from pathlib import Path
 
 import pandas as pd
 
-from src.feature_pipeline.load import load_data
-from src.feature_pipeline.preprocessing import run_preprocess
-from src.feature_pipeline.feature_engineering import run_feature_engineering
-from src.training_pipeline.train import train
-from src.training_pipeline.evaluate import evaluate
+from src.offline.feature_pipeline.load import load_data
+from src.offline.feature_pipeline.preprocessing import run_preprocess
+from src.offline.feature_pipeline.feature_engineering import run_feature_engineering
+from src.offline.training_pipeline.train import train
+from src.offline.training_pipeline.evaluate import evaluate
 
 PREPROCESSED_PARQUET = Path("data/processed/preprocessed_reduced.parquet")
 

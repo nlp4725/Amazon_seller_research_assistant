@@ -1,9 +1,9 @@
-export async function sendChatMessage(messages) {
+export async function sendChatMessage(messages, mode = 'simple') {
   try {
     const res = await fetch('/api/chat', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ messages }),
+      body: JSON.stringify({ messages, mode }),
     })
 
     if (res.status === 429) {

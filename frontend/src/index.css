@@ -157,6 +157,32 @@ body {
 }
 
 /* ── Chat input bar ─────────────────────────────────────────────────────── */
+.mode-toggle {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.mode-toggle-option {
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1.5px solid #e5e5e5;
+  background: #ffffff;
+  color: #666;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.mode-toggle-option.active {
+  border-color: #FF9900;
+  background: #fff4e0;
+  color: #b56900;
+}
+.mode-toggle-option:disabled {
+  cursor: default;
+  opacity: 0.6;
+}
+
 .chat-input-inner {
   display: flex;
   align-items: flex-end;

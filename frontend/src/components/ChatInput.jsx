@@ -1,6 +1,11 @@
 import { useRef, useState } from 'react'
 
-export default function ChatInput({ onSend, disabled }) {
+const MODES = [ // fast/low-precision vs slow/high-precision retrieval -- see retrieval_pipeline.md
+  { value: 'simple', label: 'Fast scan', title: 'Scans every candidate in the category and reranks it. Quicker, may miss or over-include some products.' },
+  { value: 'structured', label: 'Thorough scan', title: 'Classifies every real category path against your query, then reranks only the uncertain ones. Slower, more precise product counts.' },
+]
+
+export default function ChatInput({ onSend, disabled, mode, onModeChange }) {
   const [value, setValue] = useState('')
   const textareaRef = useRef(null)
 
@@ -33,6 +38,21 @@ export default function ChatInput({ onSend, disabled }) {
 
   return (
     <div className="chat-input-bar">
+      <div className="mode-toggle" role="radiogroup" aria-label="Retrieval mode">
+        {MODES.map((m) => (
+          <button
+            key={m.value}
+            type="button"
+            className={`mode-toggle-option ${mode === m.value ? 'active' : ''}`}
+            onClick={() => onModeChange(m.value)}
+            title={m.title}
+            aria-pressed={mode === m.value}
+            disabled={disabled}
+          >
+            {m.label}
+          </button>
+        ))}
+      </div>
       <div className="chat-input-inner">
         <textarea
           ref={textareaRef}
