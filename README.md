@@ -2,45 +2,39 @@
 
 ## Project Overview
 
-Amazon Seller Research Assistant is an AI-powered tool that helps third-party Amazon sellers research niches before launching a product. It's built as a **multi-agent system**: a Claude-powered market research agent (`chat_engine.py`) synthesizes a structured report, backed by a second set of cooperating agents (`orchestrator_agent.py` + `classify_agent.py`/`reranker.py` in `src/retrieval_pipeline/`) that handle the "how many X" / "find every X" counting logic the report depends on. The user picks between two retrieval agents per query — a fast/cheap one and a slower/more precise one (see "Retrieval Mode Selection" below) — and the report states the exact count and which one produced it, never a fixed number. The dataset covers 61,635 product launches from 2024–2026. The project follows ML engineering best practices with modular pipelines, containerization, Google Cloud deployment, and a two-service architecture separating the Flask API from the React frontend.
+Amazon Seller Research Assistant is an AI-powered tool that helps third-party Amazon sellers research niches before launching a product. It's built as a **multi-agent system**: `cat_selector.py` (DeepSeek) is the single entry classifier -- it clarifies ambiguous requests and resolves a concept + up to 2 categories from the real Amazon taxonomy, shared by every downstream consumer, live or offline. `analysis_agent.py` (DeepSeek retrieval + Claude Haiku narration) takes that resolved input, runs the retrieval pipeline (`main_1`/`main_2` + `classify_agent.py`/`reranker.py` in `src/retrieval_pipeline/`, which handle the "how many X" / "find every X" counting logic), and writes the report. The user picks between two retrieval approaches per query — a fast/cheap one and a slower/more precise one (see "Retrieval Mode Selection" below) — and the report states the exact count and which one produced it, never a fixed number. The dataset covers 61,635 product launches from 2024–2026. The project follows ML engineering best practices with modular pipelines, containerization, Google Cloud deployment, and a two-service architecture separating the Flask API from the React frontend.
 
-The retrieval pipeline (`src/retrieval_pipeline/` and `evaluator/`) was built to fix and benchmark the counting logic, then wired into `chat_engine.py` — see "Retrieval Mode Selection" below for how the two approaches are exposed to users and what changed downstream.
+The retrieval pipeline (`src/retrieval_pipeline/` and `evaluator/`) was built to fix and benchmark the counting logic, then wired into `analysis_agent.py` — see "Retrieval Mode Selection" below for how the two approaches are exposed to users and what changed downstream.
 
 ## Architecture
 
 The codebase is organized into distinct pipelines following the flow:
-`Ingest → Preprocess → Retrieve/Serve (report agent) → Evaluate (retrieval benchmarking)`
+`Ingest → Preprocess → Index → Retrieve/Serve (report agent) → Evaluate (retrieval benchmarking)`
 
 ### Core Modules
 
-- **`src/agent_pipeline/`**: Claude-powered niche research agent
-  - `chat_engine.py`: Sends conversation history + tool schema to Claude; on `tool_use`, runs `niche_report()` locally, sends the result back to Claude for narrative generation. For a concept-narrowed query, product retrieval is delegated to `src/retrieval_pipeline/`'s `main_1`/`main_2` (see "Retrieval Mode Selection" below) instead of a capped ChromaDB query -- the matched set can honestly be 0 to several thousand items, not a fixed `top_n`. Broad category browsing (no concept) still fetches the whole category directly from ChromaDB. `_get_theme_trend()`'s KMeans clustering runs on whatever set comes back, top sellers/recent launches/review velocity are unchanged.
+- **`src/agent_pipeline/`**: report-writing agent
+  - `analysis_agent.py`: `run_chat()` calls `cat_selector.select()` for the resolved (concept, categories) pair; if it asked for clarification, returns that reply directly. Otherwise calls `niche_report()` locally as a plain function (no tool-call round-trip -- there's nothing left to classify), then sends the result to Claude Haiku for narrative generation -- the only Claude call in the system. For a concept-narrowed query, product retrieval is delegated to `src/retrieval_pipeline/`'s `main_1`/`main_2` (see "Retrieval Mode Selection" below) instead of a capped ChromaDB query -- the matched set can honestly be 0 to several thousand items, not a fixed `top_n`. Broad category browsing (no concept) still fetches the whole category directly from ChromaDB. `_get_theme_trend()`'s KMeans clustering runs on whatever set comes back, top sellers/recent launches/review velocity are unchanged.
 
 - **`src/retrieval_pipeline/`**: A multi-agent system with two competing pipeline configurations for "how many X" / "find every X" queries, benchmarked against each other -- see `docs/retrieval_pipeline.md` for the full write-up (diagrams, file-by-file responsibilities)
-  - `main_1.py` ("simple"): `orchestrator_agent` picks 1-2 root categories (1 LLM call) → vector-rank every item in them (no cap) → cross-encoder rerank, keep `score > 0`
-  - `main_2.py` ("structured"): `orchestrator_agent` picks categories → `classify_agent` scores every real `category_path` under each into confident/ambiguous/not_match (LLM) → confident paths trusted outright, only the ambiguous residual gets reranked -- two cooperating agents in sequence, each with a distinct, narrow job
-  - `orchestrator_agent.py` / `classify_agent.py`: the two LLM-calling agents, shared by both mains -- `classify_agent.py`'s prompt design draws on `docs/category_tree.md`, a raw dump of Amazon's real Keepa `categoryTree` per category
+  - `cat_selector.py`: single entry classifier (DeepSeek, 1 LLM call) -- decides clarify-vs-proceed, extracts a concept, and picks up to 2 root categories from the real Amazon `root > level2` taxonomy. Called once per query by every consumer (`analysis_agent.py` live, `evaluator/comparison.py` and each main's own CLI otherwise), so `main_1`/`main_2` always see identical categories for a given query -- no more risk of the two approaches silently being compared on different input.
+  - `main_1.py` ("simple"): given `categories` from the caller → vector-rank every item in them (no cap) → cross-encoder rerank, keep `score > 0`
+  - `main_2.py` ("structured"): given `categories` from the caller → `classify_agent` scores every real `category_path` under each into confident/ambiguous/not_match (LLM) → confident paths trusted outright, only the ambiguous residual gets reranked
+  - `classify_agent.py`: prompt design draws on `docs/category_tree.md`, a raw dump of Amazon's real Keepa `categoryTree` per category
   - `reranker.py`: cross-encoder (`ms-marco-MiniLM-L-6-v2`) title scorer, `score > 0` = match
-  - `candidates.py`: shared ChromaDB retrieval helpers (vector-rank for main_1, exact category_path filter for main_2) plus `hydrate_items()`, which fetches full product metadata + embeddings for a matched-asin set -- `main_1`/`main_2`'s own output only carries asin/title/cat/category_path, not the price/seller/velocity/embeddings `chat_engine.py`'s downstream tools need
-  - `build_chroma.py`: Embeds product titles with `all-MiniLM-L6-v2` and stores them in ChromaDB
-  - `llm_client.py`: Shared DeepSeek client wrapped once for LangSmith tracing, plus a token-usage/cost accumulator both mains read after a run
+  - `candidates.py`: shared ChromaDB retrieval helpers (vector-rank for main_1, exact category_path filter for main_2) plus `hydrate_items()`, which fetches full product metadata + embeddings for a matched-asin set -- `main_1`/`main_2`'s own output only carries asin/title/cat/category_path, not the price/seller/velocity/embeddings `analysis_agent.py`'s downstream tools need
+  - `llm_client.py`: Shared DeepSeek client wrapped once for LangSmith tracing, plus a token-usage/cost accumulator every LLM-calling module in this package reads after a run
 
-- **`src/offline/`**: Retrain/offline tooling -- real, runnable code, but nothing on it is called from the live request path (`main.py` never imports it). Separated from the live-serving packages above so `src/` reads as "this is what's running in production" at a glance. Driven by the root-level `pipeline.py` (`python pipeline.py`: load → preprocess → feature engineer → train → evaluate).
-  - `feature_pipeline/`: Data loading and preprocessing
-    - `load.py`: Loads raw parquet or SQLite data
-    - `preprocessing.py`: Extracts price, seller, title, review velocity, and real Amazon category paths from raw data -- produces `preprocessed_reduced.parquet`, the source both `build_chroma.py` and `classify_agent.py` read from
-    - `feature_engineering.py`: Builds the train/test feature matrices for the launch-success classifier
-  - `training_pipeline/`: Trains and evaluates the launch-success classifier
-    - `train.py`: Trains the model, writes `models/model.joblib`
-    - `evaluate.py`: Scores a trained model (ROC-AUC, PR-AUC, precision/recall/F1)
-  - `data_collection_pipeline/`
-    - `ingest.py`: Loads product listing data from SQLite into a flat DataFrame
+- **`src/offline/`**: The batch jobs that *build* the two stores the live path reads. Real, runnable code, but nothing here is imported by `main.py` -- separated from the live-serving packages above so `src/` reads as "this is what's running in production" at a glance. Driven by the root-level `build_data.py` (`python build_data.py`: load → preprocess → build ChromaDB).
+  - `ingest.py`: Pulls raw product listings from the Keepa API into SQLite. Rate-limited and slow; run separately, not part of `build_data.py`.
+  - `load.py`: Reads the raw SQLite table, writes a parquet checkpoint
+  - `preprocessing.py`: Extracts price, seller, title, review velocity, and real Amazon category paths -- produces `preprocessed_reduced.parquet`, which `build_chroma.py` indexes and which `cat_selector.py`/`classify_agent.py` read at request time for the category taxonomy
+  - `build_chroma.py`: Embeds product titles with `all-MiniLM-L6-v2` and upserts them into ChromaDB. Lives here rather than in `retrieval_pipeline/` because it never runs at request time.
 
-- **`src/inference_pipeline/`**: Live inference
-  - `inference.py`: Loads `models/model.joblib`, serves `POST /api/predict`
-
-- **`src/shared/`**: Shared utilities
+- **`src/shared/`**: Used by both halves
+  - `paths.py`: Every filesystem location the project reads or writes. Import from here instead of writing a path literal -- these constants used to be re-declared in four modules.
   - `model_loader.py`: SentenceTransformer singleton — loads `all-MiniLM-L6-v2` once per session and reuses it across all chat requests
+  - `naming.py`: `safe_name()`, the filename slug used by every module that writes a run record
 
 - **`evaluator/`**: Benchmarks `src/retrieval_pipeline/`'s two approaches against hand-verified ground truth -- see "Evaluation Methodology" below
   - `golden_dataset.json`: Ground truth for 20 queries
@@ -53,7 +47,7 @@ The codebase is organized into distinct pipelines following the flow:
 
 - **`main.py`**: Flask backend
   - `GET /health` — health check
-  - `POST /api/chat` — accepts `{"messages": [...], "mode": "simple" | "structured"}` (`mode` optional, defaults to `"simple"`), runs the Claude niche research agent, returns `{"reply": "..."}`
+  - `POST /api/chat` — accepts `{"messages": [...], "mode": "simple" | "structured"}` (`mode` optional, defaults to `"simple"`), runs the DeepSeek niche research agent, returns `{"reply": "..."}`
 
 - **`frontend/`**: React (Vite) frontend
   - Conversational niche research — ask about any Amazon category or subcategory; results displayed in a side panel with download and email options
@@ -81,7 +75,7 @@ pip install -r requirements.txt
 
 ### Local Development
 ```bash
-# Add ANTHROPIC_API_KEY to .env
+# Add DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, DEEPSEEK_MODEL to .env
 cp .env.example .env
 
 # Terminal 1 — Flask backend
@@ -96,7 +90,7 @@ npm run dev
 ### Retrieval Pipeline
 ```bash
 # Build/update ChromaDB from preprocessed data
-python src/retrieval_pipeline/build_chroma.py
+python -m src.offline.build_chroma
 
 # Run either approach on a query
 python -m src.retrieval_pipeline.main_1 "dog drinking bowl"
@@ -106,11 +100,12 @@ python -m src.retrieval_pipeline.main_2 "dog drinking bowl"
 python -m evaluator.comparison
 ```
 
-### Retrain the Launch-Success Model
+### Rebuild the Data
 ```bash
-# Runs src/offline/{feature_pipeline,training_pipeline}/ end-to-end: load -> preprocess ->
-# feature engineer -> train -> evaluate. Offline-only -- main.py never calls this.
-python pipeline.py
+# Runs src/offline/ end-to-end: load -> preprocess -> build ChromaDB. Produces both
+# stores the live path reads. Offline-only -- main.py never calls this. Resumable:
+# preprocessing is skipped if the parquet exists, build_chroma no-ops if up to date.
+python build_data.py
 ```
 
 ### Testing
@@ -119,9 +114,9 @@ python pipeline.py
 pytest
 
 # Run specific modules
-pytest tests/test_chat_engine.py                            # mode routing, pipeline_meta, KMeans small-n guard
+pytest tests/test_analysis_agent.py                          # mode routing, pipeline_meta, KMeans small-n guard
 pytest tests/test_candidates.py                              # hydrate_items()
-pytest tests/test_retrieval_pipeline_category_override.py    # main_1/main_2 category override skips the orchestrator
+pytest tests/test_retrieval_pipeline_categories_required.py  # main_1/main_2 require caller-supplied categories
 pytest tests/test_build_chroma.py
 pytest tests/test_preprocessing.py
 
@@ -156,10 +151,10 @@ gcloud builds submit --config cloudbuild.yaml
 ## Key Design Patterns
 
 ### Agentic RAG
-The chat agent is an agentic RAG system. The **retrieval** step uses ChromaDB to fetch semantically relevant product launches at query time — not static context. The **agentic** layer is Claude autonomously deciding when to call `niche_report`, which category and concept arguments to pass, and how to synthesize the structured JSON result into a market research narrative. The agent can loop (while `stop_reason == "tool_use"`) if multiple tool calls are needed.
+The chat agent is an agentic RAG system. The **retrieval** step uses ChromaDB to fetch semantically relevant product launches at query time — not static context. The **agentic** layer is `cat_selector.py`'s DeepSeek call autonomously deciding whether to ask a clarifying question or proceed, and if proceeding, which concept and categories to resolve for `niche_report`. `analysis_agent.py` then calls `niche_report()` directly with that resolved input and synthesizes the structured JSON result into a market research narrative via Claude Haiku.
 
-### Two-Step Claude Tool Use
-The chat agent makes two Anthropic API calls per message. The first call returns `stop_reason="tool_use"` with structured arguments (category, concept). `niche_report()` runs locally — retrieval (direct ChromaDB fetch or the `main_1`/`main_2` pipeline), KMeans clustering, seller stats — and the JSON result is sent back in a second API call so Claude can write the narrative report. `mode` is *not* one of the tool's arguments: it's a user preference set in the UI, passed into `run_chat(messages, mode)` by the caller, and threaded straight through to `niche_report()` — Claude never sees it and can't choose it.
+### Two-Step LLM Call, Two Models
+`analysis_agent.run_chat()` makes two LLM calls per message. The first, `cat_selector.select()` (DeepSeek), either returns a clarifying reply directly, or resolves (concept, categories). `niche_report()` then runs locally as a plain function call — retrieval (direct ChromaDB fetch or the `main_1`/`main_2` pipeline), KMeans clustering, seller stats — and the JSON result is sent to Claude Haiku (the only Claude call in the system) to write the narrative report. `mode` is *not* something either model decides: it's a user preference set in the UI, passed into `run_chat(messages, mode)` by the caller, and threaded straight through to `niche_report()`.
 
 ### Semantic Search with ChromaDB
 Product titles are embedded with `all-MiniLM-L6-v2` (384-dim) and stored in ChromaDB. Broad category browsing (no concept) fetches every product in the category directly. A concept-narrowed query (e.g. "dog grooming") is embedded and matched via the retrieval pipeline described below, filtered by category — surfacing closely related products without exact keyword matching, and without capping how many can match.
@@ -168,7 +163,7 @@ Product titles are embedded with `all-MiniLM-L6-v2` (384-dim) and stored in Chro
 Products in the result set are clustered by embedding similarity to identify distinct product themes. Each cluster gets year-over-year launch counts, representative titles, and an average price — giving sellers a signal on which themes are rising or declining.
 
 ### Two Retrieval Approaches: Rank+Rerank vs. Structured Filter+Rerank
-The counting bug in `chat_engine.py` (`top_n` capped at 200 regardless of the true match count) motivated building two competing replacements in `src/retrieval_pipeline/`, benchmarked against each other rather than assumed correct:
+The counting bug in `analysis_agent.py` (`top_n` capped at 200 regardless of the true match count) motivated building two competing replacements in `src/retrieval_pipeline/`, benchmarked against each other rather than assumed correct:
 - **Simple** (`main_1.py`): vector-rank every item in the picked root categories (no cap), then cross-encoder rerank, keep `score > 0`. Cheap (one LLM call total) but loses precision on broad categories.
 - **Structured** (`main_2.py`): an LLM (`classify_agent`) scores every *real* Amazon `category_path` into confident/ambiguous/not_match; confident paths are trusted as an exact filter (no reranking), only the ambiguous residual gets reranked. More expensive (one LLM pass per candidate category) but expected to win precision/recall when a real category path cleanly identifies the query concept.
 
@@ -176,12 +171,14 @@ See `docs/retrieval_pipeline.md` for diagrams and the full file-by-file breakdow
 
 ### Retrieval Mode Selection
 
-Both approaches are wired into `chat_engine.py` as user-selectable **modes** — `"simple"` (Fast scan, `main_1`) or `"structured"` (Thorough scan, `main_2`) — chosen in the React UI, not by Claude:
+Both approaches are wired into `analysis_agent.py` as user-selectable **modes** — `"simple"` (Fast scan, `main_1`) or `"structured"` (Thorough scan, `main_2`) — chosen in the React UI, not by either LLM:
 
 ```
 React toggle → POST /api/chat {messages, mode} → main.py → run_chat(messages, mode)
-  → niche_report(category, concept, mode) → _get_product_subset(category, concept, mode)
-      concept given:  main_1.run(concept, category) OR main_2.run(concept, category)
+  → cat_selector.select(messages) -> {clarify} or {concept, categories}
+      clarify: return directly, nothing further runs
+  → niche_report(categories, concept, mode) → _get_product_subset(categories, concept, mode)
+      concept given:  main_1.run(concept, categories) OR main_2.run(concept, categories)
                          → hydrate_items(matched asins)   # attach price/seller/velocity/embeddings
       no concept:      unchanged direct ChromaDB category fetch (bypasses the pipeline)
   → sub_df, sub_emb  (0 to several thousand rows, never a fixed cap)
@@ -189,36 +186,35 @@ React toggle → POST /api/chat {messages, mode} → main.py → run_chat(messag
   → niche_report() returns match_count, titles_found_count, and mode alongside the report data
 ```
 
-`main_1.run`/`main_2.run` gained an optional `category` argument for this: `chat_engine` already has a Claude-validated category, so passing it in skips `orchestrator_agent`'s own category-picking LLM call rather than letting it second-guess a category the caller already fixed.
+`main_1.run`/`main_2.run` require a `categories` argument -- resolved once by `cat_selector.select()` and passed straight through. Neither main ever picks its own categories, live or in `evaluator/comparison.py`, so both approaches always see identical input for a given query.
 
 ```mermaid
 flowchart TD
     U["User -- React mode toggle\nFast scan / Thorough scan"] -->|mode| A["POST /api/chat\n{messages, mode}"]
     A --> R["run_chat(messages, mode)"]
-    R -->|"tool schema, no mode"| C1["Claude -- niche_report tool_use\npicks category, concept"]
-    C1 -->|category, concept| N["niche_report(category, concept, mode)"]
+    R --> C1["cat_selector.select(messages)\nDeepSeek -- clarify, or concept + categories"]
+    C1 -->|clarify| RP["Return reply directly"]
+    C1 -->|concept, categories| N["niche_report(categories, concept, mode)"]
     N --> D{"_get_product_subset()"}
-    D -->|"concept, mode=simple"| M1["main_1.run(concept, category)\nrank all, no cap -> rerank all"]
-    D -->|"concept, mode=structured"| M2["main_2.run(concept, category)\nclassify paths -> rerank residual"]
-    D -->|"no concept"| CH["ChromaDB.get(category)\nunchanged, pipeline bypassed"]
+    D -->|"concept, mode=simple"| M1["main_1.run(concept, categories)\nrank all, no cap -> rerank all"]
+    D -->|"concept, mode=structured"| M2["main_2.run(concept, categories)\nclassify paths -> rerank residual"]
+    D -->|"no concept"| CH["ChromaDB.get(categories)\nunchanged, pipeline bypassed"]
     M1 -->|matched asins| H["candidates.hydrate_items()\n+ price, seller, velocity, embeddings"]
     M2 -->|matched asins| H
     H --> S[/"sub_df / sub_emb\n0..N rows, never a fixed top_n"/]
     CH --> S
     S --> T["downstream tools -- unchanged\nrecent launches, top sellers, velocity\ntheme trend (KMeans, guarded n<2)"]
     T --> J["niche_report() JSON -- bounded\nmatch_count, titles_found_count, mode\n+ capped summaries only"]
-    J --> C2["Claude -- writes narrative\nstates mode + exact count"]
+    J --> C2["Claude Haiku -- writes narrative\nstates mode + exact count"]
     C2 --> P["Report panel"]
 ```
-
-A larger annotated version of this diagram (with the context-size and category-override notes called out) is available [here](https://claude.ai/code/artifact/741a0c60-5d8e-4633-9568-b24081baf771).
 
 **What changed downstream now that the match count isn't fixed at ~200:**
 - `_get_theme_trend()`'s KMeans clustering now guards against `match_count < 2` (returns no themes rather than crashing — `KMeans` requires at least as many samples as clusters) and caps the requested cluster count by the actual match count, not just `n_clusters`.
 - The old `closely_related_count` / cosine-distance-`<0.5` heuristic is retired — replaced by the pipeline's real `match_count`. (An earlier attribute-taxonomy design that explored this problem is archived at `archive/stale_docs/counting_pipeline_approach.md` — superseded by the `category_path`-classification approach `classify_agent.py` actually ships, described above.)
 - `_get_recent_launches`, `_get_top_sellers`, `_get_velocity_summary` needed no logic changes — they already degrade gracefully with fewer rows.
 - The report's `LAUNCH VOLUME` section now states the exact `match_count`, `titles_found_count` (how many candidates that scan considered), and which mode produced them — a true zero is reported as a real result, not an error.
-- The JSON sent back to Claude stays bounded regardless of match count: only the existing capped summaries (`recent_launches` ≤10, `trend_by_theme` ≤`n_clusters` × 4 representative titles, `top_sellers` ≤5×5 titles) plus scalars go in the tool result — never the raw per-item `titles_found` list, so a 5,000-match "simple" run costs the same context as a 5-match one.
+- The JSON sent back to DeepSeek stays bounded regardless of match count: only the existing capped summaries (`recent_launches` ≤10, `trend_by_theme` ≤`n_clusters` × 4 representative titles, `top_sellers` ≤5×5 titles) plus scalars go in the tool result — never the raw per-item `titles_found` list, so a 5,000-match "simple" run costs the same context as a 5-match one.
 
 ### Self-Contained Docker Images
 ChromaDB data is baked into the backend Docker image at build time — no GCS bucket or external storage needed at inference.
@@ -285,10 +281,10 @@ Structured wins on precision/F1 in 4 of 6 queries (dog drinking bowl, ice tray, 
 ## Dependencies
 
 Key production dependencies (see `requirements.txt`):
-- **AI/ML**: `anthropic>=0.40.0`, `openai>=1.50.0` (DeepSeek, OpenAI-compatible), `sentence-transformers>=2.7.0`, `scikit-learn`, `chromadb`, `langsmith`
+- **AI/ML**: `openai>=1.50.0` (DeepSeek, OpenAI-compatible — used by `src/retrieval_pipeline/`, including `cat_selector.py`), `sentence-transformers>=2.7.0`, `scikit-learn`, `chromadb`, `langsmith`
 - **Backend**: `flask>=3.0.0`, `gunicorn>=21.0.0`
 - **Frontend** (see `frontend/package.json`): `react`, `react-dom`, `react-markdown`, `remark-gfm`, `vite`
-- **Data**: `pandas`, `numpy`, `joblib`
+- **Data**: `pandas`, `numpy`
 - **Config**: `python-dotenv`, `requests`
 
 ## File Structure Notes

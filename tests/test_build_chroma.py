@@ -1,10 +1,10 @@
 import pandas as pd
 import chromadb
-from src.retrieval_pipeline.build_chroma import PARQUET_PATH, CHROMA_PATH, COLLECTION_NAME
+from src.shared.paths import CHROMA_COLLECTION, CHROMA_DIR, PREPROCESSED_PARQUET
 
 
 def test_chroma_length_matches_df():
-    df = pd.read_parquet(PARQUET_PATH)
-    client = chromadb.PersistentClient(path=str(CHROMA_PATH))
-    collection = client.get_collection(COLLECTION_NAME)
+    df = pd.read_parquet(PREPROCESSED_PARQUET)
+    client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+    collection = client.get_collection(CHROMA_COLLECTION)
     assert collection.count() == len(df)

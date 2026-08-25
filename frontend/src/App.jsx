@@ -2,7 +2,6 @@ import { useState } from 'react' // React hook for local component state
 import Header from './components/Header.jsx' // top bar component
 import MessageList from './components/MessageList.jsx' // renders the chat message bubbles
 import ChatInput from './components/ChatInput.jsx' // text box + send button
-import ReportPanel from './components/ReportPanel.jsx' // side panel showing the generated report
 import { sendChatMessage } from './api.js' // calls the Flask REST API's /api/chat endpoint
 
 const GREETING = "👋 Welcome! Let me help you research a niche.\n\nPlease enter a niche or category — e.g. **dog grooming**, **exercise band**, **home & kitchen**." // first assistant message shown on load
@@ -14,7 +13,6 @@ export default function App() { // root component for the whole app
   const [mode, setMode] = useState('simple') // retrieval mode: 'simple' (fast) or 'structured' (thorough) -- user's choice
 
   const hasStarted = messages.some((m) => m.role === 'user') // true once the user has sent at least one message
-  const hasPanel = reportPanel !== null // true when a report is available to show
 
   const handleSend = async (text) => { // called when the user submits a message
     const updated = [...messages, { role: 'user', content: text }] // append the new user message to history
@@ -38,9 +36,6 @@ export default function App() { // root component for the whole app
           <MessageList messages={messages} isLoading={isLoading} /> {/* render message history and loading state */}
           <ChatInput onSend={handleSend} disabled={isLoading} mode={mode} onModeChange={setMode} /> {/* input box, disabled while loading */}
         </div>
-        {hasPanel && ( // only render the report panel if a report exists
-          <ReportPanel panel={reportPanel} onClear={() => setReportPanel(null)} /> // show report, allow clearing it
-        )}
       </div>
     </div>
   )

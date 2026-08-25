@@ -13,15 +13,18 @@ import chromadb
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 
-PARQUET_PATH = Path("data/processed/preprocessed_reduced.parquet")
-CHROMA_PATH = Path("data/raw/chroma_db")
-LOSERS_PATH = Path("data/raw/losers_combined.csv")
-COLLECTION_NAME = "title_embedding_db"
+from src.shared.paths import (
+    CHROMA_COLLECTION,
+    CHROMA_DIR,
+    LOSERS_CSV,
+    PREPROCESSED_PARQUET,
+)
+
 BATCH_SIZE = 1000
 SCRAPER_DATE = pd.Timestamp("2026-05-12")
 
 
-def _add_review_velocity(df: pd.DataFrame, losers_path: Path | str = LOSERS_PATH) -> pd.DataFrame:
+def _add_review_velocity(df: pd.DataFrame, losers_path: Path | str = LOSERS_CSV) -> pd.DataFrame:
     """
     Merge confirmed losers and compute review_velocity for all products.
     Losers (review_count == 0 at SCRAPER_DATE) get most_recent_review=0 and
@@ -47,9 +50,9 @@ def _add_review_velocity(df: pd.DataFrame, losers_path: Path | str = LOSERS_PATH
 
 
 def build_chroma(
-    parquet_path: Path | str = PARQUET_PATH,
-    chroma_path: Path | str = CHROMA_PATH,
-    losers_path: Path | str = LOSERS_PATH,
+    parquet_path: Path | str = PREPROCESSED_PARQUET,
+    chroma_path: Path | str = CHROMA_DIR,
+    losers_path: Path | str = LOSERS_CSV,
 ) -> None:
     """
     Upsert new product embeddings into ChromaDB.
@@ -65,7 +68,7 @@ def build_chroma(
 
     client = chromadb.PersistentClient(path=str(chroma_path))
     collection = client.get_or_create_collection(
-        name=COLLECTION_NAME,
+        name=CHROMA_COLLECTION,
         metadata={"hnsw:space": "cosine"},
     )
 

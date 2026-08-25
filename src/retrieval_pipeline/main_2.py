@@ -1,15 +1,19 @@
 """
-Approach 2 ("structured"): orchestrator picks 1-2 root categories, classify_agent scores
-every real category_path under each into confident/ambiguous/not_match, confident paths
-are trusted as an exact filter (no title-reading), and only the ambiguous residual is
-handed to the reranker.
+Approach 2 ("structured"): given 1-2 root categories (resolved by the caller via
+cat_selector.select() -- see below), classify_agent scores every real category_path under
+each into confident/ambiguous/not_match, confident paths are trusted as an exact filter
+(no title-reading), and only the ambiguous residual is handed to the reranker.
 
-  orchestrator_agent.pick_candidate_categories(query)        -- 1 LLM call
-       -> for each category: classify_agent.classify_paths() -- 1+ LLM calls (batched)
-            -> confident_match paths  -> candidates.fetch_items_for_paths()  -- trusted, no reranking
-            -> ambiguous_match paths  -> candidates.fetch_items_for_paths()
-                 -> reranker.rerank_titles(query, items)      -- local cross-encoder, no LLM
-                      -> keep items where rerank_score > 0
+  for each category: classify_agent.classify_paths() -- 1+ LLM calls (batched)
+       -> confident_match paths  -> candidates.fetch_items_for_paths()  -- trusted, no reranking
+       -> ambiguous_match paths  -> candidates.fetch_items_for_paths()
+            -> reranker.rerank_titles(query, items)      -- local cross-encoder, no LLM
+                 -> keep items where rerank_score > 0
+
+`categories` is always supplied by the caller -- resolved once via
+src.retrieval_pipeline.cat_selector.select() and shared with main_1.py so both approaches
+see identical input for a given query (evaluator/comparison.py does this once per query
+instead of each main picking its own, independently).
 
 This is the expensive/slow approach compared against main_1.py's simple approach in
 evaluator/comparison.py -- one classify_paths call per candidate category, each itself a
@@ -26,10 +30,8 @@ CLI:
 """
 
 import json
-import re
 import sys
 import time
-from pathlib import Path
 
 from langsmith import traceable
 from langsmith.run_helpers import get_current_run_tree
@@ -37,25 +39,19 @@ from langsmith.run_helpers import get_current_run_tree
 from src.retrieval_pipeline import llm_client
 from src.retrieval_pipeline.candidates import fetch_items_for_paths
 from src.retrieval_pipeline.classify_agent import classify_paths
-from src.retrieval_pipeline.orchestrator_agent import pick_candidate_categories
 from src.retrieval_pipeline.reranker import rerank_titles
+from src.shared.naming import safe_name
+from src.shared.paths import PIPELINE_RUNS_DIR
 
-OUTPUT_DIR = Path("data/processed/pipeline_runs")
-
-
-def _safe_name(text: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
 
 
 @traceable(run_type="chain", name="main_2.run")
-def run(query: str, category: str | None = None) -> dict:
+def run(query: str, categories: list[dict]) -> dict:
     """
     Run the structured approach end-to-end for one query.
 
-    In: query text, optional category -- when given, skips pick_candidate_categories
-        and searches only this category (e.g. chat_engine already has a
-        caller-validated category and shouldn't have it second-guessed by a redundant
-        orchestrator LLM call); when omitted, behaves as before
+    In: query text; categories -- [{"category", "reason"}, ...], resolved by the caller
+        via cat_selector.select() (required -- this main never picks its own categories)
     Out: dict with query, approach, categories, classifications (per-category
          confident/ambiguous/not_match path counts), titles_found (every item
          considered -- confident-filter items plus every reranked ambiguous item, each
@@ -67,12 +63,6 @@ def run(query: str, category: str | None = None) -> dict:
     run_tree = get_current_run_tree()
     trace_id = str(run_tree.trace_id) if run_tree else None
     t0 = time.perf_counter()
-
-    if category is not None:
-        categories = [{"category": category, "reason": "caller-specified"}]
-    else:
-        categories = pick_candidate_categories(query)
-    t1 = time.perf_counter()
 
     classifications = [classify_paths(query, c["category"]) for c in categories]
     t2 = time.perf_counter()
@@ -117,8 +107,7 @@ def run(query: str, category: str | None = None) -> dict:
         "match_count": match_count,
         "titles_found": titles_found,
         "latency_s": {
-            "orchestrator": round(t1 - t0, 3),
-            "classify": round(t2 - t1, 3),
+            "classify": round(t2 - t0, 3),
             "retrieval": round(t3 - t2, 3),
             "rerank": round(t4 - t3, 3),
             "total": round(t4 - t0, 3),
@@ -127,8 +116,8 @@ def run(query: str, category: str | None = None) -> dict:
         "langsmith_trace_id": trace_id,
     }
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = OUTPUT_DIR / f"structured__{_safe_name(query)}.json"
+    PIPELINE_RUNS_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = PIPELINE_RUNS_DIR / f"structured__{safe_name(query)}.json"
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
@@ -145,4 +134,12 @@ if __name__ == "__main__":
         print('Usage: python -m src.retrieval_pipeline.main_2 "<query>"')
         sys.exit(1)
 
-    run(query=sys.argv[1])
+    from src.retrieval_pipeline import cat_selector
+
+    cli_query = sys.argv[1]
+    resolved = cat_selector.select([{"role": "user", "content": cli_query}])
+    if "clarify" in resolved:
+        print(f"cat_selector wants clarification: {resolved['clarify']}")
+        sys.exit(1)
+
+    run(query=cli_query, categories=resolved["categories"])

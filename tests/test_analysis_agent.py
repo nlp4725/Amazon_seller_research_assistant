@@ -2,8 +2,10 @@ import numpy as np
 import pandas as pd
 import pytest
 
-from src.agent_pipeline import chat_engine
-from src.agent_pipeline.chat_engine import _get_theme_trend
+from src.agent_pipeline import analysis_agent
+from src.agent_pipeline.analysis_agent import _get_theme_trend
+
+PET_SUPPLIES = [{"category": "Pet Supplies", "reason": "test"}]
 
 
 def _make_sub(n: int, dim: int = 4, seed: int = 0) -> tuple[pd.DataFrame, np.ndarray]:
@@ -72,45 +74,45 @@ def _fake_pipeline_result():
     }
 
 
-def test_get_product_subset_simple_mode_calls_main_1_with_category(monkeypatch):
+def test_get_product_subset_simple_mode_calls_main_1_with_categories(monkeypatch):
     captured = {}
 
-    def fake_run(query, category=None):
-        captured["query"], captured["category"] = query, category
+    def fake_run(query, categories):
+        captured["query"], captured["categories"] = query, categories
         return _fake_pipeline_result()
 
     def fake_hydrate(asins):
         captured["hydrated_asins"] = asins
         return pd.DataFrame({"asin": asins}), np.zeros((len(asins), 4))
 
-    monkeypatch.setattr(chat_engine.main_1, "run", fake_run)
-    monkeypatch.setattr(chat_engine.main_2, "run", lambda *a, **k: pytest.fail("wrong pipeline: structured called in simple mode"))
-    monkeypatch.setattr(chat_engine, "hydrate_items", fake_hydrate)
+    monkeypatch.setattr(analysis_agent.main_1, "run", fake_run)
+    monkeypatch.setattr(analysis_agent.main_2, "run", lambda *a, **k: pytest.fail("wrong pipeline: structured called in simple mode"))
+    monkeypatch.setattr(analysis_agent, "hydrate_items", fake_hydrate)
 
-    sub_df, sub_emb, meta = chat_engine._get_product_subset("Pet Supplies", "dog fountain", mode="simple")
+    sub_df, sub_emb, meta = analysis_agent._get_product_subset(PET_SUPPLIES, "dog fountain", mode="simple")
 
     assert captured["query"] == "dog fountain"
-    assert captured["category"] == "Pet Supplies"
+    assert captured["categories"] == PET_SUPPLIES
     assert captured["hydrated_asins"] == ["B1", "B3"]  # only is_match=True items get hydrated
     assert meta == {"mode": "simple", "match_count": 2, "titles_found_count": 3}
     assert len(sub_df) == 2
 
 
 def test_get_product_subset_structured_mode_calls_main_2(monkeypatch):
-    monkeypatch.setattr(chat_engine.main_1, "run", lambda *a, **k: pytest.fail("wrong pipeline: simple called in structured mode"))
-    monkeypatch.setattr(chat_engine.main_2, "run", lambda query, category=None: _fake_pipeline_result())
-    monkeypatch.setattr(chat_engine, "hydrate_items", lambda asins: (pd.DataFrame({"asin": asins}), np.zeros((len(asins), 4))))
+    monkeypatch.setattr(analysis_agent.main_1, "run", lambda *a, **k: pytest.fail("wrong pipeline: simple called in structured mode"))
+    monkeypatch.setattr(analysis_agent.main_2, "run", lambda query, categories: _fake_pipeline_result())
+    monkeypatch.setattr(analysis_agent, "hydrate_items", lambda asins: (pd.DataFrame({"asin": asins}), np.zeros((len(asins), 4))))
 
-    sub_df, sub_emb, meta = chat_engine._get_product_subset("Pet Supplies", "dog fountain", mode="structured")
+    sub_df, sub_emb, meta = analysis_agent._get_product_subset(PET_SUPPLIES, "dog fountain", mode="structured")
 
     assert meta["mode"] == "structured"
 
 
 def test_get_product_subset_no_concept_bypasses_pipeline(monkeypatch):
-    monkeypatch.setattr(chat_engine.main_1, "run", lambda *a, **k: pytest.fail("pipeline should not run without a concept"))
-    monkeypatch.setattr(chat_engine.main_2, "run", lambda *a, **k: pytest.fail("pipeline should not run without a concept"))
+    monkeypatch.setattr(analysis_agent.main_1, "run", lambda *a, **k: pytest.fail("pipeline should not run without a concept"))
+    monkeypatch.setattr(analysis_agent.main_2, "run", lambda *a, **k: pytest.fail("pipeline should not run without a concept"))
 
-    sub_df, sub_emb, meta = chat_engine._get_product_subset("Pet Supplies", None, mode="simple")
+    sub_df, sub_emb, meta = analysis_agent._get_product_subset(PET_SUPPLIES, None, mode="simple")
 
     assert meta is None
     assert len(sub_df) > 0  # real full-category fetch from local ChromaDB
@@ -140,11 +142,11 @@ def test_niche_report_surfaces_pipeline_match_count_and_mode(monkeypatch):
     sub_df, sub_emb = _fake_matched_sub(5)
     pipeline_meta = {"mode": "structured", "match_count": 5, "titles_found_count": 166}
     monkeypatch.setattr(
-        chat_engine, "_get_product_subset",
-        lambda category, concept, mode: (sub_df, sub_emb, pipeline_meta),
+        analysis_agent, "_get_product_subset",
+        lambda categories, concept, mode: (sub_df, sub_emb, pipeline_meta),
     )
 
-    result = chat_engine.niche_report("Pet Supplies", concept="dog fountain", mode="structured")
+    result = analysis_agent.niche_report(PET_SUPPLIES, concept="dog fountain", mode="structured")
 
     assert result["mode"] == "structured"
     assert result["match_count"] == 5
@@ -160,11 +162,11 @@ def test_niche_report_surfaces_pipeline_match_count_and_mode(monkeypatch):
 def test_niche_report_no_concept_has_no_mode_or_match_count(monkeypatch):
     sub_df, sub_emb = _fake_matched_sub(5)
     monkeypatch.setattr(
-        chat_engine, "_get_product_subset",
-        lambda category, concept, mode: (sub_df, sub_emb, None),
+        analysis_agent, "_get_product_subset",
+        lambda categories, concept, mode: (sub_df, sub_emb, None),
     )
 
-    result = chat_engine.niche_report("Pet Supplies", concept=None)
+    result = analysis_agent.niche_report(PET_SUPPLIES, concept=None)
 
     assert result["mode"] is None
     assert result["match_count"] is None

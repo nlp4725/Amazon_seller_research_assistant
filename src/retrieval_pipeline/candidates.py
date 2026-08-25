@@ -18,9 +18,7 @@ import numpy as np
 import pandas as pd
 
 from src.shared.model_loader import get_embedder
-
-CHROMA_PATH = "data/raw/chroma_db"
-COLLECTION_NAME = "title_embedding_db"
+from src.shared.paths import CHROMA_COLLECTION, CHROMA_DIR
 
 _chroma_col = None
 
@@ -28,8 +26,8 @@ _chroma_col = None
 def _load_chroma():
     global _chroma_col
     if _chroma_col is None:
-        chroma_client = chromadb.PersistentClient(path=CHROMA_PATH)
-        _chroma_col = chroma_client.get_collection(COLLECTION_NAME)
+        chroma_client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+        _chroma_col = chroma_client.get_collection(CHROMA_COLLECTION)
     return _chroma_col
 
 

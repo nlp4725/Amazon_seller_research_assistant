@@ -17,7 +17,7 @@ from pathlib import Path
 
 import pandas as pd
 
-PROCESSED_DIR = Path("data/processed")
+from src.shared.paths import PROCESSED_DIR
 
 
 # ---------- helpers ----------

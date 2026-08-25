@@ -17,7 +17,7 @@ def test_hydrate_items_returns_full_metadata_row_per_asin():
                 "review_velocity", "launch_year", "launch_year_month"]:
         assert col in df.columns
 
-    # chat_engine's downstream tools filter/group on launch_year_month as a Timestamp,
+    # analysis_agent's downstream tools filter/group on launch_year_month as a Timestamp,
     # same as _get_product_subset's existing pd.to_datetime conversion
     assert pd.api.types.is_datetime64_any_dtype(df["launch_year_month"])
 

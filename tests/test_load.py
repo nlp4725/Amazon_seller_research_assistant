@@ -1,7 +1,7 @@
 import sqlite3
 import pandas as pd
 import pytest
-from src.offline.feature_pipeline.load import load_data
+from src.offline.load import load_data
 
 
 def _make_db(path, rows):

@@ -31,7 +31,7 @@ from pathlib import Path
 
 from evaluator.langsmith_timing import summarize_trace
 from evaluator.metrics import load_golden_dataset, score_pipeline_run
-from src.retrieval_pipeline import main_1, main_2
+from src.retrieval_pipeline import cat_selector, main_1, main_2
 
 RESULTS_DIR = Path("evaluator/results")
 APPROACHES = [("simple", main_1), ("structured", main_2)]
@@ -56,9 +56,20 @@ def run_comparison(queries: list[str] | None = None, dataset: list[dict] | None 
     rows = []
     for query in queries:
         print(f"\n=== {query!r} ===")
+
+        # Resolve categories ONCE per query and share the identical list with both
+        # approaches -- guarantees an apples-to-apples comparison instead of each main
+        # independently picking its own (possibly different) categories.
+        resolved = cat_selector.select([{"role": "user", "content": query}])
+        if "clarify" in resolved:
+            print(f"  cat_selector wants clarification, skipping: {resolved['clarify']!r}")
+            continue
+        categories = resolved["categories"]
+        print(f"  categories: {[c['category'] for c in categories]}")
+
         for approach_name, module in APPROACHES:
             print(f"  running {approach_name}...")
-            output = module.run(query)
+            output = module.run(query, categories=categories)
             metrics = score_pipeline_run(output, dataset)
 
             print("    fetching LangSmith trace...")

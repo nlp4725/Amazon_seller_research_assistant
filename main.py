@@ -6,8 +6,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 from flask import Flask, request, jsonify
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-from src.agent_pipeline.chat_engine import run_chat
-from src.inference_pipeline.inference import predict
+from src.agent_pipeline.analysis_agent import run_chat
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -23,7 +22,6 @@ limiter = Limiter(
 
 MAX_MESSAGE_CHARS = 1000  # max characters per user message — prevents token bombs
 MAX_HISTORY       = 10    # max messages sent to Claude — prevents chained manipulation
-MAX_TITLES        = 50    # max titles per predict request
 
 
 @app.route("/health")
@@ -48,19 +46,6 @@ def chat():
 
     reply = run_chat(messages, mode=mode)
     return jsonify({"reply": reply})
-
-
-@app.route("/api/predict", methods=["POST"])
-@limiter.limit("20 per minute")
-def predict_endpoint():
-    data = request.get_json(force=True)
-    titles = data.get("titles", [])
-
-    if len(titles) > MAX_TITLES:
-        return jsonify({"error": f"Too many titles. Please submit at most {MAX_TITLES} at a time."}), 400
-
-    results = predict(titles)
-    return jsonify({"results": results.to_dict(orient="records")})
 
 
 if __name__ == "__main__":

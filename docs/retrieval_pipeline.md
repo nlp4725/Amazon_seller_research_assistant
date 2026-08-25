@@ -7,36 +7,41 @@ retrieval-size artifact capped at some arbitrary top_n. Both live in
 `evaluator/comparison.py` runs them both against the same queries to measure which one
 actually wins on precision/recall/f1/latency/cost.
 
-`src/agent_pipeline/chat_engine.py` (the live chat product) is wired into this pipeline:
-a concept-narrowed query is routed through `main_1` ("simple") or `main_2` ("structured")
-based on a `mode` the user picks in the UI, never Claude — see the README's "Retrieval
-Mode Selection" section for the full wiring. Broad category browsing (no concept) still
-bypasses this pipeline entirely with a direct ChromaDB fetch, since there's no query to
-rank or classify against.
+`src/agent_pipeline/analysis_agent.py` (the live chat product) is wired into this
+pipeline: a concept-narrowed query is routed through `main_1` ("simple") or `main_2`
+("structured") based on a `mode` the user picks in the UI, never an LLM — see the
+README's "Retrieval Mode Selection" section for the full wiring. Broad category browsing
+(no concept) still bypasses this pipeline entirely with a direct ChromaDB fetch, since
+there's no query to rank or classify against.
+
+Both approaches take `categories` (up to 2, `[{"category", "reason"}, ...]`) as a
+**required** argument from the caller — neither picks its own. `cat_selector.py` is the
+single place that resolves `categories` (and, for the live app, a clarify-vs-proceed
+decision and a concept), called once per query and shared identically with both mains —
+see `cat_selector.py`'s own docstring for why this replaced two previously-separate,
+occasionally-disagreeing category-picking calls.
 
 ## Approach 1 — `main_1.py`, "simple" (rank + rerank)
 
 ```mermaid
 flowchart LR
-    Q[query] --> O[orchestrator_agent\npick_candidate_categories\n1 LLM call]
-    O -->|1-2 root categories| R[candidates.rank_category_items\nChromaDB ANN query, no cap]
+    Q[query] --> R[candidates.rank_category_items\nChromaDB ANN query, no cap]
+    Cat[categories\nfrom cat_selector] --> R
     R -->|every item, vector-ranked| X[reranker.rerank_titles\ncross-encoder, local]
     X -->|score > 0| M[matches]
 ```
 
-One LLM call picks 1-2 root categories, then **every** item in those categories is
-vector-ranked (ChromaDB ANN query, `n_results` = full category count — never an
-arbitrary cap) and cross-encoder reranked directly against the query. `score > 0` is the
-final match/no-match line.
+Given `categories`, **every** item in them is vector-ranked (ChromaDB ANN query,
+`n_results` = full category count — never an arbitrary cap) and cross-encoder reranked
+directly against the query. `score > 0` is the final match/no-match line.
 
 | File | Role |
 |---|---|
-| `orchestrator_agent.py` | 1 LLM call: picks up to `MAX_CANDIDATES` root categories worth searching |
-| `candidates.py` (`rank_category_items`) | ChromaDB ANN query over the picked categories, ranked by cosine similarity, no truncation |
+| `candidates.py` (`rank_category_items`) | ChromaDB ANN query over the given categories, ranked by cosine similarity, no truncation |
 | `reranker.py` | Cross-encoder (`ms-marco-MiniLM-L-6-v2`) scores every (query, title) pair; `score > 0` = match |
-| `main_1.py` | Wires the three together, saves output, tracks latency/cost |
+| `main_1.py` | Wires the two together, saves output, tracks latency/cost |
 
-Cheap and fast (one LLM call total), but expected to lose precision on broad root
+Cheap and fast (no LLM calls of its own), but expected to lose precision on broad root
 categories where the query concept is a small slice of a large catalog — nothing narrows
 the pool before the reranker sees it.
 
@@ -44,8 +49,8 @@ the pool before the reranker sees it.
 
 ```mermaid
 flowchart LR
-    Q[query] --> O[orchestrator_agent\npick_candidate_categories\n1 LLM call]
-    O -->|1-2 root categories| C[classify_agent.classify_paths\nbatched LLM calls, per category]
+    Q[query] --> C[classify_agent.classify_paths\nbatched LLM calls, per category]
+    Cat[categories\nfrom cat_selector] --> C
     C -->|confident_match paths| F1[candidates.fetch_items_for_paths\ntrusted, no reranking]
     C -->|ambiguous_match paths| F2[candidates.fetch_items_for_paths]
     F2 --> X[reranker.rerank_titles\ncross-encoder, local]
@@ -53,15 +58,24 @@ flowchart LR
     F1 --> M2
 ```
 
-Same orchestrator step, but instead of reranking everything, `classify_agent` scores
-every **real** Amazon `category_path` under each picked root category against the query
-and splits them into `confident_match` (trusted as an exact filter, no title-reading),
-`ambiguous_match` (could hold both matching and non-matching items — handed to the
-reranker), and `not_match` (dropped). Only the ambiguous residual gets reranked.
+Given `categories`, instead of reranking everything, `classify_agent` scores every
+**real** Amazon `category_path` under each into confident/ambiguous/not_match, and only
+the ambiguous residual gets reranked:
+
+- **`confident_match`**: paths specific enough that every item under them is trusted as a
+  match outright, no title-reading needed. Example: for the query "dog water bowl", the
+  real path `Pet Supplies > Dogs > Feeding & Watering Supplies > Bowls & Dishes` is a
+  confident match — everything under it is, definitionally, a dog bowl or dish.
+- **`ambiguous_match`** (the "candidate" paths): broader or adjacent paths that *could*
+  hold matching items but aren't specific enough to trust blindly — handed to the
+  reranker to score item-by-item. Example: `Pet Supplies > Dogs > Apparel & Accessories`
+  is a candidate path for "dog water bowl" — it might contain a travel water bottle
+  accessory, but most items under it (collars, coats) aren't matches, so each title needs
+  individual reranking rather than a blanket trust.
+- **`not_match`**: dropped outright.
 
 | File | Role |
 |---|---|
-| `orchestrator_agent.py` | Same 1 LLM call as approach 1 |
 | `classify_agent.py` | 1+ batched LLM calls per category: scores every real `category_path` into confident/ambiguous/not_match |
 | `candidates.py` (`fetch_items_for_paths`) | Exact ChromaDB filter by `category_path` — used for both confident items (trusted) and ambiguous items (sent to reranker) |
 | `reranker.py` | Same cross-encoder, only run on the ambiguous residual |
@@ -78,12 +92,12 @@ real `category_path` exists that cleanly identifies the query concept.
 | File | Role |
 |---|---|
 | `llm_client.py` | Single DeepSeek client, wrapped once with LangSmith's `wrap_openai` so every LLM call from any agent lands in the same trace tree; also a thread-safe token-usage/cost accumulator (`reset_usage()` / `get_usage()`) that both mains read after a run |
-| `build_chroma.py` | Builds/updates the ChromaDB collection (`title_embedding_db`) both approaches query against — not part of either approach's request-time path |
+| `cat_selector.py` | Single entry classifier (1 LLM call): clarify-vs-proceed, concept, and up to `MAX_CANDIDATES` root categories — see its own docstring. Called once per query by both mains' CLI blocks, `evaluator/comparison.py`, and `analysis_agent.py`, so every consumer shares the same resolved categories |
+| `src/offline/build_chroma.py` | Builds/updates the ChromaDB collection (`title_embedding_db`) both approaches query against — lives in `src/offline/` precisely because it is not part of either approach's request-time path |
 
-Every LLM call in both approaches goes through `llm_client.client` (wrapped for
-LangSmith tracing) and calls `record_usage(resp)` right after, so
-`evaluator/comparison.py` can read exact token counts and $ cost per run without either
-main computing it separately.
+Every LLM call in this package goes through `llm_client.client` (wrapped for LangSmith
+tracing) and calls `record_usage(resp)` right after, so `evaluator/comparison.py` can
+read exact token counts and $ cost per run without computing it separately.
 
 ## Output schema
 

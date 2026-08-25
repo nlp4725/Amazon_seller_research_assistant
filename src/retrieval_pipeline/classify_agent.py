@@ -19,8 +19,8 @@ result than this simpler version by reading "bowl" too literally and dropping th
 rather than adding more structure back in.
 
 Paths are assigned a stable id (hash of the path string) and cached locally so repeated
-runs don't re-derive them -- see CACHE_DIR. Each classification run writes a JSON file
-of {bucket: {id: path}} to OUTPUT_DIR.
+runs don't re-derive them -- see CATEGORY_PATH_CACHE. Each classification run writes a
+JSON file of {bucket: {id: path}} to CATEGORY_CLASSIFY_DIR.
 
 CLI:
     python -m src.retrieval_pipeline.classify_agent "Pet Supplies" "dog drinking bowl"
@@ -29,7 +29,6 @@ CLI:
 import contextvars
 import hashlib
 import json
-import re
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -38,10 +37,13 @@ import pandas as pd
 from langsmith import traceable
 
 from src.retrieval_pipeline.llm_client import MODEL, client, record_usage
+from src.shared.naming import safe_name
+from src.shared.paths import (
+    CATEGORY_CLASSIFY_DIR,
+    CATEGORY_PATH_CACHE,
+    PREPROCESSED_PARQUET,
+)
 
-PARQUET_PATH = Path("data/processed/preprocessed_reduced.parquet")
-CACHE_DIR = Path("data/processed/category_path_cache")
-OUTPUT_DIR = Path("data/processed/category_classifications")
 BATCH_SIZE = 60
 CONFIDENT_SCORE_FLOOR = 6
 AMBIGUOUS_SCORE_FLOOR = 3
@@ -76,24 +78,20 @@ No other text, no markdown fences.
 """
 
 
-def _safe_name(text: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
-
-
 def _path_id(path: str) -> str:
     """Stable id for a category path -- deterministic, order-independent."""
     return hashlib.sha1(path.encode()).hexdigest()[:12]
 
 
-def load_category_paths(category: str, parquet_path: Path | str = PARQUET_PATH) -> dict[str, str]:
+def load_category_paths(category: str, parquet_path: Path | str = PREPROCESSED_PARQUET) -> dict[str, str]:
     """
     Load distinct real category paths for a top-level category, assign stable ids, cache.
 
     In: category (top-level name, e.g. "Pet Supplies"), parquet_path to preprocessed data
-    Out: dict {path_id: category_path}; also written to CACHE_DIR/{category}.json
+    Out: dict {path_id: category_path}; also written to CATEGORY_PATH_CACHE/{category}.json
     """
-    CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    cache_path = CACHE_DIR / f"{_safe_name(category)}.json"
+    CATEGORY_PATH_CACHE.mkdir(parents=True, exist_ok=True)
+    cache_path = CATEGORY_PATH_CACHE / f"{safe_name(category)}.json"
 
     if cache_path.exists():
         with open(cache_path) as f:
@@ -145,7 +143,7 @@ def classify_paths(
 
     In: query text, top-level category name, optional pre-loaded paths_by_id (else cached/loaded)
     Out: dict with query, category, confident_match/ambiguous_match/not_match -> {id: path};
-         also saved as JSON to OUTPUT_DIR/{category}__{query}.json
+         also saved as JSON to CATEGORY_CLASSIFY_DIR/{category}__{query}.json
     """
     if paths_by_id is None:
         paths_by_id = load_category_paths(category)
@@ -202,8 +200,8 @@ def classify_paths(
         "not_match": not_match,
     }
 
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    out_path = OUTPUT_DIR / f"{_safe_name(category)}__{_safe_name(query)}.json"
+    CATEGORY_CLASSIFY_DIR.mkdir(parents=True, exist_ok=True)
+    out_path = CATEGORY_CLASSIFY_DIR / f"{safe_name(category)}__{safe_name(query)}.json"
     with open(out_path, "w") as f:
         json.dump(output, f, indent=2)
 

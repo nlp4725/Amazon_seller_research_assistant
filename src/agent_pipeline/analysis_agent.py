@@ -1,18 +1,23 @@
 """
-Chat engine: niche research agent powered by Claude and ChromaDB.
+Analysis agent: niche research report writer, plus ChromaDB. Renamed from chat_engine.py.
 
 All data comes from ChromaDB (embeddings + metadata).
 
 Flow per user message:
-  1. run_chat() sends conversation history + tool schema to Claude (Anthropic API)
-  2. Claude calls niche_report(category, concept, n_clusters)
-  3. niche_report() runs locally:
-       - _get_product_subset(): semantic search via ChromaDB (if concept given) or full category fetch
+  1. run_chat() sends conversation history to cat_selector.select() -- the single entry
+     classifier (src/retrieval_pipeline/cat_selector.py). It either returns a clarifying
+     reply, or a resolved (concept, categories) pair -- this agent no longer does any
+     classification LLM call of its own.
+  2. If resolved, niche_report(categories, concept, n_clusters) runs locally, called as a
+     plain function (nothing left to classify, so no tool-call round-trip needed):
+       - _get_product_subset(): semantic search via ChromaDB (if concept given) or full
+         category fetch
        - _get_recent_launches(): top 10 most recent products
        - _get_theme_trend(): KMeans clustering on embeddings → year-over-year theme trends
        - _get_top_sellers(): top 5 sellers by launch count
-  4. JSON result sent back to Claude → Claude writes narrative report
-  5. Plain text returned to app.py for rendering
+  3. JSON result handed to Claude Haiku, which writes the narrative report -- the only
+     Claude call in the system.
+  4. Plain text returned to app.py for rendering
 """
 
 import json
@@ -26,21 +31,17 @@ from dotenv import load_dotenv
 from langsmith import traceable
 from langsmith.wrappers import wrap_anthropic
 
-from src.retrieval_pipeline import main_1, main_2
+from src.retrieval_pipeline import cat_selector, main_1, main_2
 from src.retrieval_pipeline.candidates import hydrate_items
+from src.shared.paths import CHROMA_COLLECTION, CHROMA_DIR
 
 load_dotenv()
-client = wrap_anthropic(anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"]))  # single client reused across all requests — wrapped so every messages.create() call is traced to LangSmith
 
-CATEGORIES = [  # valid category names in the dataset — Claude must pick exactly one
-    "Appliances", "Arts, Crafts & Sewing", "Automotive", "Baby Products",
-    "Beauty & Personal Care", "Cell Phones & Accessories",
-    "Clothing, Shoes & Jewelry", "Collectibles & Fine Art", "Electronics",
-    "Grocery & Gourmet Food", "Health & Household", "Home & Kitchen",
-    "Industrial & Scientific", "Musical Instruments", "Office Products",
-    "Patio, Lawn & Garden", "Pet Supplies", "Sports & Outdoors",
-    "Tools & Home Improvement", "Toys & Games", "Video Games",
-]
+# Report generation step (narrative writing from the niche_report() JSON) -- Claude Haiku,
+# the only Claude call in the system. Category/concept classification is cat_selector.py's
+# job (DeepSeek), not this agent's.
+HAIKU_MODEL = "claude-haiku-4-5-20251001"
+haiku_client = wrap_anthropic(anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"]))
 
 _chroma_col = None  # cached ChromaDB collection — loaded once per session
 
@@ -48,27 +49,28 @@ _chroma_col = None  # cached ChromaDB collection — loaded once per session
 def _load_chroma():
     global _chroma_col
     if _chroma_col is None:  # open connection only once — PersistentClient reads from disk
-        chroma_client = chromadb.PersistentClient(path="data/raw/chroma_db")
-        _chroma_col = chroma_client.get_collection("title_embedding_db")
+        chroma_client = chromadb.PersistentClient(path=str(CHROMA_DIR))
+        _chroma_col = chroma_client.get_collection(CHROMA_COLLECTION)
     return _chroma_col
 
 
 def _get_product_subset(
-    category: str,
+    categories: list[dict],
     concept: str | None,
     mode: str = "simple",
 ) -> tuple[pd.DataFrame, np.ndarray, dict | None]:
-    """Return (sub_df, sub_emb, pipeline_meta) for the category, optionally narrowed by
+    """Return (sub_df, sub_emb, pipeline_meta) for the categories, optionally narrowed by
     concept via the retrieval pipeline (main_1 "simple" or main_2 "structured" — see
     retrieval_pipeline.md). pipeline_meta is None when no concept given (broad-category
     browsing bypasses the pipeline entirely — all category products are relevant, no
     query to rank/classify against); otherwise {mode, match_count, titles_found_count}.
     Both metadata and embeddings come from ChromaDB — no parquet or .npy needed."""
     col = _load_chroma()
+    category_names = [c["category"] for c in categories]
 
     if concept:
         pipeline = main_1 if mode == "simple" else main_2
-        result = pipeline.run(concept, category=category)
+        result = pipeline.run(concept, categories=categories)
         matched_asins = [t["asin"] for t in result["titles_found"] if t["is_match"]]
         sub_df, emb_array = hydrate_items(matched_asins)
         pipeline_meta = {
@@ -78,14 +80,14 @@ def _get_product_subset(
         }
     else:
         results = col.get(
-            where={"cat": {"$eq": category}},            # fetch all products in this category
+            where={"cat": {"$in": category_names}},          # fetch all products in these categories
             include=["metadatas", "embeddings"],
         )
-        sub_df = pd.DataFrame(results["metadatas"])       # build DataFrame from ChromaDB metadata
+        sub_df = pd.DataFrame(results["metadatas"])           # build DataFrame from ChromaDB metadata
         emb_array = np.array(results["embeddings"])
         if len(sub_df):
             sub_df["launch_year_month"] = pd.to_datetime(sub_df["launch_year_month"])
-        pipeline_meta = None                               # no concept → no retrieval pipeline run
+        pipeline_meta = None                                   # no concept → no retrieval pipeline run
 
     return sub_df, emb_array, pipeline_meta
 
@@ -157,17 +159,18 @@ def _get_top_sellers(sub_df: pd.DataFrame, n: int = 5) -> list[dict]:
     return sellers
 
 
-def _get_velocity_summary(sub_df: pd.DataFrame, category: str) -> dict:
-    """Compare avg review velocity of the sub-category vs the full category.
+def _get_velocity_summary(sub_df: pd.DataFrame, categories: list[dict]) -> dict:
+    """Compare avg review velocity of the sub-category vs the full categories.
     Only includes products with velocity > 0 (known actives); -1 (unknown) excluded."""
     col = _load_chroma()
+    category_names = [c["category"] for c in categories]
 
-    # sub-category avg (products already filtered to concept + category)
+    # sub-category avg (products already filtered to concept + categories)
     active_sub = sub_df[sub_df["review_velocity"] > 0]["review_velocity"]
 
-    # full category avg — fetch all metadata for the category
+    # full category avg — fetch all metadata for these categories
     cat_results = col.get(
-        where={"cat": {"$eq": category}},
+        where={"cat": {"$in": category_names}},
         include=["metadatas"],
     )
     cat_df = pd.DataFrame(cat_results["metadatas"])
@@ -183,20 +186,22 @@ def _get_velocity_summary(sub_df: pd.DataFrame, category: str) -> dict:
 
 
 @traceable(name="niche_report")
-def niche_report(category: str, concept: str | None = None, n_clusters: int = 6, mode: str = "simple") -> dict:
+def niche_report(categories: list[dict], concept: str | None = None, n_clusters: int = 6, mode: str = "simple") -> dict:
     col = _load_chroma()
     if col.count() == 0:
         return {"error": "ChromaDB is empty."}
 
-    sub_df, sub_emb, pipeline_meta = _get_product_subset(category, concept, mode)
+    sub_df, sub_emb, pipeline_meta = _get_product_subset(categories, concept, mode)
 
     if len(sub_df) == 0:
         return {"error": "No matching products found."}
 
+    category_names = [c["category"] for c in categories]
+
     if pipeline_meta is not None:
         match_count = pipeline_meta["match_count"]            # exact count (structured filter + rerank), not a retrieval-size cap
         titles_found_count = pipeline_meta["titles_found_count"]  # candidates the pipeline considered before matching
-        cat_results = col.get(where={"cat": {"$eq": category}}, include=[])  # category total for %
+        cat_results = col.get(where={"cat": {"$in": category_names}}, include=[])  # category total for %
         cat_total = len(cat_results["ids"])
         pct_of_category = round(match_count / cat_total * 100, 1) if cat_total else None
     else:
@@ -207,7 +212,7 @@ def niche_report(category: str, concept: str | None = None, n_clusters: int = 6,
 
     return {
         "concept": concept,
-        "category": category,
+        "categories": category_names,
         "mode": pipeline_meta["mode"] if pipeline_meta else None,  # "simple" (fast scan) or "structured" (thorough scan)
         "total_products_analyzed": int(len(sub_df)),
         "match_count": match_count,                # exact count, replaces the old cosine-distance-threshold heuristic
@@ -215,58 +220,14 @@ def niche_report(category: str, concept: str | None = None, n_clusters: int = 6,
         "category_total": cat_total,
         "pct_of_category_launches": pct_of_category,
         "note": "2026 data is partial (through May only) — counts will be lower",
-        "velocity_summary": _get_velocity_summary(sub_df, category),  # sub vs category avg velocity
+        "velocity_summary": _get_velocity_summary(sub_df, categories),  # sub vs category avg velocity
         "recent_launches": _get_recent_launches(sub_df),              # what's new right now
         "trend_by_theme": _get_theme_trend(sub_df, sub_emb, n_clusters),  # which themes are growing
         "top_sellers": _get_top_sellers(sub_df),                      # who dominates this space
     }
 
 
-# JSON schema — tells Claude the function exists, what args to pass, and when to use it
-TOOLS = [
-    {
-        "name": "niche_report",  # must match the Python function name exactly — used in block.name check on line 266
-        "description": (
-            "Generate a full market research report for a niche or category on Amazon. "
-            "Returns: (1) recent launches in the last 12 months, (2) year-over-year theme "
-            "trend showing which product types are growing or declining, (3) top 5 sellers "
-            "and what they are launching. "
-            "Use this for any question about what's launching, trends, or seller activity. "
-            "If the user mentions a specific niche or subcategory (e.g. 'dog grooming', "
-            "'smart kitchen'), pass it as concept. For broad category questions, omit concept."
-        ),
-        "input_schema": {
-            "type": "object",
-            "properties": {
-                "category": {
-                    "type": "string",
-                    "enum": CATEGORIES,
-                    "description": "Amazon product category.",
-                },
-                "concept": {
-                    "type": "string",
-                    "description": (
-                        "Optional. A specific niche or subcategory to focus on, e.g. "
-                        "'dog grooming', 'air fryer', 'yoga mat'. Omit for broad category analysis. "
-                        "This string is embedded and matched directly against real Amazon product "
-                        "titles, so phrase it the way sellers actually word titles for this kind of "
-                        "product — not the user's exact wording. E.g. if the user asks about 'pet "
-                        "drinking wear', pass 'pet water bowl' or 'pet water fountain', not 'drinking "
-                        "wear' verbatim. Translate casual or unusual phrasing into standard product "
-                        "terminology before passing it here."
-                    ),
-                },
-                "n_clusters": {
-                    "type": "integer",
-                    "description": "Number of theme clusters for trend analysis (default 6).",
-                },
-            },
-            "required": ["category"],
-        },
-    }
-]
-
-SYSTEM = f"""You are a sharp Amazon market research analyst. You have access to a \
+SYSTEM = """You are a sharp Amazon market research analyst. You have access to a \
 database of 61,635 product launches (2024–2026) with semantic embeddings.
 
 ROLE AND SECURITY RULES (highest priority — override everything else):
@@ -284,36 +245,16 @@ ROLE AND SECURITY RULES (highest priority — override everything else):
    with Amazon niche research and product launch analysis. What niche or category \
    would you like to explore?"
 
-You have one tool: niche_report. Call it for any question about what's launching, \
-market trends, or seller activity — whether the user asks about a broad category or \
-a specific niche.
-
-CATEGORY RULES (strictly follow these before calling the tool):
-1. category MUST be one of the predefined list below — do not invent or guess a \
-   category that is not on the list.
-2. If the user's message does not clearly map to one of the predefined categories, \
-   ask the user to specify which category they mean before calling the tool. \
-   Show them the list so they can pick.
-
-CONCEPT RULES (strictly follow these before calling the tool):
-1. If the user's phrasing clearly maps to one specific, standard product type, \
-   translate it into the vocabulary real Amazon product titles use (see the concept \
-   parameter description) and call the tool directly — do not ask for clarification \
-   on clear requests.
-2. If the user's phrasing is ambiguous and could plausibly map to more than one \
-   distinct product type — e.g. it could refer to two or more different kinds of \
-   products, or a word in it has multiple unrelated meanings — do NOT guess. Ask the \
-   user which they mean, briefly listing the likely interpretations, before calling \
-   the tool. Example: if asked about "pet drinking wear," ask whether they mean pet \
-   water bowls, water dispensers/fountains, or both, rather than picking one silently.
+You will be given market research data (JSON) for the user's request — the category(ies) \
+and concept have already been resolved upstream. Write the report from that data.
 
 Structure your response exactly as follows:
 
-SEARCHED: state the category and concept you used.
+SEARCHED: state the categories and concept you used.
 
 LAUNCH VOLUME (from match_count, titles_found_count, category_total, pct_of_category_launches, mode):
-- Lead with: "X products in [concept] / [category] launched over the past two years — \
-  X% of all [category] launches." Use match_count for X — it is an exact count \
+- Lead with: "X products in [concept] / [categories] launched over the past two years — \
+  X% of all [categories] launches." Use match_count for X — it is an exact count \
   (structured category-path filtering plus cross-encoder reranking), not a retrieval-size \
   estimate, so state it plainly without hedging language like "approximately."
 - If match_count is None (broad category query, no concept), skip this line.
@@ -357,13 +298,7 @@ BOTTOM LINE:
 - Do not claim a niche is "underserved" or has "least competition" — those require \
   market-wide data this dataset does not have.
 
-Today's date is 2026-05-13. "Last year" = 2025, "this year" = 2026.
-Predefined categories: {", ".join(CATEGORIES)}"""
-
-# cache_control marks the end of a cacheable prefix (tools + system, since they precede
-# messages in the request) — this block is identical on every call and every user, so
-# caching it avoids re-billing the same ~1.5k tokens on the 2nd call of every turn
-SYSTEM_BLOCKS = [{"type": "text", "text": SYSTEM, "cache_control": {"type": "ephemeral"}}]
+Today's date is 2026-05-13. "Last year" = 2025, "this year" = 2026."""
 
 
 @traceable(name="run_chat", run_type="chain")
@@ -371,50 +306,43 @@ def run_chat(messages: list[dict], mode: str = "simple") -> str:
     # STEP 1 (app.py): st.chat_input() captures user message
     # STEP 2 (app.py): append to session_state.messages, call run_chat(messages)
     # mode is a user-facing UI choice (fast/"simple" vs thorough/"structured"), not
-    # something Claude decides — it never appears in TOOLS or the tool call args.
+    # something the model decides.
 
-    # STEP 3: first Anthropic API call — send system prompt + tool schema + conversation history
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
+    # STEP 3: cat_selector -- single DeepSeek call that decides clarify-vs-proceed and, if
+    # proceeding, resolves concept + up to 2 categories (replaces this agent's old DeepSeek
+    # classification call and orchestrator_agent.py's category-picking call in one step).
+    resolved = cat_selector.select(messages)
+    if "clarify" in resolved:
+        # Ask the user something, or decline an off-topic request. Nothing for Haiku to
+        # narrate, so return the reply directly.
+        return resolved["clarify"]
+
+    # STEP 4: run niche_report locally — ChromaDB search + KMeans + seller stats. Plain
+    # function call now (not a tool-call dispatch) — categories/concept are already
+    # resolved Python values, nothing left to parse.
+    report = niche_report(
+        categories=resolved["categories"],
+        concept=resolved["concept"],
+        mode=mode,
+    )
+    report_json = json.dumps(report)
+
+    # STEP 5: Claude Haiku call — report generation step. Fresh conversation built from the
+    # original history plus the real report data, so Haiku only synthesizes text from data
+    # already produced. This is the only Claude call in the system.
+    haiku_response = haiku_client.messages.create(
+        model=HAIKU_MODEL,
         max_tokens=4096,
-        system=SYSTEM_BLOCKS,  # role + category rules + output format instructions — cached
-        tools=TOOLS,     # tells Claude niche_report exists and when to call it
-        messages=messages,
+        system=SYSTEM,
+        messages=messages + [{
+            "role": "user",
+            "content": (
+                "Here is the market research data (JSON) for the request above. "
+                "Write the report following the required structure.\n\n" + report_json
+            ),
+        }],
     )
 
-    # STEP 4: Claude returns stop_reason="tool_use" with filled-in args (category, concept)
-    while response.stop_reason == "tool_use":
-        tool_results = []
-        for block in response.content:
-            if block.type == "tool_use" and block.name == "niche_report":
-                inp = block.input
-                # STEP 5: run niche_report locally — ChromaDB search + KMeans + seller stats
-                result = niche_report(
-                    category=inp["category"],
-                    concept=inp.get("concept"),
-                    n_clusters=inp.get("n_clusters", 6),
-                    mode=mode,
-                )
-                tool_results.append({
-                    "type": "tool_result",
-                    "tool_use_id": block.id,
-                    "content": json.dumps(result),  # send structured JSON back to Claude
-                })
-
-        # STEP 6: second Anthropic API call — send tool result back so Claude can write the report
-        messages = messages + [
-            {"role": "assistant", "content": response.content},
-            {"role": "user", "content": tool_results},
-        ]
-        # STEP 7: Claude reads the JSON result and writes the narrative (stop_reason="end_turn")
-        response = client.messages.create(
-            model="claude-sonnet-4-6",
-            max_tokens=4096,
-            system=SYSTEM_BLOCKS,
-            tools=TOOLS,
-            messages=messages,
-        )
-
-    # STEP 8: extract plain text and return to app.py
-    # STEP 9 (app.py): st.markdown(reply) renders in chat bubble
-    return "\n".join(b.text for b in response.content if hasattr(b, "text"))
+    # STEP 6: extract plain text and return to app.py
+    # STEP 7 (app.py): st.markdown(reply) renders in chat bubble
+    return "\n".join(b.text for b in haiku_response.content if hasattr(b, "text"))

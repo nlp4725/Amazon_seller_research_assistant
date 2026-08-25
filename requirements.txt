@@ -13,6 +13,4 @@ numpy
 scikit-learn
 pillow
 chromadb
-xgboost
-joblib
 requests

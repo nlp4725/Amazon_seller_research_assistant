@@ -11,12 +11,11 @@ from pathlib import Path
 
 import pandas as pd
 
-DB_PATH = Path("data/raw/product_launch.db")
-RAW_DIR = Path("data/raw")
+from src.shared.paths import PRODUCT_DB, RAW_DIR
 
 
 def load_data(
-    raw_path: Path | str = DB_PATH,
+    raw_path: Path | str = PRODUCT_DB,
     output_dir: Path | str = RAW_DIR,
 ) -> pd.DataFrame:
     outdir = Path(output_dir)

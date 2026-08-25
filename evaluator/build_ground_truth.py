@@ -34,8 +34,8 @@ import pandas as pd
 from langsmith import traceable
 
 from src.retrieval_pipeline.llm_client import MODEL, client, record_usage
+from src.shared.paths import PREPROCESSED_PARQUET
 
-PARQUET_PATH = Path("data/processed/preprocessed_reduced.parquet")
 BATCH_SIZE = 40
 RANDOM_SEED = 42
 
@@ -60,7 +60,7 @@ No other text, no markdown fences.
 """
 
 
-def fetch_candidates(categories: list[str], keyword_pattern: str, parquet_path: Path | str = PARQUET_PATH) -> pd.DataFrame:
+def fetch_candidates(categories: list[str], keyword_pattern: str, parquet_path: Path | str = PREPROCESSED_PARQUET) -> pd.DataFrame:
     """
     Broad recall-oriented keyword sweep over titles within the given categories.
 
@@ -145,7 +145,7 @@ def build_ground_truth(
     categories: list[str],
     keyword_pattern: str,
     sample_cap: int | None = None,
-    parquet_path: Path | str = PARQUET_PATH,
+    parquet_path: Path | str = PREPROCESSED_PARQUET,
 ) -> dict:
     """
     Full pipeline: keyword sweep -> optional sample -> DeepSeek judging.
