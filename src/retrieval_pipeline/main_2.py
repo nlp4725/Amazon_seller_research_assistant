@@ -40,8 +40,7 @@ from src.retrieval_pipeline import llm_client
 from src.retrieval_pipeline.candidates import fetch_items_for_paths
 from src.retrieval_pipeline.classify_agent import classify_paths
 from src.retrieval_pipeline.reranker import rerank_titles
-from src.shared.naming import safe_name
-from src.shared.paths import PIPELINE_RUNS_DIR
+from src.shared.paths import PIPELINE_RUNS_DIR, safe_name
 
 
 

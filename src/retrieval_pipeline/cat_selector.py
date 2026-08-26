@@ -31,8 +31,7 @@ import pandas as pd
 from langsmith import traceable
 
 from src.retrieval_pipeline.llm_client import MODEL, client, record_usage
-from src.shared.naming import safe_name
-from src.shared.paths import CAT_SELECTOR_RUNS_DIR, PREPROCESSED_PARQUET
+from src.shared.paths import CAT_SELECTOR_RUNS_DIR, PREPROCESSED_PARQUET, safe_name
 
 MAX_CANDIDATES = 2
 

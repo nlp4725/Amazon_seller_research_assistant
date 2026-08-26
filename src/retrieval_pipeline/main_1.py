@@ -44,8 +44,7 @@ from langsmith.run_helpers import get_current_run_tree
 from src.retrieval_pipeline import llm_client
 from src.retrieval_pipeline.candidates import rank_category_items
 from src.retrieval_pipeline.reranker import rerank_titles
-from src.shared.naming import safe_name
-from src.shared.paths import PIPELINE_RUNS_DIR
+from src.shared.paths import PIPELINE_RUNS_DIR, safe_name
 
 
 

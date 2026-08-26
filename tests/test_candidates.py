@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 
 from src.retrieval_pipeline.candidates import hydrate_items
+from src.shared.model_loader import EMBEDDING_DIM
 
 # Two real asins known to exist in the local ChromaDB fixture (data/raw/chroma_db) --
 # same pattern as tests/test_build_chroma.py, which also hits the real persistent DB.
@@ -27,7 +28,7 @@ def test_hydrate_items_embeddings_row_aligned_with_df():
 
     assert isinstance(emb, np.ndarray)
     assert emb.shape[0] == len(df)
-    assert emb.shape[1] == 384  # all-MiniLM-L6-v2 dimension
+    assert emb.shape[1] == EMBEDDING_DIM
 
 
 def test_hydrate_items_empty_input_returns_empty():

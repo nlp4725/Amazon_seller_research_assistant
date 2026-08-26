@@ -55,8 +55,8 @@ main.py (Flask /api/chat)
 | `src/retrieval_pipeline/llm_client.py` | Shared DeepSeek client + token/cost accumulator used by every LLM call in `retrieval_pipeline/` |
 | `evaluator/comparison.py` | Benchmarks `main_1` vs `main_2` on the same query with the same `cat_selector`-resolved categories |
 | `main.py` | Flask API, the only caller of `analysis_agent.run_chat()`; `/api/chat` is its only real endpoint |
-| `src/shared/paths.py` | Every data path in the project. Import from here, never write a path literal |
-| `src/shared/naming.py` | `safe_name()` — the filename slug shared by every module that writes a run record |
+| `src/shared/paths.py` | Every data path in the project, plus `safe_name()` for run-record filenames. Import from here, never write a path literal |
+| `src/shared/model_loader.py` | The one embedder. `EMBEDDING_MODEL` lives here only — `build_chroma` (indexing) and `candidates` (querying) must use the same model or similarity scores silently become meaningless |
 | `src/offline/` | The batch jobs that BUILD the stores: `ingest` → `load` → `preprocessing` → `build_chroma`. Driven by `build_data.py`. Nothing here is imported by `main.py` |
 
 ## Two stores, both built offline

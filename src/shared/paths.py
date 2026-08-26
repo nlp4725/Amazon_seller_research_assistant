@@ -6,6 +6,9 @@ build_chroma.py, candidates.py, classify_agent.py and analysis_agent.py (which
 hardcoded the ChromaDB directory inline), so "where does the data live?" had no
 single answer. Import from here instead of writing a path literal.
 
+It also owns `safe_name`, which turns a query into the filename its run record is
+written under -- same question ("where does output go?"), same module.
+
 Two stores back the whole system:
   - CHROMA_DIR      embeddings + product metadata, queried at request time
   - PREPROCESSED_PARQUET  the same catalog's category taxonomy, read at request
@@ -13,6 +16,7 @@ Two stores back the whole system:
                     ChromaDB. Both are produced by src/offline/ (see build_data.py).
 """
 
+import re
 from pathlib import Path
 
 # ---------- roots ----------
@@ -35,3 +39,8 @@ CATEGORY_PATH_CACHE   = PROCESSED_DIR / "category_path_cache"
 CATEGORY_CLASSIFY_DIR = PROCESSED_DIR / "category_classifications"
 PIPELINE_RUNS_DIR     = PROCESSED_DIR / "pipeline_runs"
 CAT_SELECTOR_RUNS_DIR = PROCESSED_DIR / "cat_selector_runs"
+
+
+def safe_name(text: str) -> str:
+    """Lowercase slug safe to use as a filename: "Dog Drinking Bowl" -> "dog_drinking_bowl"."""
+    return re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")

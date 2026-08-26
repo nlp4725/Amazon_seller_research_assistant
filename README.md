@@ -32,9 +32,8 @@ The codebase is organized into distinct pipelines following the flow:
   - `build_chroma.py`: Embeds product titles with `all-MiniLM-L6-v2` and upserts them into ChromaDB. Lives here rather than in `retrieval_pipeline/` because it never runs at request time.
 
 - **`src/shared/`**: Used by both halves
-  - `paths.py`: Every filesystem location the project reads or writes. Import from here instead of writing a path literal -- these constants used to be re-declared in four modules.
-  - `model_loader.py`: SentenceTransformer singleton — loads `all-MiniLM-L6-v2` once per session and reuses it across all chat requests
-  - `naming.py`: `safe_name()`, the filename slug used by every module that writes a run record
+  - `paths.py`: Every filesystem location the project reads or writes, plus `safe_name()` for run-record filenames. Import from here instead of writing a path literal -- these constants used to be re-declared in four modules.
+  - `model_loader.py`: Owns the embedding model. `EMBEDDING_MODEL` is declared here and nowhere else: `build_chroma.py` encodes the catalog with it and `candidates.py` encodes the incoming query with it, and if those ever diverged the vectors would be incomparable with no error raised. The singleton also avoids reloading 80MB per chat request.
 
 - **`evaluator/`**: Benchmarks `src/retrieval_pipeline/`'s two approaches against hand-verified ground truth -- see "Evaluation Methodology" below
   - `golden_dataset.json`: Ground truth for 20 queries

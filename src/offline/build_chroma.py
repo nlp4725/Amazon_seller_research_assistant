@@ -5,14 +5,15 @@ Build ChromaDB from the cleaned product data.
 - Merges losers_combined.csv to set most_recent_review=0 for confirmed losers
 - Computes review_velocity = most_recent_review / most_recent_review_time (where >= 90 days, else -1)
 - Connects to ChromaDB and checks if it is already up to date
-- If not, encodes new titles and upserts them with metadata
+- If not, encodes new titles (via shared.model_loader, the same embedder the live
+  query path uses -- they must match) and upserts them with metadata
 """
 
 import pandas as pd
 import chromadb
 from pathlib import Path
-from sentence_transformers import SentenceTransformer
 
+from src.shared.model_loader import get_embedder
 from src.shared.paths import (
     CHROMA_COLLECTION,
     CHROMA_DIR,
@@ -79,7 +80,7 @@ def build_chroma(
         print("ChromaDB is up to date — nothing to do")
         return
 
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    model = get_embedder()  # same model candidates.py embeds queries with -- see model_loader
     new_df = df.iloc[already_done:]
 
     for i in range(0, len(new_df), BATCH_SIZE):

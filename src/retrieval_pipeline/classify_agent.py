@@ -37,11 +37,11 @@ import pandas as pd
 from langsmith import traceable
 
 from src.retrieval_pipeline.llm_client import MODEL, client, record_usage
-from src.shared.naming import safe_name
 from src.shared.paths import (
     CATEGORY_CLASSIFY_DIR,
     CATEGORY_PATH_CACHE,
     PREPROCESSED_PARQUET,
+    safe_name,
 )
 
 BATCH_SIZE = 60
