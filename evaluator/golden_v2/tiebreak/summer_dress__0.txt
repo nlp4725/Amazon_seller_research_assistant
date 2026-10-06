@@ -1,0 +1,22 @@
+QUERY: summer dress
+
+DEFINITION: A dress suited to warm weather, which the title signals.
+INCLUDE: sundresses; beach dresses; dresses whose title says summer or warm-weather; lightweight sleeveless casual dresses
+EXCLUDE: formal/cocktail/evening dresses; winter dresses; swimsuits; skirts; rompers
+DECIDED: Requires a summer/warm-weather signal in the title (summer, sundress, beach, sleeveless casual). Default: yes; Girls' dresses count, not only women's. Default: yes
+
+Label every numbered product below against this definition with exactly one letter:
+  E = exact: the product IS what the query asks for, per the definition
+  S = substitute: a different product that could serve instead (e.g. wired instead of wireless)
+  C = complement: an accessory, part or add-on FOR the product (e.g. a charger for a mouse)
+  I = irrelevant
+Judge only from the title and category given. When the title does not settle a detail the
+definition requires, choose E only if the title makes it clearly likely.
+
+PRODUCTS (number <TAB> title <TAB> category path):
+33	OYOANGLE Women's Sleeveless Tropical Print Mini Dress Chain Backless Draped Halter Bodycon Dresses Multicolor X-Large	Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out
+156	Womens Summer Dress 2025 Maxi Elegant Petite Dresses for Women Wedding Guest Formal Short Sleeve Tie Waisted with Belt Patchwork Vestidos Elegantes De Mujer Frocks for Women A Line Swing Dress Gray L	Clothing, Shoes & Jewelry > Women > Clothing > Dresses
+158	Work Dresses for Women 2025 Maxi Elegant Short Sleeve Tie Waisted with Belt Formal Wedding Guest Dresses for Women Summer Swing Sundress Frocks Patchwork Crew Neck Vestidos Elegantes De Mujer Red M	Clothing, Shoes & Jewelry > Women > Clothing > Dresses
+200	Womens Summer Dresses Casual Long Maxi Elegant Formal Dresses for Women Wedding Guest 2025 Puff Sleeve Tie Waisted with Belt Patchwork Frocks for Women Swing Dress Vestidos Elegantes White XL	Clothing, Shoes & Jewelry > Women > Clothing > Dresses
+404	Maxi Dress for Women Summer Beach Vacation Tie Waisted with Belt Short Sleeve Women's Formal Dresses for Wedding Elegant Empire Waist Patchwork Womens Frocks Swing Dress Vestidos Elegantes Black XL	Clothing, Shoes & Jewelry > Women > Clothing > Dresses
+463	Women's Summer Sleeveless Mini Dress 2024 Crewneck Swing Casual Short Dress (Halloween Trippy Goth Black Cat Skull)	Clothing, Shoes & Jewelry > Women

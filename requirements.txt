@@ -14,3 +14,4 @@ scikit-learn
 pillow
 chromadb
 requests
+typesafe-sdk==0.7.2

@@ -101,9 +101,9 @@ def hydrate_items(asins: list[str]) -> tuple[pd.DataFrame, np.ndarray]:
 
     main_1/main_2's `titles_found` schema only carries asin/title/cat/category_path
     (+ pipeline-specific fields like rerank_score) -- not price/seller/launch_year_month/
-    review_velocity, which chat_engine's downstream tools (recent launches, theme-trend
-    clustering, top sellers, velocity summary) need. This does one batched ChromaDB
-    fetch by id to hydrate a matched-asin set with everything those tools require.
+    which analysis_agent's report builders (theme-trend clustering, top sellers) need.
+    This does one batched ChromaDB fetch by id to hydrate a matched-asin set with
+    everything those builders require.
 
     In: list of asins (e.g. is_match=True items from a pipeline run)
     Out: (df, emb) -- df has one row per asin with full metadata (launch_year_month

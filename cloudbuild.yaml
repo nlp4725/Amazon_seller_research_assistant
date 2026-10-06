@@ -1,66 +1,119 @@
+# Build → test → push → deploy, on every push to main.
+#
+# The API image bakes in the two stores it reads at request time (see
+# src/shared/paths.py). They live in GCS, not git -- data/ is gitignored and a
+# trigger-driven build clones from GitHub, so step 1 restores them into the build
+# context before the image is built. Refresh them with scripts/sync_data_to_gcs.sh.
+
 options:
   logging: CLOUD_LOGGING_ONLY
+  machineType: 'E2_HIGHCPU_8'
+
+substitutions:
+  _REGION: us-central1
+  _REPO: us-central1-docker.pkg.dev/amazon-launch/seller-assistant
+  _DATA_BUCKET: gs://amazon-launch-seller-assistant-data
+
+timeout: 3600s
 
 steps:
-  # Build Streamlit image
-  - name: 'gcr.io/cloud-builders/docker'
-    args:
-      - 'build'
-      - '-t'
-      - 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app:$BUILD_ID'
-      - '-t'
-      - 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app:latest'
-      - '-f'
-      - 'Dockerfile_frontend'
-      - '.'
-
-  # Build Flask API image
-  - name: 'gcr.io/cloud-builders/docker'
-    args:
-      - 'build'
-      - '-t'
-      - 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/api:$BUILD_ID'
-      - '-t'
-      - 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/api:latest'
-      - '-f'
-      - 'Dockerfile_backend'
-      - '.'
-
-  # Push Streamlit image
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', '--all-tags', 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app']
-
-  # Push Flask API image
-  - name: 'gcr.io/cloud-builders/docker'
-    args: ['push', '--all-tags', 'us-central1-docker.pkg.dev/amazon-launch/seller-assistant/api']
-
-  # Deploy API first (Streamlit needs its URL), then capture URL and deploy Streamlit
-  # ANTHROPIC_API_KEY must be stored in Secret Manager as 'anthropic-api-key'
-  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  # 1. Restore the live data stores into the build context.
+  - id: fetch-data
+    name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     entrypoint: bash
     args:
       - '-c'
       - |
-        set -e
+        set -euo pipefail
+        mkdir -p data/raw/chroma_db data/processed
+        gcloud storage rsync -r ${_DATA_BUCKET}/chroma_db data/raw/chroma_db
+        gcloud storage cp ${_DATA_BUCKET}/preprocessed_reduced.parquet data/processed/
+        test -s data/processed/preprocessed_reduced.parquet
+        test -n "$$(ls -A data/raw/chroma_db)"
+        du -sh data/raw/chroma_db data/processed/preprocessed_reduced.parquet
+
+  # 2. Build the Flask API image (data included).
+  - id: build-api
+    name: 'gcr.io/cloud-builders/docker'
+    waitFor: ['fetch-data']
+    args:
+      - 'build'
+      - '-t'
+      - '${_REPO}/api:$BUILD_ID'
+      - '-t'
+      - '${_REPO}/api:latest'
+      - '-f'
+      - 'Dockerfile_backend'
+      - '.'
+
+  # 3. Gate the deploy on the test suite, run inside the image that will ship.
+  #    raw_data tests need large offline files deliberately kept out of the image.
+  - id: test-api
+    name: 'gcr.io/cloud-builders/docker'
+    waitFor: ['build-api']
+    args:
+      - 'run'
+      - '--rm'
+      - '--entrypoint'
+      - 'sh'
+      - '${_REPO}/api:$BUILD_ID'
+      - '-c'
+      - 'pip install --no-cache-dir --quiet pytest && python -m pytest -q -m "not raw_data"'
+
+  # 4. Build the React/nginx frontend image.
+  - id: build-frontend
+    name: 'gcr.io/cloud-builders/docker'
+    waitFor: ['-']
+    args:
+      - 'build'
+      - '-t'
+      - '${_REPO}/app:$BUILD_ID'
+      - '-t'
+      - '${_REPO}/app:latest'
+      - '-f'
+      - 'Dockerfile_frontend'
+      - '.'
+
+  # 5. Push only after the tests pass.
+  - id: push-api
+    name: 'gcr.io/cloud-builders/docker'
+    waitFor: ['test-api']
+    args: ['push', '--all-tags', '${_REPO}/api']
+
+  - id: push-frontend
+    name: 'gcr.io/cloud-builders/docker'
+    waitFor: ['test-api', 'build-frontend']
+    args: ['push', '--all-tags', '${_REPO}/app']
+
+  # 6. Deploy the API first, then point the frontend's nginx at its URL.
+  - id: deploy
+    name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    waitFor: ['push-api', 'push-frontend']
+    entrypoint: bash
+    args:
+      - '-c'
+      - |
+        set -euo pipefail
 
         gcloud run deploy seller-assistant-api \
-          --image=us-central1-docker.pkg.dev/amazon-launch/seller-assistant/api:$BUILD_ID \
-          --region=us-central1 \
+          --image=${_REPO}/api:$BUILD_ID \
+          --region=${_REGION} \
           --platform=managed \
           --port=8080 \
-          --memory=2Gi \
+          --memory=4Gi \
           --cpu=2 \
           --timeout=300 \
           --allow-unauthenticated \
-          --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest
+          --set-env-vars=DEEPSEEK_BASE_URL=https://api.deepseek.com,DEEPSEEK_MODEL=deepseek-v4-flash,LANGSMITH_TRACING=true,LANGSMITH_PROJECT=amazon-seller-research-assistant \
+          --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest,DEEPSEEK_API_KEY=deepseek-api-key:latest,LANGSMITH_API_KEY=langsmith-api-key:latest,TYPESAFE_API_KEY=typesafe-api-key:latest
 
         API_URL=$$(gcloud run services describe seller-assistant-api \
-          --region=us-central1 \
+          --region=${_REGION} \
           --format='value(status.url)')
 
         gcloud run deploy seller-assistant \
-          --image=us-central1-docker.pkg.dev/amazon-launch/seller-assistant/app:$BUILD_ID \
-          --region=us-central1 \
+          --image=${_REPO}/app:$BUILD_ID \
+          --region=${_REGION} \
           --platform=managed \
           --port=8080 \
           --memory=1Gi \

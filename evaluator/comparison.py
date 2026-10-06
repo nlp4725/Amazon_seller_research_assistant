@@ -98,6 +98,12 @@ def summarize(rows: list[dict]) -> dict:
     """
     Per-approach aggregates: mean precision/recall/f1 (query-level average, not
     micro-averaged over pooled ASINs), total latency, total cost, total LLM calls.
+
+    Queries whose ground truth is empty are left out of the P/R/F1 means: their recall is
+    vacuous (nothing to find) and their precision is 0 the moment anything is predicted,
+    so averaging them in measures nothing about retrieval quality. They are reported as
+    zero_truth_false_positives instead -- items predicted where none should be (0 = right).
+    Latency, cost and LLM calls still cover every query, since that work was done.
     """
     summary = {}
     for approach_name, _ in APPROACHES:
@@ -105,11 +111,17 @@ def summarize(rows: list[dict]) -> dict:
         if not approach_rows:
             continue
         n = len(approach_rows)
+        scored = [r for r in approach_rows if r["truth_count"] > 0]
+        k = len(scored) or 1
         summary[approach_name] = {
             "queries": n,
-            "mean_precision": round(sum(r["precision"] for r in approach_rows) / n, 4),
-            "mean_recall": round(sum(r["recall"] for r in approach_rows) / n, 4),
-            "mean_f1": round(sum(r["f1"] for r in approach_rows) / n, 4),
+            "scored_queries": len(scored),
+            "mean_precision": round(sum(r["precision"] for r in scored) / k, 4),
+            "mean_recall": round(sum(r["recall"] for r in scored) / k, 4),
+            "mean_f1": round(sum(r["f1"] for r in scored) / k, 4),
+            "zero_truth_false_positives": {
+                r["query"]: r["false_positives"] for r in approach_rows if r["truth_count"] == 0
+            },
             "total_latency_s": round(sum(r["latency_s"] for r in approach_rows), 2),
             "mean_latency_s": round(sum(r["latency_s"] for r in approach_rows) / n, 2),
             "total_cost_usd": round(sum(r["cost_usd"] for r in approach_rows), 6),
@@ -118,18 +130,24 @@ def summarize(rows: list[dict]) -> dict:
     return summary
 
 
+def _zero_truth(s: dict) -> str:
+    """Zero-truth queries and the items wrongly predicted for each, e.g. "dog Halloween costume: 2"."""
+    fps = s.get("zero_truth_false_positives") or {}
+    return ", ".join(f"{q}: {n}" for q, n in fps.items()) or "-"
+
+
 def _markdown_report(rows: list[dict], summary: dict, timestamp: str) -> str:
     lines = [f"# Retrieval pipeline comparison -- {timestamp}", ""]
 
-    lines.append("## Summary (mean across queries)")
+    lines.append("## Summary (P/R/F1: mean across queries with non-empty ground truth)")
     lines.append("")
-    lines.append("| Approach | Queries | Mean P | Mean R | Mean F1 | Total latency (s) | Mean latency (s) | Total cost ($) | LLM calls |")
-    lines.append("|---|---|---|---|---|---|---|---|---|")
+    lines.append("| Approach | Queries (scored) | Mean P | Mean R | Mean F1 | Zero-truth FPs | Total latency (s) | Mean latency (s) | Total cost ($) | LLM calls |")
+    lines.append("|---|---|---|---|---|---|---|---|---|---|")
     for approach_name, s in summary.items():
         lines.append(
-            f"| {approach_name} | {s['queries']} | {s['mean_precision']} | {s['mean_recall']} | "
-            f"{s['mean_f1']} | {s['total_latency_s']} | {s['mean_latency_s']} | "
-            f"{s['total_cost_usd']} | {s['total_llm_calls']} |"
+            f"| {approach_name} | {s['queries']} ({s['scored_queries']}) | {s['mean_precision']} | "
+            f"{s['mean_recall']} | {s['mean_f1']} | {_zero_truth(s)} | {s['total_latency_s']} | "
+            f"{s['mean_latency_s']} | {s['total_cost_usd']} | {s['total_llm_calls']} |"
         )
 
     lines.append("")

@@ -20,8 +20,10 @@ Flow per user message:
   4. Plain text returned to app.py for rendering
 """
 
+import calendar
 import json
 import os
+from functools import lru_cache
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
@@ -33,7 +35,7 @@ from langsmith.wrappers import wrap_anthropic
 
 from src.retrieval_pipeline import cat_selector, main_1, main_2
 from src.retrieval_pipeline.candidates import hydrate_items
-from src.shared.paths import CHROMA_COLLECTION, CHROMA_DIR
+from src.shared.paths import CHROMA_COLLECTION, CHROMA_DIR, PREPROCESSED_PARQUET
 
 load_dotenv()
 
@@ -92,19 +94,61 @@ def _get_product_subset(
     return sub_df, emb_array, pipeline_meta
 
 
-def _get_recent_launches(sub_df: pd.DataFrame, cutoff: str = "2025-05-01", n: int = 10) -> list[dict]:
-    """Return the n most recent product launches on or after cutoff."""
-    recent = sub_df[sub_df["launch_year_month"] >= pd.Timestamp(cutoff)].sort_values(
-        "launch_year_month", ascending=False  # newest first
-    )
-    return [
-        {
-            "title": row["title"],
-            "price": round(float(row["price"]), 2),
-            "month": row["launch_year_month"].strftime("%Y-%m"),
-        }
-        for _, row in recent.head(n).iterrows()  # top n rows → sent to Claude as context
-    ]
+# Thresholds for trend_tag. These four tags PARTITION the growth axis -- no gap, no
+# overlap -- so every cluster gets exactly one. RISING was ">50%" when the model computed
+# this from the prompt, which left 30-50% growth matching no tag at all; the model then
+# resolved that gap differently run to run. Widening STABLE to <50% instead would have
+# labelled +49% growth "stable", which reads wrong, so RISING came down to >30%.
+RISING_PCT = 30.0
+DECLINING_PCT = -30.0
+
+DOMINANT_SELLER_PCT = 30.0   # one seller above this share reads as a dominant incumbent
+
+
+@lru_cache(maxsize=1)
+def _data_extent() -> tuple[int, int]:
+    """
+    (latest year in the dataset, months observed in that year) -- e.g. (2026, 5).
+
+    Read from the preprocessed parquet rather than from a query's own sub_df: a subset can
+    be missing the most recent months by chance, which would shrink months_observed and
+    inflate every projection built on it. Cached; the dataset is static within a session.
+    """
+    months = pd.read_parquet(PREPROCESSED_PARQUET, columns=["launch_year_month"])["launch_year_month"]
+    latest = months.max()
+    return int(latest.year), int(latest.month)
+
+
+def _trend_stats(by_year: dict[str, int]) -> dict:
+    """
+    Growth, projection and tag for one cluster -- computed here, never by the LLM.
+
+    by_year must already be zero-filled: EMERGING means "zero in 2024, present in 2025",
+    and a groupby drops absent years entirely rather than storing 0, so a missing key and
+    a real zero are indistinguishable downstream.
+
+    growth_pct is None when 2024 is zero (division undefined, not zero growth).
+    projected_<year> annualises the partial final year by 12/months_observed, derived from
+    the data instead of a hardcoded multiplier that goes stale when the dataset grows.
+    """
+    y24, y25 = by_year.get("2024", 0), by_year.get("2025", 0)
+    if y24 == 0:
+        growth_pct = None
+        tag = "EMERGING" if y25 > 0 else "INSUFFICIENT_DATA"
+    else:
+        growth_pct = round((y25 - y24) / y24 * 100, 1)
+        tag = "RISING" if growth_pct > RISING_PCT else "DECLINING" if growth_pct < DECLINING_PCT else "STABLE"
+
+    partial_year, months_observed = _data_extent()
+    observed = by_year.get(str(partial_year), 0)
+    return {
+        "growth_pct_2024_2025": growth_pct,
+        "trend_tag": tag,
+        "partial_year": partial_year,
+        "partial_year_observed": observed,
+        "partial_year_months_observed": months_observed,
+        "partial_year_projected": round(observed * 12 / months_observed) if months_observed else None,
+    }
 
 
 def _get_theme_trend(sub_df: pd.DataFrame, sub_emb: np.ndarray, n_clusters: int) -> list[dict]:
@@ -130,12 +174,20 @@ def _get_theme_trend(sub_df: pd.DataFrame, sub_emb: np.ndarray, n_clusters: int)
         dists = np.linalg.norm(sub_emb[idx] - km.cluster_centers_[i], axis=1)
         closest = idx[np.argsort(dists)[:4]]  # 4 titles closest to cluster center → most representative
 
-        by_year = cluster_rows.groupby("launch_year").size().to_dict()  # launch count per year
+        counts = cluster_rows.groupby("launch_year").size().to_dict()
+        # Zero-fill across the dataset's full year span, not just the years this cluster
+        # happens to have. _trend_stats needs a real 0 to tell EMERGING from missing data.
+        first_year = int(sub_df["launch_year"].min())
+        last_year = _data_extent()[0]
+        by_year = {str(y): int(counts.get(y, 0)) for y in range(first_year, last_year + 1)}
+
         trend.append({
             "size": int(len(cluster_rows)),
             "representative_titles": sub_df.iloc[closest]["title"].tolist(),
-            "by_year": {str(y): int(c) for y, c in sorted(by_year.items())},
+            "by_year": by_year,
             "avg_price": round(float(cluster_rows["price"].mean()), 2),
+            # Precomputed so the LLM only reports these -- see _trend_stats.
+            **_trend_stats(by_year),
         })
 
     trend.sort(key=lambda c: c["size"], reverse=True)  # largest clusters first
@@ -147,42 +199,25 @@ def _get_top_sellers(sub_df: pd.DataFrame, n: int = 5) -> list[dict]:
     known = sub_df[sub_df["seller"] != "-1"]  # exclude unknown sellers (buybox was empty)
     top_ids = known.groupby("seller").size().nlargest(n).index.tolist()  # top n by launch count
 
+    # Denominator is EVERY analysed product, not just those with a known seller. Dividing by
+    # `known` would inflate each share by however many sellers were unidentified, so a
+    # seller could cross the dominance line purely because the buybox was empty elsewhere.
+    total_analyzed = len(sub_df)
+
     sellers = []
     for seller in top_ids:
         s_rows = known[known["seller"] == seller].sort_values("launch_year_month", ascending=False)
+        pct = round(len(s_rows) / total_analyzed * 100, 1) if total_analyzed else None
         sellers.append({
             "seller_id": seller,
             "total_launches": int(len(s_rows)),
             "avg_price": round(float(s_rows["price"].mean()), 2),
             "recent_titles": s_rows["title"].head(5).tolist(),  # last 5 products launched
+            # Precomputed so the LLM only reports these.
+            "pct_of_total_launches": pct,
+            "is_dominant": bool(pct is not None and pct > DOMINANT_SELLER_PCT),
         })
     return sellers
-
-
-def _get_velocity_summary(sub_df: pd.DataFrame, categories: list[dict]) -> dict:
-    """Compare avg review velocity of the sub-category vs the full categories.
-    Only includes products with velocity > 0 (known actives); -1 (unknown) excluded."""
-    col = _load_chroma()
-    category_names = [c["category"] for c in categories]
-
-    # sub-category avg (products already filtered to concept + categories)
-    active_sub = sub_df[sub_df["review_velocity"] > 0]["review_velocity"]
-
-    # full category avg — fetch all metadata for these categories
-    cat_results = col.get(
-        where={"cat": {"$in": category_names}},
-        include=["metadatas"],
-    )
-    cat_df = pd.DataFrame(cat_results["metadatas"])
-    active_cat = cat_df[cat_df["review_velocity"] > 0]["review_velocity"]
-
-    return {
-        "sub_avg_velocity": round(float(active_sub.mean()), 4) if len(active_sub) else None,
-        "category_avg_velocity": round(float(active_cat.mean()), 4) if len(active_cat) else None,
-        "sub_active_count": int(len(active_sub)),    # products with known positive velocity in sub
-        "category_active_count": int(len(active_cat)),
-        "velocity_threshold": 0.056,                 # 5 reviews at 90 days = early traction benchmark
-    }
 
 
 @traceable(name="niche_report")
@@ -214,14 +249,22 @@ def niche_report(categories: list[dict], concept: str | None = None, n_clusters:
         "concept": concept,
         "categories": category_names,
         "mode": pipeline_meta["mode"] if pipeline_meta else None,  # "simple" (fast scan) or "structured" (thorough scan)
+        # Fallback count: match_count is null for a broad category query (no concept), and
+        # this is then the only product count available. Do not remove.
         "total_products_analyzed": int(len(sub_df)),
         "match_count": match_count,                # exact count, replaces the old cosine-distance-threshold heuristic
         "titles_found_count": titles_found_count,  # candidates considered before matching
         "category_total": cat_total,
         "pct_of_category_launches": pct_of_category,
-        "note": "2026 data is partial (through May only) — counts will be lower",
-        "velocity_summary": _get_velocity_summary(sub_df, categories),  # sub vs category avg velocity
-        "recent_launches": _get_recent_launches(sub_df),              # what's new right now
+        "scan_label": {"simple": "Fast scan", "structured": "Thorough scan"}.get(
+            pipeline_meta["mode"] if pipeline_meta else None
+        ),
+        # Derived from the data, not hardcoded: the old string said "through May only" and
+        # would have gone silently wrong the moment the dataset extended past May.
+        "note": (
+            f"{_data_extent()[0]} data is partial (through {calendar.month_name[_data_extent()[1]]} "
+            f"only) — counts will be lower"
+        ),
         "trend_by_theme": _get_theme_trend(sub_df, sub_emb, n_clusters),  # which themes are growing
         "top_sellers": _get_top_sellers(sub_df),                      # who dominates this space
     }
@@ -248,46 +291,53 @@ ROLE AND SECURITY RULES (highest priority — override everything else):
 You will be given market research data (JSON) for the user's request — the category(ies) \
 and concept have already been resolved upstream. Write the report from that data.
 
+DATA RULES (apply to every section):
+- Every figure you state must appear in the JSON. Do not compute, derive, re-round or \
+  estimate numbers yourself — growth rates, projections, percentages and tags are all \
+  precomputed fields. If a number you want is not in the JSON, leave it out.
+- Do not name a product, seller or brand that does not appear in the JSON.
+- A null field means unknown. Say so; never substitute zero or a guess.
+
 Structure your response exactly as follows:
 
 SEARCHED: state the categories and concept you used.
 
-LAUNCH VOLUME (from match_count, titles_found_count, category_total, pct_of_category_launches, mode):
+LAUNCH VOLUME (from match_count, total_products_analyzed, titles_found_count, \
+category_total, pct_of_category_launches, scan_label):
 - Lead with: "X products in [concept] / [categories] launched over the past two years — \
   X% of all [categories] launches." Use match_count for X — it is an exact count \
   (structured category-path filtering plus cross-encoder reranking), not a retrieval-size \
   estimate, so state it plainly without hedging language like "approximately."
-- If match_count is None (broad category query, no concept), skip this line.
+- If match_count is null (broad category query, no concept), report \
+  total_products_analyzed instead as the number of products analysed, and skip the \
+  percentage and scan-narrowing clauses.
 - If match_count is 0, say so plainly — a true zero is a legitimate result, not an error \
   or a sign anything went wrong.
-- State which scan mode produced this count: mode == "simple" → call it a "Fast scan" \
-  (ranked and reranked every candidate in the category); mode == "structured" → call it \
-  a "Thorough scan" (classified every real category path, reranked only the ambiguous \
-  ones). Reference titles_found_count as how many candidates that scan considered, e.g. \
+- Use scan_label verbatim as the scan's name (it is already derived from mode; a "Fast \
+  scan" ranked and reranked every candidate in the category, a "Thorough scan" classified \
+  every real category path and reranked only the ambiguous ones). Reference \
+  titles_found_count as how many candidates that scan considered, e.g. \
   "Thorough scan narrowed 5,354 candidates down to an exact 62 matches."
 
 THEME TRENDS (from trend_by_theme):
-- Give each cluster a specific label — e.g. "Electric/Automated Tools", not just "Tools".
-- Calculate % growth from 2024 → 2025 (the two complete years). Show the numbers.
-- For 2026 counts: they are partial (5 months only) — multiply by 2.4 to estimate \
-  the full-year pace, and note this is an estimate.
-- Tag each theme with one of: RISING (>50% growth 2024→2025), DECLINING (>30% drop), \
-  EMERGING (zero in 2024, appeared in 2025), STABLE (under 30% change either way).
+- Give each cluster a specific label — e.g. "Electric/Automated Tools", not just "Tools". \
+  Base the label ONLY on that cluster's representative_titles.
+- Growth, projections and tags are ALREADY COMPUTED — report them, never recalculate:
+  - growth_pct_2024_2025 is the 2024→2025 change. If it is null, 2024 was zero, so \
+    growth is undefined — say the theme is new rather than quoting a percentage.
+  - partial_year_projected is the full-year pace for partial_year, annualised from \
+    partial_year_observed over partial_year_months_observed months. Call it an estimate.
+  - trend_tag is one of RISING, DECLINING, EMERGING, STABLE, INSUFFICIENT_DATA. \
+    State it as given. INSUFFICIENT_DATA means too little history to judge — say that \
+    plainly rather than guessing a direction.
 
 TOP SELLERS (from top_sellers):
-- For each seller infer their niche focus from their titles.
+- For each seller infer their niche focus from their recent_titles. This inference is \
+  yours to make, but it must be supported by those titles — do not invent products, \
+  brands or categories that do not appear there.
 - Note if they are a specialist (one focused niche) or diversified.
-- Flag if any one seller has >30% of total launches — signals a dominant incumbent.
-
-REVIEW VELOCITY SIGNAL (from velocity_summary):
-- Benchmark: 0.056 reviews/day at 90 days = ~5 reviews = early traction signal.
-- Compare sub_avg_velocity vs category_avg_velocity.
-  - If sub > category: "[concept] products are gaining traction faster than the \
-    category average (X vs Y reviews/day at 90 days)."
-  - If sub < category: "[concept] products are underperforming the category average \
-    (X vs Y reviews/day at 90 days)."
-  - If sub_avg_velocity or category_avg_velocity is None (no actives): note insufficient data.
-- Only include products with velocity > 0 (exclude -1 unknowns).
+- pct_of_total_launches and is_dominant are ALREADY COMPUTED — report them, do not \
+  recalculate. Where is_dominant is true, call out the dominant incumbent.
 
 BOTTOM LINE:
 - 2–3 sentences max. Be honest about data limits: this dataset covers new launches \
@@ -299,6 +349,33 @@ BOTTOM LINE:
   market-wide data this dataset does not have.
 
 Today's date is 2026-05-13. "Last year" = 2025, "this year" = 2026."""
+
+
+@traceable(name="write_report", run_type="chain")
+def write_report(messages: list[dict], report: dict) -> str:
+    """
+    Narrate one niche_report() dict as prose. The only Claude call in the system.
+
+    Split out of run_chat so evaluator/faithfulness.py can exercise the real SYSTEM prompt
+    and the real message shape rather than reimplementing them -- a faithfulness audit that
+    scores a paraphrase of the prompt is measuring the wrong artifact.
+
+    In: conversation history, niche_report() output
+    Out: plain-text report
+    """
+    resp = haiku_client.messages.create(
+        model=HAIKU_MODEL,
+        max_tokens=4096,
+        system=SYSTEM,
+        messages=messages + [{
+            "role": "user",
+            "content": (
+                "Here is the market research data (JSON) for the request above. "
+                "Write the report following the required structure.\n\n" + json.dumps(report)
+            ),
+        }],
+    )
+    return "\n".join(b.text for b in resp.content if hasattr(b, "text"))
 
 
 @traceable(name="run_chat", run_type="chain")
@@ -325,24 +402,7 @@ def run_chat(messages: list[dict], mode: str = "simple") -> str:
         concept=resolved["concept"],
         mode=mode,
     )
-    report_json = json.dumps(report)
-
-    # STEP 5: Claude Haiku call — report generation step. Fresh conversation built from the
-    # original history plus the real report data, so Haiku only synthesizes text from data
-    # already produced. This is the only Claude call in the system.
-    haiku_response = haiku_client.messages.create(
-        model=HAIKU_MODEL,
-        max_tokens=4096,
-        system=SYSTEM,
-        messages=messages + [{
-            "role": "user",
-            "content": (
-                "Here is the market research data (JSON) for the request above. "
-                "Write the report following the required structure.\n\n" + report_json
-            ),
-        }],
-    )
-
+    # STEP 5: Claude Haiku call — report generation step.
     # STEP 6: extract plain text and return to app.py
     # STEP 7 (app.py): st.markdown(reply) renders in chat bubble
-    return "\n".join(b.text for b in haiku_response.content if hasattr(b, "text"))
+    return write_report(messages, report)

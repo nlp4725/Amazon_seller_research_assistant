@@ -12,10 +12,21 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Pre-download the sentence-transformer model so cold starts don't hit HuggingFace
-RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+# Pre-download both models so cold starts don't hit HuggingFace. The bi-encoder
+# embeds the query (src/shared/model_loader.py); the cross-encoder reranks
+# (query, title) pairs in the structured path (src/retrieval_pipeline/reranker.py).
+RUN python -c "from sentence_transformers import SentenceTransformer, CrossEncoder; \
+    SentenceTransformer('all-MiniLM-L6-v2'); \
+    CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2')"
 
 COPY . .
+
+# Fail loudly if the build context is missing either live store. .dockerignore
+# excludes data/ and re-includes just these two; a silent miss here would ship an
+# API that only fails at request time, on the first query.
+RUN test -s data/processed/preprocessed_reduced.parquet \
+    && test -n "$(ls -A data/raw/chroma_db)" \
+    || (echo "FATAL: live data stores missing from build context" >&2; exit 1)
 
 ENV OMP_NUM_THREADS=1
 ENV OPENBLAS_NUM_THREADS=1

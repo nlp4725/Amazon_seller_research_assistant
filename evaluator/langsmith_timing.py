@@ -41,6 +41,7 @@ import time
 from dotenv import load_dotenv
 from langsmith import Client
 
+from src.retrieval_pipeline.jev_scorer import JEV_PRICE_PER_INPUT_TOKEN
 from src.retrieval_pipeline.llm_client import PRICE_PER_TOKEN
 
 load_dotenv()
@@ -82,10 +83,20 @@ def _cache_read_tokens(run) -> int:
         return 0
 
 
+def _model_name(run) -> str:
+    try:
+        return run.extra["metadata"].get("ls_model_name") or ""
+    except (KeyError, TypeError, AttributeError):
+        return ""
+
+
 def _cost_for(run) -> float:
-    """$ cost for one LLM run's token usage, via llm_client's price table (see module docstring)."""
+    """$ cost for one LLM run's token usage, via llm_client's price table (see module docstring).
+    Jev runs (jev_scorer.py, CLASSIFIER_BACKEND=jev) bill input tokens only, at Jev's price."""
     prompt = run.prompt_tokens or 0
     completion = run.completion_tokens or 0
+    if _model_name(run).startswith("jev"):
+        return prompt * JEV_PRICE_PER_INPUT_TOKEN
     cache_hit = min(_cache_read_tokens(run), prompt)
     cache_miss = prompt - cache_hit
     return (

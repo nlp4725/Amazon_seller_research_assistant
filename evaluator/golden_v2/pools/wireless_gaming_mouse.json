@@ -1,0 +1,2495 @@
+{
+  "query": "wireless gaming mouse",
+  "definition": {
+    "definition": "A computer mouse that works wirelessly and is marketed for gaming.",
+    "include": [
+      "2.4 GHz",
+      "Bluetooth",
+      "dual-mode and tri-mode gaming mice"
+    ],
+    "exclude": [
+      "wired-only mice",
+      "non-gaming mice",
+      "keyboard + mouse combos",
+      "chargers/docks/mouse pads"
+    ],
+    "decide": [
+      "Keyboard + mouse combos do not count. Default: excluded"
+    ],
+    "keywords": [
+      "mouse|mice",
+      "gaming|esports|dpi|rgb",
+      "wireless|2\\.4 ?g|bluetooth|dual.?mode|tri.?mode|cordless"
+    ]
+  },
+  "sizes": {
+    "keyword": 16,
+    "embedding": 300,
+    "systems": 39
+  },
+  "pool_size": 301,
+  "candidates": [
+    {
+      "asin": "B0CC1MJVHW",
+      "title": "KVM Switch 3 Monitors 2 Computers, 8k Displayport Switch with USB 3.0, Jack, 2 Computers Share a Set of Keyboard, Mouse, Support Windows/Mac/Linux (Triple Monitor)",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CR6H459R",
+      "title": "KVM Switch 2 Monitors 4 Computers,HDMI 4k@60Hz KVM Switch with 4 USB 3.0 Port and 3.5mm Audio,4 Computers Share One Set of Leyboard, Mouse and Monitors,Supports Windows/Mac/Linux, Plug-and-Play",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CRM4Q1W1",
+      "title": "JLab JBuds Lux ANC Wireless Headphones, Graphite, Hybrid Active Noise Cancelling, Customizable Sound, Spatial Audio Compatible, Premium Over-Ear Bluetooth Headset",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Over-Ear Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CTCSSXXT",
+      "title": "BDXXJ Mini Personal Fan Handheld, Small Portable Handheld Fan, Battery Operated, USB Rechargeable Face Makeup Lashes Desk Fan with Base, for Kids, Girls, Women, Men, Indoor (Black+Black+Black)",
+      "category_path": "Home & Kitchen > Heating, Cooling & Air Quality > Household Fans > Personal Fans",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CYSJPTBP",
+      "title": "WAVLINK USB C Docking Station Dual Monitor, USB C Hub Laptop Triple Display, USB to 2 HDMI,DisplayPort, PD Charging,Ethernet,5 USB,SD/TF Card Reader,Audio for MacBook, Dell, HP, Lenovo, Surface",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Docking Stations",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZNCLNG5",
+      "title": "Contixo K102 10\" Kids Tablet Bundle - Wireless Kids Headphones, 32GB, Learning Educational Apps, Parental Controls, Dual Cameras, Shockproof Case with Kickstand & Stylus, Ages 3-7 - Purple",
+      "category_path": "Electronics > Computers & Accessories > Computers & Tablets > Tablets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D12T3PC4",
+      "title": "DONGFXK Custom Motorized Blinds with Remote, Blackout Cooling Automatic Shades with Solar Panel Cordless Smart Blinds for Windows, Custom Electric Blinds Horizontal Roller Shades,Black, Custom",
+      "category_path": "Home & Kitchen > Home Décor Products > Window Treatments > Blinds & Shades > Roller Shades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D1QVXF8Q",
+      "title": "Rechargeable Wireless Presenter Remote with Touch Screen Stylus Pen and Telescopic Pointer Stick, Presentation Clicker with Digital Display- Ideal for PowerPoint Presentations on MAC, PC, and Laptops",
+      "category_path": "Office Products > Office Electronics > Presentation Products > Presentation Remotes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D2RD36NM",
+      "title": "Barcode Scanner Industrial, Wireless 1D Laser Bar Code Scanners 2 in 1 Plug and Play Rugged Heavy Duty & IP65 Waterproof, Long-Distance Wireless Handheld Barcode Reader with 1.8\" Screen",
+      "category_path": "Office Products > Office Electronics > Point-of-Sale (POS) Equipment > Bar Code Scanners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3D5PDZR",
+      "title": "HDMI KVM Switch 1 Monitors 2 Computers, USB KVM Switches Sharing 4 USB, Support Wireless Keyboard and Mouse, Powered by USB, with 2 HDMI and 2 USB Cables…",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D45ZF7KW",
+      "title": "FIRSTBLOOD ONLY GAME. AJ139 Dual-Mode Gaming Mouse, 16000 DPI, 2.4G/Wired, 59g Ultra-Light, PAW3338 Sensor, 6 Programmable Buttons, Long Battery Life - for Office, Study & Everyday Gaming (White)",
+      "category_path": "Video Games > PC > Accessories > Gaming Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D4DDZTYJ",
+      "title": "COMICA EJoy Uni Pro Wireless USB Condenser Gaming for PC, PS4, PS5, USB C Phone and Mac, Boom Arm RGB Computer Mic for Twitch, Streaming, Podcasting, Noise Cancellation Mic with Mute, Gain, Monitoring",
+      "category_path": "Musical Instruments > Microphones & Accessories > Microphones > Condenser Microphones > Vocal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4Z8LWXC",
+      "title": "COMICA EJoy Uni USB Microphone for PC Gaming, Streaming, Podcast, YouTube, with Noise Cancellation, Mute, Gain, Monitoring - Condenser Mic for PS5, PS4, Mac, Computer (Boom Arm Mic) - White",
+      "category_path": "Musical Instruments > Microphones & Accessories > Microphones > Condenser Microphones > Vocal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5CPF5H7",
+      "title": "VIRGA CARE Undetectable Mouse Jiggler,Ultra-Thin & Silent Mouse Mover with Timer,Driver-Free Mouse Wiggler Device with ON/Off Switch,Breathing Light to Keeping The Computer Active",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5PSDK86",
+      "title": "Wzuicov Wireless & Wired Gaming Controller, Bluetooth / USB Dual Mode for iPhone, Android, Switch, Switch 2, PC, TV Box, Tesla, Apple Arcade & Android Games Ready, Includes 2 USB-C Cables & Adapter",
+      "category_path": "Cell Phones & Accessories > Accessories > Gaming Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5Y3H5J8",
+      "title": "AUSDOM 98Pro Wireless Mechanical Keyboard, Tri-Mode Hot-Swappable Gaming Keyboard with Bluetooth 5.0, Gasket Structure, Adjustable White Backlight, Linear Switches for Windows/Mac/PC (Clikcy Sound)",
+      "category_path": "Video Games > PC > Accessories > Gaming Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6B7CHV9",
+      "title": "【GIGASTONE】 Z70 64 GB 2 Pack USB 3.2 Gen1, USB Flash Drives, Reliable for PC and Mac, Waterproof Metal, Mini and Robust, USB 2.0/3.0/3.1 Interface Compatible",
+      "category_path": "Electronics > Computers & Accessories > Data Storage > USB Flash Drives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6B8V68W",
+      "title": "【GIGASTONE】 Z70 128 GB 2 Pack USB 3.2 Gen1, USB Flash Drives, Reliable for PC and Mac, Waterproof Metal, Mini and Robust, USB 2.0/3.0/3.1 Interface Compatible",
+      "category_path": "Electronics > Computers & Accessories > Data Storage > USB Flash Drives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6B9FBWS",
+      "title": "【GIGASTONE】 Z70 32 GB 2 Pack, USB 3.2 Gen1 USB Flash Drives, Reliable for PC and Mac, Waterproof Metal, Mini and Robust, USB 2.0/3.0/3.1 Interface Compatible",
+      "category_path": "Electronics > Computers & Accessories > Data Storage > USB Flash Drives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6BL59SC",
+      "title": "KPREPUBLIC BSun Rise Dream Switch RGB SMD Linear Switch Fantasy for Gaming Mechanical Keyboard 37g 42g PC Nylon POM Long Spring Pre Lubed (Bsun Rise Dream Switch X90)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6BLMKV3",
+      "title": "KPREPUBLIC BSun Rise Dream Switch RGB SMD Linear Switch Fantasy for Gaming Mechanical Keyboard 37g 42g PC Nylon POM Long Spring Pre Lubed (Bsun Rise Dream Switch X70)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6RCX7C1",
+      "title": "VIGMOJ LED Wireless Spotlights with Remote Up Lights Indoor Dimmable Picture Light Battery Operated with Timer, Rechargeable Spot Lights Accent Uplighting for Plant Wall Art Dartboard",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7PDXLHH",
+      "title": "keephifi ZS12 Pro X in Ear Monitor, 1DD 5BA HiFi Wired Gaming Earbuds, ZS10 Pro X Upgraded Version IEM Earphones Earbuds with 2Pin-C Detachable Cable for Musicians, Audífonos Gamer, Audiphile",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D86YR6ZJ",
+      "title": "G7mini Android MP3 Player with WiFi & Bluetooth, 3.4\" Touch Screen MP3 Player with Speaker, 1300mAh, Support Spotify/YouTube/Local Music, 80GB Portable Digital Audio Player for Travel/Gym",
+      "category_path": "Electronics > Portable Audio & Video > MP3 & MP4 Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9LNFLTF",
+      "title": "MOWUX Computer Keyboard Wired, Plug and Play USB Retro Round Typewriter Keyboard, Full Size Wired Keyboard with Foldable Stands for Laptop and Office PC- LED Backlit Black",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9M3JFGN",
+      "title": "Joso USB C Game Controller for Mobile Phone with Passthrough Charging, Hall Effect Joystick & Triggers Mobile Gamepad for iPhone 15/16/17 and Android Type-C Phones, Play COD Mobile/Fortnite/Cloud Gaming",
+      "category_path": "Cell Phones & Accessories > Accessories > Gaming Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9VX225T",
+      "title": "Wireless CarPlay Screen Android Auto for Car, 7\" Touch Screen Naivgation Portable Car Stereo CarPlay Bluetooth Mirror Link, Siri, AirPlay, AUX, Voice Assistant for All Vehicles Upgrade",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBQ9DMTP",
+      "title": "WATSAVPUP Kids Football Gloves Youth Silicone Grip Receiver Gloves with Super Stick Ability for Enhanced Game Experience for Beginners Youth Boys(Spider Blue,6-6.5inch), black, xlx-272",
+      "category_path": "Sports & Outdoors > Sports > Team Sports > Football > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBXXDFM7",
+      "title": "MAIRDI USB Headset with Microphone, PC Headset with Mic Noise Cancelling, Wired Computer Headset with Mute for Laptop Business Work Home Office Call Centers Teams Zoom Comfort",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DD7F9S8C",
+      "title": "NYXI Hyperion Pro Wireless Controller for Switch/Switch OLED, Switch Controller with Hall Effect Joystick, Programmable, 6-Axis Gyro, Turbo & Vibration",
+      "category_path": "Video Games > Nintendo Switch > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDSN4MJF",
+      "title": "WAVLINK USB C Docking Station Dual Monitor, USB Hub Laptop Triple Display, USB C to 2 HDMI,DisplayPort, PD Charging, Ethernet, 5 USB, SD/TF Read, Audio for MacBook Dell HP Lenovo Surface, Black",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Docking Stations",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DF4TJYDY",
+      "title": "WKX 2K Mini Goose-Neck Security Camera Wireless with Magnetic Mount, Built-in Hotspot & Battery, Color Night Vision, Motion Detection, Phone & PC Monitoring for Home Security (W-G2)",
+      "category_path": "Electronics > Camera & Photo > Video Surveillance > Surveillance Cameras > Hidden Cameras",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DFYD2QM5",
+      "title": "CODOGOY 10 in 1 Switch Sports Accessories Bundle with Carry Bag for Nintendo Switch Sports, Accessories Kit Compatible with Switch/Switch OLED Sports Games",
+      "category_path": "Video Games > Nintendo Switch > Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DG8JF1NW",
+      "title": "Gaming Headset with Microphone for Pc, Xbox One Series X/s, Ps4, Ps5, Switch, Stereo Wired Noise Cancelling Over-Ear Headphones with Mic, RGB, for Computer, Laptop, Mac, Nintendo (White)",
+      "category_path": "Video Games > PC > Accessories > Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHGJPXHP",
+      "title": "Rotibox Bluetooth Beanie with Light, Hat Wireless Headphone for Outdoor Sports Xmas Gifts Stocking Stuffers for Men, Women, Teens-Black/Drak Gray",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Accessories > Fishing Hats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHGQ4JHD",
+      "title": "kenke for iPad 11/10th Gen Case with Keyboard 11/10.9 inch 2025 A16/2022, Detachable Wireless Bluetooth Keyboard Case with Right Side Pencil Holder, Backlit Colored Round Keycaps (Dark Green)",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Bags, Cases & Sleeves > Keyboard Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHGTFQ7Z",
+      "title": "Miyoo Mini Plus Retro Gaming Console with Portable Case, Handheld Game Console with 3000mAh Battery 3.5'' IPS Screen, Compatible with a Large Variety of Classic Games. Support WiFi & RTC Gray",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHKL152R",
+      "title": "Matbip 2 Pack wireless controller for P4, wireless controller for p4/pro/slim/pc, with Non-Slip Grip, dual vibration, Turbo, type-c port (Midnight Black * 2)",
+      "category_path": "Video Games > PC > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHS36Y38",
+      "title": "Neckband Bluetooth Headphones with TF Card Slot,Wireless Bluetooth Earbuds w/Mic in-Ear Magnetic Neckband Earphone,160H Playtime,Stereo Magnetic Earbuds,Noise-Isolating Neck band for Sports/Trips/Run",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJ4FFP2W",
+      "title": "Miyoo Miyoo Mini Plus Retro Gaming Console, Handheld Game Console with 3000mAh Battery 3.5'' IPS Screen, Compatible with a Large Variety of Classic Games. Support WiFi & RTC, Black",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJCXR668",
+      "title": "【GIGASTONE】 Z70 256GB 2-Pack USB 3.2 Gen1, USB Flash Drives, Reliable for PC and Mac, Waterproof Metal, Mini and Robust, USB 2.0/3.0/3.1 Interface Compatible",
+      "category_path": "Electronics > Computers & Accessories > Data Storage > USB Flash Drives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJGGQC63",
+      "title": "FAAEAL in Ear Monitor Headphones,Voice Calls IEM Earphones,Dynamic Dual Driver Wired Earbuds with QDC-2PIN Detachable Cable for Gaming Live Streaming Studio Type-C Connector w/mic",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJKT8W8C",
+      "title": "Joso Mobile Gaming Controller (USB-C) - Plug & Play with Hall Effect Joystick/Triggers, 2 Back Buttons/3.5mm Audio Jack, for Cloud/PS/Xbox/PC Remote Play, Universal Phone Gamepad",
+      "category_path": "Cell Phones & Accessories > Accessories > Gaming Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJKWP4ZM",
+      "title": "Joso Mobile Gaming Controller (USB-C) - Plug & Play with Hall Effect Joystick/Triggers, 2 Back Buttons/3.5mm Audio Jack, for Cloud/PS/Xbox/PC Remote Play, Universal Phone Gamepad",
+      "category_path": "Cell Phones & Accessories > Accessories > Gaming Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK1NW5W9",
+      "title": "Wantek Headset wtih Mic, USB Headset with Microphone for PC, Computer Headset with Noise Canceling Microphone with Mute for Work Home Office Online Skype Zoom Meetings",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK5R1LPF",
+      "title": "Wireless Keyboard, Round Keycaps, Retro Typewriter Keyboard with Detachable Wrist Rest, Sleep Mode, Foldable Legs, 2.4GHz Full-Size Cordless Computer Keyboard for Windows/PC/Laptop (Colorful-Purple)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK6LLFN6",
+      "title": "KVM Switch 3 Monitors 2 Computers 8K@60Hz/4K@144Hz, HDMI Displayport KVM Switches for 2 PC Sharing Triple Monitor and Keyboard Mouse with Power Adapter, Wired Extend Controller and USB3.0 Cables",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DL8TY23J",
+      "title": "Nonbliep Wireless Controller for Xbox One, Xbox Series X/S, PC, with 6-Axis Motion Control/3.5mm Audio Jack/Multi Touch Pad/Programming with TURBO Macro Function Grey",
+      "category_path": "Electronics > Television & Video",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DMNCKQTN",
+      "title": "Spinning Disco Ball Light, Palujorty Dual Control Knobs for Brightness & Speed, USB/Battery Powered",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Disco Ball Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DNFJH2CX",
+      "title": "Wireless Headset with Mic for Work, Bluetooth Headset with Microphone (AI Noise Cancelling), 60 Hours Woktime Wireless Headphone for Work from Home/Call Center/Office/PC/Laptop/Computer/Zoom/Teams",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DNQ2DD43",
+      "title": "Cool White Tiger Gaming Mouse Pad Large Blue Floral Animal Aesthetic Mousepad Extended Desk Mat for Laptop Keyboard and Mouse Non-Slip Rubber Base Office Desk Accessories 35.4\" x 15.7\"",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP9PL9XH",
+      "title": "102W Surface Book 2 Charger - Fast Charging with USB Port for SurfaceBook 1, Book 2, Microsoft Surface Pro 3-9, Windows Surface Laptop 1-6, Surface Go Series",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Chargers & Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQ4Z5K3Q",
+      "title": "6PCS Mouse Birthday Tablecloth for Party 51''x87'' – Rectangle Disposable Table Cloth Mouse Party Decorations Kids Plastic Tablecovers 51x87 Inch Black and Red Plastic Tablecovers for Boys and Girls",
+      "category_path": "Home & Kitchen > Event & Party Supplies > Decorations > Tablecovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQ4ZR5GQ",
+      "title": "BOGAZNET 6PCS Mouse Birthday Tablecloth Pink 108''x54'' – Rectangle Disposable Table Cloth 108x54 Inch Girls Birthday Party Tablecovers Mouse Party Decorations Kids Pink Plastic Tablecovers for Girls",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQQ2Q88D",
+      "title": "WATSAVPUP Youth Football Gloves Kids Silicone Grip Sports Receiver Gloves with Super Stick Ability for Enhanced Game Experience Training for Beginners (Spider Blue, Youth XL(6.5-7 Inch))",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DR6QXNKV",
+      "title": "Retro Game Console with 620 Video Games,Classic Mini Game System with Wired Controller,HDMI and AV Output Plug and Play Video Games (Light Grey)",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DR8BZ517",
+      "title": "TECKNET Bluetooth Keyboard Rechargeable, 4-Device (2.4G+3BT) Wireless Keyboard, Ultra-Slim Quiet Typing, 14 Hotkeys Computer Keyboard for PC/Laptop/Smart TV/Tablet/iPad",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRF71N2M",
+      "title": "Minthouz 4K HDMI Splitter for Dual Monitors, DisplayLink Certified Dual Monitor Splitter, USB 3.1 to HDMI Adapter for Windows 10/11 & MacBook M1/M2/M3/M4, Support for Dell/HP/Lenovo/Surface Laptops",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Computer Cable Adapters > DVI-HDMI Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRYL1X2R",
+      "title": "Large Mouse Pad – Waterproof,Non-Slip,Scratch & Wear-Resistant,Irregular Edges,Smooth Surface,Machine Washable,31.5\"x11.8\" – Perfect for Office,Gaming,or Home Use,Hummingbird Flowers",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSDPNSXF",
+      "title": "ZMUIPNG USB C Docking Station Dual Monitor 15 in 1 Laptop Docking Station Triple Display USB C Hub Multiple Adapter Dongle with 4K HDMI+VGA+USB Port+Button+PD+Ethernet for Dell HP Thinkpad Surface",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Docking Stations",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DT6TY44R",
+      "title": "Attack Shark X65PRO HE Rapid Trigger Magnetic Mechanical Keyboard,60% Hot Swappable,Hall Effect Sensor,Adjustable Actuation,Tri-Mode RGB, 8KHz Polling Rate with Coiled Cable for MOBA/FPS/RTS-Red",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DT9D17BD",
+      "title": "BFUSHIONY Magnetic Bluetooth Speaker - 2 pcs G200 Magnetic Speakers, Mini Speaker Bluetooth Wireless with Phone Stand, RGB Light, 7H Playtime, Mini Speakers for Camping & Home, Gifts for Teens",
+      "category_path": "Electronics > Portable Audio & Video > Portable Speakers & Docks > Portable Bluetooth Speakers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DW8TYBM6",
+      "title": "kenke for iPad 11/10th Gen Case with Keyboard 11/10.9 inch 2025 A16/2022, Detachable Wireless Bluetooth with Left Side Pencil Holder, Multi-Touch Trackpad Square Gray Keycaps (Blue",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Bags, Cases & Sleeves > Keyboard Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DX6Q28NC",
+      "title": "KYOLLY RGB Gaming Laptop Cooling Pad with Two Turbo Fan, Rapid Cooling for 15.6-19.3\" Laptops, Variable Speed Control, 6 Adjustable Heights A5",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Cooling Pads & External Fans > Cooling Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DX77MN89",
+      "title": "INKBIRD Mini Wireless Meat Thermometer, Bluetooth 5.4,1000ft/305m Ultra Long Connection, 60 Min Offline Data Storage, IP67 Waterproof, White LED Display, Ideal for BBQ, Grill, and Smoker",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Thermometers & Timers > Meat",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXBNTWZG",
+      "title": "DOYO Gaming Steering Wheel and Pedals, 180° PC Racing Wheel with Paddle Shifters for PS3, Playstation 3, Switch, PS4 - Plug and Play, Height and Tilt Adjustable",
+      "category_path": "Video Games > PC > Accessories > Controllers > Racing Wheels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXTG8K56",
+      "title": "Redragon Wireless Gaming Keyboard, Bluetooth/2.4GHz/USB-C Wired, RGB Backlit, Portable 75% Mini Quiet Macro Membrane Keyboard, Rechargeable 4000mAh Battery, Anti-Ghosting for Win/MAC",
+      "category_path": "Video Games > PC > Accessories > Gaming Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DY7F81QS",
+      "title": "Compatible Wireless Apple CarPlay Android Auto Car Screen, Dual Camera 9 Inch 1080P Touch Screen Car Stereo Music Video Player Naivgation Bluetooth Mirror Link, Siri, AirPlay, AUX, Voice Assistant",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Digital Media Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DY7GDCGP",
+      "title": "Wireless CarPlay Android Auto Car Screen, 720P Backup Camera 7″ Touch Screen Car Music Video Player Portable GPS Naivgation Bluetooth Mirror Link, Siri, AirPlay, Voice Assistant",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Digital Media Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYDHY46F",
+      "title": "HOUHUI RF Touch Panel RGB LED Controller Kit, RGB LED Strip Lights Controller with RF Wireless Remote, Dimmable Wall-Mounted Touch Panel Controller for 5V 12V 24V 4-PIN 5050 2835 3535 Light Strips COB",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > LED Strip Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYJH9DDW",
+      "title": "CIBAIL USB Desk Fan with Timer - 8 Inch Small Portable Table Desktop Fans with Strong Wind Ultra Quiet 3 Speeds and 180°Tilt Folding,Mini Personal Cooling Essentials",
+      "category_path": "Home & Kitchen > Heating, Cooling & Air Quality > Household Fans > Personal Fans",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYN9F174",
+      "title": "SOPPY Portable Bluetooth Keyboard and Mouse with Backlight, Rechargeable Mini Keyboard for Travel, Wireless, for iPad/Samsung Tab/Lenovo Tab/iOS/Android/Windows, US Layout (White)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboard & Mouse Combos",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYNH9T8D",
+      "title": "SOPPY Portable Bluetooth Keyboard and Mouse, Rechargeable and Mini Keyboard for Travel, Wireless,for iPad 9.7/iPad 10.2/iPad Air/Pro/Samsung Tab/Lenovo Tab/iOS/Android/Windows, US Layout (Pink)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboard & Mouse Combos",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYNHTWTH",
+      "title": "SOPPY Portable Bluetooth Keyboard and Mouse, Rechargeable and Mini Keyboard for Travel, Wireless,for iPad 9.7/iPad 10.2/iPad Air/Pro/Samsung Tab/Lenovo Tab/iOS/Android/Windows, US Layout (White)",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Bags, Cases & Sleeves > Keyboard Cases",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYNJZ54W",
+      "title": "10.5''Portable Monitor for latop ,2K FHD 60HZ Laptop Monitor Screen,USB-C and HDMI Inputs, Ultra-Slim IPS Panel with HDR and Premium Smart Cover & Speakers for Laptop,PC,Phone,PS4/5,Switch,Mac,Xbox",
+      "category_path": "Electronics > Computers & Accessories > Monitors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYNMDC1L",
+      "title": "SOPPY Backlit Bluetooth Keyboard with Touchpad, Portable Rechargeable Keyboard for Travel, Wireless, for iPad/Samsung Tab/Lenovo Tab/iOS/Android/Windows, US Layout (Black)",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Bags, Cases & Sleeves > Keyboard Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYNPJDYT",
+      "title": "USB C Laptop Docking Station Dual Monitor, 11 in 1 Vertical Dock with 2 HDMI 4K, 3 USB A/C 10Gbps, 2USB-A 5Gbps, USB A 2.0, Ethernet, Docking Station Stand for Type-C Laptops - Black",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Docking Stations",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYNSBWHB",
+      "title": "SOPPY Portable Bluetooth Keyboard and Mouse with Backlight, Rechargeable Mini Keyboard for Travel, Wireless, for iPad/Samsung Tab/Lenovo Tab/iOS/Android/Windows, US Layout (Pink)",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Bags, Cases & Sleeves > Keyboard Cases",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYNXK3SS",
+      "title": "SOPPY Portable Bluetooth Keyboard and Mouse, Rechargeable and Mini Keyboard for Travel, Wireless,for iPad 9.7/iPad 10.2/iPad Air/Pro/Samsung Tab/Lenovo Tab/iOS/Android/Windows, US Layout (Black)",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Bags, Cases & Sleeves > Keyboard Cases",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DZ6KZ6P5",
+      "title": "Mouse Pad with Magnetic Wireless Charging, Large Desk Pad Protector, RGB Black Mousepad Desk Mat with 15W Fast Charger, 4mm Thick Non-Slip, Waterproof Laptop Writing Pad for Office, Home, Gaming",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZCQLQPB",
+      "title": "HUO JI Silent Wireless Keyboard and Mouse Combo, 2.4G Full-Size Thin Computer Keyboard Set, Quiet and Soft Ergonomic Wireless Keyboard Mouse for Windows, Laptop/PC/PS/Mac Desktop, Black",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DZGNRVJW",
+      "title": "AIRWEE XXL Gaming Mouse Pad Set, 31.5\"x11.8\" Large Desk Mat with Keyboard Wrist Rest and Mouse Wrist Cushion, Ergonomic Office Mouse Pad for Home & Work Non-Slip Extended Desk Pad, Cute Flowers Cat",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZGPCTTP",
+      "title": "Gaming Mouse Pad Set with Wrist Support, 31.5\"x11.8\" Large Non-Slip Desk Mat, Ergonomic Keyboard Wrist Rest & Mouse Pad, Memory Foam Cushion Comfort & Precision for Gaming Office, Waterfall Wolf",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZH4DZBC",
+      "title": "AIRWEE XXL Gaming Mouse Pad Set, 31.5\"x11.8\" Large Desk Mat with Keyboard Wrist Rest and Mouse Wrist Cushion, Ergonomic Office Mouse Pad for Home & Work Non-Slip Extended Desk Pad, Beautiful Mushrooms",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F13P6GDB",
+      "title": "Wireless Gaming Headset for Nintendo Switch丨OLED丨Lite,2.4Ghz USB & Type-C， Bluetooth 5.4 Gaming Headphones with Noise Cancelling Microphone, 40Hr Battery, for PS5, PS4, PC, Mac, Laptop, Grey",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F18Y1Q52",
+      "title": "NewQ 140W USB C Hub, 4K@60Hz HDMI Dock, USBA 3.2, USBC 3.2, Gigabit Ethernet, PD-in 140W, 300mbps SD TF 4.0 Slot, Compatible w/Thunderbolt 3/4/5, Docking Station for MacBook, Windows, Chromebook",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Hubs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1MTFCF9",
+      "title": "YOUGO LEE Video Capture Card with 100W PD Charging, USB-C to USB-C, 4K 60Hz Input to 1080P 60FPS Game Capture Link for iPhone 17/16, iPad, Switch, Steam Deck, Quest 3, PS4/5, Aluminum Case",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > Internal Components > Internal TV Tuner & Capture Cards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1MVQFNL",
+      "title": "YOUGO LEE Video Capture Card with 100W PD Fast Charging, 4K 60Hz Input to 1080P 60FPS, HDMI to USB C/A, Best for Switch2/1 Steam Deck PS5 iPad & Quest 3, Pro OBS Streaming",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > Internal Components > Internal TV Tuner & Capture Cards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1T2MP6C",
+      "title": "kokit 5'' Video Baby Monitor with Camera and Audio,36-Hrs Battery Life,HD Camera Remote Pan Tilt 3X Zoom,Long Range Baby Monitor No WiFi,Night Vision,Portable,2-Way Talk,VOX-Saving Power IPS Screen",
+      "category_path": "Baby Products > Safety > Monitors > Video Monitors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1TK5XNW",
+      "title": "NCGGY USB A to TOSLINK Optical Audio Adapter,Unidirectional USB Type A to SPDIF Digital Converter Compatible with Windows/Laptop PC ONLY,(NOT for TV Or Other Devices)",
+      "category_path": "Electronics > Home Audio > Home Audio Accessories > Digital-Analog Converters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F211RH28",
+      "title": "SABLUTE Wireless Keyboard, Round Keycaps, Retro Typewriter Keyboard with Detachable Wrist Rest, Sleep Mode, Foldable Legs, 2.4GHz Full-Size Cordless Computer Keyboard for Windows/PC/Laptop",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F212KJWH",
+      "title": "Wireless Keyboard, Round Keycaps, Retro Typewriter Keyboard with Detachable Wrist Rest, Sleep Mode, Foldable Legs, 2.4GHz Full-size Cordless Computer Keyboard for Windows/PC/Laptop (Burgundy Colors)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F21FMFCX",
+      "title": "SEUNKWANG EWEADN G5 Wired Gaming Mouse, Ergonomic RGB Computer Mouse, 12800 Adjustable DPI, 9 Programmable Macro Buttons with Rapid Fire Key Compatible for PC/Laptop/Windows-Pink",
+      "category_path": "Video Games > PC > Accessories > Gaming Mice",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F2SJ366G",
+      "title": "Synido USB C MIDI Keyboard Controller 25 Keys with 8 Backlit Drum Pads, OLED Screen, Portable MINI MIDI Keyboard for Music Production – Purple, TempoKEY K25",
+      "category_path": "Musical Instruments > Studio Recording Equipment > Computer Recording > MIDI Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F43NR235",
+      "title": "Wireless Gaming Keyboard with knob and Mouse Combo USB Dongle 2.4G Rechargeable 3000mAH Battery RGB Backlit Stainless Panel 4200DPI Side Button Mice for PC Laptop Compatible with Windows 8/9/10 MacOS",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboard & Mouse Combos",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F48JSDGX",
+      "title": "HDMI to USB C Adapter(4K@60Hz), Compatible with XREAL/Rayneo Air/VITURE/Rokid AR Glasses, Steam Deck, ROG Ally, PS5/4, Switch2/1, Laptop, Portable Monitor - Plug & Play (Blue)",
+      "category_path": "Electronics > Home Audio > Home Audio Accessories > Connectors & Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F4MRL1D5",
+      "title": "YQSAVIOR Android 15 Tablet with Keyboard, 10 inch Tablets with case, 8GB+64GB/1TB Expand, 2.4G+5G+Wi-Fi 6, 6000 mAh, BT, GMS, Games, 8MP Camera (Black)",
+      "category_path": "Electronics > Computers & Accessories > Computers & Tablets > Tablets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F52Y5G1Y",
+      "title": "Wizcave Steel Wool Mice Control - 3 Pack Steel Wool 0000 & 1 Pack Wire Mesh with Wooden Stick & Gloves & Scissors, Mouse Hole Filler for House & Garden, Fine SteelWool for Polishing Chrome, Glass",
+      "category_path": "Industrial & Scientific > Abrasive & Finishing Products > Finishing Products > Manual Sanding Products > Steel Wool",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F532RGDV",
+      "title": "Enadvd Controller for Switch Controller, Switch Wireless Controllers Compatible with Switch/Lite/OLED, Support Motion Control/Wake-up/Dual Vibration (WHITE)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F548LHX3",
+      "title": "NUROUM HP31S(2nd Gen) Single Ear Wireless Headset with Mic, Bluetooth Headset with Noise Cancelling Microphones, Charging Stand, One Ear, Multi-Point/Mute, 45H Playback for Trucker/Call Center/Office",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5GXT1MX",
+      "title": "Voistek Wireless Headset with Mic for Work,Bluetooth Headset with Noise Canceling Microphone & Dongle,Charging Base & Mic Mute for Work from Home/Office/PC/Laptop/Computer/Cellphone",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5PW72W1",
+      "title": "ZefcS 15.6 Inch Portable Monitor FHD 1080P IPS Display with USB C and HDMI Ultra Slim Travel Screen Extender for Laptop and Gaming",
+      "category_path": "Electronics > Computers & Accessories > Monitors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5QBCRYN",
+      "title": "MEETION Wireless Keyboard and Mouse White, 2.4G USB Receiver Plug-and-Play, Computer Keyboard with Wrist Support, 3 Level DPI Mouse, Long Time Lasting Battery for PC/Mac/Windows/Laptop, White",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboard & Mouse Combos",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F5WVR153",
+      "title": "Joso Mobile Gaming Controller - Wireless Controller Support Phone Case with Hall Effect Joystick/Triggers, 2 Back Buttons, for Cloud/PS/Xbox/PC Remote Play, Universal Phone Gamepad",
+      "category_path": "Cell Phones & Accessories > Accessories > Gaming Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F61TDGLZ",
+      "title": "Wireless CarPlay Adapter for iPhone,Mini USB Design,2026 Upgrade with Built-in Wired for Apple CarPlay Plug and Play Fast Stable Connection Car Play for iPhone & Android (ZS01)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F62ZXK8Y",
+      "title": "FXIANGWL Patterned Gaming Playmat Compatible with MTG, Compact Card Game Mat with Stitched Edges, Natural Rubber Desk Pad with Transparent Drawstring Bag, 23.6 x 13.7 Inch, Dragon Purple Blue Glowin",
+      "category_path": "Toys & Games > Games & Accessories > Game Accessories > Game Mats & Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6CP59B5",
+      "title": "8K@60Hz KVM Switch 1 Monitors 2 Computers - 8K Hd Mi KVM Switcher for Two Computers with 4 USB 3.0 A/C Port Share One Monitor Keyboard Mouse Printer U-Drive, with EDID Adaptive and 2*USB Cables",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F6CPQQ9C",
+      "title": "USB Switcher 2 Computers Sharing - 5Gbps USB 3.0 Switch Share 4 Port Devices, Plug and Play, Aluminum USB3.0 Switch Selector 2 PCs Share Keyboard Mouse Printer Scanner with One Button",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F6JDKLMW",
+      "title": "USB C to Dual HDMI Adapter, Dual Monitors Adapter USB C Hub with 2 HDMI Docking Station 4K @60hz for Laptop HP Dell Surface Thinkpad…",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Docking Stations",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6K4CL6K",
+      "title": "Racfenick 28 Inch Gaming Desk Office Chair Base with Casters Replacement-Heavy Duty Metal Leg for Swivel Gaming Chair",
+      "category_path": "Home & Kitchen > Furniture > Home Office Furniture > Home Office Chairs > Home Office Desk Chairs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6MHPRYM",
+      "title": "PRT Tattoo Stencil Printer Wireless with 10pcs Transfer Paper, Portable Thermal Tattoo Printers for Tattoo Artists & Beginners, Compatible with Phone& Tablet& PC, Black",
+      "category_path": "Electronics > Computers & Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6T5TVPZ",
+      "title": "Wireless Carplay Adapter for iPhone, Apple Carplay Wireless Adapter 2025,Plug and Play, Fast & Stable Fit for Cars 2016 & iOS 10+",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Wireless Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8B9JQ74",
+      "title": "Speakers Bluetooth Wireless- 120dB Loud Sound, Dynamic 8 LED Lights, 5 RGB Modes, Bluetooth 5.3, TWS/USB/TF/AUX/FM/Mic Input, Built-in Handle, Portable Party Speaker for Home, Outdoor, Camping (RGB)",
+      "category_path": "Electronics > Portable Audio & Video > Portable Speakers & Docks > Portable Bluetooth Speakers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8C1RK62",
+      "title": "Wired Rainbow LED Backlit Keyboard and Mouse Combo,USB Lighted Computer Keyboards,Quiet Input Keyboard and Mouse for PC, Windows, Laptop,Office and Game",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboard & Mouse Combos",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F8J4R2NP",
+      "title": "Gugxiom 2-in-1 Fingerprint Sensor & Wireless Mouse, Fingerprint Sensor for Windows 7, 8, 10, 11 Hello – Supports up to 20 IDs, 2.4 GHz with USB Unifying Receiver Bluetooth 5.0 Mouse (Gray)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Mice",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F8N7MMF2",
+      "title": "8K@60Hz Displayport KVM Switch 2 Monitors 2 Computers USB 3.0, 4K@240Hz KVM Switch Displayport with 3 USB 3.0 Ports Sharing Keyboard and Mouse, Printer/Scanner, Desktop Controller",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F8R43CKK",
+      "title": "Wireless Earbuds, Earphones Wireless Bluetooth 5.4 In Ear Headphones, 40H Hifi Sound ANC Noise Canceling Earbuds, Touch Screen Ear Buds Multifunctional Headsets for Android/IOS Work Gym Sports (Black)",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93MYNLC",
+      "title": "Wireless CarPlay Android Auto Car Screen, 7 Inch HD Bluetooth AirPlay Touch Screen Protable Car Stereo Naivgation Music Video Player Mirrorring, Siri, AUX, Voice Assistant",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Digital Media Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9FC6D7V",
+      "title": "Wireless HDMI Transmitter and Receiver,500m(1640ft) Wireless HDMI Extender with Loop Out, 5.8GHz 1080P for Streaming from DSLR,Laptop,Netflix,YouTube to TV/Projector, Up to 6 RXs (DT263W-C RX ONLY)",
+      "category_path": "Electronics > Television & Video > AV Receivers & Amplifiers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9NHV118",
+      "title": "MeowNova 1080P Cat Camera Collar - Wireless Mini Sport Cam with Video Recording, Small Action Camera for Pet Supplies, Indoor/Outdoor Body Cam for Cats（White）",
+      "category_path": "Electronics > Camera & Photo > Video > Sports & Action Video Cameras",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9W3KF2N",
+      "title": "Mouse Costume Set, 4Pcs Mouse Costumes Accessories - Animal Ears Headband with Bow, Gloves, Nose and Polka Dots Tutu, Halloween Cosplay Birthday Party Fancy Dress Up, Red, Small Size",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Dress-Up Accessories > Headwear > Hats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FB8GPH1R",
+      "title": "Joso Wired One Ear Headset with Mic, Single Ear Headset for PS5/PS4/Xbox/Switch/PC/iPad/Mac/Tablet with 3.5mm to Type C & USB-A Adapter - Office Business, Remote Work, Coach, Gaming, Chat Headphone",
+      "category_path": "Video Games > PlayStation 4 > Accessories > Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FB8RKCP6",
+      "title": "Pupgsis Gaming Audio Mixer, Audio Interface for pc,1/4\" TRS Dynamic Mic interface,Sound Board With voice changer, Pro-Preamp, Noise Cancellation, RGB, Bluetooth For Streaming/Podcasting/Gaming",
+      "category_path": "Musical Instruments > Studio Recording Equipment > Mixers & Accessories > Mixers > Unpowered",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC1P8KFJ",
+      "title": "NETRCO 2-in-1 Interactive Dog Ball Toy for Aggressive Chewers, Automatic Moving & Bouncing E-TPU Dog Ball, Smart Pet Toy with Motion Sensor, USB-C Rechargeable Enrichment Toy for Dogs (Blue)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC288C18",
+      "title": "KD.FLY Metal Thumbsticks & Back Paddles for PS5 Edge Controller Joystick Replacement, Custom Analog Thumb Sticks Caps for PS5 Dual Sense Edge Stick Module, 2 Joystick, 4 Back Buttons, Sacred Geometry",
+      "category_path": "Video Games > PlayStation 5 > Accessories > Accessory Kits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCDLSLK1",
+      "title": "Krisnorey 2-in-1 Wi-Fi 6 Bluetooth 5.4 USB Adapter for PC Laptop, AX900Mbps 2.4G/5GHz Wireless WiFi Network Dongle Pre-Installed Driver for Windows 11 10 Desktop, Plug n Pair Headset, Keyboard, Mice",
+      "category_path": "Electronics > Computers & Accessories > Networking Products > Network Adapters > Bluetooth Network Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCLXYQV6",
+      "title": "JEMDO Switch 2 Dock Station HDMI Cable,4K@60Hz 18Gbps USB C to HDMI2.0 6.6ft,100W PD,Braided Nylon,Portable Travel TV Adapter Compatible with Nintendo Switch 2(Only Below V21.0.0)/2017/OLED",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDG55BPG",
+      "title": "Redragon Wireless Gaming Keyboard and Mouse Combo, Bluetooth/2.4G/USB-C Wired, RGB Backlit, 75% Portable Quiet Rechargeable Macro Membrane Keyboard & 12800 DPI Mouse with Software for Win/MAC",
+      "category_path": "Video Games > PC > Accessories > Gaming Keyboards",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDK2BYWV",
+      "title": "Stylus Pen for HP Omnibook, Digital Pen for HP Envy Pavilion Specter x360 Touch Screen Devices Rechargeable MPP 2.0 Tilt with 4096 Pressure Sensitivity Palm Rejection, Fast Charging",
+      "category_path": "Cell Phones & Accessories > Accessories > Stylus Pens",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQWV32Q",
+      "title": "Kopplvn Rodent Repellent, Mice Repellent Indoor, Mouse Repellents Outdoor, Peppermint to Repel Mice and Rats, Mouse Deterrent, Rat Repellant for House, Mice Control for Car/Garage-5P",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDVGC7ZX",
+      "title": "JACEPFY Desktop Wireless Charger, Pop Up 15W Fast Retractable Desktop Charger, Invisible Wireless Charging Station with USB A and Type C Ports, Recessed Desktop Charging for Desk, Furniture - Black",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Wireless Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDW2LZ6Y",
+      "title": "Mental Health Matters Round Mouse Pad Flower Human Brain Non-Slip Gaming Rubber Base Mousepad 7.8x7.8 Inch for Computer Laptop Home Desk Decor Therapy Office Psychology Therapist Gift",
+      "category_path": "Electronics > Computers & Accessories",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FDWKZWWG",
+      "title": "Ememotions Zone Table Mouse Pad Mental Health Non-Slip Gaming Rubber Base Mousepad for Computer Laptop Home Desk Decor Therapy Office Psychology Therapist Gift 10x12 Inch",
+      "category_path": "Electronics > Computers & Accessories",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FFN2NDNW",
+      "title": "FVYAO Wearable Bluetooth Speakers, Mini Speakers with Built-in Mic, 6W Clip-On Small Speaker, Stereo Pairing Magnetic Speaker, Bluetooth 6.0 Outdoor Portable Speakers Wireless for Work, Golf, Running",
+      "category_path": "Electronics > Portable Audio & Video > Portable Speakers & Docks > Portable Bluetooth Speakers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFT946DK",
+      "title": "ACEBOTT Wireless Controller for Micro:bit Kit, STEM Kit Coding Robot kit Compatible With Makecode, Remote Control for Programming Learning, Gifts for Kids and Teens(Included Micro:Bit)",
+      "category_path": "Toys & Games > Kids' Electronics",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFZPW4PV",
+      "title": "Msaose Braided Long Thunderbolt 5 Cable 10FT 2Pack Compatible, 8K@60Hz, 4K@144Hz, 40Gbps, 240W PD for Thunderbolt 4, Mac mini M4 / M4 Pro, Razer Blade, MacBook M4 Pro, iPhone 17, USB4",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Cables & Accessories > Cables & Interconnects > Thunderbolt Cables",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG6JNWBS",
+      "title": "Redragon K521KS Wireless Gaming Keyboard, Tri-Mode BT/2.4G/USB-C RGB Mechanical Feeling Keyboard with Multimedia Keys, 4000mAh Battery, Anti-Ghosting, Compatible with PC - Upgrade",
+      "category_path": "Video Games > PC > Accessories > Gaming Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG6QLP9X",
+      "title": "Alondy Double Din Car Stereo with 7\" Touchscreen Compatible with [Wireless] Apple CarPlay Android Auto Bluetooth AM/FM Radio USB (Fast Charge 3A) Backup Camera",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG7M7PC7",
+      "title": "Kopplvn Rodent Repellent, Mouse Repellent, Mice Repellent Indoor, Rat Repellent, Mouse Deterrent for Car, Peppermint Balls for Mice, Keep Mice Out of Garage, Moth Balls for Outdoor Use-10Pcs",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGDGCGKR",
+      "title": "Mini MP3 Player with Bluetooth 5.3, 64GB Portable Music Player with Sports Clip, OTG Function, Mp3 Player NO Screen for Running/Cycling/Exercise-Student, Kid (White)",
+      "category_path": "Electronics > Portable Audio & Video > MP3 & MP4 Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH2LL2N8",
+      "title": "HIFI WALKER Android MP3 Player with Bluetooth and WiFi, Portable Music Player with Spotify, 4\" Touch Display MP4, 80GB Storage, Bluetooth 5.0, Hi-Res Audio, 1080p Video, White",
+      "category_path": "Electronics > Portable Audio & Video > MP3 & MP4 Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH2T5TZ3",
+      "title": "Wireless CarPlay Adapter for Apple iPhone， Mini car Play Android Auto Adapter，Converts Wired to Wireless CarPlay ， Multi-User Plug & Play Dongle No Latency，for iOS 10+&Android 11 (Black)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH3YWMYH",
+      "title": "SOPPY Mini Bluetooth Keyboard and Mouse with Backlight, Rechargeable Portable for Travel, Wireless, for iPad/Samsung Tab/Lenovo Tab/iOS/Android/Windows, US Layout (Grey+Black)",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Bags, Cases & Sleeves > Keyboard Cases",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FH9LNFBQ",
+      "title": "ZOPPLM Wireless Mini Microphone for iPhone - Lavalier Bluetooth Microphone for Video Recording, 2 Pack Noise Reduction Clip on Mini Lapel Mic for Tiktok YouTube Vlog Lives Podcast(iPhone 15+/Android)",
+      "category_path": "Musical Instruments > Microphones & Accessories > Accessories > Bags & Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHGGH2LM",
+      "title": "KKANDPP Desk Fans for Bedroom,Quiet Wall-Mounted Desk Fan with Remote,Portable Colored LED Light 100 Speed Digital Display USB Rechargeable Fan for Home Office Bedroom Camping Traveling(Grey)",
+      "category_path": "Home & Kitchen > Heating, Cooling & Air Quality > Household Fans > Table Fans",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHGQWDGW",
+      "title": "KKANDPP Desk Fans for Bedroom,Quiet Wall-Mounted Desk Fan with Remote,Portable Colored LED Light 100 Speed Digital Display USB Rechargeable Fan for Home Office Bedroom Camping Traveling(White)",
+      "category_path": "Home & Kitchen > Heating, Cooling & Air Quality > Household Fans > Table Fans",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHH8BG5T",
+      "title": "biaze Wireless HDMI Transmitter and Receiver 328FT/100M, Plug & Play Portable 5G+2.4G Extender 4K Decode Input 1080P@60Hz Output for Video and Audio to Monitor from PC/Projector/TV Box",
+      "category_path": "Electronics > Television & Video > AV Receivers & Amplifiers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHWF34XJ",
+      "title": "Wireless Headphones for TV Watching, TV Headphones Wireless for Seniors with Transmitter Charging Base, No Audio Delay Blutooth 5.4, Over Ear Headset with 3 Audio Modes, Gifts for Parents/Elderly",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Over-Ear Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJDT59MR",
+      "title": "MAMBASNAKE x Attack SHRAK X8ULTRA Wireless Gaming Mouse with 42000 DPI, 3950MAX Sensor, 55g Large Hand Mouse with 8K Hz Polling Rate, Nordic52840, Tri-Mode 2.4Ghz/Type-C/BT5.0 for PC/Mac/Linux, Black",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJDT5PV9",
+      "title": "MAMBASNAKE x Attack SHRAK X8ULTRA Wireless Gaming Mouse with 42000 DPI,3950MAX Sensor,55g Lightweight Big Hand Ergonomic Mouse,8K Hz Polling Rate,Nordic52840,Tri-Mode 2.4Ghz/Type-C/BT(Black&Tape)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJF566SR",
+      "title": "TRANSNOVO Charging Grip Compatible with Nintendo Switch 2 Joy-Con (2025), Ergonomic Controller Charger Grip Handle with 1400 mAh Built-in Battery, Magnet Lock, LED Indicator, Play & Charge While Gaming",
+      "category_path": "Video Games > Nintendo Switch 2 > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJF6BGSV",
+      "title": "TRANSNOVO Charging Grip Compatible with Nintendo Switch 2 Joycons (2025), Magnetic Grip Controller for Switch 2 with USB C Cable & LED Indicator, Ergonomic Controller Handle Set for Travel-Ready",
+      "category_path": "Video Games > Nintendo Switch 2 > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJL1TXRY",
+      "title": "Solid Wooden Headphone Holder with Fast Wireless Charging Pad, Universal Headset Stand for Gaming Desk, Headphone Rack​ Wireless Charger Compatible with iPhone Samsung with QI Function (White",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Wireless Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJRS6DY6",
+      "title": "Kopplvn Rodent Repellent, Mouse Repellent, Mice Repellant Indoor, Rat Deterrent, Keep Mice Out of Garage/Car/Shed/Cabin, Peppermint Balls for Outdoor Use, Safe and Easy-4Pcs",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FK4TZJRW",
+      "title": "Wireless PC Controller with Hall Effect Joysticks & Triggers, 1000Hz Polling Rate, Trigger Locks, Bluetooth Pro Gaming Controller for PC/Steam/Luna/Tesla - 4 Macros and Turbo, Dynamic RGB, Silver",
+      "category_path": "Video Games > PC > Accessories > Controllers > Gamepads & Standard Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKLX416M",
+      "title": "JIAMQISHI Wireless Headset with Mic for Work, Clear Call, Bluetooth 5.2 Headphones with USB Dongle & Mic Mute Function, Special Charging Base, Applicable to PC, Laptop, Phone, Android, Zoom, Office",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKMLPZB3",
+      "title": "Wireless HDMI Transmitter and Receiver 100FT/30M, 4K Decode 1080P Output, Plug & Play Portable 2.4G/5G Wireless HDMI Extender Kit for Laptop, Desktop, PC, TV Box, PS5/4 to Monitor, Projector, or HDTV",
+      "category_path": "Electronics > Television & Video > AV Receivers & Amplifiers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKMVHYCH",
+      "title": "GAMSINGY Wireless PC Gaming Controller -RGB Lightning Pro Gamepad for Windows PC, Switch, Switch 2, Android & iOS, with Programmable Back Buttons, Turbo, 1000mAh Battery & Stand (2.4G/USB-C/Bluetooth)",
+      "category_path": "Video Games > PC > Accessories > Controllers",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSWT8KB",
+      "title": "GOOZEEZOO Si4732 ATS Mini Radio Pocket Radio-AM/FM/LSB/USB/CW/RTTY All Band Radio Receiver, Built-in Headphone Amplifier and Hi-Z Circuit and Robust ESD Antenna Protection (Transparent)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDBVWRG",
+      "title": "Wireless PC Gaming Controller - Enhanced Wireless Blue-tooth Controller with Hall Joysticks & 1000mAh Battery-Game Controller Work for Android/iOS/Steam and Switch 2/1 with Turbo Controller with Programmable",
+      "category_path": "Video Games > Mac > Accessories > Controllers > Gamepads & Standard Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLPXX7M6",
+      "title": "USB A Earbuds with Microphone Mute Button PC Laptop Headphones, 3 EQ Music Mode 7.5FT Tangle-Free Long Cord Corded Lightweight Small in Ear Buds Wired Computer Earphones Wire for School Online Classes",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLXNYW7F",
+      "title": "Portable Bluetooth-Compatible CD Player: Hi-Fi Sound, Wireless & Wired Playback, Rechargeable Battery, Compact & Lightweight for Travel,Home,Car (Black)",
+      "category_path": "Electronics > Portable Audio & Video > Portable CD Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLXRGH6V",
+      "title": "Portable Bluetooth-Compatible CD Player: Hi-Fi Sound, Wireless & Wired Playback, Rechargeable Battery, Compact & Lightweight for Travel,Home,Car (Pink)",
+      "category_path": "Electronics > Portable Audio & Video > Portable CD Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLXRT8L1",
+      "title": "Portable Bluetooth-Compatible CD Player: Hi-Fi Sound, Wireless & Wired Playback, Rechargeable Battery, Compact & Lightweight for Travel,Home,Car (Green)",
+      "category_path": "Electronics > Portable Audio & Video > Portable CD Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLXXSWZR",
+      "title": "R36MAX Retro Handheld Game Console, 4.0 Inch 720x720 IPS Screen, 128GB Built-in 22000+ Classic Game, Portable Hand Held Open Source Linux System, 4000mAh Battery Retro Gaming Console(Red 128GB)",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMNQKH4W",
+      "title": "Giochem 2 in 1 Lightning and Type C to RJ45 Ethernet Adapter Network Adapter, with Charge Port and USB Port Support USB Flash Drive/Keyboard/Mouse/Came, Plug and Play,Supports 100Mbps Ethernet Network",
+      "category_path": "Electronics > Computers & Accessories > Networking Products > Network Adapters > USB Network Adapters",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FMXH7L3W",
+      "title": "VIXLW 4K HDMI Capture Card for Streaming,Audio Video Capture Card PS5,Full HD 1080P 60FPS USB 3.0 Cam Link for Nintendo Switch/3ds/Xbox/PS4",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > Internal Components > Internal TV Tuner & Capture Cards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMY26SDD",
+      "title": "25W Magnetic Wireless Charging Pad: Qi2.2 Qi2 MagSafe Fast Charger for iPhone Air 17e 17 16 15 14 Pro Max, Samsung Galaxy S26 S25, Google Pixel 10 & AirPods, Gift Ideal for Desk Travel (White, 1Pack)",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Wireless Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMYBVXZJ",
+      "title": "NHOPEEW Single Din Touchscreen Radio: 10.1 inch Adjustable Touchscreen Stereo - Wireless Carplay & Android Auto, FM/AM/RDS Radio, Bluetooth 5.2, GPS, Mirror Link, Split Screen + AHD Backup Camera",
+      "category_path": "Electronics > GPS, Finders & Accessories > Vehicle GPS",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN336PWS",
+      "title": "Gugxiom 2-in-1 Fingerprint Sensor & Wireless Mouse, Fingerprint Sensor for 7, 8, 10, 11 Hello – Supports up to 20 IDs, 2.4 GHz with USB Unifying Receiver Bluetooth 5.0 Mouse (White)",
+      "category_path": "Electronics > Security & Surveillance > Biometrics",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FN4BKFT6",
+      "title": "goodmore Glass Mouse Pad with LED Lights,Professional Esport Mousepad, Ultra-Smooth Hard Surface for Office and Gaming, Non-Slip Silicone Base One-Click Image Display on Whiteboard(11.8\" x 15.7\")",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN4GCQ62",
+      "title": "goodmore Glass Gaming Mouse Pad with LED Lights,Professional Esport Mousepad with Type C Port, Ultra-Smooth Hard Surface for Office Bedroom and Gaming, Large Non-Slip Silicone Base（11.8\" x 15.7\"）",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNCGB9S2",
+      "title": "NUBWO Gaming Headset Wireless for PS5, PC, PS4 - Dual 2.4G & Bluetooth Simultaneous Headphones, EQ Sound Modes, Noise-Canceling Mic, 50-Hour Battery, Comfortable Foldable Design, 270g Lightweight",
+      "category_path": "Video Games > PlayStation 5 > Accessories > Gaming Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNCGGTWD",
+      "title": "25W Magnetic Wireless Charging Pad: Qi2.2 Qi2 MagSafe Fast Charger for iPhone Air 17e 17 16 15 14 Pro Max, Samsung Galaxy S26 S25, Google Pixel 10 & AirPods, Gift Ideal for Desk Travel (Black, 2 Pack)",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Wireless Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNDDNK9Q",
+      "title": "JEMDO Switch 2 Right Angle HDMI Cable Dock Station,4K@144Hz 48Gbps USB C to HDMI 2.1 6.6 ft,100W PD,Portable Travel TV Adapter Cord Compatible with Nintendo Switch 2 (Only Below V21.0.0) /2017/OLED",
+      "category_path": "Electronics > Television & Video > Accessories > Cables > HDMI Cables",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNMXYZFG",
+      "title": "SHEPUDRUC Wireless Controller for PS4, 2 Pack Remote Control Compatible with P4/Slim/Pro with Dual Vibration/Audio/Six-axis Motion Sensor/Game Joystick (Camo Red + Camo Grey)",
+      "category_path": "Video Games > PlayStation 4 > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNMZPC27",
+      "title": "SHEPUDRUC Wireless Controller for PS4, 2 Pack Remote Control Compatible with P4/Slim/Pro with Dual Vibration/Audio/Six-axis Motion Sensor/Game Joystick (Camo Blue + Camo Green)",
+      "category_path": "Video Games > PlayStation 4 > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNN1JZ3K",
+      "title": "Wireless HDMI Transmitter and Receiver, 330FT/100M Wireless HDMI Extender for 4K Decode Input 1080P@60Hz Output, Plug&Play Portable 2.4G+5.8G for Video and Audio to Monitor from PC/Projector/TV Box",
+      "category_path": "Electronics > Television & Video > AV Receivers & Amplifiers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNQMBBBY",
+      "title": "Mumba Wrist Straps Compatible with Nintendo Switch 2 Mouse Mode, 2 Pairs Magnetic Wrist Straps for Joy Con Controller,Switch 2 Replacement Parts Accessories,Improved sensitive SR/SL Buttons",
+      "category_path": "Video Games > Nintendo Switch > Accessories > Hand Grips",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNWKHYMS",
+      "title": "Wireless Headset with Mic for Work, V5.2 Wireless Headphones with Mic Noise Canceling & USB Dongle, 45Hrs Bluetooth Headphones with Microphone Mute & Charging Dock for Office/Work/Meetings/Call Center",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP26ZCG4",
+      "title": "Retro Bluetooth CD Player with Speakers, Portable Desktop Music Player with Headphone Jack, USB/AUX, Rechargeable, Vintage Wood Design Gift for Women Bedroom Decor, No Remote Control (Walnut)",
+      "category_path": "Electronics > Portable Audio & Video > Portable CD Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP2N7SZW",
+      "title": "Acer Docking Station 3 Monitors, 11-in-1 Laptop Docking Station Stand with DP 8K + Dual HDMI 4K@60Hz, Ethernet, 10Gbps Data, 100W PD, SD/TF, USB C Dock with Detachable Cable for Acer/Dell/Mac/HP",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Docking Stations",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP2TMTGC",
+      "title": "Wireless Charging Mouse Pad with 2nd Gen Tech, 3-in-1 25W Fast Charger, Replaceable Felt & Leather Desk Mat, for Office & Gaming, Large Waterproof Desk Pad for Office & Gaming(Felt)",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPCY367K",
+      "title": "Memory Foam Keyboard Wrist Rest & Mouse Pad Set - Ergonomic Support for Laptop, Mac & PC, Cute Purple Cloud Design, Non-Slip Base for Typing, Gaming, Pain Relief, Comfortable Office Desk Must-Haves",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Wrist Rests",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPFTZ3YK",
+      "title": "Wireless Microphone with AI Auto Match Channel, Professional Updated 2.4GHz Rechargeable 2 Pcs Microphones with 300 FT Extra Long Distance Stable Receiving for Karaoke Singing DJ Church Classroom",
+      "category_path": "Musical Instruments > Microphones & Accessories > Microphones > Wireless Microphones & Systems > Handheld Wireless Microphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPXFT4WJ",
+      "title": "Wothfav Bluetooth 5.3 Wireless Audio Transmitter & Receiver, 3.5mm AUX Adapter, Supports 2 AirPods or Headphones, 25+ Hr Battery Life, Airplane Bluetooth Adapter for Travel, Flight, TV, Car & Gym",
+      "category_path": "Electronics > Home Audio > Wireless & Streaming Audio > Wireless Audio Receivers & Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ4VYX9H",
+      "title": "Wentronic Wireless Headphones,Hi-Res Audio Wireless Over Ear Bluetooth 5.4 Headset",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Over-Ear Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQNP2NP4",
+      "title": "AISLPC Retro Gaming Console Stick, Video Games Stick 4K HDMI with 20,000 + Games and 23 Emulators, Classic Game Console with Dual 2.4G Wireless Controllers (60GB)",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR3DMZD9",
+      "title": "ZzzMgzzZ Foam Remote Control Airplanes for Kids & Adults | Easy Control, Great for Beginner and Teenagers, with Stable Hovering, 360° Flips, Circle Fly, LED Light, 2.4Ghz, Christmas & Birthday Gifts",
+      "category_path": "Toys & Games > Remote & App Controlled Vehicles & Parts > Remote & App Controlled Vehicles > Airplanes & Jets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRM1JL4N",
+      "title": "DPJJ 15.6\" Ultra-Thin Portable Monitor with Leather Case, Zero-Frame IPS 1080P Display, USB-C Powered Travel Screen for Laptop/Phone/PS5/Gaming",
+      "category_path": "Electronics > Computers & Accessories > Monitors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRS7GB9Z",
+      "title": "Magnetic Selfie Monitor Screen for iPhone & Android, 4\" 4K/1080p 30fps Wireless Mirroring for Phone Vlog Selfie Screen with 1500mAh Battery, Back Camera Monitor for Content Creator/Live Stream/TikTok",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Photo & Video Kits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS1MWB7C",
+      "title": "Wireless Keyboard and Mouse Combo, EDJO 2.4G Full Size Wave Keys Ergonomic Keyboard with Wrist Rest and 3-Level DPI Adjustable Wireless Ergonomic Mouse for Windows, Mac OS Desktop/Laptop/PC(Black)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboard & Mouse Combos",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FS1XPGJY",
+      "title": "Rumoon Wired Over Ear Headphones, Studio Monitor & Mixing DJ Headphones with 50mm Neodymium Drivers and 1/4 to 3.5mm Jack for Guitar AMP Podcast Piano Keyboard (Gray)",
+      "category_path": "Musical Instruments > Electronic Music, DJ & Karaoke > DJ Equipment > DJ Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS34D9VW",
+      "title": "VRUMION IEM,1BA+1DD 2 Driver in Ear Monitor,HiFi Earbuds Wired,Gaming Earbuds,Hybrid IEMS Earphones with Wooden Handmade Craft Surface Cover,Detachable Cable for Musician,Pop Rock R&B (Log BlackGold)",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS6KMF11",
+      "title": "Mini TV Retro Handheld Game Console -JALECO Licensed Classic Games, Portable Gaming Toy with TF Card to Expand 80s 90s Games, Support Two Players & Game Save, Ideal Gift for Boys Girls",
+      "category_path": "Toys & Games > Kids' Electronics",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FSLKVMB2",
+      "title": "goodmore Glass Gaming Mouse Pad with LED Lights,Professional Esport Mousepad with Type C Port, Ultra-Smooth Hard Surface for Office Bedroom and Gaming, Large Non-Slip Silicone Base（11.8\" x 15.7\"）",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FSR54LK1",
+      "title": "Bluetooth Dog Tracker Tag, Pet Tracker for Dogs with Silicone Collar Holder, Works with Apple Find My & Android Find Hub, IP67 Waterproof Anti-Lost Locator, Black 2 Pack",
+      "category_path": "Pet Supplies > Dogs > Collars, Harnesses & Leashes > Location Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT3J24CC",
+      "title": "Asmoda Fitness Tracker (Answer/Dial Call), Smart Watch with 1.47\" HD Touch Display, 130+ Sport Modes Activity Tracker with Sleep Monitor, IP68 Waterproof Tracker for Android&iPhone Women Men",
+      "category_path": "Sports & Outdoors > Sports & Outdoor Recreation Accessories > Electronics & Gadgets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT3XW4DG",
+      "title": "NinABXY Hall Effect Joystick Controller for Nintendo Switch 2, Wireless One-Piece Handheld Switch Joypad - Macro, Ergonomic Grip, Turbo- Christmas Accessories, Black",
+      "category_path": "Video Games > Legacy Systems > Sega Systems > Sega Saturn > Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVM2284L",
+      "title": "Asmoda Fitness Tracker (Answer/Dial Call), Smart Watch with 1.47\" HD Touch Display, 130+ Sport Modes Activity Tracker with Sleep Monitor, IP68 Waterproof Tracker for Android&iPhone Women Men",
+      "category_path": "Sports & Outdoors > Sports & Outdoor Recreation Accessories > Electronics & Gadgets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVXT7TGV",
+      "title": "GalhanEhe 2 in 1 Wireless CarPlay Adapter for iPhone & Android Auto, Converts Wired Carplay to Wireless, Support Dual-Port USB-C and Type-C, Plug and Play, Stable Connection and No Latency",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FW534HGD",
+      "title": "Rumoon Wired Over Ear Headphones, Studio Monitor & Mixing DJ Headphones with 50mm Neodymium Drivers and 1/4 to 3.5mm Jack for Guitar AMP Podcast Piano Keyboard, Pink",
+      "category_path": "Musical Instruments > Electronic Music, DJ & Karaoke > DJ Equipment > DJ Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWKFV3RD",
+      "title": "BRHE Wireless Controllers for Switch,Controller for Nintendo Switch/Lite/OLED/Switch 2/Windows PC/Tesla with Programmable/Vibration/Dual Turbo Funtion,Controller for Switch Pro Gamepad (white)",
+      "category_path": "Video Games > Nintendo Switch > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWKJN4JK",
+      "title": "KCEVE USB C Switch 2 in 1 Out, USB Type C KVM Switch 2 Computers 1 Monitor, 8K@60Hz / 4K@120Hz / 20Gbps/ USB 3.1 Gen 2 / 100W PD/Compatible with Thunderbolt Devices/Wired Remote, 1 USB-C Cable",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRNLDT1",
+      "title": "Wireless CarPlay Adapter for Apple iPhone iOS 10+, Mini Edition, Plug & Play, Convert Wired to Wireless Dongle, Easy & Quick Connect, Less Heat",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRNQMQ7",
+      "title": "2-in-1 Wireless CarPlay & Android Auto Adapter, 50% Smaller, Converts Wired to Wireless, Zero Latency, Auto-Connection, Plug & Play Adapter for Apple iPhone iOS 10+ & Android 11+",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX3NT3YX",
+      "title": "SEUNKWANG EWEADN F61 60% Gaming Keyboard Wired, RGB Backlit Membrane Gaming Keyboard with PBT Keycaps, Compact Design, Lanyard Wired Keyboard for Mac/Win-Gradient Black",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX9LM3GQ",
+      "title": "Kopplvn Rodent Repellent, Mouse Repellent, Mice Repellant Indoor, Rat Deterrent, Keep Mice Out of Garage/Car/Shed/Cabin, Covers 50 sq. ft, Effective for 60 Days-12Pcs",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX9X2C1J",
+      "title": "QXUFV Wireless Earbuds, Bluetooth 5.4 Headphones Multi-Function Touch Screen with 5 EQ Modes, 48H Ear Buds Bass Stereo with ANC Noise Cancelling/Transparency Mode, IPX7 Bluetooth Earbuds, Grey",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXGJHJ3L",
+      "title": "Wireless Headset with Mic for Work with AI Noise Cancelling Mic for Clear Calls, Bluetooth V5.3 Headphones with Microphone to USB A/C Dongle & Mic Mute for Computer Laptop PC iPhone (Black White)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXWYW3FN",
+      "title": "Wireless Keyboard Mouse Combo, Scissor-Switch Keys, 2-in-1 USB Receiver and Two Bluetooth, Multi Device Silent Design for Computer, Laptop, MacBook and iPad (Pure Black)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboard & Mouse Combos",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FYF2H8MB",
+      "title": "XUANGUI Wireless Ergonomic Mouse Comfortable Bluetooth Cordless Mice, Max 4800 DPI Ergo Witeless Mose with Side Buttons and USB Dongle, Battery Powered, Blue Tooth / 2.4G for Computer Laptop Macbook",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FYLB65KG",
+      "title": "for Logitech G502/G502X/G502X Plus Lightspeed Wireless Mice Charging Dock,11 RGB Modes with Charging Indicator, Also Compatible with G703,G903 Lightspeed (White)",
+      "category_path": "Video Games > PC > Accessories > Gaming Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FYLHK41J",
+      "title": "for Logitech G PRO X Superlight/2/2 Dex Dedicated Black Wireless Mouse Charger 11 RGB Modes, Compatible with DeathAdder v2 Pro and Other Gaming mice Gaming Gear for Esports Players (Black)",
+      "category_path": "Video Games > PC > Accessories > Gaming Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FYLM12TZ",
+      "title": "Monster Achieve 300 AirLinks Wireless Earbuds, Bluetooth 5.3 in-Ear Headphones with Charging Case, Stereo Headphones, 32H Playtime Touch Control, Built-in Mic, Clear Call",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZFRBMRP",
+      "title": "MP3 Player with Bluetooth 5.3 - SWOFY M2 32GB Touchscreen Music Player with Detachable Strap,Built-in Speaker,1.91'' IPS Display,Portable Sport MP3 Players for Running,Gym,Kids & Adults - Black",
+      "category_path": "Electronics > Portable Audio & Video > MP3 & MP4 Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZHX56ZK",
+      "title": "Mouse Rodent Repellent, 48 Pack Peppermint Oil for Mice, Mouse, Rats, Squirrel, Pest Control Indoor & Outdoor Use, Natural Deterrent Replace Trap Poisoning Family & Pet Safe Green",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Traps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZQS3RM1",
+      "title": "USB Hub 3.0, JESWO Aluminum 7 Port USB 3.0 Hub with 3.3Ft Cable, USB Splitter with 7-USB3.0 Data Ports Compatible with MacBook, Laptop,Surface Pro, PS5, PC and More (No Power Adapter Included)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Hubs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1T8DHWD",
+      "title": "4K Webcam for PC & Mac, Tiny USB Streaming Camera with PDAF Autofocus, Dual Omnidirectional Noise-Canceling Microphones, Auto Low-Light Correction, Works with Zoom, Teams, Google Meet & Twitch",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Webcams & VoIP Equipment > Webcams",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YBCJJD",
+      "title": "Rumoon Wired Over Ear Headphones, Studio Monitor & Mixing DJ Headphones with 50mm Neodymium Drivers and 1/4 to 3.5mm Jack for Guitar Podcast AMP Piano Keyboard (Black-Red)",
+      "category_path": "Musical Instruments > Electronic Music, DJ & Karaoke > DJ Equipment > DJ Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YMGWCP",
+      "title": "Rumoon Wired Over Ear Headphones, Studio Monitor & Mixing DJ Headphones with 50mm Neodymium Drivers and 1/4 to 3.5mm Jack for Guitar Podcast AMP Piano Keyboard (Dark Blue)",
+      "category_path": "Musical Instruments > Electronic Music, DJ & Karaoke > DJ Equipment > DJ Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G24VB3L4",
+      "title": "Wantek Wireless Headset with Mic for Work, Bluetooth Headset with Noise Cancelling, Wireless Headphones with Mic & USB Dongle, 40H & Mute, Ideal for PC/Call Center/Computer/Laptop/Study",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G25DYZPK",
+      "title": "awatrue USB Headset with Microphone for PC, Computer Headset with Noise Canceling Microphone for PC Laptop, in Line Mute Controls, Wired Headset for Work from Home/Office/Call Center/Teams/Zoom",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2CJTFVW",
+      "title": "Switch 2 Dock for Nintendo Switch 2,Plug&Play for V22+, Portable TV Travel Docking Station,Steam Deck Dock USB C to HDMI Hub Charger Laptop Docking with USB A 3.2/4K HDMI/PD 100W.",
+      "category_path": "Video Games > Nintendo Switch 2 > Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2L52WJ6",
+      "title": "LENTION 6-in-1 USB C Hub with Gigabit Ethernet, 4K@60Hz HDMI, 100W PD Fast Charging, 3X USB 3.0 Docking Station for MacBook Pro/Air/Neo, Dell XPS, HP and More, Aluminum USB-C Adapter (C26, Space Gray)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Hubs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2S3ZFJN",
+      "title": "Wireless CarPlay Adapter USB C – Wireless Android Auto Adapter Type-C, Converts Factory Wired CarPlay & Android Auto to Wireless, Fast Bluetooth & WiFi Auto Connect, Plug & Play 2026",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G33XJPVB",
+      "title": "USB C Hub 10Gbps, 4-in-1 USB 3.2 Gen 2 Hub with 4K@60Hz HDMI, 3 USB-A Ports Multiport Adapter, Cable-Free Plug-in Type-C Adapter Compatible with MacBook Pro/Air, iPad Pro, Surface, Laptop",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Hubs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3GTWHVM",
+      "title": "Y15 Over-Ear Bluetooth Headphones, Active Noise Cancelling Headphones with Mic, 42H Playtime, Foldable Lightweight, Wired/Wireless Dual Mode for Travel Work iOS Android",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Over-Ear Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3VG6HVC",
+      "title": "Angel Wing Mouse Pad with Wrist Rest, Soft Wrist Support and Arm Support Keyboard Rest for Keyboard and Mouse, Non-Slip Wrist Support for Office, Work, Gaming",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Wrist Rests",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G43GL9Z2",
+      "title": "Rumoon Wired Over Ear Headphones, Studio Monitor & Mixing DJ Headphones with 50mm Neodymium Drivers and 1/4 to 3.5mm Jack for Guitar AMP Podcast Piano Keyboard (Light Green)",
+      "category_path": "Musical Instruments > Electronic Music, DJ & Karaoke > DJ Equipment > DJ Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G43HTV3Q",
+      "title": "Rumoon Wired Over Ear Headphones, Studio Monitor & Mixing DJ Headphones with 50mm Neodymium Drivers and 1/4 to 3.5mm Jack for Guitar AMP Podcast Piano Keyboard (Silver)",
+      "category_path": "Musical Instruments > Electronic Music, DJ & Karaoke > DJ Equipment > DJ Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G43Z35BV",
+      "title": "IBW 14\" Portable Monitor Touchscreen, 1200P FHD IPS Travel Monitor with Tempered Glass, 10-Point Touch, Dual Speakers & Kickstand, USB-C HDMI External Monitor for Laptop MacBook Phone PS5 Switch",
+      "category_path": "Electronics > Computers & Accessories > Monitors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G47M5Z14",
+      "title": "INGA Computer Speakers with Detachable Mic, Plug-and-Play USB Soundbar with Dynamic Lighting, Game/Music Modes, Compatible with PC, Laptop, PS5, Mac (Black 9.8W)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Speakers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G48CF31P",
+      "title": "MP3 Player with Bluetooth 5.3, ZAQE 2.4 inch Full Touchscreen Portable Music Player HiFi Lossless Digital Audio Player with Speaker, FM Radio, E-Book, Support up to 128GB",
+      "category_path": "Electronics > Portable Audio & Video > MP3 & MP4 Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4G2JY16",
+      "title": "TBDISYYDS 8K@60Hz Displayport KVM Switch 3 Monitors 2 Computers, 4K@120Hz Triple Monitor KVM Switch for 2 Computers Sharing 3 Monitors, Keyboard, Mouse,with 2 USB3.0 Cables,Controller, Power Adapter",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4TJFPQY",
+      "title": "R36MAX Retro Handheld Game Console, 4.0 inch RetroGaming Console with 64GB Memory, Portable Retro Videogames Console, 4000mAh Battery, Support 30+Emulators, Transparent Gray",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4WB9NFZ",
+      "title": "Wireless Keyboard and Mouse Combo with Magnetic Wrist Rest, Round Keycaps, Full-Size Retro Typewriter-Style Keyboard, Two-Stage Tilt Legs, Auto-Sleep, 2.4GHz Wireless for Windows PC Laptop, Aqua Blue",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboard & Mouse Combos",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4ZYQGD8",
+      "title": "CZGG Portable Monitor 15.6 inch Ultra-Light Extended Monitor for Laptop 1080P FHD IPS Build-in Speakers HDMI USB-C Second Screen for Gaming PC mac Phone PS4/5 Switch Xbox with Kickstand Case",
+      "category_path": "Electronics > Computers & Accessories > Monitors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5MXDSN5",
+      "title": "EDJO Wireless Keyboard, 2.4G Ergonomic Full Size Wireless Computer Keyboard with Wrist Rest for Windows, Mac OS Desktop/Laptop/PC White",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5XRBFMG",
+      "title": "EX GEAR Wireless in Ear Monitor System 5.8GHz, Ultra-Low Latency Clear Stereo Monitoring, 48kHz/24-bit Audio, Rechargeable TX/RX, One-to-Many Auto-Pairing, 100ft Range, Space Gray",
+      "category_path": "Musical Instruments > Studio Recording Equipment > Headphone & In-Ear Audio Monitors > Earphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G693FWZ4",
+      "title": "QXUFV Wireless Earbuds, Bluetooth 5.4 Headphones Multi-Function Touch Screen with 5 EQ Modes, 48H Ear Buds Bass Stereo with ANC Noise Cancelling/Transparency Mode, IPX7 Bluetooth Earbuds, Off White",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6KP328Q",
+      "title": "StarXnDa 15.6 Inch Portable Monitor Ultra Slim Full HD 1080p IPS Travel Monitor, USB C Plug&Play Portable HDMI Second Screen for Laptop Mac Phone Xbox Switch",
+      "category_path": "Electronics > Computers & Accessories > Monitors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6L7FC7X",
+      "title": "3dhologramfan 16.5 in With Desktop Stand, Led Holographic Fan Display Supports Wifi Connection, Tabletop HD Led Projector Display With 1500 Videos For Events, Trade Shows, Store Counter Advertising",
+      "category_path": "Electronics > Video Projectors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G79ZTDFB",
+      "title": "LENISUOLE Wireless controller with Turbo & Back Buttons, 6-Axis Motion Sensor, RGB LED Lights, 3.5mm Audio Jack, Compatible with PS5/Windows 10/11 PC - High Precision & Low Latency",
+      "category_path": "Video Games > Legacy Systems > Xbox Systems > Xbox > Consoles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G7LQHHJT",
+      "title": "SIZEEYYOU Classic Mini Handheld Retro Game Console,Video Game Consoles Built-in 800 Classic Edition Games,AV and HDMI Output Display,Dual Wireless Came Controllers. (Grey-White)",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G7SBC1MP",
+      "title": "Pretoee 8-in-1 Acrylic Hamster Cage - Clear Dwarf Hamster Pet Cage with Transparent Viewing, Double Layer Chew-Proof Easy Clean Small Mice Enclosure for Dwarf Syrian Gerbils, 17 * 13 * 12in (Yellow)",
+      "category_path": "Pet Supplies > Small Animals > Houses & Habitats > Cages",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G7ZJ4JXF",
+      "title": "HOMETITUTE XL Mouse Pad Dark Gothic Skull Forest Art Gaming Mousepad 31.5x11.8 Inch Non-Slip Keyboard Desktop Protector Mat Diatomite Large Mouse Pad for Home and Office Desk Accessories",
+      "category_path": "Office Products > Office & School Supplies > Desk Accessories & Workspace Organizers > Mouse Pads & Wrist Rests > Mouse Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G7ZMFX3R",
+      "title": "IWGAME Wireless Controller for PS-5/PC, Hall Effect Joysticks & Triggers Gaming Controller with Programmable/Remap/Turbo/LED Light Functions, 3.5MM Headphone Jack, Dual Vibration,White",
+      "category_path": "Video Games > PlayStation 5 > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G819N7FR",
+      "title": "Retro Handheld Games Console Built-in 400 Video Games, Portable Handheld Emulator with 3.0 Inch Screen, Mini Travel Retro Gaming Consle (Pink)",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G8DHFM85",
+      "title": "Monster N-Lite 211 Wireless Earbuds, Bluetooth 6.0 Stereo Headphones with Powerful Bass, Built-in Noise-Cancelling Mic for Clear Calls, LED Display, 36H Playtime, IPX5 Waterproof Design for Sports",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GC7G5NC7",
+      "title": "4 in 1 Screen Mirroring Wireless CarPlay Adapte, 2026 Upgraded Wired to Wireless for Apple CarPlay & Android Auto & AirPlay & MirrorLink, Mini USB Car Play Adapter with Type-C Extension, Plug and Play",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCFHQWW2",
+      "title": "wyicwyp Hamster Hideout Wooden Hamster House and Natural Wood Rat Hut Hamster Bridge for Dwarf Hamster Mice Playing Hiding",
+      "category_path": "Pet Supplies > Small Animals > Houses & Habitats > Outdoor Pens & Hutches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCHJXR4K",
+      "title": "Lemorele USB C Docking Station Dual Monitor 10- in-1 Triple Display Laptop Hub Multiport Adapter w/2 HDMI 4K+VGA+3 USB3.0/2.0+TF/SD 2.0+Audio+100W PD, USB C Dongle for Mac/Dell/HP/Lenovo/Surface",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Docking Stations",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCJ95NJD",
+      "title": "Monster Open Ear AC360, Wireless Bluetooth Rotary Earphone, with Lanyard, Upgraded Bluetooth 6.0, Touch Control, 24h Long Battery Life, IPX5 Waterproof,Long-Lasting Wear Without Fatigue（Black）",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Open-Ear Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCM94Q4G",
+      "title": "GalhanEhe Wieless Carplay Adapter for iPhone & Android, Support iOS & Android Phone to Car Screen, Wired to Wireless, No Latency (4 in 1 Airplay + Mirror Link)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCN4152N",
+      "title": "Bluetooth CD Player Portable for Home Rechargeable CD Player with Dual Stereo Speakers FM Transmitter Portable CD Player for Car Support AUX in with Upgraded Screen",
+      "category_path": "Electronics > Portable Audio & Video > Cassette Players & Recorders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCNX6G81",
+      "title": "LOIWNS 3D Hologram Fan with WiFi App Control and Bluetooth Sound Sync, LED Holographic Advertising Display withRemote Control and 1500+ Free Videos for Retail Trade Shows Events (19.7)",
+      "category_path": "Industrial & Scientific > Digital Signage > Commercial TVs & Displays",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDF43MCW",
+      "title": "AOC 2.4GHz Ergonomic Mouse, Wireless Bluetooth Vertical Mouse for Work, 4800 DPI Optical Tracking, 5 Adjustable DPI, Quiet Clicks, RGB Light, Compatible with Computer, Laptop, PC, Mac, Desktop - Black",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GDFJ9T2F",
+      "title": "R36MAX Retro Handheld Game Console – 18,000+ Classic Games, 4.0\" IPS Display, Linux System, 64GB Storage – Your Retro Gaming Console and The to Relive Timeless Classics.(Black)",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDQJPTXW",
+      "title": "Wireless HDMI Transmitter & Receiver,Wireless HDMI Extender Kit for Streaming Video and Audio to Monitor from Laptop/PC/TV",
+      "category_path": "Electronics > Home Audio > Home Theater > Receivers & Amplifiers > Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDTML5V6",
+      "title": "Wireless Open-Ear Bluetooth Earbuds with ENC Noise Cancelling Mic, HiFi Stereo Sound & Deep Bass, IP54 Water-Resistant, 60H Long Battery Life, for Running, Travel, Work & Translation Studies(Cream)",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Open-Ear Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDWYDXPZ",
+      "title": "Surface Pro Keyboard for Microsoft Surface Pro 11/10/9/8/X 13\", 7 Color Backlits, Detachable Bluetooth Wireless Keyboard with Pen Storage, Ultra-Slim Rechargeable Type Cover with Multi-Touch Trackpad",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF1QBTXJ",
+      "title": "4-in-1 Switch 2/1/OLED Dock Set, Bemkiru Portable Travel Dock Adapter for Nintendo Switch 2 with HDMI 4K@60Hz, USB 3.2 & PD 100W Port, 65W Power AC Charger & HDMI & 5FT USB-C Cable",
+      "category_path": "Video Games > Legacy Systems > Nintendo Systems > Nintendo 64 > Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF7YMH94",
+      "title": "Zafina-UP New Version White R36S Retro Handheld Video Game Console Linux System 3.5 Inch IPS Screen, 128G , 15,000+ Classic Games for Gift",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF86MDP4",
+      "title": "Zafina-UP New Version Red R36S Retro Handheld Video Game Console Linux System 3.5 Inch IPS Screen, 128G , 15,000+ Classic Games for Gift",
+      "category_path": "Toys & Games > Kids' Electronics > Plug & Play Video Games",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF9P71VT",
+      "title": "11.26'' Wireless Apple CarPlay & Android Auto Screen for Car with 4K Dash Cam,Ultra-Light Touchscreen, IP68 1080P Backup Camera, GPS Navigation, Voice Control, Mirror Link, Plug & Play(64GB U3 Card)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFD598FR",
+      "title": "HzdaDeve 2PK AD5X Touch Screen Cable for Adventurer 5M/5M Pro/AD5X LCD Display Cable Screen FPC Flat Connection Wire for Flashforge 3D Printer Accessories Replacement",
+      "category_path": "Industrial & Scientific > Additive Manufacturing Products > 3D Printer Parts & Accessories > 3D Printer Extruders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG446MKX",
+      "title": "Nonbliep RGB for PS5 Controller, for PS5 Slim/Pro/PC, Wireless for Playstation 5 Controller with Dual Vibration/Macro/Turbo/3.5mm Audio Jack/Speaker/6-Axis Motion Control",
+      "category_path": "Video Games > PlayStation 5 > Accessories > Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG48QXJ3",
+      "title": "Compatible with PS5 Controller, Wired Controller for Playstation 5/PS4/PC, Gaming Controllers, Gamepad with Dual Vibration 6-axis Gyroscope Support Turbo Macro Multi Touch Pad 3.5mm Audio Jack",
+      "category_path": "Video Games > PlayStation 5",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGJ15DTB",
+      "title": "LAQDECDV Pest Control Pouches, Mouse Repellent, Rodent Repellent Indoor, Mice Repellant, Peppermint to Repel Spider, Roach & Ant, Rat Deterrent for House, Keep Mice Away, Covers up to 120 sq ft-8P",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGTFT6K3",
+      "title": "Fosmon 2.4G Wireless PC Controller with Hall Effect Triggers, 2 Programmable Buttons For Switch 2/1/Lite/OLED/Windows PC/Steam Deck/Android/iOS, Bluetooth Gaming Pro Controller, Black",
+      "category_path": "Video Games > PC > Accessories > Controllers > Gamepads & Standard Controllers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GH2LLS36",
+      "title": "FOKiRa Mini 3 in 1 Noise-Cancelling Wireless Lavalier Microphone. 45M Long-Range Wireless Transmission and Up to 12 Hours Battery Life. Perfect for Interviews, Vlogging, Podcasting and More (QY66)",
+      "category_path": "Musical Instruments > Microphones & Accessories > Microphones > Wireless Microphones & Systems > Wireless Headset Microphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GH7HZ451",
+      "title": "Rodent Repellent 36 Balls, Mouse Repellent Indoor for House, Car & Garage – Safe & Natural Peppermint Oil Moth Balls for Rodents, Rat & Mice Repellent for Home, Office, & Outdoors",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GH7L48F6",
+      "title": "Rodent Repellent 34 Balls, Mouse Repellent Indoor for House, Car & Garage – Safe & Natural Peppermint Oil Moth Balls for Rodents, Rat & Mice Repellent for Home, Office, & Outdoors",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GH7WNQRV",
+      "title": "Rodent Repellent 33 Balls, Mouse Repellent Indoor for House, Car & Garage – Safe & Natural Peppermint Oil Moth Balls for Rodents, Rat & Mice Repellent for Home, Office, & Outdoors",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHNDXBYD",
+      "title": "Portable CD Player for Home with Hi-Fi Speaker, Bluetooth Transmitter and Receiver, Timer, LED Display, FM Radio, Built-in Dual Speakers, USB/AUX Support, Headphone Jack (Black)",
+      "category_path": "Electronics > Portable Audio & Video > Portable CD Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHR6BTFY",
+      "title": "Wireless Barcode Scanner, JRHC 1D CCD Barcode Reader with Stand Transmission 2.4GHz Wireless & USB Wired Connection 2 in 1 Plug and Play Handheld Bar Code Scanners for Store Supermarket Warehouse",
+      "category_path": "Office Products > Office Electronics > Point-of-Sale (POS) Equipment > Bar Code Scanners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJ4YMBM2",
+      "title": "HUO JI 60% Wired Mechanical Keyboard Compact, 61 Keys Brown Switch Rainbow LED Backlit Gaming Keyboard, Mini Portable Office Work Keyboard for Windows Laptop PC Mac, White",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJ577HPJ",
+      "title": "HUO JI 60% Wired Mechanical Keyboard Compact, 61 Keys Red Switch Rainbow LED Backlit Gaming Keyboard, Mini Portable Office Work Keyboard for Windows Laptop PC Mac, White",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Keyboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJ5YZH8L",
+      "title": "64Gb Mp3 Player with Bluetooth Y1 Portable Music Digital Players Supports Playlist Audiobook Video Nice Gadget for Kids Purple",
+      "category_path": "Electronics > Portable Audio & Video > MP3 & MP4 Players",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJKY9FWD",
+      "title": "VR Golf Club Compatible with Meta Oculus Quest 3S/3 Accessories, Retractable Golf Club Handle Attachment for Holding VR Controller, Realistic VR Golf Grip Accessory, Enhance Golf Games Experience",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GK1LQB9Q",
+      "title": "jaddsa Wireless Earbuds, ENC Noise Cancelling Ear Buds with Smart Touchscreen, Bluetooth 5.4 Headphones, 5 EQ Modes for Sports/Travel/Gym- Sky Blue",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GK2KGTK2",
+      "title": "10.26\" Wireless Apple CarPlay & Android Auto Screen for Car with 4K Dash Cam,Ultra-Light Touchscreen, IP68 1080P Backup Camera, GPS Navigation, Voice Control, Mirror Link, Plug & Play(No Card)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Video > In-Dash DVD & Video Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GK94KRK7",
+      "title": "Rytaki Wireless Number Pad and Mouse, 22 Keys USB Keypad and 3 Adjustable DPI Silent Mouse Set, 2.4GHz Numeric Pad for Laptop, Notebook, PC Computer, Desktop, Mac - One USB Receiver",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Input Devices > Numeric Keypads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GKDR5DTY",
+      "title": "LITTOAK Bluetooth PC Gaming Speakers, 2 * 15W 2.0CH Stereo with 3 EQ & 6 RGB Modes, AC Powered Desktop Speakers with Aux/USB/Headphone Port for Laptop/TV, White",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Speakers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GKQP5QLJ",
+      "title": "Kado Portable Monitor 15.6-inch FHD 1080p, 45W Reverse Charging Ultra-Slim Laptop Monitor 1920x1080 with Built-in Speakers, IPS Display Kickstand for PC, Mac, Phone, Xbox, PS5, USB-C & HDMI",
+      "category_path": "Electronics > Computers & Accessories > Monitors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GKSRKZRP",
+      "title": "Bluetooth 5.4 Transmitter Receiver for 2 AirPods or BT Devices, Wireless Adapter for Flight, TV, PC and Gym, Switch, Bluetooth Wireless Transmitter with Dual Link AptX Adaptive/Low Latency/HD Audio",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GL1BG4JG",
+      "title": "KBEAR Venus USB C Wired Headphones, 1DD IEMs for Gaming, USB-C Wired Earbuds HIFI in Ear Monitor with LED lighting/Volume Control /10mm Dynamic Driver/Noise Isolating for Phone Laptop iPad (with Mic)",
+      "category_path": "Electronics > Headphones, Earbuds & Accessories > Headphones & Earbuds > Earbud Headphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GLPYLDFP",
+      "title": "TECKNET Ergonomic Mouse, 4800 DPI Wireless Vertical Mouse, 5 Adjustable DPI Levels, 6 Buttons, 2.4G Silent Wireless Mouse for Laptop, PC, Light Pink",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GM6FXQR5",
+      "title": "Bluetooth Headset, Wireless Bluetooth Earpiece with USB Dongle and Charging Case 100 Hours Talking Time Built-in Microphone for iOS Android Cell Phone, V5.4 Hand-Free Headphones for Trucker (Black)",
+      "category_path": "Cell Phones & Accessories > Accessories > Single Ear Bluetooth Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM6WTB1N",
+      "title": "ATTACK SHARK X11ULTRA Carbon Fiber Wireless Gaming Mouse,8K Polling, PAW3950MAX Gaming Sensor,59g Ultra-Lightweight,Nordic 54L15 MCU Chip,Wired/BT/2.4Ghz with RGB Coiled Cable-Black&Griptape",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Keyboards, Mice & Accessories > Mice",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GQ21N827",
+      "title": "USB Hub 3.0, JESWO Aluminum 7 Port USB 3.0 Hub with 3.3Ft Cable, USB Splitter with 7-USB3.0 Data Ports Compatible with MacBook, Laptop,Surface Pro, PS5, PC and More (No Power Adapter Included)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Hubs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQ27VMFZ",
+      "title": "USB Hub 3.0, JESWO Aluminum 7 Port USB 3.0 Hub with 3.3Ft Cable, USB Splitter with 7-USB3.0 Data Ports Compatible with MacBook, Laptop,Surface Pro, PS5, PC and More (No Power Adapter Included)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Hubs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQ3SXMD1",
+      "title": "Wireless Headset with Microphone, Bluetooth Headset with Mic, Noise Cancelling Computer Headset, USB Dongle & Charging Base, Mute, for Work/Office/PC/Laptop/Call Center/Zoom/Teams, Black",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQ6YS236",
+      "title": "Mouse Rodent Repellent, 48 Pack Peppermint Lemon Oil Mice Repellent for Squirrel Rats Spider Pests, Natural Deterrent for Kitchen, Warehouse, Car, Indoor, Outdoor Safe for Pets & Family",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQ7FPLGP",
+      "title": "Mouse Rodent Repellent, 24 Pack Peppermint Lemon Oil Mice Repellent for Squirrel Rats Spider Pests, Natural Deterrent for Kitchen, Warehouse, Car, Indoor, Outdoor, Safe for Pets Family",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQGR19MK",
+      "title": "USB 3.0 Switch 2 Computers Keyboard Mouse Switcher USB A Hub Switches Selector for 2 PC or Laptop Share 3 USB A Ports and 1 USB C Port with Extended Controller",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > External Components > KVM Switches",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GQZ5XXGT",
+      "title": "LENISUOLE Wireless Controller for PS5/PlayStation 5 & PC - Purple, Bluetooth Gamepad with Turbo, 6-Axis Motion Sensor, Programmable Buttons, RGB Lighting, 3.5mm Audio Jack, 1000mAh Battery",
+      "category_path": "Video Games > PlayStation 5",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GR4FPG7K",
+      "title": "Gamrombo 2 Pack Wired Controlle Compatible with Xbox Series X/S/Xbox One/Xbox One S/One X, PC with Turbo/Macro Function /3.5mm Headphone Jack",
+      "category_path": "Electronics > Television & Video",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GR4S6FF6",
+      "title": "iVANKY Upgraded 10-in-1 Docking Station for ROG Xbox Ally X(2025)/Steam Deck OLED/ASUS ROG Ally X, 4K@144Hz Dock for Lenovo Legion GoS/MSI Claw, HDMI 2.1, 1Gbps Ethernet, 5*USB-A 3.0, 100W Charge",
+      "category_path": "Electronics > Computers & Accessories > Laptop Accessories > Docking Stations",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GRT6D5Y8",
+      "title": "Masajoy USB Headset with Microphone for PC, Wired Headphones with Mic USB Headset with Noise Cancelling Microphone, Computer Headsets with Microphone for Home Office Online Class Teams Skype (Pink)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    }
+  ]
+}

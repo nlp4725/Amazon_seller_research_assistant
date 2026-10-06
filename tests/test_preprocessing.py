@@ -99,6 +99,7 @@ def test_run_preprocess_saves_parquet(sample_df, tmp_path):
 
 # ---------- data sanity check ----------
 
+@pytest.mark.raw_data
 def test_cleaned_data_has_61635_rows():
     path = 'data/raw/product_launch_cleaned_61635.parquet'
     df = pd.read_parquet(path)

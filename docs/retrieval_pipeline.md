@@ -1,5 +1,10 @@
 # Retrieval pipeline: two approaches, benchmarked against each other
 
+> **Update, October 2026:** `main_2` is now a three-stage funnel — path identification (Jev by
+> default), rerank, then LLM title filtering (`title_filter.py`). Design rationale, results against
+> the rebuilt golden set and known limits: [evaluation_2026_10.md](evaluation_2026_10.md).
+
+
 Two competing implementations of the same job — given a free-text query (e.g. "dog
 drinking bowl"), return every genuinely matching product in the catalog, not a
 retrieval-size artifact capped at some arbitrary top_n. Both live in

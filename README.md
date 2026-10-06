@@ -19,7 +19,9 @@ The codebase is organized into distinct pipelines following the flow:
 - **`src/retrieval_pipeline/`**: A multi-agent system with two competing pipeline configurations for "how many X" / "find every X" queries, benchmarked against each other -- see `docs/retrieval_pipeline.md` for the full write-up (diagrams, file-by-file responsibilities)
   - `cat_selector.py`: single entry classifier (DeepSeek, 1 LLM call) -- decides clarify-vs-proceed, extracts a concept, and picks up to 2 root categories from the real Amazon `root > level2` taxonomy. Called once per query by every consumer (`analysis_agent.py` live, `evaluator/comparison.py` and each main's own CLI otherwise), so `main_1`/`main_2` always see identical categories for a given query -- no more risk of the two approaches silently being compared on different input.
   - `main_1.py` ("simple"): given `categories` from the caller → vector-rank every item in them (no cap) → cross-encoder rerank, keep `score > 0`
-  - `main_2.py` ("structured"): given `categories` from the caller → `classify_agent` scores every real `category_path` under each into confident/ambiguous/not_match (LLM) → confident paths trusted outright, only the ambiguous residual gets reranked
+  - `main_2.py` ("structured"): a three-stage funnel over the caller's `categories` — (1) **path identification**: `classify_agent` scores every real `category_path` into confident/ambiguous/not_match (TypeSafe Jev by default, DeepSeek optional); (2) **rerank**: the cross-encoder scores titles in ambiguous paths; (3) **LLM filtering**: `title_filter.py` asks Jev, per candidate title, whether the product itself matches the query
+  - `jev_scorer.py`: Jev backend for stage 1 (one Noul or Choice question per category path, batched and traced in LangSmith)
+  - `title_filter.py`: stage 3 — one Jev yes/no per candidate title with generic rules (not an accessory; every qualifier like "wireless" or "Halloween" must hold); keeps p ≥ 0.5
   - `classify_agent.py`: prompt design draws on `docs/category_tree.md`, a raw dump of Amazon's real Keepa `categoryTree` per category
   - `reranker.py`: cross-encoder (`ms-marco-MiniLM-L-6-v2`) title scorer, `score > 0` = match
   - `candidates.py`: shared ChromaDB retrieval helpers (vector-rank for main_1, exact category_path filter for main_2) plus `hydrate_items()`, which fetches full product metadata + embeddings for a matched-asin set -- `main_1`/`main_2`'s own output only carries asin/title/cat/category_path, not the price/seller/velocity/embeddings `analysis_agent.py`'s downstream tools need
@@ -75,6 +77,7 @@ pip install -r requirements.txt
 ### Local Development
 ```bash
 # Add DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, DEEPSEEK_MODEL to .env
+# Add TYPESAFE_API_KEY (structured mode: Jev path identification + title filtering)
 cp .env.example .env
 
 # Terminal 1 — Flask backend
@@ -222,6 +225,14 @@ ChromaDB data is baked into the backend Docker image at build time — no GCS bu
 `cloudbuild.yaml` deploys the backend service first, captures its stable Cloud Run URL with `gcloud run services describe`, then injects it as `API_URL` into the frontend service. No manual URL updates are needed between deploys.
 
 ## Evaluation Methodology
+
+> **October 2026:** the structured pipeline and its evaluation were reworked — Jev replaced
+> DeepSeek for path identification (~100x faster), the golden set was rebuilt catalog-wide
+> with double-blind labels (`evaluator/golden_dataset_v2.json`, method in
+> `evaluator/golden_v2/README.md`), and an LLM title-filtering stage raised precision
+> 0.65 → 0.89 and F1 0.60 → 0.71. Full write-up with results and limitations:
+> **[docs/evaluation_2026_10.md](docs/evaluation_2026_10.md)**. The v1 methodology below is kept
+> for history; scores against v1 should not be compared with v2.
 
 `evaluator/golden_dataset.json` holds hand-verified ground truth for 20 queries spanning different categories and true-count magnitudes (0 up to several hundred), used to score `main_1.py` vs `main_2.py` on precision/recall/f1/latency/cost rather than trusting either implementation by inspection.
 

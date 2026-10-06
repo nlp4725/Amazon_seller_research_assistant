@@ -1,0 +1,134 @@
+[
+  {
+    "batch": "dog_drinking_bowl__0",
+    "query": "dog drinking bowl",
+    "n": 304,
+    "sampled": false
+  },
+  {
+    "batch": "ice_tray__0",
+    "query": "ice tray",
+    "n": 304,
+    "sampled": false
+  },
+  {
+    "batch": "car_phone_mount__0",
+    "query": "car phone mount",
+    "n": 499,
+    "sampled": false
+  },
+  {
+    "batch": "summer_dress__0",
+    "query": "summer dress",
+    "n": 500,
+    "sampled": true
+  },
+  {
+    "batch": "kids_costumes__0",
+    "query": "kids costumes",
+    "n": 354,
+    "sampled": false
+  },
+  {
+    "batch": "dog_halloween_costume__0",
+    "query": "dog Halloween costume",
+    "n": 362,
+    "sampled": false
+  },
+  {
+    "batch": "baby_toys__0",
+    "query": "baby toys",
+    "n": 362,
+    "sampled": false
+  },
+  {
+    "batch": "female_fitness_clothes__0",
+    "query": "female fitness clothes",
+    "n": 500,
+    "sampled": true
+  },
+  {
+    "batch": "invisible_unicorn_leash__0",
+    "query": "invisible unicorn leash",
+    "n": 301,
+    "sampled": false
+  },
+  {
+    "batch": "cat_scratching_post__0",
+    "query": "cat scratching post",
+    "n": 309,
+    "sampled": false
+  },
+  {
+    "batch": "graduation_gown__0",
+    "query": "graduation gown",
+    "n": 437,
+    "sampled": false
+  },
+  {
+    "batch": "electric_guitar_strings__0",
+    "query": "electric guitar strings",
+    "n": 379,
+    "sampled": false
+  },
+  {
+    "batch": "wireless_gaming_mouse__0",
+    "query": "wireless gaming mouse",
+    "n": 301,
+    "sampled": false
+  },
+  {
+    "batch": "essential_oil_diffuser__0",
+    "query": "essential oil diffuser",
+    "n": 319,
+    "sampled": false
+  },
+  {
+    "batch": "solar_powered_garden_light__0",
+    "query": "solar powered garden light",
+    "n": 364,
+    "sampled": false
+  },
+  {
+    "batch": "left_handed_scissors__0",
+    "query": "left-handed scissors",
+    "n": 300,
+    "sampled": false
+  },
+  {
+    "batch": "birthday_party_balloons__0",
+    "query": "birthday party balloons",
+    "n": 309,
+    "sampled": false
+  },
+  {
+    "batch": "yoga_mat__0",
+    "query": "yoga mat",
+    "n": 336,
+    "sampled": false
+  },
+  {
+    "batch": "gluten_free_pasta__0",
+    "query": "gluten free pasta",
+    "n": 500,
+    "sampled": false
+  },
+  {
+    "batch": "gluten_free_pasta__1",
+    "query": "gluten free pasta",
+    "n": 500,
+    "sampled": false
+  },
+  {
+    "batch": "gluten_free_pasta__2",
+    "query": "gluten free pasta",
+    "n": 441,
+    "sampled": false
+  },
+  {
+    "batch": "bluetooth_speaker__0",
+    "query": "bluetooth speaker",
+    "n": 325,
+    "sampled": false
+  }
+]

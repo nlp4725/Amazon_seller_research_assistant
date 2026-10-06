@@ -1,0 +1,2995 @@
+{
+  "query": "kids costumes",
+  "definition": {
+    "definition": "A dress-up costume for a child (infant to teen).",
+    "include": [
+      "Halloween and character costumes",
+      "cosplay outfits",
+      "pretend-play dress-up sets with an outfit"
+    ],
+    "exclude": [
+      "adult costumes",
+      "accessories alone (wands",
+      "hats",
+      "makeup",
+      "wigs)",
+      "everyday clothing"
+    ],
+    "decide": [
+      "Accessory-only items do not count. Default: excluded"
+    ],
+    "keywords": [
+      "costume|dress.?up|cosplay",
+      "kid|child|toddler|boy|girl|baby|infant|youth|teen"
+    ]
+  },
+  "sizes": {
+    "keyword": 91,
+    "embedding": 300,
+    "systems": 92
+  },
+  "pool_size": 354,
+  "candidates": [
+    {
+      "asin": "B08DTH61VT",
+      "title": "DAUGHTER QUEEN Mummy Pajamas for Little Boys Halloween Pjs 4T Toddler Kids 2 Piece 100% Cotton Pj Sets Sleepwear Fall Jammies Clothes Size 4, XS, 3-4 Years Old",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0972359XP",
+      "title": "DAUGHTER QUEEN Boys Halloween Pajamas 18-24 Month Baby Toddler Mummy PJs 100% Cotton Comfy Soft Pj Sets Sleepwear Zombie Jammies Sleeping Clothes Outfits 18M/Mo, 24M/Mth",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B09723CFKP",
+      "title": "DAUGHTER QUEEN Boys Halloween Pajamas Toddler Kids Mummy Pjs 5T Soft 100% Cotton Pj Children Sleepwear Jammies Clothes Size 5 Year Old Small Loungewear Set Nightwear",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B09723L6WD",
+      "title": "DAUGHTER QUEEN Halloween Pajamas for Boys Mummy Pjs Size 3T Toddler Kids Family Pj Sets 100% Cotton Sleepwear Jammies Pyjamas Clothes Outfits SZ 3 Shirts Pijamas Ninos",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0B1CSZQSD",
+      "title": "DAUGHTER QUEEN Girls Halloween Pajamas Size 7 Unicorn Themed Pjs for Kids 7t 100% Cotton Pj Sets Child Sleepwear Jammies Clothes Medium, 6-7 Years Old, Orange",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0B1CVFLH8",
+      "title": "DAUGHTER QUEEN Boys Halloween Pajamas Toddler Dinosaur PJs Kids Jammies 2 Piece 100% Cotton Soft PJ Set Children Sleepwear Skeleton Clothes Size 2T Age 2 Years Old",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0B1CWRWQ2",
+      "title": "DAUGHTER QUEEN Girls Halloween Pajamas Toddler Unicorn PJs Kids Jammies 2 Piece 100% Cotton Soft PJ Set Children Sleepwear Pumpkin Clothes Size 2T Age 2 Years Old",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CS8T6RPF",
+      "title": "GNATAPIAY BJD Dolls Blind Box,Kawaii BJD Dolls MAYTREE Series-Twelve Constellations 1/12 Ball Jointed Doll Collectable Action Figure Posable Dress Up Doll for Girls Birthday Party Gift",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CZ6KJHQG",
+      "title": "Flofallzique Vintage Girls Floral Dress Summer Kids Tiered Midi BirthdayTea Party Dresses (8,Aqua)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZP2YJR3",
+      "title": "MENGKAO Dragon Costume Kids Dinosaur Wings Tail Mask Set Boys Girls Children Dress Up Dino Props for Halloween Cosplay",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D1K5V1VK",
+      "title": "Aflyko Spring Dress for Girl Science Doodle Kiddo Tank Sundress Costume Dress Summertime Comfy Skirt for Dinner Event Wedding Party 5-6T",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D1QX686Y",
+      "title": "Aflyko Spring Dress for Girl Cute Fox Flora Leaf Kiddo Tank Sundress Costume Dress Summertime Comfy Skirt for Dinner Event Wedding Party 5-6T",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D2DG81V1",
+      "title": "Opposuits Boys 3-Piece Slim Fit Suit Set - Kids Formal Outfit with Blazer, Pants & Tie - Wedding, Easter, Ring Bearer, Party - Purple - Size: 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D3LTY171",
+      "title": "Olive Halloween Costumes for Women Long Sleeve Cosplay Outfit Childish Women Olivia Costume Dress 3XL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D41P4X28",
+      "title": "DAUGHTER QUEEN Boys Halloween Pajamas Size 6 Mummy Pjs for Boys 6t 100% Cotton Pj Sets Toddler Kids Cozy Sleepwear Night Clothes Jammies Small 6X 5-6 Year Old",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D41PJ3R8",
+      "title": "DAUGHTER QUEEN Girls Halloween Pajamas Size 6 Witch Pjs for Girls 6t 100% Cotton Pj Sets Toddler Kids Cozy Sleepwear Night Clothes Jammies Small 6X 5-6 Year Old",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D41PLXV5",
+      "title": "DAUGHTER QUEEN Boys Halloween Pajamas Size 7 Mummy Themed Pjs for Kids 7t 100% Cotton Pj Sets Child Sleepwear Jammies Clothes Medium, 6-7 Years Old, White",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D47F5GDN",
+      "title": "Gumyawl Adult Red and White Striped Shirt Men Funny Halloween Costumes Shirt Hat Socks and Glasses Suits (X-Large)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D47F8GZC",
+      "title": "Gumyawl Adult Red and White Striped Shirt Men Funny Halloween Costumes Shirt Hat Socks and Glasses Suits (Small)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4LLL23J",
+      "title": "Quenny Spring and Summer Girls Princess Dress Holiday Party Dress Casual Stage Performance(Illustration,130(6-7Y))",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D4TT491T",
+      "title": "CaTaKu Cute Pugs Hearts Toddler Girl Dress Little Girls Dresses Short Sleeve Cotton Summer Dress for Girls Sundress Outfit 3t",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4TWX9VP",
+      "title": "CaTaKu Cute Pugs Hearts Little Girl Dresses Summer Dress for Girls Kids Beach Sundress Short Sleeveless Casual Dress Size 8",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5YCM31S",
+      "title": "Mepase 12pcs Cowgirl Hat Plastic Western Cowboy Hat Bulk with Tinsel for Women Wedding Bachelorette Costume Party Accessories(Pink)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Hats & Caps > Cowboy Hats",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D65L2K55",
+      "title": "Maoluo Vintage Girls Blue Smocked Summer Clothing Kids Child Cute Smock Casual Midi Dresses Size 2 3 4 5 6 8 10 12",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6QQ4QP3",
+      "title": "Zombie Cheerleader Costume for Girls, High School Cheerleading Uniform Halloween Outfit Scary Bloody Dress for Party (Black, S)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D6QQH1QK",
+      "title": "Zombie Cheerleader Costume for Girls, High School Cheerleading Uniform Halloween Outfit Scary Bloody Dress for Party (Black, L)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D73RPJXZ",
+      "title": "Kids Suits for Boys Casual Summer Linen Ivory Suit 2 Piece Boys Suit Set Size 6 Formal Wedding Dresswear Outfit",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D78P4GQ1",
+      "title": "KNCERY Cold Shoulder Homecoming Dress Tulle Homecoming Dresses for Teens Lace Appliques Homecoming Dresses for Teens Dusty Blue US8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D78PWZC4",
+      "title": "KNCERY Cold Shoulder Homecoming Dress Tulle Homecoming Dresses for Teens Lace Appliques Homecoming Dresses for Teens Dusty Blue US20W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D78QCVFS",
+      "title": "KNCERY Cold Shoulder Homecoming Dress Tulle Homecoming Dresses for Teens Lace Appliques Homecoming Dresses for Teens Dusty Blue US14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7BQLH7V",
+      "title": "OXJOIIS Thigh High Socks for Womens, Ladies, Girls, Adult, Youth, Anti-Slip High Socks for Daily Wear, Cosplay Extra Long Socks Cute Rubber Duck Knee Socks",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D82D3VCS",
+      "title": "Disney Girl's Little Mermaid Ariel and Flounder Denim Kids Shorts (4/5, XX-Small)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Shorts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D91QB244",
+      "title": "Feelyou Cute Halloween Pink Twin Size Bedding Set Decoration Toddlers Teens Adults Pumpkin Ghost Kawaii Duvet Cover Set Kids Autumn Happy Comforter Cover Pink Quilt Cover Soft and Lightweight",
+      "category_path": "Home & Kitchen > Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D927QQW7",
+      "title": "Raven Costume Women Adult Cosplay Halloween Costumes Purple Hooded Cape with Wig Bodysuit Belt Gemstone Anime Party Outfit AJ002M",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D93XKYTB",
+      "title": "Baby Boys' 4-Piece Set with Dress Shirt, Vest, Pants, and Tie (US, Age, 5 Years, Style F)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D967YMCM",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (M)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D968LFS8",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (L)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D968WW5M",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (S)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9CQF7QP",
+      "title": "Sicypoty Kids Cowboy Costume for Boys Rodeo Cowboy Set Halloween Birthday Party Dress Up Cosplay Brown",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D9GMYSXG",
+      "title": "Quenny Spring and Summer Girls Princess Dress Holiday Party Dress Casual Stage Performance(9245Pink,130(6-7Y))",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D9KFC9QM",
+      "title": "KFVZIU Adult Blue Dress Costume for Women Princess alice Costumes Halloween with Socks Hairband KF014M",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9KGK4SF",
+      "title": "KFVZIU Adult Blue Dress Costume for Women Halloween Princess Costumes with Socks Hairband KF014XS",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9KH1ZBY",
+      "title": "KFVZIU Adult Blue Dress Costume for Women Halloween Princess Costumes with Socks Hairband KF014XXL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9KHZ17J",
+      "title": "KFVZIU Adult Blue Dress Costume for Women Princess alice Costumes Halloween with Socks Hairband KF014L",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9Q5S7TH",
+      "title": "Blosssound Hilarious Costume include White T-shirt Moving Googly Eyes Red Blue Twisting Stick for Halloween Costume(Adult)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DB1DM6ZQ",
+      "title": "Deerose Freb Clothing Kids Boys Halloween Sets Crew Neck Tee Top Purple Pants Bottoms 11-12 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DB75W7YM",
+      "title": "ProPoFol Boys Linen Suit 3 Piece Slim Fit Suits for Kids Formal Tuxedo Suits for Summer Beach Wedding Jacket Vest Pants Set,Grey,7",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBZKTZVC",
+      "title": "Princess Dress Up Shoes Set, Girls Role Play Dress Up Toys,Toddler Pretend Play Crown Kit Gift Set for Little Girls Aged 3-6 Years Old",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Vanities",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DC6Q7HVZ",
+      "title": "Cabeny Kids Halloween Costumes for Princess Costume Girls Black Dress Accessories with Wig CA052XXL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DC6S5ZJV",
+      "title": "Cabeny Kids Halloween Costumes for Princess Costume Girls Black Dress Accessories with Wig CA052XL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DC6SDDJP",
+      "title": "Cabeny Kids Halloween Costumes for Princess Costume Girls Black Dress Accessories with Wig CA052S",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DC9Y253Z",
+      "title": "BesserBay Child Girl's Christmas Santa Claus Skiing Dance Black Sweatshirt Xmas Ugly Funny Sweater for Boys 8 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCB9TMM2",
+      "title": "BesserBay Christmas Unisex Big Kids Dabbing Funny Ugly Gingerbread Sweatshirt Long Sleeve Xmas Shirt Black 14 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCBCS38W",
+      "title": "BesserBay Christmas Little Boy/Girl Snowman Ugly Dabbing Funny Sweatshirt Santa Party Shirt Green 6 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCBL6T3X",
+      "title": "IIMMER Christmas Kids Boys Girls Zipper Xmas Cute Animal Deer Hoodie Onesie Brown Reindeer Fluffy Plush Outfit 9-10 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Girls > Sleep & Lounge > One-Piece Pajamas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCBVV6Y7",
+      "title": "BesserBay Child Girl's Christmas Dabbing Dance Santa Claus Black Sweatshirt Ugly Xmas Funny Sweater for Boys 8 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCBVYY5P",
+      "title": "BesserBay Child Girl's Christmas Santa Claus Dance Green Sweatshirt Xmas Ugly Funny Sweater for Boys 8 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFF61WY",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021S",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DCFGN7LJ",
+      "title": "DIYLN 7pcs Girls Halloween Costume Kids Long Sleeve Black Cosplay Dress with Wig Necklace Stripped Socks Accessories DY041-3XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DCFR4MDN",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DCFTY278",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021XXL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DCFXJS4G",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021L",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DCFYQXDJ",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021M",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DD1SL8FP",
+      "title": "Cabeny Kids Halloween Costumes for Creepy Twins Costume Girls Cute Blue Dress for Princess Costume Cosplay Dress Up CA056XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DD6XNSS2",
+      "title": "GNATAPIAY BJD Blind Box,Kawaii PEETSOON Blind Box BJD,PEETSOON Garden Party 1/12 Ball Jointed Collectable Doll Figure Posable Dress Up Doll for Girls Gift Toys",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDXDHRN8",
+      "title": "Boys 3 Piece Slim Fit Tuxedo Suit Set with Blazer Vest Pants, Formal Wedding Dress Suit for Kids",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DG59T9SR",
+      "title": "BesserBay Christmas Kids Ugly Xmas Theme Print Funny Pant Set Party Santa Outfit with Pocket Black 14 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DG5B25PR",
+      "title": "BesserBay Christmas Kids Funny Dabbing Print Ugly Pant Set Xmas Long Sleeve Outfit with Pocket Green 14 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGFYCP61",
+      "title": "Girls' Casual Flannel Long Plaid Shirt Jacket Toddler Kids Button Down Pocketed Shirt Shacket Coats (Green, 5-6 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Tops, Tees & Blouses > Blouses & Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGFYX22K",
+      "title": "Girls' Casual Flannel Long Plaid Shirt Jacket Toddler Kids Button Down Pocketed Shirt Shacket Coats for (Red, 7-8 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Tops, Tees & Blouses > Blouses & Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGLCJLK7",
+      "title": "Christmas Toddler Kids Ugly Santa Claus Pattern Knitted Outfit Party Funny Sweater Red 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGLGPHN3",
+      "title": "IIMMER Christmas Toddler Kids Knitted Santa Claus Pattern Ugly Sweater Winter Pullover Outfit Pink 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DH1NYW8G",
+      "title": "IIMMER Christmas Unisex Kid's Ugly Elf Outfit Santa's Helper Hodded Long Sleeve Cute Onesie Red and Green 10 Years",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DH1R9HH7",
+      "title": "IIMMER Christmas Kids Warm Party Elf Pullove Jumpsuit Santa's Helper Hodded Ugly Onesie Red and Green 8 Years",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DH1V4LL4",
+      "title": "IIMMER Christmas Little Kids Xmas Holiday Elf Costume Santa's Helper Ugly Hodded Jumpsuit Red and Green 6 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DH1YBKBD",
+      "title": "IIMMER Christmas Girls/Boys Gingerbread Pattern Knit Ugly Costume Pullover Winter Outfit Canel 12 Years",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DH21XDR9",
+      "title": "IIMMER Christmas Girls/Boys Snowman Pattern Knit Ugly Snowman Costume Pullover Winter Outfit White 12 Years",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DH59LKZT",
+      "title": "Spreadshirt Tweedle Dee Tweedle Dum Funny Couple Halloween Costume Adults Kids' Premium T-Shirt, Youth L, Sun Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Tops & Corsets",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DH5BFMRF",
+      "title": "Spreadshirt Tweedle Dee Tweedle Dum Funny Couple Halloween Costume Adults Kids' Premium T-Shirt, Youth S, Sun Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Tops & Corsets",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DK2WKT8D",
+      "title": "BASADINA Boys Argyle Sweater Vest V-Neck Uniform Sleeveless Vest Kids Over Size Casual Knit Sweaters for Children 5-14Y Navy Blue",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKXDJZS2",
+      "title": "Satin Short Flower Girl Dresses for Wedding Kids Puffy Princess Birthday Party Gowns with Bowknot Red Size 8",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKXDXZ55",
+      "title": "MRLYOUTH Satin Short Flower Girl Dresses for Wedding Kids Puffy Princess Birthday Party Gowns with Bowknot Black Size 3",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DKXF4HGK",
+      "title": "MRLYOUTH Satin Short Flower Girl Dresses for Wedding Kids Puffy Princess Birthday Party Gowns with Bowknot Dusty Blue Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKXFFHCL",
+      "title": "Satin Short Flower Girl Dresses for Wedding Kids Puffy Princess Birthday Party Gowns with Bowknot Fuchsia Size 5",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKXFJ2R3",
+      "title": "Satin Short Flower Girl Dresses for Wedding Kids Puffy Princess Birthday Party Gowns with Bowknot Red Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKXFR39B",
+      "title": "Satin Short Flower Girl Dresses for Wedding Kids Puffy Princess Birthday Party Gowns with Bowknot Fuchsia Size 3",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DKXFSN24",
+      "title": "MRLYOUTH Satin Short Flower Girl Dresses for Wedding Kids Puffy Princess Birthday Party Gowns with Bowknot Black Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DKXGP7VG",
+      "title": "MRLYOUTH Satin Short Flower Girl Dresses for Wedding Kids Puffy Princess Birthday Party Gowns with Bowknot Dusty Blue Size 3",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLKPB3ND",
+      "title": "CRFASIBE Japanese Kimono Anime Cosplay Costumes for Kids Girls Robes Fox Mask Tutu Skirt Set Size 8-9(140CM)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLMQLRXD",
+      "title": "CRFASIBE Japanese Kimono Anime Cosplay Costumes for Kids Girls Robes Fox Mask Tutu Skirt Set Size 6-7(130CM)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLP5TMRS",
+      "title": "Toddler Girl Christmas Dress Baby Buffalo Plaid Tulle Tutu Velvet Princess Dress Kids Holiday Dress Up Clothes (Red Plaid, 6-12 Months)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Playwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLP6J3W6",
+      "title": "Toddler Girl Christmas Dress Baby Buffalo Plaid Tulle Tutu Velvet Princess Dress Kids Holiday Dress Up Clothes (Red Green Christmas Dress D, 0-6 Months)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLP7K61M",
+      "title": "Toddler Girl Christmas Dress Baby Buffalo Plaid Tulle Tutu Velvet Princess Dress Kids Holiday Dress Up Clothes (Red Green Christmas Dress E, 1-2 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLVR4ZP3",
+      "title": "CRFASIBE Japanese Kimono Anime Cosplay Costumes for Kids Girls Robes Hand Held Fan Set Size 6-7(130CM) Red",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DPKBMGJD",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (D, 4-5 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKGGDYG",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (E, 6-7 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKGNM64",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (E, 5-6 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKGSB9J",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (C, 8-9 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKGVF2R",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (D, 5-6 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKH3VML",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (C, 4-5 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKH7XG2",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (E, 8-9 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKHF7J2",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (E, 3-4 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKJ7CRX",
+      "title": "Toddler Boys Girl Sweatshirts Kids Pullover Crew Neck Tops Tees Long Sleeve Sweatshirt Chinese New Girls (E, 4-5 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPMPFP3Z",
+      "title": "Arshiner Boys Short Sleeve Camo T Shirt and Shorts Set 2-Piece Black Outfit for Kids 9-10 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRHX31K3",
+      "title": "WSPLYSPJY Boys Muslim Thobe Striped Maxi Kaftans Kids Hooded Long Sleeve Arab Gown Islamic Robe Multicolor for 13-14 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Sleepwear & Robes > Robes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSH6XK58",
+      "title": "Reobrix Sword Building Sets for Adults, Cool Narthil 99024 Collectible Build and Display Model, Anime-Style Cosplay Toy Sword Home Office Decor, Ideal Gifts for Adults Boys Girls 14+ (521 PCS)",
+      "category_path": "Toys & Games > Building Toys > Building Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DSJYD9GF",
+      "title": "Little Adventures Princess Costume Cosplay Dress-up Shoes (Silver, US Footwear Size System, Little Kid, Women, Numeric, Medium, 13)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Footwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSJYG5M6",
+      "title": "Little Adventures Princess Costume Cosplay Dress-up Shoes (Gold, US Footwear Size System, Little Kid, Women, Numeric, Medium, 1)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Footwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSJYN678",
+      "title": "Little Adventures Princess Costume Cosplay Dress-up Shoes (Gold, US Footwear Size System, Little Kid, Women, Numeric, Medium, 7)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Footwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSJYPSM2",
+      "title": "Little Adventures Princess Costume Cosplay Dress-up Shoes (Gold, US Footwear Size System, Little Kid, Women, Numeric, Medium, 8)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Footwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSJYT9XH",
+      "title": "Little Adventures Princess Costume Cosplay Dress-up Shoes (Silver, US Footwear Size System, Little Kid, Women, Numeric, Medium, 1)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Footwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSJZK136",
+      "title": "Little Adventures Princess Costume Cosplay Dress-up Shoes (Silver, US Footwear Size System, Little Kid, Women, Numeric, Medium, 8)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Footwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSJZQ4Q8",
+      "title": "Little Adventures Princess Costume Cosplay Dress-up Shoes (Silver, US Footwear Size System, Little Kid, Women, Numeric, Medium, 7)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Footwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSK1VTV2",
+      "title": "Little Adventures Princess Costume Cosplay Dress-up Shoes (Silver, US Footwear Size System, Little Kid, Women, Numeric, Medium, 10)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Footwear",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT16W7XR",
+      "title": "Kids Graduation Gown 6 Piece Set Printed Cap Design Shiny Classic Outfit for Kindergarten Graduation Ceremony (Printed Black, 30)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT17T89Y",
+      "title": "LMYOVE Kids Graduation Gown 6 Piece Set Printed Cap Design Shiny Classic Outfit for Kindergarten Graduation Ceremony (Printed Black, 27)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT41TYVC",
+      "title": "Reobrix Sword Building Sets for Adults, Cool Royal Claymore 99015 Collectible Build and Display Model, Anime-Style Cosplay Toy Sword Home Office Decor, Gifts for Classic Game Fans Boys 14+ (981 PCS)",
+      "category_path": "Toys & Games > Building Toys > Building Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DTG67GY1",
+      "title": "Strawberry Printed Toddler Party Gowns Short Lantern Sleeves Flower Girl Dresses Pink Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWSL9985",
+      "title": "Lgvhydh Newborn Baby Photography Props Outfits Cute Bear Hat Romper Set Infant Baby Boy Girl Photoshoot Props Costume ﻿Set (White)",
+      "category_path": "Electronics > Camera & Photo > Lighting & Studio > Photo Studio > Posing Props",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXF5LCNQ",
+      "title": "Kirei Sui Girls 5th Princess Glitter Crystal Number Tank Top Pink Silver Snowflake Tutu Skirt 2-Piece Birthday Outfit Dress Set 5-6Y",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DY861H25",
+      "title": "Cabeny Kids Halloween Costumes for Girls Cute Blue Dress for Princess Costume Cosplay Dress Up CA056-M",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F1MNS6C5",
+      "title": "IBTOM CASTLE Kids Wetsuit for Boys Girls Toddler One Piece Full Body Swimsuit Long Sleeve Swimwear Surfing Diving Rashguard Modest Bathing Suit Green 3-4 T",
+      "category_path": "Sports & Outdoors > Sports > Water Sports > Diving & Snorkeling > Diving Suits > Wetsuits > Full Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2HXFR3N",
+      "title": "Tiuredx Toddler Baby Boy Girl Duck Rain Jacket Cute Cartoon Yellow Raincoat Hoodie Kids Coat Fall Winter School Outfit (US, Age, 5 Years, Yellow)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2HY5C47",
+      "title": "Tiuredx Toddler Baby Boy Girl Duck Rain Jacket Cute Cartoon Yellow Raincoat Hoodie Kids Coat Fall Winter School Outfit (US, Age, 12 Months, Red)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Snow & Rainwear > Rain Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F4QTBRYX",
+      "title": "LittleSpring Toddler Girl Bathing Suit with Swim Cap Back-Zip Girls Two Piece Swimsuits Long Sleeve UPF 50+ Kids Swimwear 4-5 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Sport Specific Clothing > Competitive Swimwear > Girls > Two-Piece Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F82LHG3R",
+      "title": "Birthday Girl Shirt Kids Magical Castle Tshirt Birthday Princess T-Shirt Toddler Girls Party Gifts Tee Family Vacation Tops",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Tops, Tees & Blouses > Tees",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F82QHVTM",
+      "title": "Birthday Girl Shirt Kids Magical Castle Tshirt Birthday Princess T-Shirt Toddler Girls Party Gifts Tee Family Vacation Tops White",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Tops, Tees & Blouses > Tees",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F836RP2N",
+      "title": "Birthday Girl Shirt Kids Magical Castle Tshirt Birthday Princess T-Shirt Toddler Girls Party Gifts Tee Family Vacation Tops White",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F87KC6R4",
+      "title": "Slivomi Swat Costume for Kids Police Officer Costume for Boys Girls Cop Halloween Costumes Toddler Camo SWAT Team Outfit with Vest, Tactical Gear Accessories SV045XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F8MNYS4Y",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (XXL)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8MS9M4N",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (XL)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9BGM1FX",
+      "title": "Disney Winnie the Pooh Piglet Newborn Baby Boys Cosplay Bodysuit and Hat Set Pink Piglet Newborn",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9BQGNCQ",
+      "title": "Disney Winnie the Pooh Tigger Newborn Baby Boys Cosplay Bodysuit and Hat Set Orange Tigger 0-3 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9BSHSTZ",
+      "title": "Disney Winnie the Pooh Tigger Newborn Baby Boys Cosplay Bodysuit and Hat Set Orange Tigger 3-6 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9BSK7JH",
+      "title": "Disney Winnie the Pooh Tigger Infant Baby Boys Cosplay Bodysuit and Hat Set Orange Tigger 18 Months",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9BVGRRS",
+      "title": "Disney Winnie the Pooh Piglet Newborn Baby Boys Cosplay Bodysuit and Hat Set Pink Piglet 3-6 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9BX3DGM",
+      "title": "Disney 101 Dalmatians Newborn Baby Boys Cosplay Bodysuit and Hat Set White 101 Dalmatians 3-6 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9BYT73L",
+      "title": "Disney Winnie the Pooh Piglet Newborn Baby Boys Cosplay Bodysuit and Hat Set Pink Piglet 6-9 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9C29DC9",
+      "title": "Disney Princess Beauty and the Beast Infant Baby Boys Cosplay Bodysuit and Hat Set Blue/Yellow/Beige Beast 18 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9C36BZ2",
+      "title": "Disney Cosplay Baby Bodysuit and Hat Set to Infant Sizes (Newborn - 24 Months)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9C59J4T",
+      "title": "Disney 101 Dalmatians Newborn Baby Boys Cosplay Bodysuit and Hat Set White 101 Dalmatians 0-3 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9C8THF2",
+      "title": "Disney Princess Beauty and the Beast Infant Baby Boys Cosplay Bodysuit and Hat Set Blue/Yellow/Beige Beast 24 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9W3KF2N",
+      "title": "Mouse Costume Set, 4Pcs Mouse Costumes Accessories - Animal Ears Headband with Bow, Gloves, Nose and Polka Dots Tutu, Halloween Cosplay Birthday Party Fancy Dress Up, Red, Small Size",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Dress-Up Accessories > Headwear > Hats",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9WDZSS8",
+      "title": "MICHLEY Infant Halloween Cosplay Costume Kids' Animal Outfit Hooded Romper Partywear 6-12M,Deep Brown Bear",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9X5XJ64",
+      "title": "Mistletoe unicorn Unisex Kids Flannel Animal Onesie Pajamas - Kids Flannel Halloween Cosplay Costume/Homewear/Sleepwear Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YGWFLC",
+      "title": "Tutus and Gloves for Women Adults 5 Layers Fluffy Tutu Dance Ballet Bubble Skirts for Girls Teens Halloween Christmas Dress Costume",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YK5YTP",
+      "title": "2 Pcs Tutus for Women Adults 5 Layers Fluffy Tutu Dance Ballet Bubble Skirts for Girls Teens Halloween Christmas Dress Costume",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F9YK88WR",
+      "title": "2 Pcs Tutus for Women Adults 5 Layers Fluffy Tutu Dance Ballet Bubble Skirts for Girls Teens Halloween Christmas Dress Costume",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F9YKBRPV",
+      "title": "2 Pcs Tutus for Women Adults 5 Layers Fluffy Tutu Dance Ballet Bubble Skirts for Girls Teens Halloween Christmas Dress Costume",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F9YL4FXR",
+      "title": "Tutus and Gloves for Women Adults 5 Layers Fluffy Tutu Dance Ballet Bubble Skirts for Girls Teens Halloween Christmas Dress Costume",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FF49QN4T",
+      "title": "jvmusaber Light Saber, Dueling Lightsaber for Kids Adults, 15 RGB Colors, 3 FX Sound Modes, Safe LED Blade Cosplay Sword, USB Rechargeable Metal Hilt, Halloween Christmas Gift (Black)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Props > Weapons & Armor",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FF9QYD4X",
+      "title": "2PCS Dog Christmas Sweater, Soft Warm Pet Clothes Coat for Small Medium Large Dogs and Cats Boy Girl, Fall Cozy Holiday Turtleneck Knitting Collar Pullover Pup Outfit Costume for Thanksgiving New Year",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FFBTMCPS",
+      "title": "IBQ Kids Zombie Cheerleader Costume Girls Scary Halloween Costumes for Zombie Fearleader Costume Purple BQ061M",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FFFWRTRX",
+      "title": "Gumyawl Adult Red and White Striped Shirt Men Funny Halloween Costumes Shirt Hat Socks and Glasses Suits (Medium)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFG4SDN1",
+      "title": "Gumyawl Adult Red and White Striped Shirt Women Funny Halloween Costumes Shirt Hat Socks and Glasses Suits (XX-Large)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFGHJ9ZH",
+      "title": "Gumyawl Adult Red and White Striped Shirt Women Funny Halloween Costumes Shirt Hat Socks and Glasses Suits (X-Large)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG38GQVZ",
+      "title": "Kids Boys Button Down Tops Cotton Plaid Long Sleeve Lapel Flannel Jacket Comfy Soft Dress Shirts for (Green, 6-7 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Tops, Tees & Shirts > Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG3BZRG9",
+      "title": "Kids Boys Button Down Tops Cotton Plaid Long Sleeve Lapel Flannel Jacket Comfy Soft Dress Shirts for (Green, 4-5 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Tops, Tees & Shirts > Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG3CMN8H",
+      "title": "Kids Boys Button Down Tops Cotton Plaid Long Sleeve Lapel Flannel Jacket Comfy Soft Dress Shirts for (Green, 5-6 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Tops, Tees & Shirts > Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG3DGFKN",
+      "title": "Kids Boys Button Down Tops Cotton Plaid Long Sleeve Lapel Flannel Jacket Comfy Soft Dress Shirts for (Green, 7-8 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Tops, Tees & Shirts > Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGVLRHT1",
+      "title": "Kids Girls Hooded Sweatshirt Sweatpants Set 2 Piece Solid with Hood Going Out Fall Children Sweatsuits Sets Zip Up",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active > Sets > Workout Top & Bottom Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGXYKCMF",
+      "title": "Feelyou Halloween Bedding Set for Girls Boys Kids Toddler Size Black Bats Animal Print Silhouette Comforter Cover Room Decor Happy Holiday Cute Star Print Luxury Duvet Cover Light Purple，No Comforter",
+      "category_path": "Home & Kitchen > Bedding > Kids' Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGXZHFN6",
+      "title": "Feelyou Halloween Bedding Set for Girls Boys Kids Toddler Size Black Bats Animal Print Silhouette Comforter Cover Room Decor Happy Holiday Cute Star Print Luxury Duvet Cover Black，No Comforter",
+      "category_path": "Home & Kitchen > Bedding > Kids' Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGY1FWGQ",
+      "title": "Feelyou Halloween Bedding Set for Girls Boys Kids Toddler Size Black Bats Animal Print Silhouette Comforter Cover Room Decor Happy Holiday Cute Star Print Luxury Duvet Cover Gray，No Comforter",
+      "category_path": "Home & Kitchen > Bedding > Kids' Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGY256PT",
+      "title": "Feelyou Halloween Bedding Set for Girls Boys Kids Toddler Size Black Bats Animal Print Silhouette Comforter Cover Room Decor Happy Holiday Cute Star Print Luxury Duvet Cover Blue，No Comforter",
+      "category_path": "Home & Kitchen > Bedding > Kids' Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH2KLGBT",
+      "title": "Gianby Light Sword Toy for Kids, Rechargeable Light Up Saber Set, LED Dual Light Sword with Belt Clip for Galaxy War Fighter Warriors, Halloween Cosplay Party Kid Gift, Christmas Birthday Present",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Dress-Up Accessories > Wands",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FHHJ2VSB",
+      "title": "Gianby Light Sword Toy for Kids, Rechargeable Light Up Saber Set with Belt Clip for Galaxy War Fighter Warriors, Halloween Cosplay Party Kid Gift, Christmas Birthday Present",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Dress-Up Accessories > Wands",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FHTLC55P",
+      "title": "Quxjehoe Daisies Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size S",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHTLTN5D",
+      "title": "Quxjehoe Happy Christmas Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHTQCG3F",
+      "title": "Quxjehoe Daisies Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size XS",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHTQCS4Z",
+      "title": "Quxjehoe Checkered Strawberries Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size M",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHV3HKSF",
+      "title": "Quxjehoe Lemon White Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size 2XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHV4YXB1",
+      "title": "Quxjehoe Thanksgiving Turkey Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size 3XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHV527R2",
+      "title": "Quxjehoe Colorful Paw Prints Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size S",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHV651ZD",
+      "title": "Quxjehoe Colorful Paw Prints Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHV68HRR",
+      "title": "Quxjehoe Daisies Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size L",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVD49ZM",
+      "title": "Quxjehoe Checkered Strawberries Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size 2XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVDLYGH",
+      "title": "Quxjehoe Lemon White Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size S",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVF3GQ5",
+      "title": "Quxjehoe Thanksgiving Turkey Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size 2XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVF3RPS",
+      "title": "Quxjehoe Happy Christmas Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size L",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVGJF2Y",
+      "title": "Quxjehoe Lemon White Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size L",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVGPFLQ",
+      "title": "Quxjehoe Checkered Strawberries Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size 3XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVKT29M",
+      "title": "Quxjehoe Daisies Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size 2XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVL2H5F",
+      "title": "Quxjehoe Colorful Paw Prints Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size 2XL",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVRJ65P",
+      "title": "Quxjehoe Lemon White Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size XS",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVX6C3P",
+      "title": "Quxjehoe Checkered Strawberries Girls Casual Crew Neck Dresses Printed Color A-line High Waist Party Holiday Dress for 5-12 Years Kids Size XS",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHW88DZF",
+      "title": "2T 3T Girl Clothes Fall Winter 2T 3T Girls Outfits 2-3 Year Old Girl Gifts Red Green Plaid Ripped Denim Jeans Adorable Toddler Clothes for Girls 2T-3T",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Clothing Sets > Pant Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHWXPLBP",
+      "title": "Little Girls Double Breasted Dress Coat Kids Y2K Stylish Outerwear Long Sleeve Trench Coat Lapel Peacoat with Pockets (Khaki, 5-6 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Dress Coats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHWXS13J",
+      "title": "Kids Plaid Sherpa Fleece Full-Zip Sweatshirt Girls Boys Stand Collar Fuzzy Cozy Jacket Soft Warm Fall Winter Coat (Coffee, 5-6 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Fleece",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHWYBM9C",
+      "title": "Boys Girls Winter Hooded Puffer Vest Kids Lightweight Sleeveless Zipper Quilted Puffy Jacket Warm Soft Waistcoat (Orange, 12-15 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Vests",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ2HS5G1",
+      "title": "Halloween Hooded Robe Costumes Womens Plus Size Stretch Renaissance Sweater Dresses Vintage Pullover Gothic Clothes Black",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ2KF25K",
+      "title": "Halloween Hooded Robe Costumes Womens Plus Size Stretch Renaissance Sweater Dresses Vintage Pullover Gothic Clothes Army Green",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ2NVZPV",
+      "title": "Halloween Hooded Robe Costumes Womens Plus Size Stretch Renaissance Sweater Dresses Vintage Pullover Gothic Clothes Black",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJD4DQH5",
+      "title": "Girl Heavyweight Puffer Winter Coats Kids Parka Fleece Thicken Snow Outwear Cozy Hooded Jacket Windproof Clothes (Black, 4-5 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJDXX38K",
+      "title": "Cutecrop 7 Pcs 70s Cowgirl Costume Disco Hippie Outfit for Women Tassel Vest Jacket Cowboy Hat Fringe Silver Concert Outfit(XL)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Accessories > Accessory Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FJDZH4D4",
+      "title": "Cutecrop 7 Pcs 70s Cowgirl Costume Disco Hippie Outfit for Women Tassel Vest Jacket Cowboy Hat Fringe Silver Concert Outfit(M)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Accessories > Accessory Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FJY147PN",
+      "title": "FZYLQY Adult Onesie Animal Halloween Costumes One Piece Pajamas Cosplay Suit Party Wear for Women and Men Soft Homewear",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Sleep & Lounge > One-Piece Pajamas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKGV9M2X",
+      "title": "Fanient Girls Jackets Coat Padded Solid Black Jacket Kids Warm Light Micro-Fleece Lining Outfit with Hood Outerwear for Christmas Size 5-6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKMX3P4M",
+      "title": "2PCS Dog Christmas Sweater, Soft Warm Pet Clothes Coat for Small Medium Large Dogs and Cats Boy Girl, Fall Cozy Holiday Turtleneck Knitting Collar Pullover Pup Outfit Costume for Thanksgiving New Year",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLDL2PWW",
+      "title": "Cute Halloween Pants Halloween Yoga Pants with Pockets s for Couples Girls 10-12 Skeleton Hands Sweatpants Cute Pumpkin Costume Women Womens Leggings Sweatpants Teen Girl",
+      "category_path": "Clothing, Shoes & Jewelry > Sport Specific Clothing",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLKJWNN9",
+      "title": "Enccfoeo Girls Witch Costume Dress, Pink Starlight Tulle Dress for Kids Halloween Costumes & Birthday Party, 8 Pcs Good Witch Cosplay Outfit with Full Accessory Set EN083XS",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLKKGXWR",
+      "title": "Toddler Kids Full Zip Fleece Hoodless Hoodies Basic Long Sleeve Sweatshirts Boys Girls Classic Plain Casual Jacket (Blue, 4-5 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLKKPWWD",
+      "title": "Enccfoeo Girls Witch Costume Dress, Pink Starlight Tulle Dress for Kids Halloween Costumes & Birthday Party, 8 Pcs Good Witch Cosplay Outfit with Full Accessory Set EN083M",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLKKX5W2",
+      "title": "Boys Girls Rain Jacket Kids Zip Up Hooded Windbreaker Waterproof Outerwear Raincoats Fall Winter Outdoor Coat (Green, 6-7 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLKL46P6",
+      "title": "Enccfoeo Girls Witch Glinda Costume Dress, Pink Starlight Tulle Dress for Kids Halloween Costumes & Birthday Party, 8 Pcs Good Witch Cosplay Outfit with Full Accessory Set EN083S",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLKLLPN5",
+      "title": "Boys Girls Sherpa Fleece Jacket Full-Zip Fuzzy Fleece Sweatshirt Kids Windproof Comfy Soft Plush Thickened Coat (Pink, 9-10 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLKLQP7G",
+      "title": "Boys Girls Sherpa Fleece Jacket Full-Zip Fuzzy Fleece Sweatshirt Kids Windproof Comfy Soft Plush Thickened Coat (Blue, 7-8 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLKM36QV",
+      "title": "Enccfoeo Girls Witch Costume Dress, Pink Starlight Tulle Dress for Kids Halloween Costumes & Birthday Party, 8 Pcs Good Witch Cosplay Outfit with Full Accessory Set EN083XXL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLKM6NVP",
+      "title": "Enccfoeo Girls Witch Glinda Costume Dress, Pink Starlight Tulle Dress for Kids Halloween Costumes & Birthday Party, 8 Pcs Good Witch Cosplay Outfit with Full Accessory Set EN083XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLKMF4R2",
+      "title": "Boys Girls Rain Jacket Kids Zip Up Hooded Windbreaker Waterproof Outerwear Raincoats Fall Winter Outdoor Coat (Grey, 12-18 Months)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLKN1BVB",
+      "title": "Unisex Boys Girls Fleece Jacket Hoodie Sherpa Lined Zip Up Hooded Sweatshirt Kids Winter Warm Outerwear Jackets (RD1, 9-10 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLKN85T9",
+      "title": "Boys Girls Sherpa Fleece Jacket Full-Zip Fuzzy Fleece Sweatshirt Kids Windproof Comfy Soft Plush Thickened Coat (Coffee, 7-8 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Fleece",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLKNNRP2",
+      "title": "Toddler Boys Lined Windbreaker Kids Lightweight Zip Up Hooded Jacket Casual Hiking Outerwear Raincoat with Poacket (Blue, 4-5 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM3TBCX6",
+      "title": "Ausing Women Sexy Lingerie Set 3 Piece Cosplay Babydoll & Lace Kimono Robe Honeymoon Chemise Sleepwear Mesh Nightgown Red L",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FM3VFCTP",
+      "title": "RENGVO Dusty Blue Homecoming Dresses Short Prom Dresses for Teens Mermaid Lace Applique Tulle Spaghetti Strap Tight Dusty Blue Cocktail Party Gowns US0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMHLG7CX",
+      "title": "CICOCI Western Outfits for Women With Cowboy hat Cowgirl Costume Tassel Sleeveless Vest Halloween Costume Full Set",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FMKMLY41",
+      "title": "POZAMA Kids Detachable Hood Faux Leather Moto Jacket, Boys Girls PU Leather Biker Jacket, Windproof Fall Winter Outerwear for School Playdate Black 11-12Years",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMKT2CKP",
+      "title": "POZAMA Kids Detachable Hood Faux Leather Moto Jacket, Boys Girls PU Leather Biker Jacket, Windproof Fall Winter Outerwear for School Playdate Black 5-6Years",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR4WXZH",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR4ZH4D",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR5CK32",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR5VKB5",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR67DWD",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR67VQW",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR67VR4",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR6C8H2",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR6NQ21",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR6QRSC",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR6SZ9L",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR795X7",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR7D43L",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR7J7F8",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR7LS51",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR84H92",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR87F3P",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR8CBVH",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR8LDVF",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR8RFD2",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR966TG",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR9MLWY",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNR9RV7T",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNRB46JD",
+      "title": "Preppy Clothes for Teen Girls Pink Bow Puff Silk Satin Button Down Shirts and Shorts Set Cute Back to School Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Girls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP2XSJ3Z",
+      "title": "Toddler Cartoon Cow Cotton Slippers, Girls Boys Cute Indoor Outdoor Plush Animal Shoes Cozy Soft Warm Home Slides (Coffee, 13 Little Child)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP2Y7BHT",
+      "title": "Toddler Kids Bunny Slippers Cute Cartoon Animal House Shoes Girls Boys Warm Fleece Soft Winter Household Slippers (Brown, 8 Toddler)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP2YYF79",
+      "title": "Toddler Kids Bunny Slippers Cute Cartoon Animal House Shoes Girls Boys Warm Fleece Soft Winter Household Slippers (Grey, 7 Toddler)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8M6H3S",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Green-B, 12 Little Child)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8M6MGB",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Green-B, 3 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8M99L7",
+      "title": "Toddler Kids Cute Animal Cartoon Dog Slippers Girls Boys Warm Fleece Winter Household Shoes Fuzzy Soft Cozy Non Slip (Green, 3 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8MFHD9",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Yellow-A, 11.5 Little Child)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8N69RG",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Red-B, 9 Toddler)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8NMWMS",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Yellow-A, 3 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8Q18CH",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Yellow-A, 2 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8Q1LTR",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Yellow-A, 1 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8Q4CNN",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Green-A, 13 Little Child)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8QDY6H",
+      "title": "Halloween Bat Animal Slippers Kids Cozy Soft Plush Open Toe Indoor Outdoor Fuzzy Slippers Funny Cute Party Shoes (PK2, 2 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8QFQNX",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Red-B, 1 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8S8VT5",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Red-B, 3 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8VB739",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Blue-B, 12 Little Child)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8VXX7W",
+      "title": "Boys Girls Dinosaur Slippers Winter Plush Lightweight Warm Comfort Soft Slipper House Shoes for Kids Boys Girls Unisex (Blue-B, 3 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPMJXJ7W",
+      "title": "Toddler Lovable Luchador Costume with Shirt, Cape, Leggings, Shoe Covers, Wig, & Mustache for Halloween Fun 4T",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPMLGCND",
+      "title": "Toddler Lovable Luchador Costume with Shirt, Cape, Leggings, Shoe Covers, Wig, & Mustache for Halloween Fun X-Small",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPMLSW53",
+      "title": "Toddler Lovable Luchador Costume with Shirt, Cape, Leggings, Shoe Covers, Wig, & Mustache for Halloween Fun 2T",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FQ1FTLD6",
+      "title": "Vaveren Halloween Adult Costume Props Adorable Jumpsuit for Festival",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ9MC4JF",
+      "title": "Kids Tracksuit Boys Girls 2 Piece Sweatsuit Jogging Outfits Jogger Sweatpants and Hooded Sweatshirt (1-Pink, 7-8 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Active > Sets > Workout Top & Bottom Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ9PT3CZ",
+      "title": "Kids Tracksuit Boys Girls 2 Piece Sweatsuit Jogging Outfits Jogger Sweatpants and Hooded (1-Light Blue, 13-14 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Active > Sets > Workout Top & Bottom Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ9WH7BL",
+      "title": "Kids Tracksuit Boys Girls 2 Piece Sweatsuit Jogging Outfits Jogger Sweatpants and Hooded (1-Purple, 3-4 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Active > Sets > Workout Top & Bottom Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ9YRV23",
+      "title": "Kids Tracksuit Boys Girls 2 Piece Sweatsuit Jogging Outfits Jogger Sweatpants and Hooded (1-Dark Purple, 9-10 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Active > Sets > Workout Top & Bottom Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ9YW8HG",
+      "title": "Girls Boys Tracksuit Pullover Hoodie Jogging Pants Set 2 Pieces Sweatsuit with Pocket Kids Cozy (Purple, 11-12 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Active > Sets > Workout Top & Bottom Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQB4FYN8",
+      "title": "Kids Tracksuit Boys Girls 2 Piece Sweatsuit Jogging Outfits Jogger Sweatpants and Hooded (1-Orange, 13-14 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Active > Sets > Workout Top & Bottom Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQHQYB71",
+      "title": "New York Boys Girls Hoodies Long Sleeve Kids Sweatshirts Oversized Drop Shoulder Casual Fashion Fall Winter Pullover Black 8-10 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQHVJS4M",
+      "title": "New York Boys Girls Hoodies Long Sleeve Kids Sweatshirts Oversized Drop Shoulder Casual Fashion Fall Winter Pullover Pink 11-12 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR3WFX41",
+      "title": "MagicSite Boys Black Suit Stretch Formal Kids Suit Set Tuxedo for Big Kids Size 14",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FR3ZZ26B",
+      "title": "MagicSite Boys Black Suit Stretch Formal Kids Suit Set Tuxedo for Big Kids Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FRD74ZKD",
+      "title": "Yellow Circus Clown Girl Women's Costume XXL 22-24",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FRLSWT4R",
+      "title": "Birthday Girl Shirt Kids Magical Castle Tshirt Birthday Princess T-Shirt Toddler Girls Party Gifts Tee Family Vacation Tops C-Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Tops, Tees & Blouses > Tees",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRN6BYK6",
+      "title": "Girls 2 Piece Outfits Tracksuit Fleece Hoodie Sweatsuit Set Sweatshirt and Baggy Sweatpants Boys (1-Brown, 9-10 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active > Sets > Sweatsuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS2KC8KH",
+      "title": "Disney Classics Toddler Girls 2 Pack Dresses Blue/Gray 3T",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS2QPY6P",
+      "title": "Disney Toy Story Toddler Girls 2 Pack Dresses Cream/Purple 4T",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Playwear",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS2V8XQJ",
+      "title": "Disney Toy Story Little Girls 2 Pack Dresses Cream/Purple 7-8",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS35QHNZ",
+      "title": "Disney Toy Story Big Girls 2 Pack Dresses Cream/Purple 10-12",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS3FJ3XQ",
+      "title": "Disney Toy Story Toddler Girls 2 Pack Dresses Cream/Purple 3T",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Playwear",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS3FTHVH",
+      "title": "Disney Toy Story Little Girls 2 Pack Dresses Cream/Purple 6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS3G32VX",
+      "title": "Disney Toy Story Toddler Girls 2 Pack Dresses Cream/Purple 2T",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Playwear",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS3M45PT",
+      "title": "Disney Classics Little Girls 2 Pack Dresses Blue/Gray 6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT2LHKD3",
+      "title": "QAQ-COSPLAY Wizard Costume Accessories for Kids/Adults - Wand, Scarf, Tie and Wizard Hat for Halloween Cosplay Party Supplies",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Dress-Up Accessories > Wands",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FV98WXFJ",
+      "title": "Boys Girls Winter Hooded Puffer Vest Kids Lightweight Sleeveless Zipper Quilted Down Coat Soft Warm Jacket Waistcoat (Gold, 7-8 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Vests",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FV99SHFW",
+      "title": "Boys Girls Winter Hooded Puffer Vest Kids Lightweight Sleeveless Zipper Quilted Down Coat Soft Warm Jacket Waistcoat (Pink, 15-16 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Vests",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FV99SZMK",
+      "title": "Boys Girls Winter Hooded Puffer Vest Kids Lightweight Sleeveless Zipper Quilted Down Coat Soft Warm Jacket Waistcoat (Gold, 15-16 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Vests",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVLWMFZD",
+      "title": "CHAOJIESI 5T Girl Winter Coat Todder Boy Balck Puffer Jacket Kids Warm Fleece Liner Clothing Outerwear With Pocket Black 5-6T",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Jackets & Coats > Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVRJZDBT",
+      "title": "Misdary Rhinestone Cowboy Hat for Women Cowgirl Outfit with Silver Bling Rhinestone Jewelry Western Cosplay Accessories(White)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Accessories > Headwear > Hats",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVXWC2WY",
+      "title": "Funnycokid Teen Swimsuits for Girls 12-14 Two Piece Bathing Suit Kids Darkblue 13-14 Bikini Sets with Chest Pad Adjustable Straps Swimwear",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Swim > Two-Pieces > Bikinis > Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRBLDWQ",
+      "title": "Boys Suit Jacket Slim Fit Formal Wear for Children Kids Business Occasion Outfit Top with Pocket (Blue, 12-13 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRFFVPJ",
+      "title": "Boys Suit Jacket Slim Fit Formal Wear for Children Kids Business Occasion Outfit Top with Pocket (Grey, 10-11 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Jackets & Coats > Down & Down Alternative",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRHCWF1",
+      "title": "Boys Suit Jacket Slim Fit Formal Wear for Children Kids Business Occasion Outfit Top with Pocket Dress Up (Red, XXXXXL)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRHKNDJ",
+      "title": "Boys Suit Jacket Slim Fit Formal Wear for Children Kids Business Occasion Outfit Top with Pocket (Red, 11-12 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Jackets & Coats > Down & Down Alternative",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRHWR9Y",
+      "title": "Boys Suit Jacket Slim Fit Formal Wear for Children Kids Business Occasion Outfit Top with Pocket (Black, 14-15 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRJ3CPW",
+      "title": "Boys Suit Jacket Slim Fit Formal Wear for Children Kids Business Occasion Outfit Top with Pocket (Blue, 16-17 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRJF35D",
+      "title": "Boys Suit Jacket Slim Fit Formal Wear for Children Kids Business Occasion Outfit Top with Pocket (White, 14-15 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXMFC4C5",
+      "title": "Snow Suit for Kids One-Piece Snowsuit Insulated Ski Snowboard Jumpsuits Boys Girls Winter Warm (Yellow, 14-15 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Jackets & Coats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXMFFZGV",
+      "title": "Snow Suit for Kids One-Piece Snowsuit Insulated Ski Snowboard Jumpsuits Boys Girls Winter Warm (Red, 6-7 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Snow & Rainwear > Snow Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXMFM8PT",
+      "title": "Snow Suit for Kids One-Piece Snowsuit Insulated Ski Snowboard Jumpsuits Boys Girls Winter Warm (Light Blue, 2-3 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Down & Down Alternative",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXMFQBK3",
+      "title": "Snow Suit for Kids One-Piece Snowsuit Insulated Ski Snowboard Jumpsuits Boys Girls Winter Warm (Yellow, 2-3 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Jackets & Coats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXMGL4H6",
+      "title": "Snow Suit for Kids One-Piece Snowsuit Insulated Ski Snowboard Jumpsuits Boys Girls Winter Warm (Green, 2-3 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Jackets & Coats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXX9LWCC",
+      "title": "Girls Boys Zip up Hoodie Kids Fleece Lined Thick Christmas Sweatshirt Hooded Fashion Solid Holiday Pullover for Teens Yellow Hoodies for Boys 6-7 Years",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXXBVXW5",
+      "title": "Girls Boys Zip up Hoodie Kids Fleece Lined Thick Christmas Sweatshirt Hooded Fashion Solid Holiday Pullover for Teens Blue Toddler Hoodies Girls 6-7 Years",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FY6H9T9J",
+      "title": "Girl's Puffer Jacket Kids Long Winter Coats Knee Length Parka Warm Fleece Lined Snow Outerwear with Faux Fur Hood (Red, 11-12 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Down & Down Alternative",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FY6MPXM8",
+      "title": "Girl's Puffer Jacket Kids Long Winter Coats Knee Length Parka Warm Fleece Lined Snow Outerwear with Faux Fur Hood (Red, 5-6 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Jackets & Coats > Down & Down Alternative",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1M59V15",
+      "title": "LessonZoo Girls 2 Piece Casual Sets Long Sleeve Crew Neck Top Straight Pants Outfits Drawstring Kids Stylish Clothing(Light Purple,6-7 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Pant Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3QJJRMW",
+      "title": "LessonZoo 3 Pack Girls T Shirts Kids Short Sleeve Round Neck Loose Tops Comfy Blouse Cute Teen Summer Basic Tees 5-14 Years(Haze Blue, White, Black,13-14 Years)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Tops, Tees & Blouses > Tees",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G51XXT3V",
+      "title": "Toddler Suit for Kids Dress Clothes Boys First Communion Prom Outfit Size 8 Light Champagne Easter Suit trajes de Vestir para niños",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DDF23L",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DFG6BF",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DFPVGK",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DHCYS9",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DHHNSD",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Sport Specific Clothing > Skiing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DHSZF5",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DJN25V",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DLZKQF",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DP7KG4",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DPJ1GF",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DPJGT1",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DQXMVB",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Sports & Outdoors > Sports > Water Sports > Kayaking > Paddling Clothing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DSFNFK",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Sport Specific Clothing > Skiing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DWQ2K7",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6F21ZR1",
+      "title": "Kids Balaclava Hoodies for Boys Girls Windproof Oversized Hooded Sports Sweatshirts Zip Up Ski Mask Winter Jackets",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GD7CKK4F",
+      "title": "Cusrrod Beaded Flower Girl Dresses Kids Satin Formal Ball Gowns Sleeveless Princess Birthday Party Dress,Size15,Dark Green",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GDQWGB3Z",
+      "title": "Joyvimbao Purle Cheerleader Costume for Girls Cheerleading Outfit Set with Accessories Fancy Dress for Halloween Party Birthday(Purple, 11-12Y)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GGGJGR46",
+      "title": "Disney Stitch Girls 2 Piece Shorts Set Toddler Sleeveless Knot Front Tank Top and Tie Dye Biker Shorts Summer Activewear Outfits Toddler Girl Clothes Workout Yoga Dance Little Girls Clothes 3-4 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGGLLXQJ",
+      "title": "Disney Winnie the Pooh Girls 2 Piece Short Set Toddler Summer Activewear Outfits Tie Dye Tank Top and Biker Shorts Kids Clothing Set Workout Yoga Dance Little Girls Clothes 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGGQ8PVN",
+      "title": "Disney Stitch Girls 2 Piece Shorts Set Toddler Sleeveless Knot Front Tank Top and Tie Dye Biker Shorts Summer Activewear Workout Yoga Dance Little Girls Clothes Outfits 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGGQQD9K",
+      "title": "Disney Frozen Elsa Big Kids Girl Outfits Dance Workout Gymnastics Dance Sets Blue Knot Front Sleeveless Top and Cycling Shorts Kids Sports 8-9 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGGR6Q5C",
+      "title": "Disney Stitch Girls 2 Piece Shorts Set Toddler Sleeveless Knot Front Tank Top and Tie Dye Biker Shorts Summer Activewear Outfits Kids Workout Clothes Girls Yoga Set 4-5 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGGVR47H",
+      "title": "Disney Princess Ariel Girls 2 Piece Outfit Set Toddler Mermaid Tie Dye Sleeveless Shirt and Athletic Biker Shorts Kids Summer Workout Yoga Dance Little Girls Clothes 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGGVYSYQ",
+      "title": "Disney Winnie the Pooh Girls 2 Piece Short Set Toddler Summer Activewear Outfits Tie Dye Tank Top and Biker Shorts Kids Clothing Set Kids Workout Clothes Girls Yoga Set 4-5 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGH17PR4",
+      "title": "Disney Moana Summer Outfits for Girls Workout Set Toddler Character Tie Front Tank Top and Patterned Shorts Kids Summer Playwear Outfits 6-7 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGH4GNM2",
+      "title": "Disney Princess Girls 2 Piece Outfit Set Toddler Cinderella Tiana Rapunzel Knot Front Top and Polka Dot Biker Shorts Kids Clothes Workout Yoga Dance Little Girls Clothes 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGH8V4HH",
+      "title": "Disney Moana Big Kids Girl Outfits Dance Workout Gymnastics Sets Tie Front Tank Top and Patterned Shorts Kids Summer Playwear Outfits 8-9 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGH94PNY",
+      "title": "Disney Princess Ariel Girls 2 Piece Outfit Set Toddler Mermaid Tie Dye Sleeveless Shirt and Athletic Biker Shorts Kids Summer Clothing Toddler Girl Clothes Workout Yoga Dance Little Girls 3-4 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGHDCG5X",
+      "title": "Disney Moana Girls 2 Piece Clothing Set Toddler Character Tie Front Tank Top and Patterned Shorts Kids Summer Workout Yoga Dance Little Girls Clothes Playwear Outfits 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGHDJVGH",
+      "title": "Disney Princess Girls 2 Piece Outfit Set Toddler Cinderella Tiana Rapunzel Knot Front Top and Polka Dot Biker Shorts Kids Clothes Toddler Girl Clothes Workout Yoga Dance Little Girls Clothes 3-4 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJ3PCRHB",
+      "title": "Atrastout Kids Clothing Rack-Portable Kids Clothing Rack with Storage Shelf - Toddler Garment Organizer for Baby Clothes, Dance Costumes, Girls Gift Ideas（Gold）",
+      "category_path": "Home & Kitchen > Storage & Organization > Clothing & Closet Storage > Garment Racks",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GJ8V7M6J",
+      "title": "KIDSOR Sparkly Sequin Prom Dresses for Teens 2026 Gold One Shoulder Mermaid Pleated Satin Formal Party Dress US Size 0 KS056",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJ95XN6Z",
+      "title": "KIDSOR Sparkly Sequin Prom Dresses for Teens 2026 Black One Shoulder Mermaid Pleated Satin Formal Party Dress US Size 0 KS056",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJZMY5PP",
+      "title": "Danxilu Inflatable Jackalope Costume for Adults, Funny Blow Up Rabbit with Antlers Suit for Men Women, Mythical Forest Monster Outfit for Halloween Party, Cosplay, Carnival, Easter",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GL2242R5",
+      "title": "SEIKEA Purple Braiding Hair Ponytail 30\" Extra Long Purple Hair Extensions for Cosplay Costume Crazy Hair Day Ready-to-Wear Pre-Braided Ponytail Lightweight Kid-Friendly Synthetic Braids Hair",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hairpieces",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GL2GPVTZ",
+      "title": "SEIKEA Purple Braiding Hair Ponytail 30\" Extra Long Purple Hair Extensions for Cosplay Costume Crazy Hair Day Ready-to-Wear Pre-Braided Ponytail Lightweight Kid-Friendly Synthetic Braids Hair",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hairpieces",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GLY9CH4Q",
+      "title": "Aslsiy Toddler Girls Sleeveless Dress Colorful Cute Robots (7) Girl Summer Dress Cotton Casual Beach Sundress 5-6T",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GLYMQ8ZD",
+      "title": "Aslsiy Toddler Girls Sleeveless Dress Colorful Cute Robots (7) Girl Summer Dress Cotton Casual Beach Sundress 3T",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GNKH2KD4",
+      "title": "Aslsiy Toddler Girls Sleeveless Dress Lion Wild Animal (16) Girl Summer Dress Cotton Casual Beach Sundress 7-8T Multi",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPR5QX24",
+      "title": "Disney Minnie Mouse Girls 2 Piece Short Set Toddler Summer Activewear Outfits Tie Dye Tank Top and Biker Shorts Kids Clothing Set 3-4 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPR5XLYS",
+      "title": "Disney Minnie Mouse Girls 2 Piece Short Set Toddler Summer Activewear Outfits Tie Dye Tank Top and Biker Shorts Kids Clothing Set 8-9 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPR66BX3",
+      "title": "Disney Minnie Mouse Girls 2 Piece Short Set Toddler Summer Activewear Outfits Tie Dye Tank Top and Biker Shorts Kids Clothing Set 2 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPR7G5B4",
+      "title": "Disney Minnie Mouse Girls 2 Piece Short Set Toddler Summer Activewear Outfits Tie Dye Tank Top and Biker Shorts Kids Clothing Set 6-7 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPR7T4DC",
+      "title": "Disney Minnie Mouse Girls 2 Piece Short Set Toddler Summer Activewear Outfits Tie Dye Tank Top and Biker Shorts Kids Clothing Set 5-6 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Clothing Sets > Short Sets",
+      "found_by": [
+        "embedding"
+      ]
+    }
+  ]
+}

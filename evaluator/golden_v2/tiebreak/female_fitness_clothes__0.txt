@@ -1,0 +1,57 @@
+QUERY: female fitness clothes
+
+DEFINITION: Women's clothing made for exercise.
+INCLUDE: leggings; yoga pants; sports bras; workout tops and shorts; athletic sets; running/gym apparel
+EXCLUDE: shoes; accessories (bags; bottles; socks); men's apparel; shapewear not marketed for workouts
+DECIDED: Very large pool -- label a fixed random sample and mark status partial. Default: yes
+
+Label every numbered product below against this definition with exactly one letter:
+  E = exact: the product IS what the query asks for, per the definition
+  S = substitute: a different product that could serve instead (e.g. wired instead of wireless)
+  C = complement: an accessory, part or add-on FOR the product (e.g. a charger for a mouse)
+  I = irrelevant
+Judge only from the title and category given. When the title does not settle a detail the
+definition requires, choose E only if the title makes it clearly likely.
+
+PRODUCTS (number <TAB> title <TAB> category path):
+10	UNIANKIYA Womens Striped Lounge Set Two Piece Summer Short Sets Workout Matching Set Oversized Top and Shorts with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Sets > Workout Top & Bottom Sets
+12	Women's Warm Sherpa Lined Athletic Active Sweatpants 2025 Winter Fleece Running Joggers Drawstring Pants with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+18	Whosucclay Womens Tennis Dress with Shorts Underneath Athletic Dress for Women Golf Dresses Summer Outfits for Workout-Golf Ball Print	Clothing, Shoes & Jewelry > Women > Clothing > Active > Dresses
+24	Women's Warm Sherpa Lined Athletic Active Sweatpants 2025 Winter Fleece Running Joggers Drawstring Pants with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+65	Happy. angel Women’s Maternity Leggings Over The Belly, Soft Stretchy Pregnancy Pants for Active Workout Yoga Wearing，Black，XX-Lage	Clothing, Shoes & Jewelry > Women > Shops > Maternity > Leggings
+77	For G and PL Halloween Women's Scary Ankle Length Tights Soft Casual Printed Yoga Skinny Pants Cobweb XL	Clothing, Shoes & Jewelry > Women
+114	CRZ YOGA High Rise Front Slit Golf Skirts for Women - Mini A-line Tennis Casual Skort with Built-in Shorts Side Pockets Hot Fudge Brown X-Small	Clothing, Shoes & Jewelry > Women > Clothing > Active > Skirts & Skorts > Active Skirts
+122	CQC Women's Golf Pants 7/8 Ankle Dress with 4 Zipper Pockets Water Resistant UPF 50+ Quick Dry Pants Workout Lounge Dark Grey XL	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants
+134	Dokelovy Women's Sauna Vest Waist Trainer, Adjustable Workout Sweat Shaper Shirt, Tummy Control Tank Top for Gym Yoga Running	Sports & Outdoors > Exercise & Fitness > Accessories > Sauna Suits
+166	ABEHIK Women's Tennis Dress Long Sleeve V Neck A-line Casual Fall Winter 2-in-1 Golf Dresses with Built in Shorts Tennis Athletic Yoga Workout Outfits Black S	Clothing, Shoes & Jewelry > Women > Clothing > Active > Dresses
+185	Womens Tennis Dress with Built in Shorts and Bra Adjustable Straps Athletic Dresses Mini Golf Dresses with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Dresses
+187	Y25D Women's Maternity Bodysuit Pregnancy Workout Shapewear Yoga Sleeveless Tank Top Shorts Seamless Romper Jumpsuit Nude	Clothing, Shoes & Jewelry > Women > Clothing
+217	Sunzel Women's Tennis Skirt with Built-in Shorts Pleated High-Waisted Athletic Skort with Pockets & Tummy Control for Golf, Workout, Running, and Gym, Black, Medium	Clothing, Shoes & Jewelry > Women > Clothing > Active > Skirts & Skorts > Active Skirts
+224	Women's Warm Sherpa Lined Athletic Active Sweatpants 2025 Winter Fleece Running Joggers Drawstring Pants with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+227	Women's Warm Sherpa Lined Athletic Active Sweatpants 2025 Winter Fleece Running Joggers Drawstring Pants with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+282	Women's Warm Sherpa Lined Athletic Active Sweatpants 2025 Winter Fleece Running Joggers Drawstring Pants with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+284	UIQUR Womens Rain Jacket Lightweight Windbreaker Waterproof Raincoat Cycling Running Hiking Gear Hood Packable Black S	Sports & Outdoors > Clothing > Women > Rainwear
+292	Woxer Boss Bralette for Women – Wireless, Seamless, Comfortable Racerback – Soft Modal Workout & Sports Bra, Lounge, Yoga & Sleep Bralette, Everyday Wireless Bra, Black	Clothing, Shoes & Jewelry > Women > Clothing > Lingerie, Sleep & Lounge > Lingerie > Bras > Everyday Bras
+296	Womens Tennis Dress with Built in Shorts and Bra Adjustable Straps Athletic Dresses Mini Golf Dresses with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Dresses
+321	G Gradual Women's Fleece Lined Joggers with Zipper Pocket Water Resistant Running Hiking Pants Winter Warm Thermal Sweatpants Black L	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+324	PINSPARK Tennis Skirts for Women with 2 Pockets 15" High Waisted Athletic Skirt Built-in Shorts Quick Dry A Line Golf Skort for Sports Casual Travel, White Small	Clothing, Shoes & Jewelry > Women > Clothing > Active > Skirts & Skorts > Active Skirts
+337	MIRAZEN Maternity Leggings Over The Belly - Pregnancy Yoga Pants Soft Workout Leggings, Brown, M	Clothing, Shoes & Jewelry > Women > Clothing
+338	Dokelovy Women's Sauna Vest Waist Trainer, Adjustable Workout Sweat Shaper Shirt, Tummy Control Tank Top for Gym Yoga Running	Sports & Outdoors > Exercise & Fitness > Accessories > Sauna Suits
+353	Women's Warm Sherpa Lined Athletic Active Sweatpants 2025 Winter Fleece Running Joggers Drawstring Pants with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+370	Figure 8 Exercise Bands for Women Men, 8 Shaped Rubber Band with Handles for Full-Body Workouts, Strength Training, Chest Expander, Yoga Gym for Beginners (Pink)	Sports & Outdoors > Exercise & Fitness > Strength Training Equipment > Resistance Bands
+371	G4Free Wide Leg Yoga Pants,Women High Waist Soft Loose Casual Pants with Pockets(Taupe,L,25")	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants
+387	ALSOGO Women's Wide Leg Sweatpants Ribbed High Waist Straight Leg Baggy Lounge Pants Loose Workout Joggers with Pockets Grey L	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+406	G Gradual Women's Fleece Lined Joggers with Zipper Pocket Water Resistant Running Hiking Pants Winter Warm Thermal Sweatpants Black S	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+417	Womens Tennis Dress with Built in Shorts and Bra Adjustable Straps Athletic Dresses Mini Golf Dresses with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Dresses
+428	Whosucclay Womens Tennis Dress with Shorts Underneath Athletic Dress for Women Golf Dresses Summer Outfits for Workout-Golf Ball Print	Clothing, Shoes & Jewelry > Women > Clothing > Active > Dresses
+434	Womens Tennis Dress with Built in Shorts and Bra Adjustable Straps Athletic Dresses Mini Golf Dresses with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Dresses
+453	SUNOWE Santa's Favorite Hot Mess Sweatshirt Santa's Hot Mess Sweatshirt Christmas Martini Sweatshirt Red	Clothing, Shoes & Jewelry > Women > Clothing > Active
+454	GPS Smart Watch for Men Women (Answer/Make Calls), 2.01" HD Screen Fitness Watch with Compass/Heart Rate/Sleep Monitor, 110+ Sports Modes Activity Tracker, 1 ATM Waterproof Smartwatch, Silver Gray	Electronics > Wearable Technology > Smartwatches
+455	Dearetro Women's Linen Shirts Casual 3/4 Sleeve Crewneck Solid Color Tunic Tops Loose Fit Plus Size Spring Fall Blouses	Clothing, Shoes & Jewelry > Women > Clothing > Tops, Tees & Blouses > T-Shirts
+456	Valentine's Heart Leggings for Women Love Heart Print Soft Breathable Yoga Pants Holiday Butt Lifting Athletic Pant Red Large	Clothing, Shoes & Jewelry > Sport Specific Clothing > Yoga > Women > Leggings
+457	CRZ YOGA Butterluxe Super High Waist Leggings 28" - Full Length Buttery Soft Womens Yoga Pants Over Belly Deep Purple Small	Clothing, Shoes & Jewelry > Sport Specific Clothing > Yoga > Women > Leggings
+458	Women's Warm Sherpa Lined Athletic Active Sweatpants 2025 Winter Fleece Running Joggers Drawstring Pants with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants
+459	Women's UPF 50+ UV Sun Protection Safari Shirts Outdoor Long Sleeve Quick Dry Cool Lightweight Fishing Hiking Travel Shirts Olive Green	Clothing, Shoes & Jewelry > Women > Clothing > Tops, Tees & Blouses > Blouses & Button-Down Shirts > Button-Down Shirts
+469	Furundly Womens Capri Pants Fashion Wide Leg Capris Workout Yoga Pant High Waisted Capri Leggings with Pockets	Clothing, Shoes & Jewelry > Women
+473	Womens Tennis Dress with Built in Shorts and Bra Adjustable Straps Athletic Dresses Mini Golf Dresses with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Dresses
+484	Women's Warm Sherpa Lined Athletic Active Sweatpants 2025 Winter Fleece Running Joggers Drawstring Pants with Pockets	Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants

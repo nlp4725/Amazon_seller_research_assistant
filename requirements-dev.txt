@@ -1,0 +1,5 @@
+# Test-only deps. Kept out of requirements.txt so the deployed image stays lean;
+# cloudbuild.yaml installs pytest into a throwaway container to test the built image.
+-r requirements.txt
+pytest>=8.0.0
+pyyaml

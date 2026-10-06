@@ -71,13 +71,17 @@ with no specific niche in mind (e.g. "what's trending in pet supplies?"). Produc
     product titles. E.g. if asked about "pet drinking wear," use "pet water bowl" or "pet \
     water fountain," not "drinking wear" verbatim. For a broad category question with no \
     specific niche, set "concept" to null -- do not invent one.
-  - "categories": up to {max_candidates} root categories from the list below (Amazon's \
+  - "categories": up to {max_candidates} ROOT categories from the list below (Amazon's \
     own real category structure -- use only these, never invent one). A query can \
     genuinely span more than one category (e.g. "kids costumes" belongs in both \
     "Clothing, Shoes & Jewelry" (Costumes & Accessories) and "Toys & Games" (Dress Up & \
     Pretend Play)) -- don't force a single pick if more than one is genuinely plausible, \
     but don't pad the list with categories that only weakly relate either. Each entry: \
-    {{"category": "...", "reason": "one sentence"}}.
+    {{"category": "...", "reason": "one sentence"}}. The "category" value must be the \
+    ROOT ONLY -- the part BEFORE " > ". The list below shows "root > level-2" pairs to \
+    tell you what each root contains; the level-2 branch is context for your choice, \
+    never part of your answer. For a query about dog fountains, "category" is \
+    "Pet Supplies", NOT "Pet Supplies > Dogs".
 
 Below are ALL root category > level-2 branch pairs that exist in this catalog:
 
@@ -106,6 +110,33 @@ def load_root_level2_pairs(parquet_path: Path | str = PREPROCESSED_PARQUET) -> l
     df["l2"] = df["category_path"].map(_level2)
     pairs = df[["cat", "l2"]].dropna().drop_duplicates()
     return sorted(f"{r.cat} > {r.l2}" for r in pairs.itertuples())
+
+
+def _normalize_categories(raw: list[dict], valid_roots: set[str]) -> list[dict]:
+    """
+    Coerce the model's "categories" to real root category names.
+
+    The prompt shows a "root > level-2" menu, so the model intermittently answers with the
+    whole pair ("Pet Supplies > Dogs") instead of the root. ChromaDB's `cat` metadata field
+    holds root names only, so such a value silently matches ZERO products and the report
+    reads "no products found" for a niche that has plenty -- observed on "dog water
+    fountain": 2 of 4 runs returned pair form and produced an empty report.
+
+    Takes the segment before " > ", drops anything that is not a real root, and dedupes --
+    two level-2 branches of one root ("Pet Supplies > Dogs", "Pet Supplies > Cats") collapse
+    to a single entry rather than burning both MAX_CANDIDATES slots on the same category.
+
+    In: raw category dicts from the model, set of real root names
+    Out: normalized dicts, order preserved, deduped (possibly empty if all were invalid)
+    """
+    out, seen = [], set()
+    for entry in raw:
+        root = str(entry.get("category") or "").split(" > ")[0].strip()
+        if not root or root not in valid_roots or root in seen:
+            continue
+        seen.add(root)
+        out.append({**entry, "category": root})
+    return out
 
 
 @traceable(run_type="chain", name="cat_selector.select")
@@ -146,10 +177,21 @@ def select(messages: list[dict], pairs: list[str] | None = None) -> dict:
 
     if parsed["action"] == "reply":
         return {"clarify": parsed["reply"]}
-    return {
-        "concept": parsed["concept"],
-        "categories": parsed["categories"][:MAX_CANDIDATES],
-    }
+
+    # Normalize BEFORE truncating: two level-2 branches of one root collapse to one entry,
+    # so slicing first would spend both MAX_CANDIDATES slots on the same category.
+    categories = _normalize_categories(
+        parsed["categories"], {pair.split(" > ")[0] for pair in pairs}
+    )[:MAX_CANDIDATES]
+
+    if not categories:
+        # Every name the model returned was unrecognisable. Returning an empty list here
+        # would reproduce the exact silent failure this guard exists to stop -- a confident
+        # "no products found" report built on a filter that matched nothing.
+        return {"clarify": "I couldn't map that to a product category I have data for. "
+                           "Could you rephrase it, or name the Amazon category directly?"}
+
+    return {"concept": parsed["concept"], "categories": categories}
 
 
 if __name__ == "__main__":

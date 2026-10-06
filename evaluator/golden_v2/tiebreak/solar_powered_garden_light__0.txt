@@ -1,0 +1,24 @@
+QUERY: solar powered garden light
+
+DEFINITION: A solar-powered light for outdoor yard or garden use.
+INCLUDE: path and stake lights; spotlights; post-cap and fence lights; outdoor solar string lights; decorative solar garden lights
+EXCLUDE: lights that are not solar (low-voltage; plug-in); non-light products with LEDs (umbrellas; fountain pumps); indoor-only lights
+DECIDED: Solar pond/fountain lights count only if the product is a light, not a pump. Default: yes
+
+Label every numbered product below against this definition with exactly one letter:
+  E = exact: the product IS what the query asks for, per the definition
+  S = substitute: a different product that could serve instead (e.g. wired instead of wireless)
+  C = complement: an accessory, part or add-on FOR the product (e.g. a charger for a mouse)
+  I = irrelevant
+Judge only from the title and category given. When the title does not settle a detail the
+definition requires, choose E only if the title makes it clearly likely.
+
+PRODUCTS (number <TAB> title <TAB> category path):
+11	WERCHTAY Solar Street Lights Outdoor Waterproof, 15000LM 6500K Solar Flood Light Dusk to Dawn, Motion Sensor & Remote, Upgraded Metal Fixing Rod for Wind/Snow, Wall/Pole Mount (2 Pack)	Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting
+79	TFKK Solar Street Lights Outdoor, Waterproof Motion Sensor Solar Lights with Remote Control, 6500K Dusk to Dawn Parking Lot Flood Light for Outside Garage Yard, 2 Pack	Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting
+110	Deepn Solar Lights Outdoor for Outside, IP66 Waterproof Street Lights Outdoor, 6500K Dusk to Dawn LED Solar Security Flood Lights Motion Sensor with Remote Control for Yard, Entryway Garage, Porch	Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting
+126	Flag Pole Light Solar Powered-136LED Solar FlagPole Lights,Ultra Bright for 15-25 Ft Flag Poles, Outdoor Flag Pole Lamp from Dusk to Dawn for 12+ Hours - 100% Coverage Black Flag Light (Dark Black)	Patio, Lawn & Garden > Outdoor Décor > Flagpole Hardware
+230	Solar Lights Outdoor Waterproof,Bright 6500K LED Motion Light with Remote Control,Waterproof IP65 Commercial Large Street Lights Dusk to Dawn,Easy to Install for Outside Parking Lot & Driveway,1 Pack	Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting
+315	DRomance Flameless Votive Candles Solar Battery Operated Dusk to Dawn 3D Wick Flickering Outdoor Waterproof Spooky Pumpkin LED Tea Lights Candles Set of 6 Halloween Decor(2.5" D x 2.64" H)	Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles
+329	Solar Snowflakes Wind Chimes for Outside,Color Changing LED Lights,Outdoor Christmas Decor for Yard,Solar Danglers Birthday Gifts for Women	Patio, Lawn & Garden > Outdoor Décor > Chimes
+363	AngKng Solar Street Lights Outdoor Waterproof, 6500K Motion Sensor Solar Powered Street Light, Dusk to Dawn Solar Flood Lights with Remote Control for Outside Garden Yard Outside Parking Lot-2 Pack	Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting

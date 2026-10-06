@@ -1,0 +1,19 @@
+QUERY: dog drinking bowl
+
+DEFINITION: A product dogs drink water from.
+INCLUDE: water bowls and dishes; water fountains and dispensers; travel water bowls and bottles with a drinking trough; food-and-water bowl sets
+EXCLUDE: food-only bowls; slow feeders; cat-only products; water additives
+DECIDED: Food-and-water combo sets count (one bowl is for water). Default: yes
+
+Label every numbered product below against this definition with exactly one letter:
+  E = exact: the product IS what the query asks for, per the definition
+  S = substitute: a different product that could serve instead (e.g. wired instead of wireless)
+  C = complement: an accessory, part or add-on FOR the product (e.g. a charger for a mouse)
+  I = irrelevant
+Judge only from the title and category given. When the title does not settle a detail the
+definition requires, choose E only if the title makes it clearly likely.
+
+PRODUCTS (number <TAB> title <TAB> category path):
+77	Pug Lamp and Dachshund Table Lamp, Boxer Dog Lamp, Corgi Dogs Series Art Night Light, 3D Cute Pet Vintage Home Decor, Retro Stained Resin Tabletop LED Night Light, Fun Gift for Dog Lover (Corgi)	Tools & Home Improvement > Lighting & Ceiling Fans > Lamps & Shades > Table Lamps
+88	Junbec-Pet Automatic Cat Feeder and Water Gravity Dispenser 2 in 1 Pet Self Dry Food Bowl Watering Supplies for Indoor Small Dogs Puppy Kitten (Black)	Pet Supplies > Cats > Feeding & Watering Supplies > Automatic Feeders
+233	TAIHOYIN Dog Travel Bag for Pet Kit for Supplies with 2 Food Storage Containers 2 Collapsible Bowl 1 Feeding Mat 1 Dog Treat Pouch 7-Piece Set Perfect Road Trips Camping Weekend Doggy Gift	Pet Supplies > Dogs > Feeding & Watering Supplies > Bowls & Dishes > Travel Bowls

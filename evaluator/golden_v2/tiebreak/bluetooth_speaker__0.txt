@@ -1,0 +1,19 @@
+QUERY: bluetooth speaker
+
+DEFINITION: A speaker that plays audio over Bluetooth.
+INCLUDE: portable; party; shower and bike Bluetooth speakers; smart speakers with Bluetooth
+EXCLUDE: wired-only speakers; headphones/earbuds; soundbars; karaoke machines; speaker accessories
+DECIDED: Soundbars and karaoke machines do not count. Default: excluded
+
+Label every numbered product below against this definition with exactly one letter:
+  E = exact: the product IS what the query asks for, per the definition
+  S = substitute: a different product that could serve instead (e.g. wired instead of wireless)
+  C = complement: an accessory, part or add-on FOR the product (e.g. a charger for a mouse)
+  I = irrelevant
+Judge only from the title and category given. When the title does not settle a detail the
+definition requires, choose E only if the title makes it clearly likely.
+
+PRODUCTS (number <TAB> title <TAB> category path):
+134	CJ TECH Modelo Tumbler with Bluetooth Speaker - Stainless Steel Insulated 20oz Tumbler Speaker with 3W Output, 500mAh Battery, 2.5-Hour Play Time, and 32FT Bluetooth Range	Electronics > Portable Audio & Video > MP3 & MP4 Player Accessories
+189	Go Caddy Tumbler with Bluetooth Speaker, Insulated Stainless Steel Travel Cup with Lid, Hot and Cold Drink Cup, Removable Speaker with Microphone, Portable Music Tumbler, 18 oz, Navy Blue	Home & Kitchen > Kitchen & Dining > Storage & Organization > Thermoses > Insulated Beverage Containers > Tumblers
+290	Monster S330 Computer Speakers, HiFi Stereo Sound PC Speakers, Bluetooth 6.0 Computer Sound Bar with Dynamic RGB Light, USB/Type-C Plug & Play, Gaming Speakers for Computer Desktop, PC, Laptop, Tablet	Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Computer Speakers

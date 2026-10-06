@@ -1,0 +1,24 @@
+QUERY: baby toys
+
+DEFINITION: A toy made for babies, roughly 0-24 months.
+INCLUDE: rattles; teethers; activity gyms and play mats with toys; stacking/sorting/push toys marked for babies or 0-24 months; bath toys for babies
+EXCLUDE: toys marked 2+/3+ years only; feeding and nursery gear (bottles; pacifiers; bouncers); clothing
+DECIDED: Age range 0-24 months. Default: yes; Teethers and activity gyms count as toys. Default: yes
+
+Label every numbered product below against this definition with exactly one letter:
+  E = exact: the product IS what the query asks for, per the definition
+  S = substitute: a different product that could serve instead (e.g. wired instead of wireless)
+  C = complement: an accessory, part or add-on FOR the product (e.g. a charger for a mouse)
+  I = irrelevant
+Judge only from the title and category given. When the title does not settle a detail the
+definition requires, choose E only if the title makes it clearly likely.
+
+PRODUCTS (number <TAB> title <TAB> category path):
+9	Flamax 5-in-1, Pre-Assembled 100 Themes Montessori Busy Book for Toddlers 1-3 with 8 Marker Pen, Reusable Tracing Books for Kids Ages 3-5, Baby Activity Books, Montessori Busy Book for Toddlers 1-3	Toys & Games > Learning & Education > Reading & Writing > Handwriting Aids
+79	TVM Interactive Dog Toys Ball, Automatic Moving, Bouncing Chew Toys, E-TPU Material, Suitable for Large and Medium-Sized Dogs, Used for Boredom Relief and Daily Training (Blue)	Pet Supplies > Dogs > Toys > Balls
+92	DOLU Activity Table with 30 Pcs Jumbo Building Blocks and Storage, Multi-Use Sensory Play Desk for Kids and Toddlers Age 12+ Months - Red/Blue	Office Products > Office & School Supplies > Education & Crafts > Classroom Furniture > Activity Tables
+128	okegztoa Bunny Basket Pretend Play Food for Toddlers 1 3 Soft Grocery Basket Toy Set Plush Vegetable Carrot Colorful Eggs Early Learning Educational Gift Kids Farm Animals Accessories Snuggle Cuddle	Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears
+185	LUKETURE Dancing Talking Giraffe Toy Stuffed Plush, Cute Interactive Talking Giraffe Gift for Girls Boys Kids, Musical Baby Toys Singing 10 Children's Song Repeats What You Say (Dancing Giraffe)	nan
+268	Geomag Magicube Magnetic Building Blocks for Toddlers Ages 1–5, Swiss-Made STEM Toy (24-Piece - Montessori)	Toys & Games > Building Toys > Magnetic Building
+290	Rocking Horse Kids Plush Ride on Animal Toy with Wooden Rockers, Baby Rocking Chair with Wagging Tail, Moving Mouth & Realistic Sounds, Gift for Boy Girl, Age 1-6, Brown (Dark Brown, Medium)	Toys & Games > Baby & Toddler Toys > Rocking Horses & Animals
+308	Rocking Horse Kids Plush Ride on Animal Toy with Wooden Rockers, Baby Rocking Chair with Wagging Tail, Moving Mouth & Realistic Sounds, Gift for Boy Girl, Age 1-6, Brown (Dark Brown, Small)	Toys & Games > Baby & Toddler Toys > Rocking Horses & Animals

@@ -1,0 +1,3142 @@
+{
+  "query": "solar powered garden light",
+  "definition": {
+    "definition": "A solar-powered light for outdoor yard or garden use.",
+    "include": [
+      "path and stake lights",
+      "spotlights",
+      "post-cap and fence lights",
+      "outdoor solar string lights",
+      "decorative solar garden lights"
+    ],
+    "exclude": [
+      "lights that are not solar (low-voltage",
+      "plug-in)",
+      "non-light products with LEDs (umbrellas",
+      "fountain pumps)",
+      "indoor-only lights"
+    ],
+    "decide": [
+      "Solar pond/fountain lights count only if the product is a light, not a pump. Default: yes"
+    ],
+    "keywords": [
+      "solar",
+      "light|lamp|lantern|led"
+    ]
+  },
+  "sizes": {
+    "keyword": 155,
+    "embedding": 300,
+    "systems": 104
+  },
+  "pool_size": 364,
+  "candidates": [
+    {
+      "asin": "B09NRZY3V8",
+      "title": "HQ ISSUE Dynamo Emergency Radio Hand Crank Solar Portable W/AM FM, NOAA Weather Alert, Shortwave, & Flashlight Olive Drab",
+      "category_path": "Electronics > Portable Audio & Video > Radios > Weather Radios",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0B4643PN2",
+      "title": "TYCOLIT 4 Packs 100W LED Flood Lights Outdoor, Waterproof IP66 10000LM 6500K Daylight White Security Floodlights, Super Bright Outdoor Work Light for Garden, Yard, Stadium, Warehouse, Square",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CPJ9ZN65",
+      "title": "12V 8Ah Lifepo4 Battery 3000+ Deep Cycles 12V Lithium Battery for Solar/Wind Power, Lighting, Fish Finder, Power Wheels and More, Built-in 10A BMS",
+      "category_path": "Health & Household > Household Supplies > Household Batteries > 12V",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CPSTBB91",
+      "title": "THALASSA Camper Reading Light RV 12V Fixtures Interior Lights Fixture Bedside Wall Sconce Indoor for Marine Caravan Van Brushed Nickel Small Lampholder Warm White LED 3W",
+      "category_path": "Automotive > RV Parts & Accessories > Power & Electrical > Lighting > Interior Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CPXB22LG",
+      "title": "POPOSOAP Solar Pond Lights, RGB LED Pond Lights Waterproof IP68, 2200mAh Battery Underwater Solar Light with Two Modes Options for Pond Fountain Pool Garden Decoration(3 Headlamp)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Water Gardens & Ponds > Pond Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CR15MDZ4",
+      "title": "AISITIN 3.5W Solar Bird Bath Fountain with Storage, 6.3\" Solar Fountain Pump with 3 Anti-Drift Bracket & Multiple Nozzles, Floating Solar Fountain for Bird Bath, Garden, Pond, Pool, Outdoor",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Fountain Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CRKJKCJP",
+      "title": "Zuske Solar String Lights Outdoor Waterproof 100FT with USB Port and 52 Shatterproof ST38 Bulbs(2 Spare), LED Solar Powered Patio Lights for Outside, Porch, Backyard, Gazebo, Garden(Warm White)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CRYVDCR2",
+      "title": "Portable Solar Light Bulbs with Auto On Off Mode for Indoor Home and Chieken Coop, Solar LED Bulb Lights for Camping Tent Emergency, 2-Pack",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Electric Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CTH3FR5G",
+      "title": "Pesoncarl Lighthouse Solar Light 11\" Resin Lighthouse Lamp with 360 Degree Rotating LED Nautical Solar Lighthouse Light for Garden Decorations Black White, Decking Patio Lighting",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Figurine Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CVYMMHJ4",
+      "title": "LuminAID Max Quick Inflate 2-in-1 Solar Camping Lantern and Phone Charger - Rechargeable LED Lamp for Camping, Hiking & Travel - Waterproof Emergency Light for Power Outages, Hurricane, Survival Kits",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Electric Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWK78R1S",
+      "title": "Vintage Bamboo Roller Blind Outdoor Balcony Sunshade Roll Up Shade Light Filtering Breathable Roman Shades Bamboo Blinds for Indoor Outdoor Window/Patio/ Porch 24W*72L 42W*63L 28W*63L Cordless ( Color",
+      "category_path": "Home & Kitchen > Home Décor Products > Window Treatments > Blinds & Shades > Roller Shades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWKMDNBZ",
+      "title": "Vintage Bamboo Roller Blind Outdoor Balcony Sunshade Roll Up Shade Light Filtering Breathable Roman Shades Bamboo Blinds for Indoor Outdoor Window/Patio/ Porch 24W*72L 42W*63L 28W*63L Cordless ( Color",
+      "category_path": "Home & Kitchen > Home Décor Products > Window Treatments > Blinds & Shades > Roller Shades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWKVZC2F",
+      "title": "TOVEENEN LED Pool Light Bulb for Inground Pool - 120V 65W Bright White 7000lm Pool Bulb Replacement for Pentair Hayward Pool Light Fixture",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWLC4BV7",
+      "title": "Solar Lights Outdoor Decorative Lotus Flowers Wind Spinner Garden Stake with LED Crackle Balls Solar Wind Sculpture Yard Art Decor for Patio, Lawn & Garden",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Wind Sculptures & Spinners > Wind Spinners",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CY4CWYCZ",
+      "title": "PVerandio 8Pcs 2.5 Inch 13 LED Side Marker Clearance Lights Amber Round Trailer Marker Lights with Light Grommet and 2 Prong Wire Pigtail for Truck Trailer RV, Flush Mount, Waterproof Sealed, 12V",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CY4HBYBL",
+      "title": "PVerandio 8Pcs 2.5\" Red Round 13 LED Side Marker Lights Clearance Lights with Clear Lens, Light Grommet and 2-prong Wire Pigtail for Trailer Truck RV, Flush Mount, 12V, IP67 Waterproof",
+      "category_path": "Automotive > Lights, Bulbs & Indicators > Lighting Assemblies & Accessories > Signal Light Assemblies > Marker Light Assemblies > Side Marker Assemblies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CY4LV4NN",
+      "title": "PVerandio 8Pcs 2.5 Inch Round Amber 13 LED Side Marker Lights Clearance Lights with Reflectors for Truck Trailer RV w/Clear Lens, Light Grommets and Pigtails, Flush Mount, 12V, IP67 Waterproof",
+      "category_path": "Automotive > Lights, Bulbs & Indicators > Lighting Assemblies & Accessories > Signal Light Assemblies > Marker Light Assemblies > Side Marker Assemblies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CY53WBXT",
+      "title": "PVerandio 8Pcs 2.5\"\" Red Round 13 LED Side Marker Clearance Lights with Light Grommet and 2-prong Wire Pigtail for Trailer Truck RV, Flush Mount, 12V, IP67 Waterproof, A9602R8",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZL919DB",
+      "title": "Fluorescent Light Cover for Classroom - 2 Pcs Coconut Tree Sky Magnetic Fluorescent Light Covers, Ceiling Light Covers Shade Panel Coverings for Office Classroom Home Drop Ceiling, 4 X 2 Feet",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Close To Ceiling Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D17LL7JV",
+      "title": "RVsmattly Dusk to Dawn Outdoor Wall Lantern, Matte Black Exterior Lighting Fixture with Weather Resistant, Sensor Outdoor Porch Light, Mordern Outside Light for House,Patio,Garage(E26 Base)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D1KKRP5G",
+      "title": "POPOSOAP 15W Solar Pond Aerator, Solar Aerators for Ponds with 4400mAh Battery, Solar Aquarium Air Pump with 2 Outlets and Power Display, 3 Mode Solar Air Pump for Fish Pond Tank Hydroponics Wildlife",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Water Gardens & Ponds > Pumps & Circulation > Pumps",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D1Y4FJT6",
+      "title": "Shade&Beyond 5' X 25' Fence Privacy Screen Heavy Duty 170 GSM Fencing Mesh Shade Net Cover for Wall Garden Back Yard Outdoor Home Decoration,Dark Green",
+      "category_path": "Patio, Lawn & Garden > Patio Furniture & Accessories > Privacy Screens & Protection > Garden Privacy & Protective Screens",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D2P11PZ4",
+      "title": "DragonLight Upgraded 80W Commercial Grade Corn LED Light Bulb Fanless (600 Watt Equivalent) E26/E39 Large Mogul Base LED Lamp 5000K Daylight 9,600LM Good for Enclosed Fixtures",
+      "category_path": "Tools & Home Improvement > Light Bulbs > LED Bulbs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D2XTDJ1S",
+      "title": "DRomance Flameless Votive Candles Solar Battery Operated Dusk to Dawn 3D Wick Flickering Outdoor Waterproof Spooky Pumpkin LED Tea Lights Candles Set of 6 Halloween Decor(2.5\" D x 2.64\" H)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D2Y15WXC",
+      "title": "7W Solar Panel for Security Camera, USB C Solar Panels Compatible with Rechargeable Battery Powered Camera, Solar Panel with 9.8ft Charge Cable, IP66 Waterproof, Adjustable Security Wall Mount",
+      "category_path": "Patio, Lawn & Garden > Backyard Birding & Wildlife > Birds > Birdhouses",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D3PS978T",
+      "title": "L1NXIXI Cordless 20V Max LED Work Light for Dewalt 20V Battery, 90W 7800LM LED Wide Beam Floodlight with Two USB Charging Port Light for Emergency,Workshop,Garage(No Battery)",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4DWRJX6",
+      "title": "3PC Sheghy Cotton Soft Sun Stick SPF50+, Korean Skin Care Sunscreen Stick,Lightweight Hydrating Tinted Facial Sunscreen,Moisturizing Protector Solar Sunblock for Face and Body,Refreshing & Non-Greasy",
+      "category_path": "Beauty & Personal Care > Skin Care > Face",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D4QPTG57",
+      "title": "ILLSTAR Outdoor LED Flood Light 200W,24000LM Work Light, 5.2Ft US Plug Cord with On/Off Switch, 120V Input Voltage, 5000K Daylight,IP66 Waterproof Security Lights",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4YZ55PR",
+      "title": "Accssoey 14 PCS Waterproof Floating Lotus Light, Floating Flower Light Battery Operated Water Activated Warm White Pool Flower Lamp Wedding,Anniversary,Garden Decoration",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Water Gardens & Ponds > Pond Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5N784HM",
+      "title": "OEM BN59-01455A Solar Voice Remote Control for Samsung Smart TV, NEO QLED Crystal UHD OLED S95C, LS03D, Q60, Q70, Q80, QN85, QN90",
+      "category_path": "Electronics > Television & Video > Accessories > Remote Controls",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D69Y51XP",
+      "title": "VUEBEE 4W Solar Panel for Security Camera, USB-C/Micro USB Solar Charger for Rechargeable Battery Cameras, IP66 Waterproof, 360° Adjustable Mount, 9.8FT/3M Cable, 2 Pack",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D6B2GSVJ",
+      "title": "160 LED Motion Sensor Outdoor Lights Solar Powered with 3 Lighting Modes Easy Setup Motion Detector Wall Light for Outdoor Fence Step Patio Porch (Normal Solar Panel, 6Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6G4L2N5",
+      "title": "JACKYLED Solar Lights Outdoor, 4000mAh Security Lights with Larger Solar Panel & 16.4FT Cable, 4-Head Motion Sensor Lights with Remote Control, IP65 Waterproof 270° Wide Flood Wall Lights (2 Packs)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6KDJNJX",
+      "title": "FUPE Outdoor Lights for House 24W Exterior Lighting Fixtures 3-Color Adjustable 2200LM IP65 Waterproof Aluminum Exterior Wall Light Compatible with Dimmers for Patio, Yard, Back Yard 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6KDL96S",
+      "title": "FUPE Outdoor Lights for House 24W Exterior Lighting Fixtures 3-Color Adjustable 2200LM IP65 Waterproof Aluminum Exterior Wall Light Compatible with Dimmers for Patio, Yard, Back Yard 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6KF5WVW",
+      "title": "FUPE Wall Light Modern Outdoor Light Fixture 24W Outdoor Sconce Lights for House Black Aluminum Outdoor Lighting Waterproof for Porch,Patio,Garage 2100Lm",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6KFR4K4",
+      "title": "FUPE Outdoor Wall Light Modern Outdoor Sconce - 24W LED Exterior Lights Fixture Black Aluminum Outdoor Lighting Waterproof for Porch,Patio,Garage 4 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6KHFNBG",
+      "title": "FUPE Outdoor Lights for House 24W Exterior Lighting Fixtures 3-Color Adjustable 2200LM IP65 Waterproof Aluminum Exterior Wall Light Compatible with Dimmers for Patio, Yard, Back Yard 1 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6KHKWHX",
+      "title": "FUPE Outdoor Lights for House 24W Exterior Lighting Fixtures 3-Color Adjustable 2200LM IP65 Waterproof Aluminum Exterior Wall Light Compatible with Dimmers for Patio, Yard, Back Yard 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6RCX7C1",
+      "title": "VIGMOJ LED Wireless Spotlights with Remote Up Lights Indoor Dimmable Picture Light Battery Operated with Timer, Rechargeable Spot Lights Accent Uplighting for Plant Wall Art Dartboard",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6RDMRJL",
+      "title": "VIGMOJ Wireless LED Spotlight, Rechargeable Floor Uplighting Indoor, Battery Operated Picture Light with Remote Timer and Dimmable Accent Spot Lights Stick on Wall Light for Plants Pictures Artwork",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6V73TGF",
+      "title": "FUPE Outdoor Lights for House 24W Exterior Lighting Fixtures 3-Color Adjustable 2200LM IP65 Waterproof Aluminum Exterior Wall Light Compatible with Dimmers for Patio, Yard, Back Yard 1 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6VXLM57",
+      "title": "34W Work Lights Compatible with Dewalt 20v Max Battery, 4800 LM Cordless Work Lights Flashlight 20V Spotlight for Workshop,Garage,Camping",
+      "category_path": "Tools & Home Improvement > Safety & Security > Flashlights > Handheld Flashlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D73BNDBW",
+      "title": "Xbuyee 150W LED Flood Light with Dusk-to-Dawn Photocell, 130lm/W 5000K Daylight 100-277V IP65 Waterproof, 150W-100W-75W Adjustable, LED Parking Lot Light with Slip Fitter Mount, ETL",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D73C7S6G",
+      "title": "AuMoHall Blue Windshield Tint, 75% VLT Car Window Tint Film for Solar Protection, UV Blocking & Heat Rejection, Light Blue Window Tints for Cars with Easy Installation, 23.62'' x 295.27''",
+      "category_path": "Automotive > Interior Accessories > Sun Protection > Window Tints",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D73CTP8J",
+      "title": "AuMoHall Blue Windshield Tint, 75% VLT Car Window Tint Film for Solar Protection, UV Blocking & Heat Rejection, Light Blue Window Tints for Cars with Easy Installation, 35.43'' x 295.27''",
+      "category_path": "Automotive > Interior Accessories > Sun Protection > Window Tints",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D7FBZT78",
+      "title": "Ceybo Solar Post Cap Lights Outdoor Waterproof Garden LED Deck Suitable for 4 x 4 Wooden Post, Yard, Deck Wall, Gate, Garage, Set of Two Lights, White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Post Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D7H8SZ2Z",
+      "title": "Icicle Lights for Outside, 33FT 400 LED Icicle Christmas Lights Outdoor with 8 Modes 75 Drops, Waterproof Plug in Curtain String Lights for Indoor House Yard Wedding Xmas Holiday Decorations, White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7HRDGNY",
+      "title": "ALOVECO Low Voltage Landscape Lights, 6 Pack LED Spot Lights Outdoor with 30W Transformer IP65 Waterproof, Plug in Outdoor Landscape Lighting for Yard Garden Tree House Flag Pathway (Warm White 2700K)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D7J4VSZY",
+      "title": "Ceybo Indoor/Outdoor Mini Pendant Light, 10\"\" Vintage Farmhouse Decor Adjustable for Kitchen, Restaurant, Dining Room, Cafe, Patio, Entryway, Yard, Waterproof Pendant in Grey Finish…, Gray",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D873KFDP",
+      "title": "Battery Operated Plastic Flameless LED Pillar Candle with Cycling Timer, 4''x8'' Realistic Flickering Electric Light for Outdoor Bookshelf Wedding Dinner Party Centerpiece Fireplace Decor 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D87FTXHJ",
+      "title": "Ecostrobe LED Pinspot Light 2 Pack,Stage Spotlight Mini 15W RGBW Disco Ball Spot Lights 4 in 1 Stage Lighting Mirror Ball Light with Remote Control for DJ Disco Party Bar Club Wedding (Spotlight)",
+      "category_path": "Musical Instruments > Studio Recording Equipment",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D87J5RPD",
+      "title": "Solar Panel Charger Compatible with Vision Well Battery Powered Wireless Outdoor Security Cameras, 5W Solar Panels Charging with IP65 Waterproof 10ft USB-C Cable & Secure Wall Mount, 2 Pack",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8J999SF",
+      "title": "Minetom 2 Pack USB Globe String Lights for Bedroom, 32.8 Feet 100 LED USB Fairy Lights with Remote, Mini Globe Lights for Indoor Classroom Decor Dorm Tent Patio Wall Canopy Party Wedding Tree Xmas",
+      "category_path": "Home & Kitchen > Seasonal Décor > Seasonal Lighting > Indoor String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D8N25CDP",
+      "title": "FosPower Emergency Weather Radio (Model D9) 14800mWh Power Bank, NOAA/AM/FM/Shortwave, Bluetooth 5.4, USB/Solar/Hand Crank Charging, Flash Light, SOS Alarm, IPX3 Rating for Indoor/Outdoor Emergencies",
+      "category_path": "Electronics > Portable Audio & Video > Radios > Weather Radios",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D9HMD1X8",
+      "title": "Ceybo Mini Pendant Light, 10\"\" Vintage Farmhouse Decor Adjustable for Kitchen, Restaurant, Dining Room, Cafe, Patio, Entryway, Yard, Waterproof Pendant in Brown Finish, SHEL000056",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9NNXB1M",
+      "title": "Spotlight Outdoor for Halloween Christmas: 4-in-1 RGBW Low Voltage Landscape Lighting Kit with Plug-in Transformer | 6W 24V IP65 Waterproof Color Changing LED Spot Lights with Remote for Yard Garden",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9NRPT3N",
+      "title": "Abstract Red Ombre Ocean Striped Wave Art LED Night Light Plug Into Wall, Night Light for Kids Soft Night Lights with Dusk to Dawn Sensor Nightlight for Bedroom Bathroom Nursery Hallway Kitchen",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9NT5XCX",
+      "title": "Abstract Green LED Night Light Plug Into Wall,Rustic Country Coastal Ombre Stripe Grey Night Light for Kids Soft Night Lights with Dusk to Dawn Sensor Nightlight for Bedroom Bathroom Nursery Hallway",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9Y58S5J",
+      "title": "Vigdur Lantern String Lights, 9.84Ft Multicolor Nylon Hanging Lantern String Lights with 10 Lanterns Connectable Waterproof, Indoor Outdoor String Light for Bedroom Party Patio Bistro",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DB1SJXHW",
+      "title": "Work Light for Dewalt 20V Max: Cordless 2 COB 64W 6400Lumen Bright - Battery Powered USB Rechargeable Portable Flood LED Worklight for Outdoor Construction Camping,No Battery(2 PCS)",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCZVTYB7",
+      "title": "Outdoor Solar Lanterns Large Butterfly Pattern Lantern Hanging Light House Yard Patio Backyard Porch PathwayDecor Gifts for Women Grandma Mom Friends 2pcs",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDHDY59W",
+      "title": "MOSKIZ Solar Charger Power Bank, 40000mAh Wireless Portable Charger QC3.0 PD 20W Fast Charging with USB-C in/Output, External Battery Pack with Dual Flashlights Hiking Camping Essential",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Portable Power Banks",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDT3ZHCJ",
+      "title": "DRomance Christmas Tree Flameless Taper Candle Lights Battery Operated with 10-Key Remote and Timer, 30 Pack Plastic 3D Wick Flickering LED Taper Candles Multi-Using Home Garden Holiday Decor 3.4\"",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DF34JHDQ",
+      "title": "CANDLE CHOICE Extra Large Waterproof Outdoor Flameless Candle D6”xH9” Big Tall Battery Operated Pillar Candle with 6-hour Auto Timer Ivory Plastic Realistic Flickering LED Light for Garden Decorations",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DFQBHQ53",
+      "title": "Chtoocy Large Chicken Coop Heater Lamps - Replacement, 400W,Carbon Fiber Light, Protable Adjustable Temp & Hanging Height for Coop Livestock Pet Dog Heater for Outdoor Chicken Coop",
+      "category_path": "Patio, Lawn & Garden > Farm & Ranch > Poultry Care > Poultry Habitat Supplies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DFWCT64X",
+      "title": "Solar Rechargeable Spotlight, 2,000,000L High Lumens Led Spot Lights Outdoor Handheld Super Bright Long Range Flashlight with 6 Modes, 3 Colored Filters, Tripod, USB C for Fishing Boating",
+      "category_path": "Tools & Home Improvement > Safety & Security > Flashlights > Handheld Flashlights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DG85BRHV",
+      "title": "AUDERWIN 2 Pack Color Changing & Sync Smart Solar Pathway Lights, Solar Lights Outdoor Waterproof, 9 Modes (Warm White/Cool White/RGB) Landscape Lighting for Driveway, Walkway, Garden, Yard, Patio",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DGBVZTJT",
+      "title": "Solar Outdoor Motion Sensor Alarm, 130db Loud Dog Barking Alarm with Gunshot, Support Recording & Volume Control, 3 Modes Motion Activated Strobe Light Solar Security Alarm for Home, Farm",
+      "category_path": "Electronics > Security & Surveillance > Motion Detectors",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DGFXSTPS",
+      "title": "ZZXX 20W RGB Halloween Color Changing Landscape Lights Low Voltage Landscape Lighting IP66 Waterproof LED Outdoor Spotlight with Photocell Sensor for Patio Garden Yard Christmas Decoration (6 Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGGDKWK6",
+      "title": "Solar Panel Compatible with Wyze Battery Cam Outdoor (V1/V2), 2.5W Camera Solar Panel, Micro USB Port, IP65 Weatherproof, 9.8Ft Cable, 2Pack",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DGZ8J549",
+      "title": "Ceybo Outdoor Mini Pendant Light – Grey Shade, Rustic/Industrial Downlight for Patio, Porch & Pergola",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGZHGBKL",
+      "title": "Ceybo Bell Ridge Outdoor 1 Light Teal Mini Pendant, Weather-Resistant Hanging Porch Light",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHTR12HY",
+      "title": "LANGY Hog Lights for Night Hunting, Solar Flood Light 12000LM Green hog Light with Remote, Motion Activated Feeder Lights, Green Solar Lights for Hunting Predator, Coyote, Varmint, Hog, Deer",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHZMDSL7",
+      "title": "Aphyni 1 Pack 150W LED Wall Pack Light with Dusk to Dawn Photocell, 22500LM 5000K Daylight IP65 Waterproof Wall Pack Lights Outdoor LED [Eqv. 1000W HPS/HID] for Parking Lot, Warehouse, Yard AC120-277V",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJNXZL8S",
+      "title": "Deepn Solar Lights Outdoor for Outside, IP66 Waterproof Street Lights Outdoor, 6500K Dusk to Dawn LED Solar Security Flood Lights Motion Sensor with Remote Control for Yard, Entryway Garage, Porch",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJVDK23S",
+      "title": "POPOSOAP RGB Underwater Pond Lights with Timer, 20 Colors Dimmable Submersible Led Fountain Lights with IP68 Waterproof, Support Remote Control for Outdoor Ponds Aquarium Garden Pool (6 Headlamps)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Water Gardens & Ponds > Pond Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJVF2M1D",
+      "title": "POPOSOAP Pond Lights, 6-in-1 Warm White Underwater Pond Lights, IP68 Waterproof LED Landscape Spotlights for for Pond, Garden, Patio, Fountain, Pool, Waterfall Decoration(6 Head Lamps)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Water Gardens & Ponds > Pond Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK4MJ1NH",
+      "title": "DRomance Waterproof Outdoor Flameless Candles with Remote and Timer White Plastic Battery Operated LED Flickering Pillar Candles Wedding Dinner Garden Home Holiday Decor(3\" D x 4\",5\",6\",8\" H)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKNVJ86H",
+      "title": "Solar Lights Outdoor Waterproof IP68，3 Lighting Modes，Solar Spot Lights Outdoor，Dark Sensing Auto On/Off ，Solar Powered Garden Yard Spot Solar Lights for Outside Landscape (Warm White, 6 Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DNQDDVPC",
+      "title": "Dynaming 12 Pack Solar Post Lights, Outdoor Solar Powered Decorative Post Cap Light, White Shell & Warm White LED Lighting for Fence Deck Patio, Only Fit 3.5\"x3.5\" Wooden Posts",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Post Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DP43XT26",
+      "title": "Tiki Mask String Lights Outdoor Waterproof 7FT 20PCS, Tropical Hawaiian Luau Party Lights Battery Operated LED with Remote Control, Patio Garden Porch Yard Pool BBQ Tiki Bar Summer Decorations",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP8G12TY",
+      "title": "JASHIKA Solar Tiki Mask String Lights Outdoor 40LED 14FT, Tropical Hawaiian Luau Party Lights Solar Powered Waterproof LED String for Garden Patio Porch Yard Fence Deck Summer Decorations",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DP8PGJ9G",
+      "title": "WARSUN Rechargeable Camping Lantern 1000 Lumens, Portable LED Work Light with Magnetic Base & 360° Hook, 4 Color Temperatures, Red Warning Mode for Camping Hiking Emergency",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Electric Lanterns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPC865BP",
+      "title": "AreShark 9.5FT Solar Umbrella 32 LED Lighted Patio Umbrella Table Market Umbrella w/Tilt and Crank Outdoor Umbrellas for Garden, Deck, Backyard, Pool and Beach, Matte Black",
+      "category_path": "Patio, Lawn & Garden > Patio Furniture & Accessories > Umbrellas & Shade > Umbrellas",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DPFDTB99",
+      "title": "AngKng Solar Street Lights Outdoor Waterproof, 6500K Motion Sensor Solar Powered Street Light, Dusk to Dawn Solar Flood Lights with Remote Control for Outside Garden Yard Outside Parking Lot-2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPL7T2PS",
+      "title": "CANDLE CHOICE Battery Operated Flameless Tea Lights Bright Flickering LED Tealight Candles for Wedding Table Centerpieces Halloween Thanksgiving Christmas Decorations Batteries Incl Warm White 50 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQ4ZMYC8",
+      "title": "LIFENGSOLER 160LEDs Solar Motion Lights Outdoor,3-Sides Solar Wall Lights Outdoor, 270° Wide Angle, 3 Lighting Modes Security Light for Front Door Fence Yad Garage (Adjustable Solar Panel, 4)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Step Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQGZXR27",
+      "title": "AISITIN 3.5W Solar Fountain Pump with LED Colorful Lights & 3000mAh Battery, Solar Bird Bath Fountain with 10 Nozzles, Solar Water Pump for Garden, Pond and Outdoor (Purple)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Water Gardens & Ponds > Pumps & Circulation > Pumps",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DQKWNGNF",
+      "title": "CANDLE CHOICE Battery Operated Flameless Tea Lights Realistic Black Wick Bright Flickering LED Tealight Candles for Wedding Table Centerpieces Halloween Christmas Decorations Batteries Incl. 50 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQL5JW83",
+      "title": "Solar Panel Stand 32inch Stand with Foldable Tilt Legs Adjustable Solar Panel Tilt Mount Brackets Set Installed on, Roof, Boat,Ieal for 180 200 300 400 Watt for Roof Black",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar & Wind Power Parts & Accessories",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DQQ5VFW7",
+      "title": "Brightever 50FT Outdoor String Lights with Remote, LED String Lights for Outside with 16 Shatterproof ST38 Vintage Edison Bulbs, 3 Modes 2 Timer Dimmable Outside Lighting for Patio, Gazebo, Deck, Yard",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQXXQ5DR",
+      "title": "GEPLAD 1500 Watt Replacement LED Corn Bulb, 150 Watt E39 Mogul Base, 23,700 Lumens, 5000K Daylight, (Not Dimmable) 2-Pack",
+      "category_path": "Tools & Home Improvement > Light Bulbs > LED Bulbs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DR1QWYRD",
+      "title": "Herzila 8 Pack Solar Deck Lights Outdoor, Solar Step Lights Waterproof Led Lights,3000K Warm White, Auto Dusk-to-Dawn, Low Profile, for Deck Steps Fence Patio",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Step Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DR1RSC4V",
+      "title": "Herzila Solar Step Lights Outdoor, 12-Pack Solar Deck Lights for Stairs, Solar Fence Lights 3000K Warm White, Auto Dusk-to-Dawn, Weather Resistant Step Lights for Deck Railing Patio",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Step Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DR2HVQ6W",
+      "title": "Herzila 12 Pack Solar Deck Lights Outdoor RGB Led Solar Fence Lights Step Waterproof for Stairs, Step, Fence, Yard, Patio, Balcony and Pool (Color Changing)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Step Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DR7S9W4Z",
+      "title": "Herzila 8 Pack Solar Step Lights Led RGB Deck Lights Solar Fence Lights Waterproof for Outdoor Stairs, Step, Balcony, Patio",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Step Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRJJPLHR",
+      "title": "Licoopr 25FT Outdoor String Lights IP65 Waterproof Patio Lights with 8 + 1 Shatterproof LED Bulbs Commercial Grade LED String Lights Connectable Hanging Decorative Lights for Outdoor Balcony Yard",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRX5K3P3",
+      "title": "SANSI Grow Lights for Indoor Plants, 4 Head Dimmable Plant Lights for Indoor Growing, 40W 35\"-65\" Adjustable Standing Plant Grow Lights Indoor Tripod Auto On/Off Timer Grow Light",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRY4NYKD",
+      "title": "Starcurin Outdoor Post Lamp Long Pole Solar Powered Waterproof Exterior Solar Pathway Light Remote Control with Pier Mount Base, LED Dusk to Dawn Walkway Lighting with Water Ripple Glass",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Post Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DRYH91DJ",
+      "title": "Cormaxcorn Hexagon Garage Lights Super Bright LED 6500K 128W 15360LM Honeycomb Hexagon Ceiling Light Fixture, Hex LED Wall Mount Lighting for Garage Home Gym Basement Workshop (3 HEX)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Bay Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DS9M7GCP",
+      "title": "COCOSY XT60 Charge Extension Cable 100Ft 12AWG or 2/6/10/20/25/35/50/100Ft 4mm²/12AWG Solar Connector to XT60 Cable for Portable Power Station, LiFePO4 Battery, RV and Solar Generator",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar & Wind Power Parts & Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSKBTV1Y",
+      "title": "Meewata 120ft Total (3x40ft) - 3 Pack Solar Led Strip Lights Outdoor, 8 Mode with Remote Timer and Auto On/Off, Self-Adhesive Waterproof, Great for Yard, Garden, Stair and Sidewalk Decor, Warm White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > LED Strip Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSQQBV2K",
+      "title": "Solar Spot Lights Outdoor, RGB Solar Landscape Spotlights IP65 Waterproof Adjustable Light House Lights Colorful Spot Light for Yard Garden Pathway (4)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSQWD4YS",
+      "title": "Solar Spot Lights Outdoor, RGB Solar Landscape Spotlights IP65 Waterproof Adjustable Light House Lights Colorful Spot Light for Yard Garden Pathway (2)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSR2WQDY",
+      "title": "Solar Spot Lights Outdoor, RGB Solar Landscape Spotlights IP65 Waterproof Adjustable Light House Lights Colorful Spot Light for Yard Garden Pathway (6)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT17CM14",
+      "title": "DARIISI Dusk to Dawn Outdoor Post Lights Hard Wired, Waterproof Aluminum Pole Light Fixture with Pier Mount Base, Exterior Lamp Posts Outdoor Lighting for Yard Patio Pathway, 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Post Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DTCCF2SH",
+      "title": "Magnetic Work Light 1320Lumen 120V Flexible Gooseneck Work Light with Adjustable Focus and Magnetic Base for Lathe CNCMilling Drill Press Sewing Machine Industrial Light (14, Watts)",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DW3R2WT4",
+      "title": "Coyote Deterrent Solar Animal Repellent Outdoor Predator Eyes Animal Deterrent for Deer Fox Skunk Raccoon Predator Light for Chicken Coop Yard Farm,4 Pack",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Accessories",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DWSG1CB5",
+      "title": "Runyangshi Natural Crystal Night Lamp Heart Shape Bedroom Bedside Sleep Night Light Healing Crystal Gemstone Citrine Light Tri-Color Ambient Light USB Powered for Home Decor Mother's Day Gift",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWZTMKSW",
+      "title": "1 Pack 6W Solar Panel for Ring Camera – Battery Maintenance Solar Charger, Compatible with Ring Spotlight Cam/Plus/Pro & Stick Up Cam Battery/Pro, USB-C & DC for Security Cameras",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DXF37QDC",
+      "title": "T5 Reptile Light Fixture Green Combo Kit 8W Light Fixture Reptile Terrarium Hood 10.0 UVB Light Bulb Fluorescent Tube Ideal for Tropical and Deserts Such as Bearded Dragon Lizards and Tortoises",
+      "category_path": "Pet Supplies > Reptiles & Amphibians > Habitat Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXVV134H",
+      "title": "Broadroad Led Pool Light Bulb,120V 65W Plus with 6500LM E26 Base Pool Light Bulb Ultra Bright Daylight White 6500K Swimming Pool Replacement for Most Pentair Hayward Light Fixture",
+      "category_path": "Patio, Lawn & Garden > Pools, Hot Tubs & Supplies > Parts & Accessories > Lighting Products",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYCZVSVW",
+      "title": "VOLISUN Solar Fence Lights 6 Pack, Color Glow LED Up and Down Wall Lamp, IP65 Waterproof Solar Lights Outdoor for Patio, Backyard, Railing, Deck, Fence and Wall（2 Lenses）",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Step Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYHZ9PMT",
+      "title": "Sinbyuer 2025 Solar Digital Pool Thermometer with Dynamic Light Show | Floating Pool Temperature Thermometer - Oversized LCD Screen for Easy Readings | Pools Temperature Gauge for Hot Tubs & Spas",
+      "category_path": "Patio, Lawn & Garden > Pools, Hot Tubs & Supplies > Parts & Accessories > Hot Tub Accessories",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYN4RDQN",
+      "title": "Klleyna Patented Swimming Pool Fountain with Lights - for Above&In-Ground Pools, Pool Waterfall with 7 Color LED Lights, Extend Pipe Water Cooler Sprinkler Sprayer Summer Party Decor (D- Led Light)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Water Gardens & Ponds > Pond Décor > Pond Fountains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYNHKWBP",
+      "title": "UPXSXT 5Pcs No Drill Car Cab Lights, Solar Powered Waterproof Wireless Rooftop Cab Clearance Light for Truck Cab Led Lights Vibration Sensor Roof Lights for Universal Car (yellow)",
+      "category_path": "Automotive > Lights, Bulbs & Indicators > Lighting Assemblies & Accessories > Signal Light Assemblies > Marker Light Assemblies > Top Clearance Marker Assemblies",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DZ5LL6YC",
+      "title": "TECKNET 248 LED Outdoor Solar Lights & Motion Sensor 10 Pack, 300° Angle & 3 Lighting Modes Solar Lights Outdoor Waterproof, Solar Powered Security Flood Wall Lights IP66 for Outside/Yard Fence/Garden",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZCPW3DF",
+      "title": "Underwater Fishing Light Super Bright 40000 Lumens 12V 80W LED Submersible Fishing Light Green Night Fish Attracting Light Waterproof Bait Finder Attractants Boat Lamp for Snook Crappie",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Baits & Accessories > Baits & Attractants > Light Attractants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZCRWZRQ",
+      "title": "Underwater Fishing Light Super Bright 40000 Lumens 12V 80W LED Submersible Fishing Light Green Night Fish Attracting Light Waterproof Bait Finder Attractants Boat Lamp for Snook Crappie",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Baits & Accessories > Baits & Attractants > Attractants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZHVRBLM",
+      "title": "YOJZMA 20W Motion Sensor Flood Light Outdoor, 2000 LM Outdoor LED Spotlight IP66 Waterproof 6000K Daylight Security Lights for Garden Garage Yard Sports Ground （2 Pack） 110V",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZNNRHBF",
+      "title": "luckystyle 29FT Solar String Lights Outdoor Waterproof with 10+1 LED Bulbs Long Last for 20+Hrs, Commercial Grade Shatterproof USB Patio Solar Powered Lights for Camping，Backyard, Garden, Porch Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F13HGF1L",
+      "title": "FUYO Smart Table Lamp, 6-inch Rechargeable LED Globe Orb Light with App/Remote Control, IPX6 Water-Resistant, 16 Colors & 4 Modes, Sphere Night Light for Home Bedroom Pool Garden Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F18T2Y2R",
+      "title": "VUEBEE 10W Solar Panel with 10400mAh Battery for Security & Trail Cameras, 5V/12V Adjustable Output, USB-C & DC Plugs, IP66 Waterproof, 360° Mount, 9.8ft Cable",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F1C1Y6FX",
+      "title": "Outdoor Solar Powered LED Garden Lights Landscape Lighting Waterproof Multicolor Color Changing Stake Light for Patio Yard Pathway Flowerbed Lawn Christmas Decoration Figurine Dandelion Lily Sunflower",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Figurine Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F1GC5LCG",
+      "title": "Outdoor Solar Powered LED Garden Lights Landscape Lighting Waterproof Stake Path Lights for Patio Yard Backyard Lawn Terrace Pathway Sidewalk Pathway Walkway Driveway Decorations 8 Pack Warm White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F2FNXH35",
+      "title": "ZCXLIGHT Solar Fence Lights Outdoor，Solar Wall Lights Outdoor Warm/Cool White + RGB Color Changing for Wall,Patio,Backyard,Railing Deck,Porchaily&Holiday Decorations(8Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Deck Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2HGHRY5",
+      "title": "GloMuse Plug in Vintage Pendant Lights Kitchen Island Glass Brass Hanging Light Fixture Flower Light for Bedroom Kitchen Hallway Corded On/Off Switch Bathroom Green Sunflower",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2MZ767B",
+      "title": "JCATPD Solar Flowers String Lights Outdoor Waterproof, Artificial Rose Flower Fairy String Lights, Hanging Rose Vine Floral Garland with Lights for Garden Fence Yard Porch Wedding (Pink,33FT, 100LED)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F2N14PRB",
+      "title": "JCATPD Solar Flowers String Lights Outdoor Waterproof, Artificial Rose Flower Fairy String Lights, Hanging Rose Vine Floral Garland with Lights for Garden Fence Yard Porch Wedding (Red,16FT, 50LED)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F2Y9PHC6",
+      "title": "Aialun 184 LED Solar Outdoor Flood Lights,Motion Sensor Solar Powered Flood Lights 1500mAh Battery,IP65 Waterproof 3 Modes Dusk to Dawn Outside Security Lights for Porch,Yard,Garage, 2Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F37G55RV",
+      "title": "Pool Fountain with 8-Color 4-Mode LED Lights, Above/Inground Pool Fountain Lights with Remote, 360°Adjustable Pool Sprinkler for Relaxation & Cooling 10-20°F",
+      "category_path": "Patio, Lawn & Garden > Pools, Hot Tubs & Supplies > Parts & Accessories > Lighting Products",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3HVVRMB",
+      "title": "DJGIFI Outdoor Solar Floor Lamp, 46.8'' Solar Lights Outdoor Waterproof with Plant Stand, Dusk to Dawn, Warm Yellow Light, Black Metal Stand for Deck Porch Patio Garden Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Post Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F4QWJQT6",
+      "title": "Kitloo Solar Rechargeable Floating Pool Lights(4 Pack), Pool Lights That Float with Remote Control, 9 Lighting, Timing Mode, IPX7 Waterproof for Inground Pool, Bathroom, Bathtub, Pool Party",
+      "category_path": "Patio, Lawn & Garden > Pools, Hot Tubs & Supplies > Parts & Accessories > Lighting Products",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F4X5H89Y",
+      "title": "Solar Christmas Pathway Lights Outdoor Decorations, Solar Powered Snowflake Lights, Waterproof Xms Garden Stake Lights Outdoor Christmas Decorations for Patio Yard Porch Lawn, 4 Pack(White)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F59TW776",
+      "title": "LED Fog Lights Assembly Fit for Toyota 2005-2011 Tacoma, 2007-2013 Tundra, 2004-2006 Solara, 2008-2015 Sequoia, Front Bumper Driving Fog Lamp with DRL, Turn Signal, 1 Pair",
+      "category_path": "Automotive > Lights, Bulbs & Indicators > Lighting Assemblies & Accessories > Driving, Fog & Spot Lights",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F5HHGC2D",
+      "title": "SPRKLINLIN Solar Christmas Pathway Lights Outdoor Decorations, Solar Powered Snowflake Lights, Waterproof Xms Garden Stake Lights Outdoor Christmas Decorations for Patio Yard Porch Lawn, 4 Pack(Blue)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F5PGTKMH",
+      "title": "Kingdura 9ft 3-Tier Patio Umbrella with Solar Lights, Table Umbrella Outdoor Patio with Easy Crank & Tilt, 8 Sturdy Ribs, UV Protection, 32 LED Lights for Deck, Poolside, Market (Beige)",
+      "category_path": "Patio, Lawn & Garden > Patio Furniture & Accessories > Umbrellas & Shade > Umbrellas",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F633VLYP",
+      "title": "Ccinny 500 LED 25 FT Cluster Lights, Warm White Christmas Tree Lights 8 Modes Timer Remote, Waterproof String Lights for Indoor Outside Garland Xmas Decorations",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F66DTPS5",
+      "title": "Ccinny 394FT 1200 LED Christmas Lights Outdoor, Multicolored Christmas Tree Lights Plug in, 8 Modes Twinkle String Light for Bedroom Wedding Party Ceiling Xmas Home Decorations",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F66HFZBT",
+      "title": "Jnaurb Christmas Candy Cane Lights, 66ft 480 LED Connectable White & Red & Blue Candy Cane Rope Lights for Outside, 8 Modes Waterproof LED Christmas Light for Garden Patio Tree Holiday Party Decor",
+      "category_path": "Home & Kitchen > Seasonal Décor > Seasonal Lighting > Rope Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F66KCJ4C",
+      "title": "Jnaurb Christmas Candy Cane Lights, 66ft 480 LED Connectable Flexible White & Green Candy Cane Rope Lights for Outside, 8 Modes Waterproof LED Christmas Light for Garden Patio Tree Holiday Party Decor",
+      "category_path": "Home & Kitchen > Seasonal Décor > Seasonal Lighting > Rope Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F66N62G3",
+      "title": "Jnaurb Christmas Candy Cane Lights, 66ft 480 LED Connectable Flexible White & Blue Candy Cane Rope Lights for Outside, 8 Modes Waterproof LED Christmas Light for Garden Patio Tree Holiday Party Decor",
+      "category_path": "Home & Kitchen > Seasonal Décor > Seasonal Lighting > Rope Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F66NTDTF",
+      "title": "Jnaurb Christmas Candy Cane Lights, 33ft 240 LED Connectable Flexible White & Green Candy Cane Rope Lights for Outside, 8 Modes Waterproof LED Christmas Light for Garden Patio Tree Holiday Party Decor",
+      "category_path": "Home & Kitchen > Seasonal Décor > Seasonal Lighting > Rope Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6C7YBXJ",
+      "title": "Lakumu 2-in-1 Rechargeable Fairy Lights Battery Operated, 66FT(2×33) Twinkle Lights with Remote & Timer, 200 LED String Lights for Bedroom Waterproof Outdoor Camping, Christmas Decorations Multicolor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6JCQJ17",
+      "title": "Veemoon 4-Pack Solar Fence Lamp LED Lighting Tool Waterproof Overhang Light for Outdoor Garden Decor Energy-Saving Solar Lights for Pathway and Landscape",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F6LV41N3",
+      "title": "Lakumu 2-in-1 Rechargeable Fairy Lights Battery Operated, 132FT(2×66) Twinkle Lights with Remote & Timer, 400 LED String Lights for Bedroom Waterproof Outdoor Camping, Christmas Decorations Multicolor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6TVWMKS",
+      "title": "Flag Pole Light Solar Powered-136LED Solar FlagPole Lights,Ultra Bright for 15-25 Ft Flag Poles, Outdoor Flag Pole Lamp from Dusk to Dawn for 12+ Hours - 100% Coverage Black Flag Light (Dark Black)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Flagpole Hardware",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F7QCT82T",
+      "title": "180W Outdoor LED Flood Light Dusk to Dawn with Knuckle, 25200LM 1500W Equivalent, 100-277V 5000K Daylight, ETL Commercial LED Flood Light Fixture, Outdoor Security Lighting for Landscape/Parking Lot",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F7X8Z5KH",
+      "title": "VUEBEE 4W Solar Panel for Security Camera, USB-C/Micro USB Solar Charger for Rechargeable Battery Cameras, IP66 Waterproof, 360° Adjustable Mount, 9.8FT/3M Cable, 2 Pack",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F7XCYGJ6",
+      "title": "podafu Indoor Outdoor Waterproof Light Up Sphere with Remote, LED Night Light Mood Lamp, 16 Dimmable Colors and 4 Dynamic Modes, Suit Home Bedroom Christmas Garden Party (USB Charging, Ball 8 inch)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F7XD8CB3",
+      "title": "podafu Indoor Outdoor Waterproof Light Up Sphere with Remote, LED Night Light Mood Lamp, 16 Dimmable Colors and 4 Dynamic Modes, Suit Home Bedroom Christmas Garden Party (Solar Charging, Ball 8 inch)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F7Y3D8Y4",
+      "title": "KINDEEP Motion Sensor Ceiling Light: Battery Operated Ceiling Light Wireless Indoor for Shower, Closets, Stairs, Hallway, Pantry, 3 Color Temperatures Dimmable, ‎White Shade 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Close To Ceiling Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8Q3HTWV",
+      "title": "65FT Candy Cane Rope Lights, Christmas Led Rope Light Outdoor ETL Listed, Waterproof Tube Lighting Connectable and Cuttable, for Festival Porch Railing Pillar Garden Fence Xmas Tree, Green Red White",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8TXMH8D",
+      "title": "DJGIFI 29.5\" Solar Outdoor Floor Lamps with Planter - IP44 Waterproof Warm White Light, Easy Install LED Planters for Lawn, Patio, Front/Back Door Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Floor Lamps",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F97KHW6R",
+      "title": "Ceybo Bell Ridge 1 Light Outdoor Mini Pendant — Blue, Metal Barn-Style Shade, Wet Location Rated",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9F5TY2S",
+      "title": "Bokoiuu C7 Clear Christmas Lights 25FT, C7 Outdoor Patio String Lights with 27 Warm White Bulbs, Vintage Christmas Tree Lights for Roofline Roof Party Garden Decoration (Green Wire)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9FTLMJ5",
+      "title": "Ceybo Outdoor Teal Mini Pendant Light — Weather Resistant Hanging Lamp for Patio, Porch & Pergola",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9FW3826",
+      "title": "Ceybo Bell Ridge Outdoor Mini Pendant Light – 1 Light, Grey Finish, Indoor/Outdoor Hanging Fixture",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9FX17QB",
+      "title": "Ceybo Bell Ridge Outdoor Mini Pendant Light —1 Light Wide Shade Porch Ceiling Hanging Fixture, Brown Finish",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9FYKV5M",
+      "title": "Ceybo 1 Exterior Pendant Light — Hanging Light fixtures Ceiling Mount, Black Metal, Industrial Farmhouse",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9KJ5RLW",
+      "title": "LED Landscape Lights Spot Lights Outdoor for Yard Garden Decor Spotligh with Remote, N~CCT 2700k~6000K IP68 Waterproof Landscape Lights for Yard,Patio,Lawn, Wall, Flood,Driveway (6, High Voltage)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9KP366P",
+      "title": "LED Landscape Lights Spot Lights Outdoor for Yard Garden Decor Spotligh with Remote, N~CCT 2700k~6000K IP68 Waterproof Landscape Lights for Yard,Patio,Lawn, Wall, Flood,Driveway (10, Low Voltage)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9L1TL3X",
+      "title": "PEPTRONIC Camping Lantern Rechargeable Up to 150Hr Camping Light, 600LM Ultra Bright Small Lantern, IPX7 Waterproof 3000mAh Power Bank, Portable Emergency Flashlight for Hiking Power Outage Hurricane",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Electric Lanterns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9PLFN8M",
+      "title": "CANDLE CHOICE Waterproof Outdoor Battery Operated Flameless Candles with Timer Flickering Plastic Resin Electric LED Pillar Lights for Lantern Patio Garden Wedding Party Decorations 3x7 Inches 3 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9PMGWWH",
+      "title": "CANDLE CHOICE Waterproof Outdoor Battery Operated Flameless Candles with Timer Flickering Plastic Resin Electric LED Pillar Lights for Lantern Patio Garden Wedding Party Decorations 3x6 Inches 3 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9QTMNS4",
+      "title": "Ceybo 2-Light Farmhouse Vanity Light in Grey Finish with Metal Bell Shades, Dimmable and Damp Rated, Ideal for Bathroom or Hallway Lighting",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Vanity Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FBFH3TNS",
+      "title": "25W Solar Fan for Chicken Coop with Battery, Solar Exhaust Fan for Shed & Greenhouse, 3 Modes Controller (Continuous/Timer/Motion Sensor), Solar Powered Fan for Intake or Exhaust Vent Cooling (Black)",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Greenhouse Parts & Accessories > Ventilation Equipment",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FBGGCHVN",
+      "title": "Mvpkings Solar Power Bank 38800mAh with 4 Solar Panels, Portable Charger USB C 18W Fast Charging for iPhone Samsung, IP67 Waterproof Outdoor External Battery Pack with Flashlight Light/SOS/Strobe",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Portable Power Banks",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FC2LYDZB",
+      "title": "2 Pack C6 Christmas Lights Outdoor Indoor, Total 200 LED 66 FT Connectable Christmas String Lights with Timer & 13 Modes, Waterproof Twinkle Light for Xmas Tree Yards Party Wedding Decorations (Green)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCDKFJ6Q",
+      "title": "Ultra-Long Battery Life Solar Motion Lights Outdoor, USB & Solar Charging, Rechargeable Battery Operated Lights 3–5 Months Endurance, Perfect for Winter & Rainy Days, Yard, Patio, Backyard (2 Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCDXLY63",
+      "title": "2026 Upgraded Solar Ultrasonic Animal Repellent Deer Repellent Devices Cat Repellent Outdoor with Motion Sensor Dog Deterrent Keep Raccoon Squirrel Skunk Rabbit Away from Yard Lawn Garden 4 Pack",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents > Ultrasonic Repellers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCDZVY9M",
+      "title": "2026 Upgraded Solar Animal Repellent Outdoor Ultrasonic Cat & Deer Repellent with Motion Sensor, Waterproof Squirrel Raccoon Dog Rabbit Deterrent for Yard Garden, 2 Pack",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents > Ultrasonic Repellers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCLXTQXV",
+      "title": "Solar Lanterns Outdoor Waterproof Mosaic Sea Turtle Decor Teal Blue Hanging Solar Light Outside Lights for Patio Yard House Lawn Decor Birthday Gifts for Women Mom",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCS85H1Q",
+      "title": "Icicle Lights for Outside, 33FT 400 LED Icicle Christmas Lights Outdoor with 8 Modes Waterproof, Plug in String Twinkle Light for Indoor House Room Patio Yard Xmas Party Wedding Decorations, Blue",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCS8DNBP",
+      "title": "Icicle Lights for Outside, 16.5FT 200 LED Icicle Christmas Lights Outdoor with 8 Modes Waterproof, Connectable Curtain String Light for Indoor Patio Home Holiday Party Wedding Decorations, Blue",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDG8TR6P",
+      "title": "240 LED C6 Christmas Lights Outdoor, 78FT Super Long Christmas String Lights with 13 Modes & Timer, Waterproof Fairy Twinkle Light Plug in for Indoor Tree Garden Party Xmas Decorations (Multicolor)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDJYVKGC",
+      "title": "2PC Solar Panel Compatible with Wyze Battery Cam Pro, Cam Outdoor V1/V2, 9.4ft Waterproof Charging Cable, 360°Adjustable Mount, IP65 Waterproof Solar Charger for Outdoor Security Camera",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FDQ9RBHT",
+      "title": "Solar Hot Air Balloon Lantern with Flame, Hummingbird Outdoor Solar Lanterns for Outside Garden Yard Farmhouse Patio Pathway Decoration, Hummingbird Gifts for Women Grandma Mom（2Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQBYK6Q",
+      "title": "Solar Hot Air Balloon Lantern with Flame, Cardinal Glass Solar Hanging Lights Outdoor Yard Patio Farmhouse Decoration, Cardinal Gifts for Women Grandma Mom(2 Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDWLKDYF",
+      "title": "Arikashin Standing Plant Grow Light, LED Growing Light Full Spectrum for Indoor Plants，4/8/12H Timer, 10-Level Brightness,Flow Grow Light for Tall Large Indoor Plants",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF9QCJSC",
+      "title": "Upgraded 250 LED C6 Connectable Christmas String Light Red Green and White, 82FT Waterproof Christmas Twinkle Light Outdoor, Plug in Fairy Lights Indoor with 13 Modes & Timer for Christmas Decoration",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFG1837R",
+      "title": "Upgraded 250 LED C6 Connectable Christmas String Lights Red and Green, 82FT Waterproof Christmas Twinkle Light Outdoor, Plug in Fairy Lights Indoor with 13 Modes & Timer for Christmas Tree Decorations",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFGWQ66P",
+      "title": "7W Solar Panel for Ring,Solar Charger Works for Ring, Stick Up Cam,Stick Up Cam Pro Battery,Spotlight Cam Plus/Pro Battery,10FT Waterproof Type C Cable and USB-C to Barrel Plug Adapter-2Pack",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FFHNKRPX",
+      "title": "C9 LED Christmas Lights Outdoor with 100 Spring Clips, 65FT 100 LED C9 String Lights Waterproof Connectable for Outside Roofline Patio House Yard Windows Outdoor Christmas Decorations, Blue White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFRR935G",
+      "title": "C9 LED Christmas Lights Outdoor with 110 Spring Clips, 65FT 110 LED C9 String Lights Waterproof Connectable for Roofline Patio House Yard Windows Xmas Tree Indoor Outdoor Christmas Decor, Red Green",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFRX9M2J",
+      "title": "C9 LED Christmas Lights Outdoor with 100 Spring Clips, 65FT 100 LED C9 String Lights Waterproof Connectable for Roofline Patio House Yard Windows Xmas Tree Indoor Outdoor Christmas Decor, Blue White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFS55BBG",
+      "title": "C9 Christmas Lights Outdoor with 110 Spring Clips, 65FT 110 LED C9 String Lights Waterproof Connectable for Outside Roofline Patio House Yard Windows Indoor Outdoor Christmas Decorations, Multicolor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFSGSGD3",
+      "title": "C9 LED Christmas Lights Outdoor with 100 Spring Clips, 65FT 100 LED C9 String Lights Waterproof Connectable for Outside Roofline Patio House Yard Windows Garden Christmas Decorations, Warm White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFSHSNNF",
+      "title": "C9 LED Christmas Lights Outdoor with 100 Spring Clips, 65FT 100 LED C9 String Lights Waterproof Connectable for Outside Roofline Patio House Yard Windows Outdoor Christmas Decorations, Multicolor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFSLVNMQ",
+      "title": "New Magnetic Lamp, 18W Magnetic Lathe Machine Light, 2160 Lumens Flexible Work Light for CNC Milling Machine Drill Press Lighting (magnet base)",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFSMD2F4",
+      "title": "New Clamp Light, 18W Lathe Machine Light, 2160 Lumens Flexible Work Light for CNC Milling Machine Drill Press Lighting (clip base",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG89FV99",
+      "title": "ProHello (Light Panel)",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > Audio & Video Accessories > Webcams & VoIP Equipment > Webcams",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGD79TCD",
+      "title": "ALOVECO Solar Spot Lights Outdoor 4-in-1 Solar Powered Spotlights IP65 Waterproof with Remote 29.5ft Cable Auto On/Off 8 Modes Solar Uplights Outdoor for Garden Yard Landscape Tree 2700K Warm White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGJJ6Q8H",
+      "title": "Leekung Solar Pig Statues Garden Decor,Outdoor Statue Sculpture with Led Lights,Solar Garden Decorations Pig Figurines for Patio,Balcony,Yard,Lawn,Unique Housewarming Birthday Gifts for Mom Women",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Outdoor Statues",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGJKWSV4",
+      "title": "Leekung Solar Chicken Garden Statue with LED Lights for Outdoor Decoration,Chicken Statue Sculpture Yard Decorations, Outdoor Animal Figurine Gifts for Garden Patio Lawn Backyard Farmhouse",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Outdoor Statues",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGJNBBFQ",
+      "title": "Wide Brim Solar Fan Hat,Hat with Fans Solar Power,Outdoor Wide Brim Sun with 2 Sun Bucket,UPF 50+ for Outdoor Fishing (US, Alpha, One Size, Light Gray1)",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Accessories > Fishing Hats",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FGMZWXV9",
+      "title": "Zivif USB C Solar Panel for Security Cameras, 10W Solar Charger with USB-C Cable, DC 5.5x2.1mm & Micro USB Port, IP66 Waterproof with Adjustable Mount & 10FT Cable",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGPDTZL1",
+      "title": "Solar Snowflakes Wind Chimes for Outside,Color Changing LED Lights,Outdoor Christmas Decor for Yard,Solar Danglers Birthday Gifts for Women",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Chimes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGQKP247",
+      "title": "LANMINGLEL Battery Alligator Clip to XT60 Female Connector Cable with Switch 20A Fuse,14AWG 12V-24V Battery Alligator Clips to XT60 Adapter Extension Cable,for Solar Panel,Portable Power (3M Switch)",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar & Wind Power Parts & Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXT1VBD",
+      "title": "Zivif 13W USB Solar Panel for Security Cameras, Solar Charger with USB-C Cable, DC 5.5x2.1mm & Micro USB Port, IP66 Waterproof with Adjustable Mount & 10FT Cable, Tempered Glass Panel",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FH249Y57",
+      "title": "50FT 1000 LED Christmas Cluster Lights, Firecracker String Lights with Remote & 8 Modes & Timer, Waterproof Fairy Twinkle Light Plug in for Indoor Outdoor Party Garden Xmas Decoration, Red and Green",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH25SG9L",
+      "title": "25FT 500 LED Christmas Cluster Lights, Firecracker String Lights with Remote & 8 Modes & Timer, Waterproof Fairy Twinkle Light Plug in for Indoor Outdoor Party Garden Xmas Tree Decoration, Cool White",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH6HZ718",
+      "title": "Auto NOAA Emergency Weather Radio, AM/FM/SW Solar Hand Crank Radio with Larger Flashlight/Speaker, Clock, 5000mAh Battery Operated Radio with SOS Alert for Indoor/Outdoor Camping Emergencies",
+      "category_path": "Electronics > Portable Audio & Video > Radios > Weather Radios",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FH6N2SKG",
+      "title": "SmartDawn Smart Icicle Lights for Outside - 56ft 512 LED Color Changing Icicle Christmas Lights Outdoor - APP Controller 50+Preset Modes 16M Color Customize DIY Dynamic Lighting Effect",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH6SJ3D7",
+      "title": "Hanglyeuk Rechargeable Headlamp with Red Light Motion Sensor Led Head Lamps for Adults Kids Waterproof Bright Hiking Headlights for Outdoor Camping Running Fishing 2 Packs",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Headlamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHHF6BNZ",
+      "title": "APPECK Outdoor Ground Lights 15 Pack, 32FT RGBW Color Changing Pathway Lights Wired, Smart Landscape Lights IP65 Waterproof, for Path Yard Lawn Patio Holiday Party Decor, with App/Remote Control",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > In-Ground Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHJ71KVR",
+      "title": "High-definition Welding Helmet Auto Darkening with a view like sunglasses- 180° View 4\"X4\" Screen with Solar Power, 4 Arc Sensors 2.8/5-9/9-13 Shade for TIG MIG Grinding, Lightweight & Durable",
+      "category_path": "Tools & Home Improvement > Safety & Security > Personal Protective Equipment > Head Protection > Welding Helmets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FHKCWFXW",
+      "title": "IAFENGE Desk Grow Light, 288 LEDs Red Blue White Full Spectrum Plant Light for Indoor Plants,3490 Lumen Indoor Grow Lamp,3 Modes for Plants Greenhouse Veg Bloom Light",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHKS4P8K",
+      "title": "COXSENI Solar Wall Lights Outdoor with Remote Control, Long Lasting Battery, 6 Modes, Warm/Cool White, RGB, IP65 Waterproof 360° Adjustable Angle for Fence Porch Yard, 6 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHKXLV9X",
+      "title": "COXSENI Solar Wall Lights Outdoor with Remote Control, Large Battery, 6 Color Modes, Warm/Cool White, RGB, IP65 Waterproof 360° Adjustable Angle for Fence Porch Yard Deck Step, 4 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHLFCVZS",
+      "title": "4 Pack Solar Christmas Lights Outdoor Waterproof, 132FT 400LED Solar String Lights Green Wire Fairy Lights, Solar Twinkle Lights with 8 Lighting Modes for Xmas Garden Decorations (Multicolor)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FHLFYDDB",
+      "title": "IAFENGE Grow Light with Stand,288 LEDs Full Spectrum Plant Light for Indoor Plants,Tripod Standing Grow Lights for Indoor Plants,3 Modes Floor Grow Plant Lamp for Plants Greenhouse Veg Bloom Light",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHLVL4DJ",
+      "title": "4 Pack Solar Christmas Lights Outdoor Waterproof, 132FT 400LED Solar String Lights Green Wire Fairy Lights, Solar Twinkle Lights with 8 Lighting Modes for Xmas Garden Decorations (Blue)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FHLWVLGQ",
+      "title": "4 Pack Solar Christmas Lights Outdoor Waterproof, 132FT 400LED Solar String Lights Green Wire Fairy Lights, Solar Twinkle Lights with 8 Lighting Modes for Xmas Garden Decorations (Warm White)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FHV39GNT",
+      "title": "Peacock Suncatcher Stained Glass, Peacock Art Glass Suncatcher Hanging, Bird Suncatcher for Patio/Mom/Window (Green)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVLJMC8",
+      "title": "Peacock Suncatcher Stained Glass, Peacock Art Glass Suncatcher Hanging, Bird Suncatcher for Patio/Mom/Window",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ8JDCVV",
+      "title": "FUTUREZEN 4W Solar Panel for Bird Feeder Camera, USB-C/Micro USB Solar Charger with IP66 Waterproof, 360° Adjustable Mount, 9.8FT Cable",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJM8MGZQ",
+      "title": "Kepswin Solar Charger 20,000mAh, Portable Power Bank, 4 Cables Outdoor Waterproof External Backup Phone Charger with USB-C for Cell Phones, Solar Battery Pack with Dual Flashlight for Camping",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Portable Power Banks",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FK4NX74D",
+      "title": "Replacement for Samsung TV Remote Solar Charger, Rechargeable Battery Solarcell Remote for Smart TV, Compatible with BN59-01385A BN59-01432A with Voice, for Neo, Sero, QLED, OLED, Frame, UHD Smart TV",
+      "category_path": "Electronics > Television & Video > Accessories > Remote Controls",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FK9QSFB3",
+      "title": "Kazvincita WF-Version LED Ceiling Light with Speaker 40W 12Inch Control via app/Voice/Remote Adjustable Brightness & Color Temperature Ceiling Lamp RGB Ambient Lighting for Bedroom Kids Room and More",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Close To Ceiling Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKB5ZTN7",
+      "title": "EZVALO RGB Spotlights Indoor with Remote, 5500mAh Rechargeable Picture Lights, DIY Mode & 83 Color Changing Uplighting, Wireless Mini Accent Lighting for Plant Painting, Artwork (2Pack-Black)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKH9MQPP",
+      "title": "Dimind Demi Jellyfish Lamp - 9in Mini LED Color-Changing Jellyfish Light with Remote Control, 7 Colors, Silent Motor - Perfect for Bedroom and Office Decor, Ideal for Kids and Stress Relief (White)",
+      "category_path": "Baby Products > Nursery > Décor > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLCDXKY4",
+      "title": "Newinhome Outdoor Solar Garden Stakes Welcome Sign, 2 Flying Bees with Cracked Glass Ball,Decorative Garden Stakes for Lawn, Patio, Bee Gifts for Women",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Decorative Garden Stakes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLCX9343",
+      "title": "Newinhome Outdoor Solar Garden Stakes Welcome Sign, 2 Flying Hummingbirds with Cracked Glass Ball,Decorative Garden Stakes for Lawn, Patio, Hummingbird Gifts for Women",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Decorative Garden Stakes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLQ6BK6H",
+      "title": "PETAFLOP Garden Gnome Statue Decor with Solar Light, Funny Gnomes Figurine for Yard Patio Balcony Home Indoor Outdoor, Mother's Day Birthday Housewarming Gifts for Mom Grandma",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Figurine Lights",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLWHP43B",
+      "title": "Garden Duck Statues with Solar Lantern Flowerpot Outdoor Decoration, Duck Figurines of resin Art Sculptures for Patio Lawn Backyard Porch Ornaments Unique Housewarming Birthday Gifts for Women Mom",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Outdoor Statues",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FM3SYZ1D",
+      "title": "Giole Mosica Hot Air Balloon Solar Lantern with Flame, Glass Hanging Solars Lanterns Outdoor Waterproof Decorative Solar Light for Garden, Yard, Patio Decor",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMDKCK5T",
+      "title": "LED Grow Light Full Spectrum, CFGROW Waterproof 300W COB LED Grow Light, Natural Heat Dissipation Without Noise, Suitable for Plants All Growing Stage Indoor or Outdoor",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMHRK248",
+      "title": "Smart String Lights With Voice Control Indoor Outdoor, Clear Wire 66Ft 200 LED Christmas Lights, Dimmable 12Modes Twinkle Fairy String Light Waterproof for Xmas Tree Wedding Party Bedroom (Warm White)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMJQR4BC",
+      "title": "Sumloty 1 PACK Hummingbird Solar Lantern - Outdoor Decorative solar lanterns for Garden, Patio and Porch - Waterproof Hanging Lantern for Outside - Perfect Gifts for Women",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMK3DGV1",
+      "title": "20V LED Work Light for Dewalt: 90W 9000LM 8\" Portable Battery Powered Lights, 3 Modes Integrated Spotlight & Floodlight with USB & Type-C and Low Voltage Protection Ideal for Workshop (No Battery)",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMN37TVT",
+      "title": "AUDLES Solar Fence Lights Outdoor, 3 Modes 3000K/4000K/6000K Fence Lights Solar Powered for Outside, IP65 Waterproof, 60 Lumens Solar Light for Step, Pathway, Garden, Deck, Stairs - 8 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Step Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FMNLH4N8",
+      "title": "AUDLES Solar Fence Lights Outdoor, 3 Modes 3000K/4000K/6000K Fence Lights Solar Powered for Outside, IP65 Waterproof, 60 Lumens Solar Light for Step, Pathway, Garden, Deck, Stairs - 12 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Step Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FMNSHCGL",
+      "title": "SakerPlus Solar Street Lights, Waterproof Outdoor Solar Lights, LED Flood Light, Security Light for Yard, Driveway, Shed, Barn (1)",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMY95SCJ",
+      "title": "2000 Lumen Rechargeable Work Light, 20W with 7200mAh Battery, IP65 Waterproof, 3 Modes, Portable LED Light for Outdoor Working Emergency Mechanic Camping Repair Garage, Workshop, Job Site.",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMYCRMW7",
+      "title": "uuffoo Solar Lamp Waterproof 4000mAh Rechargeable with Remote, Solar Powered Outdoor Table Lamps Warm White & RGB, LED Battery Operated Lamp Portable for Outdoor Garden Patio (Gray)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Lamps & Shades > Table Lamps",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN7K2C5G",
+      "title": "2Pcs Cherry Blossom Lights with Remote, 7.5FT 144 LED Lighted Willow Vine for Wall Bedroom Decor, 18 Branch Pink Flower Vine Lights with 8 Modes, Timer & Memory Function, Home Holiday Decoration",
+      "category_path": "Home & Kitchen > Seasonal Décor > Seasonal Lighting > Indoor String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN8JWLCL",
+      "title": "Ucutely C9 LED Christmas Lights Outdoor,33 Feet 50 LED 8 Lighting Modes Waterproof Connectable Christmas String Lights for Outside Roofline Patio Home Xmas Decorations (Cool White)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNC6JFPP",
+      "title": "Bike Light for Night Light 1200 Lumens, 4500mAh Battery Bicycle Headlight LED Front Light with Ambient Light Sensing High Beam Low Beam for Men Women Kids Road Mountain Cycling - Mode 21700",
+      "category_path": "Sports & Outdoors > Sports > Cycling > Accessories > Lights & Reflectors > Headlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNDGHXB2",
+      "title": "Rechargeable Flood Light - 10000LM LED Portable Work Light with Stand, 6600MAh Job Site Flashlight Spotlight for Car Repair,Camping, Emergency - Solar Hand Held Lamp IP66 Waterproof 4 Modes - Yellow",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNJRS9TY",
+      "title": "Jevehip 2 Pack Solar Panel for Blink Camera,4W Waterproof Charger with 360° Adjustable Mount & 13ft Cable for Outdoor 3/4 Gen, XT/XT2-with USB-C to Micro USB Port Adapter (for Blink)",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FP2YLV5B",
+      "title": "Feotech Twin Wire 50FT Solar Extension - 12AWG (4mm²) Solar Connector, with 4 Pairs-IP67-Male/Female Solar connectors for Outdoor Automotive RV Boat Marine Solar - Black & Red",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar & Wind Power Parts & Accessories",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FP2ZYVNY",
+      "title": "Feotech Twin Wire 30FT Solar Extension - 12AWG (4mm²) Solar Connector, with 4 Pairs-IP67-Male/Female Solar connectors for Outdoor Automotive RV Boat Marine Solar - Black & Red",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar & Wind Power Parts & Accessories",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FP31CXDS",
+      "title": "Feotech Twin Wire 20FT Solar Extension - 12AWG (4mm²) Solar Connector, with 4 Pairs-IP67-Male/Female Solar connectors for Outdoor Automotive RV Boat Marine Solar - Black & Red",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar & Wind Power Parts & Accessories",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPQK5F67",
+      "title": "INCIKITI Solar Panel Bird Guard 6in x 50ft PVC Coated Solar Panel Bird Guard Mesh 1/2\" Critter Guard with 50 Fastener Clips, 20 Tie Wire, Cutting Scissor, Gloves",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar & Wind Power Parts & Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPQRKJ77",
+      "title": "JESLED Waterproof Plant Grow Lights, 4FT Full Spectrum Grow Light, 96W(2 X 48W,600W Equiv), Linkable Led Grow Light Strip for Greenhouse, Plant Shelves, Plug and Play, Pinkish White, 2-Pack",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Light Fixtures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPQW3SJP",
+      "title": "JESLED 4FT Waterproof Grow Lights for Indoor Plants, Sunlight Full Spectrum 5000K LED for Seed Starting, Seedling & Vegetables, 96W(2 X 48W,600W Equiv), Linkable Grow Light Strip with Switch, 2P",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Light Fixtures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ1F58JF",
+      "title": "2026 Solar Ultrasonic Bird Repellent Devices Pigeon Repeller Animal Repellent Outdoor with Motion Sensor Flash Light, Reflective Bird Deterrent Spinners to Keep Birds Goose Animal Away from Patio Farm",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents > Ultrasonic Repellers",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FQJF4YH9",
+      "title": "YESWELDER Intelligent Auto-Shade Auto Darkening Welding Helmet Large View with LED, Digital Filter, 1/1/1/1 True Color Solar Powered, Shade 3/5-9/9-15 Welder Mask for MIG/TIG/Stick/Cut/Grind",
+      "category_path": "Tools & Home Improvement > Safety & Security > Personal Protective Equipment > Head Protection > Welding Helmets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FQTCQTMD",
+      "title": "YILAF Lights Inspired by Sweden Wall Lamps – Rechargeable Battery Operated Wall Sconce, No Drill Stick On Wall Lights for Bedroom, Bedside Reading, Picture Light & Modern Home Décor (Wooden*4)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQTKN1ZJ",
+      "title": "YILAF Lights Inspired by Sweden Wall Lamps – Rechargeable Battery Operated Wall Sconce, No Drill Stick On Wall Lights for Bedroom, Bedside Reading, Picture Light & Modern Home Décor (Black*2)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQTWL34Q",
+      "title": "YILAF Lights Inspired by Sweden Wall Lamps – Rechargeable Battery Operated Wall Sconce, No Drill Stick On Wall Lights for Bedroom, Bedside Reading, Picture Light & Modern Home Décor (White*1)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQV7VW5B",
+      "title": "5W Solar Panel for Ring Camera, Solar Panel Charger Compatible with Ring Spotlight Plus/Pro Stick Up Outdoor Cam Battery, 10ft Cable with USB-C to Barrel Plug Adapter & Micro-USB Adapter, 1 Pack",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FRFMXCF4",
+      "title": "Rechargeable Battery Operated Hanging Light, Dimmable Pendant Light with Remote, 25x6cm Detachable Black Metal Lampshade Ceiling Light, Copper Lamp Holder, 1 M Metal Hanging Chain, for Gazebo Patio",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Ceiling Lights > Pendant Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRFNXBBL",
+      "title": "NFEVER Solar Lanterns Outdoor Waterproof: 2 Pack Hummingbird Decor Mothers Day Gifts for Mom - 2 Modes Vintage Metal Hanging Solar Lights for Outside Patio Porch - Gardening Gifts for Women Grandma",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRRZHLWS",
+      "title": "pearlstar Solar Lanterns Outdoor Waterproof Dual Charging (USB/Solar) Hanging Lantern Large Metal Floor Lamp for Patio Table Outside Porch Yard Garden Pool Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FS1W4CP3",
+      "title": "COXSENI Solar Wall Lights Outdoor with Remote Control, Long Lasting Battery, 6 Color Modes, Warm/Cool White, RGB, IP65 Waterproof 360° Adjustable Angle for Fence Porch Yard Deck Step, 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT1QCP2C",
+      "title": "CANDLE CHOICE Large Waterproof Outdoor Battery Operated Flameless Candles with Timer Realistic Flickering Plastic Electric LED Pillars for Lantern Garden Yard Halloween Christmas Decorations 4x8 2PCS",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT1QQ1GS",
+      "title": "CANDLE CHOICE Large Waterproof Outdoor Battery Operated Flameless Candles with Timer Realistic Flickering Plastic Electric LED Pillars for Lantern Garden Yard Halloween Christmas Decorations 4x10 2PCS",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT1TGG8T",
+      "title": "CANDLE CHOICE Large Waterproof Outdoor Battery Operated Flameless Candles with Timer Realistic Flickering Plastic Electric LED Pillars for Lantern Garden Yard Halloween Christmas Decorations 4x6 2PCS",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FTWHW61D",
+      "title": "CANDLE CHOICE Large Waterproof Outdoor Battery Operated Flameless Candle with Timer Realistic Flickering Plastic Electric LED Pillar for Lantern Garden Yard Halloween Christmas Decorations 4”x10” 2PCS",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FTWKD6CT",
+      "title": "CANDLE CHOICE Large Waterproof Outdoor Battery Operated Flameless Candle with Timer Realistic Flickering Plastic Electric LED Pillar for Lantern Garden Yard Halloween Christmas Decorations 4x10 Inches",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVFDBD7V",
+      "title": "LETOUR Magnetic Work Light Rechargeable Led 2000LM Powerful RGB Flashights, Portable Flat Mini Flashlights, IP68 Waterproof Multi-Mode Magnetic Small Keychain Flashlight for Camping, Emergency",
+      "category_path": "Tools & Home Improvement > Safety & Security > Flashlights > Hands Free Flashlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVLTYRSY",
+      "title": "COTTAGE LIFE Modern Outdoor LED Wall Light, 12W 1560LM Black Outdoor Wall Sconce, 3000K Warm White, Die-Cast Aluminum Exterior Light Fixture Wall Mount for Porch, Front Door, Patio & House",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVLXGYCP",
+      "title": "COTTAGE LIFE Modern Outdoor Wall Light Fixture, 12W LED Exterior Wall Sconce, 1680LM 3000K Warm Light, Black Aluminum Waterproof Hardwired Outdoor Wall Lights for Porch Patio Garage Front Door House",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVLXP2JQ",
+      "title": "FUYO Shower Lamp Waterproof Warm White & 7 Colors, 4000mAH Battery Powered Lamp Cordless with Remote, Rechargeable Outdoor Table Lamp Dimmable for Indoor Outdoor Bathroom Patio (Solid Wood)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Lamps & Shades > Table Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVM31JX8",
+      "title": "Biling 20W Solar Fountain Pump, 320GPH Submersible Solar Pond Pump with Filtration and Dry Run Protection, 7.5ft Lift, PVC Tubing and Nozzles for DIY Pond Fountain, Waterfall, Outdoor Water Features",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Water Gardens & Ponds > Pumps & Circulation > Pumps",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVXKP1P3",
+      "title": "Meshnology 2 Set ESP32 LoRa V4 Development Board + 3000mAh Battery + Purple Case, Upgraded ESP32-S3 SX1262 LoRa WiFi Bluetooth 2MB PSRAM 16MB Flash 915MHz Antenna OLED Support GPS Solar Meshtastic",
+      "category_path": "Electronics > Computers & Accessories > Computer Components > Single Board Computers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FWR5S4MN",
+      "title": "Magnetic Work Light 1320Lumen 120V Flexible Gooseneck Work Light with Adjustable Focusand Magnetic Base for Lathe CNC MillingDrill Press Sewing Machine Industrial Light (14W)",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX29FCXS",
+      "title": "Nigaut LED Outdoor Wall Light with GFCI Outlet,Dusk to Dawn Modern LED Outdoor Porch Light with Two Outlet Built-in,3000K Warm Yellow Outdoor Sconce,IP66 Waterproof Wall Mount External Security",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXFP63J1",
+      "title": "Solar Lantern Fence Horse York Stables Barn Multicolor Horses Red Barn Pasture Trees Garden Hanging Lantern Waterproof Solar Powered Lighting Outdoor Table Lamp for Deck Yard Camping Patio Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FXFW24KJ",
+      "title": "Solar Lantern Dinosaurs Prehistoric Landscapes Wonder Exploration Pterodactyl Garden Hanging Lantern Waterproof Solar Powered Lighting Outdoor Table Lamp for Deck Yard Camping Patio Decor",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXFX1VJG",
+      "title": "Solar Lantern Colorful Mexico Mexican Buildings Cobblestone Street Blooming Flowers Garden Hanging Lantern Waterproof Solar Powered Lighting Outdoor Table Lamp for Deck Yard Camping Patio Decor",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXGJPCP1",
+      "title": "MODOAO 8-Pack Solar LED Camping Lantern, Rechargeable Outdoor Tent Light with Solar/USB Charging, 3 Mode Warm White, Waterproof & Clip Hook, for Camping, Hiking, Emergency, Christmas Decor",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Lights & Lanterns > Lanterns > Electric Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXXBV9C6",
+      "title": "Oududianzi 8AWG Solar Panel Wire, 2x30Ft Solar Wire 8 Gauge Tinned Copper PV Cable Solar Extension Cable for Outdoor Automotive RV Solar Panel Boat Marine",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar & Wind Power Parts & Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FXZQCB3Z",
+      "title": "uvcoolplunge 9W Replacement Light Bulb, for Outdoor Pond Clarifier Compatible with JUP-01 UVE9 CF400 CF500 UV CP-9 UV Light for Fish Tank, Turtle Tank, Aquarium, 4 Pack 9W UV C Lamp for G23 Base",
+      "category_path": "Pet Supplies > Fish & Aquatic Pets > Aquarium Accessories > Aquarium Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FY6CTSKY",
+      "title": "PARTPHONER Low Voltage Landscape Lighting 1-Pack, Aluminum 12V Pathway Lights with G4 Bulbs, Waterproof Stylish Matte Black Color Round Shade Path Lights with Connectors for Walkway Yard Garden",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZ39QH4K",
+      "title": "Cordless LED Work Light Compatible For Dewalt 20V/60V Battery, 60W 6000LM Jobsite Flood Light, Portable Outdoor Flashlight Dual USB-A 5V/2A Charging Ports,Pivoting Head (Battery Not Included)",
+      "category_path": "Tools & Home Improvement > Safety & Security > Flashlights > Handheld Flashlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZC8RHMX",
+      "title": "BYQY 12V24V Low Voltage Landscape Lights Outdoor,6000K White LED Landscape Lights with 3 Color Lenses (Red,Yellow,Green),IP67 Waterproof Outdoor Spot Lights for Garden Passage Wall Tree Fence,2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FZCHXVHC",
+      "title": "BYQY Low Voltage Landscape Lights,5W 500LM Outdoor Landscape Lights with 4 Color Lenses (White Light,Red,Yellow,Green),IP67 Waterproof Outdoor Spot Lights for Garden Passage Wall Tree Fence,6 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FZQMN48X",
+      "title": "QZQCBLC Stained Glass Window Hanging Green Potted Plants Large 15\" - Suncatcher Door Garden Sun Catcher Retro Home Decor Birthday Christmas for Mom Men Woman Nana Friend",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G12MPTWJ",
+      "title": "NovaVolt 1-Pack Rechargeable Lipo Lithium Battery with LED Meter & Solar Charging, for Trail Camera Tactacam Reveal X Gen 3.0, 2.0, X Pro 3.0, Pro, X Ultra 3.0, SK, X, XB",
+      "category_path": "Electronics > Camera & Photo > Accessories > Flash Accessories > Battery Packs",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G17VSTGW",
+      "title": "Solar Panel Compatible with Blink Camera,Solar Kit Build-in 2000mAh Rechargeable Battery, IP66 Waterproof (Blink 2)",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G1C1X8XD",
+      "title": "SUNDISC Tornado Lamp - Novelty LED Sensory Liquid Motion Night Light, Exclusive Dual-Bead & Quiet Motor, Cool Tech Gifts for Men Women Teens, Unique Desk Gadgets for Gaming Room, Office, Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1LVFM84",
+      "title": "JEJOT Solar Lights Outdoor Waterproof IP65, Super Bright LED with Lens, 6500K 2 Lighting Modes, Solar Powered Yard Garden Solar Spot Lights for Outside Landscape Auto On/Off -4 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Spotlights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G1XNRV4Z",
+      "title": "Solar Lantern Colorful Stained Glass Style Snowman Rainbow Scarf Winter Flowers Garden Hanging Lantern Waterproof Solar Powered Lighting Outdoor Table Lamp for Deck Yard Camping Patio Decor",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G25V4LYG",
+      "title": "SmartDawn Outdoor String Patio Lights, 100FT 100 LED Patio Lights Waterproof, Connectable Shatterproof Hanging Outside String Light for Backyard, Porch, Deck, Balcony, Garden, House Decor, 2200K",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2LJS7W3",
+      "title": "WaitSche Solar Motion Lights Outdoor Waterproof 10000LM LED Security Flood Lights Dusk to Dawn for Outside Yard, Driveway, or Garden Path 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2XWTRTG",
+      "title": "Handepo 15 Pcs Summer Night Decor Mini Lantern Tea Light Gold Flameless Candle with Starfish Pineapple Cactus LED Battery Operated Beach Tray Decor Gift for Luau Party Bedroom Pool Kitchen Home",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Novelty Lighting > Flameless Candles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3NS6WT4",
+      "title": "Solar Garden Lights, 2 Pack 200 LED Garden Decor Outdoor Lights, Solar Garden Lights Outdoor Waterproof-with 8 Light Modes, Solar Powered for Garden, Pathway, Patio, Yard, Flowerbed Decor Colorful",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G3NV46Y6",
+      "title": "Solar Lantern Dinosaur Baby boy Seamless Sweet Dino Palm Cactus Garden Hanging Lantern Waterproof Solar Powered Lighting Outdoor Table Lamp for Deck Yard Camping Patio Decor",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3WRM6VD",
+      "title": "Magnetic Solar Lights Outdoor, 600LM Motion Sensor Solar Wall Lights Outdoor with 270° Wide Angle, IP65 Waterproof Magnetic Solar Security Light for Wall Patio Backyard Fence Garage Deck (1 Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3WSZFR2",
+      "title": "Magnetic Solar Lights Outdoor, 600LM Motion Sensor Solar Wall Lights Outdoor with 270° Wide Angle, IP65 Waterproof Magnetic Solar Security Light for Wall Patio Backyard Fence Garage Deck (2 Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3WTNW21",
+      "title": "LIFENGSOLER Magnetic Solar Lights Outdoor with Motion Sensor, 92LEDs 600 LM Bright Solar Fence Lights, IP65 Waterproof Security Lights with Strong Magnets for Deck, Patio, RV, Camper (1Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Deck Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G46HYQSY",
+      "title": "GSOWO 5PCS Solar Wireless Cab Roof Lights for Truck, No Drill Truck Cab Roof Light with Motion Vibration Sensor Ultra-Bright LED IP67 Solar Security Lights for Car Truck RV, Amber Light",
+      "category_path": "Automotive > RV Parts & Accessories > Power & Electrical > Lighting > Exterior Lighting",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G47DMDDN",
+      "title": "GSOWO 5PCS Solar Wireless Cab Roof Lights for Truck, No Drill Truck Cab Roof Light with Motion Vibration Sensor Ultra-Bright LED IP67 Solar Security Lights for Truck RV, White Light",
+      "category_path": "Automotive > Lights, Bulbs & Indicators > Lighting Assemblies & Accessories > Signal Light Assemblies > Marker Light Assemblies > Top Clearance Marker Assemblies",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4GNQ1BR",
+      "title": "46\" Solar Outdoor Floor Lamps for Patio Decor, Rattan Wicker Lights, Hand Woven Lamp Stable Metal Lanterns Outdoor Waterproof Rechargeable, Ideal for Gardens, Yards, Pathways, Driveways and Porches",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Floor Lamps",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4MGRY4T",
+      "title": "Sikitul 30FT LED Outdoor String Lights with Remote, One Continuous Strand Patio Lights with 10+1 Shatterproof S11 Bulbs, Dimmable 2700K Warm White, Timer & 3 Modes, Low Voltage for Backyard Garden",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5WT6NN2",
+      "title": "TOWPONICS Outdoor Floor Lamp with Planter Stand, 40.75'' Outdoor Solar Lights with 2700K Warm White LED Bulb, IP65 Waterproof Solar Powered Outdoor Lamp for Patio Backyard Garden Pathhway Decor,1 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Floor Lamps",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6CRDY4J",
+      "title": "Edenseelake Dual-Lighting Mode Solar Hanging Lanterns Outdoor Waterproof, Decorative LED Lantern for Garden, Patio, Porch, Yard, Lawn, 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G6F22SPZ",
+      "title": "XyZeavJ 2 Pack Solar Pathway Lights Outdoor, New Upgraded Waterproof LED Lights, 3 Variants (Warm White/Golden/7-Color Slow Flash) with Unique Lamp Shade Patterns, for Garden (2-Pack Colorful Light)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G6LC2CMS",
+      "title": "TFKK Solar Street Lights Outdoor, Waterproof Motion Sensor Solar Lights with Remote Control, 6500K Dusk to Dawn Parking Lot Flood Light for Outside Garage Yard, 2 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6T3SBWB",
+      "title": "TeqHome 5 Pack Solar Christmas Pathway Lights, Outdoor Solar Christmas Decorations Stake Decorative Lights Xmas Tree with 8 Lighting Modes & IP65 Waterproof, for Garden Yard Patio Lawn Holiday Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G6YWWRXF",
+      "title": "Solar Outdoor Lights 2500LM Security Lights,270° Wide Angle Flood Wall Lights with 3 Modes, 3 Heads Motion Sensor Lights with Remote Control,IP65 Waterproof , for Yards, Patio, House, Garage (5 pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6Z6NTSJ",
+      "title": "Solar Outdoor Lights 2500LM Security Lights,270° Wide Angle Flood Wall Lights with 3 Modes, 3 Heads Motion Sensor Lights with Remote Control,IP65 Waterproof , for Yards, Patio, House, Garage (3 pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6ZCYM6B",
+      "title": "Solar Outdoor Lights 2500LM Security Lights,270° Wide Angle Flood Wall Lights with 3 Modes, 3 Heads Motion Sensor Lights with Remote Control,IP65 Waterproof , for Yards, Patio, House, Garage (2 pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G7V92268",
+      "title": "Waterproof 300W LED Grow Light Full Spectrum, CFGROW 3500K White COB LED Grow Light, Natural Heat Dissipation Without Noise, Suitable for Plants All Growing Stage Indoor or Outdoor.",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G8CTXM68",
+      "title": "ZCXLIGHT Solar Fence Lights 12 Pack,Solar Deck Lights Waterproof Led with 12 Modes RGB Color GlowColor Changing for Fenc,Yard,Garden,Patio,Backyard,Railing,Deck,Porchaily&Holiday Decorations",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Deck Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G8Y9HTS5",
+      "title": "YMTengFei 2Pack Solar Lights Outdoor Garden Decor,LED Lotus Flower Lamp, Metal Tulip Solar Lawn Lamp for Courtyard Decoration, Garden Gifts for Women",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G8YS6P2B",
+      "title": "ZCXLIGHT Solar Fence Lights Outdoor，Solar Wall Lights Outdoor Warm/Cool White + RGB Color Changing for Wall,Patio,Backyard,Railing Deck,Porchaily&Holiday Decorations (4 Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Deck Lights",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G9FGG9KL",
+      "title": "Askyli Solar Pool Lights for Steel Wall Above Ground Pools, 7-Color 3-Dynamic Modes Above Ground Pool Lights Solar, Waterproof Pools Accessories, High LED Pool Light with 5H Auto Off Timer-1PK",
+      "category_path": "Patio, Lawn & Garden > Pools, Hot Tubs & Supplies > Parts & Accessories > Lighting Products",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G9RLY921",
+      "title": "2 Pack 6000 Lumen 40W LED Work Light Compatible with Dewalt 20V Max, Cordless Jobsite Flood Light, Bright Portable Outdoor Flashlight (Battery Not Included)",
+      "category_path": "Tools & Home Improvement > Building Supplies > Job Site Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GB88NTYT",
+      "title": "SAGFU 200W LED Corn COB Light Bulb,LED Corn Bulb 5000K Daylight White, 1-Pack 2000W Equivalent, 29000 Lumens Super Bright,E26/E39 Base for Indoor Outdoor Garage Warehouse (200W 1PACK)",
+      "category_path": "Tools & Home Improvement > Light Bulbs > LED Bulbs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GBTV28PC",
+      "title": "FUTUREZEN Solar Panel for Security Camera, 10W Solar Charger with DC 5.5x2.1mm, USB-C & Micro USB Port, IP66 Waterproof, 360° Adjustable Mount, 7.2FT Cable, Black",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GC5527XM",
+      "title": "Amugmilk Hanging Solar Lights Outdoor Lanterns Garden Decorations, 2 Pack Moon Lights with Cracked Glass Globes Outside Decor for Backyard Balcony Patio Tree ,Unique Mother's Day Gifts for Women Mom",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCD2MR53",
+      "title": "Solar Powered Floating Pool Lights(2 Pack), Pool Lights That Float with Remote Control, 12 Lighting, Timing Mode, IP67 Waterproof for Inground/Above Ground Pool, Pool Party, Bathroom, Bathtub, Garden",
+      "category_path": "Patio, Lawn & Garden > Pools, Hot Tubs & Supplies > Parts & Accessories > Lighting Products",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCG99NBJ",
+      "title": "Floor Grow Lights for Indoor Full Spectrum Plant Lighting with Adjustable 67\" Stand for Growing Large Tall Plants 3/9/12H Timer,3 Light Modes, 10 Dimming",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCHXPZXJ",
+      "title": "4 Pack Solar Lanterns Outdoor Waterproof, Solar Lantern with Realistic Flickering Flame, Auto On/Off Solar Powered Garden Light with Hemp Rope Handle for Outside Tree Patio Porch Camp Tabletop Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCJ9X8L6",
+      "title": "12W Solar Panel for Security Camera, 5V USB-C Solar Charger with Micro USB & Barrel Adapters, Outdoor Weatherproof for Continuous Home and Property Monitoring (3)",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCM41G15",
+      "title": "LITIVY Stained Glass Suncatcher Spring Flowers & Hummingbird, 8 Inch Handmade Multi-Color Window Hanging Decor - Garden, Sun Catcher Home Decor for Women, Mom, Gift for Her, Grandma",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCMMF7XS",
+      "title": "JOH Permanent Outdoor Lights, 200FT with RGB+IC Smart LED Outdoor Lights for House, App & Remote Control, DIY Scene Modes, IP67 Waterproof Christmas Light, Holiday, Party, Halloween Decorations",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCYC7ZZK",
+      "title": "LIANGLOME Solar Pathway Lights Outdoor 12 Pack - IP55 Waterproof Solar Powered Garden Lights 6000K Cold White LED, Auto On/Off Outdoor Solar Lights for Yard Driveway Patio Decor Landscape Lighting",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCZGH1T6",
+      "title": "LED Flood Lights Outdoor with Knuckle Mount, 150W 21000LM Dusk to Dawn Outdoor Lighting Adjustable 6500K Security Lights IP66 Waterproof Floodlight for Garage, Yard, Entryways, Black1",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCZSY68P",
+      "title": "2 Pack Solar Lanterns Outdoor Waterproof, Automatic Dusk-Dawn Operation, Hanging Handle, 8.4 x 6 Inches for Outdoor Use in Yards, Patios, Backyards and Porches.",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCZVMHX3",
+      "title": "TIMOLIAX LED Flood Lights Outdoor with Knuckle Mount, 150W 21000LM Dusk to Dawn Outdoor Lighting Adjustable 6500K Security Lights IP66 Waterproof Floodlight for Garage, Yard, Entryways, 2Pack Black",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCZZ85FH",
+      "title": "2 Pack Solar Lanterns Outdoor Waterproof, Automatic Dusk-Dawn Operation,Bamboo Color Hanging Handle, 8.4 x 6 Inches for Outdoor Use in Yards, Patios, Backyards and Porches.",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GD6HYYYT",
+      "title": "Solar Lanterns Outdoor with Shepherd Hook - Waterproof Butterfly Garden Decor, LED Hanging Lights Metal Decor for Yard, Patio, Porch, Lawn, Tabletop - Perfect Christmas Gift for Women, Mom, Grandma",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GD6K5NYC",
+      "title": "MATAHARAGA 150W Flood Lights Outdoor, 21000lm Bright LED Work Light with 10ft Plug, 5000K Daylight White Flood Lighting, IP66 Waterproof Floodlight Security Lights for Yard Stadium Garage Garden",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Flood & Security Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDG1ZJDY",
+      "title": "26800mAh Portable Fan Rechargeable with 18W Detachable Solar Panel, Quiet Battery Powered Camping Fan Cordless with LED Lantern,3 Speed,Timer,USB-C,for Bedroom Tent Home Office Desk Hurricane(Pink)",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Fans",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GDG54XHD",
+      "title": "26800mAh Portable Fan Rechargeable with 18W Detachable Solar Panel, Quiet Battery Powered Camping Fan Cordless with LED Lantern,3 Speed,Timer,USB-C,for Bedroom Tent Home Office Desk Hurricane(Orange)",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Fans",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GDLXJCRX",
+      "title": "basen Solar Mushroom House Garden Statue Outdoor Decor, Resin Fairy Gnome House with LED Light, Solar Powered Whimsical Yard Art for Lawn Patio Porch Pathway, Weather Resistant",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Figurine Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GF6GQ31G",
+      "title": "4 Pack Upgraded Solar Ultrasonic Repellent Outdoor Deer Repellent Devices Cat Dog Raccoon Rabbit Squirrel Deterrent Waterproof Animal Repeller with Motion Detection for Yard Garden Lawn",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents > Ultrasonic Repellers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GG6HJXLX",
+      "title": "NZHAXUEVS Solar Outdoor Wall Light Sunflower Peony Flower Exterior Wall Light",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Wall Lamps & Sconces",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG6NBGN4",
+      "title": "NPASDHOIW 10pcs 3/4/5 Inch Round LED Downlight, 5W-18W Recessed Ceiling Light Panel for Home, 12V/24V DC, Adjustable Beam Spotlight（1pcs(White Golden- Cold,DC24V 9W)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG6P85BC",
+      "title": "NPASDHOIW 10pcs 3/4/5 Inch Round LED Downlight, 5W-18W Recessed Ceiling Light Panel for Home, 12V/24V DC, Adjustable Beam Spotlight（1pcs(Silvery-Warm,DC12V 9W)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG71XB62",
+      "title": "NPASDHOIW 10pcs 3/4/5 Inch Round LED Downlight, 5W-18W Recessed Ceiling Light Panel for Home, 12V/24V DC, Adjustable Beam Spotlight（1pcs(White Silvery-Warm,DC24V 5W)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG71ZQ8F",
+      "title": "NPASDHOIW 10pcs 3/4/5 Inch Round LED Downlight, 5W-18W Recessed Ceiling Light Panel for Home, 12V/24V DC, Adjustable Beam Spotlight（1pcs(Silvery- Cold,DC12V 5W)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG76P7TW",
+      "title": "NPASDHOIW 10pcs 3/4/5 Inch Round LED Downlight, 5W-18W Recessed Ceiling Light Panel for Home, 12V/24V DC, Adjustable Beam Spotlight（1pcs(Milk White- Cold,DC12V 9W)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Spotlights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG8VQTLC",
+      "title": "7PMBEANE Rustic Wall Sconce Lighting,Lantern Porch Light with Hammered Glass Shade,Waterproof Outdoor Wall Light Fixtures for Garage Room H16.1 in x W9.4 in",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG9QZTKP",
+      "title": "HMWSMT Solar Post Cap Lights, 6 Pack Deck Fence Cap Light for 4x4 5x5 Wood/Vinyl Posts, 3 Color Modes, LED Deck Post Lights Solar Powered Waterproof, for Patio Porch Garden Decoration, Black",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Post Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GGGP7DGP",
+      "title": "XINPUGUANG 10W 12V Solar Panel Battery Charger Maintainer Kits Trickle Charger with Charge Controller, Cigarette Lighter, Alligator Clips, for RV,Car, Truck, Boat(10W)",
+      "category_path": "Patio, Lawn & Garden > Generators & Portable Power > Solar & Wind Power > Solar Panels",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GH5LG387",
+      "title": "AuMoHall Blue Windshield Tint, 75% VLT Car Window Tint Film for Solar Protection, UV Blocking & Heat Rejection, Light Blue Window Tints for Cars with Easy Installation, 19.68'' x 177.16''",
+      "category_path": "Automotive > Interior Accessories > Sun Protection > Window Tints",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GH5RLJ6F",
+      "title": "AuMoHall Blue Windshield Tint, 75% VLT Car Window Tint Film for Solar Protection, UV Blocking & Heat Rejection, Light Blue Window Tints for Cars with Easy Installation, 19.68'' x 236.22''",
+      "category_path": "Automotive > Interior Accessories > Sun Protection > Window Tints",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GHJHTMG3",
+      "title": "Plant Propagation Station with LED Lights, Wooden Stand, 4 Glass Test Tubes for Hydroponic Plants, 3 Lighting Modes 9 Brightness, Plant Lovers",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Pots, Planters & Container Accessories > Terrariums",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHRHGPSL",
+      "title": "PinRight Dusk to Dawn Outdoor Lighting Fixtures, 350-Degree Rotating Lamp Head, Exterior Front Porch Light, Waterproof Wall Lantern, Dimmable Outdoor Light Fixture, 3000k, for House, Garage,Doorway",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Porch & Patio Lights > Wall Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJ3DR83P",
+      "title": "EKQ Resin Fairy House Statues with Solar Lights Outdoor for Garden Decor Funny Birds Ladybird Flocked Fairy House with Garden Figurine Patio Yard Lawn Decorations Gift for Mom Women (Green)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Figurine Lights",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GJ3F7L9W",
+      "title": "Stained Glass Suncatchers for Windows, Hanging Sun Catchers Indoor Window, Monstera Plant Gifts for Plant Lover (UV Printed)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJ658S2H",
+      "title": "Solar Lantern Outdoor Waterproof Solar Powered Brown White Hereford Cow Young Calf Hanging Lantern for Garden Patio Deck Yard Camping Tabletop Decor Lighting",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Lanterns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJLNSH7J",
+      "title": "GOESWELL Boho Decor Vine Light for Bedroom: Moon Star Dream Catcher Fairy Lights for Girls Room - 6.4 Feet 250 Led Twig Vines Lights for Bedside Wall - Home Decor for Living Room",
+      "category_path": "Home & Kitchen > Seasonal Décor > Seasonal Lighting > Indoor String Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJQ6FWRR",
+      "title": "Floor Grow Lights for Indoor Full Spectrum Plant Lighting with Adjustable 68\" Stand for Growing Large Tall Plants 3/9/12H Timer,3 Light Modes, 2Heads",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Greenhouses & Plant Germination Equipment > Lighting > Growing Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GK5D6ZZS",
+      "title": "LEOKED Solar Powered Table Lamp, Rattan Wicker Shade, Khaki Color, PP and Iron Material, Garden Courtyard Lawn Decor, 8.66 x 15.94 Inches",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Tabletop Lighting > Table Lamps",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GK929W9B",
+      "title": "VMANYFIRE 10 Inch Solar Cat Garden Statue with Butterfly LED Light - Unique Gifts for Mom Women Grandma, Sculpture Outdoor Decor for Patio, Porch, Yard, Lawn, Balcony",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Figurine Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GL2HGG9T",
+      "title": "Solar Lights Outdoor Waterproof,Bright 6500K LED Motion Light with Remote Control,Waterproof IP65 Commercial Large Street Lights Dusk to Dawn,Easy to Install for Outside Parking Lot & Driveway,1 Pack",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GLFPB9PW",
+      "title": "Vcdsoy Solar Garden Outdoor Angel Book Statues,Book Lovers Gifts for Balcony Patio Lawn Table Yard Ornaments, Solar Resin Fairy Waterproof LED Lights,Mother's Day,Birthday Gifts for Women Mom Grandma",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Figurine Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GLGTWXGD",
+      "title": "DJGIFI Solar Floor Lamps with Planter (2-in-1 Design), 36.5\" Outdoor Solar Lamp Post - IP44 Waterproof, Warm White Lights Dusk to Dawn 6-8Hr, Easy Install for Lawn, Patio, Porch, Yard & Pathway Decor",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Floor Lamps",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GMGPKMYL",
+      "title": "Hanging Solar Lantern Outdoor Decor, Moroccan Solar Lights for Outside Garden Decorations, Waterproof Solar Lanterns Garden Gifts for Mom, Women, Patio, Yard Ornament (Coppers)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Outdoor Lighting > Landscape Lighting > Path Lights",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GQT3SDVQ",
+      "title": "ＪＹ Solar Powered Cab Lights for Trucks - No Drill Wireless Installation, Waterproof with Motion Sensor | Auto On/Off, Vibration Activated LED Lights",
+      "category_path": "Automotive > Lights, Bulbs & Indicators > Lighting Assemblies & Accessories > Signal Light Assemblies > Marker Light Assemblies > Top Clearance Marker Assemblies",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GR4MBBR2",
+      "title": "Mole Repellent, Solar Powered Snake Repellent for Yard, Ultrasonic Vole Repeller Outdoor, IP65 Waterproof Gopher Repellent, Skunk Deterrent, Groundhog Remover Devices for Garden, Lawn (4 Pack)",
+      "category_path": "Patio, Lawn & Garden > Pest Control > Repellents > Ultrasonic Repellers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GRV9BJBD",
+      "title": "Solar Cascade Hanging Bird Bath Fountain, Tiered Cascade Solar Water Fountains No Wiring, Attracts Hummingbirds & Garden Birds for Outdoors Garden Patio Backyard Lawn Decor (Purple)",
+      "category_path": "Patio, Lawn & Garden > Backyard Birding & Wildlife > Birds > Birdbaths & Supports > Birdbaths",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GS4KC49D",
+      "title": "ＪＹ Solar Powered Cab Lights for Trucks - No Drill Wireless Installation, Waterproof with Motion Sensor | Auto On/Off, Vibration Activated LED Lights (White)",
+      "category_path": "Automotive > Lights, Bulbs & Indicators > Lighting Assemblies & Accessories > Signal Light Assemblies > Marker Light Assemblies > Top Clearance Marker Assemblies",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GS5W2M7Z",
+      "title": "2026 Solar Cascade Hanging Bird Bath Fountain Solar Powered Birdbath Water Fountain Pumps Dispenser Outdoors Decor Hummingbird Bath Shower Bowl Kit Garden Gift Yard Patio Backyard Decoration",
+      "category_path": "Patio, Lawn & Garden > Backyard Birding & Wildlife > Birds > Birdbaths & Supports > Birdbaths",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GTNN84H2",
+      "title": "WERCHTAY Solar Street Lights Outdoor Waterproof, 15000LM 6500K Solar Flood Light Dusk to Dawn, Motion Sensor & Remote, Upgraded Metal Fixing Rod for Wind/Snow, Wall/Pole Mount (2 Pack)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Commercial Lighting > Street & Area Lighting",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GTXQSNKG",
+      "title": "26800mAh Portable Fan Rechargeable with 18W Detachable Solar Panel, Quiet Battery Powered Camping Fan Cordless with LED Lantern,3 Speed,Timer,USB-C,for Bedroom Tent Home Office Desk Hurricane(Green)",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Camping Fans",
+      "found_by": [
+        "keyword"
+      ]
+    }
+  ]
+}

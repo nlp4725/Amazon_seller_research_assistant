@@ -1,0 +1,3620 @@
+{
+  "query": "graduation gown",
+  "definition": {
+    "definition": "An academic graduation gown, for any age.",
+    "include": [
+      "cap-and-gown sets",
+      "gowns alone",
+      "preschool/kindergarten graduation gowns"
+    ],
+    "exclude": [
+      "stoles",
+      "sashes",
+      "caps",
+      "tassels or honor cords alone",
+      "dresses for a graduation party"
+    ],
+    "keywords": [
+      "graduation|grad\\b",
+      "gown|robe"
+    ]
+  },
+  "sizes": {
+    "keyword": 62,
+    "embedding": 300,
+    "systems": 169
+  },
+  "pool_size": 437,
+  "candidates": [
+    {
+      "asin": "B0B8NHT798",
+      "title": "Prom Dress Long Formal Evening Gowns Tiered Wedding Guest Dresses Tulle Evening Dress Olive US2",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0B8NJDKZC",
+      "title": "Prom Dress Long Formal Evening Gowns Tiered Wedding Guest Dresses Tulle Evening Dress Pink US2",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CT8X9TZN",
+      "title": "Proud Family of a 2026 Senior Graduation Shirts, Proud Dad Mom Aunt of Senior Class of 2026 Graduate Shirt - Bootleg Shirt",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Tops, Tees & Blouses > T-Shirts",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CTKLNP4D",
+      "title": "HHOD Congratulations Class of 2026 Graduate Shirts, Proud 2026 Senior Graduation Personalized T-Shirts, Proud Dad Mom Aunt of 2026 Graduate Shirt Multi",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Tops, Tees & Blouses > T-Shirts",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CTMMCCYD",
+      "title": "PROESS Cow Necklace for Women 925 Sterling Silver January Birthstone Necklace Cow Jewelry Gifts for Daughter Niece Birthday Christmas Graduation",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Necklaces > Pendant Necklaces",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CTYDH9HY",
+      "title": "Geforsp Navy Blue Floral Lace Cowl Neck Spaghetti Straps Long Bridesmaid Dresses Prom Formal Evening Gown One Size",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWRKQGJZ",
+      "title": "Graduation Class of 2026 Shirt for Family, Proud Mom of a 2026 Graduate Shirt, Proud Dad of a 2026 Senior Multicolor",
+      "category_path": "Clothing, Shoes & Jewelry > Men > Clothing > Shirts > T-Shirts",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CX945LDK",
+      "title": "CSFIML Honduras Philippines Mixed Flag Graduation Stole For International Graduate Flag Graduation Sash",
+      "category_path": "Clothing, Shoes & Jewelry > Men",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D1QWK5PJ",
+      "title": "Custom Rings Personalized Cubic Zirconia Birthstone Rings Sterling Silver Rings Women's Class Rings Size 5-15 Graduation Rings Class Rings for Women High School (4-Sterling Silver - Gold Plated)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Rings > Bands",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D1R1RLVF",
+      "title": "Custom Rings Personalized Cubic Zirconia Birthstone Rings Sterling Silver Rings Women's Class Rings Size 5-15 Graduation Rings Class Rings for Women High School (2-Sterling Silver - Rose Gold Plated)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Rings > Bands",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D1R1YV88",
+      "title": "Custom Rings Personalized Cubic Zirconia Birthstone Rings Sterling Silver Rings Women's Class Rings Size 5-15 Graduation Rings Class Rings for Women High School (4-Sterling Silver - Rose Gold Plated)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Rings > Bands",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D1VCF4PP",
+      "title": "callie Personalized Mexican Graduation Stole Sash for High School College, Custom Class of 2026 Mexican Sash with Your Name, School Name, Text",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D2MPXTXP",
+      "title": "Strapless Prom Dresses Long Ball Gown Satin Evening Gowns A Line Split Formal Dresses for Women Dusty Blue 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4QNR7GR",
+      "title": "Trifetcrow Short Chiffon Bridesmaid Dresses for Women Ruffle Sleeve Blue Dress for Graduation Ruched Formal Gown Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8TFG985",
+      "title": "Generic Satin Red Homecoming Dress for Teens Short Prom Dress for Graduation A-line Party Dress with Pockets US18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8TFTGGL",
+      "title": "Regency Satin Homecoming Dresses for Juniors Short A Line Spaghetti Strap Formal Prom Party Gowns with Pockets US22w",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D8TGLGPM",
+      "title": "Women's Spaghetti Strap Short Satin Homecoming Dress A-line Formal Prom Gown with Pockets Plus Size Coral US20W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D8THXSJV",
+      "title": "Generic Satin Champagne Homecoming Dress for Teens Short Prom Dress for Graduation A-line Party Dress with Pockets US18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8TK87YL",
+      "title": "Hunter Green Satin Homecoming Dresses for Juniors Short A Line Spaghetti Strap Formal Prom Party Gowns with Pockets US22w",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DC6QD3XY",
+      "title": "Off The Shoulder Tulle Homecoming Dress Short Prom Dress Sparkly A Line Formal Party Gowns Hot Pink US14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDGLZ3TF",
+      "title": "OXJOIIS Women's 2024 Summer Bodycon Midi Dress Cute Funny Milk Cow Print Crew Neck Tank Dresses for Graduation, Homecoming, Church, Gatherings",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Casual",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DDXBZLD3",
+      "title": "Mens Gray Suit 2 Piece Wedding Tux for Boys Graduation Outfit Regular Fit Men's Suits Blazer Pants Set Size XXXL",
+      "category_path": "Clothing, Shoes & Jewelry > Men > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DG8KC8BZ",
+      "title": "Strapless Satin Prom Dresses Long Mermaid Ball Gown with Slit Ruffle Evening Party Gown Sky Blue US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DG8KGXSV",
+      "title": "Strapless Satin Prom Dresses Long Mermaid Ball Gown with Slit Ruffle Evening Party Gown Black US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DG8KL7K6",
+      "title": "Strapless Satin Prom Dresses Long Mermaid Ball Gown with Slit Ruffle Evening Party Gown Burgundy US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DG8MGWRB",
+      "title": "Strapless Satin Prom Dresses Long Mermaid Ball Gown with Slit Ruffle Evening Party Gown Royal Blue US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLN18M2K",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 10 Dusty Rose",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLN676YD",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 10 Aqua",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLN6BMJK",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W Taupe",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNB6WMZ",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 10 Royal Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNBKPTC",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W Blush",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNC4PS8",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNF2DQB",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNG9GX1",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W Coral",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNGQK28",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W Lilac",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNL3LTN",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 10 Navy Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNLJXVS",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W Desert Rose",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNNTDKJ",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W Orange",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNZWV8G",
+      "title": "Long Halter Prom Dress 2026 Sleeveless Layered Formal Evening Party Gown A Line Maid of Honer Dress 26W Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DMCXBTQN",
+      "title": "INEWER Long Sleeve Brown Prom Dresses Ball Gown 2026 with Pockets for Women Square Neck Pleated Formal Gown with Slit US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DNMXD13N",
+      "title": "DREAMIND One Shoulder Prom Gown with Bow Blush Floor Length Satin Ball Gown for Women Sleeveless Evening Party Dress 14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF63Z5D",
+      "title": "INEWER Womens Brown Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6454M",
+      "title": "INEWER Womens Lilac Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6531H",
+      "title": "INEWER Womens Coral Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF65YXJ",
+      "title": "INEWER Dusty Blue Lace Appliques Prom Ball Gown with Slit Satin Mermaid Sweetheart Evening Party Dresses for Women US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6BQQL",
+      "title": "INEWER Womens Emerald Green Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6DPG6",
+      "title": "INEWER Womens Dusty Rose Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6J7C5",
+      "title": "INEWER Womens Dusty Purple Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6NPPK",
+      "title": "INEWER Womens Navy Blue Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6RXGH",
+      "title": "INEWER Womens Burnt Orange Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6SCWZ",
+      "title": "INEWER Dusty Purple Lace Appliques Prom Ball Gown with Slit Satin Mermaid Sweetheart Evening Party Dresses for Women US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF6WS3G",
+      "title": "INEWER Womens Dusty Blue Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPF75348",
+      "title": "INEWER Womens Black Corset Prom Ball Gown Dress Long with Slit Lace Appliques Sweetheart Spaghetti Straps Formal Gowns US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DR72WVBD",
+      "title": "DRAJOIN Custom Graduation Stole Kids 2026, Personalized Grad Stole Class of 2026 Grad Sash Graduation Gifts 53\"",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT16W7XR",
+      "title": "Kids Graduation Gown 6 Piece Set Printed Cap Design Shiny Classic Outfit for Kindergarten Graduation Ceremony (Printed Black, 30)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DT17T89Y",
+      "title": "LMYOVE Kids Graduation Gown 6 Piece Set Printed Cap Design Shiny Classic Outfit for Kindergarten Graduation Ceremony (Printed Black, 27)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DT7B3TBJ",
+      "title": "JABECODIFA Personalized Graduation Stole 2026, Custom Graduation Stole Class of 2026 Grad Sash Grad Gifts 72 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7BCNF2",
+      "title": "JABECODIFA Personalized Graduation Stole 2026, Custom Graduation Stole Class of 2026 Grad Sash Grad Gifts 72 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7BF2YD",
+      "title": "JABECODIFA Personalized Graduation Stole 2026, Custom Graduation Stole Class of 2026 Grad Sash Grad Gifts 72 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7BF8C9",
+      "title": "JABECODIFA Personalized Graduation Stole 2026, Custom Graduation Stole Class of 2026 Grad Sash Grad Gifts 72 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7C71TY",
+      "title": "JABECODIFA Personalized Graduation Stole 2026, Custom Graduation Stole Class of 2026 Grad Sash Grad Gifts 72 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7C7N1Z",
+      "title": "JABECODIFA Personalized Graduation Stole 2026, Custom Graduation Stole Class of 2026 Grad Sash Grad Gifts 72 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7C8FVS",
+      "title": "JABECODIFA Personalized Graduation Stole 2026, Custom Graduation Stole Class of 2026 Grad Sash Grad Gifts 72 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7CCJJR",
+      "title": "JABECODIFA Personalized Graduation Stole 2026, Custom Graduation Stole Class of 2026 Grad Sash Grad Gifts 72 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7CJ2BT",
+      "title": "Custom Graduation Stole Kids 2026, Personalized Graduation Sash Class of 2026 Kindergarten Graduation-Gifts 53\"",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7D8L3W",
+      "title": "Custom Graduation Stole Kids, Graduation Sash Class of 2026 Preschool Grad Stole 2026 Graduation-Gifts 53 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7DX3YZ",
+      "title": "Custom Graduation Stole Kids, Graduation Sash Class of 2026 Preschool Grad Stole 2026 Graduation-Gifts 53 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7FFVHH",
+      "title": "Custom Graduation Stole Kids 2026, Personalized Graduation Sash Class of 2026 Kindergarten Graduation-Gifts 53\"",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7FQ12N",
+      "title": "Custom Graduation Stole Kids 2026, Personalized Graduation Sash Class of 2026 Kindergarten Graduation-Gifts 53\"",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DT7FXWC8",
+      "title": "Custom Graduation Stole Kids, Graduation Sash Class of 2026 Preschool Grad Stole 2026 Graduation-Gifts 53 inch",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Accessories > Scarves",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DW7B96P1",
+      "title": "Yuscorai Graduation Season Set 2-Piece Charms for Bracelets and Necklaces Birthdays Jewelry Women's Bead Charms Valentine's Day and Graduation Charms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Bracelets > Charms & Charm Bracelets > Charms > Bead",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DWJDKZ61",
+      "title": "IMCACTOR Spaghetti Straps Prom Dresses 2026 Long Ball Gowns Tiered Ruffle Bow A Line Dusty Blue Chiffon Ruched Formal Party Gown with Slit US04",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYVKLTWF",
+      "title": "Ukrainians Ukraine Flag Graduation Stole Graduation Sash Scarf Graduation Shawl for 2025 Graduation Study Aboard International Students",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYYH2D81",
+      "title": "Vintage Bahamas and Jamaica Flag Graduation Stole,Graduation Sash Honor Stole for Adult Unisex Graduation Gifts",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYYHJ9JP",
+      "title": "Turkmenistan Flag Graduation Stole,Graduation Sash Honor Stole for Adult Unisex Graduation Gifts",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYYHS7VB",
+      "title": "Vintage Israel Israeli Flags Graduation Stole,Graduation Sash Honor Stole for Adult Unisex Graduation Gifts",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DZ2ZP863",
+      "title": "Yuscorai Elephant Family Charm for Bracelets and Necklaces Birthdays Jewelry Women's Bead Charms Valentine's Day and Graduation Charms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Bracelets > Charms & Charm Bracelets > Charms > Bead",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F1MWBP5G",
+      "title": "LUYI 78 Pcs 2026 Graduation Gifts Bulk Graduation Compass Bracelets With Grad Keychains and Stickers Set In Cap Gift Boxes Graduation Party Favors for Class of 2026",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F329XBG8",
+      "title": "INEWER Spaghetti Straps Navy Blue Prom Dresses Long for Women Satin Pleated Backless Formal Gown with Slit US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Wedding Dresses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F32CK196",
+      "title": "INEWER Spaghetti Straps Black Prom Dresses Long for Women Satin Pleated Backless Formal Gown with Slit US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Wedding Dresses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F32DQL3Z",
+      "title": "INEWER Spaghetti Straps Light Blue Prom Dresses Long for Women Satin Pleated Backless Formal Gown with Slit US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Wedding Dresses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3JCTJB1",
+      "title": "BMHHTM Puerto Rico El Salvador Mixed Flag Graduation Stole Graduation Sash Gift for Graduate 72\" Long",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F3MJ34BX",
+      "title": "To My Son Cuban Cross Bracelet Gift From Mom & Dad | Gifts For Boy, Teen Boys For Birthday, Graduation | Beautiful Bracelet With Heartfelt Message Card & Present Box (LED Box, Never Forget)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Jewelry > Bracelets",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F5B9VFWR",
+      "title": "Zymhae Satin Short Homecoming Dresses for Teens 2025 Bow Champagne V Neck Mini Backless A Line Tight Graduation Cocktail Prom Party Gown for Juniors US6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F65NFZPL",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns White",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F65NY9MH",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F65P1DDF",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns White",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F65PJ3SL",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Navy Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F65QTSFW",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Blush Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F65QX3XQ",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns White",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F65R8GCQ",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Blush Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F65RKPKV",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Navy Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F65SMFQK",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6MLW1Q9",
+      "title": "Simphman 2025 Graduation Set B Charms 925 Sterling Silver Charms for Bracelets and Necklaces Bead Charms with Cubic Zirconia Jewelry Charm for Women Family Friends",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Bracelets > Charms & Charm Bracelets > Charms > Bead",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F7R9G1CN",
+      "title": "Weinaze Short Square Neck Homecoming Dress Sexy for Women Sparkly Sequin A-Line Prom Dresses for Graduation with Detachable Bow White US Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F83W98YM",
+      "title": "CELLENZ Women Chunky High Heels: Closed Toe Strappy Platform Heel - Black Dress Party Casual Shoes - Pumps Comfortable Graduation Dance Size 7.5",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Shoes > Pumps",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9XYFKP1",
+      "title": "ZPMMPZ Moissanite Heartbeat Stethoscope Ring 925 Sterling Silver 0.5ct Lab Created Moissanite Nurse Ring Stethoscope Jewelry Graduation Gifts for Nurse Doctor Medical Students",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Rings > Statement",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9Y83PBN",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Hot Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9Y8GTC9",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9Y8WG84",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Hot Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9Y99BLP",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Hot Pink",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9YBMJ4Z",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Dresses Midi Ball Gowns Black",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9YKPC9J",
+      "title": "Changuan Square Neck Satin Cocktail Dress for Teens 2025 Plus Size Bow Short Homecoming Dress Sleeveless Ruhced Corset Graduation Dress Size 24 Teal",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YKSW6M",
+      "title": "Changuan Satin Spaghetti Strap Homecoming Dresses 2025 with Bow Square Neck A-line Short Prom Dress for Teens Corset Ruched Cocktail Ball Gowns Size 0 Dusty Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9YM79PS",
+      "title": "Square Neck Satin Homecoming Dresses for Teens 2025 Spaghetti Strap Short Prom Dress A-line HOCO Graduation Party Gowns with Bow Size 2 Burgundy",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YPL57N",
+      "title": "Square Neck Satin Homecoming Dresses for Teens 2025 Spaghetti Strap Short Prom Dress A-line HOCO Graduation Party Gowns with Bow Size 2 Champagne",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YPNW6P",
+      "title": "Square Neck Satin Homecoming Dresses for Teens 2025 Spaghetti Strap Short Prom Dress A-line HOCO Graduation Party Gowns with Bow Size 2 Lavender",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FB3KZP1Y",
+      "title": "Personalized Photo Gifts for Men, Custom Metal Wallets for Husband Boyfriend Dad Son, Engraved Picture Minimalist Card Holder, Customized Gift for Christmas Birthday Valentines Anniversary Graduation",
+      "category_path": "Clothing, Shoes & Jewelry > Men > Accessories > Wallets, Card Cases & Money Organizers > Wallets",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCWW2YKF",
+      "title": "IMEKIS Pageant Dresses for Girls: 1st 2nd Birthday Outfit Toddler Prom Sparkly Tulle Tutu Baby Tea Party Formal Kids Graduation Sequin Bow Asymmetric Shoulder Tiered Gown Blue Butterfly 18-24 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCWXR4TP",
+      "title": "IMEKIS Pageant Dresses for Girls: 3rd 4th Birthday Outfit Toddler Prom Sparkly Tulle Tutu Baby Tea Party Formal Kids Graduation Sequin Bow Asymmetric Shoulder Tiered Gown Blue Butterfly 3-4T",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCX27PLW",
+      "title": "IMEKIS Pageant Dresses for Girls: 1st 2nd Birthday Outfit Toddler Prom Sparkly Tulle Tutu Baby Tea Party Formal Kids Graduation Sequin Bow Asymmetric Shoulder Tiered Gown Blue Butterfly 12-18 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCXFKDPK",
+      "title": "IMEKIS Pageant Dresses for Girls: 1/2 1st Birthday Outfit Toddler Prom Sparkly Tulle Tutu Baby Tea Party Formal Kids Graduation Sequin Asymmetric Shoulder Tiered Gown Rainbow Lilac Stars 9-12 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCXMZX9Z",
+      "title": "IMEKIS Pageant Dresses for Girls: 1/2 1st Birthday Outfit Toddler Prom Sparkly Tulle Tutu Baby Tea Party Formal Kids Graduation Sequin Bow Asymmetric Shoulder Tiered Gown Blue Butterfly 9-12 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXCVSCR",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Teal Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXCZD72",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Lavender Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXDLNGH",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Leopard Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXDMVTN",
+      "title": "INEWER Lace Appliques Tiered Chiffon Homecoming Dresses for Teens 2026 Fuchsia Short Strapless Corset Sweetheart Graduation Cocktail Gowns US Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXDZG5H",
+      "title": "INEWER Lace Appliques Tiered Chiffon Homecoming Dresses for Teens 2026 Red Short Strapless Corset Sweetheart Graduation Cocktail Gowns US Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXF2RQF",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Emerald Green Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXF3VYT",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Red Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXF7N6Y",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Coral Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXFBRJN",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Dusty Rose Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXFFH24",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Burgundy Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXFP8GB",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Plum Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXG366V",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Floral Pink Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXGGGWN",
+      "title": "INEWER Tiered Chiffon Corset Homecoming Dresses for Teens 2026 Short Plus Size Dusty Rose Lace Appliques Strapless Graduation Party Dresses Plus Size 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXGVDPR",
+      "title": "INEWER Lace Appliques Tiered Chiffon Homecoming Dresses for Teens 2026 Coral Short Strapless Corset Sweetheart Graduation Cocktail Gowns US Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXGY1Q1",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Aqua Blue Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXHQMT6",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Hot Pink Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXHVWC8",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Peacock Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXXW2FM",
+      "title": "INEWER Lace Appliques Tiered Chiffon Homecoming Dresses for Teens 2026 Floral Blue Short Strapless Corset Sweetheart Graduation Cocktail Gowns US Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXXW2FP",
+      "title": "INEWER Tiered Chiffon Corset Homecoming Dresses for Teens 2026 Short Plus Size Floral Blue Lace Appliques Strapless Graduation Party Dresses Plus Size 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXZ6C9L",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Floral Blue Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJF7YTRP",
+      "title": "Yuscorai Sparkling Marine Animal 2-piece Charms for Bracelets and Necklaces Birthdays Jewelry Women's Bead Charms Valentine's Day and Graduation Charms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Bracelets > Charms & Charm Bracelets > Charms > Bead",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJFDC46K",
+      "title": "Yuscorai Blue Dolphins Charm for Bracelets and Necklaces Birthdays Jewelry Women's Bead Charms Valentine's Day and Graduation Charms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Bracelets > Charms & Charm Bracelets > Charms > Bead",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJX8LWX2",
+      "title": "INEWER Lace Appliques Corset Homecoming Dresses for Teens 2026 Short Light Pink Tiered Chiffon Strapless Cocktail Graduation Dresses US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJXK2B3J",
+      "title": "INEWER Lace Appliques Tiered Chiffon Homecoming Dresses for Teens 2026 Baby Blue Short Strapless Corset Sweetheart Graduation Cocktail Gowns US Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSJMVKW",
+      "title": "INEWER Lace Appliques Teal Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSJPQKZ",
+      "title": "INEWER Teens Wisteria Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSJQ9ZN",
+      "title": "INEWER Teens Wine Red Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSM5SPL",
+      "title": "INEWER Teens Silver Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSMQ6CX",
+      "title": "INEWER Lace Appliques Red Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSMW7BF",
+      "title": "INEWER Teens Burgundy Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSMYM6C",
+      "title": "INEWER Teens Champagne Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSN2341",
+      "title": "INEWER Lace Appliques Pink Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSQJSMD",
+      "title": "INEWER Lace Appliques Grey Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKSQWRXV",
+      "title": "INEWER Lace Appliques Plum Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSR1KGG",
+      "title": "INEWER Teens Blue Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSRLN5G",
+      "title": "INEWER Teens White Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSRQV6X",
+      "title": "INEWER Teens Rose Gold Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSTGZZ6",
+      "title": "INEWER Corset Sequin Appliques Homecoming Dresses for Teens 2026 Purple Pleated Spaghetti Straps Sweetheart Graduation Gown with Slit US Size 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSTN1NN",
+      "title": "INEWER Teens Ivory Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSTST47",
+      "title": "INEWER Teens Purple Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSV1SSK",
+      "title": "INEWER Teens Royal Blue Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSV49WN",
+      "title": "INEWER Corset Sequin Appliques Homecoming Dresses for Teens 2026 Burnt Orange Pleated Spaghetti Straps Sweetheart Graduation Gown with Slit US Size 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSV9DCJ",
+      "title": "INEWER Teens Dusty Rose Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSVBG6P",
+      "title": "INEWER Teens Red Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSVD4P9",
+      "title": "INEWER Teens Orange Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSVVHQR",
+      "title": "INEWER Teens Dusty Purple Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSWY2KD",
+      "title": "INEWER Teens Black Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSX4DP1",
+      "title": "INEWER Teens Fuchsia Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSXG2VT",
+      "title": "INEWER Teens Peacock Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSY9R9R",
+      "title": "INEWER Teens Blush Pink Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSYRZ4B",
+      "title": "INEWER Teens Yellow Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKSZMYWL",
+      "title": "INEWER Teens Light Blue Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT11KRM",
+      "title": "INEWER Teens Plum Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT11KRQ",
+      "title": "INEWER Teens Burnt Orange Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT19WVV",
+      "title": "Fouwey Spaghetti Straps Junior Bridesmaid Dresses for Teen Girls Turquoise Graduation Dress Short Tiered Chiffon Flower Girl Dress for Wedding Guest Pageant Gown Size 9",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FKT1DR9Y",
+      "title": "Fouwey Spaghetti Straps Junior Bridesmaid Dresses for Teen Girls Sky Blue Graduation Dress Short Tiered Chiffon Flower Girl Dress for Wedding Guest Pageant Gown Size 9",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FKT1QHTZ",
+      "title": "Fouwey Spaghetti Straps Junior Bridesmaid Dresses for Teen Girls Lilac Graduation Dress Short Tiered Chiffon Flower Girl Dress for Wedding Guest Pageant Gown Size 9",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FKT679KG",
+      "title": "INEWER Lace Appliques Black Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT74QS4",
+      "title": "INEWER Plus Size Spaghetti Straps Homecoming Dresses 2026 for Teens Short Light Blue Lace Appliques Satin Pleated Side Slit Graduation Party Gowns Plus Size 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT8BXF7",
+      "title": "INEWER Teens Navy Blue Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT8MY7J",
+      "title": "INEWER Teens Emerald Green Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKTB75V8",
+      "title": "INEWER Lace Appliques Lilac Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKTB7DW9",
+      "title": "INEWER Lace Appliques White Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKTFSGMQ",
+      "title": "INEWER Lace Appliques Coral Homecoming Dresses 2026 Short for Teens Spaghetti Straps Corset Satin Mini Graduation Gown US Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLQ4M4C7",
+      "title": "HOWOEJUD Cocktail Dresses Summer Off Shoulder Sexy Bodycon Ruched Mesh Graduation Wedding Guest Mini Short Dress Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FN7RVC24",
+      "title": "OVIFICEA Cross Bracelet for Women, Christian Gifts for Sister in Christ, Friendship Bracelets for Best Friend,Daughter,Granddaughter, Niece, Mom on Birthday Christmas Baptism Easter Graduation",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Bracelets > Charms & Charm Bracelets > Charm Bracelets > Link",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNMV6LMV",
+      "title": "INEWER Teens Turquoise Corset Homecoming Dresses Dress Short with Slit 2026 Lace Appliques Sweetheart Spaghetti Straps Graduation Party Dress US Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNN3SVW6",
+      "title": "OVIFICEA Friendship Gifts Cross Bracelet for Women, Christian Gifts for Sister in Christ, Charm Bracelets for Best Friend, Daughter,Granddaughter, Mom on Birthday Christmas Baptism Easter Graduation",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Bracelets > Charms & Charm Bracelets > Charm Bracelets > Link",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNW9C6S2",
+      "title": "Weinaze Pleated Homecoming Dresses for Juniors 2026 Short Satin Sweetheart Ball Gowns Spaghetti Straps Ruched A-Line Mustard Yellow Mini Prom Dresses US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNW9DCJ3",
+      "title": "Weinaze Short Homecoming Homecoming Dresses for Teens Satin Sweetheart Quinceanera Gown Spaghetti Straps Steel Blue Ruched Prom Dresses for Ceremony 2026 US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNW9GZ1B",
+      "title": "Weinaze Short Homecoming Dresses for Women 2026 Spaghetti Straps Satin Graduation Gown Birthday Party Gowns Sweetheart Coral Pleated Mini Prom Dresses US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNW9KGRF",
+      "title": "Weinaze Short Homecoming Homecoming Dresses for Teens Satin Sweetheart Quinceanera Gown Spaghetti Straps Mustard Yellow Ruched Prom Dresses for Ceremony 2026 US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNW9PBW9",
+      "title": "Weinaze Short Homecoming Dresses for Women 2026 Spaghetti Straps Satin Graduation Gown Birthday Party Gowns Sweetheart Peacock Pleated Mini Prom Dresses US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNW9T2VF",
+      "title": "Weinaze Pleated Homecoming Dresses for Juniors 2026 Short Satin Sweetheart Ball Gowns Spaghetti Straps Ruched A-Line Black Mini Prom Dresses US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNW9ZGXX",
+      "title": "Weinaze Pleated Homecoming Dresses for Juniors 2026 Short Satin Sweetheart Ball Gowns Spaghetti Straps Ruched A-Line Blush Pink Mini Prom Dresses US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNWC3FWJ",
+      "title": "Weinaze Pleated Homecoming Dresses for Juniors 2026 Short Satin Sweetheart Ball Gowns Spaghetti Straps Ruched A-Line Emerald Green Mini Prom Dresses US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNWCB269",
+      "title": "Weinaze Pleated Homecoming Dresses for Juniors 2026 Short Satin Sweetheart Ball Gowns Spaghetti Straps Ruched A-Line Champagne Mini Prom Dresses US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNWCKPL7",
+      "title": "Weinaze Short Homecoming Dresses for Women 2026 Spaghetti Straps Satin Graduation Gown Birthday Party Gowns Sweetheart Light Blue Pleated Mini Prom Dresses US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNWCN4T2",
+      "title": "Weinaze Short Homecoming Dresses for Women 2026 Spaghetti Straps Satin Graduation Gown Birthday Party Gowns Sweetheart Royal Blue Pleated Mini Prom Dresses US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNWD3PBF",
+      "title": "Weinaze Pleated Homecoming Dresses for Juniors 2026 Short Satin Sweetheart Ball Gowns Spaghetti Straps Ruched A-Line Royal Blue Mini Prom Dresses US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNWD89MZ",
+      "title": "Weinaze Short Homecoming Dresses for Women 2026 Spaghetti Straps Satin Graduation Gown Birthday Party Gowns Sweetheart Burgundy Pleated Mini Prom Dresses US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPDWX99F",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Light Blue Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDWXXF5",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lilac Cocktail Party Gown with Scarf US 20W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDX4WN1",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Fuchsia Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDX9NC5",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXC8QL",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin White Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXCH7K",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXCSZ1",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lilac Cocktail Party Gown with Scarf US 24W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXFT5S",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin White Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXFVJ9",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Blue Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXKVFT",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lilac Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXLBPS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXLBPT",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blush Pink Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXLBPX",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXLJGJ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burnt Orange Cocktail Party Gown with Scarf US 24W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXMZDL",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blue Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXNKQL",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXPBL7",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Light Blue Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXPWSZ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXQXVP",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burnt Orange Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXQXVV",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lilac Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXRD64",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Teal Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXRYZD",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Sky Blue Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXS92J",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Yellow Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXSH9M",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Blue Cocktail Party Gown with Scarf US 16W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXSK59",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXSPWG",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Hot Pink Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXTMPR",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXVYTD",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Sage Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXVZ69",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 24W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXVZ6C",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Black Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXWF1D",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Ivory Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXWWRK",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXX129",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Pink Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXXJXR",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Mint Green Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXXJXS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Yellow Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXXJXY",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Yellow Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXXR6R",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXYRCV",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blush Pink Cocktail Party Gown with Scarf US 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXYRWH",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Black Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDXZVYN",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 28W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY1DPZ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Sage Cocktail Party Gown with Scarf US 28W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY1DQ7",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Green Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY2KTV",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Red Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY2TS5",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blue Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY3GN8",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Blue Cocktail Party Gown with Scarf One Size",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY3W84",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burnt Orange Cocktail Party Gown with Scarf US 16W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY45CD",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Blue Cocktail Party Gown with Scarf US 24W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY5GQ6",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lavender Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY5X4P",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Silver Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY6FV1",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Black Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY6XZ7",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin White Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY75LC",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Fuchsia Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY75LF",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Sage Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY8CGV",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Yellow Cocktail Party Gown with Scarf US 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY8LM8",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY8QWF",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Teal Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY9CFT",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY9HXV",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Peach Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDY9Y5P",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Olive Green Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYB2MR",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Sage Cocktail Party Gown with Scarf US 16W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYBFN3",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Teal Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYBJRS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Olive Green Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYBW3J",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Light Blue Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYCPRQ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Black Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYDGJY",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYDJRM",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Brown Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYDKJZ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Peach Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYDRD1",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blush Pink Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYF258",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Sky Blue Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYFTVZ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Yellow Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYG18Z",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burnt Orange Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYG425",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Mullberry Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYGFFB",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 16W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYGH8Q",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYGS44",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blush Pink Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYHD1B",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Light Blue Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYHLW1",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 20W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYHNPF",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYHRHZ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Turquoise Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYHT62",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Fuchsia Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYJSVK",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYKL4H",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burnt Orange Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYKL4J",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 28W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYLLCM",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burgundy Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYMF3Y",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Teal Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYN5P7",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blue Cocktail Party Gown with Scarf US 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYNDJS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Pink Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYNJQ6",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYNLJR",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Light Blue Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYP41S",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYPCKD",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lilac Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYPLFJ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYPNC4",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burgundy Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYPP6Y",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Green Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYPYRS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Green Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYR39Z",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blue Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYR3W1",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYR92C",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin White Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYRH7H",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Gold Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYT1Q6",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Green Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYT7SJ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf One Size",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYT9TT",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blush Pink Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYV54L",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Olive Green Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYV654",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Black Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYVKLB",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Sky Blue Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYVQMQ",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 16W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYW9PT",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYWB15",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Black Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYWB16",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blush Pink Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYWFSX",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYWL26",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYWXDD",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Sage Cocktail Party Gown with Scarf US 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYX876",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Gold Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYXN4Y",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Sky Blue Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYXR4D",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYXY39",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Light Blue Cocktail Party Gown with Scarf US 24W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYYCLY",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Sky Blue Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYYFDD",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blue Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDYYFK9",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Brown Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ1FSL",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Fuchsia Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ1FSM",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lilac Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ1R1T",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ1WP3",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Purple Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ1WS6",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Light Blue Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ29G4",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Sage Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ2MFS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Red Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ3566",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blue Cocktail Party Gown with Scarf US 20W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ36D9",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Yellow Cocktail Party Gown with Scarf US 24W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ4TLT",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Brown Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ5JBS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ5LHG",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin White Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ5Y1T",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Sage Green Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ6BL3",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Green Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ6Q2Q",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Blue Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ6S2M",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burnt Orange Cocktail Party Gown with Scarf US 20W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ6WYB",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Sage Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ6Y79",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Teal Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ7D4X",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Olive Green Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ7Q3L",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Brown Cocktail Party Gown with Scarf US 28W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ8FVS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 26W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ8HCV",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Green Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ8KLP",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Brown Cocktail Party Gown with Scarf US 20W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZ9WFT",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Peach Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZBHV4",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Teal Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZBWFN",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burnt Orange Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZBWFR",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Black Cocktail Party Gown with Scarf US 24W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZC4HN",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZC8VM",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Blush Pink Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZCG2C",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Royal Blue Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZCYDV",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Silver Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZCYDY",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Black Cocktail Party Gown with Scarf US 20W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZF5N5",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 28W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZF791",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Burnt Orange Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZFJPT",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Silver Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZFNW7",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Blue Cocktail Party Gown with Scarf US 8",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZFRRV",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Purple Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZGZ58",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Sage Cocktail Party Gown with Scarf US 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZHYNL",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Rose Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZK4JP",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Purple Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZLN26",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lavender Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZM75Y",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 16W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZMY33",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Champange Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZMY34",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Red Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZN6QP",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Teal Cocktail Party Gown with Scarf US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZNWB7",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Brown Cocktail Party Gown with Scarf US 24W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZP31G",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Olive Green Cocktail Party Gown with Scarf US 10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZP9XM",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Teal Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZPHXK",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Pink Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZQFC3",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Navy Blue Cocktail Party Gown with Scarf US 16",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZQLC9",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Light Blue Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZS9X2",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Sky Blue Cocktail Party Gown with Scarf US 6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZVZ6R",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Peach Cocktail Party Gown with Scarf US 22W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZWGWD",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Sage Green Cocktail Party Gown with Scarf US 18W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZWGWG",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Lilac Cocktail Party Gown with Scarf US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPF12SBS",
+      "title": "Off The Shoulder A-Line Homecoming Dresses for Teens A-Line Short Satin Dusty Blue Cocktail Party Gown with Scarf US 12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPM6Y1HZ",
+      "title": "Plakend Mini Tight HOCO Dresses 2025 Spaghetti Straps Print Chiffon Ruffles Cute Sweet 16 Dress Short Graduation Dress Wisteria Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPM815TP",
+      "title": "Plakend Mini Tight HOCO Dresses 2025 Spaghetti Straps Print Chiffon Ruffles Cute Sweet 16 Dress Short Graduation Dress Blue Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVXRNDMP",
+      "title": "Sequin Aline Homecoming Dresses for Women 2026 Spaghetti Strap Square Neck Short Prom Dress Backless Graduation Cocktail Formal Bridal Party Gowns US10 Coral",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVXY7JWB",
+      "title": "Sequin Aline Homecoming Dresses for Women 2026 Spaghetti Strap Square Neck Short Prom Dress Backless Graduation Cocktail Formal Bridal Party Gowns US10 Ivory",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FW4L84BN",
+      "title": "Changuan Olive Green Homecoming Dress with Bow 2025 Short Square Neck Spaghetti Strap Glitter Prom Gowns for Graduation Corset Backless Ball Gowns US16W",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FXM6WX76",
+      "title": "Halter Satin Prom Dress with Pockets Aline Midi Formal Wedding Guest Gown for Women Midi Ball Gowns Silver",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZ3NWRVK",
+      "title": "UIYPIWT Satin Homecoming Dresses - Ruffles Spaghetti Straps Short Graduation Cocktail Dress for Teens Dark Green US4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G1YDSHX1",
+      "title": "Fuchsia A Line Long Prom Dresses for Women Simple Satin Wedding Dress Square Neck Long Sleeves Formal Formal Evening Party Gown Gowns with Slit Pockets Fuchsia US12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YG94DG",
+      "title": "Royal Blue Square Neck Wedding Dresses for Bride Satin A Line Prom Dress with Pockets Sexy Split Pleated Long Sleeves Homecoming Gown Royal Blue US4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YGGLBJ",
+      "title": "Peacock Blue Square Neck Wedding Dresses for Bride Satin A Line Prom Dress with Pockets Sexy Split Pleated Long Sleeves Homecoming Gown Peacock Blue US4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YGKZQY",
+      "title": "Orange Square Neck Wedding Dresses for Bride Satin A Line Prom Dress with Pockets Sexy Split Pleated Long Sleeves Homecoming Gown Orange US4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YGNB9F",
+      "title": "Neejafrog Burnt Orange Satin Prom Dresses Long for Women with Slit & Pockets Square Neck Long Sleeves Prom Dress Ball Gown A Line Formal Evening Cocktail Party Gown Burnt Orange US14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YGRCSC",
+      "title": "Lilac Satin Prom Dresses Long for Women with Slit & Pockets Square Neck Long Sleeves Prom Dress Ball Gown A Line Formal Evening Cocktail Party Gown Lilac US14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YH44P4",
+      "title": "Blush Pink Square Neck Wedding Dresses for Bride Satin A Line Prom Dress with Pockets Sexy Split Pleated Long Sleeves Homecoming Gown Blush Pink US4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YH8FD7",
+      "title": "Navy Long Sleeves Wedding Dresses for Bride Satin Square Neck A Line Modern Wedding Gowns Elegant Split Pockets Prom Dress Ball Gown for Women Navy US10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YK48SW",
+      "title": "Black Long Sleeves Wedding Dresses for Bride Satin Square Neck A Line Modern Wedding Gowns Elegant Split Pockets Prom Dress Ball Gown for Women Black US10",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YKF44Z",
+      "title": "Dusty Blue A Line Long Prom Dresses for Women Simple Satin Wedding Dress Square Neck Long Sleeves Formal Formal Evening Party Gown Gowns with Slit Pockets Dusty Blue US12",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YLDYRS",
+      "title": "Light Champagne Square Neck Wedding Dresses for Bride Satin A Line Prom Dress with Pockets Sexy Split Pleated Long Sleeves Homecoming Gown Light Champagne US4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YLP56Y",
+      "title": "Neejafrog Black Satin Prom Dresses Long for Women with Slit & Pockets Square Neck Long Sleeves Prom Dress Ball Gown A Line Formal Evening Cocktail Party Gown Black US14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YMRQ65",
+      "title": "Dusty Pink Square Neck Wedding Dresses for Bride Satin A Line Prom Dress with Pockets Sexy Split Pleated Long Sleeves Homecoming Gown Dusty Pink US4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1YNG5TP",
+      "title": "Rose Square Neck Wedding Dresses for Bride Satin A Line Prom Dress with Pockets Sexy Split Pleated Long Sleeves Homecoming Gown Rose US4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G24ZC8B8",
+      "title": "Heineyo Fall Velvet Junior Bridesmaid Dress A-Line Long Burgundy Graduation Gown Wedding Princess Lantern Sleeve Backless Prom Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2C2DVK5",
+      "title": "Coral Flower Girl Dress Long Sleeve Chiffon Junior Bridesmaid Dresses Kids Formal Party Pageant Graduation Dance Dress with Slit Size 12-14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2C3PNC6",
+      "title": "Red Flower Girl Dress Long Sleeve Chiffon Junior Bridesmaid Dresses Kids Formal Party Pageant Graduation Dance Dress with Slit Size 3t",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2C3TWC6",
+      "title": "Mint Green Flower Girl Dress Long Sleeve Chiffon Junior Bridesmaid Dresses Kids Formal Party Pageant Graduation Dance Dress with Slit Size 8",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2C442P9",
+      "title": "Coral Flower Girl Dress Long Sleeve Chiffon Junior Bridesmaid Dresses Kids Formal Party Pageant Graduation Dance Dress with Slit Size 8-10",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2C4QF5J",
+      "title": "Wisteria Flower Girl Dress Long Sleeve Chiffon Junior Bridesmaid Dresses Kids Formal Party Pageant Graduation Dance Dress with Slit Size 6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2C4RG61",
+      "title": "Fuchsia Flower Girl Dress Long Sleeve Chiffon Junior Bridesmaid Dresses Kids Formal Party Pageant Graduation Dance Dress with Slit Size 10-12",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2C5JQJR",
+      "title": "Brown Flower Girl Dress Long Sleeve Chiffon Junior Bridesmaid Dresses Kids Formal Party Pageant Graduation Dance Dress with Slit Size 12-14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2SSLFKJ",
+      "title": "Graduation Stole 2026 – Kente Graduation Stole for Black Women Men, African Graduation Sash with Crown Design (2026 MAGIC)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G31WSD16",
+      "title": "ORRULA Strapless Corset Prom Dress with Scarf Rose Gold Satin Bridesmaid Dresses Long Mermaid Ruched Formal Wedding Guest Gown US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G31XXDXS",
+      "title": "ORRULA Strapless Corset Prom Dress with Scarf Dusty Blue Satin Bridesmaid Dresses Long Mermaid Ruched Formal Wedding Guest Gown US 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G43JC2TS",
+      "title": "Heineyo Chiffon Pleated Junior Bridesmaid Dress White Vintage A-Line Graduation Prom Gown Wedding Long Asymmetrical Hem Flower Girl Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G43K8TYB",
+      "title": "Heineyo Chiffon Pleated Junior Bridesmaid Dress Dusty Rose Vintage A-Line Graduation Prom Gown Wedding Long Asymmetrical Hem Flower Girl Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G43KJS6R",
+      "title": "Heineyo Chiffon Pleated Junior Bridesmaid Dress Wisteria Vintage A-Line Graduation Prom Gown Wedding Long Asymmetrical Hem Flower Girl Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G43KS81F",
+      "title": "Heineyo Chiffon Pleated Junior Bridesmaid Dress Red Vintage A-Line Graduation Prom Gown Wedding Long Asymmetrical Hem Flower Girl Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G43L9ZHW",
+      "title": "Heineyo Chiffon Pleated Junior Bridesmaid Dress Grape Vintage A-Line Graduation Prom Gown Wedding Long Asymmetrical Hem Flower Girl Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G43M8QQW",
+      "title": "Heineyo Chiffon Pleated Junior Bridesmaid Dress Navy Blue Vintage A-Line Graduation Prom Gown Wedding Long Asymmetrical Hem Flower Girl Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G43MB6HJ",
+      "title": "Heineyo Chiffon Pleated Junior Bridesmaid Dress Sky Blue Vintage A-Line Graduation Prom Gown Wedding Long Asymmetrical Hem Flower Girl Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G43Q25XC",
+      "title": "Heineyo Chiffon Pleated Junior Bridesmaid Dress Burgundy Vintage A-Line Graduation Prom Gown Wedding Long Asymmetrical Hem Flower Girl Dresses 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4Q2J4RY",
+      "title": "Weinaze Satin Short Homecoming Dresses 2026 for Juniors A-Line Square Neck Teal Graduation Dress Pleated Bodycon Mini Prom Gown US Size 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4Q2WMTS",
+      "title": "Weinaze Short A Line Birthday Dresses 2026 Satin Square Neck Pleated Wisteria Mini Graduation Dress Long Sleeves A-Line Ruched Cocktail Gowns Size 14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4Q3BTJH",
+      "title": "Weinaze Satin Short Homecoming Dresses 2026 for Juniors A-Line Square Neck Hot Pink Graduation Dress Pleated Bodycon Mini Prom Gown US Size 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4Q433T3",
+      "title": "Weinaze Satin Short Homecoming Dresses 2026 for Juniors A-Line Square Neck Black Graduation Dress Pleated Bodycon Mini Prom Gown US Size 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4Q473VN",
+      "title": "Weinaze Short Homecoming Dresses 2026 Satin Square Neck Pleated Plum Mini Graduation Dress Long Sleeves A-Line Ruched Cocktail Gowns Size 14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Club & Night Out",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4Q4N6SD",
+      "title": "Weinaze Satin Short Homecoming Dresses 2026 for Juniors A-Line Square Neck Dusty Rose Graduation Dress Pleated Bodycon Mini Prom Gown US Size 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4Q5729B",
+      "title": "Weinaze Short Homecoming Dresses 2026 Satin Square Neck Pleated Dusty Blue Mini Graduation Dress Long Sleeves A-Line Ruched Cocktail Gowns Size 14",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4Q6JYP6",
+      "title": "Weinaze Satin Short Homecoming Dresses 2026 for Juniors A-Line Square Neck Eucalyptus Graduation Dress Pleated Bodycon Mini Prom Gown US Size 4",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G5267HDJ",
+      "title": "Short Graduation Dress for Teens Women's Glitter Backless Dresses Skater Flowy Cocktail Dresses Sexy Spaghetti Straps Wedding Guest Dress Prom Blue M",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G5YY3SYY",
+      "title": "INEWER Brown Ruffles Sequin Prom Ball Gown for Teens 2026 Mermaid Long Pleated Off Shoulder Maxi Formal Party Evening Gown with Slit US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G8TKQNBR",
+      "title": "Chyrbaby Junior Bridesmaid Dresses Short Sleeve Teen Girls Wedding Guest Dress Chiffon Crew Neck Midi Plum Graduation Dresses Size 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G8V3QGBP",
+      "title": "Chyrbaby Dark Navy Junior Bridesmaid Dresses Short Sleeve Chiffon Crew Neck Midi Teen Girls Wedding Guest Party Gown Graduation Dresses Size 13",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G8W147CN",
+      "title": "Chyrbaby Mint Green Junior Bridesmaid Dresses Short Sleeve Crew Neck Midi Chiffon Graduation Dress Elegant Girls Birthday Party Gown Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G8WMXJ98",
+      "title": "Chyrbaby Sage Green Junior Bridesmaid Dresses Short Sleeve Crew Neck Midi Chiffon Graduation Dress Elegant Girls Birthday Party Gown Size 12",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G8WV869S",
+      "title": "Chyrbaby Red Junior Bridesmaid Dresses Short Sleeve Chiffon Crew Neck Midi Teen Girls Wedding Guest Party Gown Graduation Dresses Size 13",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GBWMQYHL",
+      "title": "Teen Girls Purple Chiffon Formal Wedding Party Dance Graduation Dress with Ruffle Junior Bridesmaid Dresses for Kids Size 10-12",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCJPV8C4",
+      "title": "Colorful House 2026 Graduation Cap and Gown 5-Piece Set, Matte Classic Adult unisex Graduation Gown for College High School Degree (Black, 51Plus)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Robes, Capes & Jackets",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GGHCNL25",
+      "title": "INEWER Draped Pleated Prom Dresses with Scarf Light Blue Chiffon Strapless Maxi Formal Ball Gowns for Women US Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJDK8P1Q",
+      "title": "homdor Spaghetti Strap Prom Dresses Satin Corset Evening Gown Crystal Beaded Formal Dress,Dusty Pink Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GK19K32T",
+      "title": "Runwind Church Dresses for Women|Bodycon Ruffle Flared Sleeve Pencil Midi Dress for Graduation Party Work White 2XL",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Casual",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GL7G15TS",
+      "title": "FACULX 2 Set Graduation Porch Goose Outfits Include Graduation Cap and Dress Fits 23\" Goose Statue for Graduation Party Outdoor Garden Yard Decor",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Outdoor Statues",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM6JN9BF",
+      "title": "Black Nurse Magic Graduation Stole 2026, Kente Graduation Sash Class of 2026, African Nurse Grad Stole 2026 Nursing School College First Generation Graduation Gifts",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GMQPM4JJ",
+      "title": "callie Personalized Class of 2026 Stole with Photos, Name, School Name, Custom Unisex Graduation Sash for High School College Graduates Gifts",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GMV1YFPL",
+      "title": "Personalized Birth Flower Corduroy Tote Bag for Women, Custom Name Large Shoulder Bag Handbags With Zipper for Work Travel Shopping, Mother's Day Graduation Birthday Gifts for Women & Girls, B",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Handbags & Wallets > Shoulder Bags",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GQKHRCQD",
+      "title": "UIYPIWT Satin Homecoming Dresses - Short Ruffles Spaghetti Straps Graduation HOCO Cocktail Dress for Teens Dark Green US6",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Cocktail",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GQLS5HFZ",
+      "title": "Mens Ivory Suit 2 Piece Men Dress Suit Jaket Pants Set Wedding Tuxedo Set Graduation Suits size S",
+      "category_path": "Clothing, Shoes & Jewelry > Men > Clothing > Suits & Sport Coats > Suits",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GS4T4C27",
+      "title": "callie Personalized Class of 2026 Graduation Stole, Custom Photos Unisex Graduation Ceremony Sash for High School College Graduates Women Men Gifts",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GS4W7SVX",
+      "title": "callie Personalized Class of 2026 Grad Stole, Custom Photos Unisex Graduation Ceremony Sash for High School College Graduates Women Men Gifts",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories",
+      "found_by": [
+        "systems"
+      ]
+    }
+  ]
+}

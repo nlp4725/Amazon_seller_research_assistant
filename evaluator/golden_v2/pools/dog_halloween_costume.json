@@ -1,0 +1,2967 @@
+{
+  "query": "dog Halloween costume",
+  "definition": {
+    "definition": "A dress-up costume for a dog, of the kind worn for Halloween.",
+    "include": [
+      "character/novelty dog costumes (pumpkin",
+      "hot dog",
+      "superhero",
+      "shark)",
+      "costumes marketed for Halloween"
+    ],
+    "exclude": [
+      "other-holiday outfits (Christmas sweaters",
+      "St. Patrick's)",
+      "everyday apparel (shirts",
+      "hoodies",
+      "coats)",
+      "cat-only costumes"
+    ],
+    "decide": [
+      "Any character/novelty dog costume counts even without the word Halloween. Default: yes"
+    ],
+    "keywords": [
+      "dog|puppy|pet",
+      "costume|halloween|cosplay|outfit"
+    ]
+  },
+  "sizes": {
+    "keyword": 39,
+    "embedding": 300,
+    "systems": 58
+  },
+  "pool_size": 362,
+  "candidates": [
+    {
+      "asin": "B08QVM8GV4",
+      "title": "Servelove Game Character Cosplay Wig Pale Gold Long Hair Unisex Female Anime Characters Costume Wigs Apply To Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0B8YF3ZVQ",
+      "title": "Servelove Character Cosplay wig for Game Cosplay Wig White Short Costume Wigs Unisex Characters Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0BKZT8JQ5",
+      "title": "Servelove Character Cosplay Wig for Game Cosplay Brown Short Characters Costume Wigs Unisex Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0C2PVT86V",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Red Long Wavy hair Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0C6XQB5Y1",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Purple Long Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0C77R9BJ3",
+      "title": "Servelove Character Cosplay Wig Game Cosplay pink Long Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CBJW9WPJ",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Light yellow Mix Brown Medium Long Wig Costume Wig Unisex Characters Disguise Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CBJWKKQP",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Brown Long Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CCVNN4G9",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Gold Long Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CNQYJ9RW",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Orange Long Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CR2XP7M6",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Gray Blue Long Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CTYMB6KN",
+      "title": "Poppy Playtime Smiling Critters Graphic T-Shirt - Dogday (Navy), Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Tops, Tees & Blouses > T-Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWKVYK63",
+      "title": "AMHNF Funny Cat Shower Curtain Blue Teal Ocean Cute Black Orange Kitten Couple Cosplay as Titanic Creative Animal for Pet Lover Bathroom Decor Fabric Curtain with Hooks, 4152W-90x180",
+      "category_path": "Home & Kitchen > Bath > Bathroom Accessories > Shower Curtains, Hooks & Liners > Shower Curtain Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWL8QNKT",
+      "title": "AMHNF Funny Cat Shower Curtain Blue Teal Ocean Cute Black Orange Kitten Couple Cosplay as Titanic Creative Animal for Pet Lover Bathroom Decor Fabric Curtain with Hooks, 4152W-140x200",
+      "category_path": "Home & Kitchen > Bath > Bathroom Accessories > Shower Curtains, Hooks & Liners > Shower Curtain Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CXSBT73K",
+      "title": "Castle Fairy Cat Skeleton Door Curtain for Boys Girls Halloween Gothic Doorway Curtain 52\" Wx 80\" L Galaxy Starry Doorway Curtain Pet Animals Flower Doorway Curtain Tapestry for Hallway",
+      "category_path": "Home & Kitchen > Home Décor Products > Window Treatments > Curtains & Drapes > Panels",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CYBMB9QT",
+      "title": "TTYAO REII Huohuo Cosplay Tail Fox Dog Cat Tail Furry Fursuit Costume Accessories for Adults Game Cosplay (Aqua)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Accessories > Accessory Sets",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CYLB7YNW",
+      "title": "TTYAO REII Tingyun Cosplay Tail Fox Tail Furry Fursuit Costume Accessories for Adults Game Role Playing (Brown)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Accessories > Accessory Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D22DGVHT",
+      "title": "3/4 Sleeves Yellow Mother of The Groom Pant Suits Petite 3 Pieces Outfit Long Evening Dresses for Women 2025 Casual, US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D2HM35Y5",
+      "title": "Long Sleeves Mother of The Bride Pant Suits Petite 3 Pieces Outfit Chiffon Champagne Evening Gowns for Women Formal, US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Clothing Sets > Pant Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D3XK7623",
+      "title": "Mens Basketball Jerseys Fun Food Hot Dogs Uniform Suit Mesh Sports Jersey Outfits T-Shirt and Short Sets Black",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D3XL29CZ",
+      "title": "NONHAI Mens Basketball Jerseys Fun Food Hot Dogs Uniform Suit Mesh Sports Jersey Outfits T-Shirt and Short Sets, 4X-Large, Black",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D47F8GZC",
+      "title": "Gumyawl Adult Red and White Striped Shirt Men Funny Halloween Costumes Shirt Hat Socks and Glasses Suits (Small)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D4HLK476",
+      "title": "WuDigaY Halloween Tartan Imitation Cashmere Tassel Scarf Winter Scarf Autumn Softest Classic Warm",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Scarves & Wraps > Cold Weather Scarves & Wraps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D69M3LCJ",
+      "title": "Swavecat Boxer Art Clock Boxer Dog Peeking ASquare Corner Clock Pet Owner Gift Clocks for Wall Silent Battery Operated Clock for Home Bar Coffee 10x10in Birthday Gift to Dog Lover",
+      "category_path": "Home & Kitchen > Home Décor Products > Clocks > Wall Clocks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6QQ4QP3",
+      "title": "Zombie Cheerleader Costume for Girls, High School Cheerleading Uniform Halloween Outfit Scary Bloody Dress for Party (Black, S)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6QQH1QK",
+      "title": "Zombie Cheerleader Costume for Girls, High School Cheerleading Uniform Halloween Outfit Scary Bloody Dress for Party (Black, L)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6VPTTYK",
+      "title": "Servelove Character Cosplay wig for Game Cosplay Wig Silver Gray Long Costume Wigs Unisex Characters Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D78R8GSD",
+      "title": "Halloween Skull Sculpture Decor, Candle Holder, Planter Dish, Spooky & Stylish Accent Piece (Black)",
+      "category_path": "Home & Kitchen > Home Décor Products > Candles & Holders > Candleholders > Bowl Candleholders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7HM5PF9",
+      "title": "ROYALEAD Balaclava Distressed Halloween Funny Balaclava Face Mask Scary Balaclava Hooded Party Hat Knitted Hat Beanies",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Hats & Caps > Balaclavas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D83RPYG1",
+      "title": "URRCFIO Adult Onesie for Women - Unisex Animal Halloween Costume with Zipper - Adult Pijama De Sti-tch Para Onesie for Adults Pink XL",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Sleep & Lounge > One-Piece Pajamas",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8VML958",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Pink Long Wavy hair Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D8XCNH2Q",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Red Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XNMMJ2",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Navy",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XNPTD4",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Army Green",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XNR586",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Army Green",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XNSNTS",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costume Plus Size Medieval Witch Dress Navy",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Dresses",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XNSR4Z",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costume Plus Size Medieval Witch Dress Red",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XPSN7Q",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Army Green",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XPTSRQ",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Navy",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XQPW81",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costume Plus Size Medieval Witch Dress Green",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Dresses",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XQZVY7",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costume Plus Size Medieval Witch Dress Navy",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XR127Q",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Army Green, 5X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XR4H1D",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Navy",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XR4NHW",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Navy",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Dresses",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XR4QPT",
+      "title": "Rkwins Halloween Costumes: Woman 2024 Vintage Gothic Dress Renaissance Fairy Costume Plus Size Medieval Witch Dress Gold",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Dresses",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XRM6YX",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Navy",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XRP576",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Red",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XS3CVY",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Army Green, 3X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XSBS7G",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Army Green, XX-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XSW7J1",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costume Plus Size Medieval Witch Dress Red",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XT8WLZ",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Navy",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D8XVQYP4",
+      "title": "Rkwins Halloween Costumes Woman 2024 Vintage Gothic Dress Renaissance Fairy Costumes Plus Size Medieval Dress Witch Dress Army Green, Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D967YMCM",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (M)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D968LFS8",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (L)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D968WW5M",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (S)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9CQF7QP",
+      "title": "Sicypoty Kids Cowboy Costume for Boys Rodeo Cowboy Set Halloween Birthday Party Dress Up Cosplay Brown",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9H1WY63",
+      "title": "Women's Christmas Party Lightweight Holiday 3D Dress Graphic Ugly Funny Maxi Outfit Gingerbread Candy M",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9KFC9QM",
+      "title": "KFVZIU Adult Blue Dress Costume for Women Princess alice Costumes Halloween with Socks Hairband KF014M",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9KGK4SF",
+      "title": "KFVZIU Adult Blue Dress Costume for Women Halloween Princess Costumes with Socks Hairband KF014XS",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9KH1ZBY",
+      "title": "KFVZIU Adult Blue Dress Costume for Women Halloween Princess Costumes with Socks Hairband KF014XXL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9KHZ17J",
+      "title": "KFVZIU Adult Blue Dress Costume for Women Princess alice Costumes Halloween with Socks Hairband KF014L",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9Q5S7TH",
+      "title": "Blosssound Hilarious Costume include White T-shirt Moving Googly Eyes Red Blue Twisting Stick for Halloween Costume(Adult)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DC6Q7HVZ",
+      "title": "Cabeny Kids Halloween Costumes for Princess Costume Girls Black Dress Accessories with Wig CA052XXL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DC6S5ZJV",
+      "title": "Cabeny Kids Halloween Costumes for Princess Costume Girls Black Dress Accessories with Wig CA052XL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DC6SDDJP",
+      "title": "Cabeny Kids Halloween Costumes for Princess Costume Girls Black Dress Accessories with Wig CA052S",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Girls > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFGN7LJ",
+      "title": "DIYLN 7pcs Girls Halloween Costume Kids Long Sleeve Black Cosplay Dress with Wig Necklace Stripped Socks Accessories DY041-3XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFR4MDN",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFTY278",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021XXL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFXJS4G",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021L",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFYQXDJ",
+      "title": "Hitormoon Girls Halloween Costumes Kids Princess Black Dress for Family Cosplay Outfits with Wig Necklace Socks Hairpin HN021M",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCV81X4G",
+      "title": "Servelove Character Cosplay wig for Game Cosplay Wig Silver Gray Short Costume Wigs Unisex Characters Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DD1SL8FP",
+      "title": "Cabeny Kids Halloween Costumes for Creepy Twins Costume Girls Cute Blue Dress for Princess Costume Cosplay Dress Up CA056XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDKS75V4",
+      "title": "Nantdog my+orders,prime+deals October 11-12,Day of Prime Deal, Womens Zip Up Hoodies Cat Ear Fall Fashion Outfits Y2k Hoodie Cropped Lightweight Sweatshirts Workout Zipper Jackets,2-Black,4X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Fashion Hoodies & Sweatshirts > Fashion Hoodies",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDKS8GJF",
+      "title": "Nantdog my+orders,prime+deals October 11-12,Day of Prime Deal, Womens Zip Up Hoodies Cat Ear Fall Fashion Outfits Y2k Hoodie Cropped Lightweight Sweatshirts Workout Zipper Jackets,2-PP2,4X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDKTXB84",
+      "title": "Nantdog my+orders,prime+deals October 11-12,Day of Prime Deal, Womens Zip Up Hoodies Cat Ear Fall Fashion Outfits Y2k Hoodie Cropped Lightweight Sweatshirts Workout Zipper Jackets,3-Black,4X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDKV4KYC",
+      "title": "Nantdog my+orders,prime+deals October 11-12,Day of Prime Deal, Womens Zip Up Hoodies Cat Ear Fall Fashion Outfits Y2k Hoodie Cropped Lightweight Sweatshirts Workout Zipper Jackets,6-Red,Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDKV95R8",
+      "title": "Nantdog my+orders,prime+deals October 11-12,Day of Prime Deal, Womens Zip Up Hoodies Cat Ear Fall Fashion Outfits Y2k Hoodie Cropped Lightweight Sweatshirts Workout Zipper Jackets,4-White,Medium",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDKVMVW1",
+      "title": "Nantdog my+orders,prime+deals October 11-12,Day of Prime Deal, Womens Zip Up Hoodies Cat Ear Fall Fashion Outfits Y2k Hoodie Cropped Lightweight Sweatshirts Workout Zipper Jackets,6-Navy,Medium",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDKX33YT",
+      "title": "Nantdog my+orders,prime+deals October 11-12,Day of Prime Deal, Womens Zip Up Hoodies Cat Ear Fall Fashion Outfits Y2k Hoodie Cropped Lightweight Sweatshirts Workout Zipper Jackets,Dark Blue,5X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Fashion Hoodies & Sweatshirts",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDSH5QVL",
+      "title": "Servelove Character Cosplay wig for Game Cosplay Wig Dark Blue Short Wavy hair Costume Wigs Unisex Characters Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDSW2CBQ",
+      "title": "Servelove Character Cosplay wig for Game Cosplay Wig Black Long Fluffy Wavy hair Ponytail Costume Wigs Unisex Characters Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDSYLVV7",
+      "title": "Servelove Character Cosplay wig for Game Cosplay Wig Black Red Long Costume Wigs Unisex Characters Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDTBR8VH",
+      "title": "Servelove Character Cosplay wig for Game Cosplay Wig Silver Short Costume Wigs Unisex Characters Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DG8P73ZH",
+      "title": "365CUSGIFTS Chihuahua Dog Suncatcher Indoor/Outdoor Stained Glass Window Hanging Handmade Stained Glass Suncatchers Decoration for Home Garden Christmas Party Wedding Housewarming Gifts",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGTPPZN6",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Light pink Mix Purple Long Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DH1YBKBD",
+      "title": "IIMMER Christmas Girls/Boys Gingerbread Pattern Knit Ugly Costume Pullover Winter Outfit Canel 12 Years",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DH4LF25N",
+      "title": "SUNOWE Chick Or Treat Sweatshirt Halloween Chicken Sweatshirt Chicken Ghost Sweatshirt White",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Sweatshirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DH59LKZT",
+      "title": "Spreadshirt Tweedle Dee Tweedle Dum Funny Couple Halloween Costume Adults Kids' Premium T-Shirt, Youth L, Sun Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Tops & Corsets",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DHGS7VM3",
+      "title": "DEZEXHOM Dr Green Costume Adult Men Halloween Superhero Cosplay Green Suit Fancy Dress for Halloween Party St. Patrick’s Day(M)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DHGVQRGN",
+      "title": "DEZEXHOM Dr Green Costume Adult Men Halloween Superhero Cosplay Green Suit Fancy Dress for Halloween Party St. Patrick’s Day(S)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DHMRTBDC",
+      "title": "OXJOIIS Women's Halloween Goth Gothic Raven Crow Skull Sun Moon Tattoos Jacket Long Sleeve Casual Zip Up Coat Outerwear",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHN76MV7",
+      "title": "OXJOIIS Halloween Goth Gothic Raven Crow Skull Sun Moon Tattoos Jacket Long Sleeve Casual Zip Up Coat Outerwear For Party, Club, Vacation, Holiday",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJ1ZZTP4",
+      "title": "3/4 Sleeves Teal Mother of The Groom Pant Suits Petite 3 Pieces Outfit Long Cocktail Dresses for Women Wedding Guest, US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DJ21LFMS",
+      "title": "3/4 Sleeves Purple Mother of The Groom Pantsuits Petite 3 Pieces Outfit Long Wedding Guest Dresses for Women Formal, US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DJ22KQ78",
+      "title": "3/4 Sleeves Stormy Mother of The Groom Pantsuits Petite 3 Pieces Outfit Long Wedding Guest Dresses for Women Formal, US 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Formal",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DJ6NSQL5",
+      "title": "XINYIMAI Custom Pet Pillow with Photo, DIY Ugly Pet Pillows, Customized Dog Cat Pillows - No White Edges, Personalized Gifts for Christmas, Halloween, Valentine's Day",
+      "category_path": "Home & Kitchen > Bedding > Decorative Pillows, Inserts & Covers > Throw Pillows",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK3HKNN4",
+      "title": "Halloween Trippy Goth Black Cat Skull Long Sleeve Polo Shirts for Men Golf Shirts Quick Dry Work Hiking Casual Collared Shirt",
+      "category_path": "Clothing, Shoes & Jewelry > Men > Clothing > Shirts > Polos",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLLG7V28",
+      "title": "Midlee Christmas Pattern Reusable Dog Belly Bands (13\"–16\") Waist - 2 Pack (Small)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLLHW7DS",
+      "title": "Midlee Christmas Pattern Reusable Dog Belly Bands (25\"–34\") Waist - 2 Pack (X-Large)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLLK7WDL",
+      "title": "Midlee Christmas Pattern Reusable Dog Belly Bands (32\"–38\") Waist- 2 Pack (XX-Large)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLLL24FQ",
+      "title": "Midlee Christmas Pattern Reusable Dog Belly Bands (20\"–25\") Waist - 2 Pack (Large)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLLLNXZ5",
+      "title": "Midlee Christmas Pattern Reusable Dog Belly Bands (16\"–20\") Waist - 2 Pack (Medium)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLP1KWF7",
+      "title": "TIAFORD Women's Cute Dog Mom Zip Up Hoodies Oversized Hooded Sweatshirts Fleece Lined Jackets Outfits with Pockets",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Fashion Hoodies & Sweatshirts > Fashion Hoodies",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DNFM1HKQ",
+      "title": "Danxilu Inflatable Costume Adult Full Body Inflatable Dragon Costume for Men Women Funny Fancy Blow Up Costumes Suit for Halloween Party Cosplay Holiday",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DNFNKHVC",
+      "title": "Danxilu Inflatable Costume Adult Full Body Blow Up Octopus Costume Animal Cosplay Men Women Funny Inflatable botargas para adultos Halloween Costume Theme Party Christmas Birthday Holiday",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DNHHSDQF",
+      "title": "Danxilu Inflatable Costume Adult Full Body Inflatable Unicorn Costume Adult Wearing Sunglasses for Men Women Funny Blow Up Costumes for Halloween Party Cosplay",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP9JH16P",
+      "title": "OXJOIIS Womens Pajamas Set, 2 Piece Button Dow Shorts Set Hotdog Fun Food Hot Dog Loungewear Pjs for Christmas Thanksgiving",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKH1Q36",
+      "title": "Danxilu Inflatable Unicorn Costumes Adult Cute Blow Up Full Body Unicorn Costume Men Women Adult for Halloween Cosplay Party Animal Theme Masquerade",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DPQRTYVP",
+      "title": "Pink Pig Dog Pajamas Dog Onesie, Dog Recovery Suit After Surgery Female, Soft Dog Cold Weather Clothes PJS for Large Girl Dogs, 3XL 27\"",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DPQTHG6P",
+      "title": "Yellow Ducks Dog Pajamas Dog Onesie, Dog Recovery Suit After Surgery Female Male, Soft Dog Cold Weather Clothes PJS for Large Dogs, Rubber Duck 3XL 27\"",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DQ447ZD8",
+      "title": "Huioqwe Pet Grooming Organizer for Scissors Brushes and Tools Holder - Portable Rotatable Dog Grooming Table and Arm Stand Tools(Carbon Fiber Cat Head)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Hair Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQ4K22KF",
+      "title": "Huioqwe Pet Grooming Organizer for Scissors Brushes and Tools Holder - Portable Rotatable Dog Grooming Table and Arm Stand Tools(Wood Grain Cat Head)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Hair Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DR28DCNY",
+      "title": "Wooden Jigsaw Puzzles Schnauzer Reading Dog News Puzzle for Adults Kids Toys Gift Party Challenging Entertainment Props 500 Piece",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRBCD4G3",
+      "title": "Servelove Character Cosplay wig for Anime Wig Black Yellow short Costume Unisex Anime Characters Wigs Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRJ2D1LB",
+      "title": "CIDIXCIDIX Tough Durable Squeaky Dog Toys for chewers Interactive to Keep Them Busy, Funny Tug of War Dogs Toy for Small Medium Large Cute Birthday Gift (Crocodile)",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DTDVFYVW",
+      "title": "MCJC Medieval Cloak，Black Viking Costume Faux Fur Shawl For Women, Halloween Performance Accessory",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Robes, Capes & Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DTTW3MCN",
+      "title": "TOONRAIN Velvet Wizard Hooded Robe for Adult, Medieval Cape Renaissance Cloak for Men Women Halloween Costume(military Green,150cm)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Robes, Capes & Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWM5SQVX",
+      "title": "Servelove Character Cosplay Wig for Game Cosplay Purple Mix Blue Short Characters Costume Wigs Unisex Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWXJJBTD",
+      "title": "Servelove Character Cosplay Wig Game Cosplay Light Purple Long Game Characters Unisex Costume Wigs Play Halloween Christmas Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXDX9VH1",
+      "title": "Zoghoo Sequin Jumpsuits for Women Petite V Neck Prom Dresses Navy Blue One Piece Outfits Overalls Size 0",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Jumpsuits, Rompers & Overalls > Jumpsuits",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DXJQVBTM",
+      "title": "ixygoiv Jamaican Rasta Reggae Judah Lion No Pull Reflective Dog Harness Adjustable Pet Harness Breathable Mesh Escape Proof Vest Medium",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F18Z1ZDT",
+      "title": "168Pcs Blue Orange Dog Birthday Party Supplies for Boys Girls Kids 1st 2nd Cartoon Puppy Babyshower Party Decorations Paw Paper Plates Napkins Cups Forks Knives and Straws Tableware Serve 24 Guests",
+      "category_path": "Toys & Games > Party Supplies > Party Tableware > Plates",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F25LSRXV",
+      "title": "Mother's Day Dog Mom Mug Personalized - 100 Different Breeds, Hairstyles & Outfits - Custom Dog Mom Gifts for Women - Customizable Coffee Cup for Pet Lovers, Fur Mamas (Moms Day)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Dining & Entertaining > Novelty > Drinkware > Coffee Mugs",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2FRBK4F",
+      "title": "Nameinhea Personalized Dog Necklace with Picture Inside – Custom Pet Photo Projection Necklace, Memorial Gifts for Pet Lovers, Loss of Dog Sympathy Jewelry for Mom Mothers Day (Style 4)",
+      "category_path": "Pet Supplies > Dogs > Memorials & Funerary",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2FRYV37",
+      "title": "Nameinhea Personalized Dog Necklace with Picture Inside – Custom Pet Photo Projection Necklace, Memorial Gifts for Pet Lovers, Loss of Dog Sympathy Jewelry for Mom Mothers Day (Style 2)",
+      "category_path": "Pet Supplies > Dogs > Memorials & Funerary",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2H3VGK2",
+      "title": "Bunny Chorus Halloween Decor Throw Pillows: Cute Pink White Ghost Halloween Pillow, Plush Ghosts Pink Soft Cushion Decorations with Boho Tassels for Kids Home Sofa Bed Office Couch Living Room",
+      "category_path": "Home & Kitchen > Bedding > Decorative Pillows, Inserts & Covers > Throw Pillow Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3CQKDT1",
+      "title": "Lovely Boxer Pet Dog and Floral Funny Women's Tunic Top V-Neck Tee Shirts with Ruffles Sleeve XL",
+      "category_path": "Sports & Outdoors > Fan Shop > Sports Equipment > Golf Equipment > Golf Gift Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3XGM159",
+      "title": "QUJQOM Prisoner Costume for Men Loose Comfortable Orange Prison Jumpsuit for Halloween Costumes QM061XL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F4NNFYXG",
+      "title": "Adjustable Beaded Name Dog Collar Fashion For Small Medium And Large Dogs Rhinestone Necklace Handmade Girl Boy Bling Fancy Female Cats Pretty Pearls Perla Cute Rinbow Heavy Duty-Bubblegum Beads 20MM (Blue Shades, XS (8-11'') Neck (20-28cm))",
+      "category_path": "Pet Supplies > Dogs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F4NP45CF",
+      "title": "Adjustable Beaded Name Dog Collar Fashion For Small Medium And Large Dogs Rhinestone Necklace Handmade Girl Boy Bling Fancy Female Cats Pretty Pearls Perla Cute Rinbow Heavy Duty-Bubblegum Beads 20MM (Purple Shades, XS (8-11'') Neck (20-28cm))",
+      "category_path": "Pet Supplies > Dogs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F4NQ22PK",
+      "title": "Adjustable Beaded Name Dog Collar Fashion For Small Medium And Large Dogs Rhinestone Necklace Handmade Girl Boy Bling Fancy Female Cats Pretty Pearls Perla Cute Rinbow Heavy Duty-Bubblegum Beads 20MM (Green Shades, XS (8-11'') Neck (20-28cm))",
+      "category_path": "Pet Supplies > Dogs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F52BNBZR",
+      "title": "Hwiplsvny Puppy Tea Party Dresses for Girls Dance Outfit Sleeveless Halter Skater Dress for Girls 9-10 Cute Summer Clothes Soft Spaghetti Strap Sundress for Birthday Back to School or Casual Daily",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F6BDRJV4",
+      "title": "Vinsot 16 Pcs Christmas Plush Dog Stuffed Animals Plush Toys with Christmas Tree Gingerbread Man Puppy for Xmas Theme Party Favors",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F87KC6R4",
+      "title": "Slivomi Swat Costume for Kids Police Officer Costume for Boys Girls Cop Halloween Costumes Toddler Camo SWAT Team Outfit with Vest, Tactical Gear Accessories SV045XL",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8HBN2B1",
+      "title": "AOBUTE Halloween Mens Brown Costume Caveman Family Couple Matching Cosplay Adult Party Outfit Orange Tunic 3XL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F8MNYS4Y",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (XXL)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8MS9M4N",
+      "title": "Red and White Striped Shirt Costume Set for Adults with Hat, Socks and Round Glasses, Women's Halloween Party Outfit (XL)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93MHKFG",
+      "title": "YSBKN Pattern With Colorful Cartoon Dogs And Cats Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear 3x-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93MKY5S",
+      "title": "Nocciola Rip and Reveal Squeaky Dog Toys 2 Pack, Plush Animal Puzzle Set Frog & Pelican Suprise Toys Inside with Squeaker Crinkle Part Enrichment Toys for Large Medium Dogs",
+      "category_path": "Pet Supplies > Dogs > Toys > Plush Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93MYGF8",
+      "title": "YSBKN Pattern With Colorful Cartoon Dogs And Cats Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93N3G85",
+      "title": "YSBKN Pattern With Colorful Cartoon Dogs And Cats Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Small",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93P1Q5K",
+      "title": "YSBKN Pattern With Colorful Cartoon Dogs And Cats Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Medium",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93P5V25",
+      "title": "YSBKN Pattern With Colorful Cartoon Dogs And Cats Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93P77MR",
+      "title": "YSBKN Pattern With Colorful Cartoon Dogs And Cats Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Xx-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93PCYFJ",
+      "title": "YSBKN Pattern Featuring Dogs Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Small",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93PR1FJ",
+      "title": "YSBKN Pattern Featuring Dogs Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Medium",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93QLBWB",
+      "title": "YSBKN Pattern Featuring White Dogs With Blue Stars Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Lingerie, Sleep & Lounge > Sleep & Lounge > Nightgowns & Sleepshirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93QVP5M",
+      "title": "YSBKN Pattern Featuring Dogs Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Xx-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93QWQH4",
+      "title": "YSBKN French Bulldog Puppies Doing Yoga Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Small",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Lingerie, Sleep & Lounge > Sleep & Lounge > Nightgowns & Sleepshirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93R7XDX",
+      "title": "YSBKN Pattern Featuring White Dogs With Blue Stars Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93RB6MW",
+      "title": "YSBKN Pattern Featuring White Dogs With Blue Stars Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear 3x-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93RRNVS",
+      "title": "YSBKN Pattern Featuring White Dogs With Blue Stars Nightgowns For Women Soft Cotton Sleepshirt Short Sleeve Lounge Dress Casual Ladies Sleepwear Small",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Lingerie, Sleep & Lounge > Sleep & Lounge > Nightgowns & Sleepshirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9W3KF2N",
+      "title": "Mouse Costume Set, 4Pcs Mouse Costumes Accessories - Animal Ears Headband with Bow, Gloves, Nose and Polka Dots Tutu, Halloween Cosplay Birthday Party Fancy Dress Up, Red, Small Size",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Dress-Up Accessories > Headwear > Hats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9WDZSS8",
+      "title": "MICHLEY Infant Halloween Cosplay Costume Kids' Animal Outfit Hooded Romper Partywear 6-12M,Deep Brown Bear",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9X5XJ64",
+      "title": "Mistletoe unicorn Unisex Kids Flannel Animal Onesie Pajamas - Kids Flannel Halloween Cosplay Costume/Homewear/Sleepwear Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Boys",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9Y8TJJQ",
+      "title": "Pug Lamp and Dachshund Table Lamp, Boxer Dog Lamp, Corgi Dogs Series Art Night Light, 3D Cute Pet Vintage Home Decor, Retro Stained Resin Tabletop LED Night Light, Fun Gift for Dog Lover (Corgi)",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Lamps & Shades > Table Lamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9YJ835V",
+      "title": "Halloween Costumes for Men Medieval Steampunk Tailcoat Gothic Victorian Long Frock Coat Vintage Goth Pirate Jackets Red",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YL1373",
+      "title": "Halloween Costumes for Men Medieval Steampunk Tailcoat Gothic Victorian Long Frock Coat Vintage Goth Pirate Jackets Black",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YL8YHP",
+      "title": "Halloween Costumes for Men Medieval Steampunk Tailcoat Gothic Victorian Long Frock Coat Vintage Goth Pirate Jackets Brown",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YLPYM4",
+      "title": "Halloween Costumes for Men Medieval Steampunk Tailcoat Gothic Victorian Long Frock Coat Vintage Goth Pirate Jackets Black",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YMGL31",
+      "title": "Halloween Costumes for Men Medieval Steampunk Tailcoat Gothic Victorian Long Frock Coat Vintage Goth Pirate Jackets Black",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YNTL51",
+      "title": "Halloween Costumes for Men Medieval Steampunk Tailcoat Gothic Victorian Long Frock Coat Vintage Goth Pirate Jackets Brown",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9YNYZ8G",
+      "title": "Halloween Costumes for Men Medieval Steampunk Tailcoat Gothic Victorian Long Frock Coat Vintage Goth Pirate Jackets Red",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FBLQWM25",
+      "title": "Clysoru tug Toy for Dogs (Purple, Puppy)",
+      "category_path": "Pet Supplies > Dogs > Toys > Ropes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC1W4QBN",
+      "title": "Knafe Recovery Suit for Female & Male Dogs After Surgery, Breathable Dog Onesie Cone Alternative, Anti-Licking Surgical Suit for Spay Neuter Wounds",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCY5CSDD",
+      "title": "NESTURA Custom Card for Pet Lovers | Personalized Game-Inspired Furry Friend Birthday Gifts | Customizable Trading Card with Dog Cat Photo | Anime Style Animated for Best Dad Dog Mom Cat",
+      "category_path": "Office Products > Office & School Supplies > Paper > Cards & Card Stock > Greeting Cards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCY8LTMQ",
+      "title": "NESTURA Custom Card for Pet Lovers | Personalized Game-Inspired Furry Friend Birthday Gifts | Customizable Trading Card with Dog Cat Photo | Anime Style Metal Cards for Best Dad Dog Mom Cat",
+      "category_path": "Office Products > Office & School Supplies > Paper > Cards & Card Stock > Greeting Cards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQPFJQM",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Green",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQQ9VVH",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQQJ141",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Green",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQQMX2L",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQQS1BK",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Green",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Robes, Capes & Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQR5QT4",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Black",
+      "category_path": "Clothing, Shoes & Jewelry > Men",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQS9254",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Green",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQSFS8L",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Men",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQTRSJK",
+      "title": "Men's Medieval Clothing Medium Renaissance Tailcoat Steampunk Stage Costume Role 2 Pieces Halloween Cosplay Sets Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Robes, Capes & Jackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF1H2H24",
+      "title": "WEQJC Adult Onesie Pajamas Halloween Costume One-Piece Slim Fit Sleepwear Cosplay Suit for Mens Womens (US, Alpha, Medium, Regular, Regular, Hedgehog)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF9QYD4X",
+      "title": "2PCS Dog Christmas Sweater, Soft Warm Pet Clothes Coat for Small Medium Large Dogs and Cats Boy Girl, Fall Cozy Holiday Turtleneck Knitting Collar Pullover Pup Outfit Costume for Thanksgiving New Year",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FFBTMCPS",
+      "title": "IBQ Kids Zombie Cheerleader Costume Girls Scary Halloween Costumes for Zombie Fearleader Costume Purple BQ061M",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGJD9YG4",
+      "title": "Happy Halloween Pillow Covers 20X20 Inch Pumpkin Trick or Treat Decorative Square Pillow Cases Black Cotton Linen Throw Pillows Set of 2 Farmhouse Home Decor for Sofa Couch Porch Outdoor Indoor",
+      "category_path": "Home & Kitchen > Bedding > Decorative Pillows, Inserts & Covers > Throw Pillow Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGJK1GCL",
+      "title": "Happy Halloween Pillow Covers 16X16 Inch Pumpkin Trick or Treat Decorative Square Pillow Cases Black Cotton Linen Throw Pillows Set of 2 Farmhouse Home Decor for Sofa Couch Porch Outdoor Indoor",
+      "category_path": "Home & Kitchen > Bedding > Decorative Pillows, Inserts & Covers > Throw Pillow Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGXY5YFQ",
+      "title": "Feelyou Halloween Bedding Set for Girls Boys Kids Twin Size Black Bats Animal Print Silhouette Comforter Cover Room Decor Happy Holiday Cute Star Print Luxury Duvet Cover Light Purple，No Comforter",
+      "category_path": "Home & Kitchen > Bedding > Kids' Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGXYKCMF",
+      "title": "Feelyou Halloween Bedding Set for Girls Boys Kids Toddler Size Black Bats Animal Print Silhouette Comforter Cover Room Decor Happy Holiday Cute Star Print Luxury Duvet Cover Light Purple，No Comforter",
+      "category_path": "Home & Kitchen > Bedding > Kids' Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGY23J96",
+      "title": "Feelyou Halloween Bedding Set for Girls Boys Kids Queen Size Black Bats Animal Print Silhouette Comforter Cover Room Decor Happy Holiday Cute Star Print Luxury Duvet Cover Light Purple，No Comforter",
+      "category_path": "Home & Kitchen > Bedding > Kids' Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGY25ZM8",
+      "title": "Feelyou Halloween Bedding Set for Girls Boys Kids King Size Black Bats Animal Print Silhouette Comforter Cover Room Decor Happy Holiday Cute Star Print Luxury Duvet Cover Light Purple，No Comforter",
+      "category_path": "Home & Kitchen > Bedding > Kids' Bedding > Duvet Covers & Sets > Duvet Cover Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHD4YZ1Q",
+      "title": "Cheetah Onesie Cat Costume for Women Halloween Fleece Leopard Costumes Animals Cosplay Dress Up (Cat, X-Large)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FHF1QKJ3",
+      "title": "Saephaw Poison Costume Women Ivy Sequin Mini Dress with Leg Wrap Eye Mask Gloves Cape Ivy Headband Villain Halloween Cosplay M",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHWJ4D7R",
+      "title": "Demon Cosplay Anime Costume Mens Hat Shirt Collar Hoodies Pants Mens Halloween Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHWN1NJQ",
+      "title": "Demon Cosplay Anime Costume Mens Hat Shirt Collar Hoodies Pants Mens Halloween Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ2HS5G1",
+      "title": "Halloween Hooded Robe Costumes Womens Plus Size Stretch Renaissance Sweater Dresses Vintage Pullover Gothic Clothes Black",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ2KF25K",
+      "title": "Halloween Hooded Robe Costumes Womens Plus Size Stretch Renaissance Sweater Dresses Vintage Pullover Gothic Clothes Army Green",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ2NVZPV",
+      "title": "Halloween Hooded Robe Costumes Womens Plus Size Stretch Renaissance Sweater Dresses Vintage Pullover Gothic Clothes Black",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ6VX8MZ",
+      "title": "Superhero Dog Costume Cape Cosplay Set with Soft Collar and Tag Complete Set, Medium",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJS2CCR3",
+      "title": "Spark Paws Christmas Dog Sweater – Ultra Soft Holiday Knit Sweater for Small, Medium & Large Dogs, Cute Pet Sweater for French Bulldogs & Big Dogs, Easy Potty V Cut Design Jacket - (Polar Bear, S)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJS2Z6TQ",
+      "title": "Spark Paws Christmas Dog Sweater – Ultra Soft Holiday Knit Sweater for Small, Medium & Large Dogs, Cute Pet Sweater for French Bulldogs & Big Dogs, Easy Potty V Cut Design Jacket - (Dasher Red,4XL)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJS4RGF1",
+      "title": "Spark Paws Christmas Dog Sweater - Ultra Soft Holiday Knit Sweater for Small, Medium & Large Dogs, Cute Pet Sweater for French Bulldogs & Big Dogs, Potty V Cut Design Jacket (Winter Wonderland, 4XL)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJY147PN",
+      "title": "FZYLQY Adult Onesie Animal Halloween Costumes One Piece Pajamas Cosplay Suit Party Wear for Women and Men Soft Homewear",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Sleep & Lounge > One-Piece Pajamas",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FK553287",
+      "title": "UOFOCO Pumpkin Bat Ghost Spider Web Halloween Print Jumper Women's Rompers Overalls Linen Loose Jumpsuit for Women Womens Halloween Costumes Beige XL",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FK574VC3",
+      "title": "UOFOCO Pumpkin Bat Ghost Spider Web Halloween Print Jumper Women's Rompers Overalls Linen Loose Jumpsuit for Women Plus Size Halloween Costume Greys 5XL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FK58T92L",
+      "title": "UOFOCO Pumpkin Bat Ghost Spider Web Halloween Print Jumper Women's Rompers Overalls Linen Loose Jumpsuit for Women Plus Size Halloween Costume Purples 3XL",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKMX3P4M",
+      "title": "2PCS Dog Christmas Sweater, Soft Warm Pet Clothes Coat for Small Medium Large Dogs and Cats Boy Girl, Fall Cozy Holiday Turtleneck Knitting Collar Pullover Pup Outfit Costume for Thanksgiving New Year",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKTCFNC8",
+      "title": "HAIJUNYA 44 inch Giant Dachshung Dog Stuffed Animal, Cute Dachshung Wiener Dog Plush Toy Large Long Body Pillow Plushies Decor Gift Kids Boy Girl, Birthday",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Pillows",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDDRBJR",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDFS1VH",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms A-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDGV23Q",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDGWZRM",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDGZ138",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDGZZ65",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDH1MXT",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Sport Specific Clothing > Running > Women > Pants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDH3NNW",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms B-Grey",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDH6XV2",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDH9XZ6",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHBR1M",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHCGBX",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHCXKG",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms C-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHCXV3",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHF5NW",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Orange",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHG369",
+      "title": "Halloween Plus Size Clothes Women's Halloween Pants Womens Christmas Sweats Couples Sweatpants Pants Couple Christmas Sweatpants Womens Set Women's Pumpkin Skull",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHG36H",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHH18R",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms A-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHJQTX",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHN34T",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms A-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHP5X6",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHQ3V5",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHQ3V7",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms C-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHQGBC",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHR3CQ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Orange",
+      "category_path": "Clothing, Shoes & Jewelry > Sport Specific Clothing > Running > Women > Pants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHT1CK",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHVP8S",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHXPK6",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDHXT4S",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms C-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJ251R",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJ25PB",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJ2RXJ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJ4FK9",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJ4HR2",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms B-Grey",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJBJGR",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJD4W8",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms A-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJD64H",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJDHWM",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJDHX2",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJDRP1",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms C-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJFWN9",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJFWNJ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Sleep & Lounge > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJGXLH",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJK3G5",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJKB6B",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJKRV6",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJN3VJ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJNDMB",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJXDVF",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Sport Specific Clothing > Running > Women > Pants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJYV8F",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDJZ2RD",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK1LYX",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK1XQR",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK28K3",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK2RTM",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK3SF6",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK52PD",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK5NS2",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK6FJV",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK77FS",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK8BXD",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK91PP",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDK9RLC",
+      "title": "Plus Size Halloween Pants Preppy Halloween Baggy Orange Sweatpants Sweatpants Adults s Women Pants Cat Christmas Women's Printed Leggings Pumpkin Cosplay Costume",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKBJNZ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKD92L",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKDST4",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKDT5M",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKHKH9",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKHS1D",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Orange",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKHVTT",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKJYBC",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKJZJR",
+      "title": "Halloween Plus Size Halloween 'S for Women Women Christmas Pants s for Set Fleece Pants Candy Cane Sweatpants Plus Thanksgiving Funny Graphic Party Leggings Ripped Leggings",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKL563",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKLCZZ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKMPQJ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms A-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKNCDX",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms A-Purple",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKP4GY",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKPCW5",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms C-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKPGHD",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Sleep & Lounge > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKPPCT",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Blue",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKPSRL",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKPTDQ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKQGZ3",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKTNYX",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKXYZP",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms C-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDKY8SJ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDL1K25",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Orange",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDL2PWY",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Black",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDL3NHL",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Sleep & Lounge > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDL4Z6Q",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDL517T",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDL6TH3",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDL8MKX",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDLBBXR",
+      "title": "Halloween Legging for Women Plus Size Halloween s Womens Pants Funny Plus Size Fall Sweatpants Pants Couples Sweatpants Unisex Funny Bloody Print Themed Clothes",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDLJBSG",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDLNBVQ",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms B-Grey",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDLR256",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDM1DTD",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms D-Yellow",
+      "category_path": "Clothing, Shoes & Jewelry > Women",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDM1KHS",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDNSLXH",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Pants > Sweatpants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLDNVG2L",
+      "title": "Women's Halloween Graphic Print Sweatpants Women Baggy Halloween Spooky Hippie Harem Pants Baggy Lounge Bottoms",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Women > Pants & Capris",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLNLFQVD",
+      "title": "Furundly Victorian Dress for Women Rococo Halloween Masquerade Dresses Medieval Renaissance Costume Party Ball Gown",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLVKH521",
+      "title": "Halloween Pink Cute Ghost Bats Heart Decorative Pillow Covers 18x18 Inch Set of 2 Rustic Boho Flower Outdoor Throw Pillows Neutral Farmhouse Decoration Cushion Cases for Sofa Couch Bed Decor",
+      "category_path": "Home & Kitchen > Bedding > Decorative Pillows, Inserts & Covers > Throw Pillow Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLXGJDDQ",
+      "title": "Luaeirus Inflatable Koala Costume for Adult Funny Blow up Quick Inflation Animal Costume Fancy Dress Full Body for Cosplay Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLXPKDZL",
+      "title": "Gothic Halloween Crow Decoration, Raven Lamp Acrylic Suncatcher, Black Bird Window Hanging Ornament, Witchy Spooky Sun Catcher Gift for Women, Friends, Bird Lovers, Halloween, Fall, Christmas Décor",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Hanging Ornaments",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM38DYKH",
+      "title": "Luaeirus Inflatable Black Cat Costume for Adult Funny Blow up Quick Inflation Animal Costume Fancy Dress Full Body for Cosplay Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM38Q8SL",
+      "title": "Luaeirus Inflatable Rooster Costume, Adult Size Halloween Party Dress Up, Red and Multicolor (Led-rooster)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM7T4X86",
+      "title": "Women Halloween Cosplay Costume Accessories Set, Black Leather Mask Cosplay Party Accessories (Version 3)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMHLG7CX",
+      "title": "CICOCI Western Outfits for Women With Cowboy hat Cowgirl Costume Tassel Sleeveless Vest Halloween Costume Full Set",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMQDZ3MT",
+      "title": "Dog Christmas Pajamas Cotton Striped Pet Jumpsuit, Breathable Comfy Thermal Warm Pjs for Puppy, Dog Christmas Pajamas Holiday Shirts for Small Large Dogs Onesie Boys and Girls 2XL",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNCXBCX4",
+      "title": "QAHEART Anime Loulan Cosplay Costume Loulan/Maomao Halloween Outfits Loulan Costume for Halloween Christmas",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNCY7NX7",
+      "title": "QAHEART Anime Loulan Cosplay Costume Loulan/Maomao Halloween Outfits Loulan Costume for Halloween Christmas",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP299GDM",
+      "title": "Purrzone Gothic Cat House Bed for Indoor Cats Coffin Cat Condo with Scratch Pad and Fluffy Ball Toy, Foldable Hideaway Cube, Pet Bed for Kittens and Large Cats, 16.5x16.5x13in, Red Black Halloween",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Cat Houses & Condos",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FP2J53GF",
+      "title": "QAHEART Anime Jodio Joestar Cosplay Costume Fancy Dress Halloween Outfits Full Set for Halloween Christmas",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8L2C4Q",
+      "title": "Toddler Kids Cute Animal Cartoon Dog Slippers Girls Boys Warm Fleece Winter Household Shoes Fuzzy Soft Cozy Non Slip (Green, 7.5 Toddler)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8M99L7",
+      "title": "Toddler Kids Cute Animal Cartoon Dog Slippers Girls Boys Warm Fleece Winter Household Shoes Fuzzy Soft Cozy Non Slip (Green, 3 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8QDY6H",
+      "title": "Halloween Bat Animal Slippers Kids Cozy Soft Plush Open Toe Indoor Outdoor Fuzzy Slippers Funny Cute Party Shoes (PK2, 2 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP8S1DPK",
+      "title": "Halloween Bat Animal Slippers Kids Cozy Soft Plush Open Toe Indoor Outdoor Fuzzy Slippers Funny Cute Party Shoes (PP2, 2 Big Kids)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPDZRVPZ",
+      "title": "Slynxr 121 Pcs Mysterious Dog Party Decorations Birthday Tableware Kit Hippie Groovy Cartoon Car Birthday Plates and Napkins Tablecloth, Cups, Plates, Forks, Napkins for 24 Guests",
+      "category_path": "Home & Kitchen > Event & Party Supplies > Party Packs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPLVM21R",
+      "title": "QAHEART Anime Okarun Cosplay Costume Takakura Ken Mask Halloween Outfits Carnival Cosplay Uniform with Wig",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPMJXJ7W",
+      "title": "Toddler Lovable Luchador Costume with Shirt, Cape, Leggings, Shoe Covers, Wig, & Mustache for Halloween Fun 4T",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPMLGCND",
+      "title": "Toddler Lovable Luchador Costume with Shirt, Cape, Leggings, Shoe Covers, Wig, & Mustache for Halloween Fun X-Small",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPMLSW53",
+      "title": "Toddler Lovable Luchador Costume with Shirt, Cape, Leggings, Shoe Covers, Wig, & Mustache for Halloween Fun 2T",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FQ144919",
+      "title": "Pasking 2 Pack Dog Chew Toys for Aggressive Chewers, Bacon Flavor Indestructible Nylon Puppy Bone Tough Teething & Calming for Large Medium Breeds(10lbs-70lbs) Birthday Gift Christmas",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ1DYY2K",
+      "title": "Pasking 2 Pack Dog Chew Toys for Aggressive Chewers, Chicken Flavor Indestructible Nylon Puppy Bone Tough Teething & Calming for Large Medium Breeds(10lbs-70lbs) Birthday Gift Christmas",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ1FTLD6",
+      "title": "Vaveren Halloween Adult Costume Props Adorable Jumpsuit for Festival",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ5KN5CG",
+      "title": "Pasking 2 Pack Dog Chew Toys for Aggressive Chewers - Beef Flavor Indestructible Nylon Puppy Bone Tough Teething & Calming for Large Medium Breeds(10lbs-70lbs) Birthday Gift Christmas",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQC358Z5",
+      "title": "White Cowboy Hat with Black Skeleton and Red Eyes for Halloween Western Cowgirl Hat for Women Or Men",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Hats & Caps > Cowboy Hats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQNZVPN3",
+      "title": "Halloween Ghost Dog Figurine, Cute Dogs Ghosts Dogs Statue with Pumpkin Holder, Ghosts Dog Holding Pumpkin Statue for Home Living Room Desk Coffee Table Decor",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Collectible Figurines",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRYZYSB3",
+      "title": "JAWNLITY Stained Glass Window Hanging Sun Catcher, Colorful Dog Party Suncatcher for Window Wall Decor, Fun Pet Lover Gift for Dog Owners 014 (7.9IN)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRZ3KBTL",
+      "title": "JAWNLITY Stained Glass Window Hanging Sun Catcher, Colorful Dog Party Suncatcher for Window Wall Decor, Fun Pet Lover Gift for Dog Owners 014 (6.3IN)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FSZJTHX2",
+      "title": "Sletend Cute Samoyed Dog Christmas Tree Skirt Round Plush Velvet 47.2/35.4 Inch, Large Xmas Tree Base Cover with Ties, Perfect for Holiday Home Garden Living Room Party Decoration",
+      "category_path": "Home & Kitchen > Seasonal Décor > Tree Skirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT33R62Z",
+      "title": "Sletend Christmas Dachshund Large Christmas Tree Skirt 47.2/35.4 Inch Plush Soft Velvet, Round Base Cover with Easy Tie Closure for Holiday Decoration, Xmas Tree Living Room Outdoor",
+      "category_path": "Home & Kitchen > Seasonal Décor > Tree Skirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT3CVPNP",
+      "title": "Sletend Christmas Dachshund Christmas Tree Skirt Plush Velvet Fabric 47.2/35.4 Inch, Round Holiday Base Cover with Open Design and Secure Ties for Xmas Tree Living Room Garden Decor",
+      "category_path": "Home & Kitchen > Seasonal Décor > Tree Skirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX2QS6KF",
+      "title": "Arach&Cloz 2026 Women's Spring Summer Cashmere Wide Leg Dress Pants High Waisted Office Loose Slacks Button Palazzo Clothes Pocket Stretchy Work Trousers Business Casual Outfits Petite Brown S",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Pants > Casual",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FX2SC6LQ",
+      "title": "Arach&Cloz 2026 Women's Spring Summer Cashmere Wide Leg Dress Pants High Waisted Office Loose Slacks Button Palazzo Clothes Pocket Stretchy Work Trousers Business Casual Outfits Petite Brown M",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Pants > Casual",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FX3WW3C2",
+      "title": "GORGLITTER Women's Cropped Trench Coat Lapel Button Down Long Sleeve Casual Jacket Outwear Fall Outfits 2025 Apricot Petite L",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Coats, Jackets & Vests > Trench, Rain & Anoraks > Trench Coats",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FX3YFY2S",
+      "title": "GORGLITTER Women's Cropped Trench Coat Lapel Button Down Long Sleeve Casual Jacket Outwear Fall Outfits 2025 Apricot Petite M",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Coats, Jackets & Vests > Trench, Rain & Anoraks > Trench Coats",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FX4134KX",
+      "title": "GORGLITTER Women's Cropped Trench Coat Lapel Button Down Long Sleeve Casual Jacket Outwear Fall Outfits 2025 Apricot Petite XS",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Coats, Jackets & Vests > Trench, Rain & Anoraks > Trench Coats",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FXBDLKTR",
+      "title": "Demonwer 24 Pack Valentine's Day Gifts Mini Dog Figurines with Greeting Card Puppy Animal Figures for Valentine Party Favors Exchange Gifts",
+      "category_path": "Home & Kitchen > Event & Party Supplies > Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXL36CC6",
+      "title": "Womens Petite Sweaters, Vintage Crewneck Ribbed Pullover Fall Long Sleeve Print Sweater Top for Women 2025 Tunic Sweater Outfits De Rayas para Mujer (M, Brown)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Sweaters > Pullovers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FXWBKNWY",
+      "title": "NESTURA Custom Card for Pet Lovers | Personalized Game-Inspired Furry Friend Birthday Gifts | Customizable Trading Card with Pet Photo | Anime Style Metal Cards for Best Dog Dad Dog Mom",
+      "category_path": "Office Products > Office & School Supplies > Paper > Cards & Card Stock > Greeting Cards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1965GB5",
+      "title": "Small Dogs Under 12 lbs Adjustable Portable Center Console Car Seat, Built-in Bubble wrap, Fits Most Cars & SUVs with Convenient Handbag Functionality, Stylish Travel Pet Bag (Black)",
+      "category_path": "Pet Supplies > Dogs > Carriers & Travel Products > Car Travel Accessories > Booster & Car Seats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G19Z8TDL",
+      "title": "Small Dogs Under 12 lbs Adjustable Portable Center Console Car Seat, Built-in Bubble wrap, Fits Most Cars & SUVs with Convenient Handbag Functionality, Stylish Travel Pet Bag (Beige)",
+      "category_path": "Pet Supplies > Dogs > Carriers & Travel Products > Car Travel Accessories > Booster & Car Seats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G456TGNX",
+      "title": "nurdewn Pup Mask Adult The Dog Face Free Size Removable Neoprene Mask with Ten Colors (Green&Red)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Masks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5XH58NQ",
+      "title": "EXPAWLORER Dog St. Patrick's Day Outfit, Adorable St. Patrick's Day Costume Set Including Adjustable Green Shamrock Headband & Beer Plush Toy for Small Medium Pet Holiday Party Dress up",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Costumes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G5YS66B5",
+      "title": "Limima Dog Memorial Resin Figurine – Once by My Side Forever in My Heart – Sympathy Gift for Pet Loss, Black Labrador Remembrance Keepsake, Dog Lover Home Decor Statue",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Collectible Figurines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDDX5C7J",
+      "title": "Womens Blazer Dress Petite Long Sleeve Work Dresses for Women Office Grey Blazer Jacket Dress Professional Outfits Size Medium",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Dresses > Work",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GDQWGB3Z",
+      "title": "Joyvimbao Purle Cheerleader Costume for Girls Cheerleading Outfit Set with Accessories Fancy Dress for Halloween Party Birthday(Purple, 11-12Y)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF98SDRQ",
+      "title": "Cute Dog Hoodie,Skin-Friendly & Soft Sweatshirt for Puppy,Cat, Small/Medium/Large Dogs (XS to 2XL) Shark Mouth Printed Dog Clothes Ideal for Indoor & Outdoor Use",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Hoodies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFDNKCSB",
+      "title": "Tavlshero Dog Stuffed Plush Animals Toy, 13 Inches Soft Comfort Dog, Adorable Stuffed Puppy Made from Child-Friendly Design and Materials for Kids Boys and Girls",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGHJB1HX",
+      "title": "Gyuzh Recovery Suit for Dogs & Cats After Surgery - Soft Surgical Onesie, Cone Substitute to Prevent Licking Wounds, Post-Op Protective Wear for Spay Neuter Dark Grey M",
+      "category_path": "Pet Supplies > Dogs > Health Supplies > Surgery Recovery Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJZMY5PP",
+      "title": "Danxilu Inflatable Jackalope Costume for Adults, Funny Blow Up Rabbit with Antlers Suit for Men Women, Mythical Forest Monster Outfit for Halloween Party, Cosplay, Carnival, Easter",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GK16G5X8",
+      "title": "Danxilu Inflatable Alien Costume Adult Funny Blow Up Aliens Abduction Costumes, Halloween Suit With Holding Human for Men Women | Cosplay Comic-Con Party Christmas Social Media Videos",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GKFNNQLT",
+      "title": "DZMDIP Mens Steampunk Pirate Tailcoat Jacket Gothic Victorian Tailcoat Renaissance Vintage Coat Halloween Costume(4X-Large,Black)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GKNL46RL",
+      "title": "HIZWI Mother of The Bride Pant Suits for Wedding Petite Desert Rose Chiffon Boat Neck 3 Pieces Layered Formal Outfit for Women Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Suiting & Blazers > Suit Sets > Pantsuits",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GKNYJYMG",
+      "title": "HIZWI Mother of The Bride Pant Suits for Wedding Petite Burnt Orange Chiffon Boat Neck 3 Pieces Layered Formal Outfit for Women Size 2",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Suiting & Blazers > Suit Sets > Pantsuits",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GLG38WF1",
+      "title": "Grewear Personalized Dog Sweater, Custom Knit Sweater with Clover Embroidery, St. Patrick's Day Design for Dogs, Ideal Gift for Dog Owners, Pet Apparel Gift#3",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GLG7BJ9L",
+      "title": "Grewear Personalized Name Dog Sweater, Embroidered Puppy Sweater with Name/Text, Custom Pet Clothes Warm Winter Outfit for Dogs, Bright Puppy Sweatshirt, Pet Birthday Outfit, Gift for Dog Lovers",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GPXDYZFS",
+      "title": "FurEverClone White Pomeranian Golf Club Covers - Custom, Protective & Irresistibly Adorable",
+      "category_path": "Sports & Outdoors > Sports > Golf > Accessories > Head Covers",
+      "found_by": [
+        "embedding"
+      ]
+    }
+  ]
+}

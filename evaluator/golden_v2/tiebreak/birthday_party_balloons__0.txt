@@ -1,0 +1,20 @@
+QUERY: birthday party balloons
+
+DEFINITION: Balloons for decorating a birthday party.
+INCLUDE: birthday-themed balloons; number balloons; balloon garland/arch kits marketed for birthdays
+EXCLUDE: generic balloons with no birthday signal; balloon pumps/weights/accessories alone; other-occasion balloons
+DECIDED: Requires a birthday signal in the title. Default: yes
+
+Label every numbered product below against this definition with exactly one letter:
+  E = exact: the product IS what the query asks for, per the definition
+  S = substitute: a different product that could serve instead (e.g. wired instead of wireless)
+  C = complement: an accessory, part or add-on FOR the product (e.g. a charger for a mouse)
+  I = irrelevant
+Judge only from the title and category given. When the title does not settle a detail the
+definition requires, choose E only if the title makes it clearly likely.
+
+PRODUCTS (number <TAB> title <TAB> category path):
+89	6 Set Balloon Arch Kit with Base, Balloon Sticks, Arch Stand for Birthday, New Year, Halloween, Wedding Decorations	Toys & Games > Party Supplies > Decorations > Balloons
+197	Sweet 16 Party Decorations,Black Rose Gold Happy 16th Birthday Banner Balloons Backdrop Hanging Swirls,Sweet 16 Sash and Tiara Cake Topper Honeycomb Centerpiece Sixteen Party Supplies for Girls	Home & Kitchen > Event & Party Supplies > Party Packs
+199	Tyotrbs Two Infinity and Beyond Birthday Decorations Blue Clouds Cartoon Story 2nd Birthday Party Supplies include Backdrop Banner Two Birthday Balloons	Home & Kitchen > Event & Party Supplies > Party Packs
+279	6 PCS Airplane Birthday Party Decorations Airplane Balloons Stand Kit 3D Aircraft Table Topper Aircraft Balloon Centerpiece for Tables with Red Blue White Balloon for Baby Shower Party Supplies	Home & Kitchen > Event & Party Supplies > Party Packs

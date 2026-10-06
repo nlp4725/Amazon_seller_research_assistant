@@ -1,0 +1,17 @@
+QUERY: left-handed scissors
+
+DEFINITION: Scissors designed for left-handed use.
+INCLUDE: scissors marketed as left-handed; sets that include left-handed pairs
+EXCLUDE: ordinary or ambidextrous scissors not marketed for lefties; other left-handed tools
+DECIDED: Ambidextrous scissors do not count unless they say left-handed. Default: excluded
+
+Label every numbered product below against this definition with exactly one letter:
+  E = exact: the product IS what the query asks for, per the definition
+  S = substitute: a different product that could serve instead (e.g. wired instead of wireless)
+  C = complement: an accessory, part or add-on FOR the product (e.g. a charger for a mouse)
+  I = irrelevant
+Judge only from the title and category given. When the title does not settle a detail the
+definition requires, choose E only if the title makes it clearly likely.
+
+PRODUCTS (number <TAB> title <TAB> category path):
+68	30 Packs Scissors Bulk, 8 Inch Scissors All Purpose Sharp Sewing Fabric Shears for Office Home School Supplies, Middle/High School Student Teacher Classroom Craft Scissor, Comfort Right/Left Handles	Arts, Crafts & Sewing > Crafting > Craft Supplies > Cutting Tools > Scissors

@@ -139,6 +139,132 @@ resource "google_secret_manager_secret_iam_member" "cloudbuild_secret_access" {
   member    = "serviceAccount:${data.google_project.project.number}@cloudbuild.gserviceaccount.com"
 }
 
+# DeepSeek powers the retrieval pipeline's LLM calls
+# (src/retrieval_pipeline/llm_client.py reads DEEPSEEK_API_KEY at import time, so
+# the API image will not start without it). Only the key is a secret -- the base
+# URL and model name are plain env vars set in cloudbuild.yaml.
+#
+# Shell created here; value added manually:
+#   gcloud secrets versions add deepseek-api-key --data-file=- <<< "$DEEPSEEK_API_KEY"
+
+resource "google_secret_manager_secret" "deepseek_api_key" {
+  secret_id = "deepseek-api-key"
+  replication {
+    auto {}
+  }
+  depends_on = [google_project_service.secretmanager]
+}
+
+resource "google_secret_manager_secret_iam_member" "deepseek_secret_access" {
+  secret_id = google_secret_manager_secret.deepseek_api_key.secret_id
+  role      = "roles/secretmanager.secretAccessor"
+  member    = "serviceAccount:${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+}
+
+resource "google_secret_manager_secret_iam_member" "cloudbuild_deepseek_access" {
+  secret_id = google_secret_manager_secret.deepseek_api_key.secret_id
+  role      = "roles/secretmanager.secretAccessor"
+  member    = "serviceAccount:${data.google_project.project.number}@cloudbuild.gserviceaccount.com"
+}
+
+# LangSmith traces the agent pipeline (@traceable / wrap_anthropic in
+# src/agent_pipeline/analysis_agent.py). Tracing is a no-op unless both
+# LANGSMITH_TRACING=true and this key are present, so prod tracing is opt-in via
+# cloudbuild.yaml's env vars.
+#
+# Shell created here; value added manually:
+#   gcloud secrets versions add langsmith-api-key --data-file=- <<< "$LANGSMITH_API_KEY"
+
+resource "google_secret_manager_secret" "langsmith_api_key" {
+  secret_id = "langsmith-api-key"
+  replication {
+    auto {}
+  }
+  depends_on = [google_project_service.secretmanager]
+}
+
+resource "google_secret_manager_secret_iam_member" "langsmith_secret_access" {
+  secret_id = google_secret_manager_secret.langsmith_api_key.secret_id
+  role      = "roles/secretmanager.secretAccessor"
+  member    = "serviceAccount:${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+}
+
+resource "google_secret_manager_secret_iam_member" "cloudbuild_langsmith_access" {
+  secret_id = google_secret_manager_secret.langsmith_api_key.secret_id
+  role      = "roles/secretmanager.secretAccessor"
+  member    = "serviceAccount:${data.google_project.project.number}@cloudbuild.gserviceaccount.com"
+}
+
+# TypeSafe's Jev is the retrieval pipeline's default judge: category classification
+# (CLASSIFIER_BACKEND defaults to jev, src/retrieval_pipeline/jev_scorer.py) and the
+# title filter (TITLE_FILTER defaults to on, src/retrieval_pipeline/title_filter.py).
+# Both fail at request time without this key.
+#
+# Shell created here; value added manually:
+#   gcloud secrets versions add typesafe-api-key --data-file=- <<< "$TYPESAFE_API_KEY"
+
+resource "google_secret_manager_secret" "typesafe_api_key" {
+  secret_id = "typesafe-api-key"
+  replication {
+    auto {}
+  }
+  depends_on = [google_project_service.secretmanager]
+}
+
+resource "google_secret_manager_secret_iam_member" "typesafe_secret_access" {
+  secret_id = google_secret_manager_secret.typesafe_api_key.secret_id
+  role      = "roles/secretmanager.secretAccessor"
+  member    = "serviceAccount:${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+}
+
+resource "google_secret_manager_secret_iam_member" "cloudbuild_typesafe_access" {
+  secret_id = google_secret_manager_secret.typesafe_api_key.secret_id
+  role      = "roles/secretmanager.secretAccessor"
+  member    = "serviceAccount:${data.google_project.project.number}@cloudbuild.gserviceaccount.com"
+}
+
+# ── Data bucket ───────────────────────────────────────────────────────────────
+# The two stores the API reads at request time (src/shared/paths.py) are far too
+# large for git and are gitignored, so a trigger-driven build -- which clones from
+# GitHub -- has no data. They are staged here instead and pulled into the build
+# context by cloudbuild.yaml's fetch-data step. Populate with:
+#   scripts/sync_data_to_gcs.sh
+
+resource "google_storage_bucket" "data" {
+  name                        = "amazon-launch-seller-assistant-data"
+  location                    = var.region
+  uniform_bucket_level_access = true
+  force_destroy               = false
+
+  versioning {
+    enabled = true
+  }
+
+  # A rebuilt ChromaDB replaces ~200MB; keep one generation back for rollback only.
+  lifecycle_rule {
+    condition {
+      num_newer_versions = 2
+    }
+    action {
+      type = "Delete"
+    }
+  }
+}
+
+resource "google_storage_bucket_iam_member" "cloudbuild_data_reader" {
+  bucket = google_storage_bucket.data.name
+  role   = "roles/storage.objectViewer"
+  member = "serviceAccount:${data.google_project.project.number}@cloudbuild.gserviceaccount.com"
+}
+
+# Cloud Build's trigger runs as the Compute SA (see the trigger's serviceAccount),
+# so that identity needs read access too.
+resource "google_storage_bucket_iam_member" "compute_data_reader" {
+  bucket = google_storage_bucket.data.name
+  role   = "roles/storage.objectViewer"
+  member = "serviceAccount:${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+}
+
 # Cloud Run services are created and updated by cloudbuild.yaml — not managed here.
 # Terraform can't create them before images exist; Cloud Build deploys both services
 # as part of every build: seller-assistant (frontend) and seller-assistant-api (backend).

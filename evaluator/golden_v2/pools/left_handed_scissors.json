@@ -1,0 +1,2433 @@
+{
+  "query": "left-handed scissors",
+  "definition": {
+    "definition": "Scissors designed for left-handed use.",
+    "include": [
+      "scissors marketed as left-handed",
+      "sets that include left-handed pairs"
+    ],
+    "exclude": [
+      "ordinary or ambidextrous scissors not marketed for lefties",
+      "other left-handed tools"
+    ],
+    "decide": [
+      "Ambidextrous scissors do not count unless they say left-handed. Default: excluded"
+    ],
+    "keywords": [
+      "left.?hand|lefty|leftie",
+      "scissor|shear"
+    ]
+  },
+  "sizes": {
+    "keyword": 1,
+    "embedding": 300,
+    "systems": 3
+  },
+  "pool_size": 300,
+  "candidates": [
+    {
+      "asin": "B0BN4QDTXG",
+      "title": "Mandala Crafts 12 Gauge Anodized Aluminum Craft Wire for Jewelry Making - 240 FT Colored Flexible Pastel Wire - Bendable for Bonsai Armature Crafting Sculpting",
+      "category_path": "Arts, Crafts & Sewing > Beading & Jewelry Making > Wire",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CMWMG2G1",
+      "title": "TACPOOL Action Rod with One-Piece Aluminum Construction and Steel Contact Design and Locking Mechanism for Standard Smithing and Assembly (Black)",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Rods & Accessories > Rod Holders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CMWV57ZC",
+      "title": "TACPOOL Action Rod with One-Piece Aluminum Construction and Steel Contact Design and Locking Mechanism for Standard Smithing and Assembly (Red)",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Rods & Accessories > Rod Holders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CMWW4YPY",
+      "title": "TACPOOL Action Rod with One-Piece Aluminum Construction and Steel Contact Design and Locking Mechanism for Standard Smithing and Assembly (Silver)",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Rods & Accessories > Rod Holders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CP8FBSTZ",
+      "title": "AFA Tooling - Deburring Tool Red Handle with 31 High-Speed Steel M2 Blades, Deburring Tool 3D Printing, Reamer Tool for Metal, PVC, Copper Pipe, Plastic, Resin & 3D Printed Edges",
+      "category_path": "Industrial & Scientific > Cutting Tools > Deburring Cutters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CRP69VMY",
+      "title": "Conch Earrings Helix Piercing 16G Nose Ring Hoop Silver Surgical Steel Cartilage Earrings With CZ 4pcs Clicker Rings Rook Tragus Piercing Jewelry 10mm",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Body Jewelry > Piercing Jewelry > Rings",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWRM9BB6",
+      "title": "DRM-GDNER Professional Heavy Duty Hedge Shears 23\" - Serrated Blade & Dual Shock Handle, Ergonomic Gardening Clippers with Anti-Rust Coating",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Hand Tools > Shears & Scissors > Hedge Clippers & Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CXDR5NCR",
+      "title": "Cutter Hair Trimmer Head 41mm FMG For Philips Shaver Multigroom Beardtrimmer Series 3000, 5000, 7000, BT5511, MG3750, MG3760",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Beard & Mustache Care > Beard & Mustache Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CXTN2NQ9",
+      "title": "#𝟐𝟎𝟎 𝗗𝗶𝗮𝗺𝗼𝗻𝗱 𝗗𝗶𝘀𝗰 for 𝗛𝗢𝗡𝗘 𝗞𝗻𝗶𝗳𝗲 𝗦𝗵𝗮𝗿𝗽𝗲𝗻𝗲𝗿, Premium Coarse Re-Profiling Rolling Knife Sharpener Disc, Mono-Crystalline Electroplated for Dull Blades & Make a New Edge",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Knife Sharpeners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CYHKWJJ2",
+      "title": "Suvorna Professional Hair Cutting Scissors - 6\" Stainless Steel Barber Shears for Hair Cutting and Trimming - Razor Sharp Haircut Scissors for Hairdressers & Barbers - Hair Shears for Women and Men",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Cutting Tools > Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CYZRNGQ8",
+      "title": "Rebasar 13x4 Lace Frontal Closure Human Hair 18 Inch Brazilian Straight Frontal HD Lace Closure 100% Virgin Human Hair Ear to Ear Lace Frontal Pre Plucked Natural Black",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ4P1G4M",
+      "title": "Mandala Crafts Orchid Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ4PVZXD",
+      "title": "Mandala Crafts Light Gray Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ54V9QM",
+      "title": "Mandala Crafts Violet Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ54VTTG",
+      "title": "Mandala Crafts Thistle Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ56GVM4",
+      "title": "Mandala Crafts Mustard Yellow Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ57R5C5",
+      "title": "Mandala Crafts Salmon Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ57RMYG",
+      "title": "Mandala Crafts Pale Green Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ592KMR",
+      "title": "Mandala Crafts Camel Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D1LWVTJM",
+      "title": "Cremello Kacy Organizer",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Handbags & Wallets > Wristlets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3TFZP1B",
+      "title": "LEATBUY-TECH LEATBUY Crimping Tool Kit for RJ45/RJ11/RJ12/CAT5/CAT6/Cat5e/CAT6e/6P/8P, Professional Network Crimper Wire Connector Stripper Cutter, Computer Maintenance Lan Repair Tool Set(Yellow)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Crimpers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4LJZSQ6",
+      "title": "Japior 8 Packs Cuticle Nippers Stainless Steel Cuticle Trimmer Cutter Pointed Blade Nail Cuticle Dead Skin Clipper Manicure Tool for Fingernails Toenails",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Cuticle Tools > Cuticle Nippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D58J771R",
+      "title": "Foldable Magnetic Grip with Adjustable Wires (Silver)",
+      "category_path": "Cell Phones & Accessories > Accessories > Grips",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D58L31QY",
+      "title": "Foldable Magnetic Grip with Adjustable Wires (Black)",
+      "category_path": "Cell Phones & Accessories > Accessories > Grips",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5CRPP9Q",
+      "title": "2-3/4\" | 70mm Forstner Drill Bit,Triple Flute Tungsten Carbide Tipped - for Hard Wood,Soft Wood Woodworking Hinge Cutter Tool Kits for Veneered Plywood Plastic",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Power Drill Parts & Accessories > Drill Bits > Forstner Drill Bits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5CRRYVS",
+      "title": "3\" | 76mm Forstner Drill Bit,Triple Flute Tungsten Carbide Tipped - for Hard Wood,Soft Wood Woodworking Hinge Cutter Tool Kits for Veneered Plywood Plastic",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Power Drill Parts & Accessories > Drill Bits > Forstner Drill Bits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5HF96T5",
+      "title": "Professional Pet Grooming Comb – Crescent Curved Wide/Fine Tooth Pet Comb Detangling Comb for Cat/Dog Face & Chin, Stainless Steel Teeth, Removes Knots & Flea Combs (blue,round16cm)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Combs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5HFCHZL",
+      "title": "Professional Pet Grooming Comb – Crescent Curved Wide/Fine Tooth Pet Comb Detangling Comb for Cat/Dog Face & Chin, Stainless Steel Teeth, Removes Knots & Flea Combs (green,enflory16cm)",
+      "category_path": "Pet Supplies > Cats > Grooming > Combs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6YC928G",
+      "title": "WYOX Gel Boxing Hand Wraps Pair of 2 | Inner Gloves for Men Women – Elasticated Padded Long Wrist Straps Muay Thai MMA, Kickboxing, BJJ Combat Sports Training (2, Green/Black, 4.5 Meter)",
+      "category_path": "Sports & Outdoors > Sports > Other Sports > Martial Arts > Protective Gear > Hand Wraps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6YCWNJB",
+      "title": "Boxing Hand Wrap",
+      "category_path": "Sports & Outdoors > Sports > Other Sports > Martial Arts > Protective Gear > Hand Wraps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7LWZP36",
+      "title": "Wirefy Automatic Wire Stripper Tool | Self-Adjusting 3-in-1 Wire Stripper, Cutter & Crimper for 24-10 AWG / 0.2-6 mm² | Ergonomic Professional Electrical Tool",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7TH99XS",
+      "title": "Kensington Clinician Equine Training Lead/Lunge Rope – 25ft Heavy Duty Braided Horse Lead with Swivel Bull Snap | Color: Black w/Black Nickle",
+      "category_path": "Sports & Outdoors > Sports > Other Sports > Equestrian Sports > Tack > Halters & Leads > Leads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7W1W1PB",
+      "title": "MOSFiATA 8 inch Carving Knife，Stainless Steel Brisket Slicing Knife for Meat Cutting, Razor Sharp Butcher Knife with Granton Edge for Roasts, BBQ, Turkey",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Carving Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D8NZ1V3F",
+      "title": "BOOSDEN Model Nippers 9pcs Set, Single Blade Nipper Model Tool Kit, Hobby Clippers for Gundam Gunpla, Thin & Sharp Model Snips, Sprue Cutters for Plastic Models Repairing Building and Fixing",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Pliers > Side-Cutting Pliers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D939Q6R4",
+      "title": "16 Inch Pre-twisted Passion Twist Hair Pre-looped Crochet Bohemian 9 Packs Short Braids for Women Girls and Kids (16Inch,1B/30)",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9CZ1J4J",
+      "title": "XEIRPRO Copper Tech Skeleton Golf Gloves Men Right Handed Golfer or Left Handed Golfer (2nd Gen) | Copper Compression Joint Support with Tacky Grip | Flexible & Comfortable Fit with Premium Leather",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9KMJPPW",
+      "title": "F.A.R.A.H Z-Tweeze Professional Stainless Steel Dual Ended Precision Tweezers - Heart Collection (Two Hearts As One)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Women's > Tweezers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBBQQ8TM",
+      "title": "Cole & Mason Holborn Acrylic Salt Mill - Compact Hand Grinder - Acrylic Kitchen Tool with Adjustable Grind Setting - Easy-to-Clean Grinder with Premium Design - Chocolate Salt Mill, 3.75\"",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Salt & Pepper > Salt Mills",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBR7X7RG",
+      "title": "Mandala Crafts White Blue Pinstripe Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBR817PW",
+      "title": "Mandala Crafts White Red Pinstripe Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBR8RRGT",
+      "title": "Mandala Crafts Maroon Gold Pinstripe Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBR9MSLV",
+      "title": "Mandala Crafts Diagonal Gingham Maxi Piping Bias Tape with Welting Cord - 1/2 Inch Upholstery Piping Trim for Sewing, Cushions, Slipcovers, and DIY Decor - 55 Yards Lip Cord Trim",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Trim & Embellishments > Piping",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBVJTL6K",
+      "title": "SUPRENT Cordless Hair Clippers for Men Professional Hair Cutting Trimmer with LED Display Trimmer for Barbers & Home Use",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFQ9RC4",
+      "title": "JNwhy Beadable Pens 12 Sets DIY Beaded Ballpoint Pens Making Kit with Silicone Focal Beads Alloy Pendants Assorted Tassels (Autism)",
+      "category_path": "Arts, Crafts & Sewing > Beading & Jewelry Making > Beading Supplies > Beading Kits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFYFJVC",
+      "title": "2-1/2\" | 63.5mm Forstner Drill Bit,Triple Flute Tungsten Carbide Tipped - for Hard Wood,Soft Wood Woodworking Hinge Cutter Tool Kits for Veneered Plywood Plastic",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Power Drill Parts & Accessories > Drill Bits > Forstner Drill Bits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCNM5R97",
+      "title": "HAUTMEC 7-Piece Wood Chisel Set with Wooden Mallet, CR-V Steel Beveled Gouge Tools with Beech Handles and Storage Box, Wood Carving Kit for Woodworking & DIY - HT0393",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Chisels > Wood Chisels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCZBKBPS",
+      "title": "Eleko Meyar Cheese Grater with Handle, Multifunctional Manual Rotary Cheese Grater - Cheese Shredder Easily Chop Carrots, Potatoes, Vegetables and Fruits and Easy to Clean",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cheese Tools > Graters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DD3DR42S",
+      "title": "Wide Blades for Dog Grooming Blades Compatible with Andis Dog Clippers,30W Dog Clipper Blades Compatible with Oster A5,Wahl km10 Dog Clippers for Horse Dog Cat Animals,Stainless-Steel Blade Sharp",
+      "category_path": "Pet Supplies > Dogs > Grooming > Electric Clippers & Blades > Replacement Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DD3KD849",
+      "title": "Wide Blades for Dog Grooming Blades Compatible with Andis Dog Clippers,4FW Dog Clipper Blades Compatible with Oster A5,Wahl km10 Dog Clippers for Horse Dog Cat Animals,Stainless-Steel Blade Sharp",
+      "category_path": "Pet Supplies > Dogs > Grooming > Electric Clippers & Blades > Replacement Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDSV1GBN",
+      "title": "Davivy Electric Can Opener, Removable Stainless Steel Cutter and 3-in-1 Design with Sharpener and Bottle Opener (Red-Stainless Steel)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Can Openers > Electric",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DFC9Y8YK",
+      "title": "Yoursfs Large Red Ruby Clip On Earrings for Women Red Round Non Pierced Clip On Earrings Dainty and Elegant Bridal Bridesmaid Jewelry",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Earrings > Clip-Ons",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGKR7T9Z",
+      "title": "MONAZEO 30Pcs Braided Leather Bracelets for Men Women Woven Cuff Wrap Bracelet Wood Beads Hemp Cords Ethnic Tribal Handmade Wrap Wristband Bracelets Set Adjustable",
+      "category_path": "Clothing, Shoes & Jewelry > Men > Jewelry > Bracelets > Cuff",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGTDYZN4",
+      "title": "AETHMETAL Resharpenable 8-Inch Bread Knife – Multifunction Serrated Knife with Wavy Edge, High-Carbon German Stainless Steel & Full Tang for Efficient Homemade Bread Slicing",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Bread Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGXSLBND",
+      "title": "HSS-AL T Slot End Mill Milling Cutter，High-Speed Steel Woodruff Keyseat Cutter, HalfRound Keyway Milling Cutter, Straight Shank, 6 Flutes, 40mm x 10mm x 100mm",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHGR3TK4",
+      "title": "Stainless Steel Onion Slice Holder, Slicing Fruit Egg Slicer Onion Pin Slicer Loose Meat Pin, Multifunctional Slice Fixing Artifact Kitchen Gadgets (2)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Seasoning & Spice Tools > Choppers & Mincers > Choppers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHGRF13K",
+      "title": "Stainless Steel Onion Slice Holder, Slicing Fruit Egg Slicer Onion Pin Slicer Loose Meat Pin, Multifunctional Slice Fixing Artifact Kitchen Gadgets (1)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Seasoning & Spice Tools > Choppers & Mincers > Choppers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHGSW3QH",
+      "title": "Stainless Steel Onion Slice Holder, Slicing Fruit Egg Slicer Onion Pin Slicer Loose Meat Pin, Multifunctional Slice Fixing Artifact Kitchen Gadgets (3)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Seasoning & Spice Tools > Choppers & Mincers > Choppers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHGVXNLR",
+      "title": "Heuvipens 2X G23 Titanium 16G Side & Front Opal 6mm Hinged Clicker Nose Ring Septum Ear Conch Helix Cartilage Tragus Piercing",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Body Jewelry > Piercing Jewelry > Rings",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHNMK1KR",
+      "title": "13X4 Lace Frontal Closure Straight Invisible 0.1mm HD Swiss Lace Closure SKINLIKE HD Lace Frontal Ear to Ear Virgin Human Hair Pre Plucked Human Hair Closure 12 Inch",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJQ53F5W",
+      "title": "Dragonwing V-Neck Crop Top (Designed for Dance, Gymnastics, Cheer and Workouts) (US, Alpha, Medium, Regular, Black Crocodile)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active > Active Shirts & Tees > Tank Tops",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJQ53YQ2",
+      "title": "Dragonwing V-Neck Crop Top (Designed for Dance, Gymnastics, Cheer and Workouts) (US, Alpha, XX-Small, Regular, Black Crocodile)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active > Active Shirts & Tees > Tank Tops",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJQ5CSZN",
+      "title": "Dragonwing V-Neck Crop Top (Designed for Dance, Gymnastics, Cheer and Workouts) (US, Alpha, Small, Regular, Pink Snake)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active > Active Shirts & Tees > Tank Tops",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJQ69DPV",
+      "title": "Dragonwing V-Neck Crop Top (Designed for Dance, Gymnastics, Cheer and Workouts) (US, Alpha, Large, Regular, Pink Snake)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Active > Active Shirts & Tees > Tank Tops",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKDCHXP3",
+      "title": "Pruning Shears for Gardening - DECERK 8.5\" Professional Bypass Garden Scissors & Clippers, Super Sharp SK5 Blade, Ergonomic Handle Heavy Duty Hand Held Pruners, Gardening Gift for Women Men, 2025 Tool",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Hand Tools > Shears & Scissors > Grass Clippers & Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKT1XSQ2",
+      "title": "NEO-TEC Brush Cutter Blade 7” x 14T Circular Saw Blade with 1\" Arbor for Trimming and Clearing Thick Weeds, Grass, and Small Trees",
+      "category_path": "Patio, Lawn & Garden > Outdoor Power Tools > Replacement Parts & Accessories > Lawn Mower Parts & Accessories > Lawn Mower Replacement Parts > Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DL5LWX64",
+      "title": "Round Threading Die 6542-HSS Thread Trapezoidal Round Die TR 8 10 12 14 16 18 20 22 24 26 28 30 32 Left Threading Dies Tool(TR24X3,Right Thread 1PCS)",
+      "category_path": "Industrial & Scientific > Cutting Tools > Threading Dies > Round Threading Dies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DL5PRHYL",
+      "title": "Round Threading Die 6542-HSS Thread Trapezoidal Round Die TR 8 10 12 14 16 18 20 22 24 26 28 30 32 Left Threading Dies Tool(TR12X2,Left Thread 1PCS)",
+      "category_path": "Industrial & Scientific > Cutting Tools > Threading Dies > Round Threading Dies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DL5Q8QSR",
+      "title": "Round Threading Die 6542-HSS Thread Trapezoidal Round Die TR 8 10 12 14 16 18 20 22 24 26 28 30 32 Left Threading Dies Tool(TR12X2,Right Thread 1PCS)",
+      "category_path": "Industrial & Scientific > Cutting Tools > Threading Dies > Round Threading Dies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLK3QF82",
+      "title": "Teenyyou Large Foldable Cutting Board for Kitchen Acacia Charcuterie Board Cheese Platter Serving Tray Food Prep and Serving Platter with Functional Groove for Meat Cheese Appetizers(24 x 16 Inch)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DM1QVV37",
+      "title": "KEEMAKE Nakiri Knife 7 Inch - Sharp Meat Cleaver with High Carbon Stainless Steel Blade, Japanese Kitchen Vegetable Cooking Knife with Ergonomic Pakkawood Handle and Gift Box Included",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Asian Knives > Usuba & Nakiri Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DMV9H24Y",
+      "title": "Koville Grayish White Marble Cutting Board Round, 16\" Marble Cheese Board for Kitchen - Non-Stick Heat Resistant Stone Cutting Boards for Baking, Charcuterie, Pastry, Trivet",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DMZZC2M3",
+      "title": "Parker 5-Blade Razor Handle Compatible with Gillette® Fusion® Cartridges – Weighted Metal Handle with Textured Grip for Smooth, Tug-Free Shaving | Luxury Gift-Ready Men’s Razor with 1 Cartridge",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Razors & Blades > Safety Razors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DNR1JTPZ",
+      "title": "152PCS Multitool Blades Oscillating Tool Accessories with Sandpaper, Titanium Oscillating Saw Blades Kits for Wood Metal Plastics Cutting, Compatible with Dewalt Ryobi Milwaukee Rockwell",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Oscillating Tool Accessories > Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP67PDNS",
+      "title": "Fillet Knife 7 Inch,2026 New Upgrade High Carbon Stainless Steel Fillet Knife,Handles Made From G10 Material Are More Ergonomic Professional Japanese Fish Knives for Meat Poultry Cutting",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Boning Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPKGMT4P",
+      "title": "BTArtbox Press On Nails Short - 3D Sculpting Red Cat Eye Almond Press On Nails with Glue for Women, Opaque Soft Gel Glue On Nails in 16 Sizes - 32 Stick On Nails Kit, Crystal Wave",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPMZRMXK",
+      "title": "TUO Carving Knife, 12 inch Brisket Knife for Cutting Meat, Slicing Through Roast & Bacon, Sharp German Steel, Ergo Pakkawood Handle, BBQ Gifts for Men",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Carving Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPMZVQVY",
+      "title": "TUO Bread Knife, 10 inch Upgraded Serrated Knife for Homemade Sourdough Bread, High Carbon German Steel with Pakkawood Handle, Gift Box - Fiery Phoenix Series",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Bread Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQ447ZD8",
+      "title": "Huioqwe Pet Grooming Organizer for Scissors Brushes and Tools Holder - Portable Rotatable Dog Grooming Table and Arm Stand Tools(Carbon Fiber Cat Head)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Hair Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQ4K22KF",
+      "title": "Huioqwe Pet Grooming Organizer for Scissors Brushes and Tools Holder - Portable Rotatable Dog Grooming Table and Arm Stand Tools(Wood Grain Cat Head)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Hair Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQSJ75D3",
+      "title": "Cutting Board Double Sided for Kitchen, Food-Grade 304 Stainless Steel Chopping Pad Suitable for Meat Fruit Vegetables (Large (18.1 x 11.8 inch))",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQSJ87JB",
+      "title": "Cutting Board Double Sided for Kitchen, Food-Grade 304 Stainless Steel Chopping Pad Suitable for Meat Fruit Vegetables (Medium (14.2 x 9.8 inch))",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQWS5KXC",
+      "title": "VerRich 28Pcs Kit Indexable Lathe Turning Tools,7PCS 1/2\"12mm Shank Boring Bar Metal Turning Tool Holder with 21pcs Carbide Inserts for Boring Cutting Grooving Turning Threading",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Lathe Parts & Accessories > Turning Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRBTNLX5",
+      "title": "30 Packs Scissors Bulk, 8 Inch Scissors All Purpose Sharp Sewing Fabric Shears for Office Home School Supplies, Middle/High School Student Teacher Classroom Craft Scissor, Comfort Right/Left Handles",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Craft Supplies > Cutting Tools > Scissors",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DRPK6FBP",
+      "title": "Ratchet-Type Pipe Cutter, One-Hand Fast Pipe Cutting Tool, for Cutting 5/16-1-1/8 inch Stainless Steel Copper Aluminium,for Home Working (Black)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Cutters > Pipe Cutters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRS7927P",
+      "title": "FODCOKI Japanese Chef Knife 8 Inch Kitchen Sharp Knife High Carbon Steel AUS10 with Ebony Wood Handle Professional Chefs Knife for Cutting Meat Vegetable",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRW3L6T9",
+      "title": "Huioqwe Pet Grooming Organizer for Scissors Brushes and Tools Holder - Portable Dog Grooming Table and Arm Stand Tools(khakiSquare)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Hair Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRZGXBYQ",
+      "title": "Huioqwe Pet Grooming Organizer for Scissors Brushes and Tools Holder - Portable Dog Grooming Table and Arm Stand Tools(khakiSquare 2PCS)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Hair Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSF7K6HY",
+      "title": "EANINNO Chef Knife Japanese 8 inch Kitchen Knife Sharp High Carbon Stainless Steel Professional for Cutting Meat Vegetable with High-end Wood Handle",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSPDJPKM",
+      "title": "Handmade with Love Wood Handle Thank You Stamp | Personalized Round Stamper for Small Business & Artisan Packaging | 1-5/8\" Customizable Rubber Stamper for Handmade Products & Gift Tags",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSTFXQLM",
+      "title": "Orbitkey Urban Loop Keychain – Stone – Minimalist Paracord Wrist Lanyard with Quick-Snap Stainless Steel Lock for Car Keys, Key Fobs & Accessories",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Keyrings, Keychains & Charms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DTTX4T9T",
+      "title": "CLEENTABLE Beaded Table Runner Decorative Glitz Table Runner - 13x36” Handcrafted Runner for Winter Holiday, Kitchen, Dining Table, Spring Décor, Dining Table, Coffee Table or Entryway (Red Ivory)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen & Table Linens > Table Runners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DV87BHWC",
+      "title": "Pink Mask Nail Form XL- Pro XL Nail Forms - Premium Die-Cut Molds for Gel & Acrylic Nail Extensions (300 Pack)",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Nail Art & Polish > False Nails & Accessories > Nail Forms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWL78YVY",
+      "title": "Tombow Mechanical Pencils 0.5mm, Pink & Purple with Eraser Refills | Japanese Stationery | Mechanical Pencil Pack | School Supplies | College Essentials | Office Supplies | Gifts",
+      "category_path": "Office Products > Office & School Supplies > Writing & Correction Supplies > Pencils > Mechanical Pencils",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWMCWD4C",
+      "title": "Purple Dragon Santoku Knife 7 Inch Japanese Chef Knife for Chopping Meat Cutting Vegetables, German Vg10 Steel Blade, Ergonomic Wooden Handle Christmas Gift for Men and Women",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWMFX14C",
+      "title": "Purple Dragon Nakiri Knife, 7 Inch Meat Cleaver, German Vg10 Steel Japanese Kitchen Knife for Meat Cutting Chopping Dicing Vegetables, Ergonomic Wooden Handle - Christmas Gift for Men and Women",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DX1TGR4F",
+      "title": "Fun Jigsaw Puzzle for Adults 1000 Pieces Black and White Bridge and Red Tree Wall Art Wooden Puzzles Best Brain Exercises Educational Gift",
+      "category_path": "Toys & Games > Puzzles > Jigsaw Puzzles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXD5N1FX",
+      "title": "16Pcs Folding Utility Knife with 40Pcs Replacement Blades, Retractable Box Cutter Knife Heavy Duty Work Knife for Cardboard, Boxes and Cartons",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Knives, Parts & Accessories > Knives > Utility Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXNXQV9D",
+      "title": "Chalzidar Jigsaw Puzzles for Adults 1000 Pieces, Interlock Perfectly Letter on Back No Dust, Home Decor Birthday Party Gift Toy for Men Women Elders Seniors, 1:1 Poster -Moonlight on The Riverside",
+      "category_path": "Toys & Games > Puzzles > Jigsaw Puzzles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXPR6F4P",
+      "title": "Enventor 20V Cordless Oscillating Multi tool, Brushless Oscillating Saw with 28PCS Accessories, Fast Charger, 6 Variable Speeds, 4° Oscillation Angle for Scraping, Sanding, Cutting, Blue",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tools > Oscillating Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXSYYSD7",
+      "title": "Naitesen Professional Brisket Carving Knife Set for Men, Grilling Knives, Hand Forged Super Sharp Butcher Slicing Knife Boning Knife for Meat Turkey Cutting Home Kitchen BBQ",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Carving Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXV1956S",
+      "title": "PRETEC Diamond Saw Blades, 5\" Tile Blade for Angle Grinder, 5\" Diamond Saw Blades, Ceramic Blades for Cutting & Grinding Porcelain, Granite, Marble, 7/8\"-20mm Arbor-2PCS",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Saw Blades, Parts & Accessories > Blades > Diamond Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXV2FD73",
+      "title": "PRETEC Diamond Saw Blades, 4-1/2\" Tile Blade for Angle Grinder, 4.5\" Diamond Saw Blades, Ceramic Blades for Cutting & Grinding Porcelain, Granite, Marble, 7/8\"-20mm Arbor-5PCS",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Saw Blades, Parts & Accessories > Blades > Diamond Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DY13NK7K",
+      "title": "Marking Knife Woodworking Heavy Duty Scribing Gauge Knife Leather Sheath Carbon Steel Double Beveled Blade Striking Knife Wooden Handle Scribe Carving Tool Fathers Day Mens Woodworking Birthday Gift",
+      "category_path": "Tools & Home Improvement > Measuring & Layout Tools > Marking Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYNHWPZ1",
+      "title": "DIOVPLX Garden Kneeler and Seat - Heavy Duty Folding Garden Stool with Handles, Stable Kneeling Device Bench Chair Gardening Tools Gifts for Women Men Seniors Gardeners Outdoor Weeding Planting",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Gloves & Protective Gear > Workseats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYNZK392",
+      "title": "Golden Bird Damascus Chef Knife, 8 Inch Professional Japanese Kitchen Knife,Sharp High Carbon Stainless Steel VG10 Chef’s Knives For Meat Cutting,Hand Forged Cooking Knife with Christmas Gifts for Men",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYP1W2PS",
+      "title": "Golden Bird Butcher Breaking Knife for Meat Cutting, 8 Inch Damascus Boning Knife, VG10 Brisket Trimming Knives, Flexible Fillet Knife, Japanese Slicing Knives with Wood Handle,Christmas Gifts for Men",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Fillet Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYXTWSH3",
+      "title": "KEEMAKE Serrated Bread Knife, 8 Inch Japanese Damascus Kitchen Knife Wave Edge with G10 Ergonomic Handle, Cake Cutter Bread Slicing Knife for Sourdough Loaf Ciabatta",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZNVTS4P",
+      "title": "XOOL 78-Piece Ratchet Wrench & Screwdriver Tool Set with Metric 1/4\" Sockets 4–12mm, Magnetic Precision & Standard Bits for Electronics, Home Repair & DIY",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Screwdrivers & Nut Drivers > Screwdriver Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F13HSG6W",
+      "title": "LQT Hair Clipper Set Professional Hair Trimmer Electric Foil Shaver Razor for Men Haircutting Machine for Barber Clippers and Trimmers Grooming Kit Nose Body Hair Trimmer",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Cutting Tools > Hair Clippers & Accessories > Hair Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1BRW7Y9",
+      "title": "Copper Tech Plus Men's Right for Left Handed Golfers Golf Glove – Advanced Compression for Muscle Support, Joint Relief Gloves – White/Red, 1 Pack, X-Large",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1FHG4HQ",
+      "title": "Chalzidar Jigsaw Puzzles for Adults 1000 Pieces, Interlock Perfectly Letter on Back No Dust, Home Decor Birthday Party Gift Toy for Men Women Elders Seniors, 1:1 Poster - Flowers Bloom",
+      "category_path": "Toys & Games > Puzzles > Jigsaw Puzzles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1XR8BQC",
+      "title": "Gtencemen 6 Piece Teak Wood Kitchen Utensil Set - Non-Scratch & Non-Toxic Kitchen Cooking Tools with Turner, Slotted Spatula, Angled Spatula, Skimmer, Serving & Salad Spoons",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1XYT643",
+      "title": "Gtencemen Wooden Kitchen Utensils Set 5 Piece Teak Wood - Non Scratch & Non Toxic Cooking Tools with Turner, Slotted Spatula, Angled Spatula, Serving Spoon, Salad Spoons",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cooking Utensils > Utensil Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1YBVQ65",
+      "title": "Sylph Safety Pin Half Hoop Earrings for Women Copper Paperclip Dangle Drop Stud Earrings Heart-Shaped Cubic Zirconia S925 Post Paper Clip Geometric Jewelry (Silver)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Earrings > Drop & Dangle",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1Z81QV6",
+      "title": "WALDWERK Large Teak Wood Cutting Board (24 x 18 x 1,2\") - Solid Wood Cutting Board - Extra Large Teak Wood Chopping Board - Wooden Butcher Block for Kitchen",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F21CHB4P",
+      "title": "MUOZLOP 35 Pack Reciprocating Saw Blades Set， High Carbon Saw Blades，Metal and Woodcutting Saw Blades with Organizer Case (35 Pack)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Saw Blades, Parts & Accessories > Blades > Reciprocating Saw Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2HH2DXR",
+      "title": "COZYGIFT Whittling Kit for Adult Beginners, 29Pc Wood Carving Tools Set: 7 Knives, 6 Detail Gouges, Solid Strop Board, Gloves & Video Guide. Hand Carving Knife Set for Spoon, Basswood, DIY Hobby Gift",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Woodcrafts > Wood Carving Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2HLNW53",
+      "title": "COZYGIFT Wood Carving Tools Set for Adults, 31-Piece Whittling Kit with 13 Razor Sharp Detail Knives, Solid Strop Board, Basswood Blocks, Gloves, Premium Vintage Leather Roll Case for Beginners DIY",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Woodcrafts > Wood Carving Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F4XZCG52",
+      "title": "Momotou 7 inch Matte Blue Straight Dog Grooming Scissors Professional 440C Stainless Steel Dog Shears Smooth Cutting Comfortable Grip and Easy to Use for Groomers and Home Use",
+      "category_path": "Pet Supplies > Dogs > Grooming > Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F4Y29C16",
+      "title": "Momotou 7 inch Matte Blue Thinning Dog Grooming Scissors Professional 440C Stainless Steel Dog Thinner Shears Smooth Cutting Comfortable Grip and Easy to Use for Groomers and Home Use",
+      "category_path": "Pet Supplies > Dogs > Grooming > Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F58FWKM2",
+      "title": "Wire Stripper Twister for Drill, 2025 Upgraded Wire Stripping Tool & Wire Twisting Connector for Cutters 6-14 AWG, 8 In 1 Professional Electrician Twister Stripping Tool with 70PCS Nuts",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Strippers > Wire Strippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5H58YMC",
+      "title": "SUZUME 22-Piece Ratchet Wrenches Set Metric (6-18mm) SAE (1/4”-3/4”) Cr-V Steel 72-Tooth 5° Swing Arc Combination Wrench Sets with case for Tight Spaces Ideal for Mechanics and DIY Enthusiasts",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Wrenches > Combination Wrenches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5LJVRYS",
+      "title": "92B Series 9 Electric Shaver Replacement Head Accessories for Braun S9 Foil & Cutter Razor Heads – Foil & Cutter for S9 9290cc/9370cc/9390cc, Close Shave & Hypoallergenic, Wet/Dry Use",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Replacement Heads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5PXG18T",
+      "title": "TONMA Fabric Scissors [Made in Japan] 8.2-Inch Lightweight Sewing Scissors All Purpose Japanese SG2 Stainless Steel for Office Work Home Arts School Students Crafting Cutting, Right Handed",
+      "category_path": "Office Products > Office & School Supplies > Cutting & Measuring Devices",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F6K2W6K3",
+      "title": "Blessource Electric Nail Clipper,2-in-1 Electric Nail Trimmer Polishing&Fragments Storage with Led Light with Two Speeds Gears for All People (White)",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Nail Tools > Nail Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6Y14WCF",
+      "title": "Disracker 10-inch Large Potholder Weaving Loom Kit - 288 Premium Loops in 12 Colors - DIY Arts and Crafts for Kids & Adults - Professional Weaving Set for Beginners - Creative Gift for Girl Ages 6-12+",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Weaving & Spinning > Weaving Looms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6YY79XY",
+      "title": "Convend All-in-One Craft Bundle for Makers and Explore Air Cutting Machine - Craft Kit with Weeding Tools, HTV Vinyl, Permanent Vinyl, LED Light Pad, Paper Cutter for Crafting Projects",
+      "category_path": "Arts, Crafts & Sewing > Scrapbooking & Stamping > Adhesive Vinyl",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F7F22D8S",
+      "title": "2 Pack Clay & Wood Rasp Tool with Textured Ergonomic Handle – Smoothing Tool for Pottery, Ceramics & Woodworking, Ultra Sharp Alloy Blade",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Ceramics & Pottery > Ceramic & Pottery Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F7LNCJTM",
+      "title": "Kitchen Scissors Come Apart Kitchen Shears for Food Heavy Duty Shears for Chicken Bone Nutcracker Bottle Can Opener Premium Stainless Steel Scissors 01B",
+      "category_path": "Office Products > Office & School Supplies > Cutting & Measuring Devices",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8BBZY7D",
+      "title": "Goldenwarm 2 Pieces Gold Dummy Door Handle, Non-Turning Brushed Gold Door Handles for Bifold Closet Doors, Single Side Lever Heavy Duty Round Modern Door Handle",
+      "category_path": "Tools & Home Improvement > Hardware > Door Hardware & Locks > Door Levers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8HZTCNY",
+      "title": "Cactus Peeler Spoon, 2025 New Multi-Function Cactus Pelador De Nopales Peeler Tool, Stainless Steel Nopales Peeling Knife Noodle Cutter for Kitchen Gadgets (2)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Peeling, Grating & Slicing Tools > Peelers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8J1GLT5",
+      "title": "Cactus Peeler Spoon, 2025 New Multi-Function Cactus Pelador De Nopales Peeler Tool, Stainless Steel Nopales Peeling Knife Noodle Cutter for Kitchen Gadgets (4)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Peeling, Grating & Slicing Tools > Peelers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8VTXRFX",
+      "title": "Core Flex Advanced Dissection Kit Biology Lab Anatomy Dissecting Set with Stainless Steel Scalpel Knife Handle Blades for Medical and Veterinary Students Stainless Steel 38-Piece",
+      "category_path": "Industrial & Scientific > Lab & Scientific Products > Lab Supplies & Consumables > Lab Utensils > Dissection Equipment > Dissection Kits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9P5ZQBN",
+      "title": "XARILK Edge Kitchen Knife Sharpener – Pull-Through Manual Sharpener with Spring Arms – Tungsten Carbide, Self-Adjusting Angle, Fast Edge Repair for Kitchen, Outdoor, and EDC Knives (Black)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Knife Sharpeners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9PJ921C",
+      "title": "Toenail Clippers for Seniors Thick Toenails, 2026 Long Handle Toe Nail Clippers with Angled Head, Slanted Toenail Clippers & Wide Opening Ingrown Nail Clippers for Men, 6PCS",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Nail Tools > Nail Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9YZ1NFH",
+      "title": "Reaction Tackle Braided in the USA Fishing Line- 4 Strand- Green 30/400",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Fishing Line > Braided Line",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9YZY49W",
+      "title": "Reaction Tackle Braided in the USA Fishing Line- 5 Strand- Green 20/500",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Fishing Line > Braided Line",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9Z24NSX",
+      "title": "Reaction Tackle Braided in the USA Fishing Line- 4 Strand- Green 40/400",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Fishing Line > Braided Line",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9Z3WZ24",
+      "title": "Reaction Tackle Braided in the USA Fishing Line- 5 Strand- Blue 50/500",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Fishing > Fishing Line > Braided Line",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FB3WLKTX",
+      "title": "AMZWEI 50Pcs Professional Oscillating Tool Blades Multitool Blade, Universal Oscillating Saw Blades Wood Plastic Drywall Cutting Compatible with Dewalt, Milwaukee, Dremel, Ryobi, Bosch",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Oscillating Tool Accessories > Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FBKJ25QH",
+      "title": "Hot Wire Foam Cutter Kit, 3-in-1 Electric Styrofoam Cutter with 3Pcs Hot Cutting Pen (4\", 6\", 8\"), 9-36W Adjustable Voltage Controller, for Cutting, Detail Handling, DIY Crafts",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Cutters > Wire Cutters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FBWPD94K",
+      "title": "Momotou 7.5'' Curved Dog Grooming Scissors CNC 440C Blades Sharp and Durable Black and Gold Dog Shears Smooth Cutting Easy to Use for Professional Groomer",
+      "category_path": "Pet Supplies > Dogs > Grooming > Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FBWRQCSL",
+      "title": "Momotou 7'' Straight Dog Grooming Scissors CNC 440C Blades Sharp and Durable Dog Shears Black and Gold Pet Scissors Smooth Cutting Easy to Use for Professional Groomer",
+      "category_path": "Pet Supplies > Dogs > Grooming > Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FBWT4SXR",
+      "title": "Momotou 7'' Curved Dog Grooming Scissors CNC 440C Blades Sharp and Durable Dog Shears Black and Gold Pet Scissors Smooth Cutting Easy to Use for Professional Groomer",
+      "category_path": "Pet Supplies > Dogs > Grooming > Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC2SCWNW",
+      "title": "Girolle Cheese Shaver Tool for Making Rose-Shaped Cuts - Tête de Moine & Girolle Cheese Curler Wheel Fitted with Fasteners & Non-Slip Pads - Stainless Steel Construction with Sharp Blade & Wood Base",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cheese Tools > Cheese Slicers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC337V43",
+      "title": "Mandala Crafts Rose Gold 12mm Cord Ends Caps for Jewelry Making Leather Cord Bracelets Necklaces - 20 Sets Glue on Round Kumihimo Ends Caps with Lobster Claw Clasps DIY Supplies",
+      "category_path": "Arts, Crafts & Sewing > Beading & Jewelry Making > Jewelry Findings > End Caps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCCJV5WL",
+      "title": "Enirunly 3D Puzzle Vase – 160-Piece Curved Plastic Jigsaw with Detachable Water Cup – DIY Decorative Flower Vase for Adults – Ideal Gift for Puzzle Enthusiasts & Home Décor",
+      "category_path": "Toys & Games > Puzzles > Brain Teasers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCCYDSNX",
+      "title": "Copper Advanced Tech 2.0 Golf Gloves Men Right Handed Golfer Or Left Handed Golfer | Joint Support Copper Compression Womens Golf Glove | Tear Resistant Durability and Tacky Grip for Max Control",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCK9BXBC",
+      "title": "110V Plug 120V 3-Prong Drop Cord Cap NEMA 5-15P 15A Straight Blade Repair Plug for 12AWG Male Extension Cord End Replacement ETL Listed Orange-Tinted Red 10-Pack",
+      "category_path": "Tools & Home Improvement > Electrical > Plugs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCL2BW2C",
+      "title": "Lenporl Foldable 2Pack Trauma Shears with Holster, 6 in1 Emergency Scissors, Strap Cutter, Glass Breaker,Oxygen Tank Wrench,Portable Medical Tool for Nurses, Camping, and Outdoor Survival Blue",
+      "category_path": "Industrial & Scientific > Professional Medical Supplies > Instruments & Surgical Tools > Scissors & Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCRT31DL",
+      "title": "2 in 1 Eyebrow Trimmer Scissor, 2025 New Eyebrow Scissors with Comb Precision Eyebrow Trimming, Non-Slip Eyebrow Cutter Hair Removal Eyebrow Scissors Makeup Tool for Men Women (White)",
+      "category_path": "Beauty & Personal Care > Tools & Accessories > Skin Care Tools > Eyebrow Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCS4B6H9",
+      "title": "2 in 1 Eyebrow Trimmer Scissor, 2025 New Eyebrow Scissors with Comb Precision Eyebrow Trimming, Non-Slip Eyebrow Cutter Hair Removal Eyebrow Scissors Makeup Tool for Men Women (Black)",
+      "category_path": "Beauty & Personal Care > Tools & Accessories > Skin Care Tools > Eyebrow Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCS7T874",
+      "title": "Navegando Adjustable Wrench Set (6, 8, 10 Inch), 3-Piece Wrenches with Anti-Slip Handle for Home, Plumbing & Automotive Repair",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Wrenches > Adjustable Wrenches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDGT65VZ",
+      "title": "Bamboo Cutting Board Natural Non Toxic Chopping Wood Cutting Board With Juice Grooves Knife-Friendly Finish For Versatile Kitchen Use Ideal Charcuterie & Chopping Large Multi-Use New Home Must Haves",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDMXB99X",
+      "title": "hanky panky Signature Lace Printed Boyshort (PR4812P),Small,Cookie Cutter - Cookie Cutter,Small",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Lingerie, Sleep & Lounge > Lingerie > Panties > Boy Shorts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF4RSVPR",
+      "title": "Magic Eyebrow Pencil, 2025 New 4 Tipped Precise Brow Eyebrow Contouring Pen, Long Lasting Contouring Eye Brow Pen for Womans (Gray Brown)",
+      "category_path": "Beauty & Personal Care > Makeup > Eyes > Eyebrow Color",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF4TGTFB",
+      "title": "Magic Eyebrow Pencil, 2025 New 4 Tipped Precise Brow Eyebrow Contouring Pen, Long Lasting Contouring Eye Brow Pen for Womans (Dark Brown)",
+      "category_path": "Beauty & Personal Care > Makeup > Eyes > Eyebrow Color",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF4TKWJC",
+      "title": "Magic Eyebrow Pencil, 2025 New 4 Tipped Precise Brow Eyebrow Contouring Pen, Long Lasting Contouring Eye Brow Pen for Womans (Colorful)",
+      "category_path": "Beauty & Personal Care > Makeup > Eyes > Eyebrow Color",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF4WY5HZ",
+      "title": "Magic Eyebrow Pencil, 2025 New 4 Tipped Precise Brow Eyebrow Contouring Pen, Long Lasting Contouring Eye Brow Pen for Womans (Red Brown)",
+      "category_path": "Beauty & Personal Care > Makeup > Eyes > Eyebrow Color",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF4X1XCR",
+      "title": "Magic Eyebrow Pencil, 2025 New 4 Tipped Precise Brow Eyebrow Contouring Pen, Long Lasting Contouring Eye Brow Pen for Womans (Light Brown)",
+      "category_path": "Beauty & Personal Care > Makeup > Eyes > Eyebrow Color",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFBFCMK2",
+      "title": "Prenafla Commercial French Fry Cutter with Stainless Steel 3/8\" Blades, Heavy Duty Lemon Potato Cutter for French Fries with Extended Handle, Potato Slicer for Home and Restaurant Use",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Peeling, Grating & Slicing Tools > Mandolines & Slicers > Mandolines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFT1356X",
+      "title": "10Pcs 220674 Shield Hand Drag for Hypertherm PMX 45 T45V Plasma Cutting Torch Consumables",
+      "category_path": "Tools & Home Improvement > Welding & Soldering > Welding Equipment > Welding Equipment & Accessories > Plasma Cutting Equipment",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFX9KFSJ",
+      "title": "Teakhaus Carving Board and Cutting Board Oil Set - Includes Small (S) Wood Cutting Board with Juice Groove and EON Food Grade Mineral Oil - Knife-Friendly - FSC Certified",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG2PN7YB",
+      "title": "Cordless Metal Shears Compatible with Milwaukee 18V Battery, Brushless Motor 400Nm Torque, 14GA Steel Cutter, 360° Rotating Head, LED Light, Multi-Material Cutting (Tool Only, No Battery)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tools > Shears & Nibblers > Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG7D14HN",
+      "title": "TONMA Kitchen Scissors All Purpose [Made in Japan] Japanese Kitchen Shears with Micro Serrated, Solid Stainless Steel Build Heavy Duty Cooking Scissors for Food, Mirror-Finished, Dishwasher Safe",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG7KZ861",
+      "title": "PUR3 Womens Golf Glove Left Hand and Right Hand - 2 Pack Ladies Golf Gloves - Ultra Soft Cabretta Leather",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH2QGKYY",
+      "title": "Stainless Steel Slicer Shredder Attachment for KitchenAid Stand Mixers, Large Vegetable Slicer Cheese Grater Attachment for Kitchenaid, Salad Maker Grinding Powder with 4 Blades",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Small Appliance Parts & Accessories > Stand Mixer Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH526SJP",
+      "title": "AIZMOZIA Wood Carving Kit for Beginners – 25pcs Whittling Knife Kit Wood Carving Tools with PU Leather Storage Bag, 10 Carving Knives, 6 Templates & Basswood for DIY Crafts",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Woodcrafts > Wood Carving Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH9XDRRS",
+      "title": "SAKAMOSH Electric Can Opener Smooth Edge, Battery Operated Kitchen Can Opener for Seniors with Arthritis, One Touch Side Cut Fits Most Can Sizes, Left-handed Friendly, Ideal Holiday Gift",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Can Openers > Electric",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHVK2KWQ",
+      "title": "8-in-1 Heavy Duty Toenail & Fingernail Clippers for Seniors Men with Thick & Ingrown Nails - Manicure Pedicure Kit with 360° Swivel Head - Professional Wide Jaw Podiatrist Tools",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Nail Tools > Nail Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ1XHKP6",
+      "title": "Trauma Shears Foldable,with Strap Cutter and Glass Breaker and Compatible Holster，Outdoor Camping Succour Scissors Tools,Emergency Response Medical Scissors For Nurses(red-black)",
+      "category_path": "Industrial & Scientific > Professional Medical Supplies > Instruments & Surgical Tools > Scissors & Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJGDWJPN",
+      "title": "Tulzim Electric Foil Shaver for Men: Cordless Electric Razor for Face & Beard - 3 Floating Blades, 100-Min Runtime, USB-C Fast Charge, IPX7 Waterproof for Travel,Ink Gray",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Foil Shavers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJRWB9YF",
+      "title": "Wire Stripper Twister Tool for Drill, 2026 Upgraded Wire Stripping Tool & Wire Twisting Connector for Cutters 6-14 AWG, 8 In 1 Professional Electrician Twister Stripping with 5 PCS Blade",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Strippers > Wire Strippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FK2D5DVK",
+      "title": "PGM Golf Putter – 431 Stainless Steel with Ultra-Low CG, Dual-Direction Milled Face & Knot-Free Steel Shaft for Men",
+      "category_path": "Sports & Outdoors > Sports > Golf > Golf Clubs > Putters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKH7JJSF",
+      "title": "Portable Rotary Dual Ring Electric Shaver, 2025 Premium One-Button Long Lasting Mini Rotary Dual Ring Electric Razor for Men, Compact USB Rechargeable Shaver for HomeTravel (White)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Rotary Shavers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKSDR6XD",
+      "title": "Wooden Handle Walking Cane - Carbon Fiber, Foldable and Adjustable, for Men and Women, Elderly and Seniors (Glossy Surface)",
+      "category_path": "Health & Household > Medical Supplies & Equipment > Mobility & Daily Living Aids > Mobility Aids & Equipment > Canes, Crutches & Accessories > Canes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKTJ9W4Z",
+      "title": "lyrahair 13x4 Lace Glueless Turban Braided Afro Twist Braids Topper Pre-Braid Human Hair Headband Frontal, Pre-Plucked Natural Hairline Half Wig Human Hair Gele Frontal (C side part, 20 inch)",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKTK96FW",
+      "title": "lyrahair 13x4 Lace Glueless Gele Turban Braiding Frontal Afro Twist Braids Topper Pre-Braid Human Hair Two Strands Pre-Plucked Natural Hairline Half Wig Frontal (middle part, 16 inch)",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKTLZVTM",
+      "title": "lyrahair 13x4 Lace Closure Glueless Gele Turban Afro Twist Braids Topper Pre-Braid Human Hair Headband Wig, Pre-Plucked Natural Hairline Braiding Half Wig Frontal (C side part, 14 inch)",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKTM2VPS",
+      "title": "13x4 Lace Frontal Closure Glueless Gele Turban Frontal Afro Twist Braids Topper Pre-Braid Human Hair Headband Wig, Pre-Plucked Natural Hairline Half Wig Human Hair Gele Frontal (C side part, 16 inch)",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKTM5HQR",
+      "title": "lyrahair 13x4 Lace Frontal Closure Glueless Gele Turban Afro Twist Braids Topper Pre-Braid Human Hair Headband Wig, Pre-Plucked Natural Hairline Half Wig Braiding Frontal (C side part, 18 inch)",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLD3RSSP",
+      "title": "Tulzim Electric Foil Shaver for Men: Cordless Electric Razor for Face & Beard - 3 Floating Blades, 100-Min Runtime, USB-C Fast Charge, IPX7 Waterproof for Travel,Matte Brown",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Foil Shavers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLHFB56H",
+      "title": "French Home 7 Piece Laguiole Sm Cheese Knives and Spreaders - Plum Rose",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Specialty Knives > Cheese Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMQFS2DQ",
+      "title": "Luna Clay Studios Pottery Ribs 6 Pack - Large Shaping and Trimming Rib Set, Kiln-Dried Cherry Wood Ceramic Tools with Paddle, Round Disc and Serrated Comb for Wheel Throwing",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Ceramics & Pottery > Ceramic & Pottery Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMXLSKTP",
+      "title": "Bamboo Cutting Board Durable Wood Cutting Boards for Kitchen with Deep Juice Grooves Built-in Handles Ideal Charcuterie Chopping for Meat, Vegetables and Fruits Ideal Kitchen Gifts(L)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Board Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMYJ4BSR",
+      "title": "16Pcs Folding Utility Knife with 40Pcs Replacement Blades, Retractable Box Cutter Knifes Heavy Duty Work Knife for Cardboard, Boxes and Cartons(Style B)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Knives, Parts & Accessories > Knives > Utility Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN7J7ZCY",
+      "title": "VOTREK 8.5\" Pruning Shears for Gardening, 【Unique Stepless Handle Opening】Professional Bypass Garden Clipper, Heavy Duty Plant Pruners for Branch 【SK5 Steel Blades】【All Hand Sizes】,Bright Orange",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Hand Tools > Shears & Scissors > Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNFJT41W",
+      "title": "STAEDTLER Vinyl Eraser Holder 6-Pack (6 Sets of 3 pcs): 3 Units Retractable Erasers for Pencils, Soft Vinyl, Latex-Free, Clean Edges, No Smudges, Pastel Colors, 18 Count",
+      "category_path": "Arts, Crafts & Sewing > Painting, Drawing & Art Supplies > Drawing > Erasers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNG56DXC",
+      "title": "STAEDTLER Norica Pencil 6-Pack (6 Sets of 20 pcs): 18 Pre-sharpened #2 HB Pencils with 1 Eraser & 1 Sharpener, Break-Resistant Lead per pack, 120 count",
+      "category_path": "Arts, Crafts & Sewing > Painting, Drawing & Art Supplies > Drawing > Drawing Media > Pencils",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNL8XLCW",
+      "title": "DRAGON RIOT Butcher Breaking Knife 10 Inch in High Carbon Stainless Steel, Razor Sharp Carving Slicing Knives for Meat Cutting, Professional Brisket Knife with Ergonomic Handle,Grilling Gifts for Men",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Carving Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNPN51W4",
+      "title": "#𝟒𝟎𝟎 𝐃𝐢𝐚𝐦𝐨𝐧𝐝 𝐃𝐢𝐬𝐜 for 𝗛𝗢𝗡𝗘 𝗞𝗻𝗶𝗳𝗲 𝗦𝗵𝗮𝗿𝗽𝗲𝗻𝗲𝗿, Premium Intermediate Coarse Grit, Mono-Crystalline Electroplated Rolling Knife Sharpener Disc to Regularize Knives Edge",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Knife Sharpeners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNVV172M",
+      "title": "Fcoget Silver Professional Hair Thinning Shears Hair Cutting Texturizing Teeth Scissors - 6.8\" HIGH-END Extremely Sharp Scissors 440C Stainless Steel for Salon Home Stylists",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Cutting Tools > Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP93JJF2",
+      "title": "JEVONG 2 Pack Series 7 Replacement Heads for Old Gens S7 Shaver, 70S Foil and Cutters Blade Replacement for 795 790cc 7899cc, 720cc, 720s-4 760 Models...",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Replacement Heads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPFWLX5R",
+      "title": "Memorywuu 1 Pcs Pitchfork Spading Handle Replacement 30 Inch Wooden Shovel Handle Replacement D Shaped Pitch Fork Handles Tool Accessories for Shovel Scoop Hoe Rake Garden Digging",
+      "category_path": "Patio, Lawn & Garden > Gardening & Lawn Care > Hand Tools > Pitchforks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPG79GNF",
+      "title": "Liliaafar 50 Pcs Gold Heart Shaped Pins for Women Gifts Metal Hollow Brooches Small Dainty Lapel Pins DIY Accessories for Clothes Dress Hat Scarf Bag Pocket Cardigan Hijab Decor",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Brooches & Pins",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPG9VVLW",
+      "title": "Liliaafar 50 Pcs Silver Heart Shaped Pins for Women Gifts Metal Hollow Brooches Small Dainty Lapel Pins DIY Accessories for Clothes Dress Hat Scarf Bag Pocket Cardigan Hijab Decor",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Brooches & Pins",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPLSPSHD",
+      "title": "Wazakura Kiridashi Knife - Right Hand Japanese Marking & Woodworking Knife | Hand Forged Razor Sharp Carbon Steel Blade Made in Japan (24mm)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Knives, Parts & Accessories > Knives > Fixed-Blade Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPXKSVBZ",
+      "title": "13x4 Lace Frontal Closure Blonde Glueless Gele Turban Frontal Afro Twist Braids Topper Braiding Human Hair Headband Wig, Pre-Plucked Natural Hairline Half Wig Two Strands Hairpiece (613#, 10 inch)",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Wigs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQVB1B5G",
+      "title": "LECDOA 2-in-1 Nasal Hair Cutter, 2025 Upgraded Double-Sided Nose Hair Removal Tool, 360° Rotating Nose Hair Trimmer, Portable Hair Removal Tool for Men and Women (Dark Green, 6 PCS)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQVB1B5H",
+      "title": "LECDOA 2-in-1 Nasal Hair Cutter, 2025 Upgraded Double-Sided Nose Hair Removal Tool, 360° Rotating Nose Hair Trimmer, Portable Hair Removal Tool for Men and Women (Pink, 6 PCS)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQVD5MHB",
+      "title": "LECDOA 2-in-1 Nasal Hair Cutter, 2025 Upgraded Double-Sided Nose Hair Removal Tool, 360° Rotating Nose Hair Trimmer, Portable Hair Removal Tool for Men and Women (Blue, 6 PCS)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQVF1Q82",
+      "title": "LECDOA 2-in-1 Nasal Hair Cutter, 2025 Upgraded Double-Sided Nose Hair Removal Tool, 360° Rotating Nose Hair Trimmer, Portable Hair Removal Tool for Men and Women (Beige, 3 PCS)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRGHPKW4",
+      "title": "Wood Carving Kit,23pcs Wood Carving Tools with 4 Wood Carving Knives 6 Detail Knives 6 Basswood Blocks,Round Handle Design Whittling Kit DIY Hobbies for Beginners Adults Kids Hobby (NewSet1)",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Woodcrafts > Wood Carving Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRLW9H34",
+      "title": "53B Replacement Foil and Cutter Compatible with Braun Series 5 Series 6 Electric Shaver, 53B Blades for Braun S5 Replacement Heads for 6020s,5020s,5018s,5050cs,6020s,6040cs,6072cc,6075cc",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Replacement Heads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRR3K612",
+      "title": "Oh Klyzo 24 Pcs Stainless Steel Pointed Tweezers for Craft 5 Inch Long Tweezers Bulk Lab Forceps with Flat Round Tip High Precision Tweezer for Craft, Sewing, Hair Removal, Plants, Electrical Repair",
+      "category_path": "Industrial & Scientific > Lab & Scientific Products > Lab Supplies & Consumables > Lab Utensils > Lab Tweezers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS5JM5G6",
+      "title": "2 in 1 Nasal Hair Cutter, Stainless Steel Nose Hair Removal Trimmer, Portable Manual Nostril Cleaner, Safe Precision Grooming Tool for Men Women (Dark Green 6PCS)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT3TSTD7",
+      "title": "LePinko Cuticle Scissors, UPGRADED Fine Tip, for Manicure and Pedicure, Gifts for Men Women",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Cuticle Tools > Cuticle Scissors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FV8F69SN",
+      "title": "Frayot 3-Layer Craft Organizer with 18 Small & 8 Mini Compartments, Rotating Open Design, Handled Storage Box for Art Supplies, Sewing Kit, Home Office Organization (Purple)",
+      "category_path": "Arts, Crafts & Sewing > Organization, Storage & Transport > Craft & Sewing Supplies Storage",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FV8HKTRN",
+      "title": "Frayot 3-Layer Craft Organizer with 18 Small & 8 Mini Compartments, Rotating Open Design, Handled Storage Box for Art Supplies, Sewing Kit, Home Office Organization (Pink)",
+      "category_path": "Arts, Crafts & Sewing > Organization, Storage & Transport > Craft & Sewing Supplies Storage",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FV8KV1K7",
+      "title": "3-Piece Kitchen Chef Knife Set - 8\" Chef Knife & 7\" Nakiri Knife & 5\" Utility Knife, Professional High-Carbon Stainless Steel Ultra Sharp Knives with Ergonomic Wood Handle & Gift Box for Cooking",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVF1ZK2X",
+      "title": "eLusefor Shooting Gloves Men - Full Dexterity Bare-Hand Feel,Patented Wrap-Finger,Knuckle Touchscreen,Impact Protection,Tactical",
+      "category_path": "Sports & Outdoors > Hunting & Fishing > Hunting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVFZDH9H",
+      "title": "55x25in Handmade Burgundy Fringed Shawl – Fully Hand-Crocheted, Suitable for Both Casual & Formal Occasions, an Ideal Gift Choice",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Scarves & Wraps > Wraps & Pashminas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVG295LH",
+      "title": "55x25in Handmade Black Fringed Shawl – Fully Hand-Crocheted, Suitable for Both Casual & Formal Occasions, an Ideal Gift Choice",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Scarves & Wraps > Wraps & Pashminas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWBTMJBM",
+      "title": "TONMA Japanese Kitchen Scissors All Purpose [Made in Japan] Heavy Duty Kitchen Shears for Herbs, Chicken, Poultry, Food, Cooking, Office, Leather, Ergonomic Handle Effortless Cutting",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWC1NPLR",
+      "title": "DOWELL 299-Piece Professional Hand Tool Set, Ultimate Drawer Toolbox with Sockets, Pliers, Hex Keys, Screwdrivers for Home, Auto Repair, Workshop & Emergency DIY",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Tool Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRPG1CJ",
+      "title": "LiYiQ 30 Pcs Cute Eraser for Pencils Bulk Cute Supplies Kawaii Erasers for Classroom Fun Erasers for Classroom Supplies Party Favors Gift",
+      "category_path": "Office Products > Office & School Supplies > Writing & Correction Supplies > Erasers & Correction Products > Erasers > Standard Pencil Erasers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXGFGYHP",
+      "title": "Handheld Sewing Machine with Sewing Kits,Mini Sewing Machine for Quick Stitching Suitable for Home,Travel,DIY (Red)",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Sewing Machines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXM5R5DB",
+      "title": "Etvryls 4K Yellow Gold Twisted Rope Necklace, 3.2mm & 4.2mm Width, Great Gift for Men and Women (Available in Lengths from 16 to 36 Inches) (3.2mm, 16*inch)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Necklaces > Chains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXXX9NYV",
+      "title": "STAEDTLER Pencil Sharpener with 2 Holes - Dual Size Manual Sharpener for Standard, Colored & Makeup Pencils - Compact Design, 12 Pack",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYMRCTD8",
+      "title": "Sewing Machine for Beginners with Extension Table, Mini Electric Portable Sewing Machine with 12 Stitches LED Light and Accessories Kit for Home DIY Sew Project Cyan",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Sewing Machines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYMZ2H27",
+      "title": "ZiTour 2 in 1 Nasal Hair Cutter, 2025 New Double Sided Nose Hair Knife for Women Men, 360° Rotating Manual Nose Hair Remover Tool, Manual Ear Nostril Hair Trimmer Travel Essentials (Blue, 6Pcs)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYN2RKH3",
+      "title": "ZiTour 2 in 1 Nasal Hair Cutter, 2025 New Double Sided Nose Hair Knife for Women Men, 360° Rotating Manual Nose Hair Remover Tool, Manual Ear Nostril Hair Trimmer Travel Essentials (Green, 6Pcs)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYN2W4LK",
+      "title": "ZiTour 2 in 1 Nasal Hair Cutter, 2025 New Double Sided Nose Hair Knife for Women Men, 360° Rotating Manual Nose Hair Remover Tool, Manual Ear Nostril Hair Trimmer Travel Essentials (Pink, 6Pcs)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYN3SCQH",
+      "title": "ZiTour 2 in 1 Nasal Hair Cutter, 2025 New Double Sided Nose Hair Knife for Women Men, 360° Rotating Manual Nose Hair Remover Tool, Manual Ear Nostril Hair Trimmer Travel Essentials (White, 6Pcs)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYN3ZPCD",
+      "title": "ZiTour 2 in 1 Nasal Hair Cutter, 2025 New Double Sided Nose Hair Knife for Women Men, 360° Rotating Manual Nose Hair Remover Tool, Manual Ear Nostril Hair Trimmer Travel Essentials (Pink, 3Pcs)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYN51524",
+      "title": "ZiTour 2 in 1 Nasal Hair Cutter, 2025 New Double Sided Nose Hair Knife for Women Men, 360° Rotating Manual Nose Hair Remover Tool, Manual Ear Nostril Hair Trimmer Travel Essentials (Black, 6Pcs)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYN58RMD",
+      "title": "ZiTour 2 in 1 Nasal Hair Cutter, 2025 New Double Sided Nose Hair Knife for Women Men, 360° Rotating Manual Nose Hair Remover Tool, Manual Ear Nostril Hair Trimmer Travel Essentials (Green, 3Pcs)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYN76Z56",
+      "title": "ZiTour 2 in 1 Nasal Hair Cutter, 2025 New Double Sided Nose Hair Knife for Women Men, 360° Rotating Manual Nose Hair Remover Tool, Manual Ear Nostril Hair Trimmer Travel Essentials (Brown, 3Pcs)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Nose & Ear Hair Trimmers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZ4VPNWF",
+      "title": "Circle Punch, Blue Paper Punch,5 Sizes Creative Circle Hole Punch Cutters for Paper Crafts, Cardstock, Gift Wrapping, Scrapbook Tools Cards,Arts Fun Projects,Like Christmas and Birthday Gifts,etc.",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Paper & Paper Crafts > Punches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZJKPZ2Y",
+      "title": "6-Piece Reacher Grabber Set - 32\" Foldable Aluminum Pickup Tool with Swivel Claw & Magnet (4 Pack) + 16\" Stainless Steel & 12\" Iron Mini Grabbers, Heavy Duty Trash Picker & Garden Nabber",
+      "category_path": "Health & Household > Medical Supplies & Equipment > Mobility & Daily Living Aids > Reaching Aids",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZKBKTM3",
+      "title": "3 Pack Fencing Mask Cord for Foil & Sabre – Clear Twin-Core Head Cord with Stainless Steel Clips – Competition Approved Electric Mask Cable – Anti-Bend, High Conductivity",
+      "category_path": "Sports & Outdoors > Sports > Other Sports > Fencing > Training Equipment",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G11P2J7N",
+      "title": "Handheld Sewing Machine,Mini sewing machine,Easy to Use DIY Home Travel Electric Handheld Sewing Machine for Beginners.",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Sewing Machines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G192WNG4",
+      "title": "FUNLMO Eyebrow Rook Labret Lip Piercing Jewelry Small Belly Button Ring Internal Threaded Vertical Labret Lip Jewelry G23 Titanium 16G Moss Agate Curved Barbell 8mm Silver",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Body Jewelry > Piercing Jewelry > Barbells",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1H4HLBF",
+      "title": "Stainless Steel Cable Tie With Gun 100 PCS 11.8\" Metal Zip Ties, Heavy Duty Self-Locking Tool for Fastening & Cutting, Outdoor Fence & Pipe Organizer",
+      "category_path": "Electronics > Accessories & Supplies > Cord Management > Cable Ties",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1SKXGL5",
+      "title": "4pcs Pelt Scraper Fleshing Tools, 11.4in Fleshing Knife for Hides Scraper Flesher Tanning Tool Suitable for Taxidermy Leather Making Tools Skinning Fur Handling Supplies",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Leathercraft > Leathercraft Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2KZ6BMR",
+      "title": "Upgrade Sewing Scissors, Stainless Steel Premium Tailor Scissors, Microcrystalline Steel Shears，Thread Snips Trimming Nipper for Gift Wrapping Yarn, Sewing Supplies (Silver)",
+      "category_path": "Office Products > Office & School Supplies > Cutting & Measuring Devices",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2L7DK6K",
+      "title": "Professional Hair Clipper，Compatible For Madeshow，M5 M7 M10 JRL 2020C 2020T LENCE FF1T FF1C P600 P700 P800 P620 Blade Knife Mesh Net(P700 Blade)",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Cutting Tools > Hair Clippers & Accessories > Trimmer & Clipper Blades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2MTC994",
+      "title": "Set of Two Love Knot Ball Silver Braided Edge & Gold Plated Twisted Rope Design Stud Earrings for Women .925 Sterling Silver",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Earrings > Ball",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2QYF1M9",
+      "title": "Marking Knife Woodworking Long Neck Heavy Duty Scribing Gauge Knife Dual Grooves Leather Sheath Carbon Steel Beveled Blade Striking Knife Wooden Handle Carving Tool Fathers Day Mens Birthday Gift",
+      "category_path": "Tools & Home Improvement > Measuring & Layout Tools > Marking Tools > Scribers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2XQVM33",
+      "title": "Dermaplane Razor for Women Face,Sonic Dermaplane,Sonic Dermaplaning Tool,Face Shaver Facial Hair Removal & Peach Fuzz Romover - 12 Blades (White blades accessories)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Women's > Epilators, Groomers & Trimmers > Personal Groomers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3HNQMZ9",
+      "title": "Electric Nail Clipper for Family Care【Precision Dual-Blade Trimming System】 2-in-1 Trimmer & Grind Nail Care Tool with LED Light, Ultra-Quiet & Safe for Babies, Seniors and Adults",
+      "category_path": "Health & Household > Baby & Child Care",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3WYSTGM",
+      "title": "Circle Punch, Paper Punch,2 1/2\" Circle Hole Punch Cutters for for Paper Crafts, Cardstock, Gift Wrapping, Scrapbook Tools Cards, Arts Fun Projects, Christmas, Birthday Gifts(Blue).",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Paper & Paper Crafts > Punches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G48M4KX8",
+      "title": "Cordless Brushless Sheet Metal Shear,Compatible With Makita 18V Max Battery,360° Pivoting Head,14GA Cutting Capacity,295 Ft-Lbs,Multi-Material Cutter for Stainless Steel/Iron/Leather/Carpet(Tool Only)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tools > Shears & Nibblers > Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G48XGL1S",
+      "title": "Cordless Brushless Sheet Metal Shear,Compatible With Milwaukee 20V Max Battery,360° Pivoting Head,14GA Cutting Capacity,295 Ft-Lbs,Multi-Material Cutter for Stainless Steel/Iron/Leather(Tool Only)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Scissors & Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4FT1TW2",
+      "title": "Vermont Heart Design, Heart Rubber Stamp, Customizable Three-Line Inked Standard 1-5/8 Square Wood Handle, Ideal for Small Business Owners, Crafters, and Hobbyists, Unique",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4V4GDYZ",
+      "title": "Handheld Sewing Machine - Portable Mini Sewing Machine with Accessories Kit for Beginners DIY (black)",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Sewing Machines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5PN71FL",
+      "title": "Electric Knife Sharpener for Household Kitchen Knives Orange",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Knife Sharpeners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5Q3MVF2",
+      "title": "MUCUNNIA 4pcs Brown Safety Eyes for Crocheting with Washers 50mm Brown Safety Eyes for Crochet Craft Safety Eyes Gift for Crochet Lovers Halloween Decorations Stuffed Animals Crafting",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Doll Making",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5VC36RQ",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (Green/White Checkered, Medium, Left Hand (for Right Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5VRWTKH",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (White/Gold Marble, Large, Left Hand (for Right Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5VZCPZD",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (Green/White Checkered, Medium, Right Hand (for Left Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5W1D98T",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (Green/White Checkered, Large, Left Hand (for Right Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5WLYSFK",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (Green/White Checkered, Large, Right Hand (for Left Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5WQKQG3",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (White/Gold Marble, Small, Left Hand (for Right Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5WQLLFD",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (Green/White Checkered, Small, Right Hand (for Left Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5WRJ42D",
+      "title": "Artipuz 1000 Piece Round Jigsaw Puzzle for Adults - Jesus Nativity Scene, 26.8\" Diameter – Stress Relief & Cognitive Challenge, Ideal Mindfulness Gift for Family Game Night, Artistic Wall Decor",
+      "category_path": "Toys & Games > Puzzles > Jigsaw Puzzles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G5YBZBXT",
+      "title": "Long Handled Toenail Clippers with Magnifying Glass, Ergonomic Wide Jaw Opening for Thick Nails for Seniors, Overweight & Arthritis Sufferers - Easy Reach Pedicure Tool, Pure White (19.50In)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6293JF9",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (White, Large, Right Hand (for Left Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G62Q3YM2",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (White, Small, Right Hand (for Left Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G634FQGX",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (White, Large, Left Hand (for Right Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G638GQ4C",
+      "title": "PulseGolf Premium Golf Glove V2 - AAA Cabretta Leather | Improved Fit and Durability | All Weather Performance | Men and Women (White, Medium, Right Hand (for Left Handed Golfers))",
+      "category_path": "Sports & Outdoors > Sports > Golf > Gloves",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G654B3R2",
+      "title": "Artipuz 1000 Piece Round Jigsaw Puzzle for Adults - 3D Visual Yin-Yang Mountain Animals 26.6in Diameter Circular Brain Challenge & Artistic Home Decor for Mindful Relaxation",
+      "category_path": "Toys & Games > Puzzles > Jigsaw Puzzles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6JPWST4",
+      "title": "Davivy Electric Can Opener - One-Touch Hands-Free Operation, Removable Stainless Steel Cutter, 3-in-1 Design with Knife Sharpener & Bottle Opener (Red)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Can Openers > Electric",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6K4SY6Z",
+      "title": "Davivy Electric Can Opener, Removable Stainless Steel Cutter and 3-in-1 Design with Knife Sharpener and Bottle Opener (Black-Stainless Steel)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Can Openers > Electric",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6K5XZF7",
+      "title": "Davivy Electric Can Opener - One-Touch Hands-Free Operation, Removable Stainless Steel Cutter, 3-in-1 Design with Knife Sharpener & Bottle Opener (Blue)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Can Openers > Electric",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6SL5DVT",
+      "title": "Cluck It Chic Chic Farmhouse Chicken Rubber Stamp - Handcrafted Standard 1-5/8 Square Wood Handle for Crafts, Scrapbooking, and Small Business Branding, Rustic Design",
+      "category_path": "Arts, Crafts & Sewing > Scrapbooking & Stamping > Stamps & Ink Pads > Stamps > Wood Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G71BBG93",
+      "title": "VEYLA Professional Skin-Safe Zero-Cut Back Shaver for Men, Extendable Aluminum Alloy Handle Up to 17.7 Inches, Wet & Dry Use Body Hair Trimmer and Groomer, DIY Nick-Free Men's Back Shaver (1 Pack)",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Body Groomers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G82LVXKC",
+      "title": "Hot Wire Foam Cutter Kit, 30W Electric Polystyrene Cutter with 2Pcs Hot Cutting Pen (5CM & 10CM), Higher Temperature, for Foam Carving Styrofoam Cutting, Detail Handling, DIY Crafts",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Cutters > Wire Cutters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G8GXR4XW",
+      "title": "Deefeel Rolling Knife Sharpener Kit - Knife Sharpening with Diamonds for Razor Sharp Edges - Roller with Magnetic Holder with Multi Degrees Kitchen Home Outdoor (Brown-Curve knife sharpener)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Knife Sharpeners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G8H4PYV7",
+      "title": "Deefeel Rolling Knife Sharpener Kit - Knife Sharpening with Diamonds for Razor Sharp Edges - Roller with Magnetic Holder with Multi Degrees Kitchen Home Outdoor (Brown-Straight tube knife sharpener)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Knife Sharpeners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GC4PJ2D6",
+      "title": "BOLEXINO 10 inch Curved Cimeter Knife W/Non-slip Softgrip, Butcher Knife For Meat Cutting, X50CrMoV15 Stainless Steel, Ideal for Hunting, Kitchen & Home Use",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCLTY1TN",
+      "title": "Professional Laser Guided Scissors for Fabric Cutting, Cuts Straight Fast with Precision Laser Guide,Sewing Scissors for Quilting Home Craft Wrapping Gift with Upgraded Ergonomic Handle",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Craft Supplies > Cutting Tools > Craft Shears",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCXQ9VW5",
+      "title": "8 Inch Chef Knife, 67-Layer Damascus Steel Kitchen Knives with 10Cr15CoMoV Premium Steel Core, Hybrid Diamond-Oval Olive Wood Handle Japanese Knife, 13° Blade Ultra-Sharp Cooking Knives, Gift fo r Him",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Chef's Knives",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCZVJ5ZN",
+      "title": "14\" Huge Dragon Dildo with 3 Knots, 4.45\" Diameter Fantasy Knotted Animal Dildo with Dual Density Silicone & Large Suction Cup, Monster Massive Anal Toy for Advanced Users",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Dildos > Realistic",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GD5CT3NV",
+      "title": "Gulfmew Portable Cord Maker & Fringe Twister, Handheld Yarn Crafting Tool for DIY Macrame & Knotting, Lightweight & Beginner-Friendly, Twisting Tassels in Seconds for Scarves(Pink)",
+      "category_path": "Arts, Crafts & Sewing > Crafting > Craft Supplies > Macrame & Knotting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDGTB8JB",
+      "title": "Handheld Sewing Machine for Beginners Daily Easy Use, Mini Sewing Machine for Quick Stitching with Sewing Kits Suitable for Home,Travel,DIY (Purple)",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Sewing Machines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDWSXV61",
+      "title": "24 Pcs Cute Animals Retractable Eraser for Pencils Cute Supplies Kawaii Erasers Fun Cartoon Erasers Classroom Supplies Party Favors Gift",
+      "category_path": "Toys & Games > Arts & Crafts > Drawing & Painting Supplies > Pencil Erasers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDWXCM7T",
+      "title": "24 Pcs Cute Ocean Retractable Eraser for Pencils Cute School Supplies Kawaii Erasers for Kids Fun Cartoon Erasers Back to School Supplies Kid Party Favors Gift",
+      "category_path": "Toys & Games > Arts & Crafts > Drawing & Painting Supplies > Pencil Erasers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF1MQQS6",
+      "title": "Cordless Electric Scissors, 4V Rechargeable Cardboard Box Cutter with 2 Blades, Safety Lock & LED Light, Rotary Cutter for Cardboard Fabric Carpet Plastic Leather Cloth",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Scissors & Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF6SNZVG",
+      "title": "VYLTO Electric Foil Shavers for Men - Rechargeable Wireless Haircut System with Self-Sharpening Blades, 6 Snap-On Guards & Travel Case, Waterproof and Washable NO1",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Foil Shavers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG9YCYLY",
+      "title": "HiBig Professional Double Foil Shavers for Men: 2-in-1 Electric Razor for Men, Portable LED Display Cordless Close Beard Trimmer for Head Beard Neck, Technology & Precision Blades, Amber Gold",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Foil Shavers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGB6PQQ5",
+      "title": "HiBig Professional Double Foil Shavers for Men: 2-in-1 Electric Razor for Men, Portable LED Display Cordless Close Beard Trimmer for Head Beard Neck, Technology & Precision Blades, Obsidian Black",
+      "category_path": "Beauty & Personal Care > Shave & Hair Removal > Men's > Electric Shavers > Foil Shavers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGCDVDYS",
+      "title": "Outdoor Multifunction Camping Long Saw for Bushcraft, Trees Cutting, Outdoor Hunting, Garden Work, Yard Work, Outdoor survival, Double-bladed handsaw with XL teeth (Black)",
+      "category_path": "Sports & Outdoors > Outdoor Recreation > Camping & Hiking > Knives & Tools > Saws",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GH5WXB26",
+      "title": "16 Inch Kitchen Bamboo Pizza Peel, Large 16” Board Pizza Paddle with Long Handle, Easy-Glide Beveled Edge for Baking, Transferring & Serving – Sturdy Wood Pizza Cutting Boards for Oven, Stone & Grill",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Pasta & Pizza Tools > Pizza Peels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GH5X4ZRQ",
+      "title": "6-Inch Electric Chainsaw Cordless, Brushless Portable Handheld Small Chain Saw with 2 Batteries, for Wood Cutting/TreeTrimming/Courtyard",
+      "category_path": "Patio, Lawn & Garden > Outdoor Power Tools > Chainsaws",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHF7W57V",
+      "title": "USLAI Biscuit Cutter, Stainless Steel Round Cookie Cutter Set, with Bench Scraper & Pastry Blender, Professional Kitchen Baking Dough Tools (3-Piece/Set)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Bakeware > Baking Tools & Accessories > Baking & Pastry Utensils > Dough Blenders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHV2HMXP",
+      "title": "Magnetic Knife Block, Double Sided Kitchen Knife Holder for Countertop, Freestanding Acacia Wood Knife Organizer with Hand-Painted Wave Textured Abstract Painting (Black Blue)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Kitchen Knives & Accessories > Knife Blocks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHVNMMQ5",
+      "title": "Toenail Clipper for Thick Nails Seniors Ingrown Toe Nail Pedicure Knife for Ingrown Nails Removal Kit Cutter Toenail",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Nail Tools > Nail Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJ3743DM",
+      "title": "3-Piece Titanium Cutting Board for Kitchen, Double-Sided Scratch-Resistant Chopping Boards with Juice Grooves, Metal Cutting Boards with Non-Slip Mat, Dishwasher Safe for Fruit, Meat, Vegetables, Gray",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Board Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GKY5CT74",
+      "title": "Electric Nail Clipper for Seniors/Adults/Children 2026 New Electric Nail Trimmer Set Dual-FunctionTrimming and Filing System for Thick Nails Toe Nail Clippers Removing Dead Skin and Nail Polish Black",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Nail Tools > Nail Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GMF2F424",
+      "title": "Burmese Cruly Feather Crochet Human Hair Extensions Pre-Separated Lightweight Reusable No Tangle Shedding Thick Invisible Pre-Looped For Boho Braids 60g 18inch",
+      "category_path": "Beauty & Personal Care > Hair Care > Hair Extensions, Wigs & Accessories > Hair Extensions",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GP65S6P1",
+      "title": "Electric Nail Clipper, Electric Automatic Nail Clippers for Seniors with LED Light & 3 Speeds, Safe Painless Nail Cutter for Seniors, Adults, Kids and Babies for Fingernails and Toenails (White)",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Nail Tools > Nail Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPN2R9DB",
+      "title": "Router Circle Jig – Adjustable Circle Cutting Guide Attachment for Compact Trim Routers, Precision Tool for Perfect Circular Cutouts 1.6\"–37\" (Makita rt0701v, xtr01z, gtr01z, drt50zx4) – Made in USA",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Power Tool Parts & Accessories > Jig Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQB5F96Y",
+      "title": "Cutting Board - Titanium Cutting Board with Built-in Sharpener, Dual-Sided Design (Pure Titanium & Fiber), Non-Porous, Non-Slip Base, Juice Groove & Grater & Non-Slip Base for Meat & Vegetables (A*2)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Cutting Boards, Mats & Sets > Cutting Boards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQGHLMW1",
+      "title": "Cardboard Cutter Electric, 2026 New Upgraded 4.2V Cordless with LED Light 2000mAh Battery Cutting 0.43 Inch Thickness, Portable Electric Rotary Cutter for Carpet Cardboard Leather Fabric (White)",
+      "category_path": "Tools & Home Improvement > Power & Hand Tools > Hand Tools > Scissors & Shears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQH32G68",
+      "title": "Rugwun Eye Liner Stamps Wing,Waterproof Smudge Proof Makeup,Double Ended Winged Pencil Stamp Pen,Beginner Friendly Eye Makeup Tool (b-Brown)",
+      "category_path": "Beauty & Personal Care > Makeup > Eyes > Eyeliner",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQRK85FM",
+      "title": "Adjustable Blade Opening Electric Nail Clipper for Thick & Thin Nails, Electric Nail Clippers for Seniors & Adults, Baby Electric Nail Trimmer, Automatic Nail Clipper for Fingernail & Toe (White)",
+      "category_path": "Beauty & Personal Care > Foot, Hand & Nail Care > Tools & Accessories > Nail Tools > Nail Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GR5W4XTV",
+      "title": "JOYTOY White Scars Warhammer 40K Action Figures White Scars Qin Xa - Master of the Keshig with paired Blades‘theTails of the Dragon' Collectible Model 5.59Inch Birthday Gifts Pre-Order in May.",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Action Figures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GS4FY3GS",
+      "title": "Handheld Sewing Machine, Easy to Use,Fast Sewing Speed,Suitable for Sewing Clothes",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Sewing Machines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GS8115C4",
+      "title": "Handheld Sewing Machine,Two dear,Mini sewing machine,Easy to Use and Fast Stitch Suitable for Clothes,Fabrics, DIY Home Travel Electric Handheld Sewing Machine.(Black)",
+      "category_path": "Arts, Crafts & Sewing > Sewing > Sewing Machines",
+      "found_by": [
+        "embedding"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4188 @@
+{
+  "query": "car phone mount",
+  "definition": {
+    "definition": "A holder that secures a phone inside a car.",
+    "include": [
+      "dash",
+      "vent",
+      "windshield",
+      "cup-holder and CD-slot mounts",
+      "magnetic car mounts",
+      "mounts with built-in chargers"
+    ],
+    "exclude": [
+      "bike/motorcycle mounts",
+      "desk stands",
+      "tripods",
+      "metal plates or adhesives sold alone"
+    ],
+    "keywords": [
+      "(phone|cell).*(mount|holder|cradle)|(mount|holder|cradle).*(phone|iphone)",
+      "car|vehicle|dash|vent|windshield|auto"
+    ]
+  },
+  "sizes": {
+    "keyword": 292,
+    "embedding": 300,
+    "systems": 71
+  },
+  "pool_size": 499,
+  "candidates": [
+    {
+      "asin": "B0CFTMDVTZ",
+      "title": "Miracase Car Phone Holder for Magsafe [Super Strong Magnets] Magnetic Phone Holders for Your Car, 360° Adjustable Air Vent Hands Free Cell Phone Mount Cradle Fit iPhone 17-12, Dark Black",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CKV39FH2",
+      "title": "For Sur Ron Surron Light Bee S X Motorcycle Rearview Handlebar Rearview Mirror Round Side Mirror For SurRon(Style 3)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CKV3FWYB",
+      "title": "For Sur Ron Surron Light Bee S X Motorcycle Rearview Handlebar Rearview Mirror Round Side Mirror For SurRon(Orange)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CM88TPH8",
+      "title": "PochY Motorbike Mirror For Sur Ron Surron Light Bee S X Motorcycle Rearview Handlebar Rearview Mirror Round Side Mirror For SurRon, Titanium",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CQY94XW7",
+      "title": "CAMECHO Portable Carplay Screen for Car, 9 Inch Car Stereo with Apple Carplay Android Auto Portable Touch Screen Car Radio with Bluetooth Mirror Link/Voice Control EQ AUX FM Radio for All Vehicles",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CRH86JCC",
+      "title": "CHURSIR Genesis G80 2022-2023 Car Phone Mount, Phone Holder for Car Mount Cell Phone Holder for iPhone, Samsung, Google, Huawei, Nokia, Other Smartphones (Silver)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CRNHNBJG",
+      "title": "GAFENO - Car Armrest Console Storage Box Arm Rest Organizer Large Storage Space with Cup Holder - for Fiat 500, Black Stitches",
+      "category_path": "Automotive > Replacement Parts > Body & Trim > Body",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CRRC3B4Q",
+      "title": "KARCOCA Nissan Altima 2.5L 2007-2017 Engine & Transmission Mount Set - Silver Rubber Mounts - A4353, A4339, A4350, A4340",
+      "category_path": "Automotive > Replacement Parts > Engines & Engine Parts > Engine Parts > Engine Mounts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV286YLK",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Orange Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2BHLLZ",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Sandstone Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2F7GYB",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Dark Green Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2G6727",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Bronze Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2GSXZD",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Silver Blue Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2HPRW6",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Bright Blue Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2J8TX5",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Light Gray Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2JJ2SK",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Light Red Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2LD7Q8",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Antique White Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2LDLFS",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Medium Gray Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2N61TZ",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Cream Beige Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2PSVP1",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Midnight Blue Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2Q18QX",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Medium Green Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2RCMN5",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Bright Yellow Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2RD6BX",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Dark Red Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2RSXZK",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Dark Brown Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2SXDC8",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Medium Red Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2SXDCK",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Burgundy Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CV2W24BZ",
+      "title": "Brotherhood 1975 Compatible with Nova Custom Medium Orange Emblem Design Keychain Key Holder Key Ring For Men Heavy Duty Car Keyring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CW66887H",
+      "title": "GUANDA TECHNOLOGIES CO., LTD. CD Phone Mount, Upgraded Car Phone Holder [Thick Cases Friendly], 360° Adjustable Universal Phone Mount for Car CD Slot Mount for iPhone & Android Cell Phones (Grey)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CW8GQ6HH",
+      "title": "Nauttxon Battery Fan for Car Backseat - Rechargeable Car Fan for Backseat Kids Dogs [Comes with Car Charger&USB C Cable] 360 Rotatable Separate Control Car Fans That Blow Cold Air for Vehicles SUV RV",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Gadgets > USB Fans",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CW8X99T4",
+      "title": "Nauttxon Car Fan for Back Seat [Comes with Car Charger] 360 Degree Rotatable USB Car Seat Fan for Baby Rear Facing - 3 Speeds Separate Control for Vehicles SUV RV",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Gadgets > USB Fans",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWLH2RR2",
+      "title": "SafeSleeve Wallet Leather Case Slim Folio for iPhone 14 Pro Plus EMF Blocker for Cell Phone with Card Holder - Energy Emission, and Folio Blocking Protection for Daily Use (Leopard)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLHJRZ6",
+      "title": "SafeSleeve Wallet Leather Case Detachable for iPhone 14 Max EMF Blocker for Cell Phone, 3 Card Holder & Adjustable Stand – Magnetic Closure, and Magnetic Folio Protection for Daily Use (White Marble)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Sleeves",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLHVP5Q",
+      "title": "SafeSleeve Wallet Leather Case Detachable for iPhone 12 Pro Max EMF Blocker for Cell Phone, 3 Card Holder & Adjustable Stand – Magnetic Closure, and Magnetic Folio Protection (Brown White Spots)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Sleeves",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLJ7B9M",
+      "title": "SafeSleeve Wallet Leather Case Detachable for iPhone 15 Pro Max EMF Blocker for Cell Phone with 3 Card Holder & Adjustable Stand – Magnetic Closure, and Magnetic Folio Protection (White Marble)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Sleeves",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLJG512",
+      "title": "SafeSleeve Wallet Leather Case Slim Folio for iPhone 12 Pro EMF Blocker for Cell Phone with Card Holder - Energy Emission, and Data Blocking Protection for Daily Use (White Marble)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLJJTFQ",
+      "title": "SafeSleeve Wallet Leather Case Slim Folio for iPhone 15 Pro EMF Blocker for Cell Phone with Card Holder - Energy Emission, and Slim Fit Case, and Everyday Protection (Beige)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Sleeves",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLJM1L1",
+      "title": "SafeSleeve Wallet Leather Case Slim Folio for iPhone 14 Pro Plus EMF Blocker for Cell Phone with Card Holder - Energy Emission Folio Blocking Protection for Daily Use (White Marble)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLJPPM3",
+      "title": "SafeSleeve Wallet Leather Case Slim Folio for iPhone 15 EMF Blocker for Cell Phone with Card Holder – Folio Wallet Case, and Everyday Protection (White Marble)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Sleeves",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLJPPM4",
+      "title": "SafeSleeve Wallet Leather Case Slim Folio for iPhone 13 and 13 Pro Case EMF Blocker for Cell Phone with Card Holder - Energy Emission Folio Blocking Protection for Daily Use (White Marble)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CWLJPRNH",
+      "title": "SafeSleeve Wallet Leather Case Detachable for iPhone 11 EMF Blocker for Cell Phone with 3 Card Holder & Adjustable Stand – Magnetic Closure, and Magnetic Folio Protection for Daily Use (White Marble)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CXPGSXT1",
+      "title": "CD Phone Mount, Car Phone Holder & Air Vent Clip [Thick Cases Friendly], 360° Adjustable Universal Phone Mount for Car CD Slot Mount for iPhone & Android Cell Phones (Black + Vent Clip)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CY4S3QYW",
+      "title": "Karltys [Upgrade Kia EV9 2024~2026 Screen Protector Accessories 12.3-Inch for Touchscreen & Instrument Cluster Screen, Nano Screen Protector Car Radio Screen Cover",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS System Accessories > Screen Protector Foils",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CYGBX42P",
+      "title": "5 Pack USB C Car Charger, Bangfun 40W Dual Port 12V USB C Car Charger Cigarette Lighter Adapter PD 3.0 Fast Charge Type C Car Phone Charger for iPhone 17 16 15 14 13 12 Pro Max iPad,Samsung S24(Black)",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Automobile Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ4BFNCF",
+      "title": "ESR for 15W MagSafe Car Mount Charger, for MagSafe Car Charger, Suction Cup Magnetic Wireless Car Charging, Dashboard Car Phone Mount for iPhone 17/16/15/14/13/12, S25, Pixel 10, Fast Charging",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Automobile Chargers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CZNXHNWH",
+      "title": "AuMoHall 84% VLT Purple Blue Chameleon Car Window Tint High Transmittance Car Vehicle Front Windshield Solar Protection Film, 19.68'' x 118.11''",
+      "category_path": "Automotive > Interior Accessories > Sun Protection > Window Tints",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZR2TVWJ",
+      "title": "andobil Upgrade Tesla Phone Mount [Strong Magnet & Foldable] MagSafe Car Mount for Tesla New Model Y Juniper Model 3, 360° Adjustable Tesla Phone Holder fits iPhone 17 16 15 Pro Max, Tesla Accessories",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D1737X6K",
+      "title": "TopMade for Magsafe Wallet, Strongest Magnetic Card Holder with Adjustable Phone Stand, ID Window, Leather Magnetic Phone Wallet for iPhone 17/16/15/14/13/12 Series, RFID Blocking, Fit 6 Cards, White",
+      "category_path": "Cell Phones & Accessories > Accessories > Adhesive Card Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D177XR8C",
+      "title": "TopMade for Magsafe Wallet, Magnetic Card Holder with Adjustable Phone Stand, Leather Magnetic Phone Wallet for iPhone 16/15/14/13/12 Series, Open ID Window, RFID Blocking, Fit 6 Cards, White Ice",
+      "category_path": "Cell Phones & Accessories > Accessories > Adhesive Card Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D17C9BT9",
+      "title": "CARLOCA Compatible with iPhone 13 Case,Long Nose Elephant for Case Girls Women,Scratch-Resistant Shockproof Protective Cover 6.1 in - Clear Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D1Q7GCCT",
+      "title": "Furiet Wallet Case for LG Velvet 5G/LGVelvet Verizon G5 UW T-Mobile 2020 with Wrist Strap and Shoulder Strap Leather Flip Zipper Stylish 6 Card Holder Stand Phone Cover for LM G900UM 4G Tmobile Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D1VGN9WN",
+      "title": "CMYFUTNG Magnetic for Galaxy Z Fold 3 5G Case,Magnetic Stand,Lightweight,Slim Fit Drop Protection Rugged Shockproof Cover for Galaxy Z Fold 3 5G, Shockproof Protective Phone Blue 17-Z Fold3-02-CP",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D2DJFWL2",
+      "title": "ESR for MagSafe Wallet, iPhone Wallet with 5-Card Holder, Secure-Grip Finger Loop, Magnetic Card Holder for iPhone 17/16/15/14/13/12 Series, Not for 13/12 mini, Vegan Leather, Black",
+      "category_path": "Cell Phones & Accessories > Accessories > Adhesive Card Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D2MC7SWV",
+      "title": "Samsung Charger Block 2 Port Super Fast Charging Android Car Cable for Samsung Galaxy A17 A16 A15 5G A35 A55 A25 S24 FE Ultra A14 S23, 25W Wall Charger,38W USB C Cigarette Adapter,3+6FT Type C Cable",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Automobile Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3Z8Y4F2",
+      "title": "Phone Case for Samsung Galaxy S9 Plus Zipper Wallet Magnetic Detachable Cell Cover with Screen Protector Crossbody Lanyard Strap Flower Flip Card Holder Slot S9+ 9S 9+ S 9 9plus S9plus Women Men Gray",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D4LDTP2C",
+      "title": "Asuwish Phone Case for OnePlus Nord N100 Zipper Wallet Cell Cover with Tempered Glass Screen Protector Strap Bling Glitter Flip Card Holder One Plus N 100 4G 1 Plus 1plus One+ 1+ 100N Women Men Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D4LK4SD4",
+      "title": "Asuwish Phone Case for OnePlus Nord N100 Zipper Wallet Cell Cover with Tempered Glass Screen Protector Strap Bling Glitter Flip Card Holder One Plus N 100 4G 1 Plus 1plus One+ 1+ 100N Women Purple",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D4LLMPW1",
+      "title": "Asuwish Phone Case for OnePlus 10 Pro One Plus 10Pro 5G Zipper Wallet Cell Cover with Tempered Glass Screen Protector Strap Bling Glitter Flip Card Holder On 1Plus 1 + Plus10 1+ Pro Ten Women Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D4M8Q6N3",
+      "title": "Asuwish Phone Case for OnePlus 10 Pro One Plus 10Pro 5G Zipper Wallet Cell Cover with Tempered Glass Screen Protector Strap Bling Glitter Flip Card Holder On 1Plus 1 + Plus10 1+ Pro Ten Women Men Red",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D4QV47LS",
+      "title": "WMYUHAN for Samsung Galaxy S23 Case Military Grade Drop Shock Protection Cell Phone Cover with Slide Camera Cover Built-in 360° Rotate Ring Stand for Galaxy S23 6.1 - Blue",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4TMRY3B",
+      "title": "ESR for MagSafe Airplane Phone Holder,2 Pack, Airplane Travel Essentials, Portable Travel Phone Holder, Magnetic Plane Phone Mount with Metal Ring for iPhone 17 16 16e 15 14 13 12, Samsung,Android",
+      "category_path": "Cell Phones & Accessories > Accessories > Stands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D57J1R6R",
+      "title": "Magnetic Phone Grip & Flexible Phone Holder (Blue)",
+      "category_path": "Cell Phones & Accessories > Accessories > Grips",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5B5M3LN",
+      "title": "Vihibii for Galaxy Z Fold 5 Case with Card Holder & S Pen Holder & Hinge Protection & Slide Camera Cover & Screen Protector, Heavy Duty Rugged Wallet Phone Case for Galaxy Z Fold 5, Dark Purple",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Case & Cover Bundles",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D5CTG4C5",
+      "title": "OXJOIIS Car Vent Phone Mount for Car Phone Stand Cute Funny Milk Cow Print Car Air Vent Clip Cell Phone Holder for Smartphone, iPhone, Automobile Cradles Universal",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D5R1NRF4",
+      "title": "CARLOCA Compatible with iPhone 11 Case,African Lady Elephant for Men Woman,Anti-Scratch Soft TPU Shockproof Unique Protective Cover Pattern Design",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D72RRT7N",
+      "title": "CARLOCA Compatible with iPhone 8 Plus Case,Blue Luminous Marble for Men Woman,Anti-Scratch Soft TPU Shockproof Unique Protective Cover Pattern Design",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D72S4SKC",
+      "title": "CARLOCA Compatible with iPhone SE 2022 Case,Running Black Horse Lightning,Anti-Scratch Soft TPU Shockproof Unique Protective Cover Pattern Design",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7341PP6",
+      "title": "CARLOCA Compatible with iPhone 8 Plus Case,Lazy White Cat for Men Woman,Anti-Scratch Soft TPU Shockproof Unique Protective Cover Pattern Design",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D73FSVK4",
+      "title": "CARLOCA Compatible with iPhone 8 Plus Case,The Horse on The Ball for Men Woman,Anti-Scratch Soft TPU Shockproof Unique Protective Cover Pattern Design",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D78GSCWY",
+      "title": "Smartish® iPhone 16 Pro Wallet Case - Wallet Slayer Vol. 1 [Slim + Protective] Credit Card Holder - Drop Tested Hidden Flip Card Slot Cover Compatible with Apple iPhone 16 Pro - Custom Prints",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D78GW4P2",
+      "title": "Smartish® iPhone 16 Plus Wallet Case - Wallet Slayer Vol. 1 [Slim + Protective] Credit Card Holder - Drop Tested Hidden Flip Card Slot Cover Compatible with Apple iPhone 16 Plus - Custom Prints",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D78GZTKK",
+      "title": "Smartish® iPhone 16 Wallet Case - Wallet Slayer Vol. 1 [Slim + Protective] Credit Card Holder - Drop Tested Holds 4 Cards Hidden Flip Card Slot Cover Compatible with Apple iPhone 16 - Custom Prints",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D78HJGY3",
+      "title": "Smartish® iPhone 16 Pro Max Wallet Case - Wallet Slayer Vol. 1 [Slim + Protective] Credit Card Holder - Drop Tested Hidden Flip Card Slot Cover Compatible with Apple iPhone 16 Pro Max - Custom Prints",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D8J1H92X",
+      "title": "Vihibii for Samsung Galaxy Z Fold 6 Wallet Case with Card Holder & Camera Lens Cover & Hinge Protection & Front Screen Protector, Heavy Duty Rugged Phone Case for Samsung Galaxy Z Fold 6 5G, Green",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Case & Cover Bundles",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D9JF95QV",
+      "title": "HiSport 7 Inch Round Headlight Ring Mounting Bracket - Compatible with Harley Davidson - Chrome",
+      "category_path": "Automotive > Motorcycle & Powersports > Parts > Electrical & Batteries",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9VX225T",
+      "title": "Wireless CarPlay Screen Android Auto for Car, 7\" Touch Screen Naivgation Portable Car Stereo CarPlay Bluetooth Mirror Link, Siri, AirPlay, AUX, Voice Assistant for All Vehicles Upgrade",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9W2DC6F",
+      "title": "Magnetic Wireless Car Charger Fit Magsafe for 2018-2023 Jeep Wrangler JL Gladiator Sahara,15W Fast Charging Ultra-Magnetic Jeep Vent Phone Mount Compatible for iPhone17/16/15/14Series All Smartphone",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Dash-Mounted Holders",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D9XLZH3D",
+      "title": "SKYLMW Designed for iPhone 16 Pro Case with Magnetic Invisible Stand Compatible with Mag-Safe Military Drop Tested Shockproof Silicone Phone Cases for Women Men 6.3'', Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9XYKZRN",
+      "title": "SKYLMW Designed for iPhone 16 Plus Case with Magnetic Invisible Stand Compatible with Mag-Safe Military Drop Tested Shockproof Silicone Phone Cases for Women Men 6.7'', Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9YQBHNV",
+      "title": "Vihibii for Samsung Galaxy Z Fold 6 Case Wallet with S Pen Holder & Card Holder & Slide Lens Cover & Screen Protector & Hinge Protection, Durable Rugged Protective Phone Case for Galaxy Z Fold6, Blue",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Case & Cover Bundles",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DB183WKN",
+      "title": "YOWSOM F​or Indian Pursuit Elite Roadmaster Dark Horse Motorcycle Accessories Passenger Drink Cup Holder Mount(Silver,107mm-142mm)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DBQ9QRCF",
+      "title": "AOUKKL Car Phone Holder Fits for Honda Civic 2006-2011 Accessories,Thick Cases Friendly,Cell Phone Mount for 4.7-7 in Phones,360 Degree Rotation,Easy to Install",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DBQKLYMQ",
+      "title": "AOUKKL Car Phone Holder Fits for Honda Civic 2012-2015 Accessories,Thick Cases Friendly,Cell Phone Mount for 4.7-7 in Phones,360 Degree Rotation,Easy to Install",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DBQY487M",
+      "title": "AOUKKL Car Phone Holder Fits for Subaru Forester 2014-2018 Accessories,Thick Cases Friendly,Cell Phone Mount for 4.7-7 in Phones,360 Degree Rotation,Easy to Install",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DBVC1FD3",
+      "title": "New 2025 Vacuum Magnetic Phone Suction Holder, 15W Wireless Charger for MagSafe Car Mount & Dashboard Windshield Vent Holder, All-Weather Suction for Uber, iPhone 16/15/14 Pro Max Plus",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DC33RG61",
+      "title": "MAYBESTA Wireless Mini Microphone for iPhone 15 - Bluetooth Lavalier Android Mic for YouTube Video Recording, Clip-on USB C Phone Microphones for Tiktok Vlog Livestream Podcast",
+      "category_path": "Musical Instruments > Microphones & Accessories > Microphones > Wireless Microphones & Systems > Wireless Headset Microphones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DC55KJ13",
+      "title": "Car Phone Holder for Mercedes Benz GLB 2020 2021 2022 2023 2024 2025 2026 GLB250 , EQB 2022-2025 Auto Accessories Navigation Bracket Interior Decoration Dashboard Cell Mobile Mount case Accessory",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DC55PVNJ",
+      "title": "YEGZA Car Phone Holder for Mercedes Benz GLA Class 2015-2020， CLA Class 2014-2019 Auto Accessories Navigation Bracket Interior Decoration Dashboard Cell Mobile Phone Mount Holders case Accessory",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DCC22ZPR",
+      "title": "Bumbesti 250V DC Class T Fuse Block Class T Fuse Holder 300A for Inverters,Car Audio Systems IR10KA",
+      "category_path": "Tools & Home Improvement > Electrical > Breakers, Load Centers & Fuses > Fuses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCFLLCLY",
+      "title": "NearStream Super Clamp Mount with 360 Ball Head - Motorcycle/Bike/Pole Clamp for DSLR/Action Camera/Field Monitor/LED Light",
+      "category_path": "Electronics > Camera & Photo > Accessories > Tripod & Monopod Accessories > Camera Mounts & Clamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCJ5L67J",
+      "title": "BULFULL Purse Hook for Table Desk Folding Handbag Holder Mobile Phone Stand Holder for Women Men (New Upgrade-Black)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Handbag Accessories > Handbag Hangers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCJD9YMG",
+      "title": "BULFULL Purse Hook for Table Desk Folding Handbag Holder Mobile Phone Stand Holder for Women Men (New Upgrade-Platinum)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Accessories > Handbag Accessories > Handbag Hangers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDBF1RSV",
+      "title": "K&F CONCEPT Super Clamp Camera Clamp with 360° Ballhead, Compatible with GoPro/AKASO/Insta360/Pocket 3, 1/4\" Screw & Cold Shoe Mount for Camera/Monitor/Light/Microphone",
+      "category_path": "Electronics > Camera & Photo > Accessories > Tripod & Monopod Accessories > Camera Mounts & Clamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDT41X41",
+      "title": "MOFT Phone Stand, Magnetic Phone Tripod Stand Stain-Resistant MOVAS Leather & Angle Adjustment & Strong Magnets Tripod for iPhone 17/16/15/14/13/12 (Included Metal Ring)-Peppermint",
+      "category_path": "Cell Phones & Accessories > Accessories > Stands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DDTHMM4K",
+      "title": "MOFT Phone Tripod Wallet, 3 in 1 Phone Stand, NFC-Supported Magnetic Phone Wallet, MOVAS Vegan Leather Adjustable Card Holder, Navy Blue",
+      "category_path": "Cell Phones & Accessories > Accessories > Stands",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDX8393B",
+      "title": "Dibosom Minimalist Wallet Case for Samsung Galaxy S23 FE 5G with Shoulder Strap,6 Card Slots Thin Slim Flip Purse,Credit Card Holder Stand Accessories Cell Phone Cover for S 23 EF S23FE 23S White",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DDXCT133",
+      "title": "Dibosom Minimalist Wallet Case for Samsung Galaxy S22 Ultra 5G with Shoulder Strap,6 Card Slots Thin Slim Flip Purse,Credit Card Holder Stand Phone Cover for S22ultra 22S S 22 S22ultra5g 6.8 White",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DF2FVRT1",
+      "title": "CARLOCA for iPhone 16 Case,Brightly Colored Bats Pumpkins Pattern Ultra Protection Shockproof Soft Silicone TPU Non Slip Back for iPhone 16",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DF72VPX4",
+      "title": "CMYFUTNG Magnetic for Galaxy Z Fold 3 5G Case,Magnetic Stand,Lightweight,Slim Fit Drop Protection Rugged Shockproof Cover for Galaxy Z Fold 3 5G, Shockproof Protective Phone Wine red 17-Z Fold3-08",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DFYD7GLR",
+      "title": "MZS Motorcycle Rear LED Turn Signals, White Light Mini Turn Signal Tail Light, Minimalist Design, Universal 6mm Screw Suitable for 6mm/8mm/10mm Hole Compatible with Most Family Motorcycles",
+      "category_path": "Automotive > Motorcycle & Powersports > Parts > Electrical & Batteries",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHFN1C35",
+      "title": "Smartish - Leaf Me Alone - iPhone 16 Wallet Case - Wallet Slayer Vol 2 [Slim + Protective Kickstand] Credit Card Holder - Fits iPhone 16",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHH1PGDJ",
+      "title": "NuvoNiue Car Seat Gap Filler Organizer, Multifunctional Car Seat Organizer, Universal Leather Car Gap Filler Organizer with Cable Hole, can Holders phone, sunglasses, car keys (Brown)",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DHT45FM8",
+      "title": "Smartish - Zebra - iPhone 16 Plus Wallet Case - Wallet Slayer Vol 2 [Slim + Protective Kickstand] Credit Card Holder - Fits iPhone 16 Plus",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DHT4Z749",
+      "title": "Smartish - Cheetah - iPhone 16 Pro Wallet Case - Wallet Slayer Vol 2 [Slim + Protective Kickstand] Credit Card Holder - Fits iPhone 16 Pro",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHT51FXS",
+      "title": "Smartish - Zebra - iPhone 16 Wallet Case - Wallet Slayer Vol 2 [Slim + Protective Kickstand] Credit Card Holder - Fits iPhone 16",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHT5GTGC",
+      "title": "Smartish - Zebra - iPhone 16 Pro Max Wallet Case - Wallet Slayer Vol 2 [Slim + Protective Kickstand] Credit Card Holder - Fits iPhone 16 Pro Max",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DHT639FV",
+      "title": "Smartish - Cheetah - iPhone 16 Wallet Case - Wallet Slayer Vol 1 [Slim + Protective] Credit Card Holder - Fits iPhone 16",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHT66J84",
+      "title": "Smartish - Cheetah - iPhone 16 Pro Max Wallet Case - Wallet Slayer Vol 1 [Slim + Protective] Credit Card Holder - Fits iPhone 16 Pro Max",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DHW57YKB",
+      "title": "Adjustable Starlink Mini Roof Mount, Lymorexan Starlink Mini Suction Cup Mount, Starlink Mini Mounting Kit for Sunroof/Front/Rear Window/Roof",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DHWV1R4W",
+      "title": "Asuwish Phone Case for iPhone 14 Pro 6.1 inch Zipper Wallet with Tempered Glass Screen Protector Crossbody Strap Card Holder Cell Cover iPhone14Pro 5G i i-Phone i14 iPhone14 4 14Pro Women Deep Purple",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DJQR549F",
+      "title": "XAOVUIR for Samsung Galaxy Z Fold 6 Case with Stand, Magnetic Rotatable Kickstand Z Fold 6 Case, Shockproof Aluminum Metal Slim Phone Cover for Galaxy Z Fold 6, Sliver",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJR9PPRF",
+      "title": "4 in 1 Retractable Car Charger [144W USB C Car Charger Adapter] Fast Car Phone Charger 48W with 34inch Cords, Gift for Men Women, Fast Car Charger for iPhone 16 Pro/16/15 Pro,Samsung Galaxy, Android",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Automobile Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DL5PPST6",
+      "title": "MOFT Phone Stand, Magnetic Phone Tripod Stand Stain-Resistant MOVAS Leather & Angle Adjustment & Strong Magnets Tripod for iPhone 17/16/15/14/13/12 (Included Metal Ring)-Cement",
+      "category_path": "Cell Phones & Accessories > Accessories > Stands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DL5Q5Y8K",
+      "title": "MOFT Phone Tripod Wallet, 3 in 1 Phone Stand Magnetic Wallet, NFC-Supported Magnetic Phone Stand, MOVAS Vegan Leather Adjustable Card Holder, Earthen Beige",
+      "category_path": "Cell Phones & Accessories > Accessories > Stands",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DL5RQF1V",
+      "title": "MOFT Phone Tripod Wallet, 3 in 1 Phone Stand, NFC-Supported Magnetic Phone Wallet, MOVAS Vegan Leather Adjustable Card Holder, Sunrise",
+      "category_path": "Cell Phones & Accessories > Accessories > Stands",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DL5V71PQ",
+      "title": "MOFT Phone Stand, Magnetic Phone Tripod Stand Stain-Resistant MOVAS Leather & Angle Adjustment & Strong Magnets Tripod for iPhone 17/16/15/14/13/12 (Included Metal Ring)-Sunset",
+      "category_path": "Cell Phones & Accessories > Accessories > Stands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLGDMZ3Y",
+      "title": "ITrims Car Phone Holder for VW Volkswagen New Beetle 2003-2010 Car Dashboard Mount Cell Phone Cradles Adjustable Phone Stand Holder Universal Compatible with Most Smartphones (Carbon Fiber)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DM8P28QY",
+      "title": "Upgraded Dash Mount Cell Phone Holder Compatible with 2018-2023 Jeep Wrangler JL & Gladiator JT，Multi-Mount Phone Holder Dash Storage Tray Kit with Cover Compatible with All Smartphone (Not for 4XE)",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Dash-Mounted Holders",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DM8W5KL9",
+      "title": "TopMade for MagSafe Wallet Stand, Works with Apple Find My, Magnetic Wallet for iPhone 17/16/15/14/13/12 Series, for iPhone Wallet with Finder Tracker, 6 Card Holder, RFID Blocking, Slim, Navy Blue",
+      "category_path": "Cell Phones & Accessories > Accessories > Adhesive Card Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DM8X2PNP",
+      "title": "TopMade for MagSafe Wallet, Works with Apple Find My, Magnetic Wallet for iPhone 17/16/15/14/13/12 Series, for iPhone Wallet Stand with Finder Tracker, 6 Card Holder, RFID Blocking, Black Carbon Fiber",
+      "category_path": "Cell Phones & Accessories > Accessories > Adhesive Card Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DMDNN4R7",
+      "title": "Starlink Mini Mount Magnetic Car Mount Accessories Roof Mount Kit for Starlink Mini Dish Sunroof Mounting Kit with Handle for RV Truck Travel Trailer",
+      "category_path": "Automotive > Exterior Accessories > Cargo Management > Cargo Racks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DMW8T12M",
+      "title": "DJXCAR Car Phone Holder Fits for Subaru Forester 2014-2018 Accessories,Buckle Mount Compatible with Emergency flashers Button,Fit Snugly and Easy to Install Fit for iPhone Android and All Smartphones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DMWB2XGL",
+      "title": "DJXCAR Car Cell Phone Holder Fits for Hyundai Sonata 2015-2017, Air Vent Cell Phone Car Mount Fits snugly Perfectly Design Fit for iPhone Android and All Smartphones,360° Rotation,Easy to Install",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DMWDGQY4",
+      "title": "DJXCAR Car Phone Holder Fits for Hyundai Sonata 2011-2014 Accessories for Car Air Vent Mount, Snug Fit, Easy to Install Fit for iPhone Android and All Smartphones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DN9MPVJS",
+      "title": "SUREWO Magnetic Quick Release Motorcycle Dirt Bike Bicycle Strap Holder Clamp Mounts Compatible with Go Pro Hero 13,12,11,10, 9, 8, 7,DJI Osmo Action 2,3,4,5 pro,AKASO and Most Action Cameras",
+      "category_path": "Electronics > Camera & Photo > Accessories > Tripod & Monopod Accessories > Camera Mounts & Clamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DNZJY5V6",
+      "title": "XAOVUIR for Samsung Galaxy Z Fold 5 Case with Stand, Magnetic Rotatable Kickstand Z Fold 5 Cover Frameless, Shockproof Aluminum Metal Slim Phone Case for Galaxy Z Fold 5, Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP23QZW5",
+      "title": "OHLPRO Magnetic Tablet Wall Mount Holder for Metal Surface, Super Power Magnet iPad Wall Holder 360° Rotation fit 5\"-13\" Phone and Tablet Great for Cabinet/Fridges/Metal Rack/Whiteboard/Gym Equipment",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Stands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP4KKS37",
+      "title": "4 Core 64G Car Radio for Honda Civic 2006-2011: 10.1” Touch Screen Stereo with Wireless Carplay Android Auto 5G WiFi GPS Bluetooth FM RDS SWC AHD Backup Camera",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP8DB9ZV",
+      "title": "Hodozzy Single Din Car Stereo with Wireless Apple CarPlay/Android Auto, 6.86 Inch Touch Screen Car Radio with Bluetooth, Handsfree, Mirror Link, FM/EQ/AUX/USB/SWC/Type-C Fast Charging with Camera",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPJ42362",
+      "title": "75 Inch Aluminum Phone & Camera Tripod With Gooseneck Stand, Extendable Cell Phone Tripod Stand Compatible with iPhone/Android/Action Camera is Perfect for Live Streaming/Video Recording/Selfies",
+      "category_path": "Electronics > Camera & Photo > Tripods & Monopods > Complete Tripods",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPX6DQ56",
+      "title": "Magnetic Phone Grip & Flexible Phone Holder (Hunter Green)",
+      "category_path": "Cell Phones & Accessories > Accessories > Grips",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPX7WBML",
+      "title": "Magnetic Phone Grip & Flexible Phone Holder (Classic Black)",
+      "category_path": "Cell Phones & Accessories > Accessories > Grips",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQ12QNPH",
+      "title": "JUNAUTTB for Samsung Galaxy Z Flip 6 Case with Ring,Slim Soft Liquid Silicone Phone Case,Built in 360°Rotatable Ring Holder Protection Phone Case,Orange JUS04-71",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQ37RJBS",
+      "title": "C9 Motorcycle Helmet Bluetooth Headset, V5.4 Helmet Speakers with 2 Type Mics, 2-Way Intercom/Music Sharing/IPX6 Waterproof/Intelligent Noise for Ski/Dirtbike/Snowmobile, Compatible with All Helmets",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Bluetooth Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQGXKKVZ",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Snake in Pink Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQGY5R9K",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Blue Flowers Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQGYGMJY",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Cardinal Red Bird on Tree",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQGYQXTY",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Spirit Ouija Board Goth Skull",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQGYVCGR",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Cow Hide Animal Print Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQGZFCC4",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Black Cat with Gold Floral",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQGZGHTR",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -A Cow in The Sunflowers Field",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQGZNNYK",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Cute Cat Red Heart",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQGZW2GC",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -White Daisy Flolwers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH18QLL",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Black Girl African Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH1F4GL",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Blue Fire Skulls Gothic Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH1GHLB",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Flower Dragonflies Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH1ND1C",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Lion in Moon Halo",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH1SHQY",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Blue Butterfly Set on White Rose",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH1Y2PV",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Dragonfly Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQH23G7M",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Sunflower Butterfly",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH2Q82V",
+      "title": "Engine Motor Mount Transmission Mount Set of 3, Compatible with Honda Civic 2006-2011 L4 1.3L FULL HYBRID EV-GAS (FHEV) Automatic Transmission, OE: A65019 A65029 A4585",
+      "category_path": "Automotive > Replacement Parts > Engines & Engine Parts > Engine Parts > Engine Mounts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH35CQ6",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Baby Elephant in Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQH3VDVY",
+      "title": "FUYOCWE for Samsung Galaxy A26 5G Phone Case with Card Holder,RFID Blocking Galaxy A26 5G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap -Dragonfly on The Daisies Florals",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQJBJH5Q",
+      "title": "YEGZA Car Phone Holder for Nissan Rogue 2021-2026，Altima 2019-2025，Sentra 2020-2025【 Only 8-inch Screen 】 Auto Accessories Mount case Accessory",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DQJDPKYG",
+      "title": "YEGZA Car Phone Holder for Nissan Rogue 2014 2015 2016 2017 2018 2019 2020 ，Rogue Sport 2017-2022 Auto Accessories Navigation Screen Bracket Interior Cell Mobile Phone Mount Holders case Accessory",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DQKW4GBM",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Dragonfly on The Daisies Florals",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKWFFJ4",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Cute Eelephant & Colorful Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKWGH57",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Sunflower Butterfly",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKWL1HR",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Spirit Ouija Board Goth Skull",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKWMLQV",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -White Daisy Flolwers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKWMV9R",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Flower Dragonflies Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKWN7K5",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Spirit Ouija Board Goth Skull",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKWQ1JW",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Lion in Moon Halo",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQKWXT7Y",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Cow Hide Animal Print Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKX227C",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Gold Moon Star",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQKX4YPM",
+      "title": "for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-White Daisy Flolwers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKX9CCB",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Cardinal Red Bird on Tree",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXB5ZT",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -A Cow in The Sunflowers Field",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXHY4Q",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Blue Flowers Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXK14V",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Blue Butterfly Set on White Rose",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXL438",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Baby Elephant in Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXL5YM",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Cute Cat Red Heart",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXLYJM",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-A Cow in The Sunflowers Field",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQKXM12P",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Snake in Pink Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXMK3C",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Blue Fire Skulls Gothic Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXP9VJ",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Black Girl African Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXQ243",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Cardinal Red Bird on Tree",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXQXV6",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Sunflower Butterfly",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKXRHK2",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Black Girl African Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKY63QF",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Dragonfly Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKY6YX8",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Cow Hide Animal Print Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKYD2JJ",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Blue Butterfly Set on White Rose",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKYNGVW",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Lion in Moon Halo",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKYNJG5",
+      "title": "FUYOCWE for Samsung Galaxy A16 5G Phone Case with Card Holder,RFID Blocking Galaxy A16 5G/4G Wallet Case for Women,PU Leather Folding Stand Cover w/Magnetic Snap-Dragonfly Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKYTT9H",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Gold Moon Star",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKYYC9Q",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Black Cat with Gold Floral",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKZ6LX4",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Cute Eelephant & Colorful Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKZ6LXC",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Flower Dragonflies Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKZ9Z17",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Baby Elephant in Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKZHKL3",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Cute Cat Red Heart",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQKZY1PV",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Dragonfly on The Daisies Florals",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL19B6B",
+      "title": "FUYOCWE for Galaxy A54 5G Case Wallet for Samsung Galaxy A54 5G Phone Case with Card Holder Slot,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap -Snake in Pink Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL3SML5",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Sunflower Butterfly",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL447P2",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Cute Cat Red Heart",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL4TBLH",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Cute Eelephant & Colorful Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL4WL4F",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Blue Butterfly Set on White Rose",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL5H62B",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Black Cat with Gold Floral",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL5SJ5R",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-White Daisy Flolwers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL5WXXH",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Blue Fire Skulls Gothic Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL6BDDF",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Dragonfly on The Daisies Florals",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL6FYQX",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Black Girl African Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL6HZKK",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Baby Elephant in Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL6RFRS",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Dragonfly Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL6XW61",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Gold Moon Star",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL74TZF",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Flower Dragonflies Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL7FBPW",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Snake in Pink Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQL7W3B2",
+      "title": "FUYOCWE for Samsung Galaxy A35 5G Phone Case with Card Holder,Galaxy A35 SM-A356 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Lion in Moon Halo",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLG3BVZ",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Cow Hide Animal Print Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLG6JXV",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Gold Moon Star",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLGBGKR",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Cute Cat Red Heart",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLGCDC2",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Snake in Pink Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLGCT4R",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Lion in Moon Halo",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLGHLVD",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,White Daisy Flolwers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLGLNKS",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Black Girl African Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLGZ66C",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Cardinal Red Bird on Tree",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLH8352",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Dragonfly on The Daisies Florals",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLHCBPF",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Blue Flowers Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLHG2GY",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Blue Butterfly Set on White Rose",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLHMZKD",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Cute Eelephant & Colorful Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLHPLDB",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Blue Fire Skulls Gothic Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLJ5KG9",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Flower Dragonflies Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLJW6LG",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Dragonfly Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQLLRX5S",
+      "title": "FUYOCWE for Samsung Galaxy A25 5G Phone Case with Card Holder,Galaxy A25 SM-A256E/DS Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap,Baby Elephant in Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DR8RCDM7",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Toyota Highlander 2014-2019 Auto Accessories,Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DR8TPBHV",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Subaru Forester 2014-2018 Auto Accessories,Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DR8V87J3",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Ford F-150 F150 2015-2020 Auto Accessories(Fits for Air Outlet with Reflective Decoration),Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DR8W3FRJ",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Chevy Malibu 2016-2024/Equinox 2018-2024 Auto Accessories(Only fit for 8-Inch Screen),Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DR8WP3SG",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Lexus ES 300h / ES 350 2013-2018 Auto Accessories,Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DR8Z1WK5",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Honda Accord 2008-2013 8th Gen Auto Accessories,Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DRF8RQCZ",
+      "title": "ATATOO for iPhone 15 Pro Max Wallet Case with Card Holder (3-5 Cards) & Sliding Camera Cover, Military Grade Protection, Women Men Cute Phone Case for iPhone 15 Pro Max 6.7\", Hot Pink",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG3N16V",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Dragonfly on The Daisies Florals",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG3YW93",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Cute Eelephant & Colorful Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG4WN64",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-A Cow in The Sunflowers Field",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG57TFB",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Gold Moon Star",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG5S382",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Blue Butterfly Set on White Rose",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG63G5L",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Cardinal Red Bird on Tree",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG63KQB",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Black Cat with Gold Floral",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG692HW",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Sunflower Butterfly",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG79C2G",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Flower Dragonflies Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG7GFYD",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Black Girl African Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG7P2XG",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Cute Cat Red Heart",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG84SF2",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Snake in Pink Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG87X49",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Spirit Ouija Board Goth Skull",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DRG97TZB",
+      "title": "FUYOCWE for Samsung Galaxy A32 5G Phone Case with Card Holder,Galaxy A32 SM-A326 Wallet Case for Women,Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Blue Flowers Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DSBF3R5M",
+      "title": "Keallce for iPhone 17e 6.1'' Wallet Case, Crossbody Zipper Purse with Wristlet for Women, RFID Blocking Card Holders, 360° Ring Kickstand Flip Leather Case for iPhone 16e 2025 2026, Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DV8YWQZV",
+      "title": "Starboosa Adjustable Scope Camera Adapter – Universal Smartphone Mount for Clear Outdoor Shots",
+      "category_path": "Electronics > Camera & Photo > Accessories > Telescope & Microscope Accessories > Telescope Accessories > Photo Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DX83MPDS",
+      "title": "Smartish® iPhone 17e/16e Wallet Case - Wallet Slayer Vol. 1 [Slim + Protective] Credit Card Holder - Drop Tested Hidden Flip Card Slot Cover Compatible w/Apple iPhone 17e/16e - Custom Prints",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DY1NSMYP",
+      "title": "Vpryhuan Dashboard Car Phone Holder Mount with Anti-Drop Clip - 360° Rotation Multifunctional Cell Phone Holder Car for iPhone, Samsung, Google and 4-7\" Cellphones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DY4LL1K7",
+      "title": "xuenair Car Fan for Backseat Kids Baby Dog, Dual Head USB Fan for Car Seat Headrest SUV Van Pickup RV Vehicle - Slidable Extension Arm 360 Rotatable Strong 3 Speed 2 Hidden Car Hook",
+      "category_path": "Electronics > Computers & Accessories > Computer Accessories & Peripherals > USB Gadgets > USB Fans",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DY7F81QS",
+      "title": "Compatible Wireless Apple CarPlay Android Auto Car Screen, Dual Camera 9 Inch 1080P Touch Screen Car Stereo Music Video Player Naivgation Bluetooth Mirror Link, Siri, AirPlay, AUX, Voice Assistant",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Digital Media Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DY7GDCGP",
+      "title": "Wireless CarPlay Android Auto Car Screen, 720P Backup Camera 7″ Touch Screen Car Music Video Player Portable GPS Naivgation Bluetooth Mirror Link, Siri, AirPlay, Voice Assistant",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Digital Media Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DY7LC5T4",
+      "title": "Carwiner 4PCS Center Console Organizer Compatible with 2023 2024 2025 2026 Honda CR-V EX-L/Sport-L Hybrid Accessories, Dash Organizer Tray Holder & Hidden Storage Box for Honda CRV with Coin",
+      "category_path": "Automotive > Replacement Parts > Body & Trim > Trim > Interior > Center Consoles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DY7QP3MN",
+      "title": "Tracker Device for Vehicles,No Monthly Fee GPS Car Tracker,Car Locator Work with Apple Find My(iOS Only),Mini GPS Tracker with Magnetic Case (White,2PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYT99ZZL",
+      "title": "Self-Adhesive Cable Hider,Flexible Wire Cover Cable Raceway for Wires, Wall Mount TV, Home Audio, Network,Power and Phone Line Managemen (Black, 236inch)",
+      "category_path": "Electronics > Accessories & Supplies > Cord Management > Cable Raceways",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZW71S3T",
+      "title": "NEXUS Dash Tray for Mercedes-Benz VS30 Sprinter Van (Black Fiberglass 10x14 inch)",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Trays & Bags",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZWSJL6J",
+      "title": "CB Radio Antenna Whip Fiberglass CB Radio Kit, 2 Foot Long Range with SO239 Stud, Single Groove Mount, Heavy Duty Stainless Steel Spring for Mobile Car Radios (White)",
+      "category_path": "Electronics > Portable Audio & Video > CB & Two-Way Radios > Accessories > Antennas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F19FSDWK",
+      "title": "Phone Ring Light for Video Recording, Smartphone Video Rig with Light, 8000mAh RGB Portable LED Selfie Kit for Camera, TikTok, YouTube, Makeup, Vlogging",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Flashes & Selfie Lights > Selfie Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1KNJQCL",
+      "title": "Mini GPS Tracker for Vehicles,Car GPS Tracker Work with Apple Find My(iOS Only),No Monthly Fee Real Time Mini Hidden Car Tracker with Magnetic Case (Black,1PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1LV1GVC",
+      "title": "MOSENVKA Magnetic Phone Tripod Mount With 1/4\" Hole&Cold Shoe,Foldable Travel Phone Stand Smartphone Tripod Adapter for iPhone Cell Phone Stand Holder for Desktop Video Live Streaming Vlogging Filming",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Tripods",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F1ZYQ6CK",
+      "title": "Shoei X-Fourteen / X14 Chin Mount Kit - Racing Helmet Camera Mount for GoPro Hero Inst360 DJI. Adjustable Chin Bracket for Motovlogging",
+      "category_path": "Electronics > Camera & Photo > Accessories > Tripod & Monopod Accessories > Camera Mounts & Clamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F23JML9F",
+      "title": "ESR for MagSafe Wallet, 3-Card Holder, Magnetic Wallet for iPhone,Vegan Leather, Secure-Grip Finger Loop without Stand for iPhone 17/16/15/14/13/12 Series, Not for 13/12 Mini, Brown",
+      "category_path": "Cell Phones & Accessories > Accessories > Adhesive Card Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F284VCYL",
+      "title": "GPS Tracker for Vehicles No Monthly Fee,Real Time Car Mini GPS Tracker Work with Apple Find My(iOS Only),Hidden Device Car Tracker with Magnetic Case（Black,1PCS）",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2863KNB",
+      "title": "Mini GPS Tracker for Car,Vehicles,No Monthly Fee GPS Car Tracker Work with Apple Find My(iOS Only),Anti-Theft Car Tracker with Magnetic Case -(Black,2PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F28KK7J8",
+      "title": "Mini GPS Tracker for Vehicles,Real Time Car Tracker Work with Apple Find My(iOS Only),No Subscription Global Coverage Car Locator with Magnetic Case (Black,1PCS)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F28KWDP7",
+      "title": "Mini GPS Tracker for Vehicles,Real Time GPS Car Tracker Work with Apple Find My(iOS Only),No Monthly Fee Anti-Theft Car Tracker with Magnetic Case (Black,1PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2B2BS14",
+      "title": "Tracker Device for Vehicles,Mini Hidden Car Tracker with Magnetic Case,No Monthly Fee Tracker,Car Locator Work with Apple Find My(iOS Only) (White,2PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2B3QZJQ",
+      "title": "Tracker Device for Vehicles,No Monthly Fee Anti-Theft Hidden Car GPS Tracker,Real Time GPS Car Tracker with Magnetic Case Work with Apple Find My(iOS Only) (White,2PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2HPK6P8",
+      "title": "Tracker Device for Vehicles,Real Time GPS Car Tracker Work with Apple Find My(iOS Only),No Monthly Fee Anti-Theft Car Locator,Hidden Car GPS Tracker with Magnetic Case (Black,2PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F322ZZ1S",
+      "title": "iLSKW Magnetic Golf Cart Phone Holder Work with Magsafe iPhone 16-12 Series and All Phones, Fits Yamaha, EZGO, Club Car Golf Cart, Alloy Strong Magnetic Phone Mount for Gym, Kitchen, with Metal Plate",
+      "category_path": "Sports & Outdoors > Sports > Golf > Golf Cart Accessories",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F376GJSD",
+      "title": "Phone Holders for car Multi-Angle Adjustable 360° Rotating Base Easy Installation & Removal Foldable Design Compatible with iPhone 17-12 ，car Accessories for man and Women",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F37THV7J",
+      "title": "LOVFIVE Magnetic Neck Phone Holder, Hands Free POV/Vlog Selfie Mount Flexible Neck Phone Holder for Recording, Magnetic Phone Chest Mount for iPhone 16 15 14 13 Seires and All Smartphones",
+      "category_path": "Cell Phones & Accessories > Accessories > Mounts > Camera Mounts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F37WK6RQ",
+      "title": "PIOENIMAGE 10\" LED Ring Light for Desk, Overhead Phone Mount with Selfie Ring Light and Phone Holder, Overhead Phone Mount Studio Lights for Photography, Video Recording, Live Stream, Makeup",
+      "category_path": "Electronics > Camera & Photo > Lighting & Studio > Lighting > Continuous Output Lighting",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3D84RGP",
+      "title": "ESR MagSafe Car Mount, Vacuum Magnetic Car Mount, OmniLock 360° Adjustable Magnetic Phone Holder for Car, Suction Cup Phone Holders for Your Car, for iPhone 16/15/14/13/12/Samsung, All Smartphones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F3X92L2S",
+      "title": "AOUKKL Car Phone Holder Fits for Cadillac XT5 2017-2025 and 2020-2025 XT6 Accessories,Thick Cases Friendly,Cell Phone Mount for 4-7 in Phones,360 Degree Rotation,Easy to Install",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F3X9BTVC",
+      "title": "AOUKKL Car Phone Holder Fits for Mazda CX-5 2017-2025 Accessories,Thick Cases Friendly,Cell Phone Mount for 4-7 in Phones,360 Degree Rotation,Easy to Install",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F3X9K9N5",
+      "title": "AOUKKL Car Phone Holder Fits for Cadillac Lyriq 2023-2025 Accessories,Thick Cases Friendly,Cell Phone Mount for 4-7 in Phones,360 Degree Rotation,Easy to Install",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F47GVCNM",
+      "title": "Furiet Wallet Case for OnePlus Nord N200 5G with Shoulder Strap Ring Buckle, Zipper Flip Organ Purse Card Holder Stand Phone Cover for One Plus N 200 G5 1 Plus 200N 1plus One+ 1+ N2005G 2021 Rose Gold",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F489KB93",
+      "title": "soukeo Upgraded Car Phone Holder Fits for BMW X1 2016-2022/X2 2018-2023 Auto Accessories(Only fit for 8.8-Inch Screen),Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F48B8WB7",
+      "title": "soukeo Upgraded Car Phone Holder Fits for BMW X2 2022 2023 Auto Accessories(Only fit for 10.25-Inch Screen),Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F48C2YWZ",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Toyota Highlander 2020 2021 2022 2023 Auto Accessories(Only fit for 8-Inch Screen),Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F4X7G3NV",
+      "title": "Velontork Wireless CarPlay Adapter for Apple iPhone - Bluetooth 5.3 Plug & Play, No Latency, Auto Reconnect, Compatible with 2016+ Factory Wired CarPlay Cars & iOS10+",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Wireless Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5HN3BTM",
+      "title": "LEXXSON Single Din Car Stereo with Carplay Android Auto, 6.86 Inch IPS Touch Screen Single Din Radio with Mirror Link FM USB EQ GPS",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F61TDGLZ",
+      "title": "Wireless CarPlay Adapter for iPhone,Mini USB Design,2026 Upgrade with Built-in Wired for Apple CarPlay Plug and Play Fast Stable Connection Car Play for iPhone & Android (ZS01)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F66SWQTL",
+      "title": "ZITTZ GPS Car Tracker,Mini GPS Tracker for Vehicles Work with Apple Find My(iOS Only),No Monthly Fee GPS Tracker,Car Tracker Device Hidden with Magnetic Case (White,2PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6CRZ4MP",
+      "title": "ESR OmniLock for MagSafe Car Mount, 360° Rotation, Car Phone Holder for Air Vent, Magnetic Phone Holder for iPhone 17-12,Google Pixel 10 Pro/Samsung S26/S25,All Smartphones(2 MagSafe Rings Included)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F6H4CTMS",
+      "title": "VRS DESIGN Damda Glide Pro Phone Case Designed for [iPhone 15], Sturdy Semi Auto Wallet [4 Cards] Card Holder Case Compatible with iPhone 15 Case (2023) Logo Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6L9W6XD",
+      "title": "KUJKBFWJ Wallet Case for Motorola Moto G 5G 2024 with RFID Blocking Credit Card Holder, Lion and Lamb, Flip PU Leather Magnetic Closure Wrist Strap Phone Cover for Moto G 5G 2024",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6T5TVPZ",
+      "title": "Wireless Carplay Adapter for iPhone, Apple Carplay Wireless Adapter 2025,Plug and Play, Fast & Stable Fit for Cars 2016 & iOS 10+",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Wireless Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6TMM6WQ",
+      "title": "G-PLUS Front Bumper Cover, Compatible with Chevy Equinox 2022-2023 W/o Sensors, 84911082",
+      "category_path": "Automotive > Replacement Parts > Body & Trim > Body > Bumpers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6XX5SP5",
+      "title": "GPS Tracker for Cars,No Monthly Fee Mini Hidden Car Tracker with Magnetic Case,Real Time Car GPS Tracker Works with Apple Find My(iOS Only) (1PCS Black Tracker, White Magnetic Case)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F7LN1RNS",
+      "title": "LUNQIN Car Phone Holder for Chevy Chevrolet Blazer 2023 2024 2025 2026【NOT FIT Blazer 2019-2022】 Auto Accessories Navigation Bracket Interior Screen Decoration Dash Board Mobile Cell Phone Mount case",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F7PG55ZY",
+      "title": "Antenna Mount for Long Wall - Long Eaves Mast Mounting Bracket Kits with 90 Degree Elbows, Length Adjustable Extend Pipe, Fixing Screws, Ideal for Outdoor TV Antennas, Starlink WiFi Extender and More",
+      "category_path": "Electronics > Television & Video > Accessories > Antennas > TV Antennas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F82LM7SX",
+      "title": "VR Headset with Controller Adjustable 3D VR Glasses Virtual Reality Headset HD Blu-ray Eye Protected Support 5~7 Inch for Phone/Android",
+      "category_path": "Cell Phones & Accessories > Accessories > Virtual Reality (VR) Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F83VLYL7",
+      "title": "lulaven for Magsafe Wallet with Full Find My Functionality, Strong Magnetic Wallet for iPhone 16/15/14/13/12 Series, Thinnest Card Holder with Adjustable Stand, 6 Cards Holder, Brown",
+      "category_path": "Cell Phones & Accessories > Accessories > Adhesive Card Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F83VW2B3",
+      "title": "lulaven for Magsafe Wallet with Full Find My Functionality, Strong Magnetic Wallet for iPhone 16/15/14/13/12 Series, Thinnest Card Holder with Adjustable Stand, 6 Cards Holder, PU Leather Black",
+      "category_path": "Cell Phones & Accessories > Cell Phones",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F8KQX8KD",
+      "title": "VRS DESIGN Compatible with iPhone 15 Pro Max Case with Card Holder [Damda Glide Pro], Sturdy Semi Auto 4-Card Slot, High Durability & Style Designed for iPhone 15 Pro Max (2023) Camo Khaki",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F8VMSHGV",
+      "title": "TELESIN Universal Underwater Phone Case for Snorkeling and Diving Waterproof Housing for Photo & Video Handle Grip for iPhone 7-17 Pro/Pro Max/Plus/Mini, Galaxy S10-S26 Ultra/Plus and Most Phones",
+      "category_path": "Sports & Outdoors > Sports > Water Sports > Diving & Snorkeling > Diving Electronics",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93MYNLC",
+      "title": "Wireless CarPlay Android Auto Car Screen, 7 Inch HD Bluetooth AirPlay Touch Screen Protable Car Stereo Naivgation Music Video Player Mirrorring, Siri, AUX, Voice Assistant",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Digital Media Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9FNBK4N",
+      "title": "GPS Tracker for Vehicles, MINI Car Tracker Device Hidden for Vehicle, No Monthly Fee, Real-Time Tracker Device for Vehicles Work with Find My (iOS Only), Magnetic Car GPS Tracker, Waterproof",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9T6JY2H",
+      "title": "GPS Tracker for Vehicles No Subscription,Real Time GPS Tracker for Car Work with Apple Find My(iOS Only),Mini Hidden Car Tracker Device with Magnetic Case (White,2PCS)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9TDK85R",
+      "title": "ZITTZ Tracker Device for Vehicles,Mini Hidden Car Tracker with Magnetic Case,No Monthly Fee Real Time GPS Car Tracker Works with Apple Find My (iOS Only) (Black,2PCS)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9W28ZKN",
+      "title": "Vizvera for Galaxy Z Fold 6 Case Wallet,RFID Cards Holder [S Pen Holder][Privacy Screen Protector][Camera Cover] Shockproof Silicone Protective Phone Case for Z Fold 6 2024-Lake Blue",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F9W9VP51",
+      "title": "YANBORONSN Dash Cam Hardwire Kit with Multi Size Fuse,12V-24V to 5V/3A USB C Dash Camera Hardwire Kit with Digital Display and Low Voltage Protection,Pry Tool,ACC Mode,for Dash Camera(3.5M/11.4FT)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Video > On-Dash Cameras",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9WX5GG9",
+      "title": "SOTIONAS Magnetic Gym Bag 3PK | Super Strong Magnetic Water Bottle Carrier Holder with Shoulder Strap & Phone Pockets | Waterproof Crossbody Water Bottle Holder Bag for Men",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F9YF33Q6",
+      "title": "Asuwish Phone Case for Samsung Galaxy Z Fold 5 5G 2023 Zipper Wallet Detachable Cell Cover with Crossbody Lanyard Strap Bling Glitter Flip Card Holder Slot ZFold5 Z5 G Fold5 5Z Women Men Girls Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Case & Cover Bundles",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F9YGRKW8",
+      "title": "Asuwish Phone Case for Samsung Galaxy Z Fold 5 5G 2023 Zipper Wallet Detachable Cell Cover with Crossbody Lanyard Strap Bling Glitter Flip Card Holder Slot ZFold5 Z5 G Fold5 5Z Women Men Girls Red",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F9YGY2RZ",
+      "title": "Asuwish Phone Case for Samsung Galaxy Z Fold 5 5G 2023 Zipper Wallet Detachable Cell Cover with Crossbody Lanyard Strap Bling Glitter Flip Card Holder Slot ZFold5 Z5 G Fold5 5Z Women Men Girls Pink",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Case & Cover Bundles",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FB3F1D23",
+      "title": "GPS Tracker for Vehicles, 2PCS Real Time GPS Tracker for Car Work with Find My (iOS Only), Hidden Mini Car Tracker Device Hidden, No Monthly Fee, Magnetic, Waterproof",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FB8ZT9B9",
+      "title": "FIUTY Starlink Mini Car Adapter 10FT/3M - Double Waterproof Silicone Ring 20AWG Starlink Mini Cable 12V Power Cable to DC Power Cord, Ideal Starlink Power Cord Outdoor Accessory",
+      "category_path": "Electronics > Home Audio > Home Audio Accessories > Cables > Power Cords",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FB91GNXQ",
+      "title": "FIUTY Starlink Mini Car Adapter 16.4FT/5M - Double Waterproof Silicone Ring 20AWG Starlink Mini Cable 12V Power Cable to DC Power Cord, Ideal Starlink Power Cord Outdoor Accessory",
+      "category_path": "Electronics > Home Audio > Home Audio Accessories > Cables > Power Cords",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FBR3CBG9",
+      "title": "Car Phone Holder Dash Phone Holder for Car for 2012-2018 Jeep Wrangler JK JKU Unlimited Slide Rail Mounts Bracket Interior Accessories Compatible with GoPro Action Camera and Cell Phone",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Dash-Mounted Holders",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FC1WLP8T",
+      "title": "Motorcycle Battery Charger Bracket, Stealth Charging Port Mount, and Cable Holder — Compatible with 2024-2025 Harley Road Glide FLTRX & Street Glide FLHX and Road Glide ST Accessories (24+)",
+      "category_path": "Automotive > Motorcycle & Powersports > Accessories > Battery Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC27647W",
+      "title": "Motorcycle Battery Charger Bracket,Stealth Charging Port Mount,and Cable Holder — Compatible with 2024-2025 Harley Road Glide FLTRX & Street Glide FLHX and Road Glide ST",
+      "category_path": "Automotive > Motorcycle & Powersports > Accessories > Battery Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC5SS75B",
+      "title": "Dibosom for Samsung Galaxy S21 5G 6.2 inch Argyle Wallet Case with Wrist/Shoulder Strap Card Slots Flip Purse,Card Holder Stand Minimalist Quilted Cell Phone Cover for S 21 21S G5 Women Men White",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FC5SWFV1",
+      "title": "for Samsung Galaxy S25 Ultra Case Wallet with Screen Protector, Stand PU Leather Flip Folio Cover with Card Holder, Full-Body Protection Phone Case for Samsung S25 Ultra, Dreamcatcher 02",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FC5X42BS",
+      "title": "LDZJHTYY 4PCS Adhesive Sticky Pads, Heat Resistant Double-Sided Adhesive Pads, Rectangle Sided Adhesive Pads Heavy Duty for Car Phone Holder Mount & Dash Cam, 2.8x1.4 Inch",
+      "category_path": "Industrial & Scientific > Adhesives, Sealants & Lubricants > Adhesive Tapes > Foam Tape",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC63HZR7",
+      "title": "GYSYZJDH for Samsung Galaxy A15 5G Case Wallet with Screen Protector, Stand PU Leather Flip Folio Cover with Card Holder, Full-Body Protection Phone Case for Galaxy A15, Native American Chief",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FC6M843H",
+      "title": "Orderich Double Din Car Radio with Wireless CarPlay Android Auto, 7 Inch Touchscreen Car Stereo 2 Din with Backup Camera Car Radio Support Mirror Link Bluetooth FM USB EQ Type C Steering Wheel Control",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC6N9QR5",
+      "title": "Orderich Double Din Car Radio with Bluetooth iOS/Android Mirror Link, 7 Inch Touch Screen Car Stereo 2 Din with Backup Camera Bluetooth Hands-Free FM Radio USB EQ AUX TF Steering Wheel Control",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDK77R86",
+      "title": "KYNNT Single Din Car Stereo Carplay Android Auto, 1 Din Head Unit Bluetooth 5.2 Backup Camera, 6.86 inch HD Touchscreen Radio, FM EQ USB-Type-C, Mirror Link SWC, Voice Control, Car Stereo Receivers",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDQ2VCKQ",
+      "title": "Pyniro Single Din Car Stereo, 6.86 Inch CarPlay & Android Auto HD IPS Touchscreen Radio with Bluetooth with Backup Camera, Support USB Type-C Charging/USB/Mirror Link/Microphone/FM/EQ (B)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDWC8Z37",
+      "title": "KYNNT Single Din Car Stereo Wireless Carplay Android Auto, Car Stereo Receivers Bluetooth 5.2, 6.9\" IPS Touchscreen Radio 1 Din, Backup Camera, Mirror Link, SWC, FM EQ USB Type-C",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FF9X9HVT",
+      "title": "Tabletop Mini Magnetic Phone Tripod Stand - 4-in-1 Multifunctional 360 Rotation Tripod for Phone, Short Selfie Stick, Foldable Pocket-Size Portable Tripod with Wireless Remote for Travel Essentials",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Tripods",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFB2FPSX",
+      "title": "4-in-1 Multifunctional Magnetic Pocket Selfie Stick [Ultra-Compact], Portable Extendable Magnetic Phone Tripod with Detachable Remote and Metal Ring, Selfie Stick for iPhone & Android",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Tripods",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFGRYLK9",
+      "title": "PHCOHIDO Magnetic Golf Cart Phone Holder Fits for MagSafe iPhone 16 15 14 13 12 Series Mini, Alloy Strong Magnetic Phone Mount Golf Cart Accessories Compatible with EZGO/Club Cart/Yamaha Golf Cart",
+      "category_path": "Sports & Outdoors > Sports > Golf > Golf Cart Accessories",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFTDBJZ2",
+      "title": "BISART Vacuum Magnetic Car Phone Holder – 360° Rotatable, Reinforced 96LBS Suction Cup Mount Compatible with MagSafe for iPhone & Android, Portable for Car, Gym & Mirror (A7-Silvery)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FG2RZN12",
+      "title": "Single Din Car Stereo with Wireless CarPlay Android Auto, 6.86 Inch LED Touch Screen Car Radio with Bluetooth/Mirror Link/FM/EQ/USB/SWC/Type-C Charging + Backup Camera",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG6QLP9X",
+      "title": "Alondy Double Din Car Stereo with 7\" Touchscreen Compatible with [Wireless] Apple CarPlay Android Auto Bluetooth AM/FM Radio USB (Fast Charge 3A) Backup Camera",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGQ3PY98",
+      "title": "6.8\" IPS Touch Screen Single Din Car Stereo, Wireless CarPlay Android Auto, Bluetooth 5.2 Handsfree Call, FM Radio EQ, Backup Camera, SWC, USB & Type-C",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGXH4JCZ",
+      "title": "ExtreLife MagSafe Wallet with Find My: Magnetic Phone Wallet Stand for iPhone 17/16/15/14/13/12 Series, RFID Blocking Card Holder with Money Clip, 8 Cards Holder, Rechargeable, Purple",
+      "category_path": "Cell Phones & Accessories > Accessories > Adhesive Card Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FH2T5TZ3",
+      "title": "Wireless CarPlay Adapter for Apple iPhone， Mini car Play Android Auto Adapter，Converts Wired to Wireless CarPlay ， Multi-User Plug & Play Dongle No Latency，for iOS 10+&Android 11 (Black)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHK156C9",
+      "title": "JideTech Metal Universal Bullet Security Camera Junction Box Mount Bracket for Dome Turret IP Cameras Outdoor Indoor Wall Hide Cable Electrical Enclosure Base, IP66 Waterproof Rainproof White(1 Piece)",
+      "category_path": "Electronics > Security & Surveillance > Accessories > Surveillance Housing & Mounting Brackets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHKSC6NJ",
+      "title": "Couch Cup Holder Pillow, Sofa and Bed Caddy for iPad, Kindle, Switch, Game Controller, Remotes, Phones, Small-Sized Cup & Drink Holder for Couch, Bed, Desk, Car, Beach, Bathroom Cup Holder Pink",
+      "category_path": "Home & Kitchen > Bath > Bathroom Accessories > Holders & Dispensers > Cup Holders",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FHP66V7D",
+      "title": "Vanconwey ipad Wall Mount,Swivel & Tilt,AluminiumTablet Wall Mount,Adjustable and Foldable for 4.7-13 Inch Phones and Tablets,1 Packs,Black,VC-Z1218",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Stands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ6H1G1R",
+      "title": "LUHOURI for iPhone 17 Case Wallet - Wireless Charging Compatible Detachable Flip Folio Leather Cover - RFID Blocking 4 Card Slots Holder - Protective Phone Case for Women/Men - Blue",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FK4WHF7L",
+      "title": "KUJKBFWJ Wallet Case for Motorola Moto G Stylus 2024 with RFID Blocking Credit Card Holder, Raven Skull Floral, Flip PU Leather Magnetic Closure Wrist Strap Phone Cover for Moto G Stylus 2024",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FKGNGSC4",
+      "title": "[CD Metal Ring & Invisible 360° Spin Stand] Magnetic Case for iPhone 17 Air 6.5\" [Electroplated Shockproof Bumper ] [Compatible with Mag Safe] Cover with Stand for Women Men Slim Clear - Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKGR12MC",
+      "title": "[CD Metal Ring & Invisible 360° Spin Stand] Magnetic Case for iPhone 17 Pro Max [Electroplated Shockproof Bumper ][Compatible with Mag Safe] Cover with Stand for Women Men Slim Clear - Cosmic Orange",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKGR9JRR",
+      "title": "[CD Metal Ring & Invisible 360° Spin Stand] Magnetic Case for iPhone 17 Pro [Electroplated Shockproof Bumper ][Compatible with Mag Safe] Cover with Stand for Women Men Slim Clear - Cosmic Orange",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKGS3TT7",
+      "title": "[CD Metal Ring & Invisible 360° Spin Stand] Magnetic Case for iPhone 17 6.3\" [Electroplated Shockproof Bumper ][Compatible with Mag Safe] Cover with Stand for Women Men Slim Clear - Cosmic Orange",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKGS9FM2",
+      "title": "[CD Metal Ring & Invisible 360° Spin Stand] Magnetic Case for iPhone 17 Air 6.5\" [Electroplated Shockproof Bumper ][Compatible with Mag Safe] Cover with Stand for Women Men Slim Clear - Deep Blue",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKH94VVZ",
+      "title": "AZDOME Front WiFi Dash Cam 1296P HD with 3\" LCD Screen, Dashboard Camera with 150° Wide Angle, Night Vision, ADAS, G-Sensor, Loop Recording, 24/7 Parking Mode, Supports 128GB SD Card (M17)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Video > On-Dash Cameras",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKMPCRSH",
+      "title": "AOUKKL Car Phone Holder Fits for Subaru Forester 2019-2024,Crosstrek 2018-2023 Accessories,Thick Cases Friendly,Cell Phone Mount for 4-7 in Phones,360 Degree Rotation,Easy to Install",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT222D7",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Toyota Highlander 2020 2021 2022 2023 2024 2025 Auto Accessories,Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT4YMVG",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Kia Sportage 2023 2024 2025 Auto Accessories(Only fit for 12.3-Inch Screen),Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT56QWK",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Subaru WRX 2022 2023 2024 2025，Crosstrek 2024 2025,Impreza 2024 2025 Auto Accessories,Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKT5WS4B",
+      "title": "soukeo Upgraded Car Phone Holder Fits for Kia Carnival 2022 2023 2024 Auto Accessories,Cradles Adjustable Cell Phone Mount for 4-7 in Phones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FL2GXKPS",
+      "title": "Ring Light with Stand Overhead Phone Mount for Desk & Zoomable Spotlight, 2-in-1 Lighting Kit with Ring Light Tripod for iPhone, 30+ Lighting Modes, Ideal for Video Recording,Cooking,Content Creation",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Flashes & Selfie Lights > Selfie Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FL7NF6KL",
+      "title": "MOCCA Design for iPhone 17 Case, Compatible with Magsafe [Premium Invisible Magnetic Ring Stand] [Military Drop Protection] Full Camera Guard Translucent Matte Slim Phone Cover 6.3\",Light Purple",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FL7P8JRY",
+      "title": "MOCCA Design for iPhone 17 Case, Compatible with Magsafe [Premium Invisible Magnetic Ring Stand] [Military Drop Protection] Full Camera Guard Translucent Matte Slim Phone Cover 6.3\",Dark Green",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLK9BCWH",
+      "title": "TORRAS 2025 Upgrade (Gen 6.0) Magnetic Phone Grip Holder Kickstand with Braided Strap, Fit for MagSafe Ring Removable, for iPhone 17 16,15, 14, 13 12 Pro/Max Samsung, Google (Rose Gold), Ostand Ring",
+      "category_path": "Cell Phones & Accessories > Accessories > Grips",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLVLFTKZ",
+      "title": "LITOU Compatible for iPhone 17 Crossbody Wallet Purse Phone Case,Detachable Magnetic,RFID Blocking Card Holder,Zipper Leather Wallet Wrist Lanyard Strap Case for Women.Blue Flower",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLVLN46Z",
+      "title": "LITOU Compatible for iPhone 17 Crossbody Wallet Purse Phone Case,Detachable Magnetic,RFID Blocking Card Holder,Zipper Leather Wallet Wrist Lanyard Strap Case for Women.Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLVLWTBG",
+      "title": "LITOU Compatible for iPhone 17 Pro Crossbody Wallet Purse Phone Case,Detachable Magnetic,RFID Blocking Card Holder,Zipper Leather Wallet Wrist Lanyard Strap Case for Women.Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLVMQ358",
+      "title": "LITOU Compatible for iPhone 17 Crossbody Wallet Purse Phone Case,Detachable Magnetic,RFID Blocking Card Holder,Zipper Leather Wallet Wrist Lanyard Strap Case for Women.Black Flower",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLW88DC9",
+      "title": "NEXUS Dash Tray for Mercedes-Benz VS30 Sprinter Van (10x10 inch Bamboo)",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Trays & Bags",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLWLC3W4",
+      "title": "DYZTUNOCA Compatible with Samsung Galaxy S23 Case Wallet Cute for Women with Design,Rugged Credit Card Holder Slot Protective Phone Skin Cases - Red Vibrant Blooms Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLWLQ7WH",
+      "title": "DYZTUNOCA Compatible with Samsung Galaxy S23 Case Wallet Cute for Women with Design,Rugged Credit Card Holder Slot Protective Phone Skin Cases - White Little Flower Ocean",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLWMDBKS",
+      "title": "DYZTUNOCA Compatible with Samsung Galaxy S23 Case Wallet Cute for Women with Design,Rugged Credit Card Holder Slot Protective Phone Skin Cases - Pink Floral Blossoms Dahlia",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLWMWNVC",
+      "title": "DYZTUNOCA Compatible with Samsung Galaxy S23 Case Wallet Cute for Women with Design,Rugged Credit Card Holder Slot Protective Phone Skin Cases - Brown Funny Sloth Meditation",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLWN44QG",
+      "title": "DYZTUNOCA Compatible with Samsung Galaxy S23 Case Wallet Cute for Women with Design,Rugged Credit Card Holder Slot Protective Phone Skin Cases - Pink Wild Flowers Florals",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLWNBWMX",
+      "title": "DYZTUNOCA Compatible with Samsung Galaxy S23 Case Wallet Cute for Women with Design,Rugged Credit Card Holder Slot Protective Phone Skin Cases - Blue Colorful Pineapples",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLWNNCD4",
+      "title": "DYZTUNOCA Compatible with Samsung Galaxy S23 Case Wallet Cute for Women with Design,Rugged Credit Card Holder Slot Protective Phone Skin Cases - Yellow Sunflowers Flower",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FLY4DP7J",
+      "title": "DuiDuiQ Designed for Samsung Galaxy S23 Case with Magnetic Ring Stand [Compatible with Mag-Safe][Military Grade Drop Protection][Build in Kickstand] S23 Phone Case 6.1\",Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLYG77L3",
+      "title": "JCGOOD Compatible with MagSafe iPhone 17 Air Case Wallet,2 in 1 Leather Magnetic Detachable Credit Card Holder Flip Cover Kickstand Shockproof for Men Women Military Protection Phone Cover,Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FM2WQMFG",
+      "title": "ESR OmniLock for MagSafe Car Mount, Vacuum Magnetic Car Mount, 360° Adjustable Car Magnetic Phone Holder,Suction Cup Phone Holders for Your Car,for iPhone 17e/17/16/15/14/13/12/Samsung,All Smartphones",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FM9K6ZPS",
+      "title": "Soulkawa Kayak Phone Holder & Camera Mount, 360° Adjustable Phone Holder with 2 1\" Screwball Track Mount, Long Arm Kayak Phone Mount, Fits GearTrac&Track Systems",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS System Accessories > Vehicle Mounts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN3HHW99",
+      "title": "CAMECHO 7 Inch Double Din Car Stereo Touch Screen Bluetooth Car Radio Support Mirror Link FM Radio USB/Type-C/AUX/SD Input Car Audio Receivers Multimedia MP5 Player 2 Din Head Unit",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN3V7743",
+      "title": "RUNNINGMT Mini Selfie Stick with Remote, Pocket Size Retractable Portable Phone Tripod for iPhone Android, Compatible for Vlog Video Livestreaming Photography",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Selfie Sticks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN8J4R14",
+      "title": "MAYAHXE Wireless CarPlay Adapter, Wireless Apple CarPlay for iPhone 6+ (iOS 10+), Plug & Play, Easy Setup, Dongle with Stable Connection for 2016+ OEM Vehicles",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FND8JVMD",
+      "title": "LUXSURE Ring Light with 62'' Tripod Stand for Video Recording, 10.5'' Ring Light Tripod for iPhone with 2 Shooting Positions, Overhead Phone Mount for YouTube, Makeup, Cooking",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Flashes & Selfie Lights > Selfie Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNDGWB89",
+      "title": "LQSASUZ 2026 New Phone Charm Detachable Anti-Theft Cellphone Lanyard for Women Girls HandsFree Phone Wrist Strap-BlushWhisper",
+      "category_path": "Cell Phones & Accessories > Accessories > Décor > Phone Charms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNMH4BQP",
+      "title": "KUJKBFWJ Wallet Case for Motorola Moto G Power 5G 2024 with RFID Blocking Credit Card Holder, Raven Skull Floral, Flip PU Leather Magnetic Closure Phone Cover for Moto G Power 5G 2024",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FP51BHV2",
+      "title": "DAIERTEK Starlink Performance Gen3 Mount, Starlink Flat high Performance Car Mount, Easy Screw Installation, Waterproof, for Car Roof Rack, RV, Truck, Trailer",
+      "category_path": "Automotive > Exterior Accessories > Cargo Management > Brackets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FP57T9HZ",
+      "title": "SUANDUCK Wallet Case for iPhone 15 Pro Max 6.7\" with RFID-Blocking Credit Card Holder, PU Leather Folio Flip Cover Women Men Protective Phone Case Compatible with Apple 15 Pro Max, Blue",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FPFQTXR1",
+      "title": "Ring Light for Desk with Overhead Phone Mount and Phone Holder - CRI >95 - Ring Light with Stand for Video Recording, Adjustable Desk Tripod with Ringlight for Artist/Painting/Content Creator/DIY",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Flashes & Selfie Lights > Selfie Lights",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQJKVB7F",
+      "title": "KUJKBFWJ Wallet Case for Motorola Moto G Power 5G 2025 with RFID Credit Card Holder, Raven Skull Floral, Flip PU Leather Magnetic Closure Wrist Strap Phone Cover for Moto G Power 5G 2025",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FR3HSGZK",
+      "title": "LITOU Compatible for iPhone 17 Pro Phone Case Crossbody Wallet,Detachable Magnetic,Card Holder,Wrist Lanyard Strap,Zipper Wallet Case for Men Women.Red",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FR3HT5VJ",
+      "title": "LITOU Compatible for iPhone 17 Pro Phone Case Crossbody Wallet,Detachable Magnetic,Card Holder,Wrist Lanyard Strap,Zipper Wallet Case for Men Women.PurpleFlower",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FR3NB56B",
+      "title": "LITOU Compatible for iPhone 17 Pro Phone Case Crossbody Wallet,Detachable Magnetic,Card Holder,Wrist Lanyard Strap,Zipper Wallet Case for Men Women.GrayFlower",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Crossbody & Lanyard Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FR96Y662",
+      "title": "HARFINGTON 2pcs Car Seat Gap Filler Organizer 10.6 x 7.1 x 2.8 Inch ABS+Leather Universal Car Organizer Storage Box Between Seat and Console (Left+Right) with Cup Holders for Phone, Brown",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Trays & Bags",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FR9KCCV1",
+      "title": "HARFINGTON 2pcs Car Seat Gap Filler Organizer 10.6 x 7.1 x 2.8 Inch ABS+Leather Universal Car Organizer Storage Box Between Seat and Console (Left+Right) with Cup Holders for Phone, Beige",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Trays & Bags",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FRFL2W2H",
+      "title": "Kimiyaki Wallet Case Compatible with Samsung Galaxy Z Fold7, Magnetic Snap Flip Leather Cover with Flower Design Credit Card Holder Stand Wristband，Z Fold 7 2025 Protective Phone Case for Women",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FS2C5TYM",
+      "title": "Smartish® iPhone 17 Pro Wallet Case + Crossbody Lanyard Strap - [Slim + Protective] Phone Case Credit Card Holder + Universal Detachable Shoulder Neck Strap for Apple iPhone 17 Pro - Black Tie Affair",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FS2CDZGH",
+      "title": "Smartish® iPhone 17 Pro Wallet Case + Crossbody Lanyard Strap - [Slim + Protective] Phone Case Credit Card Holder + Detachable Shoulder Neck Strap for Apple iPhone 17 Pro Max - Black Tie Affair",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVSTR5KB",
+      "title": "COOEXES for MagSafe Car Mount Charger with 15W Fast Wireless Charging, Magnetic Car Phone Holder 【Windshield+Vent+Dash】 with Bendable Memory Alloy Arm, 108LB Suction Phone Mount for iPhone 17 Pro Max",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVT9LHNX",
+      "title": "for Galaxy A17 Phone Case Wallet for Samsung Galaxy A17 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Blue Butterfly Set on White Rose",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVT9MMM6",
+      "title": "for Galaxy A07 Phone Case Wallet for Samsung Galaxy A07 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Black Girl African Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTB1TFM",
+      "title": "for Galaxy A17 Phone Case Wallet for Samsung Galaxy A17 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Cow Hide Animal Print Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTBJ9FW",
+      "title": "for Galaxy A07 Phone Case Wallet for Samsung Galaxy A07 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Snake in Pink Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTBY82J",
+      "title": "for Galaxy A07 Phone Case Wallet for Samsung Galaxy A07 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Cute Eelephant & Colorful Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTCCVB3",
+      "title": "for Galaxy A17 Phone Case Wallet for Samsung Galaxy A17 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Dragonfly on The Daisies Florals",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTCDPB2",
+      "title": "for Galaxy A07 Phone Case Wallet for Samsung Galaxy A07 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-A Cow in The Sunflowers Field",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTCH5PF",
+      "title": "for Galaxy A17 Phone Case Wallet for Samsung Galaxy A17 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Sunflower Butterfly",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTCHSXT",
+      "title": "for Galaxy A07 Phone Case Wallet for Samsung Galaxy A07 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Cow Hide Animal Print Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTCWF8M",
+      "title": "for Galaxy A07 Phone Case Wallet for Samsung Galaxy A07 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Blue Flowers Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTD4D1D",
+      "title": "for Galaxy A07 Phone Case Wallet for Samsung Galaxy A07 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Dragonfly Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTD7TNJ",
+      "title": "for Galaxy A07 Phone Case Wallet for Samsung Galaxy A07 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Sunflower Butterfly",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVTDT7J3",
+      "title": "for Galaxy A17 Phone Case Wallet for Samsung Galaxy A17 Case with Card Holder,PU Leather Folding Kickstand Magnetic Snap Flip Cover w/Wrist Strap-Lion in Moon Halo",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVXT7TGV",
+      "title": "GalhanEhe 2 in 1 Wireless CarPlay Adapter for iPhone & Android Auto, Converts Wired Carplay to Wireless, Support Dual-Port USB-C and Type-C, Plug and Play, Stable Connection and No Latency",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWBXLGRR",
+      "title": "SKYLOTEC Phone Mount for Toyota Camry 2021-2024, Magnets Wireless Charger Phone Holder Compatible with MagSafe, 9-Inch Screen Cradles Bracket for Cell Phones (No Fit 7-inch)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FWC16JTR",
+      "title": "SKYLOTEC Car Phone Holder for Toyota Highlander 2020-2025 Accessories 8-Inch Screen Fixed Clip, Automobile Cradles Phone Mount, Cell Phone Base Not Block Air Vent (Not Fit 12.3-inch Limited Platinum)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FWKD4661",
+      "title": "Phone Holder for 2023-2025 Land Rover Defender Accessories 11.4-Inch Screen Fixed Clip, Car Magnetic Phone Mount Compatible with MagSafe, Strong Magnets 15W Fast Wireless Charger Cell Phone Base",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FX3SC7DS",
+      "title": "TEC&Fan Cooling Magnetic Wireless Car Charger, For Magsafe Car Mount Fast Charging, Vacuum/Air Vent Car Phone Holder [120LBS Ultra Suction Cup&3000gf Magnet] Dashboard Car Bracket for iPhone/Samsung",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FX8BK329",
+      "title": "TUYICN Car Phone Holder Fit for Cadillac Lyriq 2023-2025/CT5 2025/XT4 2024 2025 with Dashboard Organizer 33-inch Screen Phone Mount Fit for Cadillac Accessaries Phone Holders Fixed Clip 360°Rotation",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FXHFWRVR",
+      "title": "Wtujil 3-in-1 Car Backseat Organizer, 2026 New Multifunctional Car Seat Back Storage Box, Car Back Seat Organizer with Tissue, for Hold Phone, Drinks, Handbag, with 2 Cup Holders & Hooks (Black, 1PC)",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Seat Back Organizers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FYF7J621",
+      "title": "YNVYFI 2026 Underwater Snorkeling Diving Phone Case for Phone 17/16/15/14/13/12Pro Max/Galaxy S25/S24/S23.(50ft/15m) Professional Scuba Dive Uderwater Phone case Photo Video(Orange)",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYWQKY8H",
+      "title": "Starlink Mini Car Charger Adapter DC Power Plug for Cigarette Lighter Socket",
+      "category_path": "Automotive > Replacement Parts > Lighting & Electrical > Electrical > Cigarette Lighters & Parts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZ91MB77",
+      "title": "Double Din Wireless Carplay Android Auto Car Radio, 7 Inch HD Touch Screen Car Stereo with Mirror Link Bluetooth FM Audio EQ AHD Camera Steering Wheel Control, USB/AUX/Type-C Charging",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZBWLGB4",
+      "title": "MIAO LAB 200X Phone Microscope with CPL Lens and LED/UV Light, Universal Clamp for iPhone/Android - Nano Zoom Portable Pocket Phone Microscope Lens Attachment",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Lens Attachments",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FZH4NLHN",
+      "title": "GHMTB 15W Fast Wireless Car Charger, Auto-Clamping Silver Car Phone Holder with Strong Suction Cup,360°Adjustable Dashboard/Windshield Mount for iPhone17-11&Samsung S Series Essential Car Accessories",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FZH68KKN",
+      "title": "GHMTB 15W Fast Wireless Car Charger, Auto-Clamping Black Car Phone Holder with Strong Suction Cup,360°Adjustable Dashboard/Windshield Mount for iPhone17-11&Samsung S Series Essential Car Accessories",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FZQCZ4X4",
+      "title": "Dswteny Wallet Case for iPhone 17 Pro 6.3 inch with Wrist Lanyard Shoulder Strap Slim Flip Purse, PU Leather Credit Card Holder Accessories Cell Phone Cover for i Phone17 i17 17Pro Women Men White",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FZV1MFMY",
+      "title": "ELOHEI Car Phone Holder for Nissan Rogue 2021 2022 2023 Accessories, 12.3\" Screen Phone Mount with Fixed Storage Tray Kit for Rogue SL/Platinum High-end Models",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G12TV6YV",
+      "title": "GPS Tracker, Magnetic Mini Gpss Trackers, Real Time Car Locator, for Vehicles, Cars, Trucks (White)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G12V6FWW",
+      "title": "GPS Tracker, Magnetic Mini Gpss Trackers, Real Time Car Locator, for Vehicles, Cars, Trucks (Black)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G133K2XT",
+      "title": "GPS Tracker, Magnetic Mini GPS Trackers, Real Time Car Locator, for Vehicles, Cars, Trucks (2pcs Black)",
+      "category_path": "Electronics > GPS, Finders & Accessories > GPS Trackers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G13BRFRY",
+      "title": "STARGEAR Starlink Mini Magnetic Mount with Protective Silicone Case, 2 in 1 Satellite Dish Mounting Kit & Cover with 200lbs Magnet Bases Handle Shoulder Strap & 1/4\"-20 Nuts for RVs Car Boat/Road Trip",
+      "category_path": "Electronics > Television & Video > Satellite Television > Satellite Dishes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1BYFZM8",
+      "title": "BASENOR Phone Mount for 2025 2026 Tesla Model Y Juniper/Model 3 Highland, Dashboard Phone Holder Does Not Block View [No Adhesive][Dual Arms][360° Adjustable] Tesla Accessories Fit All Smartphone",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2GMNLKZ",
+      "title": "FETUSI Ford F-150 Metal Dash Board Mount (Fit 2021-2025 F-150/Raptor),Super Duty Shakeproof Dash Mount Holder Cool Ford Accessory﻿-Double Phone Holder",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Dash-Mounted Holders",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2GMSC8T",
+      "title": "FETUSI Ford F-150 Metal Dash Board Mount (Fit 2021-2025 F-150/Raptor),Super Duty Shakeproof Dash Mount Holder Cool Ford Accessory﻿-Single Phone Holder",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Dash-Mounted Holders",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2GMX39N",
+      "title": "FETUSI Ford F-150 Metal Dash Board Mount (Fit 2021-2025 F-150/Raptor),Super Duty Shakeproof Dash Mount Holder Cool Ford Accessory﻿-Phone & Action Camera Holder",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Dash-Mounted Holders",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2S29Y8H",
+      "title": "Phone Case for Samsung Galaxy S21 Ultra 5G Wallet Cover Compatible with Magsafe RFID Screen Protector Crossbody Lanyard Strap Flip Card Holder Slot Zipper Cell S21ultra 21S S 21 21ultra G5 Dark Purple",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G2S59W19",
+      "title": "Phone Case for Samsung Galaxy S21 Ultra 5G Wallet Cover Compatible with Magsafe RFID Screen Protector Crossbody Lanyard Strap Flip Card Holder Slot Zipper Cell S21ultra 21S S 21 21ultra G5 Brown",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G2XQGY5C",
+      "title": "Magnetic Selfie Monitor Screen for Phone - 1080P Portable Wireless Phone Vlog Camera Monitor with Back Screen, Compatible with iPhone Android Phones, Ideal for Content Creators, Streaming",
+      "category_path": "Cell Phones & Accessories > Cell Phones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G43MG9X4",
+      "title": "Universal Antenna Pole Mount for Antenna, Starlink & Weather Station – Adjustable Bracket for Wall, Eave, Roof (Sliver)",
+      "category_path": "Electronics > Television & Video > Satellite Television",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G43QWM6D",
+      "title": "Asuwish Phone Case for Samsung Galaxy S26 5G Wallet Cell Cover with Tempered Glass Screen Protector Wrist Crossbody Strap Lanyard RFID Blocking Card Holder S 26 26S G5 6.3 inch Women Men Girls Purple",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G4V18H3R",
+      "title": "Underwater Phone Case for Snorkeling, [50ft/15M] Professional Deep Diving Waterproof Phone Case for iPhone 17-7 Pro/Pro Max/Plus/Mini, 16/17E, SE 2/3, Galaxy S10-S25 Plus/Ultra, A21-A56 [Classic]",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G63PG4TZ",
+      "title": "Scutumate Compatible with MagSafe iPhone 17 Pro Max Case Wallet with Holder,Men Women Magnetic Detachable 2 in 1 PU Leather RFID Blocking Credit Card Holder Flip Cover Kickstand,Carbon Black",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G6J7N26D",
+      "title": "Mountsky 2PCS Mirror Cover Compatible with Hyundai Tucson 2022 2023 2024 2025 Accessories Car Ox Horn Side Rearview Mirror Cap Cover Wing Protect Decorate Covers (Glossy Carbon Fiber)",
+      "category_path": "Automotive > Replacement Parts > Body & Trim > Body > Mirrors & Parts > Exterior Mirrors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6KH3Y2R",
+      "title": "Moman Heads Up Display for Cars, Moman Gauge Car HUD Digital GPS Speedometer r KM/H MPH with Compass, Over Speed Alert & Fatigue Reminder, HGPS",
+      "category_path": "Automotive > Replacement Parts > Lighting & Electrical > Electrical > Gauges > Speedometers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6KTV3KT",
+      "title": "Game Changer Mounting Kit, Cell Phone Fence Mount with Shade and Power Bank Holder, Gamechanger Streaming Kit, Fence Phone Holder for iPhone GoPro Camera Mevo Start Recording Baseball Tennis Game",
+      "category_path": "Electronics > Camera & Photo > Accessories > Tripod & Monopod Accessories > Camera Mounts & Clamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6L7SBJ5",
+      "title": "Starlink Mini 12V, 16 AWG, Starlink Mini Car Charger, Waterproof, Built-in Protections (mgy-car-Adapter-Adapter)",
+      "category_path": "Automotive > Replacement Parts > Lighting & Electrical > Electrical > Cigarette Lighters & Parts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G78PJNW8",
+      "title": "OMOTON CV08 Magnetic Golf Cart Phone Mount with [1/4” Screw + 5.6” Extendable Arm], 360° Rotatable Holder, Strong Magnets for iPhone & Samsung, Fits EZ-GO/Club Car, Includes Pouch & Strap (Orange)",
+      "category_path": "Sports & Outdoors > Sports > Golf > Golf Cart Accessories",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G7GTR4GG",
+      "title": "Orderich 3 Channel 2.5K Dash Cam Front and Rear Inside Left Right, 3.16-Inch Dash Camera for Cars Support WiFi GPS, Built-in Night Vision G-Sensor 24/7 Recording Parking Mode Monitor Reversing",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Video > On-Dash Cameras",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G8KG13G7",
+      "title": "for iPhone 16 Pro Case with 360° Spin Magnetic Stand Ring [Compatible with MagSafe][Military Protection][Camera Control Button]Cute Anti-slip Wave Phone Case for iPhone 16 Pro, Desert Titanium/Clear",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G9HQ8B6L",
+      "title": "CNDPSTE Wireless CarPlay Adapter for iPhone - Stable Connection Plug & Play Convert Wired to Wireless for iOS 10+ and Cars from 2016 USB A/USB C",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GBWH43K1",
+      "title": "Magnetic Suction Cup Mount with Protective Case for Starlink Mini, 2 in 1 Satellite Dish Mounting Kit & Cover with 200lbs Magnet Bases with Strong Suction Cups for Car Window, RVs, Boat, Road Trip",
+      "category_path": "Electronics > Television & Video > Satellite Television > Satellite Dishes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GC5T9L16",
+      "title": "clsun Car Mount, [Washable] Dual-Adhesion Magnetic Phone Holder for Car, 360° Adjustable Nano Gel Vacuum Phone Mount Car Accessories for Women Men for iPhone 17 16 15 14 13 12 Pro Max (Black-40)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCDGDF1G",
+      "title": "FUYOCWE for Galaxy A57 5g Wallet Case for Samsung Galaxy A57 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Cute Eelephant & Colorful Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCDY74MB",
+      "title": "FUYOCWE for Galaxy A57 5g Wallet Case for Samsung Galaxy A57 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Snake in Pink Flowers",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCDZ29D6",
+      "title": "FUYOCWE for Galaxy A57 5g Wallet Case for Samsung Galaxy A57 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Lion in Moon Halo",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCDZBHT8",
+      "title": "FUYOCWE for Galaxy A57 5g Wallet Case for Samsung Galaxy A57 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Spirit Ouija Board Goth Skull",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCFGW8RT",
+      "title": "FUYOCWE for Galaxy A37 5G Wallet Case for Samsung Galaxy A37 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Blue Fire Skulls Gothic Art",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCFHTB5C",
+      "title": "FUYOCWE for Galaxy A57 5g Wallet Case for Samsung Galaxy A57 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-A Cow in The Sunflowers Field",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCFJLYF9",
+      "title": "FUYOCWE for Galaxy A37 5G Wallet Case for Samsung Galaxy A37 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Sunflower Butterfly",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCFLPWHB",
+      "title": "FUYOCWE for Galaxy A57 5g Wallet Case for Samsung Galaxy A57 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Blue Flowers Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCFN61GS",
+      "title": "FUYOCWE for Galaxy A37 5G Wallet Case for Samsung Galaxy A37 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Flower Dragonflies Drawing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCFSVZMP",
+      "title": "FUYOCWE for Galaxy A57 5g Wallet Case for Samsung Galaxy A57 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Gold Moon Star",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCFZ4F7Z",
+      "title": "FUYOCWE for Galaxy A37 5G Wallet Case for Samsung Galaxy A37 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Lion in Moon Halo",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCG4XWCW",
+      "title": "FUYOCWE for Galaxy A37 5G Wallet Case for Samsung Galaxy A37 5G Phone Case with Card Holder,PU Leather Flip Cover w/Kickstand+RFID Blocking+Magnetic Snap-Black Cat with Gold Floral",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCGXRYTS",
+      "title": "Shock-Resistant CD Slot Phone Holder for Car, CD Player Phone Mount with Adjustable Clamp, 360° Rotation, Non-Slip, Single-Button Release, Heat-Resistant, Universally Compatible with iPhone & Samsung",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCHTJLKT",
+      "title": "7-Inch Double Din Touch Screen Car Stereo with Bluetooth, FM Radio, Car MP5 Player with Mirror Link, AUX/USB, Rear View Camera, Steering Wheel Control and Color Backlight",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCM94Q4G",
+      "title": "GalhanEhe Wieless Carplay Adapter for iPhone & Android, Support iOS & Android Phone to Car Screen, Wired to Wireless, No Latency (4 in 1 Airplay + Mirror Link)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCZLJNLN",
+      "title": "OHLPRO Car Cup Holder Tablet Mount for Truck & SUV, Heavy Duty iPad Holder for Car with Thick Case Friendly Deep Claws, 2.6-3.9\" Expandable Base & Adjustable Extension Arm, Fits 5-17\" Devices, Black",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Stands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GD78NC5C",
+      "title": "2026 upgraded wireless CarPlay adapter fast automatic connection stable connection mini plug-and-play adapter is suitable for iPhone and Android Auto compatible car with USB/USB-C (Silvery)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDMW2LHC",
+      "title": "Dash Cam Front and Rear Inside,Dashcam for Cars with APP Control,Car Camera Driving Recorder with IR Night Vision,Loop Recording,3.16 Inch IPS Screen,Parking Mode (Black（4 Channel）)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Video > On-Dash Cameras",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDXKYTJ9",
+      "title": "SnuggleTail Retro Phone Handset Wired Receiver with 3.5 mm Jack and Lightning Adapter, Vintage Telephone Style Handset with Microphone & Answer Button for Smartphones, Tablets & Computers",
+      "category_path": "Cell Phones & Accessories > Cell Phones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDXP73N2",
+      "title": "SnuggleTail Retro Phone Handset Wired Receiver with 3.5 mm Jack and Type-C and Lightning Adapter, Vintage Telephone Style Handset with Microphone & Answer Button for Smartphones, Tablets & Computers",
+      "category_path": "Electronics > Accessories & Supplies > Telephone Accessories > Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF1YSDX7",
+      "title": "PZK Car Phone Holder for Toyota Sienna 2021 2022 2023 2024 Accessories 12.3-Inch Screen Fixed Clip Compatible with MagSafe Car Phone Mount with Sunglasses Storage Box 360° Rotation Not Affect Vent",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GF9P71VT",
+      "title": "11.26'' Wireless Apple CarPlay & Android Auto Screen for Car with 4K Dash Cam,Ultra-Light Touchscreen, IP68 1080P Backup Camera, GPS Navigation, Voice Control, Mirror Link, Plug & Play(64GB U3 Card)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFCN971W",
+      "title": "4-in-1 Orange Back Seat Car Organizer, Upgraded Multifunctional Car Seat Back Storage Box, Hanging Back Seat Storage Organizer, Partition Design, with Phone Holder, Tissue Box, 2 Cup Holders, 2 Hooks",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Seat Back Organizers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GFD1Y4G2",
+      "title": "Waterproof Phone Holder for Shower, [Shower Phone Mount] with IPX6 Rating & Anti-Fog Screen, 360° Rotatable [Waterproof Shower Phone Holder] with Strong Suction for iPhone Android 4-7 Inch (White)",
+      "category_path": "Cell Phones & Accessories > Accessories > Mounts > Shower & Wall Mounts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFHGGZ6S",
+      "title": "Motorcycle Phone Mount Holder -[Dual Vibration Dampener] [7.2'' Big Phone Friendly] Bike Phone Holder Mount Motorcycle Accessories Bicycle Handlebar Phone Mount for iPhone, Galaxy All Cell Phones",
+      "category_path": "Automotive > Motorcycle & Powersports > Accessories > Electronics > Electrical Device Mounts",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GG6SCL6V",
+      "title": "Car Radio Decoder Android Head Unit Accessories Data Conversion Compatible with Ford Series(RP5-FD-002)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Vehicle Audio & Video Installation > Radio Wiring Harnesses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGBJ9KM4",
+      "title": "Car Radio Decoder Android Head Unit Accessories Data Conversion Compatible with Jeep Chrysler Series(RZ-JP04)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Vehicle Audio & Video Installation > Radio Wiring Harnesses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGXLSV1P",
+      "title": "MOHOSOKO Phone Fence Mount with Shade & Cooling Fan - Foldable Game Changer Mounting Kit for iPhone, All-in-One Streaming Kit for Baseball Recording",
+      "category_path": "Electronics > Camera & Photo > Accessories > Tripod & Monopod Accessories > Camera Mounts & Clamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHR8M5WK",
+      "title": "Backup Camera for Cars - HD/CVBS Image 170° Wide Angle, Super Night Vision, IP68K Waterproof, Metal Housing, Universal for 12V Vehicles (SUV, Truck, RV, Minivan) (Black- lincense Mount)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Safety & Security > Vehicle Backup Cameras",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHYLJ924",
+      "title": "Head up Display Car GPS Digital Speedometer, Heads Up Display for Cars Windshield with MPH SpeedCar Digital GPS Hud, USB Cable Plug and Play (Green, KM/H)",
+      "category_path": "Automotive > Replacement Parts > Lighting & Electrical > Electrical > Gauges > Speedometers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJ5KKB2C",
+      "title": "Lamicall for Tesla Phone Mount - [Strongest N55 Magnet] for Tesla Model 3 Y Juniper Accessories, Ultra Stable for Magsafe Car Mount, Magnetic Phone Holder Compatible with iPhone 17 16 15 14 13 Pro Max",
+      "category_path": "Cell Phones & Accessories > Accessories > Mounts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJ5PT1M3",
+      "title": "Retro Phone Handset, Retro Phone Handset for Phone, Type-C Retro Telephone Wired Handsets Style Landline Handle Receiver for Cell Mobile Video Conferences (Black)",
+      "category_path": "Office Products > Office Electronics > Telephones & Accessories > Landline Phones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJ6KYV3Z",
+      "title": "SportySizz Car Tissue Holder for Front Seat, Headrest Organizer with 2 Side Mesh Pockets for Phones & Cards, Tissue Box Cover Square Fits 150 Tissues, Durable PU Leather (2 PCS)",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Seat Back Organizers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GJYJSNM2",
+      "title": "Cord‑Free Charging Pad for Toyota Corolla Corolla Hatchback Camry Auris Yaris Aygo, 20W Car Charger Pad for Phones, Dashboard & Desk Charging, Phone Charger for Vehicles & Office Use",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Automobile Chargers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJZS5P4H",
+      "title": "GPS Navigator for Car, Latest 2026 Map 7 inch Touch Screen Car GPS 256-16GB, Voice Turn Direction Guidance, Support Speed and Red Light Warning, North America Lifetime map Free Update(Green)",
+      "category_path": "Electronics > GPS, Finders & Accessories > Vehicle GPS",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GK2KGTK2",
+      "title": "10.26\" Wireless Apple CarPlay & Android Auto Screen for Car with 4K Dash Cam,Ultra-Light Touchscreen, IP68 1080P Backup Camera, GPS Navigation, Voice Control, Mirror Link, Plug & Play(No Card)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Video > In-Dash DVD & Video Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GK866YQ1",
+      "title": "MioBanbo Qi2.2 25W Magnetic Car Mount Charger for Toyota Prius 2023 2024 2025 2026 Accessories,for Fast Charging Cell Phone Holder 12.3 Inch Screen Fixed Clip with Cooling Fan＆54W Fast Adapter",
+      "category_path": "Cell Phones & Accessories > Accessories > Chargers & Power Adapters > Automobile Chargers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GKNKK1WG",
+      "title": "MOHOSOKO Phone Fence Mount with Shade & Cooling Fan - Foldable Game Changer Mounting Kit for iPhone, All-in-One Streaming Kit for Baseball Recording (Blue)",
+      "category_path": "Electronics > Camera & Photo > Accessories > Tripod & Monopod Accessories > Camera Mounts & Clamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GKYKMQMB",
+      "title": "eSamcore for Magsafe Car Mount, Bendable Alloy Arm Magnetic Phone Holders for Your Car Dashboard & Windshield Vacuum Suction Cup Cell Phone Holder Fit for iPhone 17 Pro Max 16 15 14 13 12",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GL3BDD3W",
+      "title": "SYHUZFHY 16 PIN 2 DIN Android GPS Radio Wiring Harness Adapter Compatible with BMW E39 E46 E53 (1995-2005) with Decoder(Cable Canbus)",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Vehicle Audio & Video Installation > Radio Wiring Harnesses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GL8CLHMD",
+      "title": "FM Transmitter Bluetooth 5.3 for Car, Bluetooth Radio Adapter Transmitter for Car, Wireless Audio Transmitter and Receiver 1.44\" Display AUX in/Out SD/TF Card USB C Charger [PD 30W], GUANDA",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM1XDZPX",
+      "title": "Brotherhood 1969-1972 Compatible with Chevelle 454 Red Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM1XH3QS",
+      "title": "Brotherhood 1964 Compatible with Chevelle New Name Style Car Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM251J92",
+      "title": "Brotherhood 1965 Compatible with Chevelle Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM28W1SL",
+      "title": "Brotherhood 1964 Compatible with Chevelle Malibu Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM2NVJNH",
+      "title": "Brotherhood 1966 Compatible with Chevelle Malibu Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM2PYZXM",
+      "title": "Brotherhood 1965 Compatible with Chevelle SS Black Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM2VBMK7",
+      "title": "Brotherhood 1964 Compatible with Chevelle Malibu SS Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM2X4KTC",
+      "title": "Brotherhood 1964 Compatible with Chevelle Station Wagon Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM36FY6F",
+      "title": "Brotherhood 1964 Compatible with Chevelle Convertible Design Key Chain Key Holder Key Ring For Men Heavy Duty Car Key Ring For Men and Women",
+      "category_path": "Automotive > Interior Accessories > Keychains",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM6FXQR5",
+      "title": "Bluetooth Headset, Wireless Bluetooth Earpiece with USB Dongle and Charging Case 100 Hours Talking Time Built-in Microphone for iOS Android Cell Phone, V5.4 Hand-Free Headphones for Trucker (Black)",
+      "category_path": "Cell Phones & Accessories > Accessories > Single Ear Bluetooth Headsets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GMRRWCQ1",
+      "title": "Smartish® iPhone 17e/16e Wallet Case + Screen Protector - [Slim + Protective] Phone Case Credit Card Holder + 2-Pack Tempered Glass Screen Protectors for Apple iPhone 17e/16e - Black Tie Affair",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Flip Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GN3498X1",
+      "title": "Chiclish Car Phone Holder for Magsafe [3700gf Magnetic] 360° Adjustable Cell Phone Mount, Phone Holders for Your Car Accessories Kit for iPhone 17-12 Series",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Kits",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GQ3TGFG1",
+      "title": "Ultra-Mini Android Auto Wireless Adapter, A9 Chip 3-5s Auto Connect, Convert Wired CarPlay to Wireless, USB-C/USB-A/Extension Cable, Compatible with iOS10+, Android 10+, CE/ROHS/FCC",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQQGRCWR",
+      "title": "Mini Wireless CarPlay & Android Auto Adapter for iPhone & Android Phone (2026 Upgrade), No Lag, Fast Stable Connection, Converts Wired to Wireless CarPlay Dongle for 2016+ Cars, USB-A&C Port",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQYVZQ5Y",
+      "title": "Wireless Carplay Mirror Link Adapter for Apple 3 in 1 Bluetooth Mirroring iOS Phone to Car Screen Adapter 2026 Wired to Wireless Portable USB Car Play Screen Connector for iPhone to Watch Movies",
+      "category_path": "Electronics > Car & Vehicle Electronics > Vehicle Electronics Accessories > Audio & Video Accessories > Auxiliary Input Adapters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GR4GQ3B3",
+      "title": "XODITO Handmade Phone Wrist Stap Golden Phone Chain Pearl Cellphone Wristlet XOCY0016",
+      "category_path": "Cell Phones & Accessories > Accessories > Lanyards & Wrist Straps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GS2F529Q",
+      "title": "6.9 Inch Single Din Touchscreen Car Stereo with Wireless CarPlay & Wireless Android Auto, Android 10 Single Din Radio Multimedia System",
+      "category_path": "Electronics > Car & Vehicle Electronics > Car Electronics > Car Audio > Car Stereo Receivers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GSG47BD9",
+      "title": "Magnetic Phone Charging Holder Mount for Magsafe Car Mount Charger, 15W Fast Charger Wireless [108+LBS Suction & 3800gf Magnetic], 360° Adjustable Vacuum Holder for iPhone 12-17 series (with Adapter)",
+      "category_path": "Cell Phones & Accessories > Accessories > Automobile Accessories > Cradles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GST5Q3L9",
+      "title": "Jsqianfei Backseat Car Organizer, 4 in 1 Multifunctional Car Back Seat Storage Organizer with Tissue Box, 2 Cup Holders, Phone Stand and Hooks, Automotive Seat Back Organizers (Orange)",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Seat Back Organizers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GTL73J96",
+      "title": "17\" Magnetic Phone Tripod & Selfie Stick for iPhone Android, Pocket-Size 4.5\" Travel Tripod with Wireless Remote, Detachable Clamp, 360°Rotating for MagSafe Tripod - Max 17\", Mini 4-in-1 Selfie Stick",
+      "category_path": "Cell Phones & Accessories > Accessories > Photo & Video Accessories > Tripods",
+      "found_by": [
+        "embedding"
+      ]
+    }
+  ]
+}

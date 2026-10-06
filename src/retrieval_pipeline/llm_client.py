@@ -19,7 +19,7 @@ import threading
 
 from dotenv import load_dotenv
 from langsmith.wrappers import wrap_openai
-from openai import OpenAI
+from openai import AsyncOpenAI, OpenAI
 
 load_dotenv()
 
@@ -33,12 +33,25 @@ PRICE_PER_TOKEN = {  # $ per token (list price / 1_000_000) -- see module docstr
     "output": 0.28 / 1_000_000,
 }
 
-client = wrap_openai(OpenAI(
+_client_kwargs = dict(
     api_key=os.environ["DEEPSEEK_API_KEY"],
     base_url=os.environ["DEEPSEEK_BASE_URL"],
     timeout=REQUEST_TIMEOUT,
     max_retries=MAX_RETRIES,
-))
+)
+
+client = wrap_openai(OpenAI(**_client_kwargs))
+
+# Async twin of `client`, same credentials/timeout/tracing. Used by classify_agent, which
+# fans its batches out with asyncio.gather; everything else in the pipeline stays sync.
+# Both are wrapped so calls land in the same LangSmith trace tree either way.
+#
+# REQUEST_TIMEOUT above is NOT a wall-clock bound on either client: DeepSeek sends blank
+# keep-alive lines while it works (api-docs.deepseek.com/quick_start/rate_limit), which
+# resets httpx's read timeout -- a 60s setting was measured letting one call run 298s.
+# Callers that need a real ceiling must impose it themselves (classify_agent uses
+# asyncio.timeout). REQUEST_TIMEOUT still does useful work on connect/idle failures.
+aclient = wrap_openai(AsyncOpenAI(**_client_kwargs))
 
 _lock = threading.Lock()
 _usage = {"calls": 0, "input_cache_miss_tokens": 0, "input_cache_hit_tokens": 0, "output_tokens": 0}
@@ -54,7 +67,9 @@ def reset_usage() -> None:
 def record_usage(resp) -> None:
     """
     Add one chat.completions.create() response's token usage to the accumulator.
-    Call this right after every LLM call made through `client` in this pipeline.
+    Call this right after every LLM call made through `client`/`aclient` in this pipeline.
+    Thread-safe, and safe to call from coroutines (the lock is uncontended under asyncio).
+    For a streamed call, pass the final chunk -- that is the only one carrying usage.
     """
     usage = getattr(resp, "usage", None)
     if usage is None:

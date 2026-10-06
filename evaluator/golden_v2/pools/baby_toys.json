@@ -1,0 +1,3106 @@
+{
+  "query": "baby toys",
+  "definition": {
+    "definition": "A toy made for babies, roughly 0-24 months.",
+    "include": [
+      "rattles",
+      "teethers",
+      "activity gyms and play mats with toys",
+      "stacking/sorting/push toys marked for babies or 0-24 months",
+      "bath toys for babies"
+    ],
+    "exclude": [
+      "toys marked 2+/3+ years only",
+      "feeding and nursery gear (bottles",
+      "pacifiers",
+      "bouncers)",
+      "clothing"
+    ],
+    "decide": [
+      "Age range 0-24 months. Default: yes",
+      "Teethers and activity gyms count as toys. Default: yes"
+    ],
+    "keywords": [
+      "toy|rattle|teether|activity|playmat|play mat|play gym|stacking|sorting",
+      "baby|infant|newborn|toddler|month"
+    ]
+  },
+  "sizes": {
+    "keyword": 119,
+    "embedding": 300,
+    "systems": 117
+  },
+  "pool_size": 362,
+  "candidates": [
+    {
+      "asin": "B08FD77V4Y",
+      "title": "DOLU Activity Table with 30 Pcs Jumbo Building Blocks and Storage, Multi-Use Sensory Play Desk for Kids and Toddlers Age 12+ Months - Red/Blue",
+      "category_path": "Office Products > Office & School Supplies > Education & Crafts > Classroom Furniture > Activity Tables",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0972359XP",
+      "title": "DAUGHTER QUEEN Boys Halloween Pajamas 18-24 Month Baby Toddler Mummy PJs 100% Cotton Comfy Soft Pj Sets Sleepwear Zombie Jammies Sleeping Clothes Outfits 18M/Mo, 24M/Mth",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0B1CTVFKJ",
+      "title": "DAUGHTER QUEEN Girls Halloween Pajamas 18-24 Month Baby Toddler Unicorn PJs 100% Cotton Comfy Soft Pj Sets Sleepwear Bat Jammies Sleeping Clothes Outfits 18M/Mo, 24M/Mth",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0B1CVFLH8",
+      "title": "DAUGHTER QUEEN Boys Halloween Pajamas Toddler Dinosaur PJs Kids Jammies 2 Piece 100% Cotton Soft PJ Set Children Sleepwear Skeleton Clothes Size 2T Age 2 Years Old",
+      "category_path": "Clothing, Shoes & Jewelry > Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0B1CWRWQ2",
+      "title": "DAUGHTER QUEEN Girls Halloween Pajamas Toddler Unicorn PJs Kids Jammies 2 Piece 100% Cotton Soft PJ Set Children Sleepwear Pumpkin Clothes Size 2T Age 2 Years Old",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0B1CYFLZ6",
+      "title": "DAUGHTER QUEEN Boys Halloween Pajamas 18-24 Month Baby Toddler Dinosaur PJs 100% Cotton Soft Pj Sets Pumpkin Sleepwear Skull Jammies Dino Clothes Outfits 18M/Mo, 24M/Mth",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0B25MFSY5",
+      "title": "THE PLUSH CLUB Viscose from Bamboo Baby Pajamas – Long Sleeve Onesie Baby Romper with 2-Way Zipper & Convertible Roll-Up Mittens & Footies Toddler Pjs for Boys & Girls",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Footies & Rompers > Rompers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CRDZ7KLK",
+      "title": "KIPRITII Puppy Teething Chew Toys -25 Pack Dog Chew Toys with Rope Toys, Dog Treat Balls & Squeaky Toy for Puppy and Small Dogs",
+      "category_path": "Pet Supplies > Dogs > Toys > Ropes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CRSRZM6Q",
+      "title": "Art3d 6-Pack Triangle Liquid Sensory Floor Tiles, Colorful Liquid Fusion Play Mats for Kids Toddler, 15\"\" x 15\"\", A11267",
+      "category_path": "Toys & Games > Games & Accessories > Floor Games",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CSRBBV17",
+      "title": "Waterproof Pack and Play Mattress Topper - 38\" x 26\" | Roll Up Style - Breathable Soft Memory Foam - Portable Playard Mattress Topper- Baby Foam Playpen Mattresses for Babies - Boho Design",
+      "category_path": "Baby Products > Nursery > Bedding > Mattresses > Portable Crib Mattresses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CT3J6XRJ",
+      "title": "Flora & Ivy Butterfly Mobile for Crib - A Beautiful Butterfly Crib Mobile with Green Leaves, Pink, White and Gold Detail",
+      "category_path": "Baby Products > Nursery > Décor > Mobiles",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CT5SVXS2",
+      "title": "330Pcs Colorful Prefilled Plastic Easter Set, 110 Plactic Eggs Filled with 220 Assorted Toys Stickers Party Favors for Kids Boys Girls Toddlers Easter Eggs Hunt Basket Filler Stuffers Supplies",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CT5XB4H2",
+      "title": "48 Pack Prefilled Easter Eggs Filled with Pull Back Cars, Easter Eggs with Toys Inside, Easter Hunt Basket Stuffers Easter Theme Party Favors Classroom Prizes Gift for Kids Toddlers Girls Boys",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CTKTCLZ1",
+      "title": "Baby Essentials My First Piggy Bank, Baby's First Piggy Banks for Boys and Girls (Thank Heaven Animals)",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Money Banks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CTKWF6V8",
+      "title": "Baby Essentials My First Piggy Bank, Baby's First Piggy Banks for Boys and Girls (Butterflies)",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Money Banks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWPP1QGS",
+      "title": "Haktoys Dinosaur Bubble Gun for Kids Automatic Bubble Machine Toy, Outdoor Bubble Maker Blower for Toddlers Boys Girls Backyard Play, 1 Pack with Stickers",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Bubbles > Bubble Makers",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CY8PWR1Q",
+      "title": "Toy Shotgun Shell ejecting Soft Bullet foam blasters pellet Ball realistic dart gun Sniper Rifle with scope cool stuff that look real Shooting Game for year old kids boys toys gift ideas (toy shotgun)",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Blasters & Foam Play > Foam Blasters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZLJRXH7",
+      "title": "Sex Toys for Women Men 10.23 Inch Huge Anal Beads Butt Plug with Strong Suction Cup G-spot Dildo Vaginal Prostate Massage Stimulation Anus Opening Trainer Butt Stretcher - Black",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Anal Sex Toys > Plugs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D11WC8K8",
+      "title": "Suyudian 3 PCS PVZ Plush Toys - Plant & Zombies Guitar, Cowboy & Bandit Zombie Figures - Soft Stuffed Dolls - New",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Figures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D1Y6CHGD",
+      "title": "BABY FRANKIEZHOU Pelican Plush Toy, Wild Pelican Stuffed Animal, Simulation Bird Plush for Kids, Home Decor",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D22VWSW5",
+      "title": "Cloud Mobile for Crib - A Handmade Gender Neutral Cloud Crib Mobile with Moon and Stars",
+      "category_path": "Baby Products > Nursery > Décor > Mobiles",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D25GDFMJ",
+      "title": "Mega Maid Spaceball I Creative Building Set with Mini Eagle 5, Space Movie Car Robot Model Building Kit, Christmas Birthday Toy Gift for Fans Teens Kids 8+",
+      "category_path": "Toys & Games > Building Toys > Building Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D26H7GP2",
+      "title": "Rainbow Mobile for Crib - A Gender Neutral Boho Mobile for Crib with Gold Stars and Clouds",
+      "category_path": "Baby Products > Nursery > Décor > Mobiles",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D2QVDMQ6",
+      "title": "BDSM Hip Restraints Stainless Ring Sex Toys for Couples, Handcuffs Sex Bondage Rings Set Adults Toy with Whips for Mens Womens, Slave Spanking Toys Games for SM Beginners (Plus Size)",
+      "category_path": "Health & Household > Sexual Wellness > Bondage Gear & Accessories > Restraints",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D31F6NG8",
+      "title": "24 Pack Christmas Bubble Wands for Kids - Holiday Themed Bubble Sticks with Santa, Reindeer & Snowman Designs, Refillable Bubbles Bulk Toys for Stocking Stuffers, Boys Girls Gifts, Party Favor",
+      "category_path": "Toys & Games > Novelty & Gag Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3692STZ",
+      "title": "ArtCreativity Pre Filled Easter Eggs with Plastic Vehicles Inside - 12 Colorful Surprise Eggs for Kids with Pullback Construction Truck Toys - Easter Hunt Supplies - Basket Stuffers",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D41QHXQL",
+      "title": "DAUGHTER QUEEN Girls Halloween Pajamas 18-24 Month Baby Toddler Witch PJs 100% Cotton Comfy Soft Pj Sets Sleepwear Bat Jammies Sleeping Clothes Outfits 18M/Mo, 24M/Mth",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6B46ZXP",
+      "title": "Shemale Sex Doll with Torso Realistic Dildo Breasts and Anal Lifelike Transsexual Love Dolls Hugh Penis Silicone Breast Anal Testicles Unisex Masturbator for Men Women Gay Couple Adult Sex Toy",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Sex Dolls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7GTJQT5",
+      "title": "BENINY Giant Husky Stuffed Animal 30\", Large Stuffed Dog Plush Toys, Gifts for Kids",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D93QH1PW",
+      "title": "BENINY Giant Dog Puppy Stuffed Animal 32\", Cute Big Stuffed Dog Body Pillow for Kids, Large Stuffed Animals Dogs Plush Toy Gift",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D957FL8T",
+      "title": "OOXYG Flying Saucer Ball - 2 Pack Dog Disc Toy for Medium Large Dogs, Outdoor Interactive Pet Toy - Blue+Pink",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D95WJSC8",
+      "title": "Seenelling 24 Pcs Thanksgiving Stress Balls Pumpkin Toys Bulk 2.48 Inch Fall Pumpkin Stress Relief Balls PU Foam Mini Pumpkins Squeeze Ball Fidget for Autumn Harvest Party Favors(Orange)",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Squeeze Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9Y9R8P6",
+      "title": "INSTITIZER Cute Potato Stuffed Animal, 19.6 Inch Plush Toy, Soft Stuffed Food Plushie Pillow Toys Doll Decorative Throw Pillows for Kids Boys Girls Birthday Xmas Gift, Yellow",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Pillows",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DBZKTZVC",
+      "title": "Princess Dress Up Shoes Set, Girls Role Play Dress Up Toys,Toddler Pretend Play Crown Kit Gift Set for Little Girls Aged 3-6 Years Old",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Vanities",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DD3RGZXF",
+      "title": "Mixsuper Liner Car Seat Organizer for Toyota Sienna 2021-2025 2026, Console Organizer Backseat Box for Toyota Sienna, Dog Toy Box Storage Bin Kids Toys Baby Supplies Travel Accessories",
+      "category_path": "Automotive > Interior Accessories > Consoles & Organizers > Seat Back Organizers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DD6XNSS2",
+      "title": "GNATAPIAY BJD Blind Box,Kawaii PEETSOON Blind Box BJD,PEETSOON Garden Party 1/12 Ball Jointed Collectable Doll Figure Posable Dress Up Doll for Girls Gift Toys",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DF4TJ5BF",
+      "title": "Falianni Four Seasons Baby Boy Girl Bodysuits 5-Pack Cotton Comfort Short Sleeve Baby Clothes Soft Infant Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DF79SXB2",
+      "title": "Falianni Four Seasons Baby Boy Girl Bodysuits 5-Pack Cotton Comfort Short Sleeve Baby Clothes Soft Infant Outfits",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHJH5DXM",
+      "title": "Heritage Kids Press I Love to Sing in Korean: Animal Songs, Press and Play Interactive Song Book, Korean Books for Toddlers, Korean Baby Books (Animal Songs)",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Musical Toys",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DHYDP2WV",
+      "title": "Toy Box, Toy Storage Organizer, Toy Box for Boys Girls, Kids Toy Storage Chest, Patented Design",
+      "category_path": "Baby Products > Nursery > Furniture > Storage & Organization > Toy Chests & Organizers",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DJD9QGNK",
+      "title": "SPEEDY MONKEY Kids Drum Set – FSC Wooden Baby Drum Kit with Adjustable Strap & 2 Drumsticks, Colorful Toddler Percussion Instrument for Rhythm & Music, Fun Preschool Musical Toy for Boys & Girls",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Musical Toys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DJTD68XT",
+      "title": "Realistic Dildo Sex Toys for Women - 8.5 inch Soft Silicone Material Jerkable Skin for G Spot and Vaginal Anal Sexual Stimulation，Thick Suction Cup Dildo Adult Toy for Female Pleasure & Couple Games",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Dildos > Realistic",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK2P4JSG",
+      "title": "Collapsible Folding Corduroy Kids Plush Laundry Hamper Toy Storage (Gray Elephant)",
+      "category_path": "Home & Kitchen > Storage & Organization > Laundry Storage & Organization > Pop-Up Laundry Hampers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK8KRSJW",
+      "title": "falianni Baby Boy Girl Cotton Hat Mitten Sock Set 15 Pack Infant Essential Accessories for 0-6 Months Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Accessories > Gloves & Mittens",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKZS7LZQ",
+      "title": "Rossoff Extra Large Collapsible Sturdy Toy Storage Organizer with Lids, Animal Train Toy Box for Boys Girls, 40\"x16\"x16\", Modern, Beige",
+      "category_path": "Baby Products > Nursery > Furniture > Storage & Organization > Toy Chests & Organizers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DL4C2W57",
+      "title": "Baby Bath Thermometer with LED Display, Floating Duck Toy – 2-in-1 Water Safety Sensor for Infants, Color-Coded Alerts (Hot/Cold), Bath Tub Temperature Monitor, Cute Floating Bath Toy, Nursery",
+      "category_path": "Baby Products > Baby Care > Health > Thermometers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DL9BJ68R",
+      "title": "4-Pack Pull-Back Motorcycle Toys - Friction Powered Kids Toy Cars with Lights, Sounds & Automatic Drive for Boys & Girls Aged 3-12",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Play Figure Vehicles > Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLGQNBWK",
+      "title": "4-Pack Pull-Back Motorcycle Toys - Friction Powered Kids Toy Cars with Lights, Sounds & Automatic Drive for Boys & Girls Aged 3-12",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Play Figure Vehicles > Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLGSC8YN",
+      "title": "CUBY Wrap Baby Sling Carrier, Baby Wraps Sling Carrier Adjustable Breathable Lightweight Easy to Wearing - Baby Slings for Newborn Infant Toddler Front & Hip Carry Up to 40lbs (Blue Flower)",
+      "category_path": "Baby Products > Travel Gear > Carriers & Accessories > Slings",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLL5KXWL",
+      "title": "9.5 in Huge Knot Dildo with 2 Big Knots, Silicone Anal Dildo Huge Anal Plug Vaginal Stretcher with Suction Cup, Monster Animal Dildos XXL Butt Plug Fantasy Sex Toys for G-spot Stimulator Anal Trainer",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Dildos > Realistic",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLP53TKV",
+      "title": "42 Pack Fidget Spinner Mini Toys Party Favors Easter Basket Eggs Goodie Bag Stuffers Gifts,Stress Relief Sensory Toys for Kids Adults ADHD Autisms,Carnival Treasure Box Toy Classroom Prizes Supplies",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Fidget Toys > Fidget Spinners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLP6J3W6",
+      "title": "Toddler Girl Christmas Dress Baby Buffalo Plaid Tulle Tutu Velvet Princess Dress Kids Holiday Dress Up Clothes (Red Green Christmas Dress D, 0-6 Months)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Special Occasion",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLP6QKP3",
+      "title": "40 Pack Mini Fidget Spinner Toys Bulk Party Favors Easter Basket Goodie Bag Stuffers Gifts,Stress Relief Sensory Toys for Kids Teens Adults Autisms,Treasure Box Toy for Classroom Prizes Supplies",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Fidget Toys > Fidget Spinners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLZJPX93",
+      "title": "VIESMUMU High Contrast Baby Toys for Newborn, Black and White Baby Toys, Newborn Toys 3 Months Brain Development with Car Seat Toys Hanging Rattle Toys (Classic Edition)",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Car Seat & Stroller Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DMN39C3Q",
+      "title": "Kids Microscope - Mini Pocket Handheld Microscope for Toddlers-Educational Science Kit Toys for Christmas Birthday Gifts Toys for 3 4 5 6 7 8 9 10 Year Old Girls & Boys",
+      "category_path": "Toys & Games > Learning & Education > Optics > Microscopes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DMPKZ8XH",
+      "title": "The Peanutshell Baby Sleeper Set for Newborns (3-Pack) - Newborn Baby Boy & Girl Sleepers, Soft Cotton Footed Pajamas with Zipper - Serene Safari",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Footies & Rompers > Footies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DNFLMYRT",
+      "title": "Toy Fire Truck Toddler Rescue Firetruck - Fire Engine Toy with Water Pump STEM Education Lights & Sounds Transformer Ejector Truck Car Race Track Kids Ages 3-5 6 7 8 Year Old Christmas Birthday Gift",
+      "category_path": "Toys & Games > Vehicles > Construction Vehicles > Cranes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DNJHHPL4",
+      "title": "Art3d 6”x6” Square Sensory Fidget Liquid Motion Tiles for Kids, Toddler, Teens - Interactive Soft Gel Liquid Play Mats for Home, Schools, Playrooms, Multi-Pack of 12 Tiles",
+      "category_path": "Health & Household > Medical Supplies & Equipment > Occupational & Physical Therapy Aids > Sensory Motor Aids",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DNJPVWRY",
+      "title": "Art3d 12\"x12\" Textured Liquid Sensory Flooring Tiles, Interactive Glossy Fusion Play Mats for Kids, Toddler, Teens, Stress Relief & Calming Toys, 4pcs per Set",
+      "category_path": "Toys & Games > Puzzles > Puzzle Play Mats",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DNJPZBMY",
+      "title": "Art3d 11.8”x11.8” Textured Liquid Sensory Flooring Tiles, Interactive Glossy Fusion Play Mats for Kids, Toddler, Teens, Stress Relief & Calming Toys, 6pcs per Set",
+      "category_path": "Health & Household > Medical Supplies & Equipment > Occupational & Physical Therapy Aids > Sensory Motor Aids",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DNJV91GR",
+      "title": "4-Pack Diecast Motorcycle Toys | 1:12 Scale Alloy Pull-Back Vehicles with No Battery Needed | Collector & Toddler Toys for Boys Girls 3-12 | Birthday Gifts, Travel Toys, Carpet Play",
+      "category_path": "Toys & Games > Vehicles > Motorcycles",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DNK2WRM6",
+      "title": "24 Pack Prefilled Easter Eggs with Toys ,Light Up Puffer Balls Stress Relief Fidget Toys Easter Basket Stuffers Fillers Squeeze Sensory Glow Dark Surprise Easter Hunt Kids Boys Girls Gift Party Favors",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Squeeze Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP2F53HK",
+      "title": "24 Pack Easter Eggs Filled with Slime Toys Slime Kit No-Sticky, Stress Relief Squeeze Toys Easter Basket Stuffers for Toddlers Teens Kids Boys Girls Surprise Egg Hunt Party Favor Classroom Prize Gifts",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Slime & Putty Toys",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP4XX629",
+      "title": "SpringFlower 24 Pack Filled Easter Eggs with Squishy Toys Inside, Easter Basket Stuffers Basket Essentials Party Favors, Egg Hunt Classroom Rewards",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPMKQJ5C",
+      "title": "Vibrator Dildo Sex Toys for Women - Neworld Rose Sex Toy with Vibrating G Spot Vibrators & 9 Sucking Modes for Clitoral Nipple Stimulation Anal Dildos Adult Sex Toys Games for Couples Sex Machine",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Vibrators > Clitoral",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPWWNLX5",
+      "title": "NEUBSAW 16 Packs Easter Eggs with Cars for Boys, Prefilled Easter Eggs for Kids Toddlers Easter Basket Stuffers, Easter Party Favor Supplies for Easter Egg Hunt, Easter Toys Gifts for Boys",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DQ1H43QG",
+      "title": "Butterfly Mobile for Crib - A Beautiful Neutral Butterfly Handmade Crib Mobile with Green Leaves, White and Gold Detail",
+      "category_path": "Baby Products > Nursery > Décor > Mobiles",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DQKXV67R",
+      "title": "JUKUDAHU Matched Eggs Toddler Toys 1 2 3 4 Year Old - Shape Color Sorting Games, Kids Easter Eggs, Toddler Sensory Toys, Preschool Educational Boy Toy, Gifts for Baby 6-12 Months+",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Sorting & Stacking Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DQL3XYKF",
+      "title": "1000Pcs Space Shuttle Model Building Block Set with Rocket Ship, Space Exploration Shuttle Toys, Aerospace Building Kit - STEM Toys for Age 5 6 7 8 9 10 11 12 Gift for Boys & Kids",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQVC6JFG",
+      "title": "NSXAYIWE Plush Toddler Chairs, Cute Duck Toddler Chairs Comfy Cushion with Non Slip Bottom, Detachable Seat Pad for Window Floor (White)",
+      "category_path": "Baby Products > Feeding > Highchairs & Booster Seats > Accessories",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DQWLK249",
+      "title": "TIANCHANGZC Avocado Capybara Plush, 13.7 Inch Soft Stuffed Animal, Cute Avocado Plush Toy Pillow Doll for Kids and Adults",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Pillows",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRCSXN3B",
+      "title": "DREACAREFT 12PCS Princess Easter Eggs - Prefilled Easter Eggs Filled with Princess Dolls Toys for Kids Girls Basket Stuffers, Egg Hunt Prizes, Party Favors and Classroom Gifts",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRJ2D1LB",
+      "title": "CIDIXCIDIX Tough Durable Squeaky Dog Toys for chewers Interactive to Keep Them Busy, Funny Tug of War Dogs Toy for Small Medium Large Cute Birthday Gift (Crocodile)",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DS11GSGF",
+      "title": "JUKUDAHU Garbage Truck Toy for Kids 1 2 3 4 5 6 Years Old - Sanitation Vehicle Set, Friction Powered Recycle Truck Playset with Sound Light, City Car Toys for Boys 3-8, Toddler Birthday Gift Toys",
+      "category_path": "Toys & Games > Vehicles > Trucks",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DS256T1R",
+      "title": "SHCKE Bubble Machine, 2 Pack Bubble Gun for Toddlers, Toys for Kids 3 4 5 6 7 8 Years Old, Bubbles Maker Blower, Toy for Boys Girls Outdoor Indoor Birthday Wedding Party, Gifts for Ages 4-8",
+      "category_path": "Toys & Games > Novelty & Gag Toys",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DS6T7V9P",
+      "title": "Heritage Kids Press I Love to Sing in Korean: Children's Songs, Press and Play Interactive Song Book, Korean Books for Toddlers, Korean Baby Books (Children's Songs)",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Musical Toys",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSBMWVL3",
+      "title": "JUKUDAHU Magnet Fishing Game for Kids Toddlers Aged 3 4 5 6 7 8 - Fishing Toys with 48 Fishes Toys, 8 Poles, Rotating Board Game with On-Off Music, Educational Birthday Gifts for Boys Girls 1-3 (Pink)",
+      "category_path": "Toys & Games > Games & Accessories > Board Games",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DSHZL1L6",
+      "title": "Electric Water Gun for Kids, Water Pistol Squirt Guns with LED Lights, Summer Outdoor Water Play Toys",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Pools & Water Toys > Squirt Guns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSK8XZ18",
+      "title": "Easter Basket, Touber Easter Bunny Basket, Personalized Easter Baskets for Kids, Easter Gifts Basket for Girls Baby Children - Plush White",
+      "category_path": "Baby Products > Gifts > Gift Baskets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSKFXQ94",
+      "title": "Easter Basket, Touber Easter Bunny Basket, Personalized Easter Baskets for Kids, Easter Gifts Basket for Girls Baby Children - Plush Pink",
+      "category_path": "Baby Products > Gifts > Gift Baskets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DSSR71TR",
+      "title": "2PCS Portable Small Toy Car 1:55 Diecast Model Metal Body Racers for Preschool Kids 3+ Year Boy Gift (Green+MilkWhite)",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSSVN3Y8",
+      "title": "2PCS Portable Small Toy Car 1:55 Diecast Model Metal Body Racers for Preschool Kids 3+ Year Boy Gift (Green+2GreenBrown)",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSSXP8HG",
+      "title": "2PCS Portable Small Toy Car 1:55 Diecast Model Metal Body Racers for Preschool Kids 3+ Year Boy Gift (Lizzie+ZDoc)",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSSY2S8M",
+      "title": "2PCS Portable Small Toy Car 1:55 Diecast Model Metal Body Racers for Preschool Kids 3+ Year Boy Gift (Green+3GreenBrown)",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSSY79LX",
+      "title": "2PCS Portable Small Toy Car 1:55 Diecast Model Metal Body Racers for Preschool Kids 3+ Year Boy Gift (Purple+Flo)",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSSZ688S",
+      "title": "2PCS Portable Small Toy Car 1:55 Diecast Model Metal Body Racers for Preschool Kids 3+ Year Boy Gift (Lizzie+Fillmore)",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DST59QXB",
+      "title": "2PCS Portable Small Toy Car 1:55 Diecast Model Metal Body Racers for Preschool Kids 3+ Year Boy Gift (Airplane+Brown)",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DT43M2KF",
+      "title": "Vodolo Seven Color Flower Bubble Machine,7 Color Sunflower Rechargeable Bubble Blower with Lights for Kids Ages 4-8,Toddlers 3 and up Automatic Bubble Maker for Bathtub Bath,Summer Outdoor Toys",
+      "category_path": "Toys & Games > Novelty & Gag Toys",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DT4F39HW",
+      "title": "4 Sets Bear Blindfolded Diaper Changing Coed Baby Shower Games Kit Baby Dolls Bears Diapers for Bridal Shower Gender Reveal Games Prizes Gifts for Adults Boys Girls (Brown)",
+      "category_path": "Home & Kitchen > Event & Party Supplies > Party Games & Activities",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DT5RGN2Z",
+      "title": "Ruffify Floating Dog Toys (2 Pack) – EVA Dog Bumper Throw Stick for Water Training Fetch & Retrieving, High Visibility Orange & Green with Rope Handle, Ideal for Beach, Diving, Pool & Outdoor Play",
+      "category_path": "Pet Supplies > Dogs > Toys > Ropes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DTYQGDJP",
+      "title": "Zippytots Learning Toys for Toddlers 1 2 3 Years Old-Matching Egg Toys with Dino Finger Puppet for Montessori Learning, Counting, Stacking, Sorting-Easter Christmas Birthday Gift for Baby Boys Girls",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Dinosaurs & Prehistoric Creatures",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DW5K9WN7",
+      "title": "Robeez First Kicks Baby Girl and Unisex Sandals for Infant/Toddlers - 0-24 Months, Fleur Gold Leather, 12-18 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Shoes > Sandals",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DW5MG16G",
+      "title": "Robeez First Kicks Baby Girl and Unisex Sandals for Infant/Toddlers - 0-24 Months, Mariposa Light Pink Leather, 12-18 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Shoes > Sandals",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWSL9985",
+      "title": "Lgvhydh Newborn Baby Photography Props Outfits Cute Bear Hat Romper Set Infant Baby Boy Girl Photoshoot Props Costume ﻿Set (White)",
+      "category_path": "Electronics > Camera & Photo > Lighting & Studio > Photo Studio > Posing Props",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXQ69TGB",
+      "title": "Metal Vehicles 1:55 Diecast Model Mini Car Set, Compact Portable & Collectible Car Toys for 3+ Years Kids Boys Girl Birthday Gift",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXQ7NJY7",
+      "title": "Metal Vehicles 1:55 Diecast Model Mini Car Set, Compact Portable & Collectible Car Toys for 3+ Years Kids Boys Girl Birthday Gift",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXVZ3HT1",
+      "title": "LUGLIEO 2026 New Magnetic Cat Toy, Foldable Magic Organ Cat Scratching Board Toy, Round Interactive Accordion Cat Toys for Indoor Cats (2PCS)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXW1L5FM",
+      "title": "LUGLIEO 2026 New Magnetic Cat Toy, Foldable Magic Organ Cat Scratching Board Toy, Round Interactive Accordion Cat Toys for Indoor Cats (3PCS)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYNHPH1H",
+      "title": "28Pack Easter Squishies,Easter Bunny Stress Balls for Adults,Easter Basket Stuffers,Bulk Squishy Easter Toys Stress Relief Fidget,Easter Egg Fillers Party Favors Gifts",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Squeeze Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYZMPHHR",
+      "title": "OUFOTAT 4-Pack Pull-Back Motorcycle Toys with Lights & Sounds | Mini Metal Alloy Vehicles for Kids Ages 3-8 | Ready-to-Gift Toy Set for Boys and Girls",
+      "category_path": "Toys & Games > Vehicles > Motorcycles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZ1RVJRB",
+      "title": "GobiDex Magnetic Blocks, 100PCS Building Toys for Kids 3+, Upgraded Zomblock STEM Sensory Magnets Construction Set, Birthday for Boys & Girls",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Magnets & Magnetic Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZNTNV97",
+      "title": "Baby Bath Toys for Kids Ages 1-3, 16PCS | Easy Clean Mold Free Bath Toys Toddlers 2-4 | Bathtub Pool Water Table Toys for Babies & Toddlers | Bath Boats Spoons Bucket Watering Can Tub Toy for Toddlers",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Bath Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DZTJ6PB4",
+      "title": "SKEDC Desperate Rabbit Fidget Slider, Stainless Steel EDC Fidget Toys with Mechanical Clicking Sound & Great Push Feeling, Best Gadget for Men (Rose Gold)",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Fidget Toys > Fidget Blocks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZWT99H5",
+      "title": "Innofans Unicorn Remote Control Car for Girls, 360° Rotating 4WD Stunt RC Cars with Cute Cool LED Lights, Rechargeable Car Toys Birthday Gifts for Kids Girl Age 3-6 7-9 10-12",
+      "category_path": "Toys & Games > Remote & App Controlled Vehicles & Parts > Remote & App Controlled Vehicles > Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZX5CGGY",
+      "title": "Natheeph Bath Toy Organizer 2-Pack - Grey Large Capacity Bath Toy Storage Holder with Quick-Dry Holes, Space-Saving Corner Shower Caddy for Bathroom & Kitchen",
+      "category_path": "Home & Kitchen > Kids' Home Store > Kids' Bath > Kids' Bathroom Accessories > Kids' Shower Accessories",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F19C4G3Y",
+      "title": "GushySnow® Latex Material Creativity Sensory Bin Filler Toy Ice Cream Cone Cake Cup Sensory bin for Preschool Girl boy Kid Children 6 Years",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Kitchen Toys > Play Food",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1CXH4SY",
+      "title": "12 Pcs Kids Foam Interlocking Carpet Tiles with Border, Thick Carpet Squares Plush Floor Playmats Baby Crawling Rug - 49\" x 37\" (Purple, 12 Tiles)",
+      "category_path": "Baby Products > Nursery > Décor > Rugs",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F1N3HWFN",
+      "title": "falianni 3 Pack Cartoon Baby Unisex Jumpsuits Comfy Solid Color New born Boy Girl Rompers Long Sleeve Zipper Infant Colthes",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F1YGHRX3",
+      "title": "Colukap Game Laundry Basket for Boys Room Decor Folding Kids Laundry Hamper for Bedroom Gaming Toy Bin Baby Nursery Storage Bag for Playroom Bathroom Clothes Organizer for Teen, M",
+      "category_path": "Home & Kitchen > Storage & Organization > Laundry Storage & Organization > Laundry Hampers",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F23CG3XM",
+      "title": "MOONTOY Pool Toys for Kids, Inflatable Frog Dart Board Game, Pool Games for Beach & Backyard, Summer Water Toys for Boys Girls Ages 6-12, Teens & Adults (Pump Included)",
+      "category_path": "Sports & Outdoors > Sports > Leisure Sports & Game Room > Darts & Equipment > Dartboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F23LTJ7V",
+      "title": "MOONTOY Pool Toys for Kids, Inflatable Penguin Dart Board Game, Pool Games for Beach & Backyard, Summer Water Toys for Boys Girls Ages 6-12, Teens & Adults (Pump Included)",
+      "category_path": "Sports & Outdoors > Sports > Leisure Sports & Game Room > Darts & Equipment > Dartboards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F27XVD8P",
+      "title": "GushySnow® Latex Material Sensory bin Creativity Fake Snow Treasure Gem Hunt Set Box Package Great Gift for Girl boy Kid Children 6+ Years Old",
+      "category_path": "Home & Kitchen > Seasonal Décor > Artificial Snow",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F29592SG",
+      "title": "Pardick Basket Storage Bins Blue Flower Floral Rectangle Cube Basket Box Kids Girls Boys Toys Organizer Beaket Decor Foldable with Handle for Living Room Bedroom Closet Nursery Office Shelf Gifts",
+      "category_path": "Home & Kitchen > Storage & Organization > Baskets, Bins & Containers > Open Storage Bins",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2DVCK2F",
+      "title": "Baby Piano Music Toy, 22 Key Pink Piano Toys for 2 3 Years Old Girls, Baby Toddler Kids Musical Keyboard Toy with Microphone First Birthday Gift for Girls",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Musical Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F32QDD3L",
+      "title": "JTKDBJZ Puzzles for Kids Ages 4-6 – 2x60 Pieces Jigsaw Puzzles for Toddlers 3-5,6-8,Fun Bulldozer & Truck Toys,2 in 1 Pack Educational Construction Site Games for Boy & Girl",
+      "category_path": "Toys & Games > Puzzles > Jigsaw Puzzles",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F3D9FVLK",
+      "title": "Stuffed Animal Coloring Plush Toy with 20 Washable Markers Laser Holographic Backpack Road Trip Car Game Writing Painting Set for Girls Doodle Dolls Kids Ages 3-6 Birthday(Pink Cat Mermaidr)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Figures",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F3HXC4W5",
+      "title": "PATPAT Baby Bodysuits - Soft Viscose Made from Bamboo - Short Sleeve Funny for Boys and Girls -Newborn Infant Toddler Gift Clothes - 5 Pack Dino Explorer 3-6 Months White/Gray/Yellow/Green/Black",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3HZD36X",
+      "title": "PATPAT Baby Bodysuits - Soft Viscose Made from Bamboo - Short Sleeve Funny for Boys and Girls -Newborn Infant Toddler Gift Clothes - 5 Pack Daddy's Boys 0-3 Months White/Gray/Blue/Black",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3HZK9K4",
+      "title": "PATPAT Baby Bodysuits - Soft Viscose Made from Bamboo - Short Sleeve Funny for Boys and Girls -Newborn Infant Toddler Gift Clothes - 5 Pack Dino Explorer 0-3 Months White/Gray/Yellow/Green/Black",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3J18BHC",
+      "title": "PATPAT Baby Bodysuits - Soft Viscose Made from Bamboo - Short Sleeve Funny for Boys and Girls -Newborn Infant Toddler Gift Clothes - 5 Pack Daddy's Boys 18-24 Months White/Gray/Blue/Black",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3J1HJD4",
+      "title": "PATPAT Baby Bodysuits - Soft Viscose Made from Bamboo - Short Sleeve Funny for Boys and Girls -Newborn Infant Toddler Gift Clothes - 5 Pack Dino Explorer 6-9 Months White/Gray/Yellow/Green/Black",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3J3P9GX",
+      "title": "PATPAT Baby Bodysuits - Soft Viscose Made from Bamboo - Short Sleeve Funny for Boys and Girls -Newborn Infant Toddler Gift Clothes - 5 Pack God's Gift 0-3 Months White/Yellow/Purple/Pink",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3J4BNVK",
+      "title": "PATPAT Baby Bodysuits - Soft Viscose Made from Bamboo - Short Sleeve Funny for Boys and Girls -Newborn Infant Toddler Gift Clothes - 5 Pack Dino Explorer 9-12 Months White/Gray/Yellow/Green/Black",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3J4H9CJ",
+      "title": "PATPAT Baby Bodysuits - Soft Viscose Made from Bamboo - Short Sleeve Funny for Boys and Girls -Newborn Infant Toddler Gift Clothes - 5 Pack Dino Explorer 12-18 Months White/Gray/Yellow/Green/Black",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Bodysuits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3J9SRNP",
+      "title": "DRAWMYTOY DIY Coloring Plush Toy with Washable Markers, Scribble Pets Stuffed Animal, Doodle Dolls Art Toy for Boys and Girls Ages 3-8, Birthday Gift (Blue Bear Set)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Figures",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F4374R9B",
+      "title": "Jesus Plush 11.8\" Jesus Stuffed Doll Curly Hair Plushies Toys Christian Stuff Religious Party Favors Gifts Christmas Easter Decoration",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Figures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F444C3C4",
+      "title": "hipibbo Interactive Dog Toys Dog Ball, Durable Motion Pet Toys for/Small/Medium/Large Dogs, Birthday Gifts, Automatic Moving, Bouncing and Rotating, E-TPU Material, IP54 Waterproof (Blue)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F47BK8K4",
+      "title": "hipibbo Interactive Dog Toys Dog Ball, Durable Motion Pet Toys for/Small/Medium/Large Dogs, Birthday Gifts, Automatic Moving, Bouncing and Rotating, E-TPU Material, IP54 Waterproof (Pink)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5BV9MMK",
+      "title": "Jasunet 3P Bouncy Balls with Handle, 18in/45cm Sit and Spin Hopper Ball for Kids,Inflatable Jumping Ball Toy with Pump,Indoor Outdoor Fun Toys for Kids Ages 3-8 (Bouncy Ball-45cm)",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Pogo Sticks & Hoppers > Hoppers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5H83924",
+      "title": "SCOM Black Baby Dolls, 18 Inch Large Realistic Cute Soft Body Baby Doll Real Life Baby Dolls Girl with Accessories, Gift for Ages 3+ Kids, Pretend Play Collection",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F5M8M9C5",
+      "title": "Amphibious Remote Control Car, 1:18 RC Off-Road Monster Truck Toys for Boys,4WD All Terrain Off-Road Pickup, 2.4 GHz RC Vehicles, Waterproof RC Trucks, Christmas Birthday Gifts for Boy Girl (Grey)",
+      "category_path": "Toys & Games > Remote & App Controlled Vehicles & Parts > Remote & App Controlled Vehicles > Trucks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5MJCCW5",
+      "title": "DRAWMYTOY Stuffed Animal Coloring Plush Toy Bear with 20 Washable Markers Laser Holographic Backpack Road Trip Car Game Writing Painting Set for Girls Doodle Dolls Kids Ages 3-6 Birthday (Pink Bear)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Figures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5NYD27H",
+      "title": "Bloolilies Flying Unicorn Toys for Girls, Magic Flying Fairy Toy Rc & Hand Controlled Mini Drone Helicopter Toy with LED Light for Girls Age 6 7 8 9 10 11 12 Years Old Birthday Easter Gifts for Kids",
+      "category_path": "Toys & Games > Remote & App Controlled Vehicles & Parts > Remote & App Controlled Vehicles > Helicopters",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F6LTRSW6",
+      "title": "Mini Karaoke Machine for Kids, 2026 TOP Toys Birthday Gifts Ideas for Girls Ages 4, 5, 6, 7, 8, 9, 10, 12+ Years Old, Portable MP3 Player with 4 Wireless Mics for Family Home Party",
+      "category_path": "Toys & Games > Kids' Electronics > Karaoke Machines",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F7QW8X53",
+      "title": "GYCV Reborn Baby Dolls Black Boy 19 Inch Soft Body Real Life Baby Dolls Curly Hair Realistic Newborn Black Lifelike African American Baby Doll Toy with Accessories Birthday Xmas Gift for Kids Age 3+",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F7R4PK3Q",
+      "title": "Jigsaw Puzzles Into The Forest,Camping Round Board Wooden Puzzle Intellectual Educational Toys Training Decompression Games for Easter Hallowen Christmas Birthday 1000PCS",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8GXMWJ5",
+      "title": "Super Quiet Motor Rabbit G Spot Dildo Vibrator with 8 Vibration Modes, Silicone Clitoral Stimulator Adult Sex Toy for Women Couple Portable Handheld Rechargeable Pink",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Machines & Devices",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8J3XY48",
+      "title": "UCIDCI Dinosaur Kids Smart Phone Toys for Boy Dual Camera & Music Player Toddler Selfie Phone Toys Road Trip Toys with Learning Games, Christmas, Birthday Gifts for 3 4 5 6 7 Year Old Green",
+      "category_path": "Toys & Games > Kids' Electronics > MP3 Players",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F8NFWXN9",
+      "title": "falianni Fashion Baby Boy Girl Clothing Set Cotton Soft 3-Piece Long Sleeve Button Rompers 5-Pack Hats&Gloves Infant Clothes",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8NHDY74",
+      "title": "falianni Fashion Baby Boy Girl Clothing Set Cotton Soft 3-Piece Long Sleeve Button Rompers 5-Pack Hats&Gloves Infant Clothes",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Footies & Rompers > Rompers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8NJZ8PC",
+      "title": "falianni Fashion Baby Boy Girl Clothing Set Cotton Soft 3-Piece Long Sleeve Button Rompers 5-Pack Hats&Gloves Infant Clothes",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Footies & Rompers > Rompers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8QS9NPG",
+      "title": "Sensory Stepping Stones For Kids - 5Pcs No-Slip Turtle Jumping Stones For Toddler Balance Skills & Obstacle Course Coordination, Sensory Toys for Indoor & Outdoor Play for Kids",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Fitness Equipment",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F917Q458",
+      "title": "Slumber Buddy Newborn Sleep Sack 0-3 Months, Preemie Transitional Infant Cotton Wearable Blanket, Zipper Baby Wrap Strap Hands Up Swaddler Baby Girl Boy Sleeper",
+      "category_path": "Baby Products > Nursery > Bedding > Blankets & Swaddling > Swaddling Blankets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93MKY5S",
+      "title": "Nocciola Rip and Reveal Squeaky Dog Toys 2 Pack, Plush Animal Puzzle Set Frog & Pelican Suprise Toys Inside with Squeaker Crinkle Part Enrichment Toys for Large Medium Dogs",
+      "category_path": "Pet Supplies > Dogs > Toys > Plush Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F93TLYF7",
+      "title": "AuntyFey Baby Walker, 5 in 1 Push Walker, Baby Walking Walkers Push Toy for Girls, Girl Toddler Push Toy, Infant Walker, OrangeRed",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Push & Pull Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9BSK7JH",
+      "title": "Disney Winnie the Pooh Tigger Infant Baby Boys Cosplay Bodysuit and Hat Set Orange Tigger 18 Months",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9C29DC9",
+      "title": "Disney Princess Beauty and the Beast Infant Baby Boys Cosplay Bodysuit and Hat Set Blue/Yellow/Beige Beast 18 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9TT5JX9",
+      "title": "Kikiyaki Felt Board for Toddlers Play Farm Animals Story Sets, Large Wall Activity Busy Board for Kids, Montessori Toys, Barnyard Theme Interactive Sensory Toys, Preschool Learning Play Kit, Classroom",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Magnetic & Felt Playboards",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F9WDZSS8",
+      "title": "MICHLEY Infant Halloween Cosplay Costume Kids' Animal Outfit Hooded Romper Partywear 6-12M,Deep Brown Bear",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Kids & Baby > Baby > Baby Boys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FBMB8J1S",
+      "title": "Monläurd® Wooden Activity Cube for Toddlers 1-3, Farm Barn Montessori Busy Board Toy, 12-in-1 Sensory Activity Center for Baby Fine Motor Skills, Large Educational Learning Toy for Boys Girls",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Activity Cubes",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FBWBDYCZ",
+      "title": "10LB Realistic BBW Sex Dolls Male Masturbator Pocket Pussies, Lifelike Sex Doll Torso for Men with Soft Breasts & Butt, Adult Sex Toy for Men Pleasure with Tight Vaginal Anal Texture Male Stroker",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Sex Dolls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC1P8KFJ",
+      "title": "NETRCO 2-in-1 Interactive Dog Ball Toy for Aggressive Chewers, Automatic Moving & Bouncing E-TPU Dog Ball, Smart Pet Toy with Motion Sensor, USB-C Rechargeable Enrichment Toy for Dogs (Blue)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC6M2LJ6",
+      "title": "High Contrast Mobile - Black and White Crib Mobile for Development with red Cars, Green Trees and Black and White Patterns",
+      "category_path": "Baby Products > Nursery > Décor > Mobiles",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCLSG4VH",
+      "title": "Randhar Lilac Purple Doll House for Girls, Dream Dollhouse 9 Rooms with 2 Dolls, 4 Unicons,Lights, Furniture and Accessories, Pretend-Play Toddler Playhouse Gift 3+ Year Old Girls Toys",
+      "category_path": "Toys & Games > Dolls & Accessories > Dollhouses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FCM213MS",
+      "title": "Amazing TOYZ Micro Missiles Green Bow and Arrow Toy for Kids 3 Inches Suction Cup Toy Rocket Launcher with Slingshot, Sticky Target Games Outdoor Backyard Play Birthday Gifts for Boys Girls Ages 6-12",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Toy Sports",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FD3L5P6Q",
+      "title": "kenvc Baby Toys for 6-12 Months, Barn Stuffed Farm Animals with Sounds & Ring, Plush Animals Toys Have Mirror Montessori Educational Toys Sensory for Developmental for Infants & Toddler Toy Gift",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FF2F27V8",
+      "title": "WIESSOC 2-in-1 Collision Transforming Unicorn Car Toy,Magnetic Cars Transform into Unicorn Toys for Kids Toddler Fun Deformation Car Robot Christmas Birthday Gift Toys for Boys Girl",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Play Figure Vehicles > Cars",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FFMDM7NL",
+      "title": "VivaVolt Toys 2.2in/5.5cm Ball Pit Balls, 100-Pack in 7 Vivid Colors (Red/Orange/Yellow/Green/Blue/Purple/Pink) - Non-Toxic, Durable for Game Tents, Pools & Bounce Houses, Ages 0+1",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Ball Pits & Accessories > Ball Pit Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG24QZZ2",
+      "title": "Flamax 5-in-1, Pre-Assembled 100 Themes Montessori Busy Book for Toddlers 1-3 with 8 Marker Pen, Reusable Tracing Books for Kids Ages 3-5, Baby Activity Books, Montessori Busy Book for Toddlers 1-3",
+      "category_path": "Toys & Games > Learning & Education > Reading & Writing > Handwriting Aids",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FG28GCYW",
+      "title": "Innofans Remote Control Car for Boys, 360° Rotating 4WD Stunt Spider RC Cars with Cool LED Lights, Rechargeable Car Toys Birthday Gifts for Kids Boys Girls Age 3-6 7-9 10-12",
+      "category_path": "Toys & Games > Remote & App Controlled Vehicles & Parts > Remote & App Controlled Vehicles > Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG3387BR",
+      "title": "Dinosaur Eggs Toys Dig Kit, 24 Dino Eggs, Dinosaur Toy for Kids, Science STEM Dinosaur Eggs for Birthday and Easter Gift, Easter Basket Stuffers, for Boys Girls Age 3+",
+      "category_path": "Toys & Games > Learning & Education > Science Kits & Toys",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGV2W7RP",
+      "title": "Arctic Fox Stuffed Animal – Cute Arctic Fox Plush Toy for Kids & Adults – Birthday Surprise & Room Decor –A Cuddly Companion for Everyday hugs and Bedtime",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FH2KLGBT",
+      "title": "Gianby Light Sword Toy for Kids, Rechargeable Light Up Saber Set, LED Dual Light Sword with Belt Clip for Galaxy War Fighter Warriors, Halloween Cosplay Party Kid Gift, Christmas Birthday Present",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Dress-Up Accessories > Wands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FH9HGBBJ",
+      "title": "DAOGU mini RC Forklift Toy - 1:64 Alloy Remote Control Crane with Liftable Forks,STEM Educational Construction Vehicle for Kids Age 6-12,Christmas Birthday Gift(mini Forklift)",
+      "category_path": "Toys & Games > Remote & App Controlled Vehicles & Parts > Remote & App Controlled Vehicles > Trucks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHGS9YCV",
+      "title": "Insgen DIY Garden Toy Kit for Kids, Bird-Shaped Flower Building Set, Educational STEM Gift for Girls Boys Age 8+, Rotating Music Box Craft, Birthday Present Home Decor (Green)",
+      "category_path": "Toys & Games > Building Toys > Building Sets",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FHHJ2VSB",
+      "title": "Gianby Light Sword Toy for Kids, Rechargeable Light Up Saber Set with Belt Clip for Galaxy War Fighter Warriors, Halloween Cosplay Party Kid Gift, Christmas Birthday Present",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Dress-Up Accessories > Wands",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHQ7NHLS",
+      "title": "Sex Toys Realistic Huge Dildo - 10.8 Inch Thick Black Dildos with Strong Suction Cup, Coocfan Lifelike Silicone Big Giant Plug for Vagina Anal Stimulator, Adult Sex Toy for Women, Men and Couples",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Dildos > Realistic",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ5R9SRL",
+      "title": "VLYUVUY Capybara Plush Stuffed Animal, 11.8\" Shark Plushie Kawaii Capybara Stuffed Toy Cute Birthday Gift for Kids Girls(Shark)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJ5Y3DN8",
+      "title": "VLYUVUY Capybara Plush Stuffed Animal, 9.8\" Crocodile Capybara Plushie Kawaii Capybara Stuffed Toy Cute Birthday Gift for Kids Girls",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJ8R9TMR",
+      "title": "TUAHOO Flirt Pole for Dogs, Interactive Dog Teaser Toy to Tug of War Outdoor Exercise & Training, Durable Teaser Wand with Lure Rope Chewing Tail Chasing Toy",
+      "category_path": "Pet Supplies > Dogs > Toys > Ropes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJD9H65H",
+      "title": "Givzan Wall Climbing Gecko Toy for Kids, Dual Mode Floor & Wall Driving, Rechargeable Remote Control Robot, Climbs up Toys & Games, Halloween Christmas Birthday Gifts for Boys Girls Ages 4 & Up",
+      "category_path": "Toys & Games > Kids' Electronics",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FK4KY7CQ",
+      "title": "Sex Toys for Men - Male Masturbator 360° Wrapped 9 Tapping & Vibrating Male Vibrator Penis Pump APP Control LCD Mens Sex Machine Stroker Jiworb Adult Sex Toys & Game",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Male Masturbators",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKB64ZKL",
+      "title": "Kids Camera Toddler Toys for Aged 3-10 Boys, Kids Digital Selfie Video Camera with 32G SD Card, Christmas Birthday Toys Gifts for Kid 3 4 5 6 7 8 Years Old",
+      "category_path": "Toys & Games > Kids' Electronics > Cameras",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKMTMD9W",
+      "title": "Liuckyxin Newborn Baby Girl Christmas Outfit Bow Candy Cane Footed Romper Headband Infant My First Xmas Jumpsuit (Pink, 6-12 Months)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Footies & Rompers > Rompers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKN76BYL",
+      "title": "Sex Toys for Women Men 10.23 Inch Huge Anal Beads Butt Plug with Strong Suction Cup G-spot Dildo Vaginal Prostate Massage Stimulation Anus Opening Trainer Butt Stretcher - Clear",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Anal Sex Toys > Plugs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKT4NW1T",
+      "title": "Kids Smart Phone, Shark Toys Phone for Boys 3-12 , Dual Camera, 2.8'' Touchscreen Kid Phones, Educational Toy for Toddler Kids Christmas Birthday Gifts, ABC Learning, Habit Tracker 32 GB Card Blue",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Pretend Phones & Smartphones",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FLCBXFR3",
+      "title": "Frueydo Inflatable Snow Tube Sled with Premium Canvas Cover Heavy Duty for Kids Adults,Towable Snow Sled Thickened Bottom Winter Gift Outdoor Fun Toys for Boys Girls (Polar Bear-36)",
+      "category_path": "Sports & Outdoors > Sports > Winter Sports > Sledding > Snow Tubes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLCQG8GB",
+      "title": "Frueydo Inflatable Snow Tube Sled with Premium Canvas Cover Heavy Duty for Kids Adults,Towable Snow Sled Thickened Bottom Winter Gift Outdoor Fun Toys for Boys Girls (Dino-36)",
+      "category_path": "Sports & Outdoors > Sports > Winter Sports > Sledding > Snow Tubes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLD7Z9DC",
+      "title": "LUKETURE Dancing Talking Giraffe Toy Stuffed Plush, Cute Interactive Talking Giraffe Gift for Girls Boys Kids, Musical Baby Toys Singing 10 Children's Song Repeats What You Say (Dancing Giraffe)",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLK5B1K8",
+      "title": "Momcozy Baby Play Mat, Leopard Brown",
+      "category_path": "Baby Products > Activity & Entertainment > Baby Gyms & Playmats",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FMBGJM69",
+      "title": "Hiwawind 84pcs Magnetic Blocks,Toys for 3 Year Old Boys & Girls, Sensory Toys for Kids with Autism, STEM Preschool Montessori Toys for Toddlers 3-5, Christmas Toys Birthday Gifts for Grandkids",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Magnetic & Felt Playboards",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FMF9FT17",
+      "title": "MAMIMAKA Infant Baby Girl Sleeveless Bodysuits 4 Pack Cotton Ruffle Newborn Rompers, 0-3 Months",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Footies & Rompers > Rompers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMQX93WS",
+      "title": "Mefirt Over The Door Organizer for Toy Guns, Toys Storage Door Hanger with Pockets and Slots for Kids Foam Blasters, Darts, Goggles, Over Door Toys Storage Organizer, for Kids Rooms, Game Rooms, Gray",
+      "category_path": "Home & Kitchen > Furniture > Kids' Furniture > Toy Bags & Nets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN1YGNCV",
+      "title": "2026 Taba Squishy Toy Set, Squishy Pack Soft Rising Stress Relief Sensory Toys， Stress Relief Squeeze Fidget Toys for Kids, , Gifts for Kids, Party Favors（8 Pcs）",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Squeeze Toys",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FN46HHXD",
+      "title": "Toidgy Learning Toys Tablet with Music & Sound, Speech Therapy Toys for Toddlers Age 1, 2, 3, Montessori Toys Christmas Birthday Gifts for Girls, Boys, Baby 12-18 Months, Doctors Pretend Playset",
+      "category_path": "Toys & Games > Learning & Education > Electronic Learning Toys > Learning Systems",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FN4CZ3N6",
+      "title": "JoyCat My First Purse for Toddler Girls 1-3, 5 PCS Plush Unicorn Pretend Play Set with Lipstick, Perfume, Palette & Star Key, Soft Sensory Easter Basket Gifts for Girls",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Rattles & Plush Rings",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FNMC253S",
+      "title": "Automatic Stroking Machines Male Masterburbatar Hands Free Mastausbafor Viboatoars Toys Sucking Men Massager Machine Devices Suction Adult Toy Auto Bj Pocket Puzzy Man Mastaurebstor Underwear PWO1",
+      "category_path": "Health & Household > Health Care",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNN1DLK6",
+      "title": "MIAODAM Soothing Otter Baby Plush Toy - Realistic Breathing Movement, Warm Light & Soothing Music Otter Breathing Stuffed Animal for Toddlers, Soothing Cuddle Plush Toy",
+      "category_path": "Baby Products > Nursery > Décor > Sleep Soothers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FP2XSJ3Z",
+      "title": "Toddler Cartoon Cow Cotton Slippers, Girls Boys Cute Indoor Outdoor Plush Animal Shoes Cozy Soft Warm Home Slides (Coffee, 13 Little Child)",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP5KQRW3",
+      "title": "ZOHANINDL LED Light Up Pickup Truck Toys,Pull Back Cars Toy(2 Pack),Included,Suitable for Toddlers 3 4 5 6 7 8 Year Old Kids for Boys and Girls Birthday Easter Party Gift",
+      "category_path": "Toys & Games > Vehicles > Trucks",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPG3DNWY",
+      "title": "GobiDex 100PCS Magnetic Blocks Farm Toys for Toddlers, STEM Educational Pretend Play Gifts, Sensory Travel Playset for Boys and Girls",
+      "category_path": "Toys & Games > Building Toys > Stacking Blocks",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPQYDFH8",
+      "title": "Rechargeable Bubble Machine - Auto 90°/360° Rotation, Remote Control, 7-Color RGB, Larger Bubbles Design, Bubbles Maker Toys Gifts for Kids, Toddlers, Easter, Birthday, Parties, Wedding, Boys, Girls",
+      "category_path": "Toys & Games > Novelty & Gag Toys",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FPRB5XDD",
+      "title": "ChienBox Dog Toys for Aggressive Chewers: Squeaky Dog Chew Toys for Medium & Large Dogs, Indestructible Dog Toy to Keep Them Busy, Easy to Use and Clean, Teeth Cleaning, Bacon Flavor",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPX15PP5",
+      "title": "JUKUDAHU Fire Trucks for Toddlers 3-5 Years Old, Firetruck Playset with Rotating Ladder, Sound and Light, Trucks for Kids Ages 4-8, Car Toys Playset, Birthday Firefighter Gifts for Girls 3-4 5-7",
+      "category_path": "Toys & Games > Vehicles > Trucks",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FQ144919",
+      "title": "Pasking 2 Pack Dog Chew Toys for Aggressive Chewers, Bacon Flavor Indestructible Nylon Puppy Bone Tough Teething & Calming for Large Medium Breeds(10lbs-70lbs) Birthday Gift Christmas",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ1DYY2K",
+      "title": "Pasking 2 Pack Dog Chew Toys for Aggressive Chewers, Chicken Flavor Indestructible Nylon Puppy Bone Tough Teething & Calming for Large Medium Breeds(10lbs-70lbs) Birthday Gift Christmas",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ2JLMCZ",
+      "title": "KIZONLY Magnets Robot Building Toys for Kids Ages 3-5 4-8, 36 PCS Monsters Robot Building Blocks Set with Storage Box, Creative Learning Christmas Birthday Gifts Toys for Boys Girls Ages 2-12",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Magnets & Magnetic Toys",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FQ3XK183",
+      "title": "SATXTREM Updated Interactive Talking Flash Cards - Montessori Educational Toys with 20 Themed Posters & Dog Pen for 2-5 Year Olds Preschool Learning (Blue-Dog Poster)",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Electronic Early Development Toys",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FQ5KN5CG",
+      "title": "Pasking 2 Pack Dog Chew Toys for Aggressive Chewers - Beef Flavor Indestructible Nylon Puppy Bone Tough Teething & Calming for Large Medium Breeds(10lbs-70lbs) Birthday Gift Christmas",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ5TTL16",
+      "title": "PIKOY Excavator Toys for Boys 3-5【15 Sounds & 6 Films】 Kids Construction Toys Truck Night Light [31 Colors & Remote Control] Dinosaur Egg Light for Nursery Toddler Boys Kids Gifts Easter Eggs Gifts",
+      "category_path": "Toys & Games > Vehicles > Construction Vehicles > Excavators",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FQC2FSXJ",
+      "title": "gearvibe 119PCS 0.8in Mini Magnetic Building Blocks, STEM Montessori Sensory Toys for Kids Ages 3+, Magnetic Tiles Cubes with Storage Bag, St. Patrick's & Easter Gifts for Boys Girls Travel Toys",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FQP8MRVV",
+      "title": "SCOM 18 Inch Reborn Baby Doll Girl with Long Hair, Lifelike Vinyl Baby Doll with Realistic Facial Details & Weighted Body, with Accessories, for Kids 3+, New Parents Training & Elderly Companion Play",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FR4LK7VJ",
+      "title": "ALL FOR PAWS Interactive Dog Toys, Smart Dog Ball with Durable Rope, Automatic Moving and Rolling Ball Toys for Small Medium Large Dogs, Motion-Activated and USB Rechargeable",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR927LC4",
+      "title": "Drawing Robot for Kids: Interactive Educational Toy - Auto Drawing Machine with 192 Cards & 10 Pens - Montessori Learning Gifts for 3-8 Year Old Boys Girls",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Electronic Early Development Toys",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FR99TDCV",
+      "title": "Cocellona Pack and Play Mattress, 38\"x26\" Breathable Dual Soft&Firm Pack N Play Mattresses Pad with Removable Ultra-Soft Cover, Portable Memory Foam Baby Mattress for Pack n Play with Non-Slip Bottom",
+      "category_path": "Baby Products > Nursery > Bedding > Mattresses > Crib Mattresses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FR9HNX23",
+      "title": "RXDOLL Big Size Realistic Reborn Toddler Girl Doll 26 Inch Handmade Cloth Body Soft Vinyl Reborn Baby Doll That Look Real Lifelike Newborn Baby Dolls Toy Set for Kids Ages 3+",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FR9KT9PX",
+      "title": "RXDOLL Big Size Reborn Todder Dolls Black Boy 26 Inch African American Reborn Baby Dolls Soft Cloth Body Realistic Toddler Doll Dark Skin Silicone Babies Toy Gift Set for Kids",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FRLL8SJ5",
+      "title": "Realistic Thrusting Dildo Sex Toy Adult Toys for Women G Spot Dildo Waterproof Vibrating Vibrators Soft Silicone Dildos for Women and Couple with 7 Thrusting Modes and Suction Cup",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Vibrators > Realistic",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRRQFZFS",
+      "title": "GPS Tracker for Dog (2 Pack), Mini GPS Cat Tracker, Smart Pet Activity Tracker (iOS Only), No Monthly Fee, Compatible with Apple Find My, Anti-Lost, Finder Tag for Vehicles/Pets/Items",
+      "category_path": "Pet Supplies > Dogs > Collars, Harnesses & Leashes > Location Trackers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FS2QPY6P",
+      "title": "Disney Toy Story Toddler Girls 2 Pack Dresses Cream/Purple 4T",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Playwear",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS2V8XQJ",
+      "title": "Disney Toy Story Little Girls 2 Pack Dresses Cream/Purple 7-8",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS35QHNZ",
+      "title": "Disney Toy Story Big Girls 2 Pack Dresses Cream/Purple 10-12",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS3FJ3XQ",
+      "title": "Disney Toy Story Toddler Girls 2 Pack Dresses Cream/Purple 3T",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Playwear",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS3FTHVH",
+      "title": "Disney Toy Story Little Girls 2 Pack Dresses Cream/Purple 6",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS3G32VX",
+      "title": "Disney Toy Story Toddler Girls 2 Pack Dresses Cream/Purple 2T",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Dresses > Playwear",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS77YY1L",
+      "title": "CU-MATE Electronic Stuffed Walking Cats, Realistic Interactive Pet Toy Cat, Walking, Barking, Wagging Tail & Talking, Present Gifts for 3+ Year (British Shorthair Blue and White Cat)",
+      "category_path": "Toys & Games > Kids' Electronics > Electronic Pets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FSD2LMJY",
+      "title": "2 in 1 Wooden Baby Walker and Activity Center for Girls Boys Sit-to-Stand Learning Toy Kids Montessori Educational Push Toys with Music Detachable Busy Keyboard for Toddlers",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Push & Pull Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FSDH7S1N",
+      "title": "RXDOLL Big Size Realistic Reborn Toddler Dolls 26 Inch Lifelike Baby Doll Soft Vinyl Cloth Body Real Life Silicone Reborn Babies Toddler Girl Chritmas Birthday Toys Gifts",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FSSM82HF",
+      "title": "Light Up Hover Soccer Ball for Kids,Glowing Web Design & LED Eyes Air Floating Soccer Toys,Indoor Games with Soft Foam Bumper,Fun Sports Games for Boys Girls Age 3 4 5 6 7 8 9 10 11 12, Birthday Gifts",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Toy Sports > Toy Soccer",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FSXL75QD",
+      "title": "Zero Pam Reborn Baby Dolls Silicone Full Body Girl, 20 Inch Realistic Baby Dolls Girl, Lifelike Reborn Toddler Doll, Waterproof Anatomically Correct Babies Doll That Look Real",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FT19H77X",
+      "title": "FunsBloomify Magnetic Blocks 100PCS Pirate Ship | STEM Educational Building Toys for Kids Age 3+, Creative Stacking Construction Set with 0.8in Magnet Cubes, Birthday Gift for Boys & Girls",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT2YC1KX",
+      "title": "Ligamentexa Sticky Balloon Maker Toy Balloon Craft Kit with Rocket Air Pump, Sticker Decorated Magic Planets & Alien Pals, Creative Activity for Kids 3+ Years, Great Birthday Gift for Boys and Girls",
+      "category_path": "Toys & Games > Arts & Crafts > Craft Kits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT7Q98FM",
+      "title": "GushySnow® Latex Material Sensory bin Filler Play Sand Toy Creative Paly Realistic Food Toy for Kid,Japanese Realistic Pretend Play Sushi Set for Kid Children boy Girl 6+(Sushi Set)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Kitchen Toys > Play Food",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FT7TNP1F",
+      "title": "GushySnow® Latex Material Sensory bin Filler Play Sand Toy Creative Paly Food Toy for Kid,Waffle Realistic Food Pretend Play Food Toy for Kid Children boy Girl 6+ (Waffle Set)",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Kitchen Toys > Play Food",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FTTGLVWP",
+      "title": "SPEEDY MONKEY Van Multi-Activity Walker for Toddlers 12m+ | Wooden Baby Walker & Activity Station for Kids & Preschoolers | Animal Shape Sorter & Early Learning Push Toy for Boys & Girls",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Push & Pull Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVBHT5TF",
+      "title": "Geomag Magicube Magnetic Building Blocks for Toddlers Ages 1–5, Swiss-Made STEM Toy (24-Piece - Montessori)",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVDC73RR",
+      "title": "Liuckyxin Newborn Baby Girl Christmas Outfit Bow Candy Cane Footed Romper Headband Infant My First Xmas Jumpsuit (Red, 3-6 Months)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Footies & Rompers > Rompers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVDNDTLB",
+      "title": "Liuckyxin Newborn Baby Girl Christmas Outfit Bow Candy Cane Footed Romper Headband Infant My First Xmas Jumpsuit (Red, 6-12 Months)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Footies & Rompers > Rompers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVDV79HX",
+      "title": "Liuckyxin Newborn Baby Girl Christmas Outfit Bow Candy Cane Footed Romper Headband Infant My First Xmas Jumpsuit (Red, Newborn)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Girls > Clothing > Footies & Rompers > Rompers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVF721B2",
+      "title": "Zero Pam Lifelike Reborn Baby Dolls Silicone Full Body, 19 Inch Realistic Baby Dolls Girl, Anatomically Correct Newborn Babies Girl, Sleeping Silicone Babies with Feeding Accessories",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVFDXQFN",
+      "title": "2-in-1 Kids Microscope & Camera – Handheld Digital Microscope, STEM Science Toy for Boys and Girls Ages 3-10 | Christmas or Birthday Gift for Outdoor Adventure and Nature Discovery (White)",
+      "category_path": "Toys & Games > Learning & Education > Optics > Microscopes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVM1K1LX",
+      "title": "Goodtiles Mini Magnetic Tiles, Magnetic Travel Toys with Portable Tin, STEM Preschool Toddlers Toys for Kids Ages 3-5 4-8, Ideal Gifts for 3+ Years Old Boys and Girls Birthday Christmas Days",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVM1K5GR",
+      "title": "Coodoo Mini Magnetic Tiles Set with Iron Box, Travel Essentials Portable Magnet Building Blocks, Montessori Educational Sensory Toys for Toddlers 3+ Boys Girls Birthday Gift Classroom Must Haves",
+      "category_path": "Toys & Games > Building Toys > Building Sets",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVWQR73W",
+      "title": "VOXGET Interactive Dog Octopus Toy, Upgrade Automatic 1.5H Jumping Ball with Motion Activation for Small Large Dogs, 2 in 1 Rechargeable Move & Tug Plush Toy Pets Keep Busy, No Music (Blue Crinkle)",
+      "category_path": "Pet Supplies > Dogs > Toys > Plush Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVXGNJS9",
+      "title": "Magnetic Blocks 200PCS, STEM Educational Building Toys for Toddlers 3+, Large 0.8in Magnet Cubes Sensory Toys, Creative Stacking Construction Set, Preschool Learning Birthday Gift for Boys Girls",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVXR9L84",
+      "title": "Zero Pam Reborn Baby Dolls Silicone Full Body Vinyl Girl 19 Inch Silicone Baby Doll Girl, Sleeping Reborn Preemie Doll, Realistic Newborn Babies, Anatomically Correct Dolls for Girls Toys",
+      "category_path": "Toys & Games > Dolls & Accessories > Dolls",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FWC7QTVC",
+      "title": "Interactive Dog Toys Balls Moving - Smart Automatic Bouncing Interactive Dog Ball, Durable Pet-Safe E-TPU Material, IPX7 Waterproof, Anti Boredom Dog Toys to Keep Them Busy for Large and Small Dogs",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRG29D4",
+      "title": "SNOYWEN Smart Interactive Dog Balls, Durable Food-Grade Rubber Material, Automatic Moving, Bouncing, Rotating Toy with Light for Medium, Large Dogs, IPX7 Waterproof (Yellow)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXLRXGGP",
+      "title": "KIZONLY Kids Kitchen Set, 88PCS Play Kitchen Set for Toddlers 3-5, Cooking Stove,Toys Accessories with Light and Sound, Pretend Kitchen Toys Birthday Gifts Playset for Girls 1 2 3 4 5 Year Old",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Kitchen Toys > Kitchen Playsets",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FXRQKDG3",
+      "title": "SURUIMA GK Baby Three Q.Kid Plush Blind Box， Plush Figure Toys 1PC (1 of 9 Possible Styles) Fairy Tales Birthday Gifts 5.5 in",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Figures",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FXW7J3BY",
+      "title": "Mity rain Interactive Dog Toys Octopus with Thicken Plush, Moving Dog Toy with Recording Mode Shaking & Singing Mode Bouncing, Funny Ball Jumping to Keep Them Busy & Chase, Rechargeable (No Zipper)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXXKN8XQ",
+      "title": "Baby Gym Play Mat, 9-in-1 Baby Play Mats w 9 Detachable Toys for Stage-Based Sensory & Motor Skill Development, Washable Tummy Time Mat & Crawling Blanket for Baby to Toddler, Baby Essentials Gift",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Indoor Climbers & Play Structures",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FY2V73BL",
+      "title": "Rocking Horse Kids Plush Ride on Animal Toy with Wooden Rockers, Baby Rocking Chair with Wagging Tail, Moving Mouth & Realistic Sounds, Gift for Boy Girl, Age 1-6, Brown (Dark Brown, Small)",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Rocking Horses & Animals",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FY2VKHJD",
+      "title": "Rocking Horse Kids Plush Ride on Animal Toy with Wooden Rockers, Baby Rocking Chair with Wagging Tail, Moving Mouth & Realistic Sounds, Gift for Boy Girl, Age 1-6, Brown (Dark Brown, Medium)",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Rocking Horses & Animals",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FYFKHPBX",
+      "title": "Cocellona Pack and Play Mattress, 38\"x26\" Dual Soft & Firm Pack N Play Mattresses Pad with Removable Ultra-Soft Cover, Breathable Memory Foam Baby Mattress for Pack n Play with Non-Slip Bottom",
+      "category_path": "Baby Products > Nursery > Bedding > Mattresses > Crib Mattresses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FYK6NR73",
+      "title": "Mint Triangle Teether Combo by Malarkey Kids",
+      "category_path": "Baby Products > Baby Care > Pacifiers, Teethers & Teething Relief > Teethers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FZBFJCMD",
+      "title": "LUKETURE Dancing Talking Singing Green Giraffe Toy Stuffed Plush, Interactive Stuffed Animal Toy, Musical Giraffe Plush with Record & Repeat, Sings 10 Songs, LED Lights",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1GSXJQH",
+      "title": "Grnstf 2-Pack Squeaky Dog Toys & Tough Tug of War Set - No Stuffing Chew-Resistant Plush Toys to Keep Them Busy, Best Birthday Gift for Small/Medium/Large Breeds (Ducks & Dino)",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1SP7PDK",
+      "title": "kolotesame 4 Pack Press and Go Toy Cars Push to Go Die-cast Metal Toddler Toys for Boys Girls Mini Pull Back Vehicles Set Small Race Car Birthday Gifts",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G1T7L3VV",
+      "title": "Arrowbash Kids Chainsaw Toy with Realistic Sound & Moving Chain, Summer Outdoor Play Tool for Boys Age 3-8, 5 Pcs Safety Gear Included",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Gardening Tools",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G25QFP1W",
+      "title": "2PC Kitlty Kurliz Cat Toy,Magic Organ Cat Toy, Foldable Recyclable Cat Accordion Toy for Indoor Cat Playing,Interactive Scratch Pad with Toy Ball",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2954QYH",
+      "title": "Randhar Lilac Purple Doll House for Girls, Dream Dollhouse 9 Rooms with 2 Dolls, Animals, Lights, Furniture and Accessories, Pretend-Play Toddler Playhouse Gift 3+ Year Old Girls Toys",
+      "category_path": "Toys & Games > Dolls & Accessories > Dollhouses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G2B8R1HZ",
+      "title": "12-Piece Jesus Plush Toy Set - Easter Church Decoration - Guardian Savior Gift Doll - Suitable for Easter, Sunday School, and Religious Activities (12 Pcs)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2JW95Q3",
+      "title": "Zancasae Stuffed Animal Storage, Wooden Stuffed Animal Zoo Plushies Holder with Wheels, Stuffed Animals Organizer for Playroom and Bedroom",
+      "category_path": "Baby Products > Nursery > Furniture > Storage & Organization > Toy Chests & Organizers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2RFVP7S",
+      "title": "Classic G Spot Vibrator Sex Toys Clitoral Rabbit Vibrators Stimulator Dildo, Anal Adult Vibrator Dildos with 8 Powerful Vibrating Modes Red",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Vibrators > G-Spot",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2SD5T8X",
+      "title": "The All-in-One Microphone Toy That Makes Every Day a Concert, 2026 New Karaoke Microphone Toy with Adjustable Stand and LED Lights, Christmas Birthday Gifts for Little Singers(Blue)",
+      "category_path": "Toys & Games > Kids' Electronics > Karaoke Machines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2SNLBRP",
+      "title": "The All-in-One Microphone Toy That Makes Every Day a Concert, 2026 New Karaoke Microphone Toy with Adjustable Stand and LED Lights, Christmas Birthday Gifts for Little Singers(Pink)",
+      "category_path": "Toys & Games > Kids' Electronics > Karaoke Machines",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2VVNZ13",
+      "title": "LED Light Up Pull Back Cars Toy, Car Toys for Toddlers 1-3, Light-up Monster Truck, 3+ Kids and Boys Girls Easter Christmas Birthday Party Gift (2Pack)",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Play Figure Vehicles > Trucks",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G2XNK4Z2",
+      "title": "Cocellona Pack and Play Mattress Pad, 38x26 Pack N Play Mattresses with Removable Ultra-Soft Cover, Portable Soft & Firm Memory Foam Baby Playpen Mattress for Pack n Play",
+      "category_path": "Baby Products > Nursery > Bedding > Mattresses > Crib Mattresses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G352XWLN",
+      "title": "Sex Doll, Male Sex Toys - 10.36LB Ass with Soft Vagina & Anal, Pocket Pussy Sex Toy for Men Realistic Soft Life Like Sexy Women Adult Toys",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Sex Dolls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3BJ6W4K",
+      "title": "NEUBSAW 12 Packs Easter Eggs with Die-cast Cars for Boys, Prefilled Easter Eggs for Kids Toddlers Easter Basket Stuffers, Easter Party Favor Supplies for Easter Egg Hunt, Easter Toys Gifts for Boys",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G3M3163T",
+      "title": "KEJUOM Plush Cat Stuffed Animal, Cute Plushies Soft Companion Pets Kitten Plush Toys 20 Inch (Brown)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3M56NBR",
+      "title": "KEJUOM Plush Cat Stuffed Animal, Cute Plushies Soft Companion Pets Kitten Plush Toys 20 Inch (Gray)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3PHH7CW",
+      "title": "Cocellona Pack and Play Mattress 38\" x 26\", Dual Sided Pack N Play Mattresses Pad with Removable Breathable Cover for Toddler and Baby, Portable Soft & Firm Memory Foam Mattress for Pack n Play",
+      "category_path": "Baby Products > Nursery > Bedding > Mattresses > Crib Mattresses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G42WHZCF",
+      "title": "NEUBSAW 24Packs Easter Eggs with Cars for Boys, Prefilled Easter Eggs for Kids Toddlers EASTER Basket Stuffers, Party Favor Supplies for Egg Hunt, EAS TER Toys Gifts for Boys",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G44S5727",
+      "title": "Dtadvlo Upgraded Toddler Sand Water Table Toy with Electric Water Pump, Kids Sand Water with Faucet/Play Food Accessories/Fishing Toy, Kitchen Play Sink Toys for Girl Boy Age 3+",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Sand & Water Tables",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4BRXZC8",
+      "title": "RoundFunny 12 Pcs Fishing Bobber Plush Stuffed Toys Fishing Themed Party Favor Pocket Sized Fish Bobber Stuffed Animal Toys for Summer Fishermen Themed Party Supplies, 3 Inches",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4V9KLB2",
+      "title": "Kids Tool Set,135Pcs Toddler Tool Set with Toolbox,Educational Montessori Toys,STEM Pretend Play Construction Toys for 3 4 5 Year Old,ABS Plastic Repair Toolkit for 3-6 Year Old Boy,Best Birthday Gift",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Play Tools",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G5196ZGN",
+      "title": "FunsBloomify Magnetic Blocks 120PCS Cave Adventure | STEM Educational Building Toys for Kids Age 3+, Creative Stacking Construction Set with 0.8in Magnet Cubes, Birthday Gift for Boys & Girls",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G51C4Y2Z",
+      "title": "FunsBloomify Magnetic Blocks 150PCS Space | STEM Educational Building Toys for Kids Age 3+, Creative Stacking Construction Set with 0.8in Magnet Cubes, Birthday Gift for Boys & Girls",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G53GVXZL",
+      "title": "6 in 1 Toddler Slide, Baby Couch Slide for Indoor Outdoor Playground with Basketball Hoop, Storage and Telescope, Playset Climbing Toys for Toddler Playground Playset, Green",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Play Sets & Playground Equipment > Freestanding Slides",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G58GHCB1",
+      "title": "Montessori Toys for 2 year Old,Wooden Keys and Locks Set With 8 Wooden Animals and Keys,Learning Fine Motor Skills Toys for Toddlers,Preschool Educational Sorting Toys for 1-3 Boys and Girls Gift",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Sorting & Stacking Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G595QG5D",
+      "title": "248 Pcs Wooden Magnetic Pattern Block Set with Cards, Pen & Storage Bag, Montessori STEM Tangram Puzzle Toys for Toddlers 4 5 6 7 8, Educational Brain Teaser Gift for Boys Girls",
+      "category_path": "Toys & Games > Puzzles > Brain Teasers > Assembly & Disentanglement Puzzles",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G5J5RX6M",
+      "title": "Electric Train Set Cube Track for Kids Ages 4-8, Infinity Racer 3D Train for Toddlers, Track Fusion Building Toy with Anti Gravity Race Track, STEM Learning Fun Gift for Boys Girls, Include 2 Trains",
+      "category_path": "Toys & Games > Vehicles > Vehicle Playsets > Train Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G5WFRZ2Z",
+      "title": "100 Pcs Prefilled Easter Eggs with Toys Inside - Easter Basket Stuffers & Egg Hunt Fillers for Kids, Pre Filled Easter Eggs Easter Party Favors Classroom Prize for Kids Toddler Boys Girls",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0G5YDZKX8",
+      "title": "Goodtiles Mini Magnetic Blocks, Travel Outdoor Toys for Kids Ages 3-5 4-8, Magnet Cubes with Iron Box, STEM Montessori Sensory Building Toys, Ideal Gifts for Toddlers Boys Girls Birthday",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G5YJFJTX",
+      "title": "Mini Magnetic Blocks, Magnet Building Cubes, Farm Animal Travel Outdoors Toys with Portable Iron Box, STEM Montessori Sensory Educational Toys for Toddlers, Gift for Kids Ages 3-8 Boys & Girls",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G62SNR5C",
+      "title": "Interactive Dog Toys,Motion Activated Squeaky Dog Chase Buddy Dog Toy Automatic Rolling Ball with Rope for Medium Small Dogs Puppy (2PCS)",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G62XV8VW",
+      "title": "Interactive Dog Toys,Motion Activated Squeaky Dog Chase Buddy Dog Toy Automatic Rolling Ball with Rope for Medium Small Dogs Puppy (2PCS Orange)",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G63C9WXX",
+      "title": "Interactive Dog Toys,Motion Activated Squeaky Dog Chase Buddy Dog Toy Automatic Rolling Ball with Rope for Medium Small Dogs Puppy (2PCS Blue)",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6KXFX92",
+      "title": "Bath Bombs with Surprise Inside, 35 Pcs Kids Bath Bombs Gift Set with Glow-in-The-Dark Animal Toys, Child-Safe Natural Bubble Fizzy, Perfect Easter Basket Stuffers & Birthday Gifts for Girls & Boys",
+      "category_path": "Beauty & Personal Care > Personal Care > Bath & Bathing Accessories > Bath > Bath Bombs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6TVYMC1",
+      "title": "RC Car, Amphibious Monster Truck Toy with Charging Dock, 1:18 4WD Waterproof Off-Road Pickup - 360° Rotation & One-Button Stunt, 2.4GHz Remote Control Car for Boys Girls Ages 6+ Birthday Gift",
+      "category_path": "Toys & Games > Remote & App Controlled Vehicles & Parts > Remote & App Controlled Vehicles > Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6XDRGW4",
+      "title": "Magical Toy Gifts for Kids | Bear Pump Balloon Craft Kit with 60PCS, Creative DIY Art Toys for Ages 3+, Fun Birthday & Holiday Party Supplies for Girls Boys",
+      "category_path": "Toys & Games > Arts & Crafts > Craft Kits",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G78C5RVR",
+      "title": "AZTWMYS Upgraded Toddler Sand Water Table Toy with Electric Water Pump, Kids Sand Water with Faucet/Play Food Accessories/Fishing Toy, Kitchen Play Sink Toys for Girl Boy Age 3+ (Pink)",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Sand & Water Tables",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G8DS64KJ",
+      "title": "Interactive Dog Toys Dog Ball, Automatic Moving Dog Ball, Bouncing & Rotating smart ball for/Small/Medium/Large Dogs, Durable 3 Play Modes Motion Activated Dog Toys to keep them busy, USB Rechargeable",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G8G56DLF",
+      "title": "SHINESIGNAL Kids Construction Truck Vehicles Toys 8 Set, Inertial Driving Semi-Trailer Carrier with 6Pcs Mini Diecast Construction Cars, Excavator Bulldozer Froklift Concrete Mixe Toys Gift for Boys",
+      "category_path": "Toys & Games > Vehicles > Trucks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G8HXBL6C",
+      "title": "Pawparty Floor Puzzle for Toddlers, 48 pc Unicorn & Friends Large Educational Jigsaw Puzzle for Kids Ages 4-8, 2 x 3 Feet Giant Toy, Holiday Activity for Ages 3+",
+      "category_path": "Toys & Games > Puzzles > Floor Puzzles",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G9NZD8Z1",
+      "title": "CASRRA Kids Tool Set Toddlers Tool Kit Kid Toddler Tools Belt 3 4 5 Year Old Construction Tools Toys for Boys Birthday Gifts Age 3 4 5",
+      "category_path": "Toys & Games > Dress Up & Pretend Play > Play Tools",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GC85WNQP",
+      "title": "24 Water Coloring Books Party Favors -Toddler Spring Crafts for Kids, Mini Coloring Books Bulk for Boys Girls Classroom School Gifts Spring Activities Activity Easter Basket Goodie Bag Fillers",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCCXBQMP",
+      "title": "Clitoral Vibrator Sex Toys for Women - Female Clitoris Squirting Vibrators Finger Clips Stimulator with 10 High-Frequency Vibration Modes, Dildo Vagina Nipple Massager Adult Toys for Couples Sex Play",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Vibrators > Finger",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCD15QX8",
+      "title": "GooMags Montessori Toys for Toddlers, 21Pcs Farm Toys with Storage Bags/Playmat Counting, Matching, Sorting Preschool Learning Toy Including 10 Animal Finger Puppets Birthday Gift",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Sorting & Stacking Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCD29NYQ",
+      "title": "Sand and Water Table for Toddlers 18M+, 5-Tier Outdoor Toys and Play Activity Set for Kids Boys Girls Toddlers Ages 3 4 5 6 7 8 Years, Kids Sand Water Play Table Summer Beach & Pool Toys for Yard",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Beach Toys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCDSD4C5",
+      "title": "Sand Water Table for Toddlers 18 Months+, 4-Tier Water and Sand Table for Kids, Splash and Play Activity Set with Rich Accessories, Summer Outdoor Indoor Toys Gifts for Girls & Boys Ages 2 3 4 5 6 7",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Beach Toys",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCDV627F",
+      "title": "Sand Water Table, 4-Tier Rectangular Sand and Water Table for Toddlers 1.5+, Outdoor Splash and Play Activity Set for Boys and Girls Ages 2 3 4 5 6 7 8 Years, Indoor Outdoor Water Play Sensory Toys",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Beach Toys",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCF13M3T",
+      "title": "5-Tier Sand and Water Table for Toddlers 1-3 3-5, Kids Sensory Water Table with Rich Accessories, Interactive Activity Sand Water Table Toys for Kids Boys Girls 2 3 4 5 6 Years Old Indoor Outdoor Play",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Beach Toys",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GCFNYX4T",
+      "title": "3-Tier Sand and Water Table for Toddlers 1-3 3-4, Kids Sand Water Play Table Toys for Kids Boys Girls 2 3 4 5 6 Years Old, Kids Toddler Play Activity Set Toys for Summer Beach Pool Indoor Outdoor Yard",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Beach Toys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCFSQH8M",
+      "title": "Sand Water Table for Toddlers Kids 2 3 4 5 6 Years Old, 3-Tier Sand and Water Table for Boys Girls, Splash and Play Activity Set with Rich Accessories for Outdoor Indoor Fun, Summer Beach Toy for Kids",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Beach Toys",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCLN3TVM",
+      "title": "JoyCat Baby Easter Basket, Easter Gifts for Baby Girl Boys Toddlers Kids, 6 PCS Plush Sensory Playset with Bunny Chick Egg Carrot Tulip Toys, Rattle, Squeaker & Crinkle Plush Toys, Easter Egg Hunt",
+      "category_path": "Baby Products > Gifts > Gift Baskets",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCM3GL67",
+      "title": "VortinT 3-in-1 Toy Storage Box with Bookshelf and Chalkboard, Large Stuffed Animal Toy Chest on Wheels, Kids Toy Storage Organizer Bin for Kids Room, Nursery & Playroom, for Kids, White",
+      "category_path": "Baby Products > Nursery > Furniture > Storage & Organization > Toy Chests & Organizers",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCM7LLV3",
+      "title": "Totsmile 10PCS 2-7\" Safari Zoo Animal Toys for Toddlers Kids, Realistic Wild Animal Figurine Toys Set, Tiger,Bear,Kangaroo,Crocodile,Lion,Polar Bear, Educational Learning Toys Playset for Boys Girls",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Animals",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCMH4TTS",
+      "title": "12 PCS Safari Animal Figurines Set, Realistic African Wild Animal Figures,Educational Zoo Animal Toys,Party Favors, Classroom Props,Cake Toppers Christmas Birthday Toy Gift for Kids Toddlers",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Animals",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GD6D15KJ",
+      "title": "AQXYTK 3D Printed Fidget Toys Set, Rainbow Spinner & 12-in-1 Infinity Cube, Desk Stress Relief Toys Sensory Focus Anxiety Gifts​ for Adults (5 Pack)",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Executive Desk Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDDKJHM9",
+      "title": "AQXYTK 8 Pack 3D Printed Fidget Toys, Fidget Cube Sensory Toy, Spiral Fidget Column, Stress Relief Gifts for Men Women, ADHD, Autism, Teens&Adults, Party Favors",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Fidget Toys > Multi-Item Fidget Toy Packs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDDLZN92",
+      "title": "KIZONLY 2 Pack Water Squirter for Kids, Big Wate Pool Squirt Toys, Outdoor Swimming Beach Water Play, Pool Backyard Party Activities Birthday Gift Toy for Toddler Kid Ages 1-3 4-8 8-12",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Pools & Water Toys > Squirt Guns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GDDV51K2",
+      "title": "ANYSENT Interactive Chirping Bird Cat Toy,2026 New Flying Bird Cat Toy Flapping Bird Toy,Simulation Chirping Bird Toys Interactive Cat Toys for Bored Indoor Adult Cats (Light Grey/1PCS)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDF47D87",
+      "title": "KIZONLY 2 Pack Water Squirter for Kids, Soaker Water Pool Squirt Toys, Outdoor Swimming Water Play, Pool Backyard Party Activities Birthday Gift Toy for Toddler Kid Ages 1-3 4-8 8-12",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Pools & Water Toys > Squirt Guns",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GDW5PKP2",
+      "title": "ANYSENT Interactive Chirping Bird Cat Toy,2026 New Flying Bird Cat Toy Flapping Bird Toy,Simulation Chirping Bird Toys Interactive Cat Toys for Bored Indoor Adult Cats (A-Yellow)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDWN1FGW",
+      "title": "ANYSENT Interactive Chirping Bird Cat Toy,2026 New Flying Bird Cat Toy Flapping Bird Toy,Simulation Chirping Bird Toys Interactive Cat Toys for Bored Indoor Adult Cats (Blue+Light Grey)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDY17GZH",
+      "title": "BluPup Dog Toys for Small Dogs, Cute Bunny & Carrot Plush Squeaky Dog Toy Set with Crinkle Paper, Soft Interactive Puppy Toys for Indoor Play, Gentle Chewers, 2 Pack",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GF1TLG4M",
+      "title": "Kids Piano Keyboard Toy with Stool Toddler Girls Pink Toy Piano with Stand for Toddler Birthday Gift for 3 4 5 6 7 Year Old Girl Music Instrument Toys",
+      "category_path": "Toys & Games > Learning & Education > Musical Instruments > Pianos & Keyboards",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GFCHF1DF",
+      "title": "TVM Interactive Dog Toys Ball, Automatic Moving, Bouncing Chew Toys, E-TPU Material, Suitable for Large and Medium-Sized Dogs, Used for Boredom Relief and Daily Training (Orange)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFD8H6K8",
+      "title": "Interactive Dog Toys Balls Moving - Smart Automatic Bouncing Interactive Dog Ball, Durable Pet-Safe E-TPU Material, IPX7 Waterproof, Anti Boredom Dog Toys to Keep Them Busy for Large and Small Dogs",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFDNKCSB",
+      "title": "Tavlshero Dog Stuffed Plush Animals Toy, 13 Inches Soft Comfort Dog, Adorable Stuffed Puppy Made from Child-Friendly Design and Materials for Kids Boys and Girls",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GFLWC7HC",
+      "title": "Outdoor Cat Enclosure,Cat Playground Tent for Outdoor and Indoor Playpen Portable Cat Tunnels, Foldable Cat Tubes Toys for Kitten, Puppy, Rabbit and Small Animals(2 Small Hexagonal Cubes+Tunnel)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFMPWSJ8",
+      "title": "BluPup Dog Toys for Small Dogs, 5 Pack No Stuffing Flat Squeaky Dog Toy Set with Crinkle Paper, Cute Animal Plush Toy Soft Interactive Puppy Toys for Indoor Play, Gentle Chewers",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFN3BSG7",
+      "title": "Interactive Toys for Cats, 2026 New Interactive Cat Toy Ball, Automatic Moving Cat Toy for Indoor Use, Rechargeable Feather Tail Cat Toy with Stimulation for Small Medium Large Cats (1 * Orange)",
+      "category_path": "Pet Supplies > Cats > Toys > Feather Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGCVX3TQ",
+      "title": "Educational Toys for Kids 3-6 Years Old, Interactive Quiz Battle Game with 800 Questions, 2-Player Learning Toy, Montessori Brain Training, Autism Sensory Speech Therapy Gift for Toddler Boys Girls",
+      "category_path": "Toys & Games > Learning & Education > Electronic Learning Toys > Learning Systems",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GGGWXPF6",
+      "title": "Rubypop 12Pack 3D Printed Dragon Eggs with Dragon Inside, Fantasy Collectible 3D Print Animals Toys Party Favor Gifts for Kids & Collectors",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Fantastic Creatures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGHDMRWT",
+      "title": "Rubypop 3D Printed Dragon Easter Egg Fillers, 8 Pack 3D Dragon Egg with Dragon Inside, Prefilled Animals Toys Easter Basket Stuffers School Classroom Prizes Party Favors for Kids Boys Girls Teens",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Fantastic Creatures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGHX3RRH",
+      "title": "Kids Walkie Talkies 2 Pack, Kids Video Walkie Talkies with Screen, 4 Voice Changer & Cute Stickers, 1000FT Long Range Gift Toys for Boy & Girl Age 3-8, Walkie Talkies for Kids Outdoor Camping Hiking",
+      "category_path": "Toys & Games > Kids' Electronics > Walkie Talkies",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GGJ6D7YB",
+      "title": "2 Pack Kitty Cat Toy, Cat Scratchers for Indoor Cats, Magic Organ Foldable Cardboard Cat Scratcher, Cat Toy Interactive Relieve Boredom and Exercise Brown",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGQC3HGZ",
+      "title": "Male Sex Toys for Men - Male Masturbator Penis Vibrator with 10 Vibrating & APP, Mouth Blowjob Stroker Trainer Adult Sex Toys for Prolong Endurance, Pocket Pussy Mens Sex Toy Sex Machine",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Male Masturbators",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGR6N7TB",
+      "title": "WOODMAM Wooden Play Food Set for Toddlers - Montessori Pretend Play Kitchen Toys with Color Sorting Food Groups & Cutting Fruits Vegetables for Boys & Girls Ages 3 4 5 6",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHNP94RT",
+      "title": "FUNZBO Flower Making Bouquets Kit - Crafts for Kids Ages 4-8, Mother's Day Arts & Craft Kits Toys for Girl - Mother Day Birthday Gifts for 3 4 5 6 7 8 Years Old Toddler Girls",
+      "category_path": "Toys & Games > Arts & Crafts > Craft Kits > Paper Craft",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GHNPDGR7",
+      "title": "New App Wearable Panty Viboators Adult Toys for Women,Dual Clitioral Stimulant Vibrate Panties with 10 Modes Tool Great for Her On Date Night JKK1 (Red)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHR4Y29D",
+      "title": "Pawparty Jumbo Floor Puzzle for Toddlers, 48 Piece Puzzle Educational for Kids, 3 x 2 Feet Gaint Toy (Puppies)",
+      "category_path": "Toys & Games > Puzzles > Floor Puzzles",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GHRRVCZS",
+      "title": "BBW Sex Doll Torso Sex Toy for Men with Plump Big Boobs and Ass Pussy, Portable13LB Fat Brown Realistic Sex Doll, 3 in 1 Adult Male Masturbator with Lifelike Textured 3D Vaginal Anal Channels",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Sex Dolls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHX1G2C9",
+      "title": "Kitty Kurlz Cat Toys, Magic Organ Cat Scratcher Board with 2 Bell Balls,Twisty Paws Cat Toy Foldable＆Changeable, Interactive Kitty Curls for Indoor Cats Physical & Mental Exercise-Coffee Brown",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHXTX2B7",
+      "title": "2Pack Electric Water Guns for Adults Kids Squirt Gun with Lighting Sight Long Range Automatic Water Gun Electric Squirt Blaster Watergun Summer Pool Beach Party Outdoor Water Toys for Kids",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Pools & Water Toys > Squirt Guns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJBMBBWL",
+      "title": "Kids Walkie Talkies 2 Pack, Kids Video Walkie Talkies with Screen, 4 Voice Changer & Cute Stickers, 1000FT Long Range Gift Toys for Boy & Girl Age 3-8, Walkie Talkies for Kids Camping Hiking",
+      "category_path": "Toys & Games > Kids' Electronics > Walkie Talkies",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJCSBX67",
+      "title": "Duocharm Tug of War Dog Toy,Interactive Dog Toys for Aggressive Chewers - Squeak Rope Toy for Puppies, Small Dogs to Keep Them Busy,Red",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJD18V1F",
+      "title": "okegztoa Bunny Basket Pretend Play Food for Toddlers 1 3 Soft Grocery Basket Toy Set Plush Vegetable Carrot Colorful Eggs Early Learning Educational Gift Kids Farm Animals Accessories Snuggle Cuddle",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJS9Z55J",
+      "title": "Lion Stuffed Animal – Cute Lion Plush Toy for Kids & Adults – Birthday Surprise & Room Decor –A Cuddly Companion for Everyday hugs and Bedtime",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJSPPP4Z",
+      "title": "ORZbb Mini Magnetic Tiles Road with Case Toddler Travel Toys Trip Essentials Set, Magnetic Building Blocks Toys for 3 4 5+ Year Old Boys Girls Montessori Sensory Learning Easter Birthday Gifts",
+      "category_path": "Toys & Games > Building Toys > Magnetic Building",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GK6SQHLV",
+      "title": "NOPROB 2027 Upgraded Toddler Sand Water Table Toy with Electric Water Pump, Kids Sand Water with Faucet/Play Food Accessories/Fishing Toy, Kitchen Play Sink Toys for Girl Boy Age 3+ (Blue)",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Sand & Water Tables",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GK7M7YDQ",
+      "title": "NOPROB 2027 Upgraded Toddler Sand Water Table Toy with Electric Water Pump, Kids Sand Water with Faucet/Play Food Accessories/Fishing Toy, Kitchen Play Sink Toys for Girl Boy Age 3+ (Pink)",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Sandboxes & Beach Toys > Sand & Water Tables",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GKP21J77",
+      "title": "ANYSENT Interactive Chirping Bird Cat Toy,2026 New Flying Bird Cat Toy Flapping Bird Toy,Simulation Chirping Bird Toys Interactive Cat Toys for Bored Indoor Adult Cats (A-Black)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GL29WJ3C",
+      "title": "spicssa Puppy Teething Toys to Keep Them Busy, Interactive Dog Toys for Small and Medium Breeds, for Gentle Chew and Boredom Relief, Non-Destructive Play",
+      "category_path": "Pet Supplies > Dogs > Toys > Chew Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GLG6JG2J",
+      "title": "Baby Airplane Pool Float with Handle & Squirt Gun, Baby Swim Float Swimming Pool Float Kids Toddler Floaties Toddler Pool Float Age 1-4 Boys Girls Inflatable Ride-ons Pool Beach Toys",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Pools & Water Toys > Baby Floats",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GLM9N6YW",
+      "title": "KNMDU Frog Ball Drop Toy for Kids, 5 Layer Roll Swirling Ball Tower with 12 Balls, Spin and Learn Shoot Balls Drop Montessori Toy, Gifts for Toddler Boys Girls 2 3 4 5 6 7 8+ Years Old",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Hammering & Pounding Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GLN5S5NB",
+      "title": "KNMDU Frog Ball Drop Toy for Kids, 5 Layer Roll Swirling Ball Tower with 12 Balls, Spin and Learn Shoot Balls Drop Montessori Toy, Gifts for Toddler Boys Girls 2 3 4 5 6 7 8+ Years Old",
+      "category_path": "Toys & Games > Baby & Toddler Toys > Early Development & Activity Toys > Hammering & Pounding Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GLP3L82N",
+      "title": "Pet Lori Linen SafariCompanions Dog Toys, Sturdy Linen Fabric, Indestructible Stuffed Toy for Small Medium Dogs (Monkey)",
+      "category_path": "Pet Supplies > Dogs > Toys > Plush Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GLPCJLNY",
+      "title": "Smart Interactive Dog Toy, Pet Ball Toys Automatic Moving Bouncing and Rotating, Solid E-TPU Material, IPX7 Waterproof Active Rolling Balls for Medium and Large Dogs(Vorange)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GMCD5RQ6",
+      "title": "Nynicorny Stuffed Animal Storage Zoo Tower, Wooden Toy Organizer with Wheels, 56inch Large Cute Stuffy Holder & Plushie Storage Bag, Premium Wooden Material For Toddler Rooms, Playrooms & Bedrooms",
+      "category_path": "Baby Products > Nursery > Furniture > Storage & Organization > Toy Chests & Organizers",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GMPCG7ZW",
+      "title": "2 Pack Electric Water Gun for Adults Kids, Automatic Water Gun With Sound & Lights, Long Range Watergun Toy(26-33ft), Squirt Water Gun Blaster Summer Outdoor Pool Beach Water Toys Gifts For Boys Girls",
+      "category_path": "Toys & Games > Sports & Outdoor Play > Pools & Water Toys > Squirt Guns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GMWYQ5S1",
+      "title": "Sucking Vibrator Rose Sex Toy - Adult Sex Toys Removable Cup with Licking Sucking Vibrating Women Sex Toys Sex Novelties",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Vibrators > Clitoral",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GNHF8TZY",
+      "title": "Metal Car Toy 1:55 Scale Diecast Mini Vehicles, Portable & Collectible Model Cars for Kids 3 for Boys and Girls (3PCS Tractors)",
+      "category_path": "Toys & Games > Dolls & Accessories > Doll Accessories > Vehicles > Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GNHLDB3X",
+      "title": "Metal Car Toy 1:55 Scale Diecast Mini Vehicles, Portable & Collectible Model Cars for Kids 3 for Boys and Girls (4PCS)",
+      "category_path": "Toys & Games > Vehicles > Cars & Race Cars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPQJD4YH",
+      "title": "Sex Doll Male Masturbator with Realistic Boobs Vagina and Anal, Sex Toys Torso Masturbator Love Doll Pocket Pussy with Built-in Spine 7.71lb Pussy Ass Male Sex Toy for Men Masturbation",
+      "category_path": "Health & Household > Sexual Wellness > Adult Toys & Games > Sex Toys > Sex Dolls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPW2SH5Z",
+      "title": "Dog Toys for Aggressive Chewers, 2026 New Indestructible Plush Dog Toy, Interactive Squeaky Soft Puppy Chew Toy, Stuffed Animal Dog Toys for Small Medium Large Dogs (Brown)",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQ2Q32CK",
+      "title": "Léwind Dog Squeaky Toys, Dog Chew Toys, Monkey Dog Toy and Banana Dog Toy Set, Plush Interactive Puppy Toys with Built in Squeaker, Rope Core and Cotton Filling for Small Medium Large Dogs, 2 Pack",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQ3MQGST",
+      "title": "3Pcs Ice Cubes Stress Balls, Ice Cubes Marine Shells Squishies Toy, Soft Slow Rise Squishy Stress Relief Sensory Toy, Squeeze Ball Hand Toys, Stretchy Fidgets Toys (3Pcs)",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Squeeze Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQGFL6V5",
+      "title": "TVM Interactive Dog Toys Ball, Automatic Moving, Bouncing Chew Toys, E-TPU Material, Suitable for Large and Medium-Sized Dogs, Used for Boredom Relief and Daily Training (Blue)",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQT2FFYV",
+      "title": "Leiteea Interactive Dog Toys, 2026 Upgrade Active Moving Pet Plush Toy, Jumping Moving Dog Squeaky Chew Ball Toy for Puppy Small Medium Large Dogs to Keep Them Busy (Blue Pig)",
+      "category_path": "Pet Supplies > Dogs > Toys > Squeak Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQXVZS2Q",
+      "title": "Dumpling Squishy Box Glitter, Cute Squishy Dumpling Toy with Steamer, Soft Slow Rebound Dumpling Stress Ball Sensory Fidget Toy for Kids & Adults, Easter Basket Stuffers",
+      "category_path": "Beauty & Personal Care > Makeup > Body > Body Glitter",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GR8Y29R1",
+      "title": "OAVII Articulated Alligator Snapping Turtle, 3D Printed Turtle Model, Unique Desktop Figurines Ornament, Interesting Fidget Gifts for Autism/ADHD, Home Office Decor, Movable Joint Animals Statue",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Animals",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GR94WRS7",
+      "title": "OAVII Articulated Alligator Snapping Turtle, 3D Printed Turtle Model, Unique Desktop Figurines Ornament, Interesting Fidget Gifts for Autism/ADHD, Home Office Decor, Movable Joint Animals Statue",
+      "category_path": "Toys & Games > Toy Figures & Playsets > Animals",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GRG79WW9",
+      "title": "Joyshe 22-Piece Newborn Boy Clothes Set, 100% Cotton Baby Boy Gift Set, Layette Essentials, Soft Breathable, (Buttery Yellow-D, 0-3M)",
+      "category_path": "Clothing, Shoes & Jewelry > Baby > Baby Boys > Clothing > Layette Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GRMSDQH9",
+      "title": "Ptnerbeh Walkie Talkies for Kids Toys: Toys for 3-12 Year Old Boys Girls - 22 Channels 2 Way Radio Toy with Backlit LCD Flashlight - 3 Miles Range for Outside/Camping/Hiking (2-Pack) Blue",
+      "category_path": "Toys & Games > Kids' Electronics > Walkie Talkies",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GS7XL3LR",
+      "title": "Upgraded Toys for Adults, [1003Pcs] Sh-col Balls Putty, Adults Beads with Magnetics Toy Stress Reliever Puddy for Christmas Birthday Gifts Stocking Stuffers 18+",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GS8P4PBS",
+      "title": "Moiegouct Pink Dumpling Squishies with Box,New Mystery Squishys Dumplings Stress Relief Balls Fidget Sensory Toy,Bao Bun with Food Steamer Stretchy Desk Squeeze Toys",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Executive Desk Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GTGYZ2Y6",
+      "title": "2 Pcs Dumpling Squishy, Mystery Squishy Dumpling Box, Fidget Toys Adults & Teens, Stocking Stuffers, Sensory Stress Ball Squeeze Toys for Stress Relief (greenpurple)",
+      "category_path": "Toys & Games > Novelty & Gag Toys > Squeeze Toys",
+      "found_by": [
+        "embedding"
+      ]
+    }
+  ]
+}

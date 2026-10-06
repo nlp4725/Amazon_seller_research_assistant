@@ -1,0 +1,2714 @@
+{
+  "query": "essential oil diffuser",
+  "definition": {
+    "definition": "A device that disperses essential oils into the air.",
+    "include": [
+      "ultrasonic and nebulizing diffusers",
+      "diffuser-humidifier combos",
+      "car and USB diffusers"
+    ],
+    "exclude": [
+      "oils alone",
+      "reed diffusers",
+      "candles",
+      "replacement parts"
+    ],
+    "decide": [
+      "Reed diffusers (sticks in oil) do not count -- not a device. Default: excluded"
+    ],
+    "keywords": [
+      "diffuser|nebuliz",
+      "oil|aroma|essential|scent"
+    ]
+  },
+  "sizes": {
+    "keyword": 88,
+    "embedding": 300,
+    "systems": 61
+  },
+  "pool_size": 319,
+  "candidates": [
+    {
+      "asin": "B0CSJJYRJF",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BOIS MAROCAIN for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJK1D3W",
+      "title": "HYWD Enterprises Cologne Oil Comparable to HIGHER ENERGY for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJK2264",
+      "title": "HYWD Enterprises Cologne Oil Comparable to J..P ROCOCO for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJMDVHD",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MUSK for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJMYSH8",
+      "title": "HYWD Enterprises Cologne Oil Comparable to AMBER ESSENCE (Fer...ari) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJP6D9P",
+      "title": "HYWD Enterprises Cologne Oil Comparable to RIVIERA for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJPH3ZB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to VETIVER GUERL...AIN for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJRFMBC",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BALDESSARINI DEL MAR for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJRJB35",
+      "title": "HYWD Enterprises Cologne Oil Comparable to THE ESSENCE (Porsch Design) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJRLTMG",
+      "title": "HYWD Enterprises Cologne Oil Comparable to HAITIAN VETIVER for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJRML4V",
+      "title": "HYWD Enterprises Cologne Oil Comparable to DONALD TR..MP for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJRP36R",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARAMIS VOYAGER for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJS35PB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to FOR MEN (M. Kors) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJV1GHM",
+      "title": "HYWD Enterprises Cologne Oil Comparable to THE ONE GREY for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJVHJYZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LUN..A ROS..SA EXTREME for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJVXXH2",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MODERN (Ban. Repub.) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJVXXH7",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EROS EAU DE PARFUM (2020) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJW1BSS",
+      "title": "HYWD Enterprises Cologne Oil Comparable to DIYOOR HOMME SPORT (2021) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJWLQ6K",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL (Ralph L.) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJX1QCQ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL WATER INTO THE OCEAN for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJX56G3",
+      "title": "HYWD Enterprises Cologne Oil Comparable to GREY FLANNEL for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJXQR2M",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LAC..STE ESSENTIAL for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJY7LT4",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SPIRITED (Perr. Ell.) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJYNTXZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to INTENSO POUR HOMME for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJYPKPF",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ENERGIZE for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSJZ7QZQ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LUN..A ROS..SA SPORT for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK29BWY",
+      "title": "HYWD Enterprises Cologne Oil Comparable to OBSESSION for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK2BW5Q",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BAD (Di..esl) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK39HGV",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL WATER for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK3LGF2",
+      "title": "HYWD Enterprises Cologne Oil Comparable to WON MILLIONS ELIXIR for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK5264M",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EXTREME NIGHT (M. Kors) for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK58J7Y",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ESSENCE MUSK for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK5DLPW",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARAMIS COOL for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK5H9B8",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ACQUA ESSENZIALE for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK6MDFP",
+      "title": "HYWD Enterprises Cologne Oil Comparable to FUEL FOR LIFE for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK83L2G",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARAMIS 900 for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK86P67",
+      "title": "HYWD Enterprises Cologne Oil Comparable to GREY VETIVER for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK884J6",
+      "title": "HYWD Enterprises Cologne Oil Comparable to REACTION CONNECTED for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSK8CZNN",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ENERGIZE for Men, Fragrance Rendition, Eau de Parfum, 1 oz. (30ml) Glass Dab-on (SCENTS A - E)",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSKBHYRB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ETERNO for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CTKZ5H55",
+      "title": "Home and Body Company Botanical + Herbal Hand Soap 22FL/605ml Infused with Essential Oils, Made in a Amber GLASS BOTTLE (Lavender Chamomile)",
+      "category_path": "Beauty & Personal Care > Skin Care > Body > Cleansers > Hand Wash",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CTWPKJBQ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL WATER RUN WILD for Men, Fragrance Inspired Impression, Eau de Parfum, 1 oz. (30ml) Tall Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CVL1MHGL",
+      "title": "Levona Scent Essential Oil - Fresh Aroma for Home, Office, Hotel & Spa, Perfect in Humidifiers and Diffusers, Luxury Fragrance, with Citrus, Rosewood, Amber Notes - 500ml/ 17 fl oz, La Mamounia Dup",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CVL3DJX3",
+      "title": "Levona Scent Essential Oil - Fresh Aroma for Home, Office, Hotel & Spa, Perfect in Humidifiers and Diffusers, Luxury Fragrance, with Sandalwood, Amber, Winter Fir Notes - 500ml/ 17 fl oz, Holiday Fir",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D14KNTRZ",
+      "title": "Ciandid Checkered Decorative Tray, Checkerboard Jewelry Tray Dresser Tray for Makeup Perfume Organizer, Aromatherapy Reed Diffuser Tray Vanity Tray for Bathroom(White)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Trays",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D14NZPBY",
+      "title": "Ciandid Checkered Decorative Tray, Retro Jewelry Tray Dresser Tray for Makeup Perfume Organizer, Aromatherapy Reed Diffuser Tray Vanity Tray for Bathroom(Black)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Trays",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D1TK1CQK",
+      "title": "HYWD Enterprises Perfume Oil Compatible to NEROLI SUPERIOR SUNSET for Men and Women, Unisex Fragrance Rendition, Eau de Parfum, 1/3 oz. (10ml) Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3B46HK7",
+      "title": "Runyangshi Runyansghi Citrine Clear Quartz Night Lamp Natural Healing Crystal Aroma Stone Diffuser with Remote Control Bedside Lamp USB Port 7 Colours Dimming Mode Bedroom Lamp Home Decor Gift",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Wall Lights > Night Lights",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D47CDQTG",
+      "title": "BBTO 100 Pcs Car Air Fresheners Diffuser with Wooden Cap Empty Aromatherapy Diffuser Clear Car Fragrance Holder Pendant Hanging Perfume Fresheners Bottles for Decor(Star,Clear)",
+      "category_path": "Automotive > Interior Accessories > Aroma Diffusers",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D4HRN51B",
+      "title": "Urthy Car Diffusers, and Car Fragrance Ornament, Mini Diffuser for Cars, Glass Perfume Bottle Fresheners, Air Freshener Diffuser Bottle Pendants (Hinoki Woods)",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D7MSHL8H",
+      "title": "Herban Essentials - Dog Grooming Wipes for Dogs, Essential Oil Pet Wet Wipes for Cleaning, Deodorizing & Allergy Defense, Natural Hand Wipe, Moist Towelettes Individually Wrapped Body Wipes, 20 Count",
+      "category_path": "Pet Supplies > Dogs > Grooming > Grooming Wipes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9SJXYW8",
+      "title": "SPLITSKY 150ML Rechargeable Battery Powered Essential Oil Diffuser, 7-Hour Run time, 7-Color LED Lights, Cordless Portable Aromatherapy Diffuser for Home, Office, Travel (Black)",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DCK4246J",
+      "title": "MORENTO Smart Humidifiers for Bedroom Large Room Home, 6L Cool Mist Top Fill Humidifier with Essential Oil Diffuser, Smart App & Voice Control, for Nursery & Plants, Black, 1 Pack + 7 Color NightLight",
+      "category_path": "Home & Kitchen > Heating, Cooling & Air Quality > Humidifiers",
+      "found_by": [
+        "keyword",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DDSMY1SK",
+      "title": "SenseFlow Home Scent Refill for Space Fragrance Diffuser SF101/SF101S, Up to 120 Days of Premium Fragrance per Refill, Household Essential 1 Pack, Clary Sage",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Home Fragrance Accessories",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGJ5HV55",
+      "title": "Serene House Ultrasonic Light House Aromatherapy Essential Oil Cool Mist Diffuser – Optional Warm White, Calming Ambient Light Display, Automatic Shut-Off, Unbreakable Cover – Light Wood, 100ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DH2H177F",
+      "title": "HYWD Enterprises Perfume Oil Compatible to GUILTY ELIXIR for Women, Inspired Fragrance Rendition, Eau de Parfum, Scented Oil, 1/3 oz. (10ml) Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHP6TRTJ",
+      "title": "SEEDSEEL 150ML Rechargeable Battery Operated Essential Oil Diffuser, Portable Cordless Aromatherapy Diffuser,7-Hour Runtime with 7 LED Color Changing Lights",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DJFSLJ4M",
+      "title": "The Magic Scent Pumpkin Spice Aroma Oil - Diffuser Oil Scent - Cold-Air & Ultrasonic Diffuser - Pumpkin Essential Aromatherapy - 8.5 fl oz, 250 mL",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DK5Y6983",
+      "title": "Levona Scent Essential Oils - Scents for Home, Hotel & Office Use - Perfect for Home Diffuser & Humidifiers - Aroma Fragrance Oil, Ideal for Massage, Relaxation, and Spa - Blue Tranquility, 120ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DK62JPD6",
+      "title": "Levona Scent Essential Oils - Scents for Home, Hotel & Office Use - Perfect for Home Diffuser & Humidifiers - Aroma Fragrance Oil, Ideal for Massage, Relaxation, and Spa - Hawaiian Sunset, 120ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DKG89GWX",
+      "title": "Levona Scent Essential Oils - Scents for Home, Hotel & Office Use - Perfect for Home Diffuser & Humidifiers - Aroma Fragrance Oil, Ideal for Massage, Relaxation, and Spa - Golden Waterfalls, 120ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DKG8R4Y1",
+      "title": "Levona Scent Essential Oils - Scents for Home, Hotel & Office Use - Perfect for Home Diffuser & Humidifiers - Aroma Fragrance Oil, Ideal for Massage, Relaxation, and Spa - Sea Water, 120ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DKGCS9TC",
+      "title": "Levona Scent Essential Oils - Scents for Home, Hotel & Office Use - Perfect for Home Diffuser & Humidifiers - Aroma Fragrance Oil, Ideal for Massage, Relaxation, and Spa - Rushing Rapids, 120ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DKGD1P2J",
+      "title": "Levona Scent Essential Oils - Scents for Home, Hotel & Office Use - Perfect for Home Diffuser & Humidifiers - Aroma Fragrance Oil, Ideal for Massage, Relaxation, and Spa - Born to Fly, 120ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DKK3JY5C",
+      "title": "Levona Scent Essential Oils - Scents for Home, Hotel & Office Use - Perfect for Home Diffuser & Humidifiers - Aroma Fragrance Oil, Ideal for Massage, Relaxation, and Spa - Sapphire Moonlight, 120ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DL4BFK43",
+      "title": "Waterless Essential Oil Diffuser with 120ML Pure Plant Essential Oil, 100ML Large Capacity Battery Operated Cordless Aromatherapy Diffuser with Timing & 3 Mist Levels car Diffuser 7 Colour Led Lights",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLFB8SFN",
+      "title": "Waterless Essential Oil Diffuser for Home Aromatherapy Scent Diffusers with 3 Countdown Timer Settings or Timer-Off, 3 Mist Levels for Car Room Studio Office, ANX Premium Metal Black 2 Pack",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLFKRKLS",
+      "title": "Airversa Waterless Essential Oil Diffuser for Home Aromatherapy Scent Diffusers with 3 Countdown Timer Settings or Timer-Off, 3 Mist Levels for Car Room Studio Office, ANX Premium Metal Spce Grey",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLFMPLH5",
+      "title": "Airversa Waterless Essential Oil Diffuser for Home Aromatherapy Scent Diffusers with 3 Countdown Timer Settings or Timer-Off, 3 Mist Levels for Car Room Studio Office, ANX Premium Metal Ice Blue",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLFYKYK3",
+      "title": "Airversa Waterless Essential Oil Diffuser for Home Aromatherapy Scent Diffusers with 3 Countdown Timer Settings or Timer-Off, 3 Mist Levels for Car Room Studio Office, ANX Premium Metal Black",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DLGH1TZL",
+      "title": "Airversa Waterless Essential Oil Diffuser for Home Aromatherapy Scent Diffusers with 3 Countdown Timer Settings or Timer-Off, 3 Mist Levels for Car Room Studio Office, ANX Premium Metal Silver",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DP4RDNQX",
+      "title": "M&SENSE Reed Diffuser Set, Ginger Ylang Ylang Scented 6.3 fl oz Natural Essential Oil Diffusers with Sticks, Non-Toxic Organic Air Freshener, Long-Lasting Fragrance Oils for Home Bathroom Study Office",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQTS1Y2V",
+      "title": "Butterfly Air Outlet Decoration, Car Aromatherapy Diffuser, Perfume Stone Car Interior Decor for Gift (Pink-2pcs butterflies)",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DS1TYS4D",
+      "title": "Dynamic Jellyfish Diffuser, 250ML Cool Mist Humidifier with 7 Color-Changing Lights, Smoke Ring Effect, Remote Control and 4/8H Timer Setting for Home Bedroom Office Yoga,Auto Shut-Off",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DVP63FRZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to GOOD LIFE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVP8HW1X",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LAC..STE ESSENTIAL for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVP9GSF4",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SARTORIAL for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVP9Y4SH",
+      "title": "HYWD Enterprises Cologne Oil Comparable to INFUSION DE VETIVER for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPB4MZQ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to FOR MEN (M. Kors) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPB5NR1",
+      "title": "HYWD Enterprises Cologne Oil Comparable to L'EAU D'IZZEE INTENSE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPB94DZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to POLICE ICON for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPCF2SG",
+      "title": "HYWD Enterprises Cologne Oil Comparable to DRIFTER for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPCFD6Z",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EAU DE ROCHAS for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPCH1MR",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ENCOUNTER for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPCM793",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ENERGIZE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPCRH9D",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BULG RI EXTREME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPCVHYV",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EROS (2012) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPCXSRC",
+      "title": "HYWD Enterprises Cologne Oil Comparable to GREY VETIVER for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPCZ6RJ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to KOUROS EAU D'ETE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPD2426",
+      "title": "HYWD Enterprises Cologne Oil Comparable to L'HOMME ULTIME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPD2WDL",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CHAMPION ENERGY for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPD2YCT",
+      "title": "HYWD Enterprises Cologne Oil Comparable to M. KORS for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPD3NKB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BOIS DU PORTUGAL for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPD5Y97",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL WATER INTO THE OCEAN for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPD8V99",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MARITIME JOURNEY for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPDBJ4B",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EAU D'ORANGE VERTE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPDBTTD",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PI AIR for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPF7WXK",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EXTREME NIGHT (M. Kors) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPF7WXL",
+      "title": "HYWD Enterprises Cologne Oil Comparable to AQUA DEE GEEO PROFONDO for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPFB61B",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ILLUSIONE FOR HIM for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPFD477",
+      "title": "HYWD Enterprises Cologne Oil Comparable to AXE ESSENCE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPFMH6D",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL WATER DEEP for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPFMH6G",
+      "title": "HYWD Enterprises Cologne Oil Comparable to DARK REBEL for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPFN3QQ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to FUEL FOR LIFE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPFPDJH",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ALFRED SU…NNG for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPG2Z5C",
+      "title": "HYWD Enterprises Cologne Oil Comparable to KOKORICO for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPG3ZDG",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ACTIVE NIGHTCLUB INTENSE for Men, Fragrance Rendition, Scented, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPG62YP",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CHEMISTRY for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGBHZG",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MINOTAURE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGDQH6",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LAC..STE ESSENTIAL SPORT for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGJJGX",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EGOISTE PLATINUM for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGJV48",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ATMAN (B. Phat) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGLK86",
+      "title": "HYWD Enterprises Cologne Oil Comparable to FREEDOM (T. Hilf.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGPGNB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ESCAPE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGQ38P",
+      "title": "HYWD Enterprises Cologne Oil Comparable to GENTLEMAN SOCIETY for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGQRX7",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARTISAN ACQUA (John Varv.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGQV1F",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SUCCESS (Donald Tr..p) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGRFDR",
+      "title": "HYWD Enterprises Cologne Oil Comparable to AQUA MARINE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGVVPR",
+      "title": "HYWD Enterprises Cologne Oil Comparable to INTUITION for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGXXQZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to POWER (50 Cent) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPGXXR1",
+      "title": "HYWD Enterprises Cologne Oil Comparable to IMPERIALE (Guerl.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPHCWFJ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to HERR..ERA for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPHL616",
+      "title": "HYWD Enterprises Cologne Oil Comparable to L!VE (Lac..ste) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPHPTVJ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARAMIS BLACK for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPHR44Q",
+      "title": "HYWD Enterprises Cologne Oil Comparable to GREY FLANNEL for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPHS3H6",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CANALI for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPHSDQ8",
+      "title": "HYWD Enterprises Cologne Oil Comparable to GENTLEMAN EAU DE PARFUM BOISEE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJ9KF2",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BULG RI MAN WOOD ESSENCE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJFX86",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SPARK for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJH423",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PHOTO for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJJMWZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SKIN MUSK (Prince Match..li) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJK8P7",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ORIGINAL VETIVER (2004) (Cre..ed) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJK8P8",
+      "title": "HYWD Enterprises Cologne Oil Comparable to URBAN HERO for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJK94P",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MANKIND ULTIMATE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJKBQX",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SCULPTURE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPJMSLW",
+      "title": "HYWD Enterprises Cologne Oil Comparable to VILLAIN for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPK2NYX",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ETERNO for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPK3MYB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARAMIS LIFE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPK5CGL",
+      "title": "HYWD Enterprises Cologne Oil Comparable to HUGO MAN EXTREME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKF82C",
+      "title": "HYWD Enterprises Cologne Oil Comparable to AQUA DEE GEEO PROFUMO for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKFNHG",
+      "title": "HYWD Enterprises Cologne Oil Comparable to TIGER (Ed. Hard.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKGHFH",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ANTIDOTE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKSQZJ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to OBSESSION NIGHT for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKSRM1",
+      "title": "HYWD Enterprises Cologne Oil Comparable to REACTION CONNECTED for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKTQ6J",
+      "title": "HYWD Enterprises Cologne Oil Comparable to VOYAGER (Ar..mis) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKWCYS",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LEGEND SPIRIT for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKWGM6",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BOSS SELECTION for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPKZW57",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PI for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPL3PHL",
+      "title": "HYWD Enterprises Cologne Oil Comparable to 360 (Per. Ell.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPL64PD",
+      "title": "HYWD Enterprises Cologne Oil Comparable to INTENSO POUR HOMME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPL82QS",
+      "title": "HYWD Enterprises Cologne Oil Comparable to WANTED for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPL853G",
+      "title": "HYWD Enterprises Perfume Oil Comparable to FLEUR D'INTERDIT for women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPL8YCV",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARTISAN (John Varv.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPL91C5",
+      "title": "HYWD Enterprises Cologne Oil Comparable to OBSESSION for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLBNKT",
+      "title": "HYWD Enterprises Cologne Oil Comparable to THE ONE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLJ8L4",
+      "title": "HYWD Enterprises Cologne Oil Comparable to DARK OBSESSION for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLM8PV",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CONNECTED (K. Cole) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLMVB9",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PHANTOM LEGION for Men, Fragrance Rendition, Scented, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLQR15",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LEGEND EAU DE PARFUM (M. Blanc) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLWBHK",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CAMBRIDGE KNIGHT for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLWNSH",
+      "title": "HYWD Enterprises Cologne Oil Comparable to AMBER ESSENCE (Fer...ari) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLWNSL",
+      "title": "HYWD Enterprises Cologne Oil Comparable to WON MILLIONS ELIXIR for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPLZZP9",
+      "title": "HYWD Enterprises Cologne Oil Comparable to INTIMATELY (David Beck.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPM131Y",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ROYAL WATER for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPM4T51",
+      "title": "HYWD Enterprises Cologne Oil Comparable to WOOD ESSENCE (Bulg.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPM681H",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL WATER RUN WILD for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPM81XB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CHROME EXTREME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPM8G9F",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BOSS IN MOTION for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPM8J8H",
+      "title": "HYWD Enterprises Cologne Oil Comparable to J. P. G. ULTRA MALE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPM9W7C",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PLEASURES for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMBH7T",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MANKIND LEGACY for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMF9GC",
+      "title": "HYWD Enterprises Cologne Oil Comparable to INDIVIDUEL (M. Blanc) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMH2RQ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL WATER INTENSE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMHGP6",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EXPLORER ULTRA BLUE (M. Blanc) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMK19F",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BOIS MAROCAIN for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMMW8F",
+      "title": "HYWD Enterprises Cologne Oil Compatible to SUPERIOR SUNSET ELIXIR for Men, Designer Inspired, Our Version, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMN7KQ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EUPHORIA for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMTLC9",
+      "title": "HYWD Enterprises Cologne Oil Comparable to THE ESSENCE (Porsch Design) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPMZMYD",
+      "title": "HYWD Enterprises Cologne Oil Comparable to REACTION for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPN356L",
+      "title": "HYWD Enterprises Cologne Oil Comparable to THE MOST WANTED for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPN58B9",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MODERN (Ban. Repub.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPN96ZR",
+      "title": "HYWD Enterprises Cologne Oil Comparable to L'HUMANISTE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPN9TXM",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EROLFA for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPNC5WB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to TRUE STAR for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPNC6JG",
+      "title": "HYWD Enterprises Cologne Oil Comparable to P. HILT. for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPNJG3M",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SILVER ESSENCE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPNKTC6",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CHAPS for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPNM68K",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ACQUA D. PARM. COLON..IA OUD for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPP1HFS",
+      "title": "HYWD Enterprises Cologne Oil Comparable to UNFORGIVABLE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPP2FBJ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LOVE IS (Ed. Hard.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPP2R3X",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PI EXTREME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPP3YX5",
+      "title": "HYWD Enterprises Cologne Oil Comparable to UNFORGIVABLE MULTI PLATINUM for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPP9LSJ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to VETIVER FROZEN (Guerl.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPPB2PH",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BOSS PURE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPPC1FN",
+      "title": "HYWD Enterprises Cologne Oil Comparable to L'EAU D'IZZEE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPPCFN3",
+      "title": "HYWD Enterprises Cologne Oil Comparable to KOUROS SILVER for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPPGYQV",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PORTFOLIO for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPPH9X2",
+      "title": "HYWD Enterprises Perfume Oil Comparable to FLOR DEL SOL for women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPPZRHX",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ESENCIA POUR HOMME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQ3MCX",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SPIRIT OF THE BRAVE (Dies..l) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQ83QZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to VERY IRRESISTIBLE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQHKX7",
+      "title": "HYWD Enterprises Cologne Oil Comparable to HOL..STR WAIVE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQJ9X8",
+      "title": "HYWD Enterprises Perfume Oil Comparable to ALIEN FLORA FUTURA for women, Fragrance Rendition, Eau de Parfum, Scented Oil, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQK76R",
+      "title": "HYWD Enterprises Cologne Oil Comparable to APEX EAU DE PARFUM for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQL94S",
+      "title": "HYWD Enterprises Cologne Oil Comparable to WANTED BY NIGHT for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQLTXS",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BULG RI MAN TERRAE ESSENCE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQMJ9M",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ELYSIUM POUR HOMME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQMYDM",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MY EXTREME for Men, Inspired Fragrance Rendition, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQMYDP",
+      "title": "HYWD Enterprises Cologne Oil Comparable to WINDSOR for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPQR1B8",
+      "title": "HYWD Enterprises Cologne Oil Comparable to DRIVEN for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPR1X26",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SPIRIT (Anton. Band.) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPRBRV1",
+      "title": "HYWD Enterprises Cologne Oil Comparable to L'EAU D'IZZEE SUMMER for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPRCTRS",
+      "title": "HYWD Enterprises Cologne Oil Comparable to NIGHT ACCESS for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPRGGTY",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EAU SUPERIOR SUNSET for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPRKF72",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BEAU DE JOUR for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPRM89L",
+      "title": "HYWD Enterprises Cologne Oil Comparable to AZZAARRO ELIXIR for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPRMLK6",
+      "title": "HYWD Enterprises Cologne Oil Comparable to AQUA MARINE TONIQ for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPRN4LG",
+      "title": "HYWD Enterprises Cologne Oil Comparable to MUSK for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPSMGFZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to DEFY for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPSR3SR",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PURE VETIVER (Azz..ro) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPST7V5",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CAROLINA HERR. CH for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPSW445",
+      "title": "HYWD Enterprises Cologne Oil Comparable to VETIVER GUERL...AIN for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPSZT19",
+      "title": "HYWD Enterprises Cologne Oil Comparable to DONALD TR..MP for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPT2DG7",
+      "title": "HYWD Enterprises Cologne Oil Comparable to CHROME AQUA for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPT2GG4",
+      "title": "HYWD Enterprises Cologne Oil Comparable to PI NEO for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPT2GG5",
+      "title": "HYWD Enterprises Cologne Oil Comparable to SPICEBOMB EXTREME for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPT5ZRZ",
+      "title": "HYWD Enterprises Cologne Oil Comparable to LAC..STE ENERGIZED EDITION for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPVHF8Q",
+      "title": "HYWD Enterprises Perfume Oil Comparable to AROMATICS ELIXER for women, Fragrance Rendition, Eau de Parfum, Scented Oil, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Tools & Accessories > Refillable Containers > Roller Bottles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPVKJVG",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARAMIS for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPVLWKD",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ETERNITY INTENSE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPX3W9X",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EMPIRE (Donald Tr..mp) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPX4792",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ARAMIS VOYAGER for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPYTJHD",
+      "title": "HYWD Enterprises Cologne Oil Comparable to EMPORIO DIAMONDS for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVPZR9JL",
+      "title": "HYWD Enterprises Cologne Oil Comparable to T. T. for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQ2DWX4",
+      "title": "HYWD Enterprises Cologne Oil Comparable to ACQUA ESSENZIALE for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQ2GRK9",
+      "title": "HYWD Enterprises Cologne Oil Comparable to BAD (Di..esl) for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQ2KY6V",
+      "title": "HYWD Enterprises Cologne Oil Comparable to JULES for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQKMVMS",
+      "title": "HYWD Enterprises Perfume Oil Comparable to KEN. COL.LE WHITE for Women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQL3Y4B",
+      "title": "HYWD Enterprises Perfume Oil Comparable to LAVENDER EXTREME for Men and Women, Unisex Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQLLWKB",
+      "title": "HYWD Enterprises Cologne Oil Comparable to GUILTY ELIXIR for Men, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Cologne",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQLVCQR",
+      "title": "HYWD Enterprises Perfume Oil Comparable to MUSK PURE for women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Tools & Accessories > Refillable Containers > Roller Bottles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQM5LM5",
+      "title": "HYWD Enterprises Perfume Oil Comparable to SILVER BIRCH & LAVENDER for Men and Women, Unisex Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQMDCQW",
+      "title": "HYWD Enterprises Perfume Oil Comparable to LAILA for Women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQMPBV2",
+      "title": "HYWD Enterprises Perfume Oil Comparable to PHARR..L WILL..AMS GIRL for women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQMR14D",
+      "title": "HYWD Enterprises Perfume Oil Comparable to M. KORS WHITE for women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQMVJ8Q",
+      "title": "HYWD Enterprises Perfume Oil Comparable to L'EXTASE for Women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQN2XD4",
+      "title": "HYWD Enterprises Perfume Oil Comparable to ANGEL ELIXER for women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DVQN4PS1",
+      "title": "HYWD Enterprises Perfume Oil Comparable to IRIS & WHITE MUSK for Women, Fragrance Rendition, Eau de Parfum, Large 4 oz. (120ml) with 2 Empty Roll-ons",
+      "category_path": "Beauty & Personal Care > Fragrance > Women's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXPBPXK7",
+      "title": "Smart Car Air Fresheners, Ambient Light & Mist Fragrance, Auto On/Off Car Air Freshener Diffuser, Adjustable Intensity, Premium Scents Refill, Lasts 1000 Times, Built-in Battery, Fanaticism",
+      "category_path": "Automotive > Interior Accessories > Air Fresheners",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0DZM8JFTM",
+      "title": "KONCHILE Waterless Essential Oil Diffuser, Battery Powered Mini Scent Air Machine, Aromatherapy Mist Diffuser for Home Room Car Office (Black-PP)",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F1F66T8G",
+      "title": "Hotel Diffuser Oil, Inspired by 5 Star Hotel - Lemon, Floral, Musk - Natural Scented Aromatherapy Essential Oil for Waterless & Cold Air Diffusers, Long-Lasting Aroma for Home, Spa - 16.9Fl Oz",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F21XS7VQ",
+      "title": "Waterless Essential Oil Diffuser Battery Operated Cordless Aromatherapy Diffuser with Timing & 3 Mist Levels car Diffuser，Black Aluminum Alloy (E10-2A)",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F31GGWBT",
+      "title": "Levona Scent Essential Oil - Fresh Aroma for Home, Office, Hotel & Spa, Ideal for Humidifiers & Diffusers, Hotel Fragrance with Bergamot, Lemon & Lemongrass - 120ml / 4 fl oz, 24K Allure",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F38VWNVM",
+      "title": "Aromify Diffuser Oil Inspired by Baccarat Rouge, 16.9 FL Oz, 500 mL, Luxury Hotel Scent for Home, Bathroom, Spa & Office, Essential Oil Blend for Jasmine, Aromatherapy, Amberwood & Cedar",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F39MQG78",
+      "title": "Car Air Freshener 10ml Perfume Oil Diffuser Inspired Fragrances with Odour Eliminator Technology 90 days Long Lasting,Original BOTTLE NOT INCLUDED It is only a reference (BACCARAT 540 EXTRAIT)",
+      "category_path": "Automotive > Interior Accessories > Air Fresheners",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F43R5TFW",
+      "title": "The Magic Scent Carribean Mist Diffuser Oil - Hotel & Home Luxury Scents - Diffuser Oil Scents for Home Designed for Use in All Diffusers - 4 fl oz, 120 mL",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Blends",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F62XBLY4",
+      "title": "Essential Oil Diffuser Waterless Scent Aromatherapy Diffusers for Home Large Room, Bedroom, Car, Office,Desk, Battery Operated, Small Cordless Air Freshener Machine, 3 Countdown Timers & 3 Mist Levels",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F6316FT9",
+      "title": "Waterless Essential Oil Diffuser Aromatherapy Scent Diffusers for Home Large Room, Bedroom, Car, Office, Desk, Battery Operated Mini Portable Air Freshener, 3 Countdown Timers & 3 Mist Levels",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F66HBJTK",
+      "title": "The Magic Scent Ginger Mint Grove Diffuser Oil - Hotel & Home Luxury Scents - Diffuser Oil Scents for Home Designed for Use in All Diffusers - 4 fl oz, 120 mL",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Blends",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F66ZWMVY",
+      "title": "Scent Diffuser Waterless Essential Oil Diffusers with 3 Mist Modes,Cycle Start,Cordless Aroma Air Machine for 200 sq.ft Home/Office/Bedroom,Ultra Quiet,Includes 10ml Oil,Black",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCDJDWRB",
+      "title": "300ML Cartoon Modeling Ship Aroma Essential Oil Diffuser & Cool Mist Dual-Hole Boat Humidifier with 7-Color LED Night Lights | Ultrasonic Quiet | Auto Shut-Off | Home Office Nursery Decor Gift",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FCF6DWFQ",
+      "title": "Waterless Essential Oil Diffuser,Portable Scent Diffuser with Battery Operated,3 Mist Modes,Fast Charging,Mini Aromatherapy Diffusers for Home,Bedroom,Office,Includes 10ml Essential Oil,White",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FD9FWZ95",
+      "title": "MATRÚM Metal Essential Oil Roller, Breathe Essential Oil Support Immunity, Headache Relief, Therapeutic Grade Aromatherapy Blend With Peppermint+Frankincense+Eucalyptus+Tea Tree Oil, Mint Citrus Scent",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Blends",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FDG5ZHL9",
+      "title": "Herbal Diffuser Duo, Detox and Energy Diffuser Pens with Extract of Mullein and Natural Caffeine, 100% Natural Swap, Home & Work Duo, 600 Uses Each",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Blends",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FGXLW288",
+      "title": "Reed Diffuser Set, 6.1 oz (180 ml) My Way Woody Fragrance Diffuser with 6 Reed Sticks and Scented Diffuser Flower Long-Lasting Home Fragrance Reed Diffuser for Home Room Office Bathroom Shelf Decor",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FHDSL95Z",
+      "title": "Hotel Diffuser Oil Inspired by Marrio.tt – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Citrus, Vanilla, Cedar – Long-Lasting Aroma – Aromatherapy – 3.38 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHDZ2MFH",
+      "title": "Hotel Diffuser Oil Inspired by Intercontinental Hotel – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Jasmine, Sweet Orange, Sandal – Long-Lasting Aroma – Home, Spa – 3.38 Fl Oz",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHF3X87K",
+      "title": "Hotel Diffuser Oil Inspired by Shang-ri-La – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Lemon, Floral, Oak – Long-Lasting Aroma – Aromatherapy – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHF57HM8",
+      "title": "Hotel Diffuser Oil Inspired by Ritz-Carlton – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Bergamot, Jasmine, Marine – Long-Lasting Aroma – Aromatherapy – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHG2FBHD",
+      "title": "Hotel Diffuser Oil Inspired by Hilton Hotel – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Floral, Lemon, Cedar – Long-Lasting Aroma – Aromatherapy, Home – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJL11QVJ",
+      "title": "Waterless Essential Oil Diffuser for Home and Commercial Use, Up to 3000 sq ft, Aromatherapy Scent Diffuser for Large Rooms with Smart APP (Oils Not Included) White",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FJLQK64L",
+      "title": "Xcleen Reed Diffuser Set, Gingerbread Joy Christmas Oil Diffuser with Sticks, Home Fragrance Reed Diffuser for Bathroom Office Shelf Decor, Scented Room Fresheners, Holiday Ideal Gift 6.7 Fl.Oz",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FJLRVWZK",
+      "title": "Essential Oil Diffuser for Large Room Hotel Waterless Aroma Diffuser for Home with Bluetooth App Cold Air Aroma Therapy Mist Diffuser Covers 3000 Sq Ft 5.63oz Oils Gift Set (Ships Separately), Black",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FL2CZY1K",
+      "title": "SenseFlow SF101S Pro Smart Waterless Essential Oil Diffuser, Aromatherapy Diffuser for Home, Plug in Air Freshener, 120-Day Natural Aroma Mist, Covers 1000 Sq Ft – Free 30ml Damask Rose (Tomato Red)",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FL2D1QDX",
+      "title": "SenseFlow Essential Oil Diffuser for Home, Waterless Aromatherapy Diffuser SF101, Plug in Room Scent with 120-Day Natural Aroma, Covers 1000 Sq Ft – Free 30ml Bitter Orange Leaf",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FM2KQ5JV",
+      "title": "PUFFIAIR Herbal Diffuser Pen 600 Uses and Nasal Stick (Lavender + Nasal)",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPQQDSYY",
+      "title": "Nasal Inhaler Stick - Natural Oils Vapor Menthol Inhaler Energy & Focus Herbal Diffuser Pen - Non-Medicated Natural Eucalyptus Aromatherapy for Nasal Congestion Relief, Mixed 3-Pak",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FPVRZN88",
+      "title": "Nasal Inhaler Stick - Focus Herbal Diffuser Pen & Essential Oils Vapor Menthol Inhaler Energy - Non-Medicated Natural Eucalyptus Aromatherapy for Nasal Congestion Relief, Mint 3-Pak",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FSYSJLHP",
+      "title": "AROMA BAY 5.1 fl oz Luxury Palo Santo Reed Diffuser Set, Long-Lasting Home Fragrance, Room Fresheners for Bedroom Bathroom Home Décor(150ml)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FSZJFYC3",
+      "title": "AROMA BAY 5.7 fl oz Eucalyptus Lavender Reed Diffuser Set, Glass Bottle with Preserved Flowers, Natural Home Fragrance for Bedroom, Bathroom, Home Decor(170ml)",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FSZK25M7",
+      "title": "AROMA BAY 5.7 fl oz Pink Peony Reed Diffuser Set, Glass Bottle with Preserved Flowers, Valentine’s Gift for her, Glass Bottle with Preserved Flowers, Natural Decoration for Bedroom, Bathroom(170ml)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FSZN544Y",
+      "title": "AROMA BAY 5.7 fl oz Amethyst Sage Reed Diffuser Set, Valentine’s Gift for her, Glass Bottle with Preserved Flowers, Natural Decoration for Bedroom, Bathroom(170ml)",
+      "category_path": NaN,
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FVDTXYJ6",
+      "title": "Lavender Essential Oil Fragrance Oil for Aroma Diffuser,Humidifier,Home Fragrance,Cleaning,Body Care,Massage,Yoga,DIY Candle,DIY Soap CosmicVeil（Lavender，16 Fl Oz (Pack of 1)）",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVDV8CK1",
+      "title": "Peppermint Essential Oil Fragrance Oil for Aroma Diffuser,Humidifier,Home Fragrance,Cleaning,Body Care,Massage,Yoga,DIY Candle,DIY Soap CosmicVeil（Peppermint，16 Fl Oz (Pack of 1)）",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVDVFNWR",
+      "title": "Watermelon Essential Oil Fragrance Oil for Aroma Diffuser,Humidifier,Home Fragrance,Cleaning,Body Care,Massage,Yoga,DIY Candle,DIY Soap CosmicVeil（Watermelon，16 Fl Oz (Pack of 1)）",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVF1ZTQQ",
+      "title": "Tea Tree Essential Oil Fragrance Oil for Aroma Diffuser,Humidifier,Home Fragrance,Cleaning,Body Care,Massage,Yoga,DIY Candle,DIY Soap CosmicVeil（Tea Tree，16 Fl Oz (Pack of 1)）",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FVM3FBG4",
+      "title": "M&SENSE Eucalyptus Citrus Reed Diffuser: Upgraded Formula 6.3 fl oz Non-Toxic Aroma Set with Sticks, Long-Lasting Natural Essential Oil Gifts for Home, Bedroom",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRHP8ZX",
+      "title": "Waterless Essential Oil Diffuser Aromatherapy Scent Diffusers for Home Large Room, Bedroom, Car, Office, Desk, Battery Operated Mini Portable Air Freshener, 3 Countdown Timers & 3 Mist Levels",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FX3GHT9H",
+      "title": "Grapefruit Reed Diffuser - 6.7 oz Glass Bottle with 4 Rattan Sticks, 3 Dried Flowers | Adjustable, Long-Lasting Scent for Home, Bedroom, Living Room, Office, Bathroom | Aromatherapy Gift",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX3LCK44",
+      "title": "Vanilla Reed Diffuser - 6.7 oz Glass Bottle with 4 Rattan Sticks, 3 Dried Flowers | Adjustable, Long-Lasting Scent for Home, Bedroom, Living Room, Office, Bathroom | Aromatherapy Gift",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX3MM6X2",
+      "title": "Lavender Reed Diffuser - 6.7 oz Glass Bottle with 4 Rattan Sticks, 3 Dried Flowers | Adjustable, Long-Lasting Scent for Home, Bedroom, Living Room, Office, Bathroom | Aromatherapy Gift",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX3RPKLK",
+      "title": "Gardenia Reed Diffuser - 6.7 oz Glass Bottle with 4 Rattan Sticks, 3 Dried Flowers | Adjustable, Long-Lasting Scent for Home, Bedroom, Living Room, Office, Bathroom | Aromatherapy Gift",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX4NTNRP",
+      "title": "KONCHILE Waterless Essential Oil Diffuser, Battery Powered Mini Scent Air Machine, Aromatherapy Mist Diffuser for Home Room Car Office (Pink)",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FX4ZPC3Z",
+      "title": "KONCHILE Waterless Essential Oil Diffuser, Battery Powered Mini Scent Air Machine, Aromatherapy Mist Diffuser for Home Room Car Office (Green)",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FX516J3P",
+      "title": "KONCHILE Waterless Essential Oil Diffuser, Battery Powered Mini Scent Air Machine, Aromatherapy Mist Diffuser for Home Room Car Office (red)",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FXBPRX75",
+      "title": "VINEVIDA [16 Oz] Inspired by: Neroli Portofino; Diffuser Oil Refill | Premium Scent Diffuser Oil for Home | Non-Toxic Fragrance",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXXM7P3K",
+      "title": "My Way Diffuser Oil Inspired by 1 Hotel Miami – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Sandalwood, Cedar, Iris – Long-Lasting Aroma – Aromatherapy – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXXMKN3C",
+      "title": "Hotel Diffuser Oil Inspired by Four Seasons Hotel – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Citrus, Rose, Cedar – Long-Lasting Aroma – Aromatherapy – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYH669J5",
+      "title": "VINEVIDA [32 Oz] Inspired by: Métallique; Diffuser Oil Refill | Premium Scent Diffuser Oil for Home | Non-Toxic Fragrance",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G19M627N",
+      "title": "Mullein Respiratory Wellness Bundle: Herbal Lung Cleanse Diffuser (600 Uses) + 3-Pcs Nasal Sticks – Craving Relief, Focus Boost & Easy Breathing",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G1YF36SH",
+      "title": "Shonoppy Waterless Essential Oil Diffuser with 10pcs Mixed Fragrance Oils, Automatic Scent Diffusers, Rechargeable Air Aromatherapy Diffuser with 3 Spray Modes for Home Office Hotel",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G3KQVMZB",
+      "title": "MYMYDE Melatonin Diffuser Stick with Melatonin, Lavender & More for Sleep & Oral Freshness - Herbal Diffuser Pen, Pure Natural - Lavender Flavored",
+      "category_path": "Health & Household > Oral Care > Breath Fresheners",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G3Q5SZHW",
+      "title": "SenseFlow SF101 Pro Plug In Air Freshener, Waterless Essential Oil Diffuser, Non-Toxic Aroma Diffuser, Adjustable 120-Day Natural Scent Mist, Covers 1000 Sq Ft- Free 30ml Pear & Freesia",
+      "category_path": "Health & Household > Household Supplies > Air Fresheners > Electric",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4DL8JRB",
+      "title": "Hotel Diffuser Oil Inspired by Baccarat NYC – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Bergamot, Mint, Cedarwood – Long-Lasting Aroma – Aromatherapy – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4DQKW7P",
+      "title": "24K Hotel Diffuser Oil Inspired by W Hotel – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Citrus, Lemongrass, Jasmine – Long-Lasting Aroma – Aromatherapy – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4DQP2WD",
+      "title": "Hotel Scents Dubai Inspired by Address Hotel – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Citrus, Floral, Woody – Long-Lasting Aroma – Aromatherapy – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Oils",
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G4G27V58",
+      "title": "Hotel Diffuser Oil Inspired by Tokyo Peninsula – Fragrance & Essential Oil Blend for Waterless & Cold Air Diffusers – Sansho, Lemon, Sandal – Long-Lasting Aroma – Aromatherapy – 4 Fl Oz Glass Bottle",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Home Fragrance Accessories",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G5JLLTXW",
+      "title": "HYWD Enterprises Cologne Oil Comparable to COOL WATER for Men, Fragrance Rendition, Eau de Parfum, 1 oz. (30ml) Glass Roll on",
+      "category_path": "Beauty & Personal Care > Fragrance > Men's > Eau de Parfum",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCLFH2M4",
+      "title": "Upgrade Dynamic Jellyfish Diffuser, 250ML Cool Mist Humidifier with 7 Color-Changing Lights, Smoke Ring Effect, Remote Control and 4/8H Timer Setting for Home Bedroom Office Yoga,Auto Shut-Off",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCZ9325F",
+      "title": "Essential Oil Diffuser with Flame Effect Ultrasonic Himalayan Salt Lamp Diffuser Ultrasonic Cool Mist Humidifier Aromatherapy Diffuser with Auto Off Function for Home Office Gift - 100ml Wood Grain",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GFVN3PLF",
+      "title": "Plug in Waterless Diffuser, Essential Oil Diffuser for Home, Office, Up to 500 Sq. FT Coverage, Small Plug in Wall Waterless Diffuser for Scent Air Machine",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GGHWQT48",
+      "title": "EcoGo Cat Calming Pheromone Solutions – Diffuser Kit & Spray Options (Plug-in Diffuser Kit + 2 Refills)",
+      "category_path": "Pet Supplies > Cats > Health Supplies > Relaxants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHXV5N9D",
+      "title": "Labbyway Car Vent Clip Starter Kit-Car Air Freshener-Scent Diffuser for Car-Includes Fruit/Plants Scented Refills-Ebony Black",
+      "category_path": "Automotive > Interior Accessories > Air Fresheners",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GL174XK7",
+      "title": "Chamomile Essential Oil – MLYNKL Chamomile Oils 16.33 fl oz for Diffusers, Humidifiers, Massage, DIY Candles, Soap, Cleaning, Home, Yoga, Office, Gifts - 490 ml",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Carrier & Essential Oils > Essential Oil Singles",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GLJY2YT3",
+      "title": "AGRARIA Reed Diffuser Refill, Scented Oil Home Fragrance, Reed Oil Diffuser Gift Set for All Occasions, Monique Lhuillier Limone, 2 oz",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GLKGYLW4",
+      "title": "AGRARIA Reed Diffuser Refill, Scented Oil Home Fragrance, Reed Oil Diffuser Gift Set for All Occasions, Cedar Rose, 2 oz",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Fragrance > Reed Diffusers, Oils & Accessories > Reed Diffuser Sets",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0GM1PXNK2",
+      "title": "Mullein Herbal Diffuser Pen for Lung Detox, Quit Smoking Aid, Freshens Breath Stick, All-Natural with Thyme & Mint & Strawberry - About 1500+ Uses (Upgraded to Double Flavor)",
+      "category_path": "Health & Household > Oral Care > Breath Fresheners",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GMBPNJ6T",
+      "title": "SenseFlow SF101 Pro Waterless Essential Oil Diffuser, Plug in Aromatherapy Diffuser & Non-Toxic air Freshener, 120-Day Natural Aroma Mist, Covers 1000 Sq Ft- Free 30ml Golden Warmth",
+      "category_path": "Health & Household > Health Care > Alternative Medicine > Aromatherapy > Diffusers",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GR4NDTYV",
+      "title": "Herbal Diffuser Pen with Mullein, Thyme, Mint Extracts for Lung Cleasing Breathing, Relaxation, Stress Relief, 600 Uses (Acrylic, 2)",
+      "category_path": "Health & Household > Oral Care > Breath Fresheners",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    }
+  ]
+}

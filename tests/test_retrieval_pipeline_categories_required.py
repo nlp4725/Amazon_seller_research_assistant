@@ -68,6 +68,8 @@ def test_main_2_run_uses_caller_supplied_categories(monkeypatch):
             if paths else []
         ),
     )
+    # Stage 3 (title_filter) would call Jev; this test is about categories, not filtering.
+    monkeypatch.setattr(main_2.title_filter, "TITLE_FILTER", False)
 
     output = main_2.run("dog drinking bowl", categories=PET_SUPPLIES)
 

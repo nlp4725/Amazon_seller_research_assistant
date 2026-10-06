@@ -1,0 +1,163 @@
+# Golden dataset v2 -- one definition per query, written BEFORE any labeling.
+#
+# Labels are judged against these definitions, catalog-wide (no category limit).
+# `include` / `exclude` settle the edge cases; `decide` lists judgment calls with the
+# recommended default applied -- change a default here before labeling, never after.
+# `keywords` are regexes for candidate pooling only (recall), never for labeling.
+#
+# Labels use Amazon's ESCI scheme: E exact (counts as a match), S substitute,
+# C complement (accessory/part for the product), I irrelevant. Only E is ground truth.
+
+dog drinking bowl:
+  definition: A product dogs drink water from.
+  include: [water bowls and dishes, water fountains and dispensers, travel water bowls and bottles with a drinking trough, food-and-water bowl sets]
+  exclude: [food-only bowls, slow feeders, cat-only products, water additives]
+  decide:
+    - "Food-and-water combo sets count (one bowl is for water). Default: yes"
+  keywords: ['\bdog', 'bowl|dish|fountain|water(er| dispenser)|drinking']
+
+ice tray:
+  definition: A tray or mold for freezing water into ice cubes or shapes.
+  include: [silicone/plastic ice cube trays, ice ball/sphere molds, trays with lids or bins sold as a set]
+  exclude: [ice makers (appliances), ice bins or scoops alone, serving trays]
+  decide:
+    - "Sphere/ball molds count. Default: yes"
+  keywords: ['ice (cube )?(tray|mold|mould)|ice ball|ice sphere|ice cube maker']
+
+car phone mount:
+  definition: A holder that secures a phone inside a car.
+  include: [dash, vent, windshield, cup-holder and CD-slot mounts, magnetic car mounts, mounts with built-in chargers]
+  exclude: [bike/motorcycle mounts, desk stands, tripods, metal plates or adhesives sold alone]
+  keywords: ['(phone|cell).*(mount|holder|cradle)|(mount|holder|cradle).*(phone|iphone)', 'car|vehicle|dash|vent|windshield|auto']
+
+summer dress:
+  definition: A dress suited to warm weather, which the title signals.
+  include: [sundresses, beach dresses, dresses whose title says summer or warm-weather, lightweight sleeveless casual dresses]
+  exclude: [formal/cocktail/evening dresses, winter dresses, swimsuits, skirts, rompers]
+  decide:
+    - "Requires a summer/warm-weather signal in the title (summer, sundress, beach, sleeveless casual). Default: yes"
+    - "Girls' dresses count, not only women's. Default: yes"
+  keywords: ['dress', 'summer|sundress|beach|sleeveless|spaghetti|boho|floral']
+
+kids costumes:
+  definition: A dress-up costume for a child (infant to teen).
+  include: [Halloween and character costumes, cosplay outfits, pretend-play dress-up sets with an outfit]
+  exclude: [adult costumes, accessories alone (wands, hats, makeup, wigs), everyday clothing]
+  decide:
+    - "Accessory-only items do not count. Default: excluded"
+  keywords: ['costume|dress.?up|cosplay', 'kid|child|toddler|boy|girl|baby|infant|youth|teen']
+
+dog Halloween costume:
+  definition: A dress-up costume for a dog, of the kind worn for Halloween.
+  include: [character/novelty dog costumes (pumpkin, hot dog, superhero, shark), costumes marketed for Halloween]
+  exclude: [other-holiday outfits (Christmas sweaters, St. Patrick's), everyday apparel (shirts, hoodies, coats), cat-only costumes]
+  decide:
+    - "Any character/novelty dog costume counts even without the word Halloween. Default: yes"
+  keywords: ['dog|puppy|pet', 'costume|halloween|cosplay|outfit']
+
+baby toys:
+  definition: A toy made for babies, roughly 0-24 months.
+  include: [rattles, teethers, activity gyms and play mats with toys, stacking/sorting/push toys marked for babies or 0-24 months, bath toys for babies]
+  exclude: [toys marked 2+/3+ years only, feeding and nursery gear (bottles, pacifiers, bouncers), clothing]
+  decide:
+    - "Age range 0-24 months. Default: yes"
+    - "Teethers and activity gyms count as toys. Default: yes"
+  keywords: ['toy|rattle|teether|activity|playmat|play mat|play gym|stacking|sorting', 'baby|infant|newborn|toddler|month']
+
+female fitness clothes:
+  definition: Women's clothing made for exercise.
+  include: [leggings, yoga pants, sports bras, workout tops and shorts, athletic sets, running/gym apparel]
+  exclude: [shoes, accessories (bags, bottles, socks), men's apparel, shapewear not marketed for workouts]
+  decide:
+    - "Very large pool -- label a fixed random sample and mark status partial. Default: yes"
+  keywords: ['women|woman|ladies|female|girls', 'workout|yoga|gym|athletic|running|fitness|sports bra|legging|activewear|exercise']
+
+invisible unicorn leash:
+  definition: A leash for an invisible unicorn (a novelty item).
+  include: [novelty "invisible pet" leashes themed as a unicorn]
+  exclude: [ordinary leashes, unicorn-themed leashes for real dogs]
+  status_expected: negative
+  keywords: ['invisible', 'leash|lead']
+
+cat scratching post:
+  definition: A vertical post or pole for cats to scratch.
+  include: [scratching posts and poles, cat trees/towers whose title highlights a scratching post]
+  exclude: [flat cardboard scratch pads and boards, scratching mats, toys]
+  decide:
+    - "Cat trees count only when the title highlights the scratching post. Default: yes"
+  keywords: ['scratch', 'cat|kitten|feline']
+
+graduation gown:
+  definition: An academic graduation gown, for any age.
+  include: [cap-and-gown sets, gowns alone, preschool/kindergarten graduation gowns]
+  exclude: [stoles, sashes, caps, tassels or honor cords alone, dresses for a graduation party]
+  keywords: ['graduation|grad\b', 'gown|robe']
+
+electric guitar strings:
+  definition: A set of strings for an electric guitar.
+  include: [electric guitar string sets, multi-packs]
+  exclude: [acoustic, classical or bass strings, picks, tuners, individual accessories]
+  status_expected: negative
+  keywords: ['string', 'guitar']
+
+wireless gaming mouse:
+  definition: A computer mouse that works wirelessly and is marketed for gaming.
+  include: [2.4 GHz, Bluetooth, dual-mode and tri-mode gaming mice]
+  exclude: [wired-only mice, non-gaming mice, keyboard + mouse combos, chargers/docks/mouse pads]
+  decide:
+    - "Keyboard + mouse combos do not count. Default: excluded"
+  keywords: ['mouse|mice', 'gaming|esports|dpi|rgb', 'wireless|2\.4 ?g|bluetooth|dual.?mode|tri.?mode|cordless']
+
+essential oil diffuser:
+  definition: A device that disperses essential oils into the air.
+  include: [ultrasonic and nebulizing diffusers, diffuser-humidifier combos, car and USB diffusers]
+  exclude: [oils alone, reed diffusers, candles, replacement parts]
+  decide:
+    - "Reed diffusers (sticks in oil) do not count -- not a device. Default: excluded"
+  keywords: ['diffuser|nebuliz', 'oil|aroma|essential|scent']
+
+solar powered garden light:
+  definition: A solar-powered light for outdoor yard or garden use.
+  include: [path and stake lights, spotlights, post-cap and fence lights, outdoor solar string lights, decorative solar garden lights]
+  exclude: [lights that are not solar (low-voltage, plug-in), non-light products with LEDs (umbrellas, fountain pumps), indoor-only lights]
+  decide:
+    - "Solar pond/fountain lights count only if the product is a light, not a pump. Default: yes"
+  keywords: ['solar', 'light|lamp|lantern|led']
+
+left-handed scissors:
+  definition: Scissors designed for left-handed use.
+  include: [scissors marketed as left-handed, sets that include left-handed pairs]
+  exclude: [ordinary or ambidextrous scissors not marketed for lefties, other left-handed tools]
+  decide:
+    - "Ambidextrous scissors do not count unless they say left-handed. Default: excluded"
+  keywords: ['left.?hand|lefty|leftie', 'scissor|shear']
+
+birthday party balloons:
+  definition: Balloons for decorating a birthday party.
+  include: [birthday-themed balloons, number balloons, balloon garland/arch kits marketed for birthdays]
+  exclude: [generic balloons with no birthday signal, balloon pumps/weights/accessories alone, other-occasion balloons]
+  decide:
+    - "Requires a birthday signal in the title. Default: yes"
+  keywords: ['balloon', 'birthday|bday|party|number|garland|arch']
+
+yoga mat:
+  definition: A mat for practicing yoga.
+  include: [yoga mats, exercise/pilates mats marketed for yoga, thick yoga/exercise mats]
+  exclude: [mat bags, straps, towels and cleaners, yoga blocks, footwear or clothing]
+  keywords: ['mat\b|mats\b', 'yoga|pilates|exercise|fitness']
+
+gluten free pasta:
+  definition: Pasta or noodles that are gluten-free.
+  include: [pasta labeled gluten-free, naturally gluten-free noodles (rice, glass/sweet potato, konjac, bean)]
+  exclude: [wheat pasta, sauces, flour, non-noodle gluten-free foods]
+  decide:
+    - "Naturally gluten-free noodles count even without a gluten-free label. Default: yes"
+  keywords: ['pasta|noodle|spaghetti|penne|macaroni|fusilli|lasagna|vermicelli|ramen', '']
+
+bluetooth speaker:
+  definition: A speaker that plays audio over Bluetooth.
+  include: [portable, party, shower and bike Bluetooth speakers, smart speakers with Bluetooth]
+  exclude: [wired-only speakers, headphones/earbuds, soundbars, karaoke machines, speaker accessories]
+  decide:
+    - "Soundbars and karaoke machines do not count. Default: excluded"
+  keywords: ['speaker', 'bluetooth|wireless|bt\b|portable']

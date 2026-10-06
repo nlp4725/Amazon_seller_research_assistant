@@ -1,0 +1,2594 @@
+{
+  "query": "cat scratching post",
+  "definition": {
+    "definition": "A vertical post or pole for cats to scratch.",
+    "include": [
+      "scratching posts and poles",
+      "cat trees/towers whose title highlights a scratching post"
+    ],
+    "exclude": [
+      "flat cardboard scratch pads and boards",
+      "scratching mats",
+      "toys"
+    ],
+    "decide": [
+      "Cat trees count only when the title highlights the scratching post. Default: yes"
+    ],
+    "keywords": [
+      "scratch",
+      "cat|kitten|feline"
+    ]
+  },
+  "sizes": {
+    "keyword": 54,
+    "embedding": 300,
+    "systems": 47
+  },
+  "pool_size": 309,
+  "candidates": [
+    {
+      "asin": "B0BHL7NWHW",
+      "title": "cjc Double-Sided Waterproof Sofa Slipcover L Shape Sofa Cover Sectional Couch Cover Chaise Slip Cover Reversible Sofa Cover Furniture Protector Cover for Pets Kids Children Dog Cat (L, Taupe)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0C7H3RYPB",
+      "title": "LiveGo 2023 New Thick Rabbit Plush Sofa Cushion Non-Slip Sofa Cover Super Soft Faux Fur Throw Pillow Cover, Fluffy Couch Cushion Covers Furniture Protector,Dark Gray,Sofa Cushion 110*110cm",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0C7H4SM64",
+      "title": "LiveGo 2023 New Thick Rabbit Plush Sofa Cushion Non-Slip Sofa Cover Super Soft Faux Fur Throw Pillow Cover, Fluffy Couch Cushion Covers Furniture Protector,Light Brown,Sofa Cushion 70*70cm",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CS67F6XN",
+      "title": "Basenji Dog Self-Inking Mail Address Stamp - Basenji Peeking Puppy Design, 11 Ink Colors, Ideal Size 7/8 x 2-1/4 - Perfect for Mailing Envelopes, Basenji Stamp, Great for Personalized Stamps",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CS67GWVN",
+      "title": "Customizable West Highland White Terrier Stamper - Personalized Address Rubber Stamp with Wood Handle - Ideal for Dog Lovers, West Highland White Terrier Owners - Use with Stamp Pad, Size 7/8 x 2-1/4",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CS6L1RXM",
+      "title": "ESR iPad Pro 12.9 Screen Protector, Protective Film for iPad Pro 12.9 Inch (2022/2021/2020/2018), Tempered-Glass Film with Easy Application Tray, Scratch Resistant, HD Clarity, 2 Pack",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Screen Protectors",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CS6LFZN8",
+      "title": "ESR for iPad Pro 11 Inch Screen Protector (2022/2021/2020/2018), iPad Air 5/4 Screen Protector, Tempered-Glass Film with Easy Application Tray, Scratch Resistant, HD Clarity, Armorite Series, 2 Pack",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Screen Protectors",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0CSRZMN1R",
+      "title": "Dorunmo Cat Bracelet 925 Sterling Silver Peridot Bracelets for Women Adjustable Cat Ankle Bracelet Cat Jewelry Gifts for Women August Birthstone Bracelets",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Anklets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CST9SZCL",
+      "title": "Cocker Spaniel Puppy Stamp - Pre-Inked, Personalized Return Address Stamp with Adorable Cocker Spaniel Puppy Design - Ideal for Dog Lovers, Available in 5 Ink Colors, Size 1-5/8 Square",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTB5Q1V",
+      "title": "Personalized Corgi Puppy Stamp - Customized Return Address Stamp with Wood Handle, Ideal for Stamp Pad Use, Unique Corgi Design, Square Size 1-5/8 - Ideal for Corgi Lovers",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTBRCZH",
+      "title": "Labrador Retriever Stamp - Premium Self-Inking Return Address Stamp with Cute Puppy Dog Design, Ideal for Personalizing Mail, Documents, and Crafts, Available in 11 Vibrant Ink Colors, Size 1-5/8",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTBTWPT",
+      "title": "Standard Schnauzer Dog Design, Customized Return Address Stamp, Self-Inking with 11 Ink Color Options, Size 1-5/8 - Unique and Personalized Standard Schnauzer Stamp",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTC298Q",
+      "title": "Personalized Self-Inking Return Address Stamp with Cockapoo Puppy Dog Design, Customizable Cockapoo Stamp, Ideal for Home or Office Use, Available in 11 Vibrant Ink Colors, Size 1-5/8",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTCV7YC",
+      "title": "Labradoodle Stamp - Personalized Return Address Stamp Self-Inking, Customized Labradoodle Puppy Dog Design, Ideal for Home or Office, Available in 11 Vibrant Ink Colors, Size 1-5/8",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTCZ7D2",
+      "title": "Boykin Spaniel Puppy Stamp - PSI Pre-Inked Address Stamp Featuring Adorable Boykin Spaniel Puppy Dog Design, Ideal for Personal or Business Use, Available in 5 Vibrant Ink Colors, Size 1-5/8 Square",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTD2JP1",
+      "title": "Self-Inking Return Address Stamp with Akita Puppy Dog Design, Akita Stamp, Convenient and Efficient Return Address Stamp, Available in 11 Ink Colors, Perfect Size 1-5/8 for Personal and Business Use",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTD3TB9",
+      "title": "Personalized Self-Inking Return Address Stamp with German Shepherd Puppy Dog Design, Customizable German Shepherd Stamp, Ideal for Home or Office, Available in 11 Vibrant Ink Colors, Size 1-5/8",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTD8RL3",
+      "title": "West Highland White Terrier Self-Inking Address Stamp - Ideal for Dog Lovers, Available in 11 Vibrant Ink Colors, Ideal Size 1-5/8 - Top Notch, Durable Westie Puppy Dog Stamp",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTDZT6T",
+      "title": "Pre-Inked Address Return Stamp with Adorable Pug Puppy Design, PSI Stamp, Ideal for Dog Lovers, Choice of 5 Vibrant Ink Colors, Size 1-5/8 Square - Ideal for Personal or Business Use",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTF2C5Z",
+      "title": "Old English Sheepdog Personalized Address Stamp, Self-Inking with 11 Ink Colors, Ideal for Dog Lovers, Customizable Size 1-5/8, Ideal for Mailing and Stationery",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTF2C61",
+      "title": "Customized Maltese Puppy Address Stamp - Personalized Wood Handle Stamp, Ideal for Stamp Pad Use, Unique Maltese Puppy Design, Square Size 1-5/8 - Ideal for Home or Office Use",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTFB4XW",
+      "title": "Belgian Malinois Puppy Dog Self-Inking Return Address Stamp, Durable, Customizable Size 1-5/8, Available in 11 Vibrant Ink Colors - Ideal for Personal or Business Use, Belgian Malinois Stamp",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CSTFTPJK",
+      "title": "Premium Irish Wolfhound Address Return Stamp - Ideal for Dog Lovers, Customizable Size 1-5/8 Square Stamp - Ideal for Personal or Business Mailing - Unique Irish Wolfhound Puppy Design",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CTYNF8SJ",
+      "title": "Poppy Playtime Smiling Critters Graphic T-Shirt - CatNap (Black), 3X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Tops, Tees & Blouses > T-Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CVXBZTX4",
+      "title": "Ysidec Cute Cats Women Lounge Pants Comfy Pajama Bottom Drawstring Sleepwear Long Pajamas Pants L",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Lingerie, Sleep & Lounge > Sleep & Lounge > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CVXDXQQM",
+      "title": "Ysidec Cute Cats Women Lounge Pants Comfy Pajama Bottom Drawstring Sleepwear Long Pajamas Pants XL",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Lingerie, Sleep & Lounge > Sleep & Lounge > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CVXHSG4L",
+      "title": "Ysidec Cute Cats Women Lounge Pants Comfy Pajama Bottom Drawstring Sleepwear Long Pajamas Pants 2XL",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWKVYK63",
+      "title": "AMHNF Funny Cat Shower Curtain Blue Teal Ocean Cute Black Orange Kitten Couple Cosplay as Titanic Creative Animal for Pet Lover Bathroom Decor Fabric Curtain with Hooks, 4152W-90x180",
+      "category_path": "Home & Kitchen > Bath > Bathroom Accessories > Shower Curtains, Hooks & Liners > Shower Curtain Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWL8QNKT",
+      "title": "AMHNF Funny Cat Shower Curtain Blue Teal Ocean Cute Black Orange Kitten Couple Cosplay as Titanic Creative Animal for Pet Lover Bathroom Decor Fabric Curtain with Hooks, 4152W-140x200",
+      "category_path": "Home & Kitchen > Bath > Bathroom Accessories > Shower Curtains, Hooks & Liners > Shower Curtain Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWP4F4P1",
+      "title": "New Home Address Stamp - Sociable Highland Cow Stamp with Wood Handle, Ideal for Book Authors Writing About Farm Life - Unique, Easy-to-Use Address Stamper, Custom Highland Cow Stamper",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWP5PHNX",
+      "title": "Highland Cow Address Stamp - Bright-Eyed Design, Ideal for Animal Welfare Organizations, Unique and Durable Address Stamp with Wood Handle Featuring a Bright-Eyed Highland Cow Image",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CWSWLXCT",
+      "title": "LOVMIOAW Cat Scratcher, Sisal Cat Scratching Ramp, Valentine's Day Gifts L Shape Cat Scratcher for Indoor Cats, Durable Natural Sisal Cat Scratch Furniture Protector",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0CYBMB9QT",
+      "title": "TTYAO REII Huohuo Cosplay Tail Fox Dog Cat Tail Furry Fursuit Costume Accessories for Adults Game Cosplay (Aqua)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Accessories > Accessory Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CYGJH6MY",
+      "title": "Reversible Knitted Patchwork Color Couch Cover Woven Decor Blanket Sofa Covers for Living Room Knit Futon Covers Sofa Slipcovers for Pets Couch Protector for Dogs Boho Furniture Covers, 71\"X 150\"",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CYZH2WFQ",
+      "title": "BOWLBOWL Donut Bowl Elevated Ceramic Cat Bowl with Stand, Raised Whisker-Friendly Bowl for Cats & Small Dogs, Patented Donut Design, Made in Korea (3.9\" H -Pink)",
+      "category_path": "Pet Supplies > Cats > Feeding & Watering Supplies > Bowls & Dishes > Raised Bowls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0CZ9KDWY4",
+      "title": "ESR 2 Pack Armorite Screen Protector for iPad Air 13 Inch M4/M3/M2 (2026/2025/2024), 9H Tempered-Glass Film with Easy Application Tray, Military-Grade Protection, Anti-Scratch, HD Clarity",
+      "category_path": "Electronics > Computers & Accessories > Tablet Accessories > Screen Protectors",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D14DGCJF",
+      "title": "Diamond Rotary Pet Nail Grinder Bits Dog Nail Grinder Replacement Head -5PCS 1/8\" Replacement Grinder Wheel for Animals Nail Care(D)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Claw Care",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D237TBHR",
+      "title": "Outdoor Cat Enclosures, Cat Playground Portable Catio Mesh Tent, Outside Circle Playpen Tunnel for Kitty, Rabbit, Puppy and Small Animals",
+      "category_path": "Pet Supplies > Cats > Toys > Tunnels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3GNF5TP",
+      "title": "Rain Cats Large 46/50 Inch Umbrellas for rain Strong10 Ribs Fiberglass Umbrella Windproof Wabig Compact Automatic portable Folding Travel Thick Fabric Wood handle (B-Crane Chart, 41 inches in diameter)",
+      "category_path": "Clothing, Shoes & Jewelry > Luggage & Travel Gear > Umbrellas > Folding Umbrellas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3KVGC2P",
+      "title": "Cat Stud Earrings 925 Sterling Silver Cute Cat Earrings for Sensitive Ears Cat Gifts for Women",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Earrings > Stud",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3TDZWP8",
+      "title": "HUGLAZY Funny Hawaiian Shirts for Men Galaxy Cat Shirts Button Down Donut Space Cat Outfit Mens Summer Beach Shirts Cat Lovers Gift, 4X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Men > Shirts > Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3TNSPF9",
+      "title": "HUGLAZY Funny Hawaiian Shirts for Men Galaxy Cat Shirts Button Down Donut Space Cat Outfit Mens Summer Beach Shirts Cat Lovers Gift, XX-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Men > Shirts > Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D3TP75HW",
+      "title": "HUGLAZY Funny Hawaiian Shirts for Men Galaxy Cat Shirts Button Down Donut Space Cat Outfit Mens Summer Beach Shirts Cat Lovers Gift, X-Large",
+      "category_path": "Clothing, Shoes & Jewelry > Novelty & More > Clothing > Novelty > Men > Shirts > Button-Down Shirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4CZ7BL4",
+      "title": "DiDiBirDi Cat Urns for Ashes, Tree Pattern Wooden Keepsake with Photo Frame, Pet Urn Memory Box with Resin Animal Statue and Sealed Storage Bags (75lbs)（Black）",
+      "category_path": "Pet Supplies > Cats > Memorials & Funerary",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D4QD3G2X",
+      "title": "MIUZMORE Pine Cat Wall Shelves with Scratch Mat, Wall-Mounted Cat Shelves, Space-Saving Shelf for Cats",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratcher Accessories & Parts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D5HF96T5",
+      "title": "Professional Pet Grooming Comb – Crescent Curved Wide/Fine Tooth Pet Comb Detangling Comb for Cat/Dog Face & Chin, Stainless Steel Teeth, Removes Knots & Flea Combs (blue,round16cm)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Combs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5HFCHZL",
+      "title": "Professional Pet Grooming Comb – Crescent Curved Wide/Fine Tooth Pet Comb Detangling Comb for Cat/Dog Face & Chin, Stainless Steel Teeth, Removes Knots & Flea Combs (green,enflory16cm)",
+      "category_path": "Pet Supplies > Cats > Grooming > Combs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5PLCT3W",
+      "title": "LE TOOTER 120 Pack Fuzzy Worm Toys String Pets Fuzzy Worms On String Bulk Trick Toy Party Favors for Kid Cat (12 Colors)",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D5QD52GL",
+      "title": "NIGOWAYS Cat Bathroom Rug - Cat Bath Mat,Soft Bathroom Mat,Absorbent and Non Slip Bath Rug for Bathroom Kitchen Bedroom,Home Decorations Gifts (Lying Down Cat Rug,20X35in), Black",
+      "category_path": "Home & Kitchen > Bath > Bath Rugs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D6WBH3B6",
+      "title": "TVTCTU Bicycle Seat Post, 27.2mm/28.6mm Alumium Adjustable Seatpost Suspension Seat Post for Most Bicycle Mountain Bike Road Bike MTB MTN BMX Electric Bicycle (28.6 x 350 mm), Black",
+      "category_path": "Sports & Outdoors > Sports > Cycling > Parts & Components > Seats & Saddles > Seat Posts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D7341PP6",
+      "title": "CARLOCA Compatible with iPhone 8 Plus Case,Lazy White Cat for Men Woman,Anti-Scratch Soft TPU Shockproof Unique Protective Cover Pattern Design",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D73487J4",
+      "title": "CARLOCA Compatible with iPhone SE 2022 Case,Lazy White Cat,Anti-Scratch Soft TPU Shockproof Unique Protective Cover Pattern Design",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D7RT313D",
+      "title": "CARLOCA Compatible with iPhone 11 Pro Max Case,Black Cat Street Reflection iPhone 11 Pro Max Cases for Girl,Fashion Graphic Design Shockproof Anti-Scratch Drop Protection Case for iPhone 11 Pro Max",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0D8NWHPFZ",
+      "title": "ANARACHON 1-Piece Leather-Look Fabric Sofa Cover for 3 Cushion Couch, Scratch-Resistant & Machine Washable Stretch Sofa Slipcover, Heavy Duty Pet Friendly Furniture Protector, Non-Slip(Sofa,Brown)",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D8YB9NPG",
+      "title": "LOTIKOU Cat Shaped Ceramic Bowl, Cute Green Cat-Themed Storage Container, Versatile Organizer for Jewelry Candy Hair Tie Storage",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Dining & Entertaining > Dinnerware & Serveware > Serveware > Candy Servers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9479LST",
+      "title": "LiveGo Fuzzy Pet Couch Covers for Sofa, Dog Couch Cover Fuzzy Sofa Cover Cream Square Plaid Dog Bed Plush Dog Mat for Furniture Protector for Large Medium Dogs and Cats",
+      "category_path": "Pet Supplies > Dogs > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9NRBYZ1",
+      "title": "Beacon Pet Sofa Cover for Couch, Couch Cover for 3 Seat Couch Dog Couch Cover Love Seat Couch Covers L Shape Sofa Slipcover (330gsm-Green, 71\" X118\")",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9PW3T3S",
+      "title": "KAMABOKO Cat House for Indoors Cats, Luxury Cat House Bed with Scratch Table ＆ Soft Cushion, Cat Condo with Hanging Ball Toy for Small Medium Pets, Brown",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Cat Houses & Condos",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0D9S52W38",
+      "title": "Qiuma Stainless Steel Metal Litter Box, Extra Large Cat Litter Box with High Sides, Odor-Free, Non-Stick, Easy to Clean, 23.4\"×15.6\"×7.8\", Ideal for Large Cats & Multi-Cat Households, Litter Tray",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Boxes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9S5767H",
+      "title": "Qiuma Stainless Steel Metal Litter Box with Handle, Extra Large Cat Litter Box with High Sides, Odor-Free, Non-Stick, Easy to Clean, 23.4\"×15.6\"×7.8\", Ideal for Large Cats & Multi-Cat Households",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0D9S65CGW",
+      "title": "Qiuma Stainless Steel Metal Litter Box, Extra Large Cat Litter Box with High Sides, Odor-Free, Non-Stick, Easy to Clean, 23.4\"×15.6\"×5.9\", Ideal for Large Cats & Multi-Cat Households, Litter Tray",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DC5HLKH1",
+      "title": "Briarwood Lane Holiday Birdhouse Mailbox Cover",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Mailbox Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCHZS71R",
+      "title": "Cat Tunnel Bed for Indoor Cats with Washable Cushion Cat Cave Donut Tunnel with Fluffy Ball Big Round Tube Pet Playground Toys Soft Plush Peekaboo for Kitten, Cat, Puppy, Rabbit, Ferret",
+      "category_path": "Pet Supplies > Cats > Toys > Tunnels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DCNVHD2B",
+      "title": "Customized Wooden Book Stamp, Quick-witted Cat Design - Ideal for Readers, 1-5/8",
+      "category_path": "Arts, Crafts & Sewing > Scrapbooking & Stamping > Stamps & Ink Pads > Stamps > Wood Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DF692NVZ",
+      "title": "Deisy Dee Sofa Covers for 3 Cushion Couch Sofa Chenille Sofa Slipcover for Sectional l Shaped Couch Pets Protector Furniture Covers (Leaves, 71\" x 150\")",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DF6BDNCB",
+      "title": "Deisy Dee Sofa Covers for 3 Cushion Couch Sofa Chenille Sofa Slipcover for Sectional l Shaped Couch Pets Protector Furniture Covers (Circle, 71\" x 150\")",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DF6BLMCM",
+      "title": "Deisy Dee Sofa Covers for 3 Cushion Couch Sofa Chenille Sofa Slipcover for Sectional l Shaped Couch Pets Protector Furniture Covers (Dandelion, 71\" x 150\")",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DFLWRT59",
+      "title": "34-Inch Tall Cat Scratching Post for Indoor Cats, Komicoll Large Scratch Post, Sisal Cat Scratcher, Sturdy and Durable Cat Post with Hanging Ball",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Posts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DGXQS32W",
+      "title": "Outdoor Cat Enclosures, Cat Tunnels Catio Tents Cubes for Indoor Cats with Play Ball, Collapsible Outside Playpen Tunnel for Kitty, Rabbit, Puppy and Small Animals",
+      "category_path": "Pet Supplies > Cats > Toys > Tunnels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGY5Y782",
+      "title": "Wink Women's Mandarin Collar Scrub Top - Pewter, 2X",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGY73VZR",
+      "title": "Wink Women's Mandarin Collar Scrub Top - Royal, 1X",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DGYCGVJV",
+      "title": "Wink Women's Mandarin Collar Scrub Top - Royal, 5X",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHN5KQPJ",
+      "title": "OXJOIIS Womens Hoodie Jackets Long Sleeve Shirts Hiking Outdoor Full Zip Tops (Yin Yang Black And White Sleepy Cat)",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Hoodies",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DHZVBM4Y",
+      "title": "Ysidec Blue Playing Cats Women Lounge Pants Comfy Pajama Bottom Drawstring Sleepwear Long Pajamas Pants 2XL",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Lingerie, Sleep & Lounge > Sleep & Lounge > Bottoms",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJ2V1X7T",
+      "title": "OhaPrints Police Thin Blue Line Us American Flag Welcome Doormat Front Rubber Door Mat Home Porch Decor Outdoor Indoor Entrance Floor Entryway Rug Modern Farmhouse Outside Entry Carpet",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DJR998VK",
+      "title": "DiDiBirDi Cat Urns for Ashes, Tree Pattern Wooden Keepsake with Photo Frame, Pet Urn Memory Box with Resin Animal Statue and Sealed Storage Bags (75lbs)（White）",
+      "category_path": "Pet Supplies > Cats > Memorials & Funerary",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK1P765S",
+      "title": "Yclenyo Girls' Leggings Cute Cartoon Fat Cat Wear Ankle Length Printed Leggings Comfort Pants for Kids 7-8 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Leggings",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK1Q1Y2T",
+      "title": "Yclenyo Girls' Leggings Cute Cartoon Fat Cat Wear Ankle Length Printed Leggings Comfort Pants for Kids 4 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Leggings",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK1RBNFM",
+      "title": "Yclenyo Girls' Leggings Cute Cartoon Fat Cat Wear Ankle Length Printed Leggings Comfort Pants for Kids 9-10 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Leggings",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK1SK382",
+      "title": "Yclenyo Girls' Leggings Cute Cartoon Fat Cat Wear Ankle Length Printed Leggings Comfort Pants for Kids 5 Years",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Leggings",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DK56178W",
+      "title": "Curious Cat Geocache Stamp - Small Self-Inking Geocache Log Stamp for Easy Press & Print Stamping - Geocaching Adventures - 3/4\" Size with 11 Ink Colors - for Wellness Coaches & Outdoor Enthusiasts",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DKXBV9YM",
+      "title": "Vnurnrn Custom Pet Photo Name Christmas Winter House Slippers Personalized Indoor Fuzzy Feet Slippers with Gripper Anti-Skid Cozy Home Shoes Soft Sole Slippers for Indoor Guest",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Shoes > Slippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLKL2WW7",
+      "title": "DiDiBirDi Pet Urn for Cat Ashes, Tree Pattern Wooden Keepsake with Photo Frame, Memory Box with Resin Animal Statue and Sealed Storage Bags (75lbs)（Brown）",
+      "category_path": "Pet Supplies > Cats > Memorials & Funerary",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DLNFT9NL",
+      "title": "Brown Giraffe Pattern Area Rug,2'x 3'Animal Pattern Decor Carpets for Living Room Non-Slip Floor Mats for Living Room Boys Girls Bedroom Dorm Nursery Modern Home Decorate",
+      "category_path": "Baby Products > Nursery > Décor > Rugs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DP76RC5T",
+      "title": "PetPivot Replacement Litter Box Liners for PetPivot AutoScooper 11 Open Top Automatic Cat Litter Box, 3 Rolls, 60 Bags",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Box Liners",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DPY3MP27",
+      "title": "Whiskertons Interactive Bird Simulation Cat Toy Set, Interactive Cat Toys for Indoor Cats, Cat Feather Toy, Self-Holding Suction Base, 5 Replacement Birds, Feathers & Bells (Weighted Base + Wire)",
+      "category_path": "Pet Supplies > Cats > Toys > Feather Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DQPCJ8X9",
+      "title": "VILBLE 6Pack Black Chain Stanchion Post with Heavy Rubber Base and Reflective Tape for Crowd Control & Traffic Safety use",
+      "category_path": "Industrial & Scientific > Occupational Health & Safety Products > Safety Signs & Signals > Safety Barriers > Cones",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRZY3FD9",
+      "title": "Cat nail grinders & clipper, dog grinder clippers trimmers, for dogs electric best indoor cats painless claw care nails with guard light, quiet grooming led pet cutter, small rechargeable (Pink)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Electric Clippers & Blades > Electric Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DRZYPRVW",
+      "title": "Cat nail grinders & clipper, dog grinder clippers trimmers, for dogs electric best indoor cats painless claw care nails with guard light, quiet grooming led pet cutter, small rechargeable (White)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Electric Clippers & Blades > Electric Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DS1GYV9G",
+      "title": "Briarwood Lane Springtime Bunnies Oversized Mailbox Cover",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Mailbox Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DS1J7WVW",
+      "title": "Briarwood Lane Perched Cardinals Mailbox Cover",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Mailbox Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DS1ZDN5X",
+      "title": "Giisorde Cat Desk Bed, Cat Hammock for Home Office, 360°Rotating & Adjustable Shelf, Removable Comfortable Soft Pet Nest Bed, Modern Unique Kitten Furniture Attachment for Game Tables, Grey",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Hammocks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSJYP7LD",
+      "title": "MAINEVENT One Cat Short of Crazy Door Mat 30x17 Inch, Coir Welcome Mat for Covered Outdoor Area, Black Cat Gift Doormat Decor w/Non-Slip PVC Backing",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DSYCS8BQ",
+      "title": "Zesty Paws Urinary Tract Cat Mousse - Kidney Support for Cats with Cranberry & D-Mannose - Healthy Cat Treats - Supports Bladder, Urinary Tract, Immune System & Gut Health - 14 Count",
+      "category_path": "Pet Supplies > Cats > Health Supplies > Supplements & Vitamins > Probiotics",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DT4VP4V7",
+      "title": "Briarwood Lane Bucket of Bunnies Mailbox Cover",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Mailbox Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DT4Z9M3S",
+      "title": "Briarwood Lane Springtime Bunnies Mailbox Cover",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Mailbox Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DW8DWNGD",
+      "title": "Custom Jack Russell Terrier Return Address Stamper | Personalized Self-Inking PSI Stamp for Christmas Cards & Holiday Mail | Square 1-5/8 Dog Lover Gift | New Home Address Labels Customizable",
+      "category_path": "Office Products > Office & School Supplies > Labels, Indexes & Stamps > Stamps & Stamp Supplies > Stamps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DWDH14KS",
+      "title": "ReWallpaper Cat Scratch Pad Large Sisal Textured Grey Cuttable Carpet Roll for Wall Window Sill Bedside Floor Area Furniture Covering Durable Cat Scratching Mat Self Adhesive Pet Claw Guard 24inx6.5ft",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DX1QWHKG",
+      "title": "an English Springer Spaniel'S Jigsaw Puzzles 1000 Pieces for Adults Home Garden Family Wall Decor Picture Woods Puzzles",
+      "category_path": "Toys & Games > Puzzles > Jigsaw Puzzles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXKHHXX2",
+      "title": "Cat nail grinders & clipper, dog grinder clippers trimmers, for dogs electric best indoor cats painless claw care nails with guard light, quiet grooming led pet cutter, small rechargeable (Green)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Electric Clippers & Blades > Electric Clippers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DXVZ3HT1",
+      "title": "LUGLIEO 2026 New Magnetic Cat Toy, Foldable Magic Organ Cat Scratching Board Toy, Round Interactive Accordion Cat Toys for Indoor Cats (2PCS)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DXW1L5FM",
+      "title": "LUGLIEO 2026 New Magnetic Cat Toy, Foldable Magic Organ Cat Scratching Board Toy, Round Interactive Accordion Cat Toys for Indoor Cats (3PCS)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0DYSQD7NJ",
+      "title": "FMhotu Galvanized Post Base for Concrete, Adjustable Aluminum-zinc Plated Steel Deck Post Anchor Base,Post Base Holder with 1\" Standoff for Deck Gazebo Pergola Porch (6, 6x6)",
+      "category_path": "Tools & Home Improvement > Building Supplies > Building Materials > Decking & Fencing > Railings & Pickets > Posts & Accessories > Anchors & Bases",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DYWG8XYW",
+      "title": "MeowPick Needle Felting Kit with Cat Head Mold, Animals Needle Felting Set, DIY Wool Felt Materials Set with Felting Tool and Instruction for Quick Needle Felting Craft (Dragon Li)",
+      "category_path": "Arts, Crafts & Sewing > Needlework > Needle Felting Supplies > Kits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0DZVYCCJB",
+      "title": "Supet Cat Grooming Hammock, Soft Fabric Nail Clipper Hammock, Self-Adhesive Wrap for Cutting Nails, Quickly Calm Down for Medicine, Teeth Brushing, Ear Cleaning",
+      "category_path": "Pet Supplies > Cats > Grooming > Claw Care",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F17VZZ95",
+      "title": "KOOLTAIL Dog Cooling Mat, 48''*28'' Upgraded Extra Large Cooling Pet Pad for Dogs Cats, Summer Dog Blanket Kennel with Non- Slip Bottom, Washable Mats for Bed Sofa Crate Playpen Outdoor Indoor",
+      "category_path": "Pet Supplies > Dogs > Beds & Furniture > Bed Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F21ZKBLW",
+      "title": "Yajue Sherpa Fleece Couch Cover for 3 Cushion Sofa, Brown, 71\" x 134\" - Pet Proof Sofa Covers Heavy Duty Scratch Resistant Pet Friendly Furniture Cover - Easy Install, Machine Washable",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F221BTP4",
+      "title": "Yajue Sherpa Fleece Couch Cover for 3 Cushion Sofa, Brown, 71\" x 150\" - Pet Proof Sofa Covers Heavy Duty Scratch Resistant Pet Friendly Furniture Cover - Easy Install, Machine Washable",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F228GRR1",
+      "title": "Shallow Elevated Cat Bowls with Bamboo Stand, 5.9 Inch Wide Ceramic Cat Dish Whisker Friendly, 2 Pack Pet Food and Water Plates",
+      "category_path": "Pet Supplies > Cats > Feeding & Watering Supplies > Bowls & Dishes > Raised Bowls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2383YKS",
+      "title": "Asozeer Nail Diamond Bits for Dog Dremel - Painless Pet Nail Trimmer Bits - Dog Nail Clipper & File for Large Medium Small Dogs Cats and Animals",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F2956KFJ",
+      "title": "FUKUMARU Cat Scratcher, 23.66 Inch Sisal Cat Scratching Post Ramp, Replaceable Scratching Mat for Indoor Cats, Wood Frame L Shape Wall Mounted Scratch, Cats Scratch Furniture Protector for Couch Sofa",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F29KVSVR",
+      "title": "Cat Grooming Brush, 9PCS Dog Brush Kit with Pet Nail Clipper and File, Deshedding Brush for Cats, Cats Dog Shedding Brushs for Small Large Pets, Includes Flea Comb, Bath Brushs,Undercoat Rake (Grey)",
+      "category_path": "Pet Supplies > Cats > Grooming > Brushes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F3893CJY",
+      "title": "MIUZMORE Wall Mounted Cat Tree - 7 PCS Cat Wall Shelves & Perches with Tall Sisal Scratching Posts, Wall Mount Cat Climbing Tree & Space-Saving Furniture for Indoor Cats to Climb, Scratch & Lounge",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Trees",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F3KJQS65",
+      "title": "Holy Pets 100% Pure L-Lysine Powder for Cats – No Fillers, Additives or Preservatives – 1,000mg per Scoop – Immune, Respiratory & Eye Support – Helps with Sneezing, Runny Nose & Cold Symptoms",
+      "category_path": "Health & Household > Vitamins, Minerals & Supplements > Amino Acids > L-Lysine",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5BKC22D",
+      "title": "FurEverClone Chihuahua Dog Golf Club Covers",
+      "category_path": "Sports & Outdoors > Sports > Golf > Accessories > Head Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5BYHZM9",
+      "title": "Dog Head Golf Driver Club Headcover, Neutral Decor for Golf Spaces (Parrot)",
+      "category_path": "Sports & Outdoors > Sports > Golf > Accessories > Head Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5CBXGVV",
+      "title": "Dog Head Golf Driver Club Headcover, Neutral Decor for Golf Spaces (Fox)",
+      "category_path": "Sports & Outdoors > Sports > Golf > Accessories > Head Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5G9SYG5",
+      "title": "2025 New Pet Bath Brush, Dog Scrubber for Bath Dog Grooming Massage Brush for Long Short Haired Dogs Cats Shower (Red)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Brushes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5GDMQH3",
+      "title": "2025 New Pet Bath Brush, Dog Scrubber for Bath Dog Grooming Massage Brush for Long Short Haired Dogs Cats Shower (Yellow)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Brushes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5GHM2H4",
+      "title": "2025 New Pet Bath Brush, Dog Scrubber for Bath Dog Grooming Massage Brush for Long Short Haired Dogs Cats Shower (Green)",
+      "category_path": "Pet Supplies > Dogs > Grooming > Brushes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5GQ9514",
+      "title": "Dog Head Golf Driver Club Headcover, Neutral Decor for Golf Spaces (Off-White Labrador)",
+      "category_path": "Sports & Outdoors > Sports > Golf > Accessories > Head Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F5HCLD14",
+      "title": "MIUZMORE Cat Wall Shelves Set – Wall Mounted Cat Furniture with House, Sisal Mat, Scratching Posts & Perches – Indoor Climbing Shelves for Large Cats",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Cat Houses & Condos",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F6TM3Z7J",
+      "title": "Yclenyo Girls' Short-Sleeve Dress Cat Donut Cute Summer A-Line Swing Cute Sundress 3T",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Dresses > Casual",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F6YB9GHL",
+      "title": "Yesibeike Upgraded Sisal Cat Scratcher Bed, Solid Oak Frame 1.3 cm Thick, 100% Sisal Pad, Curved Scratch Lounger, Stable Base Up to 36 lb, Sofa Protector, Odor-Free, 23.6\" x 13.7\"",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratcher Accessories & Parts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F7RBV16M",
+      "title": "LIHOOOOM Stainless Steel Litter Scoop, Kitty Litter Scooper, Metal Cat Litter Scoop, Kitten Pooper Lifter, Cat Scooper, Kitty Metal Scooper with Holder for Cat Litter Box Round Holes Easy Cleaning",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Scoops",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F7RLPD32",
+      "title": "FUNNY FUZZY Elevated Dog Bed with Canopy, Khaki, Small (24\"x18\"x7\") – Outdoor Pet Cot with UV Protection, Breathable Mesh for Cooling, Indoor & Outdoor Use for Dogs up to 120 lbs,Grey",
+      "category_path": "Pet Supplies > Dogs > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8HXVFM2",
+      "title": "Kxnwlej Hand Hooked Cat Rug Orange Tabby Shaped Accent Mat Cute Sleeping Kitty Area Rug Machine Wash 18X30 inch",
+      "category_path": "Home & Kitchen > Home Décor Products > Rugs, Pads & Protectors > Area Rugs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8J1XM9P",
+      "title": "Kxnwlej Hand Hooked Cat Rug Orange Tabby Shaped Accent Mat Cute Sleeping Kitty Area Rug Machine Wash 20X32 inch",
+      "category_path": "Home & Kitchen > Home Décor Products > Rugs, Pads & Protectors > Area Rugs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8MZDBBK",
+      "title": "FUKUMARU 3PCS Cat Scratcher Wall Mounted, 23.6 Inch Extra Long Cardboard Cat Scratch Pad for Wall, High-Density Cats Scratching Board Indoor, Kitten Scratching Pads for Corner Door",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0F8N9LWC5",
+      "title": "Kxnwlej Dachshund Christmas Rug Wiener Dog Print Doormat Funny Door Mat 18X30 inch",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8NB3K5W",
+      "title": "Kxnwlej New Frog Hippity Hoppity Get The Fuck Off My Property Coir Doormat Funny Housewarming Gift Home Decor Welcome Mat Indoor Front Back Door 16X24 inch",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Doormats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8NB4YVV",
+      "title": "Kxnwlej Dachshund Christmas Rug Wiener Dog Print Doormat Funny Door Mat 16X24 inch",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8NB877T",
+      "title": "Kxnwlej New Frog Hippity Hoppity Get The Fuck Off My Property Coir Doormat Funny Housewarming Gift Home Decor Welcome Mat Indoor Front Back Door 18X30 inch",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F8NCVTZN",
+      "title": "Kxnwlej Dachshund Christmas Rug Wiener Dog Print Doormat Funny Door Mat 20X32 inch",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F92DCWPP",
+      "title": "Cat Mat for Litter Box, 38\" X 26\" Silicone Cat Litter Trapping Mat, Easy Clean for Scatter Control, Soft on Kitty Paws, Waterproof, Urine-Proof, Non-Slip Kitty Litter Mat for Floor, Brown",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9NHV118",
+      "title": "MeowNova 1080P Cat Camera Collar - Wireless Mini Sport Cam with Video Recording, Small Action Camera for Pet Supplies, Indoor/Outdoor Body Cam for Cats（White）",
+      "category_path": "Electronics > Camera & Photo > Video > Sports & Action Video Cameras",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0F9RG5QXF",
+      "title": "IZIPIZI SUN #D Sunglasses Men & Women Square Biobased Frame, Anti-Scratch Grey Lenses, 100% UV Category 3 Protection w/Pouch (Light Tortoise)",
+      "category_path": "Clothing, Shoes & Jewelry > Men > Accessories > Sunglasses & Eyewear Accessories > Sunglasses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0F9RTHJWW",
+      "title": "IZIPIZI SUN #D Sunglasses Men & Women Square Biobased Frame, Anti-Scratch Grey Lenses, 100% UV Category 3 Protection w/Pouch (Black)",
+      "category_path": "Sports & Outdoors > Sports & Outdoor Recreation Accessories > Sports Sunglasses",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FBYTT88N",
+      "title": "Heritage Pride Canine Collection Akita American Flag Embroidered Mesh, Black/Black",
+      "category_path": "Clothing, Shoes & Jewelry > Men > Accessories > Hats & Caps > Baseball Caps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC1W4QBN",
+      "title": "Knafe Recovery Suit for Female & Male Dogs After Surgery, Breathable Dog Onesie Cone Alternative, Anti-Licking Surgical Suit for Spay Neuter Wounds",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FC6DMSRN",
+      "title": "Wrappiness Cool Cat Father - Personalized Custom Cat Dad Glass, 11oz Whiskey Glass for Pet Lovers, Unique Father’s Day Gift (W15-01-202)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Dining & Entertaining > Glassware & Drinkware > Cocktail Drinkware > Old Fashioned Glasses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FCY8LTMQ",
+      "title": "NESTURA Custom Card for Pet Lovers | Personalized Game-Inspired Furry Friend Birthday Gifts | Customizable Trading Card with Dog Cat Photo | Anime Style Metal Cards for Best Dad Dog Mom Cat",
+      "category_path": "Office Products > Office & School Supplies > Paper > Cards & Card Stock > Greeting Cards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDFSLMYH",
+      "title": "Grounding Mat for Bed,54 * 78 in Anti-SLP Pad PU Leather,Grounding Mat King Size with Grounding Tester Pen,Grounding Mattress Pad",
+      "category_path": "Home & Kitchen > Bedding > Mattress Pads & Toppers > Mattress Pads",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FDG76HRH",
+      "title": "Goosheep L Shaped Cat Scratching Post, 23.2\" Tall Sisal & Wooden Base Cat Scratcher Board for Indoor Cats, Sturdy Vertical Cats Scratching Pad Protects Furniture",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FF57NGJP",
+      "title": "LOVMIOAW Cat Scratcher, 23.6in Sisal Scratching Pad, L Shape Scratch Pad Wall Mounted with Ball Toy for Indoor Cats, Durable Natural Sisal Cat Scratch Furniture Protector",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratcher Accessories & Parts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FF9RDFB4",
+      "title": "SYJOVIA Reclining Sectional Couch Covers Velvet L Shape Recliner Sofa Middle Console Cover for Dogs Pets Washable Anti Slip 1 Additional Recliner Center Console Slipcovers (1 Console, Dark Gray)",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Recliner Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FFGRVCTL",
+      "title": "Lampshades Lamp Shades set of 2 Veterinary seamless pets medicines food cat collar dog Light Shade for Table Lamps Floor Lamps Drum Lamp Shades Lampshade Replacement",
+      "category_path": "Tools & Home Improvement > Lighting & Ceiling Fans > Lamps & Shades > Lamp Shades",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FG7H7LNT",
+      "title": "EMPYRI Clear Phone Case for iPhone 14 Pro Max, Underwater Catfish Printed Shockproof TPU Phone Cases Cover with Wireless Charging, Scratch-Resistant, Anti-Yellowing",
+      "category_path": "Cell Phones & Accessories > Cases, Holsters & Sleeves > Basic Cases",
+      "found_by": [
+        "keyword"
+      ]
+    },
+    {
+      "asin": "B0FGCL7XTZ",
+      "title": "youlanhome Brown Couch Covers for 3-Cushion Couches - Washable, Pet & Kid Resistant,Modern Anti-Slip Furniture Protector (71''x 150'')",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGCPBK8F",
+      "title": "PAPIFEED Automatic Cat Feeder with Camera，‌Adjustable Angle 2.4G WiFi/App Pet Food Dispenser，3.5L/15 Cup Timed Dispenser",
+      "category_path": "Pet Supplies > Cats > Feeding & Watering Supplies > Automatic Feeders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGDGH3MK",
+      "title": "Cat Door Mat, Cute Animal Village Style Doormat for Outdoor & Indoor Entrance Seasonal Decor, Non-Slip Waterproof Dust Absorbent Welcome Mat, Easy Clean 20x32 Inch",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Doormats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGJK46YR",
+      "title": "Cat Ear-Shaped Bed for Indoor Cats,Semi-Enclosed Kitten Bed with A Removable Mat & Non-Slip Bottom for Cat and Small Dog,Cats Hideaway (Pink, L:15×15×15in(40×40×40cm))",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGJLZ61V",
+      "title": "Cat Ear-Shaped Bed for Indoor Cats,Semi-Enclosed Kitten Bed with A Removable Mat & Non-Slip Bottom for Cat and Small Dog,Cats Hideaway (Gray, L:15×15×15in(40×40×40cm))",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGJMPPZ6",
+      "title": "Cat Ear-Shaped Bed for Indoor Cats,Semi-Enclosed Kitten Bed with A Removable Mat & Non-Slip Bottom for Cat and Small Dog,Cats Hideaway (Pink, M：14×14×14in(36×36×36cm))",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGJWMPB7",
+      "title": "P*SS OFF+ All Purpose Stain and Odor Remover - Professional Strength Cat Pee Odor Eliminator (3 Fl Oz (Pack of 1))",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Odor & Stain Removers > Odor Removers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FGXQ3SDQ",
+      "title": "1000-piece Halloween - Pumpkins, Ghosts and Black Cats Adult Wooden Puzzle, Intellectual Challenge, Stress-Relieving Puzzle, Relaxing Family Activity, Decoration, Size: 29.5 x 19.7 in",
+      "category_path": "Toys & Games > Puzzles > Jigsaw Puzzles",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHB1B7WV",
+      "title": "PAWSCRAT Wall-Mounted Cat Tree, 5 Tier Floor to Ceiling Cats Tower, 80 Inch Wall-Mounted Cat Scratching Post, Space Saving Cat Furniture and Easliy Climb for All Cats, Beige",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Trees",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FHD4YZ1Q",
+      "title": "Cheetah Onesie Cat Costume for Women Halloween Fleece Leopard Costumes Animals Cosplay Dress Up (Cat, X-Large)",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Women > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FHZ9NDNY",
+      "title": "Shallow Elevated Cat Bowls with Bamboo Stand, 5.9 Inch Raised Slow Feeder Cat Bowl and Wide Ceramic Cats Bowls Whisker Friendly, 2 Pack Pet Dishes for Dry and Wet Food Dishwasher Safe",
+      "category_path": "Pet Supplies > Cats > Feeding & Watering Supplies > Bowls & Dishes > Slow Feeders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJFLYQVS",
+      "title": "Sosation 9 Pcs Christmas Cat Tunnel Tree Skirt with 7 Pcs Toys 2.9ft x 2.9ft x 10.6inch Buffalo Plaid Tunnel Bed with Ball and Cat Cave for Felines and Small Animals Indoor Outdoor Decorations",
+      "category_path": "Pet Supplies > Cats > Toys > Tunnels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJS2CCR3",
+      "title": "Spark Paws Christmas Dog Sweater – Ultra Soft Holiday Knit Sweater for Small, Medium & Large Dogs, Cute Pet Sweater for French Bulldogs & Big Dogs, Easy Potty V Cut Design Jacket - (Polar Bear, S)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FJS2Z6TQ",
+      "title": "Spark Paws Christmas Dog Sweater – Ultra Soft Holiday Knit Sweater for Small, Medium & Large Dogs, Cute Pet Sweater for French Bulldogs & Big Dogs, Easy Potty V Cut Design Jacket - (Dasher Red,4XL)",
+      "category_path": "Pet Supplies > Dogs > Apparel & Accessories > Sweaters",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FK4CFMTG",
+      "title": "GONGWANTON Handmade Cat Stained Glass Window Suncatcher, Moon Design, Home Decor Hanging Ornament (Gift 1)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FK4ZBYXP",
+      "title": "XPYPZP 925 Sterling Silver Cat Earrings Cute Animal Kitten Stud Earrings cat Jewelry Gifts for Women Hypoallergenic Opal Earrings for Sensitive Ears",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Earrings > Stud",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FK935SHQ",
+      "title": "Floor-to-Ceiling Cat Tree Lookout Platform, Cat Tower Replacement Part, Fits Cat Trees, Size 19.69×15.75 Inches",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Trees",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKBFD6VL",
+      "title": "kathson Collapsible Kitten Litter Box,Foldable Anti-Splashing Small Kitty Litter Box Low Entrance Cat Potty Pan with Falling Sand Pedal Waterproof Portable Cat Toilet for Kittens (Blue)",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Boxes > Standard Litter Boxes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKBJ15CN",
+      "title": "kathson Collapsible Litter Box for Kittens,Low Entry Senior Cat Litter Box Semi-Enclosed Kitten Potty Toilet with Leak-Proof Pedal Foldable Kitty Litter Pan for Small Cats (Grey)",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Boxes > Standard Litter Boxes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FKMS38KC",
+      "title": "2 PCS Magic Organ Cat Scratcher Board with 6 Balls, Foldable Recyclable Accordion Cats Toy with Ball and Track Adventure, Cat Scratching Pad, Retractable Reversible Furniture Protector(Brown)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FKYVVJV5",
+      "title": "BoniIllusion Luxury Black Cat Stone Sculpture – Elegant Home Décor & Gift-Ready Art Piece, Hand-Carved Crystals and Healing Stones Carved, for Cat Lovers (2*pcs)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Sculptures > Statues",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FLHSPKDQ",
+      "title": "YITAHOME 4-Tier Cat Cage with Litter Box: DIY Cats Enclosure Indoor for 1-2 Kittens, Black",
+      "category_path": "Pet Supplies > Cats > Cat Doors, Steps, Nets & Pens > Enclosures",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM38DYKH",
+      "title": "Luaeirus Inflatable Black Cat Costume for Adult Funny Blow up Quick Inflation Animal Costume Fancy Dress Full Body for Cosplay Party",
+      "category_path": "Clothing, Shoes & Jewelry > Costumes & Accessories > Men > Costumes & Cosplay Apparel > Costumes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM73BMK3",
+      "title": "Turquoize Dog Couch Cover Non Slip Chenille Sofa Cover for Dogs Thick Soft Pet Couch Covers for Sofa Washable Couch Cushion Covers for Pets Fuzzy Sofa Furniture Protector (35\" x 74\", Sand)",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM7HYXBL",
+      "title": "Turquoize Dog Couch Cover Non Slip Chenille Sofa Cover for Dogs Thick Soft Pet Couch Covers for Sofa Washable Couch Cushion Covers for Pets Fuzzy Sofa Furniture Protector (35\" x 74\", Grey)",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Sofa Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM7SWNGP",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (Brown + Grey, M-17.3x14.6in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM7SXD4F",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (Grey + Beige, L-21.3x17.7in)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM7WR3DW",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (Grey +Grey, L-21.3x17.7in)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM7WXWH3",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (Grey +Grey, M-17.3x14.6in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FM7ZZD23",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (Brown + Grey, L-21.3x17.7in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMDZBWWD",
+      "title": "Puxulyiz 21pc Cat Lollipop Treats, Cat Grass Treats High Protein Nutrient Rich for Hairball Control and Healthy Coat, Cat Treats with Catgrass, Cranberry, Goat Milk Flavor",
+      "category_path": "Pet Supplies > Cats > Health Supplies > Hairball Remedy Pastes & Gels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FMF4CJ32",
+      "title": "PETKARAY Inclined Sisal Cat Scratcher Bed, Curved Wooden Cat Hammock Chair, Large Scratch Pad for Indoor Cats, Cozy Cat Furniture Lounge, 24x14.5x8 inches",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FMN3KKV1",
+      "title": "2 Tier Cat Cage Playpen, 28in Indoor Pet Cat Enclosures, Detachable Cat Crate Metal Wire Kennels House with Climbing Ladder for Ferret Squirrel Small Animals, Easy to Assemble",
+      "category_path": "Pet Supplies > Cats > Cat Doors, Steps, Nets & Pens > Playpens",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FN75G9RJ",
+      "title": "Cat Litter Mat Extra Large 40\"x28\" Silicone Waterproof Litter Trapping Mat for Litter Box, Non-Slip Urine-Proof Kitty Litter Box Mat with Deep Grooves, Easy Clean Scatter Control Pet Mat (Gray)",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNCGFJ1J",
+      "title": "Cat Litter Mat Extra Large 34\"x22\" Silicone Waterproof Litter Trapping Mat for Litter Box, Non-Slip Urine-Proof Kitty Litter Box Mat with Deep Grooves, Easy Clean Scatter Control Pet Mat (Gray)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNCLSFLR",
+      "title": "HIVICHI Graphic Cat Tank Tops for Women Hawaiian Funny Cute Print Summer Workout Sleeveless Top, Small, wtt-020100",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Clothing > Active > Active Shirts & Tees > Tank Tops",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNCVBFQ3",
+      "title": "Anelueeoo Anti Cat Scratch Furniture Protector, Couch Protector from Cat Claws, Transparent Sofa Guard Shield Single Sided Sticky Cats Scratch Deterrent Tape, 196.85\"x15.74\" 1 Pack",
+      "category_path": NaN,
+      "found_by": [
+        "keyword",
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNMF62NV",
+      "title": "TICHA 22”- Cow Christmas Highland Cow Stuffed Animal Plush Toy, Soft Fluffy Scottish Cattle Plush Pillow, Realistic Highland Cow Decor, Home Decor, Couch Pillow",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Plush Pillows",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNMQK3PL",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish (Frosted Gold, Small)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNMWLMTY",
+      "title": "Beawelkomjo Cheetah Print Rug - Stylish Leopard Rug Faux Animal Print, Thick TPR Non-Slip Animal Print Floor Mat for Living Room, Dorm, Apartment (Cheetah Print 37x41In)",
+      "category_path": "Home & Kitchen > Home Décor Products > Rugs, Pads & Protectors > Area Rugs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FNRDCMJH",
+      "title": "Sunnymove Self Adhesive Sisal Cat Scratch Pad for Wall or Couch, Trimmable Furniture Protector Mat with Strong Backing, Durable Cat Scratcher for Indoor Cats Activity Play(Spider Web)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FP299GDM",
+      "title": "Purrzone Gothic Cat House Bed for Indoor Cats Coffin Cat Condo with Scratch Pad and Fluffy Ball Toy, Foldable Hideaway Cube, Pet Bed for Kittens and Large Cats, 16.5x16.5x13in, Red Black Halloween",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Cat Houses & Condos",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FP2BY9J3",
+      "title": "EXPAWLORER Cat Litter Mat, 28”x36” Medium Non-Slip Urine Waterproof Litter Trapping Mat Easy to Clean Washable Litter Box Mat for Floor Soft on Kitty Paws, Indoor Food Mats Rug Pads for Bathroom Pink",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP2CST2Y",
+      "title": "EXPAWLORER Cat Litter Mat, 28”x36” Medium Non-Slip Urine Waterproof Litter Trapping Mat Easy to Clean Washable Litter Box Mat for Floor Soft on Kitty Paws, Indoor Food Mats Rug Pads for Bathroom Green",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP2DQ7TK",
+      "title": "EXPAWLORER Cat Litter Mat, 32”x48” XL Non-Slip Urine Waterproof Litter Trapping Mat Easy to Clean Washable Litter Box Mat for Floor Soft on Kitty Paws, Indoor Food Mats Rug Pads for Bathroom Pink",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FP989XY8",
+      "title": "CHACHAHAER Don't Let The Cats Out Or The Cops in 30\"(W) X 17\"(L), Funny Door Mats Outside, Outdoor Rug, Door Mat, Novelty Home Housewarming Gift Mat",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPB4T29L",
+      "title": "Fur Elise Pets So Fetch Dog Tennis Balls – Pack of 5 Non-Toxic Fetch Balls, Natural Rubber Core, Pet-Safe Felt, Mesh Drawstring Pouch, 2.5 in, Rose",
+      "category_path": "Pet Supplies > Dogs > Toys > Balls",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FPKD26CN",
+      "title": "Fryneauy Black Cat Necklace 925 Sterling Silver Chrismatite Pendant Necklace Cat Jewelry for Women",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Necklaces",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ47ZCZJ",
+      "title": "Cute Cat Piñata - Unicorn Cat Pull String Pinata with Blindfold, Bat and Confetti for Kitten Themed Birthday Party Decorations, 16.1 Inch",
+      "category_path": "Toys & Games > Party Supplies > Piñatas",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQ4WBVB6",
+      "title": "Pawfun Self-Adhesive Cat Grooming Wrap, Cozy Cat Wrap for Cutting Nails, Breathable Anti-Scratch Cats Swaddle Bag for Brushing, Ear Cleaning, Dental Care, Medication, Injections,Pink L",
+      "category_path": "Pet Supplies > Cats > Grooming > Claw Care",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FQMT8KLZ",
+      "title": "L&W BROS. 2-Pack Foldable Cat Window Perches with Christmas Cushion Bed – Easy to Assemble Cats Hammock for Window, Warm Indoor Cat Beds for Large Cats, Edition(M 2Pc)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Window Perches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQMWY25K",
+      "title": "L&W BROS. 2-Pack Foldable Cat Window Perches with Christmas Cushion Bed – Easy to Assemble Cats Hammock for Window, Warm Indoor Cat Beds for Large Cats, Edition(L 2Pc)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Window Perches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FQNZHN85",
+      "title": "AeedWisp Cat Window Perch, Suction Cup Window Hammock Seat Beds for Indoor Cats with Soft Cushion and Solid Pine Wood",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Window Perches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR39CS28",
+      "title": "Assaoy Door Mat Outside Entrance,MEOWDY Cowboy Cat Coir Doormat,Funny Doormat Black Cat in Cowboy hat Welcome Floor Front Door mat with Heavy Duty Backing,Indoor Rubber Patio Home",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Doormats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR7Q5WLX",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (Coffee Color, L-21.3x17.7in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR7Q8TV4",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (2 X Coffee Color, L-21.3x17.7in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR7RLTH9",
+      "title": "TICIAGA Fluffy Pom Pom Classroom Prize - 24 Set Cute Plush Toy Keychains with Motivational Gift Tags, 4-in-1 Ballpoint Pens and Organza Bags, Birthday Valentines Gifts for Girls Goodies Bag Fillers",
+      "category_path": "Toys & Games > Party Supplies > Party Favors > Multi-Item Party Favor Packs",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR8B9YLP",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (2 X Dark Gray, M-17.3x14.6in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR8LXVW2",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (Dark Gray, L-21.3x17.7in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR8MJ7K3",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (Dark Gray + Coffee Color, L-21.3x17.7in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR8TML21",
+      "title": "Cat Sleeping Bag for Indoor Cats Cozy Winter Cats Sleeping Bags Soft Plush Cat Sack Self Warm Pet Bed Cave Kittens Tunnel Pet Hideaway Calming Bed for Kittens (2 X Dark Gray, L-21.3x17.7in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR95SQ4D",
+      "title": "Cat Houses Indoor-Foldable Cat Dog House & Kennel Bed Mat for Kittens & Puppys,Enclosed Warm Cat Beds for Indoor Cats with Removable Cover for Winter,Dog House Cave Tent (Brown, L:16.9×15.4×17.3in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Cat Houses & Condos",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR984Z26",
+      "title": "Cat Houses Indoor-Foldable Cat Dog House & Kennel Bed Mat for Kittens & Puppys,Enclosed Warm Cat Beds for Indoor Cats with Removable Cover for Winter,Dog House Cave Tent (Gray, L:16.9×15.4×17.3in)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Cat Houses & Condos",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FR9VSJ1X",
+      "title": "P*SS OFF+ All Purpose Stain and Odor Remover - Professional Strength Cat Pee Odor Eliminator (32oz - No Black Light)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRRYK54C",
+      "title": "Famifit Foldable Cat Window Perch - Natural Pine Cat Sill Seat, 45LBS Heavy Duty Cordless Design, Space-Saving No-Scratch Window Hammock for Indoor Cats",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Window Perches",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FRYZYSB3",
+      "title": "JAWNLITY Stained Glass Window Hanging Sun Catcher, Colorful Dog Party Suncatcher for Window Wall Decor, Fun Pet Lover Gift for Dog Owners 014 (7.9IN)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FRZ3KBTL",
+      "title": "JAWNLITY Stained Glass Window Hanging Sun Catcher, Colorful Dog Party Suncatcher for Window Wall Decor, Fun Pet Lover Gift for Dog Owners 014 (6.3IN)",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FS18BBXP",
+      "title": "Cat Wall Shelves, Stable & Safe 5 in 1 Cat Furniture Set, Wooden Climbing Wall with Scratching Post for 16 Inch Drywall, Wall-Mounted Shelves & Play System (Beige)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Trees",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FS77YY1L",
+      "title": "CU-MATE Electronic Stuffed Walking Cats, Realistic Interactive Pet Toy Cat, Walking, Barking, Wagging Tail & Talking, Present Gifts for 3+ Year (British Shorthair Blue and White Cat)",
+      "category_path": "Toys & Games > Kids' Electronics > Electronic Pets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FSS5XD3N",
+      "title": "Cow Spots Christmas Tree Skirt Round Winter Snow Suitable for Christmas Indoor Outdoor Christmas Decorations 36\" Inch",
+      "category_path": "Home & Kitchen > Seasonal Décor > Tree Skirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT19FXCC",
+      "title": "Windiboo Hard Shell Cat Carrier with Wheels, Rolling Cat Travel Carrier with Telescoping Handle, Transparent Pet Carrier for Cats (Green)",
+      "category_path": "Pet Supplies > Cats > Carriers & Strollers > Carriers > Hard-Sided Carriers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT26DZLJ",
+      "title": "TV Cover for Moving & Shipping, 60\"-65\" Flat Screens TV Cover Protector Heavy Duty Felt Anti-Scratch Dust Resistant with Straps for Protection TV Moving Home Renovation Pet Scratch or Other Furniture",
+      "category_path": "Electronics > Television & Video > Accessories > TV Display Protectors",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT2X6YKH",
+      "title": "Rustic Cow Faux Fur, Cowhide Christmas Tree Skirt Round Winter Snow Suitable for Christmas Indoor Outdoor Christmas Decorations 48\" Inch",
+      "category_path": "Home & Kitchen > Seasonal Décor > Tree Skirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT33R62Z",
+      "title": "Sletend Christmas Dachshund Large Christmas Tree Skirt 47.2/35.4 Inch Plush Soft Velvet, Round Base Cover with Easy Tie Closure for Holiday Decoration, Xmas Tree Living Room Outdoor",
+      "category_path": "Home & Kitchen > Seasonal Décor > Tree Skirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FT3CVPNP",
+      "title": "Sletend Christmas Dachshund Christmas Tree Skirt Plush Velvet Fabric 47.2/35.4 Inch, Round Holiday Base Cover with Open Design and Secure Ties for Xmas Tree Living Room Garden Decor",
+      "category_path": "Home & Kitchen > Seasonal Décor > Tree Skirts",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FV86BLBN",
+      "title": "DKFGJRGHSJ Cat Calming Treats, 200 Hemp Soft Chews Cat Calming Treats for Anxiety Relief with Glucosamine Hip & Joint Support Calming Chews for Cats Anxiety Stress Chicken Flavor",
+      "category_path": "Pet Supplies > Cats > Health Supplies > Relaxants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVFNTY7B",
+      "title": "Pawsibility Pet Nail Clipper PRO 2026 -​​ ​​Quick-Vision LED Light | 2-Stage Adjustable Professional-Grade Blade | Adjustable Magnifier Safety Guard - for Cats, Small, Medium and Large Dogs​ - Black",
+      "category_path": "Pet Supplies > Dogs > Grooming > Claw Care",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FVXQZD6M",
+      "title": "Dog House Indoor Memory Sponge,Bear Shape Small Dog Cave Bed with Removable Cushion Pillow & Foldable Cat House Kennel Bed for Cats & Dogs,Enclosed Cat Bed with Nonskid Bottom (Brown, M:17x14x15in)",
+      "category_path": "Pet Supplies > Dogs > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWQY578Q",
+      "title": "Wellix Freeze-Dried Treats for Dogs and Cats - Chicken&Vegetables Flavor Healthy Cat Treats 4.23oz, Freeze Dried Cat Treats Rich in Pumpkin, Cranberry - High-Protein Food Topper for Gut Health",
+      "category_path": "Pet Supplies > Dogs > Food > Dry > Freeze-Dried",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRBD4Z7",
+      "title": "White Doodle Dog Head Golf Driver Club Headcover,- Neutral Decor for Golf Spaces",
+      "category_path": "Sports & Outdoors > Sports > Golf > Accessories > Head Covers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FWRND1WR",
+      "title": "Aleena Enterprises LLC | Pet Hair Removal Glove (Black,1 Pc) – Reusable 5-Finger Electrostatic Fur Remover for Cats & Dogs – Washable Sticky Fur Gloves for Furniture, Carpets & Clothes",
+      "category_path": "Pet Supplies > Cats > Grooming > Hair Removal Mitts & Rollers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX2M1KX9",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish Hamster (Red, Medium)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX2MD1Q4",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish Hamster (Frosted Blue, Medium)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX2Q9DZG",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish Hamster (Gold, Medium)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX2QH7ML",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish Hamster (Black, Medium)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX2QNRLK",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish Hamster (Frosted Silver, Medium)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX4BRLV7",
+      "title": "MoofeePaws Purrfect Peace Cat Swaddle Wrap – 27.6\" Professional Calming Restraint Bag for Grooming, Nail Trimming & Medicine - Adjustable Cat Restraint for Grooming, Nail Clipping & Vet Visits",
+      "category_path": "Pet Supplies > Cats > Grooming > Claw Care",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FX51K2YB",
+      "title": "Orange Cat Floral Themed Blanket - 50\"x60\" Cute Orange Cat Gifts for Cats Lovers Women Mom Teen Girls All Season Super Soft Comfort Flannel Blanket Pet Cats Lovers Valentine Birthday Present",
+      "category_path": "Home & Kitchen > Bedding > Blankets & Throws > Throws",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXB2LZM2",
+      "title": "SUUNOG Snuffle Mat for Dogs Large Breed - Interactive Dog Toys for Boredom - Sniff mat - Mental Stimulation - Enrichment Toys- Slow Feed- Washable & Foldable (B)",
+      "category_path": "Pet Supplies > Dogs > Feeding & Watering Supplies > Feeding Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXB38XQ9",
+      "title": "SUUNOG Snuffle Mat for Dogs Large Breed - Interactive Dog Toys for Boredom - Sniff mat - Mental Stimulation - Enrichment Toys- Slow Feed- Washable & Foldable (C)",
+      "category_path": "Pet Supplies > Dogs > Feeding & Watering Supplies > Feeding Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXB4RTWD",
+      "title": "SUUNOG Snuffle Mat for Dogs Large Breed 36'' X 34'' - Interactive Dog Toys for Boredom - Sniff mat - Mental Stimulation - Enrichment Toys- Slow Feed- Washable & Foldable (A)",
+      "category_path": "Pet Supplies > Dogs > Feeding & Watering Supplies > Feeding Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXLQ719M",
+      "title": "47in Cat Tree-Replacement Part (Brown)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Window Perches",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FXWB7QSR",
+      "title": "NESTURA Custom Pet Lovers Card | Personalized Game-Inspired Furry Friend Birthday Gifts | Customizable Trading Card with Pet Photo | Anime Style Metal Cards for Best Cat Dad Cat Mom",
+      "category_path": "Office Products > Office & School Supplies > Paper > Cards & Card Stock > Greeting Cards",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FY3B9DZ6",
+      "title": "Pawaura Cat Hairball Remedy Chews,300 Chews,Natural Hairball Treatment for All Cats,Supports Skin,Coat,Digestive & Urinary Health,Chicken Flavor",
+      "category_path": "Pet Supplies > Cats > Health Supplies > Hairball Remedy Pastes & Gels",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0FYFPRZX6",
+      "title": "Cat Wall Shelves Furniture Set of 6, Wooden Cat Steps for with Scratching Pad, Sturdy Floating Climber Ladder Stairs, Cats Climbing Wall Systems for Cats Sleep Climb Play",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Stairs & Steps",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0FZJLMTH8",
+      "title": "Cat Scratching Post, 35 Inch Tall Cat Scratcher Cat Tree Tower with Hanging Ball for Indoor Cats Adults,Sisal Rope Kitten Scratch with Interactive Mouse Cat Toy (41in, Watermelon Leaves)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Posts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G1MYN19K",
+      "title": "TNELTUEB Cat Desk Bed - 360° Rotating,Clamp On Cat Bed for Desks, Adjustable High Support Up to80 lbs for Office, Game Table, Island Tables, Desktop Attachment Hammock Grey",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Beds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G1T93PDJ",
+      "title": "UUig Cat Scratcher Bed Cardboard Cat Scratch Couch Board 25 inches Large Cat Scratching Sofa Lounge & Scratch Pad for Indoor Cats, Furniture Protector",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G25QFP1W",
+      "title": "2PC Kitlty Kurliz Cat Toy,Magic Organ Cat Toy, Foldable Recyclable Cat Accordion Toy for Indoor Cat Playing,Interactive Scratch Pad with Toy Ball",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G277JCCX",
+      "title": "Mud Kingdom Big Kids Ruffled Sleepwear Set with Floral Print Long Sleeve Homewear for Nights Cartoon Cat Size 14",
+      "category_path": "Clothing, Shoes & Jewelry > Girls > Clothing > Sleepwear & Robes > Pajama Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G2MNQCW3",
+      "title": "BFF Pet Lover Dog Cat Multi-Charm Link Bracelet with Heart Bone Paw Charms & Open Paw Print Stud Earrings Jewelry Set for Women & Teens .925 Sterling Silver",
+      "category_path": "Clothing, Shoes & Jewelry > Women > Jewelry > Jewelry Sets",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G32893WF",
+      "title": "SpottedCozy Luxury Faux Fur Throw Blanket, Ultra Soft & Fluffy Blanket for Couch, Sofa, Bed & Living Room – Double-Sided 3D Bubble Blanket (White (Double-Sided Faux Fur Bubble), Twin (60\" x 80\"))",
+      "category_path": "Home & Kitchen > Bedding > Blankets & Throws > Throws",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G349WTSQ",
+      "title": "Cat Wall Shelves, 6 in 1 Cat Wall Furniture with Cat Bridge, Wall Condo, Hammock, Steps, Climbing Post & Scratching Pad Space-Saving Indoor Cat Shelves for Play & Rest, up to 33 lbs",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Posts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G34JDTTY",
+      "title": "HAPPYCODE 2-in-1 Electric Cat Wand – Rechargeable Auto Indoor Toy, Suction & Hanging Design, 2 Modes (Track Chase + Bounce),Perfect for Kittens & Adult Cats, Ultimate Cat Gift",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G34QBX9P",
+      "title": "Elixique Dog Nail Scratch Board: Wooden Dog Scratch Pad for Nails with 2pcs Replaceable Sandpaper, Quiet Dog Nail File Board & Nail File Toy, Interactive Scratch Board for Dogs with Treat Box",
+      "category_path": "Pet Supplies > Dogs > Grooming > Claw Care",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G3GPM4S2",
+      "title": "Gnaye Cat Deterrent Spray丨Cat Repellent Spray for Indoor & Furniture, Anti-Scratch Deterrent for Furniture, Sofas, Rugs, Curtains, Plants",
+      "category_path": "Pet Supplies > Cats > Educational Repellents > Spray Repellents",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G3GXY3G1",
+      "title": "Pawfun Self-Adhesive Cat Grooming Wrap, Cozy Cat Wrap for Cutting Nails, Breathable Anti-Scratch Cats Swaddle Bag for Brushing, Ear Cleaning, Dental Care, Medication, Injections, Pink S",
+      "category_path": "Pet Supplies > Cats > Grooming > Claw Care",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G3M3163T",
+      "title": "KEJUOM Plush Cat Stuffed Animal, Cute Plushies Soft Companion Pets Kitten Plush Toys 20 Inch (Brown)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3M56NBR",
+      "title": "KEJUOM Plush Cat Stuffed Animal, Cute Plushies Soft Companion Pets Kitten Plush Toys 20 Inch (Gray)",
+      "category_path": "Toys & Games > Stuffed Animals & Plush Toys > Stuffed Animals & Teddy Bears",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3W32HVW",
+      "title": "Solpobei Stainless Steel Cat Litter Box with Lid – Enclosed & Covered High-Sided Kitty Litter Box, Medium or Small, Metal Litter Pan for Cats and Kittens, Odor Control, Easy Cleaning",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Boxes > Standard Litter Boxes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G3ZP7MY9",
+      "title": "Extensible Cat Scratcher Cardboard Toy | Magic Accordion Scratching Pad with Bell Ball - Foldable & Reversible Interactive Kitty Play for Indoor Cats (1 Pack)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G46HC7MG",
+      "title": "Cardboard Cat House for Indoor Cats, Double Layer Cat Scratcher House for Large Kitty Rabbit Bunny, Scratch & Sleep 2 in 1 Design, Durable & Easy to Assemble Scratching Bed(Convenience Store)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Cat Houses & Condos",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G4VWHWYM",
+      "title": "Decorative Wall Art Cat Scratcher, BC Grade Cardboard Framed 13\"x17\" Dust-Free Vertical Scratching Post, No-Drill Wall Mount (Renter-Friendly), Durable Cat Toy & Home Decor (Cherry) (Plant)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G586HC8H",
+      "title": "VigorSpring 17 Inch White Cat Shaped Pillow for Girls Boys, Cozy Teddy Faux Fur Stuffed Animal, Cute Decorative Throw Pillow Cat Plushies Gift for Birthday Christmas Valentine's Day Home Decor",
+      "category_path": "Home & Kitchen > Bedding > Decorative Pillows, Inserts & Covers > Throw Pillows",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G6DJLKQY",
+      "title": "Deapher Cat Nail File Scratcher & Scratching Pad - Natural Sisal Scratch Mat with 80-Grit Aluminum Oxide, Wall/Floor Cat Scratcher that File Nails for Nail Trimming & Furniture Protection",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0G7ZNMS3D",
+      "title": "6-Pack Black Cat Magnetic Bookmarks with Wooden Thumb Book Page Holder, Cute Cat Book Mark Clips & One-Hand Book Holder for Reading, Book Lovers Gifts for Women Cat Lovers",
+      "category_path": "Office Products > Office & School Supplies > Book Covers & Book Accessories > Bookmarks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0G7ZRQFGL",
+      "title": "Cat Bookmark and Thumb Book Page Holder Set – Stainless Steel Cat Bookmark with Walnut Wood Cat Page Holder for Reading, Perfect Book Lovers Gifts & Cat Lover Unique Gifts",
+      "category_path": "Office Products > Office & School Supplies > Book Covers & Book Accessories > Bookmarks",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GC717WPH",
+      "title": "32” Tall Cat Scratching Post – Large Vertical Cardboard Cat Scratcher for Indoor Cats, Modular Replaceable Blocks, Heavy Stable Base, Modern Scratching Post for Adult & Large Cats",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Posts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GC7P12G2",
+      "title": "24” Cat Scratching Post, Stable Vertical Cat Scratcher for Indoor Cats, Durable Cardboard Design with Replaceable Blocks, Space-Saving Scratching Post",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Posts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GCMWG2J3",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish (Black (Cylindrical), Medium)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCMWT8L8",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish (Gold (Cylindrical), Medium)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GCNG3WBQ",
+      "title": "Personalized Pet Urn for Dogs and Cats, Premium Stainless Steel Custom Dog Ashes Urn with Engraving Photo, Name, Date, Keepsake Memorial Pet Urns for Cat Bird Fish (Silver (Cylindrical), Medium)",
+      "category_path": "Home & Kitchen > Home Décor Products > Home Décor Accents > Decorative Accessories > Decorative Urns",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GD5PXJSV",
+      "title": "Cat Tree 5-Tier Floor to Ceiling Cat Tower with Cozy Hammock, 89-109 Inch Adjustable Height Sisal Scratching Post, Provides Vertical Enrichment for Jumping & Climbing, Darkgrey",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Trees",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GDDV51K2",
+      "title": "ANYSENT Interactive Chirping Bird Cat Toy,2026 New Flying Bird Cat Toy Flapping Bird Toy,Simulation Chirping Bird Toys Interactive Cat Toys for Bored Indoor Adult Cats (Light Grey/1PCS)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDDY8D89",
+      "title": "Cute Cat Tree Tower for Indoor Cats Adult, Wood Flower Cat Trees with Cat Hammock, Modern Cat Tree Tower with Scratching Post, Aesthetic Luxury Cats Condo for Cats Kitten(Alpine White)",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Trees",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GDFCKZXM",
+      "title": "Teenyyou Wooden Dog Closet Pet Wardrobe with Hanging Rod – Dog-Vision Yellow, 20\"x13\"x9\" Storage Box for Dog Cat Clothes & Toys, Includes 10 Hangers + 78 Personalized Letters (Easy Assembly)",
+      "category_path": "Pet Supplies > Dogs > Crates, Houses & Pens > Crates > Furniture-Style Crates",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDW5PKP2",
+      "title": "ANYSENT Interactive Chirping Bird Cat Toy,2026 New Flying Bird Cat Toy Flapping Bird Toy,Simulation Chirping Bird Toys Interactive Cat Toys for Bored Indoor Adult Cats (A-Yellow)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GDWN1FGW",
+      "title": "ANYSENT Interactive Chirping Bird Cat Toy,2026 New Flying Bird Cat Toy Flapping Bird Toy,Simulation Chirping Bird Toys Interactive Cat Toys for Bored Indoor Adult Cats (Blue+Light Grey)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFBKCM2B",
+      "title": "Pet Tent House Portable Removable Breathable Teepee Dogs Cats Indoor Outdoor Kennels for Camping for Outdoor for for Outside",
+      "category_path": "Pet Supplies > Dogs > Crates, Houses & Pens > Dog Houses",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFLWC7HC",
+      "title": "Outdoor Cat Enclosure,Cat Playground Tent for Outdoor and Indoor Playpen Portable Cat Tunnels, Foldable Cat Tubes Toys for Kitten, Puppy, Rabbit and Small Animals(2 Small Hexagonal Cubes+Tunnel)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFN3BSG7",
+      "title": "Interactive Toys for Cats, 2026 New Interactive Cat Toy Ball, Automatic Moving Cat Toy for Indoor Use, Rechargeable Feather Tail Cat Toy with Stimulation for Small Medium Large Cats (1 * Orange)",
+      "category_path": "Pet Supplies > Cats > Toys > Feather Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GFNDYJ5F",
+      "title": "JAWNLITY Custom Pet Stained Glass Suncatcher with Photo & Name, Personalized Dog Cat Portrait Window Hanging Sun Catcher, Pet Memorial Sympathy Home Decor Gift for Pet Lovers",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Garden Sculptures & Statues > Suncatchers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GG6KBK46",
+      "title": "Don't Let The Cats Out Or The Cops in Door Mat Coir DoorMat Outside Entrance,Funny Black Cat Doormat,Welcome Floor Front Door mat with Rubber Heavy Duty Backing,Indoor Patio Home Decor 30 * 18 in",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Doormats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGBCF489",
+      "title": "MAXIJIN Waterproof Recliner Cover Washable 3 Pieces Recliner Chair Covers with Elastic Bottom Non Slip Cover for Lazy Boy Reclining Chair Furniture Protector for Dogs Cats, Blackish Green",
+      "category_path": "Home & Kitchen > Home Décor Products > Slipcovers > Recliner Slipcovers",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGBJ92FK",
+      "title": "Non Electric Fence Netting 40\" x100', Boundary Fence with Double Spiked Posts, Portable Poultry Fence All-Purpose Fencing for Dogs, Chickens, Ducks, Turkeys Suitable in Backyard, Garden, Farm",
+      "category_path": "Patio, Lawn & Garden > Outdoor Décor > Decorative Fences",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGHJB1HX",
+      "title": "Gyuzh Recovery Suit for Dogs & Cats After Surgery - Soft Surgical Onesie, Cone Substitute to Prevent Licking Wounds, Post-Op Protective Wear for Spay Neuter Dark Grey M",
+      "category_path": "Pet Supplies > Dogs > Health Supplies > Surgery Recovery Suits",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GGJ6D7YB",
+      "title": "2 Pack Kitty Cat Toy, Cat Scratchers for Indoor Cats, Magic Organ Foldable Cardboard Cat Scratcher, Cat Toy Interactive Relieve Boredom and Exercise Brown",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GHQV9PW8",
+      "title": "Orange Cat Themed Blanket - 50\"x60\" Cute Orange Cat Gifts for Cats Lovers Women Mom Teen Girls All Season Super Soft Comfort Flannel Blanket Pet Cats Lovers Christmas Birthday Gifts",
+      "category_path": "Home & Kitchen > Bedding > Blankets & Throws > Throws",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHR3F35X",
+      "title": "Cat Lover Gifts for Women Men - 50x60 Inch Black and White Cats Throw Blanket, Super Soft Flannel Fleece Cozy Blanket for Couch, Black Cat Themed Gifts for Adults, Cats Mom Dad Present",
+      "category_path": "Home & Kitchen > Bedding > Blankets & Throws > Throws",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GHTJBP7M",
+      "title": "MIUZMORE Cat Wall Shelves, 10-Piece Complete Cat Wall Furniture System with Perches and Scratching Posts, Stable Floating Climbing Set for Large Indoor Cats, Space Saving Kitty Furniture - Light Gray",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Posts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GHTNHLVN",
+      "title": "MIUZMORE Cat Wall Shelves, 10-Piece Complete Cat Wall Furniture System with Perches and Scratching Posts, Stable Floating Climbing Set for Large Indoor Cats, Space Saving Kitty Furniture - Dark Gray",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Posts",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GHX1G2C9",
+      "title": "Kitty Kurlz Cat Toys, Magic Organ Cat Scratcher Board with 2 Bell Balls,Twisty Paws Cat Toy Foldable＆Changeable, Interactive Kitty Curls for Indoor Cats Physical & Mental Exercise-Coffee Brown",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Scratching Pads",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GJCPN4KP",
+      "title": "STAOVA Cat Food Bowl, Ceramic Cat Bowls, Anti Whisker Fatigue Cats Bowl Set,Shallow Wide Kitten Plates for Food and Water (Pale Pink Xie)",
+      "category_path": "Pet Supplies > Cats > Feeding & Watering Supplies > Bowls & Dishes > Slow Feeders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJRLTXGK",
+      "title": "Cat Shock Collar, Ultra-Light & Thin Cat Training Collar with 2000ft Remote, Tailored for Cats & Small Dogs, 99-Level Precise Training to Stop Meowing, Effective for Bad Behavior，Green",
+      "category_path": "Pet Supplies > Dogs > Collars, Harnesses & Leashes > Collars > Electronic Training Collars",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GJSX7T6C",
+      "title": "Ceramic Elevated Slow Feeder Cat Bowl,Anti Vomit Design for Whisker Fatigue Relief,Elevated Slow Feeder Bowls for Indoor Cats&Small Breeds,Perfect for Wet Food&Small Dogs (4, White)",
+      "category_path": "Pet Supplies > Cats > Feeding & Watering Supplies > Bowls & Dishes > Slow Feeders",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GKD6XRR6",
+      "title": "Warfort Durable Outdoor Dog Bed Chew Proof Stable Crate Mat Indoor cat Bed Anti Mild Bite Kennel Pad with Removable Fully Waterproof Cover (Blue, Large(36x22x1.5in))",
+      "category_path": "Pet Supplies > Dogs > Beds & Furniture > Bed Mats",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GKP21J77",
+      "title": "ANYSENT Interactive Chirping Bird Cat Toy,2026 New Flying Bird Cat Toy Flapping Bird Toy,Simulation Chirping Bird Toys Interactive Cat Toys for Bored Indoor Adult Cats (A-Black)",
+      "category_path": "Pet Supplies > Cats > Toys > Interactive Toys",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GKVLWM5S",
+      "title": "Cat Litter Box Step Ramp,Cat Litter Catcher Mat with ABS Material Base,Filter Function,Pedal Stool for Self-Cleaning Litter Box,Anti-Tracking & Non-Slip,Ideal for Kitten & Elderly Cats,White",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Stairs & Steps",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GL715SLS",
+      "title": "FURRY ARMOR Cat Calming Pheromone Diffuser Kit with 2 Plug-in Bases & 4 Refills – Odorless, Drug-Free Anxiety Relief for Cats – Stops Excessive Meowing, Scratching(2 Diffuser+4 Refills)",
+      "category_path": "Pet Supplies > Cats > Health Supplies > Relaxants",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GLF6L567",
+      "title": "Dog Nail Scratch Board with Treat: Wooden Dog Nail File Board with Replaceable Sandpaper, Quiet Dog Nail Trimmer Alternative for Stress-Free Nail Care",
+      "category_path": "Pet Supplies > Dogs > Grooming > Claw Care",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GLXL7BHB",
+      "title": "Curtain for Self Cleaning Cat Litter Box,Reduces Cat Litter Bounce, Stops Odors from The Litter Box Self Cleaning (Blue Wave)",
+      "category_path": "Pet Supplies > Cats > Litter & Housebreaking > Litter Boxes > Self-Cleaning Litter Boxes",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GM646JQT",
+      "title": "Cat Print Cotton Fabric Layer Cake 10\" Precut Quilt Squares, 48 Pcs (8 Patterns x 6 Each), Cute Cats Quilting Fabric Bundle for Sewing Patchwork Crafts DIY",
+      "category_path": "Arts, Crafts & Sewing > Fabric",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GPMGX1J3",
+      "title": "zlpooily 3PCS Cute Paw Print Pet Food Scoop, 1Cup Plastic Measuring Spoon for Cat/Dog Food, Non-Slip Ergonomic Handle Dry/Wet Food Scoop (3 Colors) (Large)",
+      "category_path": "Home & Kitchen > Kitchen & Dining > Kitchen Utensils & Gadgets > Measuring Tools & Scales > Spoons",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQ2G68LM",
+      "title": "Fluffy Cat Sleeping Bag for Human, Adults Soft Sleeping Bag, Plush Animal Wearable Blanket, Washable Adorable Cat Envelope Sleepings Bags for Camping Sleepovers & Home Lounging(Style E)",
+      "category_path": NaN,
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQHXTVY8",
+      "title": "Calming Collar for Cats - Cat Calming Collar Infused with Synthetic Pheromones, Cat Pheromone Diffuser Necklace for Anxiety Relief, Travel, Keeping Quiet - 4 Weeks Supply Each Collar (Orange, 4P)",
+      "category_path": "Pet Supplies > Cats > Health Supplies > Relaxants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GQLP4949",
+      "title": "Dog Nail Scratch Board with Treat: Wooden Dog Nail File Board with Replaceable Sandpaper, Quiet Dog Nail Trimmer Alternative for Stress-Free Nail Care",
+      "category_path": "Pet Supplies > Dogs > Grooming > Claw Care",
+      "found_by": [
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GRTLST2G",
+      "title": "Cat Tree 5-Tier Floor to Ceiling Cat Tower with Cozy Hammock, 89-109 Inch Adjustable Height Sisal Scratching Post, Provides Vertical Enrichment for Jumping & Climbing, Grey",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Trees",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GS8PQCTV",
+      "title": "Scratch Remover for Vehicles,2026 New Scratch Removal Wax,Containing Wiping Sponge car Paint Scratch Repair Polishing Wax,Used for Deep Scratches on Various Vehicles (2pc)",
+      "category_path": "Automotive > Car Care > Exterior Care > Polishing & Rubbing Compounds",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GS9MG6XL",
+      "title": "Bifanuo Cat Tree Tower, 14.7\" Tall, Brown and Green, Multi-Level with Platforms, Condos, Scratching Posts, Light Brown",
+      "category_path": "Pet Supplies > Cats > Beds & Furniture > Trees",
+      "found_by": [
+        "keyword",
+        "embedding",
+        "systems"
+      ]
+    },
+    {
+      "asin": "B0GSGRDP68",
+      "title": "Pet Low Noise Nebulizer for Cats and Dogs, Mask Designed Specifically for Pets (Small - Cats and Puppy)",
+      "category_path": "Pet Supplies > Cats > Health Supplies > Relaxants",
+      "found_by": [
+        "embedding"
+      ]
+    },
+    {
+      "asin": "B0GT2QHSTJ",
+      "title": "Stainless Steel Lick Mat for Dogs and Cats, Chew Proof Slow Feeder with Suction Cups and Crate Mount, Three Textured Zones for Calm Feeding and Daily Use [2Pack]",
+      "category_path": "Pet Supplies > Cats > Feeding & Watering Supplies > Feeding Mats",
+      "found_by": [
+        "embedding"
+      ]
+    }
+  ]
+}
