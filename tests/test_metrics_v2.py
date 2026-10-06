@@ -1,6 +1,11 @@
 """metrics_v2.score: each golden v2 status is scored its own way."""
 
-from evaluator.metrics_v2 import score, summarize
+import pytest
+
+# evaluator/ is offline tooling, kept out of the API image (.dockerignore), so the
+# in-image test step skips this module rather than failing on the import.
+metrics_v2 = pytest.importorskip("evaluator.metrics_v2")
+score, summarize = metrics_v2.score, metrics_v2.summarize
 
 
 def _entry(status, labels):

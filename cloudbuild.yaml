@@ -48,12 +48,22 @@ steps:
 
   # 3. Gate the deploy on the test suite, run inside the image that will ship.
   #    raw_data tests need large offline files deliberately kept out of the image.
+  #    llm_client and analysis_agent read their API settings at import time; the
+  #    tests never call out, so placeholders are enough (real values come at deploy).
   - id: test-api
     name: 'gcr.io/cloud-builders/docker'
     waitFor: ['build-api']
     args:
       - 'run'
       - '--rm'
+      - '-e'
+      - 'DEEPSEEK_MODEL=test'
+      - '-e'
+      - 'DEEPSEEK_API_KEY=test'
+      - '-e'
+      - 'DEEPSEEK_BASE_URL=http://localhost'
+      - '-e'
+      - 'ANTHROPIC_API_KEY=test'
       - '--entrypoint'
       - 'sh'
       - '${_REPO}/api:$BUILD_ID'
