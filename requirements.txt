@@ -9,6 +9,7 @@ huggingface-hub>=0.23.0
 python-dotenv
 plotly
 pandas
+pyarrow==23.0.1  # pandas parquet engine; not pulled in transitively any more
 numpy
 scikit-learn
 pillow
