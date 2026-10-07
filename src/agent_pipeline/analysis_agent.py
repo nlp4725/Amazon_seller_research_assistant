@@ -17,7 +17,7 @@ Flow per user message:
        - _get_top_sellers(): top 5 sellers by launch count
   3. JSON result handed to Claude Haiku, which writes the narrative report -- the only
      Claude call in the system.
-  4. Plain text returned to app.py for rendering
+  4. Prose returned to main.py, plus report_view()'s chart payload for the frontend
 """
 
 import calendar
@@ -222,14 +222,22 @@ def _get_top_sellers(sub_df: pd.DataFrame, n: int = 5) -> list[dict]:
 
 @traceable(name="niche_report")
 def niche_report(categories: list[dict], concept: str | None = None, n_clusters: int = 6, mode: str = "simple") -> dict:
+    return _build_report(categories, concept, n_clusters, mode)[0]
+
+
+def _build_report(
+    categories: list[dict], concept: str | None, n_clusters: int, mode: str
+) -> tuple[dict, pd.DataFrame]:
+    """niche_report's body, also returning the matched sub_df so run_chat can build the
+    view-only chart payload (report_view) without that data ever reaching Haiku."""
     col = _load_chroma()
     if col.count() == 0:
-        return {"error": "ChromaDB is empty."}
+        return {"error": "ChromaDB is empty."}, pd.DataFrame()
 
     sub_df, sub_emb, pipeline_meta = _get_product_subset(categories, concept, mode)
 
     if len(sub_df) == 0:
-        return {"error": "No matching products found."}
+        return {"error": "No matching products found."}, sub_df
 
     category_names = [c["category"] for c in categories]
 
@@ -245,7 +253,7 @@ def niche_report(categories: list[dict], concept: str | None = None, n_clusters:
         cat_total = len(sub_df)
         pct_of_category = None
 
-    return {
+    report = {
         "concept": concept,
         "categories": category_names,
         "mode": pipeline_meta["mode"] if pipeline_meta else None,  # "simple" (fast scan) or "structured" (thorough scan)
@@ -267,6 +275,98 @@ def niche_report(categories: list[dict], concept: str | None = None, n_clusters:
         ),
         "trend_by_theme": _get_theme_trend(sub_df, sub_emb, n_clusters),  # which themes are growing
         "top_sellers": _get_top_sellers(sub_df),                      # who dominates this space
+    }
+    return report, sub_df
+
+
+RECENT_LAUNCHES_N = 8  # rows in the frontend's recent-launches table
+
+# Price buckets for the frontend's distribution chart. The dataset is $15-$100 standalone
+# launches, so the edges cover that range; anything outside lands in the end buckets.
+PRICE_BUCKETS = [(15, 20), (20, 30), (30, 50), (50, 75), (75, 100)]
+
+
+def _price_distribution(prices: pd.Series) -> list[dict]:
+    """[{range: "$20–30", count}], one entry per PRICE_BUCKETS edge pair, end buckets open."""
+    out = []
+    for i, (lo, hi) in enumerate(PRICE_BUCKETS):
+        above = prices >= lo if i > 0 else pd.Series(True, index=prices.index)
+        below = prices < hi if i < len(PRICE_BUCKETS) - 1 else pd.Series(True, index=prices.index)
+        out.append({"range": f"${lo}–{hi}", "count": int((above & below).sum())})
+    return out
+
+
+def report_view(report: dict, sub_df: pd.DataFrame) -> dict:
+    """
+    View-only payload for the frontend's stat cards, charts and tables. Never sent to Haiku,
+    so the faithfulness eval's input is unchanged. Every number is copied from the report or
+    counted directly from sub_df -- the browser computes nothing.
+
+    In: niche_report() dict (no "error" key), the matched sub_df it was built from
+    Out: {stats, launches_by_month, price_distribution, price_peak, themes, top_sellers,
+          recent_launches, note}
+    """
+    has_rows = len(sub_df) > 0
+
+    launches_by_month = []
+    if has_rows:
+        months = sub_df["launch_year_month"].dt.to_period("M")
+        counts = months.value_counts()
+        # Zero-filled so a month with no launches draws as 0, not as a gap the line skips.
+        span = pd.period_range(months.min(), months.max(), freq="M")
+        launches_by_month = [{"month": str(m), "count": int(counts.get(m, 0))} for m in span]
+
+    recent_launches = []
+    if has_rows:
+        newest = sub_df.sort_values("launch_year_month", ascending=False).head(RECENT_LAUNCHES_N)
+        recent_launches = [{
+            "asin": row.get("asin"),
+            "title": row["title"],
+            "price": round(float(row["price"]), 2),
+            "seller": None if row["seller"] == "-1" else row["seller"],  # "-1" = buybox was empty
+            "launched": row["launch_year_month"].strftime("%Y-%m"),
+        } for _, row in newest.iterrows()]
+
+    known_sellers = sub_df[sub_df["seller"] != "-1"]["seller"] if has_rows else pd.Series(dtype=str)
+    price_distribution = _price_distribution(sub_df["price"]) if has_rows else []
+
+    return {
+        "stats": {
+            # match_count is null for a broad category query -- same fallback the prompt uses.
+            "products": report["match_count"] if report["match_count"] is not None else report["total_products_analyzed"],
+            "is_match_count": report["match_count"] is not None,
+            "pct_of_category": report["pct_of_category_launches"],
+            "category_total": report["category_total"],
+            "median_price": round(float(sub_df["price"].median()), 2) if has_rows else None,
+            "scan_label": report["scan_label"],
+            "candidates_considered": report["titles_found_count"],  # null for a broad category query
+            "unique_sellers": int(known_sellers.nunique()),
+            # Sum of the precomputed shares, so it always agrees with the sellers table.
+            "top_sellers_pct": round(sum(s["pct_of_total_launches"] or 0 for s in report["top_sellers"]), 1),
+            "top_sellers_n": len(report["top_sellers"]),
+            "categories": report["categories"],
+            "concept": report["concept"],
+        },
+        "launches_by_month": launches_by_month,
+        "price_distribution": price_distribution,
+        "price_peak": max(price_distribution, key=lambda b: b["count"])["range"] if has_rows else None,
+        "themes": [{
+            "label": c["representative_titles"][0] if c["representative_titles"] else None,
+            "size": c["size"],
+            "avg_price": c["avg_price"],
+            "by_year": c["by_year"],
+            "growth_pct": c["growth_pct_2024_2025"],
+            "trend_tag": c["trend_tag"],
+        } for c in report["trend_by_theme"]],
+        "top_sellers": [{
+            "seller_id": s["seller_id"],
+            "launches": s["total_launches"],
+            "avg_price": s["avg_price"],
+            "pct": s["pct_of_total_launches"],
+            "is_dominant": s["is_dominant"],
+        } for s in report["top_sellers"]],
+        "recent_launches": recent_launches,
+        "note": report["note"],
     }
 
 
@@ -379,7 +479,8 @@ def write_report(messages: list[dict], report: dict) -> str:
 
 
 @traceable(name="run_chat", run_type="chain")
-def run_chat(messages: list[dict], mode: str = "simple") -> str:
+def run_chat(messages: list[dict], mode: str = "simple") -> dict:
+    """Out: {"reply": prose, "data": report_view() payload, or None for text-only replies}"""
     # STEP 1 (app.py): st.chat_input() captures user message
     # STEP 2 (app.py): append to session_state.messages, call run_chat(messages)
     # mode is a user-facing UI choice (fast/"simple" vs thorough/"structured"), not
@@ -392,17 +493,18 @@ def run_chat(messages: list[dict], mode: str = "simple") -> str:
     if "clarify" in resolved:
         # Ask the user something, or decline an off-topic request. Nothing for Haiku to
         # narrate, so return the reply directly.
-        return resolved["clarify"]
+        return {"reply": resolved["clarify"], "data": None}
 
     # STEP 4: run niche_report locally — ChromaDB search + KMeans + seller stats. Plain
     # function call now (not a tool-call dispatch) — categories/concept are already
     # resolved Python values, nothing left to parse.
-    report = niche_report(
+    report, sub_df = _build_report(
         categories=resolved["categories"],
         concept=resolved["concept"],
+        n_clusters=6,
         mode=mode,
     )
     # STEP 5: Claude Haiku call — report generation step.
-    # STEP 6: extract plain text and return to app.py
-    # STEP 7 (app.py): st.markdown(reply) renders in chat bubble
-    return write_report(messages, report)
+    # STEP 6: return the prose plus the chart payload (built separately, never shown to Haiku)
+    data = None if "error" in report else report_view(report, sub_df)
+    return {"reply": write_report(messages, report), "data": data}

@@ -171,3 +171,102 @@ def test_niche_report_no_concept_has_no_mode_or_match_count(monkeypatch):
     assert result["mode"] is None
     assert result["match_count"] is None
     assert result["titles_found_count"] is None
+
+
+# ---------- report_view: the frontend's chart payload, never sent to Haiku ----------
+
+def _report_and_sub(monkeypatch, pipeline_meta):
+    sub_df, sub_emb = _fake_matched_sub(5)
+    monkeypatch.setattr(
+        analysis_agent, "_get_product_subset",
+        lambda categories, concept, mode: (sub_df, sub_emb, pipeline_meta),
+    )
+    report = analysis_agent.niche_report(PET_SUPPLIES, concept="dog fountain", mode="structured")
+    return report, sub_df
+
+
+def test_report_view_copies_report_numbers(monkeypatch):
+    report, sub_df = _report_and_sub(monkeypatch, {"mode": "structured", "match_count": 5, "titles_found_count": 166})
+
+    view = analysis_agent.report_view(report, sub_df)
+
+    assert view["stats"]["products"] == 5
+    assert view["stats"]["is_match_count"] is True
+    assert view["stats"]["pct_of_category"] == report["pct_of_category_launches"]
+    assert view["stats"]["scan_label"] == "Thorough scan"
+    assert view["stats"]["candidates_considered"] == 166  # titles_found_count, shown as "Candidates checked"
+    assert [t["trend_tag"] for t in view["themes"]] == [c["trend_tag"] for c in report["trend_by_theme"]]
+    assert [s["pct"] for s in view["top_sellers"]] == [s["pct_of_total_launches"] for s in report["top_sellers"]]
+
+
+def test_report_view_null_match_count_falls_back_to_total_analyzed(monkeypatch):
+    report, sub_df = _report_and_sub(monkeypatch, None)
+
+    view = analysis_agent.report_view(report, sub_df)
+
+    assert view["stats"]["products"] == report["total_products_analyzed"] == 5
+    assert view["stats"]["is_match_count"] is False
+
+
+def test_report_view_months_are_zero_filled_and_sum_to_total(monkeypatch):
+    report, sub_df = _report_and_sub(monkeypatch, None)
+
+    months = analysis_agent.report_view(report, sub_df)["launches_by_month"]
+
+    # fake launches: 2024-01, 2025-02, 2024-03, 2025-04, 2024-05 -> 16 consecutive months
+    assert months[0]["month"] == "2024-01" and months[-1]["month"] == "2025-04"
+    assert len(months) == 16
+    assert sum(m["count"] for m in months) == 5
+    assert any(m["count"] == 0 for m in months)
+
+
+def test_report_view_recent_launches_newest_first():
+    sub_df, _ = _fake_matched_sub(12)
+    sub_df.loc[0, "seller"] = "-1"  # unknown seller must come through as None, not "-1"
+    report = {"match_count": 12, "total_products_analyzed": 12, "pct_of_category_launches": 1.0,
+              "category_total": 1200, "scan_label": "Fast scan", "titles_found_count": 681, "categories": ["Pet Supplies"],
+              "concept": "dog fountain", "trend_by_theme": [], "top_sellers": [], "note": ""}
+
+    recent = analysis_agent.report_view(report, sub_df)["recent_launches"]
+
+    assert len(recent) == analysis_agent.RECENT_LAUNCHES_N
+    assert [r["launched"] for r in recent] == sorted((r["launched"] for r in recent), reverse=True)
+    assert all(r["seller"] != "-1" for r in recent)
+
+
+def test_report_view_empty_subset_does_not_crash():
+    report = {"match_count": 0, "total_products_analyzed": 0, "pct_of_category_launches": 0.0,
+              "category_total": 100, "scan_label": "Fast scan", "titles_found_count": 40, "categories": ["Pet Supplies"],
+              "concept": "x", "trend_by_theme": [], "top_sellers": [], "note": ""}
+
+    view = analysis_agent.report_view(report, pd.DataFrame())
+
+    assert view["launches_by_month"] == [] and view["recent_launches"] == []
+    assert view["stats"]["median_price"] is None
+    assert view["stats"]["products"] == 0
+
+
+def test_run_chat_clarify_returns_no_data(monkeypatch):
+    monkeypatch.setattr(analysis_agent.cat_selector, "select", lambda messages: {"clarify": "Which niche?"})
+
+    assert analysis_agent.run_chat([{"role": "user", "content": "hi"}]) == {"reply": "Which niche?", "data": None}
+
+
+def test_price_distribution_buckets_cover_every_product():
+    prices = pd.Series([15.0, 19.99, 20.0, 29.0, 49.0, 50.0, 99.0, 100.0, 12.0])  # 12 falls in the open first bucket
+
+    dist = analysis_agent._price_distribution(prices)
+
+    assert [b["range"] for b in dist] == ["$15–20", "$20–30", "$30–50", "$50–75", "$75–100"]
+    assert [b["count"] for b in dist] == [3, 2, 1, 1, 2]
+    assert sum(b["count"] for b in dist) == len(prices)
+
+
+def test_report_view_seller_stats_agree_with_report(monkeypatch):
+    report, sub_df = _report_and_sub(monkeypatch, None)
+
+    view = analysis_agent.report_view(report, sub_df)
+
+    assert view["stats"]["unique_sellers"] == 2  # fake sub has sellers S0, S1
+    assert view["stats"]["top_sellers_pct"] == round(sum(s["pct_of_total_launches"] for s in report["top_sellers"]), 1)
+    assert view["price_peak"] in [b["range"] for b in view["price_distribution"]]
