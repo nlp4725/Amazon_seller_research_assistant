@@ -60,7 +60,10 @@ The codebase is organized into distinct pipelines following the flow:
 
 - **Google Cloud Run**: Two separate services — Flask backend (port 8080) and the React frontend, served by nginx (port 8080)
 - **Google Secret Manager**: Stores `ANTHROPIC_API_KEY`; injected into the backend Cloud Run service at deploy time
-- **Cloud Build**: CI/CD trigger on push to `main` — builds both Docker images, pushes to Artifact Registry, deploys API first, captures its URL, deploys frontend with `API_URL` wired automatically (nginx substitutes it into its reverse-proxy config at container startup via `envsubst`)
+- **Cloud Build CI/CD** (both triggers defined in `terraform/main.tf`):
+  - **CI — pull requests into `main`** (`seller-assistant-pr-checks` → `cloudbuild_ci.yaml`): builds both Docker images and runs the test suite inside the API image. No push, no deploy; the result shows as a check on the PR.
+  - **CD — pushes to `main`** (`seller-assistant-deploy` → `cloudbuild.yaml`): same tests, then pushes both images to Artifact Registry, deploys the API first, captures its URL, deploys the frontend with `API_URL` wired automatically (nginx substitutes it into its reverse-proxy config at container startup via `envsubst`)
+  - Doc-only changes (`docs/**`, `*.md`, `notebooks/**`) skip both. (The project's other trigger, `github`, belongs to the separate Amazon_launch_predictor repo and deploys `fastapi-service`/`streamlit-service`.) `gcloud builds submit --config cloudbuild.yaml` remains the manual fallback.
 - **Terraform**: All infrastructure defined as code in `terraform/main.tf`
 
 #### Cloud Run Services
@@ -306,6 +309,7 @@ Key production dependencies (see `requirements.txt`):
 - **`notebooks/`**: Jupyter notebooks for EDA and experimentation
 - **`tests/`**: Unit and integration tests for each pipeline component
 - **`terraform/main.tf`**: All Google Cloud infrastructure as code
-- **`cloudbuild.yaml`**: CI/CD pipeline — builds both images, deploys both services
+- **`cloudbuild.yaml`**: CD pipeline (push to `main`) — tests, builds both images, deploys both services
+- **`cloudbuild_ci.yaml`**: CI pipeline (pull requests) — builds both images and runs the tests, no deploy
 - **`Dockerfile_backend`**: Flask + gunicorn container
 - **`Dockerfile_frontend`**: Multi-stage build — `node` builds the static Vite bundle, then `nginx:alpine` serves it and reverse-proxies `/api/*` to the backend (config templated from `frontend/nginx/default.conf.template` via `envsubst` at container startup, reading the `API_URL` env var)

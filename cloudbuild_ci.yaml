@@ -1,0 +1,65 @@
+# Pull-request checks: build both images and run the test suite -- no push, no deploy.
+#
+# Steps 1-4 mirror cloudbuild.yaml so a PR is tested exactly the way the deploy build
+# tests it after merge (same data, same image, same pytest selection). Images are tagged
+# locally on the build machine only. Triggered by the seller-assistant-pr-checks trigger
+# in terraform/main.tf; run by hand with:
+#   gcloud builds submit --config cloudbuild_ci.yaml
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+  machineType: 'E2_HIGHCPU_8'
+
+substitutions:
+  _DATA_BUCKET: gs://amazon-launch-seller-assistant-data
+
+timeout: 3600s
+
+steps:
+  # 1. Restore the live data stores into the build context (see cloudbuild.yaml).
+  - id: fetch-data
+    name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: bash
+    args:
+      - '-c'
+      - |
+        set -euo pipefail
+        mkdir -p data/raw/chroma_db data/processed
+        gcloud storage rsync -r ${_DATA_BUCKET}/chroma_db data/raw/chroma_db
+        gcloud storage cp ${_DATA_BUCKET}/preprocessed_reduced.parquet data/processed/
+        test -s data/processed/preprocessed_reduced.parquet
+        test -n "$$(ls -A data/raw/chroma_db)"
+
+  # 2. Build the Flask API image (data included).
+  - id: build-api
+    name: 'gcr.io/cloud-builders/docker'
+    waitFor: ['fetch-data']
+    args: ['build', '-t', 'api:ci-$BUILD_ID', '-f', 'Dockerfile_backend', '.']
+
+  # 3. Run the suite inside the image that would ship. Placeholder keys: the tests
+  #    never call out (same as cloudbuild.yaml step 3).
+  - id: test-api
+    name: 'gcr.io/cloud-builders/docker'
+    waitFor: ['build-api']
+    args:
+      - 'run'
+      - '--rm'
+      - '-e'
+      - 'DEEPSEEK_MODEL=test'
+      - '-e'
+      - 'DEEPSEEK_API_KEY=test'
+      - '-e'
+      - 'DEEPSEEK_BASE_URL=http://localhost'
+      - '-e'
+      - 'ANTHROPIC_API_KEY=test'
+      - '--entrypoint'
+      - 'sh'
+      - 'api:ci-$BUILD_ID'
+      - '-c'
+      - 'pip install --no-cache-dir --quiet pytest && python -m pytest -q -m "not raw_data"'
+
+  # 4. Build the React/nginx frontend image -- fails the check on a broken vite build.
+  - id: build-frontend
+    name: 'gcr.io/cloud-builders/docker'
+    waitFor: ['-']
+    args: ['build', '-t', 'app:ci-$BUILD_ID', '-f', 'Dockerfile_frontend', '.']
