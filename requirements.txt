@@ -16,3 +16,4 @@ pillow
 chromadb
 requests
 typesafe-sdk==0.7.2
+google-cloud-firestore  # result cache on Cloud Run (CACHE_BACKEND=firestore)

@@ -8,12 +8,19 @@ import json
 from flask import Flask, request, jsonify
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-from src.agent_pipeline.analysis_agent import analyze, write_bottom_line, write_report
+from src.agent_pipeline.analysis_agent import (
+    BOTTOM_LINE_SYSTEM, HAIKU_MODEL, SYSTEM, analyze, write_bottom_line, write_report,
+)
+from src.shared import result_cache
 from dotenv import load_dotenv
 
 load_dotenv()
 
 app = Flask(__name__)
+
+# Repeat searches are served from here instead of re-running retrieval or Haiku.
+# Firestore-backed on Cloud Run (CACHE_BACKEND=firestore), memory-only locally.
+cache = result_cache.from_env()
 
 limiter = Limiter(
     get_remote_address,
@@ -76,21 +83,36 @@ def analyze_route():
     """Fast path: dashboard data only. Out: {clarify} or {report, data}."""
     messages = _query_messages(request.get_json(force=True))
     # Always the structured pipeline (TypeSafe Jev path classification + title filter).
-    return jsonify(analyze(messages, mode="structured"))
+    return jsonify(analyze(messages, mode="structured", cache=cache))
+
+
+def _cached_prose(kind: str, writer, prompt: str, data: dict) -> str:
+    """Prose for this exact (query, report), written by Haiku once and then served from the
+    cache. Keyed on the report the client sent, so an edited report only ever maps to
+    its own entry -- it can't change what anyone else is served."""
+    messages, report = _query_messages(data), _report(data)
+    key = result_cache.prose_key(kind, messages, report, prompt, HAIKU_MODEL)
+    hit = cache.get("prose", key)
+    if hit is not None:
+        return hit["text"]
+    text = writer(messages, report)
+    if text:  # an empty reply is a failure to retry next time, not an answer to keep
+        cache.put("prose", key, {"text": text})
+    return text
 
 
 @app.route("/api/bottom-line", methods=["POST"])
 @writer_limit
 def bottom_line_route():
     data = request.get_json(force=True)
-    return jsonify({"text": write_bottom_line(_query_messages(data), _report(data))})
+    return jsonify({"text": _cached_prose("bottom_line", write_bottom_line, BOTTOM_LINE_SYSTEM, data)})
 
 
 @app.route("/api/report", methods=["POST"])
 @writer_limit
 def report_route():
     data = request.get_json(force=True)
-    return jsonify({"text": write_report(_query_messages(data), _report(data))})
+    return jsonify({"text": _cached_prose("report", write_report, SYSTEM, data)})
 
 
 if __name__ == "__main__":
