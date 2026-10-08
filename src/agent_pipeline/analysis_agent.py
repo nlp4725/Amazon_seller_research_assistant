@@ -38,6 +38,7 @@ from langsmith.wrappers import wrap_anthropic
 
 from src.retrieval_pipeline import cat_selector, main_1, main_2
 from src.retrieval_pipeline.candidates import hydrate_items
+from src.shared import result_cache
 from src.shared.paths import CHROMA_COLLECTION, CHROMA_DIR, PREPROCESSED_PARQUET
 
 load_dotenv()
@@ -68,7 +69,9 @@ def _get_product_subset(
     concept via the retrieval pipeline (main_1 "simple" or main_2 "structured" — see
     retrieval_pipeline.md). pipeline_meta is None when no concept given (broad-category
     browsing bypasses the pipeline entirely — all category products are relevant, no
-    query to rank/classify against); otherwise {mode, match_count, titles_found_count}.
+    query to rank/classify against); otherwise {mode, match_count, titles_found_count,
+    partial_failure} -- partial_failure is True when a classification batch failed and its
+    paths fell back to not_match, i.e. the match set is degraded, not complete.
     Both metadata and embeddings come from ChromaDB — no parquet or .npy needed."""
     col = _load_chroma()
     category_names = [c["category"] for c in categories]
@@ -82,6 +85,8 @@ def _get_product_subset(
             "mode": mode,
             "match_count": result["match_count"],
             "titles_found_count": result["titles_found_count"],
+            # main_1 has no classification step, so nothing to degrade
+            "partial_failure": any(c["partial_failure"] for c in result.get("classifications", [])),
         }
     else:
         results = col.get(
@@ -230,17 +235,20 @@ def niche_report(categories: list[dict], concept: str | None = None, n_clusters:
 
 def _build_report(
     categories: list[dict], concept: str | None, n_clusters: int, mode: str
-) -> tuple[dict, pd.DataFrame]:
+) -> tuple[dict, pd.DataFrame, bool]:
     """niche_report's body, also returning the matched sub_df so analyze() can build the
-    view-only chart payload (report_view) without that data ever reaching Haiku."""
+    view-only chart payload (report_view) without that data ever reaching Haiku, and
+    whether the result is complete (not degraded by a failed classification batch) --
+    analyze() only caches complete results."""
     col = _load_chroma()
     if col.count() == 0:
-        return {"error": "ChromaDB is empty."}, pd.DataFrame()
+        return {"error": "ChromaDB is empty."}, pd.DataFrame(), False
 
     sub_df, sub_emb, pipeline_meta = _get_product_subset(categories, concept, mode)
+    complete = not (pipeline_meta or {}).get("partial_failure", False)
 
     if len(sub_df) == 0:
-        return {"error": "No matching products found."}, sub_df
+        return {"error": "No matching products found."}, sub_df, complete
 
     category_names = [c["category"] for c in categories]
 
@@ -279,7 +287,7 @@ def _build_report(
         "trend_by_theme": _get_theme_trend(sub_df, sub_emb, n_clusters),  # which themes are growing
         "top_sellers": _get_top_sellers(sub_df),                      # who dominates this space
     }
-    return report, sub_df
+    return report, sub_df, complete
 
 
 RECENT_LAUNCHES_N = 8  # rows in the frontend's recent-launches table
@@ -513,29 +521,63 @@ def write_bottom_line(messages: list[dict], report: dict) -> str:
 
 
 @traceable(name="analyze", run_type="chain")
-def analyze(messages: list[dict], mode: str = "structured") -> dict:
+def analyze(messages: list[dict], mode: str = "structured", cache: result_cache.ResultCache | None = None) -> dict:
     """
     Everything the dashboard needs, with no report writing -- the fast first response.
     The prose is written separately, on demand: write_bottom_line() for the Overview card,
     write_report() for the Full Report tab, both from the `report` returned here.
 
-    In: conversation history (one user message from the Niche Analyzer page), retrieval mode
+    With a cache (the API passes one; evaluators don't, so they always measure a real run),
+    two lookups short-circuit the work -- see src/shared/result_cache.py:
+      1. query key   -- the same wording seen before: skips everything, cat_selector included
+      2. concept key -- a new wording cat_selector resolved to a known concept + categories:
+                        skips retrieval, the slow and costly part
+    Degraded results (a failed classification batch) and errors are never cached.
+
+    In: conversation history (one user message from the Niche Analyzer page), retrieval mode,
+        optional ResultCache
     Out: {"clarify": text} when cat_selector needs more input or declines the request;
          otherwise {"report": niche_report() dict, "data": report_view() payload or None}
          (data is None when the report is an error, e.g. no matching products)
     """
+    n_clusters = 6
+    qkey = result_cache.query_key(messages, mode) if cache else None
+    if cache:
+        hit = cache.get("analysis", qkey)
+        if hit and "clarify" in hit:
+            return hit
+        if hit:
+            full = cache.get("analysis", hit["concept_key"])
+            if full is not None:
+                return full
+
     # cat_selector -- single DeepSeek call that decides clarify-vs-proceed and, if
     # proceeding, resolves concept + up to 2 categories.
     resolved = cat_selector.select(messages)
     if "clarify" in resolved:
-        return {"clarify": resolved["clarify"]}
+        out = {"clarify": resolved["clarify"]}
+        if cache:
+            cache.put("analysis", qkey, out)
+        return out
+
+    ckey = None
+    if cache:
+        ckey = result_cache.concept_key(resolved["concept"], resolved["categories"], mode, n_clusters)
+        full = cache.get("analysis", ckey)
+        if full is not None:
+            cache.put("analysis", qkey, {"concept_key": ckey})
+            return full
 
     # niche_report locally -- retrieval pipeline + KMeans + seller stats.
-    report, sub_df = _build_report(
+    report, sub_df, complete = _build_report(
         categories=resolved["categories"],
         concept=resolved["concept"],
-        n_clusters=6,
+        n_clusters=n_clusters,
         mode=mode,
     )
     data = None if "error" in report else report_view(report, sub_df)
-    return {"report": report, "data": data}
+    out = {"report": report, "data": data}
+    if cache and complete:
+        cache.put("analysis", ckey, out)
+        cache.put("analysis", qkey, {"concept_key": ckey})
+    return out

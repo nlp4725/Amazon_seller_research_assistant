@@ -114,7 +114,7 @@ steps:
           --cpu=2 \
           --timeout=300 \
           --allow-unauthenticated \
-          --set-env-vars=DEEPSEEK_BASE_URL=https://api.deepseek.com,DEEPSEEK_MODEL=deepseek-v4-flash,LANGSMITH_TRACING=true,LANGSMITH_PROJECT=amazon-seller-research-assistant \
+          --set-env-vars=CACHE_BACKEND=firestore,DEEPSEEK_BASE_URL=https://api.deepseek.com,DEEPSEEK_MODEL=deepseek-v4-flash,LANGSMITH_TRACING=true,LANGSMITH_PROJECT=amazon-seller-research-assistant \
           --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest,DEEPSEEK_API_KEY=deepseek-api-key:latest,LANGSMITH_API_KEY=langsmith-api-key:latest,TYPESAFE_API_KEY=typesafe-api-key:latest
 
         API_URL=$$(gcloud run services describe seller-assistant-api \

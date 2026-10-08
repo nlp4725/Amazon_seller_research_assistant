@@ -94,7 +94,7 @@ def test_get_product_subset_simple_mode_calls_main_1_with_categories(monkeypatch
     assert captured["query"] == "dog fountain"
     assert captured["categories"] == PET_SUPPLIES
     assert captured["hydrated_asins"] == ["B1", "B3"]  # only is_match=True items get hydrated
-    assert meta == {"mode": "simple", "match_count": 2, "titles_found_count": 3}
+    assert meta == {"mode": "simple", "match_count": 2, "titles_found_count": 3, "partial_failure": False}
     assert len(sub_df) == 2
 
 
