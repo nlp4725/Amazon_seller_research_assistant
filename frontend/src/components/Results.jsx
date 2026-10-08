@@ -7,11 +7,12 @@ import CumulativeChart from './blocks/CumulativeChart.jsx'
 import ThemeTable from './blocks/ThemeTable.jsx'
 import SellerTable from './blocks/SellerTable.jsx'
 import ProductTable from './blocks/ProductTable.jsx'
-import { Markdown, splitBottomLine } from './blocks/Summary.jsx'
+import { Markdown } from './blocks/Summary.jsx'
 import { fmtPct, fmtPrice } from './blocks/format.js'
 import { EXAMPLES } from '../examples.js'
 
-const TABS = ['Overview', 'Sellers', 'Themes', 'Launches']
+const TABS = ['Overview', 'Sellers', 'Themes', 'Launches', 'Full Report']
+const FULL_REPORT_SECONDS = 10 // what we tell the user to expect; measured ~9 s warm
 
 function TopBar({ query, busy, onAnalyze, onHome }) {
   const [value, setValue] = useState(query)
@@ -67,8 +68,33 @@ function StatCards({ stats }) {
   )
 }
 
-function Overview({ data, reply }) {
-  const [prose, bottomLine] = splitBottomLine(reply)
+function Writing({ label }) { // shimmer lines while a writer request is in flight
+  return (
+    <div className="writing" aria-busy="true">
+      <p className="writing-label">{label}</p>
+      <div className="skeleton-line" />
+      <div className="skeleton-line" />
+      <div className="skeleton-line short" />
+    </div>
+  )
+}
+
+function WriterError({ error, onRetry, retryLabel = 'Retry' }) {
+  return (
+    <div className="writer-error">
+      <p>{error}</p>
+      <button type="button" className="btn-secondary" onClick={onRetry}>{retryLabel}</button>
+    </div>
+  )
+}
+
+function BottomLine({ state, onRetry }) {
+  if (state.status === 'done') return <Markdown>{state.text}</Markdown>
+  if (state.status === 'error') return <WriterError error="Couldn't write the summary." onRetry={onRetry} />
+  return <Writing label="Writing summary…" />
+}
+
+function Overview({ data, bottomLine, onWrite }) {
   return (
     <div className="overview">
       <div className="grid grid-wide">
@@ -76,7 +102,7 @@ function Overview({ data, reply }) {
           <LaunchChart data={data.launches_by_month} />
         </ChartCard>
         <ChartCard title="Bottom Line" subtitle="Analyst read of this niche" className="panel-bottomline">
-          {bottomLine ? <Markdown>{bottomLine}</Markdown> : <p className="panel-empty">See the full analysis below.</p>}
+          <BottomLine state={bottomLine} onRetry={() => onWrite('bottomLine')} />
         </ChartCard>
       </div>
       <div className="grid grid-even">
@@ -90,15 +116,60 @@ function Overview({ data, reply }) {
           <CumulativeChart data={data.launches_by_month} />
         </ChartCard>
       </div>
-      <ChartCard title="Full Analysis" subtitle="Written from the numbers above">
-        <Markdown>{prose}</Markdown>
-      </ChartCard>
     </div>
   )
 }
 
-function TabPanel({ tab, data, reply }) {
-  if (tab === 'Overview') return <Overview data={data} reply={reply} />
+function useElapsedSeconds(running) { // counts up while a slow request runs, so the wait feels accounted for
+  const [seconds, setSeconds] = useState(0)
+  useEffect(() => {
+    if (!running) return undefined
+    setSeconds(0)
+    const t = setInterval(() => setSeconds((n) => n + 1), 1000)
+    return () => clearInterval(t)
+  }, [running])
+  return seconds
+}
+
+function FullReport({ state, onGenerate }) {
+  const seconds = useElapsedSeconds(state.status === 'loading')
+
+  if (state.status === 'done') {
+    return (
+      <ChartCard title="Full Report" subtitle="Written from the numbers in the other tabs">
+        <Markdown>{state.text}</Markdown>
+      </ChartCard>
+    )
+  }
+  return (
+    <ChartCard title="Full Report" subtitle="A written analysis of this niche">
+      {state.status === 'loading' ? (
+        <>
+          <p className="report-progress">
+            Writing the full report… {seconds}s <span>(usually about {FULL_REPORT_SECONDS} seconds)</span>
+          </p>
+          <Writing label="" />
+        </>
+      ) : state.status === 'error' ? (
+        <WriterError error={`Couldn't write the report. ${state.error}`} onRetry={onGenerate} retryLabel="Try again" />
+      ) : (
+        <div className="report-intro">
+          <p>
+            Covers launch volume and share of category, each sub-niche theme with its growth and
+            trend, what the top sellers focus on, and the bottom line.
+          </p>
+          <p className="report-time">Takes about {FULL_REPORT_SECONDS} seconds to write.</p>
+          <button type="button" className="btn-primary btn-generate" onClick={onGenerate}>Generate full report</button>
+        </div>
+      )}
+    </ChartCard>
+  )
+}
+
+function TabPanel({ tab, search, onWrite }) {
+  const { data } = search
+  if (tab === 'Overview') return <Overview data={data} bottomLine={search.bottomLine} onWrite={onWrite} />
+  if (tab === 'Full Report') return <FullReport state={search.fullReport} onGenerate={() => onWrite('fullReport')} />
   if (tab === 'Sellers') {
     return (
       <ChartCard title="Top Sellers" subtitle="Ranked by number of launches. Share is of all analysed launches.">
@@ -123,7 +194,7 @@ function TabPanel({ tab, data, reply }) {
 function Loading({ query }) {
   return (
     <div aria-busy="true">
-      <p className="loading-text">Analyzing “{query}”… this usually takes 20–40 seconds.</p>
+      <p className="loading-text">Analyzing “{query}”… just a few seconds.</p>
       <div className="stat-cards">
         {[0, 1, 2, 3, 4].map((i) => <div key={i} className="stat-card skeleton" />)}
       </div>
@@ -135,11 +206,11 @@ function Loading({ query }) {
   )
 }
 
-export default function Results({ search, onAnalyze, onHome }) {
+export default function Results({ search, onAnalyze, onHome, onWrite }) {
   const [tab, setTab] = useState('Overview')
   useEffect(() => setTab('Overview'), [search.query]) // a new search starts on Overview
 
-  const { query, status, data, reply } = search
+  const { query, status, data, message } = search
   const busy = status === 'loading'
 
   return (
@@ -166,7 +237,7 @@ export default function Results({ search, onAnalyze, onHome }) {
         {busy && <Loading query={query} />}
         {(status === 'clarify' || status === 'error') && (
           <div className={`notice ${status === 'error' ? 'notice-error' : ''}`}>
-            <Markdown>{reply}</Markdown>
+            <Markdown>{message}</Markdown>
             {status === 'clarify' && <p className="notice-hint">Refine your search above and press Analyze.</p>}
           </div>
         )}
@@ -183,7 +254,7 @@ export default function Results({ search, onAnalyze, onHome }) {
                 </button>
               ))}
             </nav>
-            <TabPanel tab={tab} data={data} reply={reply} />
+            <TabPanel tab={tab} search={search} onWrite={onWrite} />
           </>
         )}
       </main>

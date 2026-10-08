@@ -14,8 +14,8 @@ what's trending" questions against a dataset of 61,635 real Amazon product launc
 ## The live request chain (one user message → one report)
 
 ```
-main.py (Flask /api/chat)
-  → src/agent_pipeline/analysis_agent.py: run_chat(messages, mode)
+main.py (Flask /api/analyze; always mode="structured")
+  → src/agent_pipeline/analysis_agent.py: analyze(messages, mode)
       → src/retrieval_pipeline/cat_selector.py: select(messages)      [DeepSeek, 1 call]
           -- decides clarify-vs-proceed; if proceeding, resolves concept (or null for a
              broad category question) + up to 2 categories from the real Amazon taxonomy
@@ -37,7 +37,9 @@ main.py (Flask /api/chat)
                       → _get_recent_launches / _get_theme_trend (KMeans) / _get_top_sellers
                         / _get_velocity_summary, all reading the hydrated sub_df
                       → bounded JSON (capped summaries only, never the raw title list)
-                → Claude Haiku narrates the JSON into the final report text
+                → returned with report_view()'s dashboard payload -- no prose yet
+main.py /api/bottom-line, /api/report (same report sent back by the page)
+  → write_bottom_line() / write_report()                               [Claude Haiku]
                     [the ONLY Claude call in the system -- everything upstream is DeepSeek]
 ```
 
@@ -45,7 +47,7 @@ main.py (Flask /api/chat)
 
 | File | Job |
 |---|---|
-| `src/agent_pipeline/analysis_agent.py` | `run_chat()` entry point; `niche_report()` and its stat helpers; Haiku narration |
+| `src/agent_pipeline/analysis_agent.py` | `analyze()` entry point; `niche_report()`, its stat helpers and `report_view()`; Haiku narration (`write_bottom_line`, `write_report`) |
 | `src/retrieval_pipeline/cat_selector.py` | Single entry classifier: clarify, concept, categories — one LLM call, used by the live app **and** eval/CLI |
 | `src/retrieval_pipeline/main_1.py` | "Simple" mode: vector-rank + rerank, no category-path filtering |
 | `src/retrieval_pipeline/main_2.py` | "Structured" mode: `classify_agent` scores real category paths, only the ambiguous residual gets reranked |
@@ -54,7 +56,7 @@ main.py (Flask /api/chat)
 | `src/retrieval_pipeline/candidates.py` | ChromaDB retrieval helpers + `hydrate_items()` |
 | `src/retrieval_pipeline/llm_client.py` | Shared DeepSeek client + token/cost accumulator used by every LLM call in `retrieval_pipeline/` |
 | `evaluator/comparison.py` | Benchmarks `main_1` vs `main_2` on the same query with the same `cat_selector`-resolved categories |
-| `main.py` | Flask API, the only caller of `analysis_agent.run_chat()`; `/api/chat` is its only real endpoint |
+| `main.py` | Flask API: `/api/analyze` (dashboard data), `/api/bottom-line` and `/api/report` (Haiku writing from the report the page sends back) |
 | `src/shared/paths.py` | Every data path in the project, plus `safe_name()` for run-record filenames. Import from here, never write a path literal |
 | `src/shared/model_loader.py` | The one embedder. `EMBEDDING_MODEL` lives here only — `build_chroma` (indexing) and `candidates` (querying) must use the same model or similarity scores silently become meaningless |
 | `src/offline/` | The batch jobs that BUILD the stores: `ingest` → `load` → `preprocessing` → `build_chroma`. Driven by `build_data.py`. Nothing here is imported by `main.py` |

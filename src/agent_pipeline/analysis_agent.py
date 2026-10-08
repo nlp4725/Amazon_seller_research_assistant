@@ -4,7 +4,7 @@ Analysis agent: niche research report writer, plus ChromaDB. Renamed from chat_e
 All data comes from ChromaDB (embeddings + metadata).
 
 Flow per user message:
-  1. run_chat() sends conversation history to cat_selector.select() -- the single entry
+  1. analyze() sends conversation history to cat_selector.select() -- the single entry
      classifier (src/retrieval_pipeline/cat_selector.py). It either returns a clarifying
      reply, or a resolved (concept, categories) pair -- this agent no longer does any
      classification LLM call of its own.
@@ -15,14 +15,17 @@ Flow per user message:
        - _get_recent_launches(): top 10 most recent products
        - _get_theme_trend(): KMeans clustering on embeddings → year-over-year theme trends
        - _get_top_sellers(): top 5 sellers by launch count
-  3. JSON result handed to Claude Haiku, which writes the narrative report -- the only
-     Claude call in the system.
-  4. Prose returned to main.py, plus report_view()'s chart payload for the frontend
+  3. analyze() returns the report + report_view() chart payload with no prose, so the
+     dashboard renders without waiting on an LLM.
+  4. The prose is written from that same report on separate requests, both Claude Haiku:
+     write_bottom_line() for the Overview card (automatic), write_report() for the full
+     report (only when the user asks for it).
 """
 
 import calendar
 import json
 import os
+import re
 from functools import lru_cache
 import numpy as np
 import pandas as pd
@@ -228,7 +231,7 @@ def niche_report(categories: list[dict], concept: str | None = None, n_clusters:
 def _build_report(
     categories: list[dict], concept: str | None, n_clusters: int, mode: str
 ) -> tuple[dict, pd.DataFrame]:
-    """niche_report's body, also returning the matched sub_df so run_chat can build the
+    """niche_report's body, also returning the matched sub_df so analyze() can build the
     view-only chart payload (report_view) without that data ever reaching Haiku."""
     col = _load_chroma()
     if col.count() == 0:
@@ -456,7 +459,7 @@ def write_report(messages: list[dict], report: dict) -> str:
     """
     Narrate one niche_report() dict as prose. The only Claude call in the system.
 
-    Split out of run_chat so evaluator/faithfulness.py can exercise the real SYSTEM prompt
+    Kept separate from analyze() so evaluator/faithfulness.py can exercise the real SYSTEM prompt
     and the real message shape rather than reimplementing them -- a faithfulness audit that
     scores a paraphrase of the prompt is measuring the wrong artifact.
 
@@ -478,33 +481,61 @@ def write_report(messages: list[dict], report: dict) -> str:
     return "\n".join(b.text for b in resp.content if hasattr(b, "text"))
 
 
-@traceable(name="run_chat", run_type="chain")
-def run_chat(messages: list[dict], mode: str = "simple") -> dict:
-    """Out: {"reply": prose, "data": report_view() payload, or None for text-only replies}"""
-    # STEP 1 (app.py): st.chat_input() captures user message
-    # STEP 2 (app.py): append to session_state.messages, call run_chat(messages)
-    # mode is a user-facing UI choice (fast/"simple" vs thorough/"structured"), not
-    # something the model decides.
+# The Overview card's 2–3 sentences, written on their own so the dashboard never waits for
+# the full report. Sliced from SYSTEM rather than copied, so the role/security rules, DATA
+# RULES and BOTTOM LINE instructions can't drift from what the faithfulness eval audits.
+BOTTOM_LINE_SYSTEM = (
+    SYSTEM.split("Structure your response exactly as follows:")[0]
+    + "Write ONLY the bottom line below: plain sentences, no heading, no other sections.\n\n"
+    + SYSTEM[SYSTEM.index("BOTTOM LINE:"):]
+)
+BOTTOM_LINE_MAX_TOKENS = 300
 
-    # STEP 3: cat_selector -- single DeepSeek call that decides clarify-vs-proceed and, if
-    # proceeding, resolves concept + up to 2 categories (replaces this agent's old DeepSeek
-    # classification call and orchestrator_agent.py's category-picking call in one step).
+
+@traceable(name="write_bottom_line", run_type="chain")
+def write_bottom_line(messages: list[dict], report: dict) -> str:
+    """
+    In: conversation history, niche_report() output (the same dict write_report gets)
+    Out: the BOTTOM LINE only, 2–3 sentences
+    """
+    resp = haiku_client.messages.create(
+        model=HAIKU_MODEL,
+        max_tokens=BOTTOM_LINE_MAX_TOKENS,
+        system=BOTTOM_LINE_SYSTEM,
+        messages=messages + [{
+            "role": "user",
+            "content": "Here is the market research data (JSON) for the request above.\n\n" + json.dumps(report),
+        }],
+    )
+    text = "\n".join(b.text for b in resp.content if hasattr(b, "text")).strip()
+    # Haiku sometimes echoes the section name anyway; the card already has its own title.
+    return re.sub(r"^\W*bottom line\W*", "", text, flags=re.IGNORECASE).strip()
+
+
+@traceable(name="analyze", run_type="chain")
+def analyze(messages: list[dict], mode: str = "structured") -> dict:
+    """
+    Everything the dashboard needs, with no report writing -- the fast first response.
+    The prose is written separately, on demand: write_bottom_line() for the Overview card,
+    write_report() for the Full Report tab, both from the `report` returned here.
+
+    In: conversation history (one user message from the Niche Analyzer page), retrieval mode
+    Out: {"clarify": text} when cat_selector needs more input or declines the request;
+         otherwise {"report": niche_report() dict, "data": report_view() payload or None}
+         (data is None when the report is an error, e.g. no matching products)
+    """
+    # cat_selector -- single DeepSeek call that decides clarify-vs-proceed and, if
+    # proceeding, resolves concept + up to 2 categories.
     resolved = cat_selector.select(messages)
     if "clarify" in resolved:
-        # Ask the user something, or decline an off-topic request. Nothing for Haiku to
-        # narrate, so return the reply directly.
-        return {"reply": resolved["clarify"], "data": None}
+        return {"clarify": resolved["clarify"]}
 
-    # STEP 4: run niche_report locally — ChromaDB search + KMeans + seller stats. Plain
-    # function call now (not a tool-call dispatch) — categories/concept are already
-    # resolved Python values, nothing left to parse.
+    # niche_report locally -- retrieval pipeline + KMeans + seller stats.
     report, sub_df = _build_report(
         categories=resolved["categories"],
         concept=resolved["concept"],
         n_clusters=6,
         mode=mode,
     )
-    # STEP 5: Claude Haiku call — report generation step.
-    # STEP 6: return the prose plus the chart payload (built separately, never shown to Haiku)
     data = None if "error" in report else report_view(report, sub_df)
-    return {"reply": write_report(messages, report), "data": data}
+    return {"report": report, "data": data}

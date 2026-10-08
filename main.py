@@ -3,10 +3,12 @@ os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["OPENBLAS_NUM_THREADS"] = "1"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
+import json
+
 from flask import Flask, request, jsonify
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-from src.agent_pipeline.analysis_agent import run_chat
+from src.agent_pipeline.analysis_agent import analyze, write_bottom_line, write_report
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -20,8 +22,46 @@ limiter = Limiter(
     storage_uri="memory://",
 )
 
-MAX_MESSAGE_CHARS = 1000  # max characters per user message — prevents token bombs
-MAX_HISTORY       = 10    # max messages sent to Claude — prevents chained manipulation
+MAX_QUERY_CHARS = 1000        # max characters per search -- prevents token bombs
+MAX_REPORT_BYTES = 64 * 1024  # a real niche_report() is a few KB; anything larger isn't one
+REPORT_KEYS = {"concept", "categories", "trend_by_theme", "top_sellers"}  # fields the prompts rely on
+
+# The bottom line and the full report share one budget: each search triggers one bottom
+# line automatically, and the full report only on request.
+writer_limit = limiter.shared_limit("20 per minute; 120 per hour", scope="writers")
+
+
+class BadRequest(Exception):
+    pass
+
+
+@app.errorhandler(BadRequest)
+def bad_request(e):
+    return jsonify({"error": str(e)}), 400
+
+
+def _query_messages(data: dict) -> list[dict]:
+    """The page sends one search query; the agent works on a one-message conversation."""
+    query = data.get("query")
+    if not isinstance(query, str) or not query.strip():
+        raise BadRequest("Please enter a product idea.")
+    if len(query) > MAX_QUERY_CHARS:
+        raise BadRequest(f"Please keep your search under {MAX_QUERY_CHARS} characters.")
+    return [{"role": "user", "content": query.strip()}]
+
+
+def _report(data: dict) -> dict:
+    """
+    The niche_report() dict the page got from /api/analyze, sent back so the writers narrate
+    exactly the numbers on screen -- no re-run, and any Cloud Run instance can serve it.
+    Editing it only changes the requester's own summary.
+    """
+    report = data.get("report")
+    if not isinstance(report, dict) or not REPORT_KEYS <= report.keys() or "error" in report:
+        raise BadRequest("Missing or invalid report. Run the search again.")
+    if len(json.dumps(report)) > MAX_REPORT_BYTES:
+        raise BadRequest("Report too large.")
+    return report
 
 
 @app.route("/health")
@@ -30,22 +70,27 @@ def health():
     return jsonify({"status": "ok"})
 
 
-@app.route("/api/chat", methods=["POST"])
+@app.route("/api/analyze", methods=["POST"])
 @limiter.limit("10 per minute; 30 per hour")
-def chat():
+def analyze_route():
+    """Fast path: dashboard data only. Out: {clarify} or {report, data}."""
+    messages = _query_messages(request.get_json(force=True))
+    # Always the structured pipeline (TypeSafe Jev path classification + title filter).
+    return jsonify(analyze(messages, mode="structured"))
+
+
+@app.route("/api/bottom-line", methods=["POST"])
+@writer_limit
+def bottom_line_route():
     data = request.get_json(force=True)
-    messages = data.get("messages", [])
+    return jsonify({"text": write_bottom_line(_query_messages(data), _report(data))})
 
-    if messages:
-        last = messages[-1]
-        if last.get("role") == "user" and len(last.get("content", "")) > MAX_MESSAGE_CHARS:
-            return jsonify({"error": "Message too long. Please keep your query under 1000 characters."}), 400
 
-    messages = messages[-MAX_HISTORY:]
-    mode = data.get("mode", "structured")  # "structured" = Jev classify + filter; the UI always sends it, "simple" kept for the evaluator/API
-
-    result = run_chat(messages, mode=mode)
-    return jsonify({"reply": result["reply"], "data": result["data"]})
+@app.route("/api/report", methods=["POST"])
+@writer_limit
+def report_route():
+    data = request.get_json(force=True)
+    return jsonify({"text": write_report(_query_messages(data), _report(data))})
 
 
 if __name__ == "__main__":
