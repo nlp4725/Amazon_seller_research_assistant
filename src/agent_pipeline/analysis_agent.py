@@ -26,6 +26,7 @@ import calendar
 import json
 import os
 import re
+import time
 from functools import lru_cache
 import numpy as np
 import pandas as pd
@@ -510,6 +511,31 @@ def write_bottom_line(messages: list[dict], report: dict) -> str:
     text = "\n".join(b.text for b in resp.content if hasattr(b, "text")).strip()
     # Haiku sometimes echoes the section name anyway; the card already has its own title.
     return re.sub(r"^\W*bottom line\W*", "", text, flags=re.IGNORECASE).strip()
+
+
+def warm_up() -> dict[str, float]:
+    """
+    Load everything a structured search touches lazily, so the first request on a new
+    Cloud Run instance doesn't pay for it. main.py calls this at import when
+    WARM_UP_ON_BOOT=1, and the HTTP startup probe on /health can't pass until import
+    finishes -- so Cloud Run routes no traffic to an instance that is still loading.
+    The bi-encoder embedder is deliberately skipped: only the "simple" (main_1) path uses it.
+
+    Out: seconds spent per step, logged at boot
+    """
+    from src.retrieval_pipeline import candidates, reranker
+
+    timings = {}
+    for step, load in (
+        ("chroma", _load_chroma),
+        ("chroma_candidates", candidates._load_chroma),
+        ("data_extent", _data_extent),
+        ("reranker", lambda: reranker.get_reranker().predict([("warm up", "warm up")], show_progress_bar=False)),
+    ):
+        t = time.perf_counter()
+        load()
+        timings[step] = round(time.perf_counter() - t, 2)
+    return timings
 
 
 @traceable(name="analyze", run_type="chain")
