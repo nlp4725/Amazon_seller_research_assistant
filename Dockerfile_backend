@@ -34,4 +34,6 @@ ENV TOKENIZERS_PARALLELISM=false
 
 EXPOSE 8080
 
-CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--workers", "1", "--timeout", "300", "main:app"]
+# --timeout also bounds worker boot (imports + WARM_UP_ON_BOOT), which can exceed 300s on
+# a cold Cloud Run instance; a worker killed mid-boot would restart the whole wait.
+CMD ["gunicorn", "--bind", "0.0.0.0:8080", "--workers", "1", "--timeout", "600", "main:app"]

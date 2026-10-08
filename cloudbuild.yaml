@@ -105,17 +105,28 @@ steps:
       - |
         set -euo pipefail
 
+        # The HTTP startup probe only passes once main.py has imported and warmed up
+        # (WARM_UP_ON_BOOT), so no request is routed to a half-loaded instance. Measured
+        # 2026-10-08: first search on a fresh instance 112s -> 74s. 5s x 48 = 240s of
+        # startup budget; boot measured 57-79s. gen2 was tried and not reliably faster.
         gcloud run deploy seller-assistant-api \
           --image=${_REPO}/api:$BUILD_ID \
           --region=${_REGION} \
           --platform=managed \
           --port=8080 \
+          --execution-environment=gen1 \
+          --cpu-boost \
+          --startup-probe=httpGet.path=/health,httpGet.port=8080,periodSeconds=5,timeoutSeconds=5,failureThreshold=48 \
           --memory=4Gi \
           --cpu=2 \
           --timeout=300 \
           --allow-unauthenticated \
-          --set-env-vars=DEEPSEEK_BASE_URL=https://api.deepseek.com,DEEPSEEK_MODEL=deepseek-v4-flash,LANGSMITH_TRACING=true,LANGSMITH_PROJECT=amazon-seller-research-assistant \
+          --set-env-vars=WARM_UP_ON_BOOT=1,DEEPSEEK_BASE_URL=https://api.deepseek.com,DEEPSEEK_MODEL=deepseek-v4-flash,LANGSMITH_TRACING=true,LANGSMITH_PROJECT=amazon-seller-research-assistant \
           --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest,DEEPSEEK_API_KEY=deepseek-api-key:latest,LANGSMITH_API_KEY=langsmith-api-key:latest,TYPESAFE_API_KEY=typesafe-api-key:latest
+
+        # Serve what was just deployed even if traffic was pinned to a revision earlier
+        # (e.g. by a --no-traffic test deploy), which plain `run deploy` would leave in place.
+        gcloud run services update-traffic seller-assistant-api --region=${_REGION} --to-latest
 
         API_URL=$$(gcloud run services describe seller-assistant-api \
           --region=${_REGION} \
