@@ -268,3 +268,58 @@ resource "google_storage_bucket_iam_member" "compute_data_reader" {
 # Cloud Run services are created and updated by cloudbuild.yaml — not managed here.
 # Terraform can't create them before images exist; Cloud Build deploys both services
 # as part of every build: seller-assistant (frontend) and seller-assistant-api (backend).
+
+# ── CI/CD triggers ──────────────────────────────────────────────────────────
+# Before these, this repo had no trigger: every deploy was a manual `gcloud builds
+# submit`. (The console-made "github" trigger belongs to the separate
+# Amazon_launch_predictor project -- fastapi-service/streamlit-service -- leave it.)
+# Both run as the Compute SA, which already reads the data bucket. Requires the
+# Cloud Build GitHub App to have access to this repo (console: Cloud Build > Repositories).
+
+locals {
+  github_owner    = "nlp4725"
+  github_repo     = "Amazon_seller_research_assistant"
+  trigger_sa      = "projects/${var.project_id}/serviceAccounts/${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+  docs_only_files = ["docs/**", "**/*.md", "notebooks/**"]
+}
+
+# CD: every push to main tests, builds and deploys both Cloud Run services.
+resource "google_cloudbuild_trigger" "deploy" {
+  name            = "seller-assistant-deploy"
+  description     = "Push to main: test, build, deploy (cloudbuild.yaml)"
+  filename        = "cloudbuild.yaml"
+  service_account = local.trigger_sa
+  ignored_files   = local.docs_only_files
+
+  github {
+    owner = local.github_owner
+    name  = local.github_repo
+    push {
+      branch = "^main$"
+    }
+  }
+
+  depends_on = [google_project_service.cloudbuild]
+}
+
+# CI: every pull request into main builds both images and runs the tests -- no deploy.
+resource "google_cloudbuild_trigger" "pr_checks" {
+  name            = "seller-assistant-pr-checks"
+  description     = "PR into main: build + test only (cloudbuild_ci.yaml)"
+  filename        = "cloudbuild_ci.yaml"
+  service_account = local.trigger_sa
+  ignored_files   = local.docs_only_files
+
+  github {
+    owner = local.github_owner
+    name  = local.github_repo
+    pull_request {
+      branch = "^main$"
+      # The build can read the data bucket; outside contributors' PRs wait for a
+      # collaborator's "/gcbrun" comment before running.
+      comment_control = "COMMENTS_ENABLED_FOR_EXTERNAL_CONTRIBUTORS_ONLY"
+    }
+  }
+
+  depends_on = [google_project_service.cloudbuild]
+}
