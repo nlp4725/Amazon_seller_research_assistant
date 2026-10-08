@@ -711,6 +711,78 @@ a {
   color: var(--muted);
 }
 
+/* Bottom line + full report: written on separate requests after the dashboard */
+.writing-label {
+  margin: 0 0 14px;
+  font-size: 14px;
+  color: var(--subtle);
+}
+.writing-label:empty {
+  display: none;
+}
+.skeleton-line {
+  height: 12px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, var(--rule) 0%, var(--surface) 50%, var(--rule) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s infinite linear;
+}
+.skeleton-line.short {
+  width: 60%;
+}
+
+.writer-error p {
+  margin: 0 0 12px;
+  font-size: 15px;
+  color: var(--red);
+}
+.btn-secondary {
+  padding: 8px 18px;
+  border: 1px solid var(--rule-strong);
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  border-color: rgba(121, 82, 204, 0.4);
+  background: var(--primary-light);
+}
+
+.report-intro {
+  max-width: 640px;
+}
+.report-intro p {
+  margin: 0 0 12px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--body);
+}
+.report-time {
+  color: var(--muted) !important;
+  font-size: 15px !important;
+}
+.btn-generate {
+  margin-top: 8px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+.report-progress {
+  margin: 0 0 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.report-progress span {
+  font-weight: 400;
+  color: var(--muted);
+}
+
 /* ── Responsive ─────────────────────────────────────────────────────────── */
 @media (max-width: 1200px) {
   .stat-cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }

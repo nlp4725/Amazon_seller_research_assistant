@@ -14,7 +14,7 @@ The codebase is organized into distinct pipelines following the flow:
 ### Core Modules
 
 - **`src/agent_pipeline/`**: report-writing agent
-  - `analysis_agent.py`: `run_chat()` calls `cat_selector.select()` for the resolved (concept, categories) pair; if it asked for clarification, returns that reply directly. Otherwise calls `niche_report()` locally as a plain function (no tool-call round-trip -- there's nothing left to classify), then sends the result to Claude Haiku for narrative generation -- the only Claude call in the system. For a concept-narrowed query, product retrieval is delegated to `src/retrieval_pipeline/`'s `main_1`/`main_2` (see "Retrieval Mode Selection" below) instead of a capped ChromaDB query -- the matched set can honestly be 0 to several thousand items, not a fixed `top_n`. Broad category browsing (no concept) still fetches the whole category directly from ChromaDB. `_get_theme_trend()`'s KMeans clustering runs on whatever set comes back, top sellers/recent launches/review velocity are unchanged.
+  - `analysis_agent.py`: `analyze()` calls `cat_selector.select()` for the resolved (concept, categories) pair; if it asked for clarification, returns that question directly. Otherwise calls `niche_report()` locally as a plain function (no tool-call round-trip -- there's nothing left to classify) and returns the report plus `report_view()`'s dashboard payload, with no LLM writing. The prose is written afterwards on separate requests from that same report: `write_bottom_line()` (short Claude Haiku call, automatic) and `write_report()` (full Haiku write-up, only when the user clicks "Generate full report"). For a concept-narrowed query, product retrieval is delegated to `src/retrieval_pipeline/`'s `main_1`/`main_2` (see "Retrieval Mode Selection" below) instead of a capped ChromaDB query -- the matched set can honestly be 0 to several thousand items, not a fixed `top_n`. Broad category browsing (no concept) still fetches the whole category directly from ChromaDB. `_get_theme_trend()`'s KMeans clustering runs on whatever set comes back, top sellers/recent launches/review velocity are unchanged.
 
 - **`src/retrieval_pipeline/`**: A multi-agent system with two competing pipeline configurations for "how many X" / "find every X" queries, benchmarked against each other -- see `docs/retrieval_pipeline.md` for the full write-up (diagrams, file-by-file responsibilities)
   - `cat_selector.py`: single entry classifier (DeepSeek, 1 LLM call) -- decides clarify-vs-proceed, extracts a concept, and picks up to 2 root categories from the real Amazon `root > level2` taxonomy. Called once per query by every consumer (`analysis_agent.py` live, `evaluator/comparison.py` and each main's own CLI otherwise), so `main_1`/`main_2` always see identical categories for a given query -- no more risk of the two approaches silently being compared on different input.
@@ -48,12 +48,14 @@ The codebase is organized into distinct pipelines following the flow:
 
 - **`main.py`**: Flask backend
   - `GET /health` — health check
-  - `POST /api/chat` — accepts `{"messages": [...], "mode": "simple" | "structured"}` (`mode` optional, defaults to `"simple"`), runs the DeepSeek niche research agent, returns `{"reply": "..."}`
+  - `POST /api/analyze` — `{"query": "..."}` → `{"clarify": "..."}` or `{"report": {...}, "data": {...}}`. Retrieval + stats only, no prose (~3 s warm). Always the structured (Jev) pipeline.
+  - `POST /api/bottom-line` — `{"query", "report"}` → `{"text"}`: the Overview card's 2–3 sentences (~2.5 s)
+  - `POST /api/report` — `{"query", "report"}` → `{"text"}`: the full write-up (~10 s), on request only
+  - The page sends back the `report` it got from `/api/analyze`, so the writers narrate exactly the numbers on screen (no re-run; any instance can serve it). It's size-capped and shape-checked.
 
 - **`frontend/`**: React (Vite) frontend
-  - Conversational niche research — ask about any Amazon category or subcategory; results displayed in a side panel with download and email options
-  - A "Fast scan" / "Thorough scan" toggle above the chat input (`ChatInput.jsx`) lets the user pick the retrieval mode per message — see "Retrieval Mode Selection" below
-  - Empty-state layout centers the greeting + input in the viewport; once a conversation starts it switches to a top-anchored scrolling message list with the input pinned to the bottom (ChatGPT-style)
+  - KeepaPulse "Niche Analyzer": a landing page with one search box, then a results dashboard (stat cards; Overview / Sellers / Themes / Launches / Full Report tabs). Results are deep-linkable via `?q=`.
+  - The dashboard renders as soon as `/api/analyze` returns; the Bottom Line card fills in a moment later; the Full Report tab writes the long report only when the user asks, and says up front that it takes ~10 s.
   - Calls the backend via relative `/api/...` paths only — never a hardcoded URL. In dev, Vite's dev-server proxy forwards `/api` to `http://localhost:8080`; in prod, nginx (baked into the container) proxies `/api` to the backend Cloud Run service. This means **no CORS configuration exists anywhere** — the browser only ever talks to one origin.
 
 ### Cloud Infrastructure & Deployment
@@ -156,7 +158,7 @@ gcloud builds submit --config cloudbuild.yaml
 The chat agent is an agentic RAG system. The **retrieval** step uses ChromaDB to fetch semantically relevant product launches at query time — not static context. The **agentic** layer is `cat_selector.py`'s DeepSeek call autonomously deciding whether to ask a clarifying question or proceed, and if proceeding, which concept and categories to resolve for `niche_report`. `analysis_agent.py` then calls `niche_report()` directly with that resolved input and synthesizes the structured JSON result into a market research narrative via Claude Haiku.
 
 ### Two-Step LLM Call, Two Models
-`analysis_agent.run_chat()` makes two LLM calls per message. The first, `cat_selector.select()` (DeepSeek), either returns a clarifying reply directly, or resolves (concept, categories). `niche_report()` then runs locally as a plain function call — retrieval (direct ChromaDB fetch or the `main_1`/`main_2` pipeline), KMeans clustering, seller stats — and the JSON result is sent to Claude Haiku (the only Claude call in the system) to write the narrative report. `mode` is *not* something either model decides: it's a user preference set in the UI, passed into `run_chat(messages, mode)` by the caller, and threaded straight through to `niche_report()`.
+`analysis_agent.analyze()` makes one routing LLM call: `cat_selector.select()` (DeepSeek) either returns a clarifying question directly, or resolves (concept, categories). `niche_report()` then runs locally as a plain function call — retrieval (direct ChromaDB fetch or the `main_1`/`main_2` pipeline), KMeans clustering, seller stats — and the result goes straight to the dashboard. Claude Haiku writes prose from that JSON only on the follow-up requests (`write_bottom_line`, `write_report`), so the first response never waits on narration. `mode` is *not* something either model decides: the live app always passes `"structured"`; `"simple"` remains for the evaluator.
 
 ### Semantic Search with ChromaDB
 Product titles are embedded with `all-MiniLM-L6-v2` (384-dim) and stored in ChromaDB. Broad category browsing (no concept) fetches every product in the category directly. A concept-narrowed query (e.g. "dog grooming") is embedded and matched via the retrieval pipeline described below, filtered by category — surfacing closely related products without exact keyword matching, and without capping how many can match.
@@ -173,10 +175,10 @@ See `docs/retrieval_pipeline.md` for diagrams and the full file-by-file breakdow
 
 ### Retrieval Mode Selection
 
-Both approaches are wired into `analysis_agent.py` as user-selectable **modes** — `"simple"` (Fast scan, `main_1`) or `"structured"` (Thorough scan, `main_2`) — chosen in the React UI, not by either LLM:
+Both approaches are wired into `analysis_agent.py` as **modes** — `"simple"` (Fast scan, `main_1`) or `"structured"` (Thorough scan, `main_2`, TypeSafe Jev). The live app always uses `"structured"` (set in `main.py`; the UI toggle was removed); `"simple"` stays callable for `evaluator/comparison.py`:
 
 ```
-React toggle → POST /api/chat {messages, mode} → main.py → run_chat(messages, mode)
+POST /api/analyze {query} → main.py → analyze(messages, mode="structured")
   → cat_selector.select(messages) -> {clarify} or {concept, categories}
       clarify: return directly, nothing further runs
   → niche_report(categories, concept, mode) → _get_product_subset(categories, concept, mode)
@@ -192,8 +194,8 @@ React toggle → POST /api/chat {messages, mode} → main.py → run_chat(messag
 
 ```mermaid
 flowchart TD
-    U["User -- React mode toggle\nFast scan / Thorough scan"] -->|mode| A["POST /api/chat\n{messages, mode}"]
-    A --> R["run_chat(messages, mode)"]
+    U["User -- Niche Analyzer search"] --> A["POST /api/analyze\n{query}"]
+    A --> R["analyze(messages, mode=structured)"]
     R --> C1["cat_selector.select(messages)\nDeepSeek -- clarify, or concept + categories"]
     C1 -->|clarify| RP["Return reply directly"]
     C1 -->|concept, categories| N["niche_report(categories, concept, mode)"]
@@ -207,8 +209,9 @@ flowchart TD
     CH --> S
     S --> T["downstream tools -- unchanged\nrecent launches, top sellers, velocity\ntheme trend (KMeans, guarded n<2)"]
     T --> J["niche_report() JSON -- bounded\nmatch_count, titles_found_count, mode\n+ capped summaries only"]
-    J --> C2["Claude Haiku -- writes narrative\nstates mode + exact count"]
-    C2 --> P["Report panel"]
+    J --> P["Dashboard -- report_view()\ncards, charts, tables"]
+    J -->|"POST /api/bottom-line"| C1b["Claude Haiku -- bottom line\n2-3 sentences, automatic"]
+    J -->|"POST /api/report"| C2["Claude Haiku -- full report\non request only"]
 ```
 
 **What changed downstream now that the match count isn't fixed at ~200:**

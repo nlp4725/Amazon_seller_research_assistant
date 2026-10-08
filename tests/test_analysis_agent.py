@@ -246,10 +246,69 @@ def test_report_view_empty_subset_does_not_crash():
     assert view["stats"]["products"] == 0
 
 
-def test_run_chat_clarify_returns_no_data(monkeypatch):
+def test_analyze_clarify_returns_only_the_question(monkeypatch):
     monkeypatch.setattr(analysis_agent.cat_selector, "select", lambda messages: {"clarify": "Which niche?"})
 
-    assert analysis_agent.run_chat([{"role": "user", "content": "hi"}]) == {"reply": "Which niche?", "data": None}
+    assert analysis_agent.analyze([{"role": "user", "content": "hi"}]) == {"clarify": "Which niche?"}
+
+
+def test_analyze_returns_report_and_view_without_writing_prose(monkeypatch):
+    sub_df, sub_emb = _fake_matched_sub(5)
+    monkeypatch.setattr(analysis_agent.cat_selector, "select",
+                        lambda messages: {"concept": "dog fountain", "categories": PET_SUPPLIES})
+    monkeypatch.setattr(analysis_agent, "_get_product_subset",
+                        lambda categories, concept, mode: (sub_df, sub_emb, {"mode": mode, "match_count": 5, "titles_found_count": 9}))
+    # The fast path must never call Haiku -- that's the whole point of the split.
+    monkeypatch.setattr(analysis_agent, "haiku_client", None)
+
+    out = analysis_agent.analyze([{"role": "user", "content": "dog fountain"}])
+
+    assert set(out) == {"report", "data"}
+    assert out["report"]["mode"] == "structured"  # default is the Jev pipeline
+    assert out["data"]["stats"]["products"] == 5
+
+
+def test_analyze_error_report_has_no_dashboard_data(monkeypatch):
+    monkeypatch.setattr(analysis_agent.cat_selector, "select",
+                        lambda messages: {"concept": "x", "categories": PET_SUPPLIES})
+    monkeypatch.setattr(analysis_agent, "_get_product_subset",
+                        lambda categories, concept, mode: (pd.DataFrame(), np.empty((0, 0)), None))
+
+    out = analysis_agent.analyze([{"role": "user", "content": "x"}])
+
+    assert out["data"] is None and "error" in out["report"]
+
+
+# ---------- write_bottom_line: same rules as the full report, bottom line only ----------
+
+def test_bottom_line_prompt_keeps_rules_and_drops_other_sections():
+    prompt = analysis_agent.BOTTOM_LINE_SYSTEM
+    for kept in ("ROLE AND SECURITY RULES", "DATA RULES", "BOTTOM LINE:", "Today's date"):
+        assert kept in prompt
+    for dropped in ("LAUNCH VOLUME", "THEME TRENDS", "TOP SELLERS (from top_sellers)"):
+        assert dropped not in prompt
+
+
+class _FakeHaiku:
+    def __init__(self, text):
+        self.text, self.calls = text, []
+        self.messages = self
+
+    def create(self, **kwargs):
+        self.calls.append(kwargs)
+        block = type("Block", (), {"text": self.text})()
+        return type("Resp", (), {"content": [block]})()
+
+
+def test_write_bottom_line_uses_short_prompt_and_strips_echoed_heading(monkeypatch):
+    fake = _FakeHaiku("**BOTTOM LINE:** Launches are rising.")
+    monkeypatch.setattr(analysis_agent, "haiku_client", fake)
+
+    text = analysis_agent.write_bottom_line([{"role": "user", "content": "dog bed"}], {"concept": "dog bed"})
+
+    assert text == "Launches are rising."
+    assert fake.calls[0]["system"] == analysis_agent.BOTTOM_LINE_SYSTEM
+    assert fake.calls[0]["max_tokens"] == analysis_agent.BOTTOM_LINE_MAX_TOKENS
 
 
 def test_price_distribution_buckets_cover_every_product():
