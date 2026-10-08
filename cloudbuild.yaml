@@ -114,6 +114,7 @@ steps:
           --region=${_REGION} \
           --platform=managed \
           --port=8080 \
+          --execution-environment=gen1 \
           --cpu-boost \
           --startup-probe=httpGet.path=/health,httpGet.port=8080,periodSeconds=5,timeoutSeconds=5,failureThreshold=48 \
           --memory=4Gi \
@@ -122,6 +123,10 @@ steps:
           --allow-unauthenticated \
           --set-env-vars=WARM_UP_ON_BOOT=1,DEEPSEEK_BASE_URL=https://api.deepseek.com,DEEPSEEK_MODEL=deepseek-v4-flash,LANGSMITH_TRACING=true,LANGSMITH_PROJECT=amazon-seller-research-assistant \
           --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest,DEEPSEEK_API_KEY=deepseek-api-key:latest,LANGSMITH_API_KEY=langsmith-api-key:latest,TYPESAFE_API_KEY=typesafe-api-key:latest
+
+        # Serve what was just deployed even if traffic was pinned to a revision earlier
+        # (e.g. by a --no-traffic test deploy), which plain `run deploy` would leave in place.
+        gcloud run services update-traffic seller-assistant-api --region=${_REGION} --to-latest
 
         API_URL=$$(gcloud run services describe seller-assistant-api \
           --region=${_REGION} \
