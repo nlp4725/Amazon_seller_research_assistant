@@ -50,6 +50,28 @@ resource "google_artifact_registry_repository" "repo" {
   repository_id = "seller-assistant"
   format        = "DOCKER"
   depends_on    = [google_project_service.artifactregistry]
+
+  # Every deploy pushes a ~1 GB api image and an app image, and nothing ever removed old
+  # ones. Keep the 5 newest of each (enough to roll back a few deploys); delete the rest
+  # once they're a day old. KEEP wins over DELETE, so the 5 newest are never removed.
+  cleanup_policy_dry_run = false
+
+  cleanup_policies {
+    id     = "keep-5-most-recent"
+    action = "KEEP"
+    most_recent_versions {
+      keep_count = 5
+    }
+  }
+
+  cleanup_policies {
+    id     = "delete-older-than-1-day"
+    action = "DELETE"
+    condition {
+      tag_state  = "ANY"
+      older_than = "86400s"
+    }
+  }
 }
 
 # ── Cloud Build IAM ───────────────────────────────────────────────────────────
