@@ -12,6 +12,7 @@ from src.agent_pipeline.analysis_agent import (
     BOTTOM_LINE_SYSTEM, HAIKU_MODEL, SYSTEM, analyze, write_bottom_line, write_report,
 )
 from src.shared import result_cache
+from src.shared.errors import ServiceUnavailable
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -45,6 +46,13 @@ class BadRequest(Exception):
 @app.errorhandler(BadRequest)
 def bad_request(e):
     return jsonify({"error": str(e)}), 400
+
+
+@app.errorhandler(ServiceUnavailable)
+def unavailable(e):
+    """Primary and fallback providers both failed: a clear "try again" the page shows with a
+    retry button, instead of a bare 500."""
+    return jsonify({"error": str(e)}), 503, {"Retry-After": "30"}
 
 
 def _query_messages(data: dict) -> list[dict]:

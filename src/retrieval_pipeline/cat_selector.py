@@ -23,17 +23,32 @@ CLI:
     python -m src.retrieval_pipeline.cat_selector "kids costumes"
 """
 
+import asyncio
 import json
+import os
 import sys
 from pathlib import Path
 
+import anthropic
 import pandas as pd
 from langsmith import traceable
+from langsmith.wrappers import wrap_anthropic
 
-from src.retrieval_pipeline.llm_client import MODEL, client, record_usage
+from src.retrieval_pipeline.llm_client import MODEL, aclient, record_usage
+from src.shared.errors import ServiceUnavailable
 from src.shared.paths import CAT_SELECTOR_RUNS_DIR, PREPROCESSED_PARQUET, safe_name
 
 MAX_CANDIDATES = 2
+
+# Wall-clock ceiling per attempt, SDK retries included. llm_client's 60 s timeout is per read
+# and DeepSeek's keep-alive lines reset it (measured: one call ran 298 s), so the deadline
+# has to be imposed here. A safety net, not a tuned value: replace with measured p99 x 2.
+DEADLINE_S = 30
+
+# Fallback when DeepSeek fails, times out or returns unusable JSON: the same prompt on
+# Claude Haiku, parsed and validated by the same code, so callers can't tell the difference.
+FALLBACK_MODEL = "claude-haiku-4-5-20251001"
+fallback_client = wrap_anthropic(anthropic.AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"], max_retries=1))
 
 SYSTEM_PROMPT = """You are the entry-point classifier for an Amazon market research \
 assistant. You have access to a database of 61,635 product launches (2024-2026).
@@ -139,6 +154,42 @@ def _normalize_categories(raw: list[dict], valid_roots: set[str]) -> list[dict]:
     return out
 
 
+async def _ask_deepseek(system_text: str, messages: list[dict]) -> str:
+    async with asyncio.timeout(DEADLINE_S):
+        resp = await aclient.chat.completions.create(
+            model=MODEL,
+            max_tokens=4096,
+            temperature=0,
+            messages=[{"role": "system", "content": system_text}] + messages,
+        )
+    record_usage(resp)
+    return resp.choices[0].message.content
+
+
+async def _ask_haiku(system_text: str, messages: list[dict]) -> str:
+    async with asyncio.timeout(DEADLINE_S):
+        resp = await fallback_client.messages.create(
+            model=FALLBACK_MODEL, max_tokens=1024, temperature=0, system=system_text, messages=messages,
+        )
+    return "".join(b.text for b in resp.content if hasattr(b, "text"))
+
+
+def _parse(text: str) -> dict:
+    """The model's reply as one of the two documented shapes, or ValueError -- a reply that
+    parses but has the wrong shape is as unusable as invalid JSON, and gets the fallback."""
+    text = (text or "").strip()
+    if text.startswith("```"):
+        text = text.split("```")[1]
+        if text.startswith("json"):
+            text = text[4:]
+    parsed = json.loads(text.strip())
+    if parsed.get("action") == "reply" and isinstance(parsed.get("reply"), str):
+        return parsed
+    if parsed.get("action") == "proceed" and isinstance(parsed.get("categories"), list):
+        return parsed
+    raise ValueError(f"unexpected reply shape: {str(parsed)[:200]}")
+
+
 @traceable(run_type="chain", name="cat_selector.select")
 def select(messages: list[dict], pairs: list[str] | None = None) -> dict:
     """
@@ -148,6 +199,8 @@ def select(messages: list[dict], pairs: list[str] | None = None) -> dict:
     In: full conversation history (list of {role, content} dicts, same shape callers
         already pass around) -- for a bare query string (eval/CLI use), wrap it as
         [{"role": "user", "content": query}]
+    Raises ServiceUnavailable when DeepSeek and the Haiku fallback both fail.
+
     Out: {"clarify": str} if the model wants to ask the user something or decline an
          off-topic request (same short-circuit chat_engine.py used to do on
          finish_reason != "tool_calls"), else {"concept": str | None, "categories": [...]}
@@ -156,24 +209,19 @@ def select(messages: list[dict], pairs: list[str] | None = None) -> dict:
     if pairs is None:
         pairs = load_root_level2_pairs()
 
-    system_message = {
-        "role": "system",
-        "content": SYSTEM_PROMPT.format(max_candidates=MAX_CANDIDATES, pairs_block="\n".join(pairs)),
-    }
+    system_text = SYSTEM_PROMPT.format(max_candidates=MAX_CANDIDATES, pairs_block="\n".join(pairs))
 
-    resp = client.chat.completions.create(
-        model=MODEL,
-        max_tokens=4096,
-        temperature=0,
-        messages=[system_message] + messages,
-    )
-    record_usage(resp)
-    text = resp.choices[0].message.content.strip()
-    if text.startswith("```"):
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
-    parsed = json.loads(text.strip())
+    parsed, last_error = None, None
+    for name, ask in (("deepseek", _ask_deepseek), ("haiku", _ask_haiku)):
+        try:
+            parsed = _parse(asyncio.run(ask(system_text, messages)))
+            break
+        except Exception as e:  # timeout, 5xx, network, invalid or wrong-shaped JSON
+            print(f"cat_selector: {name} failed ({e!r})"
+                  + ("; falling back to Claude Haiku" if name == "deepseek" else ""), flush=True)
+            last_error = e
+    if parsed is None:
+        raise ServiceUnavailable("Search is temporarily unavailable. Please try again in a minute.") from last_error
 
     if parsed["action"] == "reply":
         return {"clarify": parsed["reply"]}

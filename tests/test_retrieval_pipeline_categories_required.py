@@ -59,6 +59,8 @@ def test_main_2_run_uses_caller_supplied_categories(monkeypatch):
             "ambiguous_match": {},
             "not_match": {},
             "partial_failure": False,
+            "failed_batches": 0,
+            "total_batches": 1,
         },
     )
     monkeypatch.setattr(

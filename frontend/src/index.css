@@ -705,6 +705,11 @@ a {
   border-color: #f5c2c7;
   background: var(--red-bg);
 }
+.notice-partial {
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  font-size: 14px;
+}
 .notice-hint {
   margin: 12px 0 0;
   font-size: 14px;

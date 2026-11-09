@@ -22,6 +22,7 @@ Flow per user message:
      report (only when the user asks for it).
 """
 
+import asyncio
 import calendar
 import json
 import os
@@ -39,6 +40,7 @@ from langsmith.wrappers import wrap_anthropic
 from src.retrieval_pipeline import cat_selector, main_1, main_2
 from src.retrieval_pipeline.candidates import hydrate_items
 from src.shared import result_cache
+from src.shared.errors import ServiceUnavailable
 from src.shared.paths import CHROMA_COLLECTION, CHROMA_DIR, PREPROCESSED_PARQUET
 
 load_dotenv()
@@ -47,7 +49,12 @@ load_dotenv()
 # the only Claude call in the system. Category/concept classification is cat_selector.py's
 # job (DeepSeek), not this agent's.
 HAIKU_MODEL = "claude-haiku-4-5-20251001"
-haiku_client = wrap_anthropic(anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"]))
+# Async so WRITER_DEADLINE_S can cancel a call (asyncio.timeout closes the connection); the
+# sync client's own timeout is per read, and the SDK default is 10 minutes with 2 retries.
+haiku_client = wrap_anthropic(anthropic.AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"], max_retries=1))
+# Wall-clock ceiling on one writer call, retries included. A full report is ~10 s today;
+# this is a safety net against a hung call, to be replaced by measured p99 x 2 (layer J).
+WRITER_DEADLINE_S = 45
 
 _chroma_col = None  # cached ChromaDB collection — loaded once per session
 
@@ -70,8 +77,9 @@ def _get_product_subset(
     retrieval_pipeline.md). pipeline_meta is None when no concept given (broad-category
     browsing bypasses the pipeline entirely — all category products are relevant, no
     query to rank/classify against); otherwise {mode, match_count, titles_found_count,
-    partial_failure} -- partial_failure is True when a classification batch failed and its
-    paths fell back to not_match, i.e. the match set is degraded, not complete.
+    degraded_reasons} -- degraded_reasons is empty when every stage ran, and otherwise says
+    why the match set is partial (a failed classification batch, an unfiltered title list,
+    or the main_1 fallback when classification failed outright).
     Both metadata and embeddings come from ChromaDB — no parquet or .npy needed."""
     col = _load_chroma()
     category_names = [c["category"] for c in categories]
@@ -79,14 +87,24 @@ def _get_product_subset(
     if concept:
         pipeline = main_1 if mode == "simple" else main_2
         result = pipeline.run(concept, categories=categories)
+        degraded_reasons = list(result.get("degraded_reasons", []))  # main_1 has no model calls to degrade
+        classifications = result.get("classifications", [])
+        if classifications and all(c.get("total_batches") and c["failed_batches"] == c["total_batches"]
+                                   for c in classifications):
+            # Path classification failed outright (Jev down), so main_2 found nothing at all.
+            # A zero here would read as "no one sells this" -- serve the broader similarity
+            # search instead, which needs no model calls, and say it is less precise.
+            print("path classification failed for every category -- falling back to main_1", flush=True)
+            result = main_1.run(concept, categories=categories)
+            degraded_reasons = ["category matching was unavailable, so this is a broader similarity "
+                                "search and may include related products"]
         matched_asins = [t["asin"] for t in result["titles_found"] if t["is_match"]]
         sub_df, emb_array = hydrate_items(matched_asins)
         pipeline_meta = {
             "mode": mode,
             "match_count": result["match_count"],
             "titles_found_count": result["titles_found_count"],
-            # main_1 has no classification step, so nothing to degrade
-            "partial_failure": any(c["partial_failure"] for c in result.get("classifications", [])),
+            "degraded_reasons": degraded_reasons,
         }
     else:
         results = col.get(
@@ -245,7 +263,8 @@ def _build_report(
         return {"error": "ChromaDB is empty."}, pd.DataFrame(), False
 
     sub_df, sub_emb, pipeline_meta = _get_product_subset(categories, concept, mode)
-    complete = not (pipeline_meta or {}).get("partial_failure", False)
+    degraded_reasons = (pipeline_meta or {}).get("degraded_reasons", [])
+    complete = not degraded_reasons
 
     if len(sub_df) == 0:
         return {"error": "No matching products found."}, sub_df, complete
@@ -284,6 +303,9 @@ def _build_report(
             f"{_data_extent()[0]} data is partial (through {calendar.month_name[_data_extent()[1]]} "
             f"only) — counts will be lower"
         ),
+        # Partial results are labelled, never passed off as complete (and never cached).
+        "degraded": bool(degraded_reasons),
+        "degraded_reason": "; ".join(degraded_reasons) or None,
         "trend_by_theme": _get_theme_trend(sub_df, sub_emb, n_clusters),  # which themes are growing
         "top_sellers": _get_top_sellers(sub_df),                      # who dominates this space
     }
@@ -378,6 +400,7 @@ def report_view(report: dict, sub_df: pd.DataFrame) -> dict:
         } for s in report["top_sellers"]],
         "recent_launches": recent_launches,
         "note": report["note"],
+        "degraded_reason": report.get("degraded_reason"),
     }
 
 
@@ -474,8 +497,7 @@ def write_report(messages: list[dict], report: dict) -> str:
     In: conversation history, niche_report() output
     Out: plain-text report
     """
-    resp = haiku_client.messages.create(
-        model=HAIKU_MODEL,
+    return _write(
         max_tokens=4096,
         system=SYSTEM,
         messages=messages + [{
@@ -486,7 +508,22 @@ def write_report(messages: list[dict], report: dict) -> str:
             ),
         }],
     )
-    return "\n".join(b.text for b in resp.content if hasattr(b, "text"))
+
+
+def _write(**kwargs) -> str:
+    """One Haiku call under WRITER_DEADLINE_S. Raises ServiceUnavailable on any failure or an
+    empty reply, which the API turns into a 503 the page shows with a retry button."""
+    async def call():
+        async with asyncio.timeout(WRITER_DEADLINE_S):
+            return await haiku_client.messages.create(model=HAIKU_MODEL, **kwargs)
+    try:
+        resp = asyncio.run(call())
+    except Exception as e:
+        raise ServiceUnavailable("The summary couldn't be written right now. Please try again.") from e
+    text = "\n".join(b.text for b in resp.content if hasattr(b, "text"))
+    if not text.strip():
+        raise ServiceUnavailable("The summary came back empty. Please try again.")
+    return text
 
 
 # The Overview card's 2–3 sentences, written on their own so the dashboard never waits for
@@ -506,16 +543,14 @@ def write_bottom_line(messages: list[dict], report: dict) -> str:
     In: conversation history, niche_report() output (the same dict write_report gets)
     Out: the BOTTOM LINE only, 2–3 sentences
     """
-    resp = haiku_client.messages.create(
-        model=HAIKU_MODEL,
+    text = _write(
         max_tokens=BOTTOM_LINE_MAX_TOKENS,
         system=BOTTOM_LINE_SYSTEM,
         messages=messages + [{
             "role": "user",
             "content": "Here is the market research data (JSON) for the request above.\n\n" + json.dumps(report),
         }],
-    )
-    text = "\n".join(b.text for b in resp.content if hasattr(b, "text")).strip()
+    ).strip()
     # Haiku sometimes echoes the section name anyway; the card already has its own title.
     return re.sub(r"^\W*bottom line\W*", "", text, flags=re.IGNORECASE).strip()
 

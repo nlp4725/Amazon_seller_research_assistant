@@ -36,7 +36,9 @@ import logging
 import os
 import re
 import threading
+import time
 from collections import OrderedDict
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from functools import lru_cache
 
@@ -48,6 +50,8 @@ CACHE_VERSION = 1        # bump when retrieval or report logic changes what a qu
 TTL_DAYS = 90            # Firestore deletes entries this long after they were written
 MEMORY_MAX_ITEMS = 512   # in-process LRU size, per instance
 MAX_DOC_BYTES = 900_000  # Firestore caps a document at 1 MiB; anything near that is skipped
+BACKEND_DEADLINE_S = 2.0 # a cache read slower than this is a miss: recomputing beats waiting
+BREAKER_COOLDOWN_S = 30  # after a backend failure, skip it this long instead of waiting on each call
 
 
 # ---------- keys ----------
@@ -148,18 +152,38 @@ class FirestoreStore:
 
 
 class ResultCache:
-    """Memory in front of an optional durable store. Never raises."""
+    """Memory in front of an optional durable store. Never raises, and never waits on the
+    store for more than BACKEND_DEADLINE_S.
+
+    Circuit breaker: one backend failure or timeout opens the circuit, and for
+    BREAKER_COOLDOWN_S every call skips the backend (memory only) instead of each request
+    paying its own deadline -- without this, a hung Firestore cost every search one deadline
+    per cache lookup (three on a miss). After the cool-down the next call tries again."""
 
     def __init__(self, backend=None, memory: MemoryStore | None = None):
         self._memory = memory or MemoryStore()
         self._backend = backend
+        # A timed-out call can't be cancelled, only abandoned; a small pool bounds how many
+        # can pile up while the circuit is closed.
+        self._pool = ThreadPoolExecutor(max_workers=4, thread_name_prefix="cache") if backend else None
+        self._open_until = 0.0
+
+    def _call(self, op: str, collection: str, *args):
+        """Run one backend call under the deadline and the breaker. Raises on any failure."""
+        if time.monotonic() < self._open_until:
+            raise RuntimeError("circuit open")
+        try:
+            return self._pool.submit(getattr(self._backend, op), collection, *args).result(BACKEND_DEADLINE_S)
+        except Exception:
+            self._open_until = time.monotonic() + BREAKER_COOLDOWN_S
+            raise
 
     def get(self, collection: str, key: str) -> dict | None:
         hit = self._memory.get(collection, key)
         if hit is not None or self._backend is None:
             return hit
         try:
-            hit = self._backend.get(collection, key)
+            hit = self._call("get", collection, key)
         except Exception as e:
             log.warning("cache: read from %s failed (%r); treating as a miss", collection, e)
             return None
@@ -172,7 +196,7 @@ class ResultCache:
         if self._backend is None:
             return
         try:
-            self._backend.put(collection, key, value)
+            self._call("put", collection, key, value)
         except Exception as e:
             log.warning("cache: write to %s failed (%r); kept in memory only", collection, e)
 

@@ -27,6 +27,7 @@ import os
 from langsmith import traceable
 from typesafe_sdk import AsyncTypeSafeClient, Noul
 
+from src.retrieval_pipeline import jev_scorer
 from src.retrieval_pipeline.jev_scorer import JEV_MODEL
 
 TITLE_FILTER = os.environ.get("TITLE_FILTER", "on") == "on"
@@ -58,6 +59,7 @@ async def _ask(client: AsyncTypeSafeClient, query: str, titles: dict[str, str]) 
                                                "shopper searching `query` wants, following `rules`?"))
                        for key, title in titles.items()},
         )
+    jev_scorer.check_complete(titles, response.answers)
     u = response.usage
     return {"p": {k: a.noul for k, a in response.answers.items()},
             "usage_metadata": {"input_tokens": u.input_tokens, "output_tokens": u.output_tokens,
@@ -68,13 +70,15 @@ async def _ask(client: AsyncTypeSafeClient, query: str, titles: dict[str, str]) 
 async def ascore_titles(query: str, titles: dict[str, str]) -> dict[str, float]:
     """
     In: query, {key: title} for the items to judge (keys are any unique ids, e.g. asins)
-    Out: {key: p_match}. Batches run concurrently; a failed batch raises, so a caller never
-         silently treats unjudged items as rejected.
+    Out: {key: p_match}. Batches run concurrently, each retried once on failure; a batch
+         that still fails raises, so a caller never silently treats unjudged items as
+         rejected (main_2 catches it and returns the unfiltered matches, labelled).
     """
     items = list(titles.items())
     async with AsyncTypeSafeClient(model=JEV_MODEL) as client:
-        parts = await asyncio.gather(*(_ask(client, query, dict(items[i:i + BATCH]))
-                                       for i in range(0, len(items), BATCH)))
+        parts = await asyncio.gather(*(
+            jev_scorer.retry_once(lambda batch=dict(items[i:i + BATCH]): _ask(client, query, batch))
+            for i in range(0, len(items), BATCH)))
     return {k: p for part in parts for k, p in part["p"].items()}
 
 

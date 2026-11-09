@@ -152,7 +152,7 @@ def _fake_sub(n=5, seed=0):
 def counted(monkeypatch):
     """Fake cat_selector + retrieval that count their calls. resolve maps query -> concept."""
     calls = {"select": 0, "retrieve": 0}
-    meta = {"mode": "structured", "match_count": 5, "titles_found_count": 9, "partial_failure": False}
+    meta = {"mode": "structured", "match_count": 5, "titles_found_count": 9, "degraded_reasons": []}
 
     def select(messages):
         calls["select"] += 1
@@ -203,7 +203,7 @@ def test_clarify_is_cached(counted):
 
 
 def test_degraded_result_is_not_cached(counted):
-    counted["meta"]["partial_failure"] = True
+    counted["meta"]["degraded_reasons"] = ["title filter failed"]
     cache = ResultCache()
     _ask("dog fountain", cache)
     _ask("dog fountain", cache)

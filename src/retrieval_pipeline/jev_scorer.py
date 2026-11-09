@@ -28,6 +28,7 @@ Price: input tokens only ($0.042 per Mtok for jev-1.13.0); output is free.
 
 import asyncio
 import os
+import random
 
 from langsmith import traceable
 from typesafe_sdk import AsyncTypeSafeClient, Choice, Noul
@@ -36,6 +37,7 @@ from typesafe_sdk import AsyncTypeSafeClient, Choice, Noul
 JEV_MODEL = os.environ.get("JEV_MODEL", "jev-1.13.0")
 JEV_PRICE_PER_INPUT_TOKEN = 0.042 / 1_000_000
 BATCH_DEADLINE_S = 60
+RETRY_BACKOFF_S = 1.0   # base wait before the one retry; jitter adds up to the same again
 JEV_MODE = os.environ.get("JEV_MODE", "noul")
 JEV_CONFIDENT_CUTOFF = float(os.environ.get("JEV_CONFIDENT_CUTOFF", "0.9"))
 JEV_KEEP_CUTOFF = float(os.environ.get("JEV_KEEP_CUTOFF", "0.3"))
@@ -70,6 +72,38 @@ CRITERIA = {
 _ROW = {"confident": (10, True), "ambiguous": (5, False)}
 
 _usage = {"calls": 0, "input_tokens": 0}
+
+
+class IncompleteResponse(Exception):
+    """Jev answered fewer questions than it was asked. Treated like a failed call (and
+    retried): accepting it would silently turn every unanswered path or title into a
+    "no", which reads downstream as a real answer."""
+
+
+def check_complete(asked, answers) -> None:
+    missing = set(asked) - set(answers)
+    if missing:
+        raise IncompleteResponse(f"{len(missing)} of {len(asked)} questions unanswered")
+
+
+def _retryable(e: BaseException) -> bool:
+    """Timeouts, 5xx, network errors and incomplete answers are worth one more try; a 4xx
+    other than 429 (bad key, bad request) will fail the same way again."""
+    status = getattr(e, "status_code", None)
+    return not (isinstance(status, int) and 400 <= status < 500 and status != 429)
+
+
+async def retry_once(make_call):
+    """Await make_call(); on a retryable failure wait RETRY_BACKOFF_S plus jitter (so
+    parallel batches that failed together don't retry in lockstep) and try exactly once
+    more. Each attempt gets its own deadline inside make_call."""
+    try:
+        return await make_call()
+    except Exception as e:
+        if not _retryable(e):
+            raise
+        await asyncio.sleep(RETRY_BACKOFF_S * (1 + random.random()))
+        return await make_call()
 
 
 def reset_usage() -> None:
@@ -125,6 +159,7 @@ async def score_batch(client: AsyncTypeSafeClient, query: str, batch: dict[str, 
          probability is saved even below the keep cutoff), plus score/confident/note on kept ones
     """
     result = await _system_one(client, query, batch)
+    check_complete(batch, result["answers"])
     _usage["calls"] += 1
     _usage["input_tokens"] += result["usage_metadata"]["input_tokens"]
 
