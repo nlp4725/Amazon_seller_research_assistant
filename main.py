@@ -8,14 +8,23 @@ import json
 from flask import Flask, request, jsonify
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+import time
+
+_t0 = time.perf_counter()
 from src.agent_pipeline.analysis_agent import (
-    BOTTOM_LINE_SYSTEM, HAIKU_MODEL, SYSTEM, analyze, write_bottom_line, write_report,
+    BOTTOM_LINE_SYSTEM, HAIKU_MODEL, SYSTEM, analyze, warm_up, write_bottom_line, write_report,
 )
 from src.shared import result_cache
 from src.shared.errors import ServiceUnavailable
 from dotenv import load_dotenv
 
 load_dotenv()
+print(f"boot: imports {time.perf_counter() - _t0:.1f}s", flush=True)
+
+# Cloud Run sets this: load models and the database now, during startup, instead of on the
+# first search. Off locally and in tests.
+if os.environ.get("WARM_UP_ON_BOOT") == "1":
+    print(f"boot: warm-up {warm_up()}", flush=True)
 
 app = Flask(__name__)
 
