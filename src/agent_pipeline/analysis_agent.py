@@ -562,11 +562,14 @@ def warm_up() -> dict[str, float]:
     Cloud Run instance doesn't pay for it. main.py calls this at import when
     WARM_UP_ON_BOOT=1, and the HTTP startup probe on /health can't pass until import
     finishes -- so Cloud Run routes no traffic to an instance that is still loading.
-    The bi-encoder embedder is deliberately skipped: only the "simple" (main_1) path uses it.
+    The bi-encoder embedder is loaded too: the "simple" (main_1) path uses it, and that path
+    is now also the fallback when Jev path classification fails, so loading it lazily would
+    add ~15 s to the first degraded search on a new instance.
 
     Out: seconds spent per step, logged at boot
     """
     from src.retrieval_pipeline import candidates, reranker
+    from src.shared.model_loader import get_embedder
 
     timings = {}
     for step, load in (
@@ -574,6 +577,7 @@ def warm_up() -> dict[str, float]:
         ("chroma_candidates", candidates._load_chroma),
         ("data_extent", _data_extent),
         ("reranker", lambda: reranker.get_reranker().predict([("warm up", "warm up")], show_progress_bar=False)),
+        ("embedder", lambda: get_embedder().encode(["warm up"], show_progress_bar=False)),
     ):
         t = time.perf_counter()
         load()

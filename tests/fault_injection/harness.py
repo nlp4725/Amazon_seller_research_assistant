@@ -364,6 +364,10 @@ def run_scenario(main, sc: Scenario, ref: dict) -> Result:
 
 def run_all() -> tuple[dict, list[Result]]:
     main = install()
+    # Production boots with WARM_UP_ON_BOOT=1 (cloudbuild.yaml); without the same warm-up,
+    # the first fallback scenario times model loading instead of the fallback itself.
+    from src.agent_pipeline.analysis_agent import warm_up
+    warm_up()
     ref = healthy_reference(main)
     results = [run_scenario(main, sc, ref) for sc in SCENARIOS]
     B.reset()
