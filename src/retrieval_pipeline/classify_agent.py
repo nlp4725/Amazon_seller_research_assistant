@@ -239,7 +239,7 @@ async def aclassify_paths(
         batch = {pid: paths_by_id[pid] for pid in batch_ids}
         async with sem:
             if jev:
-                return await jev_scorer.score_batch(jev_client, query, batch)
+                return await jev_scorer.retry_once(lambda: jev_scorer.score_batch(jev_client, query, batch))
             return await _score_batch(query, batch)
 
     # return_exceptions=True so one failed batch degrades that batch only, instead of

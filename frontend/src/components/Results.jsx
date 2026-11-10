@@ -243,6 +243,11 @@ export default function Results({ search, onAnalyze, onHome, onWrite }) {
         )}
         {status === 'done' && (
           <>
+            {data.degraded_reason && (
+              <div className="notice notice-partial" role="status">
+                <strong>Partial results.</strong> Part of the search was unavailable: {data.degraded_reason}. Search again in a few minutes for the full result.
+              </div>
+            )}
             <StatCards stats={data.stats} />
             <nav className="tabs" role="tablist">
               {TABS.map((t) => (

@@ -121,7 +121,7 @@ steps:
           --cpu=2 \
           --timeout=300 \
           --allow-unauthenticated \
-          --set-env-vars=WARM_UP_ON_BOOT=1,DEEPSEEK_BASE_URL=https://api.deepseek.com,DEEPSEEK_MODEL=deepseek-v4-flash,LANGSMITH_TRACING=true,LANGSMITH_PROJECT=amazon-seller-research-assistant \
+          --set-env-vars=CACHE_BACKEND=firestore,WARM_UP_ON_BOOT=1,DEEPSEEK_BASE_URL=https://api.deepseek.com,DEEPSEEK_MODEL=deepseek-v4-flash,LANGSMITH_TRACING=true,LANGSMITH_PROJECT=amazon-seller-research-assistant \
           --set-secrets=ANTHROPIC_API_KEY=anthropic-api-key:latest,DEEPSEEK_API_KEY=deepseek-api-key:latest,LANGSMITH_API_KEY=langsmith-api-key:latest,TYPESAFE_API_KEY=typesafe-api-key:latest
 
         # Serve what was just deployed even if traffic was pinned to a revision earlier

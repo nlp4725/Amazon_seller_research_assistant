@@ -22,6 +22,7 @@ Flow per user message:
      report (only when the user asks for it).
 """
 
+import asyncio
 import calendar
 import json
 import os
@@ -39,6 +40,8 @@ from langsmith.wrappers import wrap_anthropic
 
 from src.retrieval_pipeline import cat_selector, main_1, main_2
 from src.retrieval_pipeline.candidates import hydrate_items
+from src.shared import result_cache
+from src.shared.errors import ServiceUnavailable
 from src.shared.paths import CHROMA_COLLECTION, CHROMA_DIR, PREPROCESSED_PARQUET
 
 load_dotenv()
@@ -47,7 +50,12 @@ load_dotenv()
 # the only Claude call in the system. Category/concept classification is cat_selector.py's
 # job (DeepSeek), not this agent's.
 HAIKU_MODEL = "claude-haiku-4-5-20251001"
-haiku_client = wrap_anthropic(anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"]))
+# Async so WRITER_DEADLINE_S can cancel a call (asyncio.timeout closes the connection); the
+# sync client's own timeout is per read, and the SDK default is 10 minutes with 2 retries.
+haiku_client = wrap_anthropic(anthropic.AsyncAnthropic(api_key=os.environ["ANTHROPIC_API_KEY"], max_retries=1))
+# Wall-clock ceiling on one writer call, retries included. A full report is ~10 s today;
+# this is a safety net against a hung call, to be replaced by measured p99 x 2 (layer J).
+WRITER_DEADLINE_S = 45
 
 _chroma_col = None  # cached ChromaDB collection — loaded once per session
 
@@ -69,7 +77,10 @@ def _get_product_subset(
     concept via the retrieval pipeline (main_1 "simple" or main_2 "structured" — see
     retrieval_pipeline.md). pipeline_meta is None when no concept given (broad-category
     browsing bypasses the pipeline entirely — all category products are relevant, no
-    query to rank/classify against); otherwise {mode, match_count, titles_found_count}.
+    query to rank/classify against); otherwise {mode, match_count, titles_found_count,
+    degraded_reasons} -- degraded_reasons is empty when every stage ran, and otherwise says
+    why the match set is partial (a failed classification batch, an unfiltered title list,
+    or the main_1 fallback when classification failed outright).
     Both metadata and embeddings come from ChromaDB — no parquet or .npy needed."""
     col = _load_chroma()
     category_names = [c["category"] for c in categories]
@@ -77,12 +88,24 @@ def _get_product_subset(
     if concept:
         pipeline = main_1 if mode == "simple" else main_2
         result = pipeline.run(concept, categories=categories)
+        degraded_reasons = list(result.get("degraded_reasons", []))  # main_1 has no model calls to degrade
+        classifications = result.get("classifications", [])
+        if classifications and all(c.get("total_batches") and c["failed_batches"] == c["total_batches"]
+                                   for c in classifications):
+            # Path classification failed outright (Jev down), so main_2 found nothing at all.
+            # A zero here would read as "no one sells this" -- serve the broader similarity
+            # search instead, which needs no model calls, and say it is less precise.
+            print("path classification failed for every category -- falling back to main_1", flush=True)
+            result = main_1.run(concept, categories=categories)
+            degraded_reasons = ["category matching was unavailable, so this is a broader similarity "
+                                "search and may include related products"]
         matched_asins = [t["asin"] for t in result["titles_found"] if t["is_match"]]
         sub_df, emb_array = hydrate_items(matched_asins)
         pipeline_meta = {
             "mode": mode,
             "match_count": result["match_count"],
             "titles_found_count": result["titles_found_count"],
+            "degraded_reasons": degraded_reasons,
         }
     else:
         results = col.get(
@@ -231,17 +254,21 @@ def niche_report(categories: list[dict], concept: str | None = None, n_clusters:
 
 def _build_report(
     categories: list[dict], concept: str | None, n_clusters: int, mode: str
-) -> tuple[dict, pd.DataFrame]:
+) -> tuple[dict, pd.DataFrame, bool]:
     """niche_report's body, also returning the matched sub_df so analyze() can build the
-    view-only chart payload (report_view) without that data ever reaching Haiku."""
+    view-only chart payload (report_view) without that data ever reaching Haiku, and
+    whether the result is complete (not degraded by a failed classification batch) --
+    analyze() only caches complete results."""
     col = _load_chroma()
     if col.count() == 0:
-        return {"error": "ChromaDB is empty."}, pd.DataFrame()
+        return {"error": "ChromaDB is empty."}, pd.DataFrame(), False
 
     sub_df, sub_emb, pipeline_meta = _get_product_subset(categories, concept, mode)
+    degraded_reasons = (pipeline_meta or {}).get("degraded_reasons", [])
+    complete = not degraded_reasons
 
     if len(sub_df) == 0:
-        return {"error": "No matching products found."}, sub_df
+        return {"error": "No matching products found."}, sub_df, complete
 
     category_names = [c["category"] for c in categories]
 
@@ -277,10 +304,13 @@ def _build_report(
             f"{_data_extent()[0]} data is partial (through {calendar.month_name[_data_extent()[1]]} "
             f"only) — counts will be lower"
         ),
+        # Partial results are labelled, never passed off as complete (and never cached).
+        "degraded": bool(degraded_reasons),
+        "degraded_reason": "; ".join(degraded_reasons) or None,
         "trend_by_theme": _get_theme_trend(sub_df, sub_emb, n_clusters),  # which themes are growing
         "top_sellers": _get_top_sellers(sub_df),                      # who dominates this space
     }
-    return report, sub_df
+    return report, sub_df, complete
 
 
 RECENT_LAUNCHES_N = 8  # rows in the frontend's recent-launches table
@@ -371,6 +401,7 @@ def report_view(report: dict, sub_df: pd.DataFrame) -> dict:
         } for s in report["top_sellers"]],
         "recent_launches": recent_launches,
         "note": report["note"],
+        "degraded_reason": report.get("degraded_reason"),
     }
 
 
@@ -467,8 +498,7 @@ def write_report(messages: list[dict], report: dict) -> str:
     In: conversation history, niche_report() output
     Out: plain-text report
     """
-    resp = haiku_client.messages.create(
-        model=HAIKU_MODEL,
+    return _write(
         max_tokens=4096,
         system=SYSTEM,
         messages=messages + [{
@@ -479,7 +509,22 @@ def write_report(messages: list[dict], report: dict) -> str:
             ),
         }],
     )
-    return "\n".join(b.text for b in resp.content if hasattr(b, "text"))
+
+
+def _write(**kwargs) -> str:
+    """One Haiku call under WRITER_DEADLINE_S. Raises ServiceUnavailable on any failure or an
+    empty reply, which the API turns into a 503 the page shows with a retry button."""
+    async def call():
+        async with asyncio.timeout(WRITER_DEADLINE_S):
+            return await haiku_client.messages.create(model=HAIKU_MODEL, **kwargs)
+    try:
+        resp = asyncio.run(call())
+    except Exception as e:
+        raise ServiceUnavailable("The summary couldn't be written right now. Please try again.") from e
+    text = "\n".join(b.text for b in resp.content if hasattr(b, "text"))
+    if not text.strip():
+        raise ServiceUnavailable("The summary came back empty. Please try again.")
+    return text
 
 
 # The Overview card's 2–3 sentences, written on their own so the dashboard never waits for
@@ -499,16 +544,14 @@ def write_bottom_line(messages: list[dict], report: dict) -> str:
     In: conversation history, niche_report() output (the same dict write_report gets)
     Out: the BOTTOM LINE only, 2–3 sentences
     """
-    resp = haiku_client.messages.create(
-        model=HAIKU_MODEL,
+    text = _write(
         max_tokens=BOTTOM_LINE_MAX_TOKENS,
         system=BOTTOM_LINE_SYSTEM,
         messages=messages + [{
             "role": "user",
             "content": "Here is the market research data (JSON) for the request above.\n\n" + json.dumps(report),
         }],
-    )
-    text = "\n".join(b.text for b in resp.content if hasattr(b, "text")).strip()
+    ).strip()
     # Haiku sometimes echoes the section name anyway; the card already has its own title.
     return re.sub(r"^\W*bottom line\W*", "", text, flags=re.IGNORECASE).strip()
 
@@ -519,11 +562,14 @@ def warm_up() -> dict[str, float]:
     Cloud Run instance doesn't pay for it. main.py calls this at import when
     WARM_UP_ON_BOOT=1, and the HTTP startup probe on /health can't pass until import
     finishes -- so Cloud Run routes no traffic to an instance that is still loading.
-    The bi-encoder embedder is deliberately skipped: only the "simple" (main_1) path uses it.
+    The bi-encoder embedder is loaded too: the "simple" (main_1) path uses it, and that path
+    is now also the fallback when Jev path classification fails, so loading it lazily would
+    add ~15 s to the first degraded search on a new instance.
 
     Out: seconds spent per step, logged at boot
     """
     from src.retrieval_pipeline import candidates, reranker
+    from src.shared.model_loader import get_embedder
 
     timings = {}
     for step, load in (
@@ -531,6 +577,7 @@ def warm_up() -> dict[str, float]:
         ("chroma_candidates", candidates._load_chroma),
         ("data_extent", _data_extent),
         ("reranker", lambda: reranker.get_reranker().predict([("warm up", "warm up")], show_progress_bar=False)),
+        ("embedder", lambda: get_embedder().encode(["warm up"], show_progress_bar=False)),
     ):
         t = time.perf_counter()
         load()
@@ -539,29 +586,63 @@ def warm_up() -> dict[str, float]:
 
 
 @traceable(name="analyze", run_type="chain")
-def analyze(messages: list[dict], mode: str = "structured") -> dict:
+def analyze(messages: list[dict], mode: str = "structured", cache: result_cache.ResultCache | None = None) -> dict:
     """
     Everything the dashboard needs, with no report writing -- the fast first response.
     The prose is written separately, on demand: write_bottom_line() for the Overview card,
     write_report() for the Full Report tab, both from the `report` returned here.
 
-    In: conversation history (one user message from the Niche Analyzer page), retrieval mode
+    With a cache (the API passes one; evaluators don't, so they always measure a real run),
+    two lookups short-circuit the work -- see src/shared/result_cache.py:
+      1. query key   -- the same wording seen before: skips everything, cat_selector included
+      2. concept key -- a new wording cat_selector resolved to a known concept + categories:
+                        skips retrieval, the slow and costly part
+    Degraded results (a failed classification batch) and errors are never cached.
+
+    In: conversation history (one user message from the Niche Analyzer page), retrieval mode,
+        optional ResultCache
     Out: {"clarify": text} when cat_selector needs more input or declines the request;
          otherwise {"report": niche_report() dict, "data": report_view() payload or None}
          (data is None when the report is an error, e.g. no matching products)
     """
+    n_clusters = 6
+    qkey = result_cache.query_key(messages, mode) if cache else None
+    if cache:
+        hit = cache.get("analysis", qkey)
+        if hit and "clarify" in hit:
+            return hit
+        if hit:
+            full = cache.get("analysis", hit["concept_key"])
+            if full is not None:
+                return full
+
     # cat_selector -- single DeepSeek call that decides clarify-vs-proceed and, if
     # proceeding, resolves concept + up to 2 categories.
     resolved = cat_selector.select(messages)
     if "clarify" in resolved:
-        return {"clarify": resolved["clarify"]}
+        out = {"clarify": resolved["clarify"]}
+        if cache:
+            cache.put("analysis", qkey, out)
+        return out
+
+    ckey = None
+    if cache:
+        ckey = result_cache.concept_key(resolved["concept"], resolved["categories"], mode, n_clusters)
+        full = cache.get("analysis", ckey)
+        if full is not None:
+            cache.put("analysis", qkey, {"concept_key": ckey})
+            return full
 
     # niche_report locally -- retrieval pipeline + KMeans + seller stats.
-    report, sub_df = _build_report(
+    report, sub_df, complete = _build_report(
         categories=resolved["categories"],
         concept=resolved["concept"],
-        n_clusters=6,
+        n_clusters=n_clusters,
         mode=mode,
     )
     data = None if "error" in report else report_view(report, sub_df)
-    return {"report": report, "data": data}
+    out = {"report": report, "data": data}
+    if cache and complete:
+        cache.put("analysis", ckey, out)
+        cache.put("analysis", qkey, {"concept_key": ckey})
+    return out

@@ -73,7 +73,8 @@ def run(query: str, categories: list[dict], classifications: list[dict] | None =
          confident/ambiguous/not_match path counts), titles_found (every item
          considered -- confident-filter items plus every reranked ambiguous item, each
          tagged is_match), titles_found_count, match_count, latency_s (per stage +
-         total), usage (LLM token/cost accounting for this run); also saved to
+         total), usage (LLM token/cost accounting for this run), degraded_reasons (empty
+         when every stage ran; otherwise why the result is partial); also saved to
          OUTPUT_DIR/structured__{query}.json
     """
     llm_client.reset_usage()
@@ -110,8 +111,18 @@ def run(query: str, categories: list[dict], classifications: list[dict] | None =
 
     titles_found = confident_titles + ambiguous_titles
     candidate_count = sum(t["is_match"] for t in titles_found)
+
+    # Each stage degrades on its own instead of failing the request; every reason is
+    # returned so the caller can label the result and keep it out of the cache.
+    degraded_reasons = []
+    if any(c["partial_failure"] for c in classifications):
+        degraded_reasons.append("some category paths could not be checked")
     if title_filter.TITLE_FILTER:
-        titles_found = title_filter.apply(query, titles_found)
+        try:
+            titles_found = title_filter.apply(query, titles_found)
+        except Exception as e:
+            print(f"title filter FAILED ({e!r}) -- returning unfiltered matches, labelled", flush=True)
+            degraded_reasons.append("product titles were not checked, so lookalike products may be included")
     t5 = time.perf_counter()
     match_count = sum(t["is_match"] for t in titles_found)
 
@@ -126,9 +137,12 @@ def run(query: str, categories: list[dict], classifications: list[dict] | None =
                 "ambiguous_match_count": len(c["ambiguous_match"]),
                 "not_match_count": len(c["not_match"]),
                 "partial_failure": c["partial_failure"],
+                "failed_batches": c["failed_batches"],
+                "total_batches": c["total_batches"],
             }
             for c in classifications
         ],
+        "degraded_reasons": degraded_reasons,
         "titles_found_count": len(titles_found),
         "candidate_count": candidate_count,
         "title_filter": ({"cutoff": title_filter.TITLE_FILTER_CUTOFF} if title_filter.TITLE_FILTER else None),

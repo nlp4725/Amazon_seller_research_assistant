@@ -265,6 +265,40 @@ resource "google_storage_bucket_iam_member" "compute_data_reader" {
   member = "serviceAccount:${data.google_project.project.number}-compute@developer.gserviceaccount.com"
 }
 
+# ── Result cache (Firestore) ─────────────────────────────────────────────────
+# Repeat searches are served from Firestore instead of re-running retrieval and Haiku
+# (src/shared/result_cache.py). Must be the "(default)" database: Firestore's free tier
+# (1 GiB stored, 50k reads + 20k writes a day) only applies to it.
+resource "google_project_service" "firestore" {
+  service            = "firestore.googleapis.com"
+  disable_on_destroy = false
+}
+
+resource "google_firestore_database" "cache" {
+  name        = "(default)"
+  location_id = var.region
+  type        = "FIRESTORE_NATIVE"
+  depends_on  = [google_project_service.firestore]
+}
+
+# The API runs as the Compute SA.
+resource "google_project_iam_member" "compute_firestore_user" {
+  project = var.project_id
+  role    = "roles/datastore.user"
+  member  = "serviceAccount:${data.google_project.project.number}-compute@developer.gserviceaccount.com"
+}
+
+# Garbage collection, not freshness: keys already change on every data rebuild, so stale
+# entries are never read. TTL just deletes those unreachable entries (expires_at is set
+# TTL_DAYS after each write; Firestore removes them within ~24h of expiring).
+resource "google_firestore_field" "cache_ttl" {
+  for_each   = toset(["analysis", "prose"])
+  database   = google_firestore_database.cache.name
+  collection = each.key
+  field      = "expires_at"
+  ttl_config {}
+}
+
 # Cloud Run services are created and updated by cloudbuild.yaml — not managed here.
 # Terraform can't create them before images exist; Cloud Build deploys both services
 # as part of every build: seller-assistant (frontend) and seller-assistant-api (backend).

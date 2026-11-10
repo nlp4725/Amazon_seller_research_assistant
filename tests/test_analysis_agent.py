@@ -94,7 +94,7 @@ def test_get_product_subset_simple_mode_calls_main_1_with_categories(monkeypatch
     assert captured["query"] == "dog fountain"
     assert captured["categories"] == PET_SUPPLIES
     assert captured["hydrated_asins"] == ["B1", "B3"]  # only is_match=True items get hydrated
-    assert meta == {"mode": "simple", "match_count": 2, "titles_found_count": 3}
+    assert meta == {"mode": "simple", "match_count": 2, "titles_found_count": 3, "degraded_reasons": []}
     assert len(sub_df) == 2
 
 
@@ -294,7 +294,7 @@ class _FakeHaiku:
         self.text, self.calls = text, []
         self.messages = self
 
-    def create(self, **kwargs):
+    async def create(self, **kwargs):
         self.calls.append(kwargs)
         block = type("Block", (), {"text": self.text})()
         return type("Resp", (), {"content": [block]})()
